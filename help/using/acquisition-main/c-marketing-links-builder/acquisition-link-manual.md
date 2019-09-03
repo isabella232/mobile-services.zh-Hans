@@ -8,7 +8,7 @@ title: 手动创建客户获取链接
 topic: 量度
 uuid: d7709203-f793-4982-ada-9c3 c914 aca2 b
 translation-type: tm+mt
-source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
+source-git-commit: 54e3b2d673356a616987537d20758bef8b044db4
 
 ---
 
@@ -44,7 +44,7 @@ source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
 
 * `{mobile-services-app-hash}` 与配置 `acquisition:appid ` 文件中的应用程序标识符相匹配。
 
-   You can locate `{mobile-services-app-has}` in the Manage App Settings page under Acquisition SDK Options in the Tracking ID field.
+   You can locate `{mobile-services-app-hash}` in the Manage App Settings page under Acquisition SDK Options in the Tracking ID field.
 
    ![](assets/tracking-id.png)
 
