@@ -41,6 +41,7 @@ source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
 
    * `INTERNET`
    * `ACCESS_NETWORK_STATE`
+
    ```java
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
