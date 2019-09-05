@@ -7,7 +7,7 @@ title: iOS的目标方法
 topic: 开发人员和实施
 uuid: 692bcda1-02ba-4902-bd65-15888adf1952
 translation-type: tm+mt
-source-git-commit: df4ea2c4002611c72009cf69598cbbb74b5c15c4
+source-git-commit: 8dc075603544aaab7fdedb1ff10a12f7fa7e21f5
 
 ---
 
@@ -20,7 +20,7 @@ SDK目前支持多个Adobe Experience Cloud解决方案，包括Analytics、Targ
 
 >[!TIP]
 >
->生命周期量度将作为参数发送至每个 mbox 负载。有关更多信息，请参阅[生命周期量度](/help/ios/metrics.md)。
+>生命周期量度将作为参数发送至每个 mbox 负载。有关更多信息，请参阅[生命周期量度](/help/ios/metrics.md)。如果您在 `didFinishLaunching` 委托方法中发送Target请求，则在Target实施代码之前添加或 `[ADBMobile trackAction:data:]``[ADBMobile trackState:data:]` 调用。这样，Target请求将包含完整的生命周期数据。
 
 ## 类引用：AdBtargetLocationRequest
 
