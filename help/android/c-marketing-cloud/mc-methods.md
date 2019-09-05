@@ -8,7 +8,7 @@ title: Adobe Experience Platform Identity Service方法
 topic: 开发人员和实施
 uuid: c5107a7e-273b-4f71-8738-4c603479b24c
 translation-type: tm+mt
-source-git-commit: a54a969bb6abedfeb0fc20276d260664b68c1d66
+source-git-commit: 8fc515a6e89044b9dac98b3f207c5f43b658a2ec
 
 ---
 
@@ -25,14 +25,14 @@ Methods are prefixed according to the solution. For example, Experience Cloud ID
 
    将 Adobe 访客数据附加到 URL 字符串以用于 Adobe JavaScript 库。您必须具有 Mobile SDK 4.12 及更高版本才能使用此方法。有关更多信息，请参阅[附加访客 ID 辅助函数](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-appendvisitorid.html)。
 
-   >[！重要事项]
+   >[!IMPORTANT]
    >
    >此方法可能会导致阻止网络调用。请不要在时间敏感的线程中调用此方法。
 
    * 下面是这种方法对应的语法：
 
       ```java
-      URL java.lang.String  
+      public static String appendToURL(final String URL) 
       ```
 
       将在其中附加访客信息的必需 URL 字符串。
