@@ -2,12 +2,12 @@
 description: 适用于 Experience Cloud 解决方案的 iOS SDK 4.x 允许您测量本机 Apple iPhone 和 iPad 应用程序，在您的应用程序内提供目标内容，以及通过 Audience Manager 收集并利用受众数据。
 seo-description: 适用于 Experience Cloud 解决方案的 iOS SDK 4.x 允许您测量本机 Apple iPhone 和 iPad 应用程序，在您的应用程序内提供目标内容，以及通过 Audience Manager 收集并利用受众数据。
 seo-title: 适用于 Experience Cloud 解决方案的 iOS SDK 4.x
-solution: Marketing Cloud，Analytics
+solution: Marketing Cloud,Analytics
 title: 适用于 Experience Cloud 解决方案的 iOS SDK 4.x
 topic: 开发人员和实施
-uuid: 8b374Cee-1432-460b-aac2-70623dd80 a04
+uuid: 8b374cee-1432-460b-aac2-70623dd80a04
 translation-type: tm+mt
-source-git-commit: df4ea2c4002611c72009cf69598cbbb74b5c15c4
+source-git-commit: 1070450065776fdb7d13e9b21ce62ceeee55b80e
 
 ---
 
@@ -18,7 +18,11 @@ source-git-commit: df4ea2c4002611c72009cf69598cbbb74b5c15c4
 
 >[!IMPORTANT]
 >
->需要Adobe Analytics Mobile Marketing Add-on SKU才能使Mobile Services能够访问移动获取、深层链接、地理位置和移动消息功能。有关更多信息，请与您的Adobe CSM联系。
+>需要Adobe Analytics Mobile Marketing Add-on SKU,Mobile services才能访问移动客户获取、深层链接、地理位置和移动消息传递功能。 有关详细信息，请与您的Adobe CSM联系。
+
+>[!IMPORTANT]
+>
+>Adobe Experience Platform Mobile SDK现在支持 [iOS 13和Xcode 11][https://developer.apple.com/ios/]。 要确保无缝兼容，请使 [用最新版Experience Platform Mobile SDK扩展](https://app.gitbook.com/@aep-sdks/s/docs/resources/frequently-asked-questions/current-sdk-versions)。
 
 ## 新的 Adobe Experience Cloud SDK 发行版本
 
@@ -41,13 +45,13 @@ source-git-commit: df4ea2c4002611c72009cf69598cbbb74b5c15c4
 
 * 在此 SDK 的版本 4.2 及更高版本中，现在使用 HTTP POST 发送所有点击。
 
-   这不会影响收集或报告的数据，但您需要使用数据包分析器来支持检查POST数据以查看点击次数。
+   这对收集或报告的数据没有影响，但您需要使用支持检查POST数据的数据包分析器来查看点击量。
 
 * If you are upgrading from a previous version (2.x or 3.x), see the [4.x Migration Guide](/help/ios/getting-started/migration-v3.md).
 
 ## Adobe Mobile 用户文档 {#section_7583FD5FDED143619048E9744A3F2D21}
 
-Adobe Mobile Services 提供了新的用户界面，以整合 Adobe Experience Cloud 中针对移动设备应用程序的移动营销功能。最初，Mobile服务可无缝集成Adobe Analytics、Adobe Audience Manager和Adobe Target解决方案以及Adobe Experience Platform Identity Service中的应用分析和定位功能。
+Adobe Mobile Services 提供了新的用户界面，以整合 Adobe Experience Cloud 中针对移动设备应用程序的移动营销功能。最初，移动服务提供了来自Adobe Analytics、Adobe Audience manager和Adobe Target解决方案以及Adobe Experience Platform Identity service的应用程序分析和定位功能的无缝集成。
 
 要了解有关 Mobile Services 用户界面的更多信息并阅读用户文档，请参阅 [Adobe Mobile Services](/help/using/home.md)。
 
