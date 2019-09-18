@@ -2,12 +2,12 @@
 description: Adobe SDK 利用 Apple 的搜索广告应用程序归因 API，让开发人员和营销人员能够跟踪源自 Apple App Store 中搜索广告促销活动的应用程序下载，并分析这些应用程序下载的归因。
 seo-description: Adobe SDK 利用 Apple 的搜索广告应用程序归因 API，让开发人员和营销人员能够跟踪源自 Apple App Store 中搜索广告促销活动的应用程序下载，并分析这些应用程序下载的归因。
 seo-title: Apple 搜索广告
-solution: Marketing Cloud，Analytics
+solution: Marketing Cloud,Analytics
 title: Apple 搜索广告
 topic: 开发人员和实施
-uuid: 790080e8-067e-4bfd-a169-0027db4 fdff3
+uuid: 790080e8-067e-4bfd-a169-0027db4fdf3
 translation-type: tm+mt
-source-git-commit: 9c6923d14d1a5f30e5873299def61b0734e52429
+source-git-commit: ebcc04ab3e80aafb9d9ec2e1fbc809c743554cb7
 
 ---
 
@@ -27,13 +27,13 @@ Adobe SDK 利用 Apple 的搜索广告应用程序归因 API，让开发人员�
 
 >[!TIP]
 >
->要实施Apple Ads，您必须具有iOS SDK版本4.13.2或更高版本。
+>要实施Apple Ads，您必须拥有iOS SDK版本4.13.2或更高版本。
 
 要对您的应用程序启用搜索广告归因，请执行以下操作：
 
 1. 实施 Adobe SDK 版本 4.13.2 或更高版本。
 
-   有关更多信息，请参阅[核心实施和生命周期](/help/ios/getting-started/dev-qs.md)。
+   有关更多信息，请参阅 [Core implementation and lifecycle](/help/ios/getting-started/dev-qs.md).
 
 1. 将 iAd 框架添加到应用程序的 Xcode 项目文件中。
 
@@ -43,11 +43,10 @@ Adobe SDK 利用 Apple 的搜索广告应用程序归因 API，让开发人员�
 
    If attribution = `true`, all of the `iad-*` fields will be included in the lifecycle hit.
 
-   此外，以下值将从“`iad`”词典映射到我们典型的客户获取上下文数据字段：
+   In addition, the following values will be mapped from the `"iad"` dictionary to our typical acquisition context data fields:
 
-   * " `iad-campaign-id`" --&gt; " `a.referrer.campaign.trackingcode`"
-   * " `iad-campaign-name`" --&gt;" `a.referrer.campaign.name``"
-   * " `iad-adgroup-id`" --&gt; " `a.referrer.campaign.content`"
-   * " `iad-keyword`" --&gt; " `a.referrer.campaign.term`"
-   此映射将使这些值可用在我们的标准报告中。
-
+   * `"iad-campaign-id"` --&gt; `"a.referrer.campaign.trackingcode"`
+   * `"iad-campaign-name"` --&gt; `"a.referrer.campaign.name"`
+   * `"iad-adgroup-id"` --&gt; `"a.referrer.campaign.content"`
+   * `"iad-keyword"` --&gt; `"a.referrer.campaign.term"`
+   此映射确保这些值在我们的标准报告中可用。
