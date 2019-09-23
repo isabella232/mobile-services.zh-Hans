@@ -7,7 +7,7 @@ title: 适用于 Experience Cloud 解决方案的 iOS SDK 4.x
 topic: 开发人员和实施
 uuid: 8b374cee-1432-460b-aac2-70623dd80a04
 translation-type: tm+mt
-source-git-commit: 0f6eec995626f4c93f56d59b682083bd0428d9e1
+source-git-commit: a16fe85f44d2ce852e806b2cc41fb5d40952ad6d
 
 ---
 
@@ -18,11 +18,11 @@ source-git-commit: 0f6eec995626f4c93f56d59b682083bd0428d9e1
 
 >[!IMPORTANT]
 >
->The Adobe Analytics Mobile Marketing Add-on SKU is required to enable Mobile Services access to mobile acquisition, deep linking, geolocation, and mobile messaging capabilities. 有关详细信息，请与您的Adobe CSM联系。
+>需要Adobe Analytics Mobile Marketing Add-on SKU,Mobile services才能访问移动客户获取、深层链接、地理位置和移动消息传递功能。 For more information, contact your Adobe CSM.
 
 >[!IMPORTANT]
 >
->The iOS SDK 4.x for Experience Cloud Solutions is now supports iOS 13 and Xcode 11. [][https://developer.apple.com/ios/]To ensure seamless compatibility, use the latest versions of the 4.x iOS SDKs. For more information about the latest version, see the [release notes](/help/ios/rel-notes.md).
+>适用于Experience cloud解决方案的iOS SDK 4.x现在支持 [iOS 13和Xcode 11](https://developer.apple.com/ios/)。 要确保无缝兼容，请使用最新版本的4.x iOS SDK。 有关最新版本的详细信息，请参阅 [发行说明](/help/ios/rel-notes.md)。
 
 ## 新的 Adobe Experience Cloud SDK 发行版本
 
