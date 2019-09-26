@@ -1,14 +1,14 @@
 ---
 description: 适用于 Experience Cloud 解决方案的 Android SDK 4.x 允许您测量本机 Android 应用程序，在您的应用程序中提供目标内容，以及通过受众管理收集并利用受众数据。
-keywords: android；库；移动；sdk
+keywords: android;library;mobile;sdk
 seo-description: 适用于 Experience Cloud 解决方案的 Android SDK 4.x 允许您测量本机 Android 应用程序，在您的应用程序中提供目标内容，以及通过受众管理收集并利用受众数据。
 seo-title: 适用于 Experience Cloud 解决方案的 Android SDK 4.x
-solution: Marketing Cloud，Analytics
+solution: Marketing Cloud,Analytics
 title: 适用于 Experience Cloud 解决方案的 Android SDK 4.x
 topic: 开发人员和实施
-uuid: 56f1ff41-0365-41dd-bdde-245c823 dff07
+uuid: 56f1ff41-0365-41dd-bdde-245c823dff07
 translation-type: tm+mt
-source-git-commit: 3b744229b3fc288363be74c3c4adcd71ecc4fad4
+source-git-commit: b690ec677cf5aedfb2673b707f82716af1851124
 
 ---
 
@@ -17,28 +17,22 @@ source-git-commit: 3b744229b3fc288363be74c3c4adcd71ecc4fad4
 
 适用于 Experience Cloud 解决方案的 Android SDK 4.x 允许您测量本机 Android 应用程序，在您的应用程序中提供目标内容，以及通过受众管理收集并利用受众数据。
 
->[!IMPORTANT]
->
->需要Adobe Analytics Mobile Marketing Add-on SKU才能使Mobile Services能够访问移动获取、深层链接、地理位置和移动消息功能。有关更多信息，请与您的Adobe CSM联系。
-
-## 新的 Adobe Experience Cloud SDK 发行版本
+## New Adobe Experience Platform Mobile SDK Release
 
 查找与 Adobe Experience Platform Mobile SDK 相关的信息和文档？单击[此处](https://aep-sdks.gitbook.io/docs/)可获取最新的文档。
 
->[!IMPORTANT]
->
->在 2018 年 9 月，我们发布了一个新的 SDK 主要版本。这些新的 Adobe Experience Platform Mobile SDK 可通过 [Experience Platform Launch](https://www.adobe.com/experience-platform/launch.html) 进行配置。
+在 2018 年 9 月，我们发布了一个新的 SDK 主要版本。这些新的 Adobe Experience Platform Mobile SDK 可通过 [Experience Platform Launch](https://www.adobe.com/experience-platform/launch.html) 进行配置。
 
-* 要开始配置，请转到 [Launch](https://launch.adobe.com/)。
+* To get started, go to Adobe Experience Platform Launch.
 * 要查看 Experience Platform SDK 存储库中的内容，请转到 [Github：Adobe Experience Platform SDK](https://github.com/Adobe-Marketing-Cloud/acp-sdks)。
 
 >[!IMPORTANT]
 >
-> If you are using the Adobe Experience Platform Mobile SDKs with Adobe Launch, you **must** also install the Adobe Analytics Mobile Services extension to use Adobe Mobile Services features such as in-App messaging, push notifications or Acquisition links. 有关更多信息，请参阅 [Adobe Analytics - Mobile Services](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-analytics-mobile-services)。
+>The Adobe Analytics Mobile Marketing Add-on SKU is required to enable Mobile Services access to mobile acquisition, deep linking, geolocation, and mobile messaging capabilities. For more information, contact your Adobe CSM.
 
 >[!IMPORTANT]
 >
->虽然您可以在UI中配置功能，但直到下载生成的配置文件并将此文件添加到SDK，这些功能才会起作用。有关下载和配置SDK的信息，请参阅 [核心实施和生命周期](/help/android/getting-started/dev-qs.md)。
+>Although you can configure features in the UI, these features will not work until you download the generated configuration file and add this file to the SDK. 有关下载和配置SDK的信息，请参阅核 [心实施和生命周期](/help/android/getting-started/dev-qs.md)。
 
 SDK 支持以下 Android 版本：
 
@@ -49,7 +43,7 @@ SDK 支持以下 Android 版本：
 
 * 在版本 4.2 及更高版本中，现在使用 HTTP POST 发送所有点击。
 
-   这不会影响收集或报告的数据，但您需要使用数据包分析器来支持检查POST数据以查看点击次数。
+   This has no impact on the data that is collected or reported, but you need to use a packet analyzer that supports inspecting POST data to view hits.
 
 * If you are upgrading from a previous version, see the [4.x Migration Guide](/help/android/getting-started/migration-v3.md).
 
