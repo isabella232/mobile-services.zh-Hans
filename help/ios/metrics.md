@@ -2,32 +2,28 @@
 description: 下表列出了实施生命周期后可由移动设备库自动测量的量度和维度。
 seo-description: 下表列出了实施生命周期后可由移动设备库自动测量的量度和维度。
 seo-title: 生命周期量度
-solution: Marketing Cloud，Analytics
+solution: Marketing Cloud,Analytics
 title: 生命周期量度
 topic: 开发人员和实施
-uuid: b795e383-d59 b-4a3 c-9e14-ffe8 fb58412 c
+uuid: b795e383-d59b-4a3c-9e14-ffe8fb58412c
 translation-type: tm+mt
-source-git-commit: df4ea2c4002611c72009cf69598cbbb74b5c15c4
+source-git-commit: a6608bf4d36a6fb6aca00f50cc058c09dbd931b1
 
 ---
 
 
 # Lifecycle metrics {#lifecycle-metrics}
 
-以下是实施生命周期后可由移动库自动测量的指标和维度。
+以下是在实施生命周期后，移动库可以自动测量的指标和维度。
 
-## 新的 Adobe Experience Cloud SDK 发行版本
+## 新版Adobe Experience Platform Mobile SDK
 
 查找与 Adobe Experience Platform Mobile SDK 相关的信息和文档？单击[此处](https://aep-sdks.gitbook.io/docs/)可获取最新的文档。
 
 在 2018 年 9 月，我们发布了一个新的 SDK 主要版本。这些新的 Adobe Experience Platform Mobile SDK 可通过 [Experience Platform Launch](https://www.adobe.com/experience-platform/launch.html) 进行配置。
 
-* 要开始配置，请转到 Launch。
+* To get started, go to [Experience Platform Launch](https://launch.adobe.com/).
 * 要查看 Experience Platform SDK 存储库中的内容，请转到 [Github：Adobe Experience Platform SDK](https://github.com/Adobe-Marketing-Cloud/acp-sdks)。
-
->[!IMPORTANT]
->
-> If you are using the Adobe Experience Platform Mobile SDKs with Adobe Launch, you **must** also install the Adobe Analytics Mobile Services extension to use Adobe Mobile Services features such as in-App messaging, push notifications or Acquisition links. 有关更多信息，请参阅 [Adobe Analytics - Mobile Services](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-analytics-mobile-services)。
 
 
 ## Lifecycle metrics and dimensions {#section_78F036C4296F4BA3A47C2044F79C86C1}
@@ -38,7 +34,7 @@ source-git-commit: df4ea2c4002611c72009cf69598cbbb74b5c15c4
 
 >[!TIP]
 >
->描述中提供例外情况。
+>说明中提供了例外。
 
 ### 量度
 
@@ -93,13 +89,13 @@ source-git-commit: df4ea2c4002611c72009cf69598cbbb74b5c15c4
 
 >[!IMPORTANT]
 >
-> *每日参与用户* 和 *每月参与用户* 指标不会自动存储在Analytics指标中。您必须创建一个处理规则，以设置自定义事件以捕获这些指标。
+> “每 *日参与的用户* ”和“ *每月参与的用户* ”量度不会自动存储在“分析”量度中。 您必须创建一个处理规则，以设置自定义事件以捕获这些度量。
 
-### 维度
+#### 维度
 
 * **安装日期**
 
-   安装后首次启动的日期。日期格式 `MM/DD/YYYY`为。
+   安装后首次启动的日期。日期格式为 `MM/DD/YYYY`。
 
    * Analytics 上下文数据/Target: `a.InstallDate`
    * 受众管理: `c_a_InstallDate`
@@ -189,7 +185,7 @@ source-git-commit: df4ea2c4002611c72009cf69598cbbb74b5c15c4
    * 受众管理: `c_a_Resolution`
    >[!IMPORTANT]
    >
-   >上次升级后的 *天数*、 *上次升级*&#x200B;后的启动项以及 *运营商名称* 维度不会自动存储在Analytics变量中。您必须创建处理规则才能将值复制到Analytics变量以进行报告。
+   >上次 *升级后的天数*、上次 *升级后的启动次数*** ，以及运营商名称维度不会自动存储在Analytics变量中。 You must create a processing rule to copy the values to an Analytics variable for reporting.
 
 
 ## Additional mobile metrics and dimensions {#section_0B32BBF9CA734103BEDB5E755FFE5B31}
@@ -254,11 +250,11 @@ source-git-commit: df4ea2c4002611c72009cf69598cbbb74b5c15c4
 
    Populated by `trackLocation` methods.
 
-   * Analytics Context Data/Target参数：
+   * Analytics Context Data/Target parameter:
 
       * `a.loc.lat.c`
       * `a.loc.lon.c`
-   * 受众管理特征：
+   * Audience Management trait:
 
       * `c_a_loc_lat_c`
       * `c_a_loc_lon_c`
