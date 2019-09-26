@@ -2,12 +2,12 @@
 description: 此信息可帮助您使用 tvOS 实施 Apple TV。
 seo-description: 此信息可帮助您使用 tvOS 实施 Apple TV。
 seo-title: 使用 tvOS 实施 Apple TV
-solution: Marketing Cloud，Analytics
+solution: Marketing Cloud,Analytics
 title: 使用 tvOS 实施 Apple TV
 topic: 开发人员和实施
-uuid: d1571ea2-a5 de-4b96-a527-72abbf51 fab8
+uuid: d1571ea2-a5de-4b96-a527-72abbf51fab8
 translation-type: tm+mt
-source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
+source-git-commit: 718e336b9002fe3d5282697d4302d12a89297181
 
 ---
 
@@ -16,30 +16,28 @@ source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
 
 此信息可帮助您使用 tvOS 实施 Apple TV。
 
-## 新的 Adobe Experience Cloud SDK 发行版本
+## New Adobe Experience Platform Mobile SDK Release
 
 查找与 Adobe Experience Platform Mobile SDK 相关的信息和文档？单击[此处](https://aep-sdks.gitbook.io/docs/)可获取最新的文档。
 
 在 2018 年 9 月，我们发布了一个新的 SDK 主要版本。这些新的 Adobe Experience Platform Mobile SDK 可通过 [Experience Platform Launch](https://www.adobe.com/experience-platform/launch.html) 进行配置。
 
-* 要开始配置，请转到 Launch。
+* 要开始使用，请转到Adobe Experience Platform Launch。
 * 要查看 Experience Platform SDK 存储库中的内容，请转到 [Github：Adobe Experience Platform SDK](https://github.com/Adobe-Marketing-Cloud/acp-sdks)。
 
->[!IMPORTANT]
->
-> If you are using the Adobe Experience Platform Mobile SDKs with Adobe Launch, you **must** also install the Adobe Analytics Mobile Services extension to use Adobe Mobile Services features such as in-App messaging, push notifications or Acquisition links. 有关更多信息，请参阅 [Adobe Analytics - Mobile Services](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-analytics-mobile-services)。
+## 概述
 
 通过 Apple TV，您现在能够创建可在本机 tvOS 环境中运行的应用程序。您可以使用 iOS 中的几种框架创建本机应用程序，也可以使用 XML 模板和 JavaScript 创建应用程序。
 
 >[!TIP]
 >
->从 `AdobeMobileLibrary` 4.7.0版开始提供TvOS支持。
+>从4.7.0版开始提供 `AdobeMobileLibrary` tvOS支持。
 
 ## 入门指南 {#section_CAB40A5B5FC745068C8A5DF8F9AB6199}
 
 >[!TIP]
 >
->我们假定您的项目有一个目标，即面向TvOS的Apple TV应用程序。有关更多信息，请参阅 [tvOS](https://developer.apple.com/tvos/documentation/)。
+>我们假定您的项目的目标是瞄准tvOS的Apple TV应用程序。 有关更多信息，请参阅 [tvOS](https://developer.apple.com/tvos/documentation/)。
 
 ## Configure a native app for tvOS {#section_5095F19B3C4545F68E8C1E37A7E303AE}
 
