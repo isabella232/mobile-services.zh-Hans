@@ -1,38 +1,36 @@
 ---
 description: 以下是在实施生命周期后可由移动设备库自动测量的量度和维度，以及生命周期数据疑难解答链接。
-keywords: android；库；移动；sdk
+keywords: android;library;mobile;sdk
 seo-description: 以下是在实施生命周期后可由移动设备库自动测量的量度和维度，以及生命周期数据疑难解答链接。
 seo-title: 生命周期量度
-solution: Marketing Cloud，Analytics
+solution: Marketing Cloud,Analytics
 title: 生命周期量度
 topic: 开发人员和实施
-uuid: a8f ebac-be3 b-4948-82bb-105d46 cfff6 d
+uuid: a8f3ebac-be3b-4948-82bb-105d46cfff6d
 translation-type: tm+mt
-source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
+source-git-commit: b690ec677cf5aedfb2673b707f82716af1851124
 
 ---
 
 
 # Lifecycle metrics{#lifecycle-metrics}
 
-本节提供了有关移动库在实现生命周期后可自动测量的指标和维度的信息，以及用于故障周期数据故障诊断的链接。有关故障排除的详细信息，请转到生命周期数据 [疑难解答](https://helpx.adobe.com/analytics/kb/troubleshoot-lifecycle-data.html)。
+本节提供有关在实施生命周期后由移动库自动测量的指标和维度的信息，以及生命周期数据疑难解答的链接。 For more information about troubleshooting, go to [Troubleshoot Lifecycle data](https://helpx.adobe.com/analytics/kb/troubleshoot-lifecycle-data.html).
 
-## 新的 Adobe Experience Cloud SDK 发行版本
+## New Adobe Experience Platform Mobile SDK Release
 
 查找与 Adobe Experience Platform Mobile SDK 相关的信息和文档？单击[此处](https://aep-sdks.gitbook.io/docs/)可获取最新的文档。
 
->[!IMPORTANT]
->
->在 2018 年 9 月，我们发布了一个新的 SDK 主要版本。这些新的 Adobe Experience Platform Mobile SDK 可通过 [Experience Platform Launch](https://www.adobe.com/experience-platform/launch.html) 进行配置。
+在 2018 年 9 月，我们发布了一个新的 SDK 主要版本。这些新的 Adobe Experience Platform Mobile SDK 可通过 [Experience Platform Launch](https://www.adobe.com/experience-platform/launch.html) 进行配置。
 
-* 要开始配置，请转到 [Launch](https://launch.adobe.com/)。
+* To get started, go to Adobe Experience Platform Launch.
 * 要查看 Experience Platform SDK 存储库中的内容，请转到 [Github：Adobe Experience Platform SDK](https://github.com/Adobe-Marketing-Cloud/acp-sdks)。
 
 ## Lifecycle metrics and dimensions {#section_78F036C4296F4BA3A47C2044F79C86C1}
 
 配置后，生命周期量度会在上下文数据参数中发送到 Analytics，随每个 mbox 调用在参数中发送到 Target，以及作为信号发送到受众管理。Analytics 和 Target 使用相同的格式，而受众管理则对每个量度使用不同的前缀。
 
-对于Analytics，使用指标或维度自动捕获和报告随每个生命周期跟踪调用一起发送的上下文数据，并且记录例外情况。
+对于Analytics，使用度量或维度自动捕获和报告与每个生命周期跟踪调用一起发送的上下文数据，并记录异常情况。
 
 ### 量度
 
@@ -56,7 +54,7 @@ source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
 
    >[!IMPORTANT]
    >
-   >此量度不会自动存储在Analytics指标中。您必须创建一个处理规则，以设置一个自定义事件用来捕获此量度。
+   >此量度不会自动存储在Analytics量度中。 您必须创建一个处理规则，以设置一个自定义事件用来捕获此量度。
 
    * Analytics 上下文数据/Target 参数: `a.DailyEngUserEvent`
    * Audience Manager 信号: `c_a_DailyEngUserEvent`
@@ -67,7 +65,7 @@ source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
 
    >[!IMPORTANT]
    >
-   >此量度不会自动存储在Analytics指标中。您必须创建一个处理规则，以设置一个自定义事件用来捕获此量度。
+   >此量度不会自动存储在Analytics量度中。 您必须创建一个处理规则，以设置一个自定义事件用来捕获此量度。
 
    * Analytics 上下文数据/Target 参数: `a.MonthlyEngUserEvent`
    * Audience Manager 信号: `c_a_MonthlyEngUserEvent`
@@ -78,7 +76,7 @@ source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
 
    >[!IMPORTANT]
    >
-   >此量度不会自动存储在Analytics指标中。您必须创建一个处理规则，以设置一个自定义事件用来捕获此量度。
+   >此量度不会自动存储在Analytics量度中。 您必须创建一个处理规则，以设置一个自定义事件用来捕获此量度。
 
    * Analytics 上下文数据/Target 参数: `a.LaunchEvent`
    * Audience Manager 信号: `c_a_LaunchEvent`
@@ -162,7 +160,7 @@ source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
 
    >[!IMPORTANT]
    >
-   >此量度不会自动存储在Analytics变量中。您必须创建一个处理规则以将此值复制到 Analytics 变量中以便进行报告。
+   >此量度不会自动存储在Analytics变量中。 您必须创建一个处理规则以将此值复制到 Analytics 变量中以便进行报告。
 
    * Analytics 上下文数据/Target 参数: `a.DaysSinceLastUpgrade`
    * Audience Manager: `c_a_DaysSinceLastUpgrade`
@@ -173,7 +171,7 @@ source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
 
    >[!IMPORTANT]
    >
-   >此量度不会自动存储在Analytics变量中。您必须创建一个处理规则以将此值复制到 Analytics 变量中以便进行报告。
+   >此量度不会自动存储在Analytics变量中。 您必须创建一个处理规则以将此值复制到 Analytics 变量中以便进行报告。
 
    * Analytics 上下文数据/Target 参数: `a.LaunchesSinceUpgrade`
    * Audience Manager: `c_a_LaunchesSinceUpgrade`
@@ -191,7 +189,7 @@ source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
 
    >[!IMPORTANT]
    >
-   >此量度不会自动存储在Analytics变量中。您必须创建一个处理规则以将此值复制到 Analytics 变量中以便进行报告。
+   >此量度不会自动存储在Analytics变量中。 您必须创建一个处理规则以将此值复制到 Analytics 变量中以便进行报告。
 
    * Analytics 上下文数据/Target 参数: `a.CarrierName`
    * Audience Manager: `c_a_CarrierName`
@@ -214,21 +212,21 @@ source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
    Populated by `trackTimedAction` methods.
 
    * Analytics 上下文数据/Target 参数: `a.action.time.total`
-   * Audience Manager特征： `c_a_action_time_total`
+   * Audience Manager Trait: `c_a_action_time_total`
 
 * **应用程序中的操作时间**
 
    Populated by `trackTimedAction` methods.
 
    * Analytics 上下文数据/Target 参数: `a.action.time.inapp`
-   * Audience Manager特征： `c_a_action_time_inapp`
+   * Audience manager特征： `c_a_action_time_inapp`
 
 * **生命周期值（事件）**
 
    Populated by `trackLifetimeValue` methods.
 
    * Analytics 上下文数据/Target 参数: `a.ltv.amount`
-   * Audience Manager特征： `c_a_ltv_amount`
+   * Audience Manager Trait: `c_a_ltv_amount`
 
 ### 维度
 
@@ -236,11 +234,11 @@ source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
 
    Populated by `trackLocation` methods.
 
-   * Analytics上下文数据/目标参数：
+   * Analytics Context Data/Target Parameters:
 
       * `a.loc.lat.a`
       * `a.loc.lon.a`
-   * Audience Manager特征：
+   * Audience manager特征：
 
       * `c_a_loc_lat_a`
       * `c_a_loc_lon_a`
@@ -250,11 +248,11 @@ source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
 
    由 trackLocation 方法填充。
 
-   * Analytics上下文数据/目标参数：
+   * Analytics上下文数据／目标参数：
 
       * `a.loc.lat.b`
       * `a.loc.lon.b`
-   * Audience Manager特征：
+   * Audience manager特征：
 
       * `c_a_loc_lat_b`
       * `c_a_loc_lon_b`
@@ -264,11 +262,11 @@ source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
 
    由 trackLocation 方法填充。
 
-   * Analytics上下文数据/目标参数：
+   * Analytics上下文数据／目标参数：
 
       * `a.loc.lat.c`
       * `a.loc.lon.c`
-   * Audience Manager特征：
+   * Audience manager特征：
 
       * `c_a_loc_lat_c`
       * `c_a_loc_lon_c`
@@ -279,60 +277,60 @@ source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
    当设备位于定义的 POI 中时，由 trackLocation 方法填充。
 
    * Analytics Context Data/Target Parameters: `a.loc.poi`
-   * Audience Manager特征： `c_a_loc_poi`
+   * Audience manager特征： `c_a_loc_poi`
 
 * **与目标点中心的距离**
 
    当设备位于定义的 POI 中时，由 trackLocation 方法填充。
 
    * Analytics Context Data/Target Parameters: `a.loc.dist`
-   * Audience Manager特征： `c_a_loc_dist`
+   * Audience manager特征： `c_a_loc_dist`
 
 * **生命周期值（转化变量）**
 
    由 trackLifetimeValue 方法填充。
 
    * Analytics Context Data/Target Parameters: `a.ltv.amount`
-   * Audience Manager特征： `c_a_ltv_amount`
+   * Audience manager特征： `c_a_ltv_amount`
 
 * **跟踪代码**
 
    由移动设备应用程序客户获取填充，并由 Adobe Mobile Services 自动生成。
 
    * Analytics Context Data/Target Parameters: `a.referrer.campaign.trackingcode`
-   * Audience Manager特征： `c_a_referrer_campaign_trackingcode`
+   * Audience manager特征： `c_a_referrer_campaign_trackingcode`
 
 * ** Campaign
 
    促销活动的名称，也存储在促销活动变量中。由移动设备应用程序客户获取填充。
 
    * Analytics Context Data/Target Parameters: `a.referrer.campaign.name`
-   * Audience Manager特征： `c_a_referrer_campaign_name`
+   * Audience manager特征： `c_a_referrer_campaign_name`
 
 * **促销活动内容**
 
    显示链接的内容名称或内容 ID。由移动设备应用程序客户获取填充。
 
    * Analytics Context Data/Target Parameters: `a.referrer.campaign.content`
-   * Audience Manager特征： `c_a_referrer_campaign_content`
+   * Audience manager特征： `c_a_referrer_campaign_content`
 
 * **促销活动媒介**
 
    营销媒介，如横幅或电子邮件。由移动设备应用程序客户获取填充。
 
    * Analytics Context Data/Target Parameters: `a.referrer.campaign.medium`
-   * Audience Manager特征： `c_a_referrer_campaign_medium`
+   * Audience manager特征： `c_a_referrer_campaign_medium`
 
 * **促销活动来源**
 
    原始反向链接，如新闻稿或社交媒体网络。由移动设备应用程序客户获取填充。
 
    * Analytics Context Data/Target Parameters: `a.referrer.campaign.source`
-   * Audience Manager特征： `c_a_referrer_campaign_source`
+   * Audience manager特征： `c_a_referrer_campaign_source`
 
 * **促销活动搜索词**
 
    要通过此客户获取跟踪的付费关键词或其他搜索词。由移动设备应用程序客户获取填充。
 
    * Analytics Context Data/Target Parameters: `a.referrer.campaign.term`
-   * Audience Manager特征： `c_a_referrer_campaign_term`
+   * Audience manager特征： `c_a_referrer_campaign_term`
