@@ -2,10 +2,10 @@
 description: Experience Cloud Mobile SDK 为控制器提供了已准备好遵守《通用数据保护条例》(GDPR) 的 API，它允许用户检索本地存储的身份和设置用于数据收集和传输的选择状态标记。
 seo-description: Experience Cloud Mobile SDK 为控制器提供了已准备好遵守《通用数据保护条例》(GDPR) 的 API，它允许用户检索本地存储的身份和设置用于数据收集和传输的选择状态标记。
 seo-title: 隐私和一般数据保护规定概述
-title: 隐私和一般数据保护规定概述
-uuid: 56d6f155-efec-4b3 f-a972-a63155729167
+title: Privacy and General Data Protection Regulation overview
+uuid: 56d6f155-efec-4b3f-a972-a63155729167
 translation-type: tm+mt
-source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
+source-git-commit: 718e336b9002fe3d5282697d4302d12a89297181
 
 ---
 
@@ -14,16 +14,16 @@ source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
 
 Experience Cloud Mobile SDK 为控制器提供了已准备好遵守《通用数据保护条例》(GDPR) 的 API，它允许用户检索本地存储的身份和设置用于数据收集和传输的选择状态标记。
 
-## 新的 Adobe Experience Cloud SDK 发行版本
+## New Adobe Experience Platform Mobile SDK Release
 
 查找与 Adobe Experience Platform Mobile SDK 相关的信息和文档？单击[此处](https://aep-sdks.gitbook.io/docs/)可获取最新的文档。
 
->[!IMPORTANT]
->
->在 2018 年 9 月，我们发布了一个新的 SDK 主要版本。这些新的 Adobe Experience Platform Mobile SDK 可通过 [Experience Platform Launch](https://www.adobe.com/experience-platform/launch.html) 进行配置。
+在 2018 年 9 月，我们发布了一个新的 SDK 主要版本。这些新的 Adobe Experience Platform Mobile SDK 可通过 [Experience Platform Launch](https://www.adobe.com/experience-platform/launch.html) 进行配置。
 
-* 要开始配置，请转到 [Launch](https://launch.adobe.com/)。
+* 要开始使用，请转到Adobe Experience Platform Launch。
 * 要查看 Experience Platform SDK 存储库中的内容，请转到 [Github：Adobe Experience Platform SDK](https://github.com/Adobe-Marketing-Cloud/acp-sdks)。
+
+## 概述
 
 >[!IMPORTANT]
 >
@@ -37,10 +37,10 @@ Experience Cloud Mobile SDK 为控制器提供了已准备好遵守《通用数�
 
 * 要从 SDK 检索数据，并将该数据发送到您的服务器，请使用 `getAllIdentifiersAsync` 方法。
 
-   有关详细信息，请参阅 [检索已存储的标识符](/help/android/c-mob-privacy-gdpr-android/c-mob-gdpr-ret-stored-ids-android.md)。
+   For more information, see Retrieving Stored Identifiers.[](/help/android/c-mob-privacy-gdpr-android/c-mob-gdpr-ret-stored-ids-android.md)
 
 * 要设置选择状态并帮助您处理 GDPR 数据删除请求，请使用以下设置：
 
    * `privacyDefault`
    * `setPrivacyStatus`
-   有关详细信息，请参阅 [设置用户的Opt状态](/help/android/c-mob-privacy-gdpr-android/privacy.md)。
+   有关详细信息，请 [参阅设置用户的选择状态](/help/android/c-mob-privacy-gdpr-android/privacy.md)。
