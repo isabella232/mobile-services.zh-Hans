@@ -2,12 +2,12 @@
 description: 您可以使用 iOS 扩展帮助从 Apple Watch 应用程序 (WatchOS 1)、“今天”小组件、照片编辑小组件以及其他 iOS 扩展应用程序中收集使用情况数据。
 seo-description: 您可以使用 iOS 扩展帮助从 Apple Watch 应用程序 (WatchOS 1)、“今天”小组件、照片编辑小组件以及其他 iOS 扩展应用程序中收集使用情况数据。
 seo-title: iOS 扩展实施
-solution: Marketing Cloud，Analytics
+solution: Marketing Cloud,Analytics
 title: iOS 扩展实施
 topic: 开发人员和实施
-uuid: afc03fe-403e-4643-ada1-30e403 ee238
+uuid: 8afc03fe-403e-4643-ada1-30e403ede238
 translation-type: tm+mt
-source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
+source-git-commit: 718e336b9002fe3d5282697d4302d12a89297181
 
 ---
 
@@ -16,24 +16,20 @@ source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
 
 您可以使用 iOS 扩展帮助从 Apple Watch 应用程序 (WatchOS 1)、“今天”小组件、照片编辑小组件以及其他 iOS 扩展应用程序中收集使用情况数据。
 
-## 新的 Adobe Experience Cloud SDK 发行版本
+## 新版Adobe Experience Platform Mobile SDK
 
 查找与 Adobe Experience Platform Mobile SDK 相关的信息和文档？单击[此处](https://aep-sdks.gitbook.io/docs/)可获取最新的文档。
 
 在 2018 年 9 月，我们发布了一个新的 SDK 主要版本。这些新的 Adobe Experience Platform Mobile SDK 可通过 [Experience Platform Launch](https://www.adobe.com/experience-platform/launch.html) 进行配置。
 
-* 要开始配置，请转到 Launch。
+* 要开始使用，请转到Adobe Experience Platform Launch。
 * 要查看 Experience Platform SDK 存储库中的内容，请转到 [Github：Adobe Experience Platform SDK](https://github.com/Adobe-Marketing-Cloud/acp-sdks)。
-
->[!IMPORTANT]
->
-> If you are using the Adobe Experience Platform Mobile SDKs with Adobe Launch, you **must** also install the Adobe Analytics Mobile Services extension to use Adobe Mobile Services features such as in-App messaging, push notifications or Acquisition links. 有关更多信息，请参阅 [Adobe Analytics - Mobile Services](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-analytics-mobile-services)。
 
 ## Recommendations for using the iOS SDK instead of your wrapper {#section_97577331FD9E4FFBBE05D402C67AEE69}
 
 >[!IMPORTANT]
 >
->我们强烈建议您使用iOS SDK而不是您的包装器。
+>我们强烈建议您使用iOS SDK，而不要使用包装器。
 
 Apple 提供了一组允许 Watch 应用程序与容器应用程序进行通信（方法是向容器应用程序发送请求，然后接收响应）的 API。尽管您可以将跟踪数据作为词典从 Watch 应用程序发送到容器应用程序，然后在容器应用程序中调用任何跟踪方法来发送数据，但是这种解决方案存在局限性。
 
@@ -45,7 +41,7 @@ In most cases when a user is using the Watch app, the containing app is running 
 
 >[!IMPORTANT]
 >
->确保您具有至少以下目标的项目：
+>确保您的项目至少具有以下目标：
 >
 >* 一个用于包含应用程序的目标。
 >* 一个用于扩展的目标。
@@ -53,7 +49,7 @@ In most cases when a user is using the Watch app, the containing app is running 
 
 
 
-如果您正在使用 WatchKit 应用程序，则还应具有第三个目标。有关为Apple Watch开发的详细信息，请参阅 [为Apple Watch](https://developer.apple.com/library/ios/documentation/General/Conceptual/WatchKitProgrammingGuide/index.html#//apple_ref/doc/uid/TP40014969-CH8-SW1)开发。
+如果您正在使用 WatchKit 应用程序，则还应具有第三个目标。有关为Apple Watch进行开发的更多信息，请参 [阅为Apple watch进行开发](https://developer.apple.com/library/ios/documentation/General/Conceptual/WatchKitProgrammingGuide/index.html#//apple_ref/doc/uid/TP40014969-CH8-SW1)。
 
 ## 配置包含的应用程序 {#section_0BAB0842E4C04A62B5E03DFC4BA77851}
 
@@ -78,7 +74,7 @@ In most cases when a user is using the Watch app, the containing app is running 
 
 1. 确认您的应用程序在生成时没有出现意外错误。
 
-## 配置扩展 {#section_28C994B7892340AC8D1F07AF26FF3946}
+## 配置  扩展 {#section_28C994B7892340AC8D1F07AF26FF3946}
 
 1. Ensure that the `ADBMobileConfig.json` file is a member of the extension's target.
 1. 在扩展目标的&#x200B;**[!UICONTROL 生成阶段]**&#x200B;选项卡中，展开&#x200B;**将二进制文件与库关联]部分，然后添加以下库：[!UICONTROL **
