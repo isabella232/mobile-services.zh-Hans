@@ -7,7 +7,7 @@ title: 适用于 Experience Cloud 解决方案的 iOS SDK 4.x
 topic: 开发人员和实施
 uuid: 8b374cee-1432-460b-aac2-70623dd80a04
 translation-type: tm+mt
-source-git-commit: a16fe85f44d2ce852e806b2cc41fb5d40952ad6d
+source-git-commit: 6d92beff55f359d667b399e66bae4cbffa4a1a0a
 
 ---
 
@@ -18,24 +18,20 @@ source-git-commit: a16fe85f44d2ce852e806b2cc41fb5d40952ad6d
 
 >[!IMPORTANT]
 >
->需要Adobe Analytics Mobile Marketing Add-on SKU,Mobile services才能访问移动客户获取、深层链接、地理位置和移动消息传递功能。 For more information, contact your Adobe CSM.
+>The Adobe Analytics Mobile Marketing Add-on SKU is required to enable Mobile Services access to mobile acquisition, deep linking, geolocation, and mobile messaging capabilities. For more information, contact your Adobe CSM.
 
 >[!IMPORTANT]
 >
->适用于Experience cloud解决方案的iOS SDK 4.x现在支持 [iOS 13和Xcode 11](https://developer.apple.com/ios/)。 要确保无缝兼容，请使用最新版本的4.x iOS SDK。 有关最新版本的详细信息，请参阅 [发行说明](/help/ios/rel-notes.md)。
+>The iOS SDK 4.x for Experience Cloud Solutions is now supports iOS 13 and Xcode 11. [](https://developer.apple.com/ios/)To ensure seamless compatibility, use the latest versions of the 4.x iOS SDKs. For more information about the latest version, see the release notes.[](/help/ios/rel-notes.md)
 
-## 新的 Adobe Experience Cloud SDK 发行版本
+## New Adobe Experience Platform Mobile SDK Release
 
 查找与 Adobe Experience Platform Mobile SDK 相关的信息和文档？单击[此处](https://aep-sdks.gitbook.io/docs/)可获取最新的文档。
 
 在 2018 年 9 月，我们发布了一个新的 SDK 主要版本。这些新的 Adobe Experience Platform Mobile SDK 可通过 [Experience Platform Launch](https://www.adobe.com/experience-platform/launch.html) 进行配置。
 
-* 要开始配置，请转到 Launch。
+* To get started, go to Adobe Experience Platform Launch.
 * 要查看 Experience Platform SDK 存储库中的内容，请转到 [Github：Adobe Experience Platform SDK](https://github.com/Adobe-Marketing-Cloud/acp-sdks)。
-
->[!IMPORTANT]
->
-> If you are using the Adobe Experience Platform Mobile SDKs with Adobe Launch, you **must** also install the Adobe Analytics Mobile Services extension to use Adobe Mobile Services features such as in-App messaging, push notifications or Acquisition links. 有关更多信息，请参阅 [Adobe Analytics - Mobile Services](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-analytics-mobile-services)。
 
 请牢记以下信息：
 
