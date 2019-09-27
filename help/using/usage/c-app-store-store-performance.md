@@ -3,10 +3,10 @@ description: 应用商店“概述”报表会为您提供应用商店的量度�
 keywords: mobile
 seo-description: 应用商店“概述”报表会为您提供应用商店的量度信息，包括下载次数、应用程序内购买次数、应用商店平均评分、下载收入、应用程序内收入、按国家/地区划分的下载次数、按应用商店划分的下载次数，以及按名称划分的应用程序内购买次数。
 seo-title: 应用商店概述报表
-solution: Marketing Cloud，Analytics
+solution: Marketing Cloud,Analytics
 title: 应用商店概述报表
 topic: 量度
-uuid: ac066f31-ec4 b-4b67-b839-780c2 cd1574 e
+uuid: ac066f31-ec4b-4b67-b839-780c2cd1574e
 translation-type: tm+mt
 source-git-commit: 3b744229b3fc288363be74c3c4adcd71ecc4fad4
 
@@ -29,11 +29,11 @@ source-git-commit: 3b744229b3fc288363be74c3c4adcd71ecc4fad4
 
 >[!IMPORTANT]
 >
->在Adobe Analytics中，应用商店指标(如下载、排名、收入、评级等)需要与相应供应商集成。`appFigures` 目前提供了一个集成，您需要先从 `appFigures`**购买相应的产品和/或服务，之后**&#x200B;才能启用该集成。有关 Data Connector 集成的更多信息，请参阅 [Adobe Exchange](https://www.adobeexchange.com/experiencecloud.html)。
+>App store metrics, such as downloads, rank, revenue, rating, and so on in Adobe Analytics require a Data Connector integration with an appropriate vendor. `appFigures` 目前提供了一个集成，您需要先从 `appFigures`**购买相应的产品和/或服务，之后**&#x200B;才能启用该集成。有关 Data Connector 集成的更多信息，请参阅 [Adobe Exchange](https://www.adobeexchange.com/experiencecloud.html)。
 
 >[!TIP]
 >
->除了单击右上角的日历图标更改报告的日期范围外，您还可以自定义部分向下钻取报表、添加过滤器和系列(指标)、添加粘性过滤器，以及下载PDF或CSV格式的报告。For more information, see [Customize reports](/help/using/usage/reports-customize/reports-customize.md).
+>In addition to changing the report's date range by clicking the calendar icon in the top right, you can customize some of the drill-down reports, add filters and series (metrics), add sticky filters, and download the report in PDF or CSV format. For more information, see [Customize reports](/help/using/usage/reports-customize/reports-customize.md).
 
 ## 应用商店平均评分 {#section_60D0D21824AE4450BC3E34D7ACA12A7A}
 
