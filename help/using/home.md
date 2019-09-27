@@ -1,10 +1,10 @@
 ---
-description: Adobe Mobile Services技术文档
-seo-description: 本指南概述了Adobe Mobile Services的技术文档和自助帮助，Adobe Mobile Services将移动应用程序功能从Adobe Experience Cloud中整合在一起，使您能够了解和改进用户与移动应用程序的互动。
+description: Adobe Mobile services的技术文档
+seo-description: 本指南概述了Adobe Mobile services的技术文档和自助服务，它集中了Adobe Experience cloud中移动应用程序的移动营销功能，使您能够了解和提高用户对移动应用程序的参与度。
 seo-title: Adobe Mobile Services
-solution: Marketing Cloud、Analytics、Experience Cloud
+solution: Marketing Cloud, Analytics, Experience Cloud
 title: Adobe Mobile Services
-uuid: e86a77c9-4ff1-403f-a5 a1-4afbdc4 e6 f68
+uuid: e86a77c9-4ff1-403f-a5a1-4afbdc4e6f68
 translation-type: tm+mt
 source-git-commit: 20fdbba819f7c182a23a01cd06e1738ad83eba38
 
@@ -13,11 +13,11 @@ source-git-commit: 20fdbba819f7c182a23a01cd06e1738ad83eba38
 
 # Adobe Mobile Services {#adobe-mobile-services}
 
-本指南概述了Adobe Mobile Services的技术文档和自助帮助，Adobe Mobile Services将移动应用程序功能从Adobe Experience Cloud中整合在一起，使您能够了解和改进用户与移动应用程序的互动。
+本指南概述了Adobe Mobile services的技术文档和自助服务，它集中了Adobe Experience cloud中移动应用程序的移动营销功能，使您能够了解和提高用户对移动应用程序的参与度。
 
 >[!IMPORTANT]
 >
->需要Adobe Analytics Mobile Marketing Add-on SKU才能使Mobile Services能够访问移动获取、深层链接、地理位置和移动消息功能。有关更多信息，请与您的Adobe CSM联系。
+>需要Adobe Analytics Mobile Marketing Add-on SKU,Mobile services才能访问移动客户获取、深层链接、地理位置和移动消息传递功能。 有关详细信息，请与您的Adobe CSM联系。
 
 ## 新的 Adobe Experience Cloud SDK 发行版本
 
@@ -34,7 +34,7 @@ source-git-commit: 20fdbba819f7c182a23a01cd06e1738ad83eba38
 
 >[!IMPORTANT]
 >
->虽然您可以在UI中配置功能，但直到下载生成的配置文件并将此文件添加到SDK，这些功能才会起作用。For information about downloading and configuring the SDKs, see the *SDK documentation* section on this page.
+>尽管您可以在UI中配置功能，但是，在您下载生成的配置文件并将此文件添加到SDK之前，这些功能将无法使用。 For information about downloading and configuring the SDKs, see the *SDK documentation* section on this page.
 
 要获取最新的发行说明，请参阅 [Experience Cloud 发行说明](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html)。
 
