@@ -3,7 +3,7 @@ description: Adobe Target 预取功能使用 iOS Mobile SDK 获取选件内容�
 seo-description: Adobe Target 预取功能使用 iOS Mobile SDK 获取选件内容，并通过缓存服务器响应来尽量减少获取次数。
 seo-title: 在 iOS 中预取选件内容
 title: 在 iOS 中预取选件内容
-uuid: fef58042-65e2-4579-b8 f1-d21554 d2 af57
+uuid: fef58042-65e2-4579-b8f1-d21554d2af57
 translation-type: tm+mt
 source-git-commit: fa7375ac8a1345d81748bcf635791c46d3943fed
 
@@ -16,7 +16,7 @@ Adobe Target 预取功能使用 iOS Mobile SDK 获取选件内容，并通过缓
 
 >[!IMPORTANT]
 >
->Adobe Target中的自动Target、自动分配和自动个性化活动类型不支持iOS Mobile SDK中的预购功能。
+>Prefetch functionality in the Mobile SDKs for iOS is not supported for Auto Target, Auto Allocate, and Automated Personalization activity types in Adobe Target.
 
 此过程可缩短加载时间，阻止多个网络调用，并允许 Adobe Target 接收有关移动设备应用程序用户访问了哪个 mbox 的通知。在预取调用期间将检索和缓存所有内容，对于以后所有包含指定 mbox 名称的缓存内容的调用，都将从缓存中检索该内容。
 
@@ -39,7 +39,7 @@ if (MobileConfig.getInstance().mobileUsingTarget()){
         }
 ```
 
-## 预访方法 {#section_05967F1F3A554B0FBC2C08A954554BDE}
+## Prefetch methods {#section_05967F1F3A554B0FBC2C08A954554BDE}
 
 以下是可用于在 iOS 中进行预取的方法：
 
@@ -55,7 +55,7 @@ if (MobileConfig.getInstance().mobileUsingTarget()){
                             callback:(nullable void(^)(BOOL success))callback;
       ```
 
-   * 以下是此方法的参数：
+   * Here are the parameters for this method:
 
       * **`targetPrefetchArray`**
 
@@ -71,11 +71,11 @@ if (MobileConfig.getInstance().mobileUsingTarget()){
 
 * **targetLoadRequests**
 
-   执行批量请求，以获取请求数组中指定的多个 mbox 位置。数组中的每个对象都包含一个回调函数，当内容可用于其给定的mbox位置时将调用该函数。
+   执行批量请求，以获取请求数组中指定的多个 mbox 位置。数组中的每个对象都包含一个回调函数，当内容可用于其给定mbox位置时，将调用该函数。
 
    >[!IMPORTANT]
    >
-   >如果请求的位置内容已经缓存，它将立即在提供的回调中返回。否则，SDK 将向 Target 服务器发送网络请求，以检索该内容。
+   >如果所请求位置的内容已缓存，将立即在提供的回调中返回。 否则，SDK 将向 Target 服务器发送网络请求，以检索该内容。
 
    * 下面是这种方法对应的语法：
 
@@ -84,7 +84,7 @@ if (MobileConfig.getInstance().mobileUsingTarget()){
                withProfileParameters:(nullableNSDictionary*)profileParameters;
       ```
 
-   * 以下是此方法的参数：
+   * Here are the parameters for this method:
 
       * **`requests`**
 
@@ -104,7 +104,7 @@ if (MobileConfig.getInstance().mobileUsingTarget()){
       (void) targetPrefetchClearCache; 
       ```
 
-   * 此方法没有参数。
+   * There are no parameters for this method.
 
 * **targetRequestObjectWithName**
 
@@ -119,7 +119,7 @@ if (MobileConfig.getInstance().mobileUsingTarget()){
       callback:(nullablevoid(^)(NSString*__nullablecontent))callback;
       ```
 
-   * 此方法没有参数。
+   * There are no parameters for this method.
 
 * **createTargetPrefetchObject**
 
@@ -136,13 +136,13 @@ if (MobileConfig.getInstance().mobileUsingTarget()){
 
 以下是 iOS 中支持预取的公共类：
 
-### 类引用：targetPrefetchObject
+### 类引用：TargetPreFetchObject
 
 封装 mbox 名称以及用于 mbox 预取的参数。
 
 * **`name`**
 
-   要检索的位置/mbox的名称。
+   Name for the location/mbox you want to retrieve.
 
    * **类型**：NSString*
 
@@ -164,7 +164,7 @@ if (MobileConfig.getInstance().mobileUsingTarget()){
 
    * **类型**：NSDictionary*
 
-### 类引用：targetRequestObject
+### 类引用：TargetRequestObject
 
 此类封装用于 Target 位置请求的 mbox 名称、默认内容、mbox 参数以及返回的回调。
 
