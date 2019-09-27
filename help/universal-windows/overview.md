@@ -2,10 +2,10 @@
 description: 适用于 Experience Cloud 解决方案的通用 Windows 平台 SDK 4.x 允许您测量本机 Windows 10 应用程序，在您的应用程序内发送目标内容，并通过受众管理利用和收集受众数据。
 seo-description: 适用于 Experience Cloud 解决方案的通用 Windows 平台 SDK 4.x 允许您测量本机 Windows 10 应用程序，在您的应用程序内发送目标内容，并通过受众管理利用和收集受众数据。
 seo-title: 适用于 Experience Cloud 解决方案的通用 Windows 平台 SDK 4.x
-solution: Marketing Cloud，Analytics
+solution: Marketing Cloud,Analytics
 title: 适用于 Experience Cloud 解决方案的通用 Windows 平台 SDK 4.x
 topic: 开发人员和实施
-uuid: 23a5bc0a-54f0-42a7-af1 e-c8 cbb509 dfce
+uuid: 23a5bc0a-54f0-42a7-af1e-c8cbb509dfce
 translation-type: tm+mt
 source-git-commit: 9e796f590cf7717592ff3f41fa61829599264a4f
 
