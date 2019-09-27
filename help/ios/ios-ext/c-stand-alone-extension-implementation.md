@@ -2,10 +2,10 @@
 description: 从 iOS 10 开始，Apple 允许您创建独立扩展，此类扩展可在没有容器应用程序的情况下进行分发。使用此类扩展时，您不需要应用程序组，因为不存在要与其共享数据的容器应用程序。
 seo-description: 从 iOS 10 开始，Apple 允许您创建独立扩展，此类扩展可在没有容器应用程序的情况下进行分发。使用此类扩展时，您不需要应用程序组，因为不存在要与其共享数据的容器应用程序。
 seo-title: 独立扩展实施
-solution: Marketing Cloud，Analytics
+solution: Marketing Cloud,Analytics
 title: 独立扩展实施
 topic: 开发人员和实施
-uuid: 9b47f082-b78 f-4611-968d-014c32 ede6 bc
+uuid: 9b47f082-b78f-4611-968d-014c32ede6bc
 translation-type: tm+mt
 source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
 
@@ -18,7 +18,7 @@ source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
 
 >[!IMPORTANT]
 >
->要使用独立的扩展模块，您必须具有Mobile SDK版本4.13.0或更高版本。
+>要使用独立扩展，您必须拥有Mobile SDK版本4.13.0或更高版本。
 
 ## 配置独立扩展以便与 SDK 结合使用 {#section_B7A84603BB9D4B48BB46BE8D3B9E3CF0}
 
