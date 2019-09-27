@@ -2,10 +2,10 @@
 description: 此信息可帮助您了解如何跟踪崩溃，以及处理假崩溃的最佳做法。
 seo-description: 此信息可帮助您了解如何跟踪崩溃，以及处理假崩溃的最佳做法。
 seo-title: 跟踪应用程序崩溃
-solution: Marketing Cloud，Analytics
+solution: Marketing Cloud,Analytics
 title: 跟踪应用程序崩溃
 topic: 开发人员和实施
-uuid: ab98c14-cdf-4060-ad88-ec07 c1 c6 bf07
+uuid: 3ab98c14-ccdf-4060-ad88-ec07c1c6bf07
 translation-type: tm+mt
 source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
 
@@ -18,7 +18,7 @@ source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
 
 >[!TIP]
 >
->应用程序崩溃是生命周期指标的一部分。在跟踪崩溃之前，请将库添加到项目中并实施生命周期。有关详细信息，请参阅 *在核心实施和生命周期* 中 [将SDK和Config文件添加到IntelliJ IDEA或Eclipse项目](/help/android/getting-started/dev-qs.md)。
+>应用程序崩溃作为生命周期指标的一部分进行跟踪。 Before you can track crashes, add the library to your project and implement lifecycle. For more information, see Add the SDK and Config File to your IntelliJ IDEA or Eclipse Project in Core implementation and lifecycle.**[](/help/android/getting-started/dev-qs.md)
 
 实施生命周期量度时，将在每个活动的 `Config.collectLifecycleData` 方法中对 `OnResume` 进行调用。In the `onPause` method, a call is made to `Config.pauseCollectingLifeCycleData`.
 
@@ -38,7 +38,7 @@ source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
 
    >[!TIP]
    >
-   >您可以通过在IDE再次启动之前对应用程序进行后台处理来避免此崩溃。
+   >您可以通过在从IDE再次启动之前对应用程序进行后台处理来避免此崩溃。
 
 1. If the last foreground Activity of your app is backgrounded and does not call `Config.pauseCollectingLifecycleData();` in `onPause`, and your app is manually closed or killed by the OS, the next launch results in a crash.
 
@@ -48,11 +48,11 @@ source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
 
 >[!IMPORTANT]
 >
->您需要依赖包含可运行代码的生命周期事件。这将由碎片的父视图来处理。
+>您需要依赖包含活动可以运行代码的生命周期事件。 这将由碎片的父视图来处理。
 
-## (可选)实施活动生命周期回调
+## (Optional) Implement activity lifecycle callbacks
 
-从 API 级别 14 开始，Android 允许对活动进行全局生命周期回调。有关更多信息，请参阅 [应用](https://developer.android.com/reference/android/app/Application)程序。
+从 API 级别 14 开始，Android 允许对活动进行全局生命周期回调。For more information, see [Application](https://developer.android.com/reference/android/app/Application).
 
 You can use these callbacks to ensure that all of your Activities correctly call `collectLifecycleData()` and `pauseCollectingLifecycleData()`. 您需要只在主活动以及可能在其中启动您的应用程序的任何其他活动中添加此代码：
 
