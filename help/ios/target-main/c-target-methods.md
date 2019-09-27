@@ -1,9 +1,9 @@
 ---
 description: 以下是 iOS 库提供的 Adobe Target 方法列表。
 seo-description: 以下是 iOS 库提供的 Adobe Target 方法列表。
-seo-title: Adobe Mobile Services的iOS Target方法
-solution: Marketing Cloud，Analytics
-title: iOS的目标方法
+seo-title: iOS Target Methods for Adobe Mobile Services
+solution: Marketing Cloud,Analytics
+title: Target Methods for iOS
 topic: 开发人员和实施
 uuid: 692bcda1-02ba-4902-bd65-15888adf1952
 translation-type: tm+mt
@@ -16,15 +16,15 @@ source-git-commit: 8dc075603544aaab7fdedb1ff10a12f7fa7e21f5
 
 以下是 iOS 库提供的 Adobe Target 方法列表。
 
-SDK目前支持多个Adobe Experience Cloud解决方案，包括Analytics、Target、Audience Manager和Adobe Experience Platform Identity Service。方法将根据解决方案来添加前缀。例如， 方法的前缀为 `target`target。
+The SDK currently has support for multiple Adobe Experience Cloud Solutions, including Analytics, Target, Audience Manager, and the Adobe Experience Platform Identity Service. 方法将根据解决方案来添加前缀。例如， 方法的前缀为 `target`target。
 
 >[!TIP]
 >
->生命周期量度将作为参数发送至每个 mbox 负载。有关更多信息，请参阅[生命周期量度](/help/ios/metrics.md)。如果您在 `didFinishLaunching` 委托方法中发送Target请求，则在Target实施代码之前添加或 `[ADBMobile trackAction:data:]``[ADBMobile trackState:data:]` 调用。这样，Target请求将包含完整的生命周期数据。
+>生命周期量度将作为参数发送至每个 mbox 负载。有关更多信息，请参阅[生命周期量度](/help/ios/metrics.md)。如果您是在委托方法中发送Target请 `didFinishLaunching` 求，请在Target实施代 `[ADBMobile trackAction:data:]` 码之 `[ADBMobile trackState:data:]` 前添加或调用。 这样，Target请求将包含完整的生命周期数据。
 
-## 类引用：AdBtargetLocationRequest
+## 类引用：ADBTargetLocationRequest
 
-### 属性
+### 资产
 
 ```objective-c
 NSString *name; 
@@ -32,11 +32,11 @@ NSString *defaultContent;
 NSMutableDictionary *parameters;
 ```
 
-### String常量
+### String constants
 
 >[!TIP]
 >
->在为自定义参数设置键时，以下常量便于使用。
+>为自定义参数设置键时，以下常量易于使用。
 
 ```iOS
 NSString *const ADBTargetParameterOrderId; 
@@ -152,7 +152,7 @@ NSString *const ADBTargetParameterMboxHost;
                                  }];
       ```
 
-      有关基础Target API的更多信息，请参阅 [Adobe Target开发人员](https://docs.adobe.com/dev/products/target/reference/delivery.html)。
+      有关基础Target API的详细信息，请参 [阅Adobe Target开发人员](https://docs.adobe.com/dev/products/target/reference/delivery.html)。
 
 
 
@@ -191,7 +191,7 @@ NSString *const ADBTargetParameterMboxHost;
 
 * **targetCreateOrder&#x200B;ConfirmRequestWithName:&#x200B;orderId:&#x200B;orderTotal:&#x200B;productPurchasedId:&#x200B;parameters**
 
-   创建 `ADBTargetLocationRequest`一个。
+   创建 `ADBTargetLocationRequest`。
 
    * 下面是这种方法对应的语法：
 
@@ -264,7 +264,7 @@ NSString *const ADBTargetParameterMboxHost;
 
    >[!TIP]
    >
-   >从SDK版本4.10.0开始，Target不再使用cookies。此方法会重置 thirdPartyID 和 sessionID。
+   >自SDK版本4.10.0起，Target不再使用cookies。 此方法会重置 thirdPartyID 和 sessionID。
 
    * 下面是这种方法对应的语法：
 
