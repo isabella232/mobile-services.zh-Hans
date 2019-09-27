@@ -1,10 +1,10 @@
 ---
-description: 本主题提供了有关在客户获取测试过程中可能遇到的问题故障诊断的信息。
+description: This topic provides information about how to troubleshoot issues you might face during Acquisition testing.
 keywords: android；库；移动；sdk
-seo-description: 本主题提供了有关在客户获取测试过程中可能遇到的问题故障诊断的信息。
-seo-title: 客户赢取测试疑难解答
-solution: Marketing Cloud，Analytics
-title: 客户赢取测试疑难解答
+seo-description: This topic provides information about how to troubleshoot issues you might face during Acquisition testing.
+seo-title: Troubleshoot Acquisition testing
+solution: Marketing Cloud,Analytics
+title: Troubleshoot Acquisition testing
 topic: 开发人员和实施
 translation-type: tm+mt
 source-git-commit: 97202c672d7349496f83b9ac0c365dd8b3e13eda
@@ -12,19 +12,19 @@ source-git-commit: 97202c672d7349496f83b9ac0c365dd8b3e13eda
 ---
 
 
-# 客户赢取测试疑难解答 {#troubleshoot-acquisition-testing}
+# 客户获取测试疑难解答 {#troubleshoot-acquisition-testing}
 
-本主题提供了有关在客户获取测试过程中可能遇到的问题故障诊断的信息。
+本主题提供了有关如何解决客户获取测试过程中可能遇到的问题的信息。
 
-* 如果未指定，则应将AdbMobileConfig. json文件放入 `assets` 文件夹中。
+* 如果未指定，则应将ADBMobileConfig.json文件放在文件夹 `assets` 中。
 
-   该名称区分大小写，因此请勿使用大写字母或小写字母。
+   名称区分大小写，因此请勿使用大写或小写字母。
 
-* 确保 `Config.setContext(this.getApplicationContext())` 从主活动调用。
+* 确保从 `Config.setContext(this.getApplicationContext())` 主活动中调用该选项。
 
    有关详细信息，请参阅 [配置方法](https://docs.adobe.com/content/help/en/mobile-services/android/configuration-android/methods.html)。
 
-* 确保 `AndroidManifest.xml` 文件中存在Mobile SDK所需的权限：
+* 确保文件中存在Mobile SDK所需的权 `AndroidManifest.xml` 限：
 
    ```html
    <manifest ..>
@@ -34,11 +34,11 @@ source-git-commit: 97202c672d7349496f83b9ac0c365dd8b3e13eda
    </manifest>
    ```
 
-* 如果在AdMobileConfig. json文件中设置 `referrerTimeout` 为5，您必须在安装应用程序并首次启动之后在秒钟时间内发送安装意向，以查看安装点击附加的引介信息。
+* 如果 `referrerTimeout` 在ADMobileConfig.json文件中设置为5，则必须在应用程序第一次安装并启动后的5秒时间范围内发送安装意图，以查看附加到安装点击的引用信息。
 
-   对于手动测试，建议您将到15秒的时间增加 `referrerTimeout` 到10-15秒，以便在处理安装点击之前有足够的时间发送引用信息。
+   对于手动测试，我们建议您将访问时间增加 `referrerTimeout` 到10-15秒，这样您就有足够的时间在处理安装点击之前发送引用信息。
 
-* 运行 [Testing Marketing Link获取中的所有步骤](https://docs.adobe.com/content/help/en/mobile-services/android/acquisition-android/t-testing-marketing-link-acquisition.html) ，并确保您首先执行 `adb shell` 该命令，然后执行以下操作：
+* 运行Testing Marketing link客户获取 [中的所有步骤](https://docs.adobe.com/content/help/en/mobile-services/android/acquisition-android/t-testing-marketing-link-acquisition.html) ，确保先执行命 `adb shell` 令，然后执行以下操作：
 
    ```java
    am broadcast -a com.android.vending.INSTALL_REFERRER -n nl.postnl.app/.tracking.AdobeAcquisitionLinkBroadcastReceiver --es "referrer" "utm_source=adb_acq_v3&utm_campaign=adb_acq_v3&utm_content=<the newly generated id at step #7>"
@@ -46,5 +46,5 @@ source-git-commit: 97202c672d7349496f83b9ac0c365dd8b3e13eda
 
 >[!IMPORTANT]
 >
->要正确处理引介意图，您必须独立运行这两个命令。否则 `adb` 将双向转义，广播接收方收到的数据将不完整。
+>要正确处理引用意图，必须独立运行这两个命令。 否则， `adb` 将双重逃出引用信息，广播接收机接收的数据将不完整。
 
