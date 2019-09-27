@@ -3,10 +3,10 @@ description: 此信息可帮助您了解和使用 Adobe Mobile Services。
 keywords: mobile
 seo-description: 此信息可帮助您了解和使用 Adobe Mobile Services。
 seo-title: 入门指南
-solution: Marketing Cloud，Analytics
+solution: Marketing Cloud,Analytics
 title: 入门指南
 topic: 量度
-uuid: a7ae7c5a-dab8-4603-b4 cd-af73 a2 f09 f71
+uuid: a7ae7c5a-dab8-4603-b4cd-af73a2f09f71
 translation-type: tm+mt
 source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
 
@@ -41,7 +41,7 @@ Adobe Mobile Services 可帮助通过列方式提高移动设备应用程序参�
 
 在&#x200B;*获取*&#x200B;中，您可以使用付费媒体、自有媒体和免费媒体推动领先应用商店中应用程序下载的用户获取。通过使用 Adobe Mobile Services，您可以加快应用程序用户的客户获取过程。
 
-Adobe Mobile Services 提供用户客户获取工作流程，包括客户获取跟踪链接和深层链接，可以测量您的渠道在获取应用程序用户方面的有效性。通过跟踪哪些用户来自哪个渠道的营销链接，您可以了解哪个赢取渠道最有效地推动了盈利和吸引用户。
+Adobe Mobile Services 提供用户客户获取工作流程，包括客户获取跟踪链接和深层链接，可以测量您的渠道在获取应用程序用户方面的有效性。通过跟踪哪些用户来自哪个渠道的营销链接，您可以了解哪些赢取渠道在驱动盈利和参与度较高的用户方面最为有效。
 
 此外，通过深层链接，您可以将用户直接引导至您希望他们看到的应用程序内容，并鼓励他们在必要时安装您的应用程序。
 
@@ -82,7 +82,7 @@ Adobe Mobile Services 提供用户客户获取工作流程，包括客户获取�
 * 应用程序内消息由实时分析、警报和新选件/内容触发。
 * 了解查看次数、点进率和下游行为
 
-### Adobe移动消息传递
+### Adobe Mobile消息传递
 
 您可以使用推送通知和应用程序内通知与您的用户进行通信。推送通知通过设备上的操作系统发送，而应用程序内消息在用户积极与应用程序进行交互时由应用程序发送。应用程序内消息通常可以包含其他一些格式，如弹出窗口和插播式广告。
 
@@ -121,7 +121,7 @@ Adobe Target for Mobile 应用程序现在可充分利用 Adobe Analytics 提供
 
 有关位置的更多信息，请参阅以下内容：
 
-* [Mobile Services用户指南中的位置](/help/using/location/c-location-overview.md)
+* [Mobile services用户指南中的位置](/help/using/location/c-location-overview.md)
 * Android SDK 手册中的[位置](/help/android/location/location.md)
 * iOS SDK 手册中的[位置](/help/ios/location/location.md)
 
