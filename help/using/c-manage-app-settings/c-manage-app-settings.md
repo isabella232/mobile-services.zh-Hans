@@ -3,10 +3,10 @@ description: 管理应用程序包括配置应用程序以及管理各种变量�
 keywords: mobile
 seo-description: 管理应用程序包括配置应用程序以及管理各种变量和量度。
 seo-title: 管理应用程序设置
-solution: Marketing Cloud，Analytics
+solution: Marketing Cloud,Analytics
 title: 管理应用程序设置
 topic: 量度
-uuid: ca93f92-f812-434c-add0-5bdf1442 eb20
+uuid: 2ca93f92-f812-434c-add0-5bdf1442eb20
 translation-type: tm+mt
 source-git-commit: 3b744229b3fc288363be74c3c4adcd71ecc4fad4
 
@@ -19,4 +19,4 @@ source-git-commit: 3b744229b3fc288363be74c3c4adcd71ecc4fad4
 
 >[!IMPORTANT]
 >
->要编辑此页面，您必须是移动应用程序管理员组的成员。To determine whether you are a member of this group, click **[!UICONTROL Admin Tools]** &gt; **[!UICONTROL User Management]** &gt; **[!UICONTROL Groups]** &gt; **[!UICONTROL Mobile App Admin]**.
+>要编辑此页面，您必须是移动应用程序管理员组的成员。 To determine whether you are a member of this group, click **[!UICONTROL Admin Tools]** &gt; **[!UICONTROL User Management]** &gt; **[!UICONTROL Groups]** &gt; **[!UICONTROL Mobile App Admin]**.
