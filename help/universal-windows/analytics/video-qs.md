@@ -2,10 +2,10 @@
 description: 此信息可帮助您使用视频分析。
 seo-description: 此信息可帮助您使用视频分析。
 seo-title: Video Analytics
-solution: Marketing Cloud，Analytics
+solution: Marketing Cloud,Analytics
 title: Video Analytics
 topic: 开发人员和实施
-uuid: f45dac3b-cd2 e-4fba-a3 b2-c243640 ecfa4
+uuid: f45dac3b-cd2e-4fba-a3b2-c243640ecfa4
 translation-type: tm+mt
 source-git-commit: 1c0b7dadc28f772e903baa8605016e70f05081d7
 
@@ -18,7 +18,7 @@ source-git-commit: 1c0b7dadc28f772e903baa8605016e70f05081d7
 
 Video measurement is described in detail in the [Measuring video and audio in Adobe Analytics](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html) guide. 在所有 AppMeasurement 平台中，测量视频的大概过程都非常相似。此快速入门部分提供开发人员任务的基本概述以及代码示例。
 
-下表列出了发送到 Analytics 的媒体数据。使用处理规则将上下文数据映射到Analytics变量。
+下表列出了发送到 Analytics 的媒体数据。Use processing rules to map the context data to an Analytics variable.
 
 * **a.media.name**
 
@@ -34,8 +34,8 @@ Video measurement is described in detail in the [Measuring video and audio in Ad
 
    （**可选**）提供视频路径信息。必须由 ClientCare 为此变量启用路径。
 
-   * 事件类型：自定义分析 (s.prop)。
-   * 变量类型：自定义分析(s. prop)
+   * 事件类型：自定义分析 (s.prop).
+   * 变量类型：自定义分析(s.prop)
 
 * **a.media.segment**
 
@@ -54,35 +54,35 @@ Video measurement is described in detail in the [Measuring video and audio in Ad
 
    从视频测量的角度来看，内容类型允许您识别视频访客，从而计算视频转化率。
 
-   * 变量类型：eVar
+   * Variable type: eVar
    * 默认过期：页面查看
 
 * **a.media.timePlayed**
 
    以秒为单位，计算自上次数据收集流程（图像请求）以来，观看视频所花费的时间。
 
-   * 变量类型：Event
+   * Variable type: Event
    * 类型：计数器
 
 * **a.media.view**
 
    表明访客已查看了视频的某些部分。但是它并不提供有关访客查看了视频中的多少内容或哪一部分的信息。
 
-   * 变量类型：Event
+   * Variable type: Event
    * 类型：计数器
 
 * **a.media.segmentView**
 
    表明访客已查看了视频区段的某些部分。但是它并不提供有关访客查看了视频中的多少内容或哪一部分的信息。
 
-   * 变量类型：Event
+   * Variable type: Event
    * 类型：计数器
 
 * **a .media.complete**
 
    表明用户已查看了完整的视频。默认情况下，完整的事件会在视频结束前 1 秒进行测量。在实施过程中，您可以指定希望在距离视频结束有多少秒时被视为查看结束。对于实时视频和其他未定义结尾的流，您可以指定一个自定义时间点来测量结束。例如，在查看了特定时间之后。
 
-   * 变量类型：Event
+   * 变量类型：活动
    * 类型：计数器
 
 ## Configure media settings {#section_929945D4183C428AAF3B983EFD3E2500}
@@ -124,7 +124,7 @@ property bool isMediaAd;
 
 ### Media measurement class and method reference {#section_50DF9359A7B14DF092634C8E913C77FE}
 
-* **setingsWith(WinJS：设置包含)**
+* **设置使用(winJS:设置（使用）**
 
    通过指定的参数返回 `MediaSettings` 对象。
 
@@ -140,7 +140,7 @@ property bool isMediaAd;
       var  mySettings  =  ADB.Media.settingsWith("name", 10,  "playerName", "playerId"); 
       ```
 
-* **AdsetingsWith(WinJS：adsetingswith)**
+* **AdSettingsWith(winJS:adSettingsWith)**
 
    返回用于跟踪广告视频的 `MediaSettings` 对象。
 
@@ -156,7 +156,7 @@ property bool isMediaAd;
       var  myAdSettings = ADB.Media.adSettingsWith("name", 10,  "playerName", "parentName", "parentPod", 5, "myCPM");
       ```
 
-* **打开(WinJS：open)**
+* **打开(winJS:打开)**
 
    Tracks a media open using the settings defined in `settings`.
 
@@ -172,7 +172,7 @@ property bool isMediaAd;
       ADB.Media.open(mySettings);
       ```
 
-* **关闭(WinJS：close)**
+* **关闭(winJS:关闭)**
 
    Tracks a media close for the media item named *`name`*.
 
@@ -188,7 +188,7 @@ property bool isMediaAd;
       ADB.Media.close("mediaName"); 
       ```
 
-* **播放(WinJS：play)**
+* **播放(winJS:播放)**
 
    在给定的“offset”*`name`时间（以秒为单位）跟踪名为“”***&#x200B;的媒体项目的媒体播放。
 
@@ -204,7 +204,7 @@ property bool isMediaAd;
       ADB.Media.play("mediaName",  0);
       ```
 
-* **完成(WinJS：complete)**
+* **完整计划(winJS:完成)**
 
    在提供的“offset”**&#x200B;时间（以秒为单位）将媒体项目手动标记为完成。
 
@@ -220,7 +220,7 @@ property bool isMediaAd;
       ADB.Media.complete("mediaName", 8);
       ```
 
-* **停止(WinJS：stop)**
+* **停止(winJS:停止)**
 
    通知媒体模块已在给定的“offset”**&#x200B;时间停止或暂停视频。
 
@@ -236,7 +236,7 @@ property bool isMediaAd;
       ADB.Media.stop("mediaName",  4);
       ```
 
-* **单击(WinJS：click)**
+* **单击(winJS:单击)**
 
    通知媒体模块已单击媒体项目。
 
@@ -252,7 +252,7 @@ property bool isMediaAd;
       ADB.Media.click("mediaName",  3); 
       ```
 
-* **跟踪(WinJS：track)**
+* **跟踪(winJS:跟踪)**
 
    发送用于获取当前媒体状态的跟踪操作调用（无页面查看）。
 
