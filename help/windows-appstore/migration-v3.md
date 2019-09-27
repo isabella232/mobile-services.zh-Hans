@@ -2,10 +2,10 @@
 description: 此部分介绍如何从 3.x 版本的旧 Windows Mobile SDK 迁移到适用于 Experience Cloud 解决方案的 Windows 8.1 通用应用商店 4.x SDK。
 seo-description: 此部分介绍如何从 3.x 版本的旧 Windows Mobile SDK 迁移到适用于 Experience Cloud 解决方案的 Windows 8.1 通用应用商店 4.x SDK。
 seo-title: 迁移到4.x SDK
-solution: Marketing Cloud，Analytics
+solution: Marketing Cloud,Analytics
 title: 迁移到4.x SDK
 topic: 开发人员和实施
-uuid: e0fe3b7b-cda5-4a91-834c-2c7 e17 a501 a3
+uuid: e0fe3b7b-cda5-4a91-834c-2c7e17a501a3
 translation-type: tm+mt
 source-git-commit: 68bc21f1c6dba2faeed332495592114af90c8f61
 
@@ -22,7 +22,7 @@ source-git-commit: 68bc21f1c6dba2faeed332495592114af90c8f61
 
 ## Remove unused properties {#section_145222EAA20F4CC2977DD883FDDBBFC5}
 
-您可能注意到下载中包含一个新的 `ADBMobileConfig.json` 文件。此文件包含特定于应用程序的全局设置，替换之前版本中使用的大多数配置变量。以下是 `ADBMobileConfig.json` 文件的示例：
+您可能注意到下载中包含一个新的 `ADBMobileConfig.json` 文件。此文件包含特定于应用程序的全局设置，并替换在先前版本中使用的大多数配置变量。 以下是 `ADBMobileConfig.json` 文件的示例：
 
 ```js
 { 
@@ -78,7 +78,7 @@ source-git-commit: 68bc21f1c6dba2faeed332495592114af90c8f61
 
 ## 事件、Prop、eVar
 
-如果您看过 [SDK方法](/help/windows-appstore/c-configuration/methods.md)，您可能想知道如何设置事件、eVar、prop、heories和列表。在版本 4 中，您不能再在应用程序中直接分配这些类型的变量。SDK 而是会使用上下文数据和处理规则将您的应用程序数据映射到 Analytics 变量以供报告。
+如果您已查看过 [SDK方法](/help/windows-appstore/c-configuration/methods.md)，您可能会想知道在哪里设置事件、eVar、prop、继承人和列表。 在版本 4 中，您不能再在应用程序中直接分配这些类型的变量。SDK 而是会使用上下文数据和处理规则将您的应用程序数据映射到 Analytics 变量以供报告。
 
 处理规则具有以下几个好处：
 
@@ -96,7 +96,7 @@ For more information, see *Processing Rules* in [Analytics](/help/windows-appsto
 
 简单地说，只有通过 `TrackState` 或 `TrackAction` 调用发送的数据才是 `data` 参数中的有效负荷。
 
-### 替换跟踪调用
+### Replace tracking calls
 
 在您的整个代码中，将以下方法替换为对 `trackState` 或 `trackAction` 的调用：
 
@@ -113,7 +113,7 @@ Replace the `visitorID` variable with a call to `setUserIdentifier`.
 
 ## Offline tracking {#section_5D4CD8CD1BE041A79A8657E31C0D24C6}
 
-`ADBMobileConfig.json` 文件中启用离线跟踪。所有其他脱机配置都将自动完成。
+Offline tracking is enabled in the  file. `ADBMobileConfig.json`所有其他脱机配置都会自动完成。
 
 在您的整个代码中，删除对以下方法的调用：
 
