@@ -14,7 +14,7 @@ source-git-commit: ebcc04ab3e80aafb9d9ec2e1fbc809c743554cb7
 
 # Apple 搜索广告 {#apple-search-ads}
 
-Adobe SDK 利用 Apple 的搜索广告应用程序归因 API，让开发人员和营销人员能够跟踪源自 Apple App Store 中搜索广告促销活动的应用程序下载，并分析这些应用程序下载的归因。有关搜索广告促销活动的更多信息，请参阅 [Apple Search Ads](https://searchads.apple.com)（Apple 搜索广告）。
+Adobe SDK 利用 Apple 的搜索广告应用程序归因 API，让开发人员和营销人员能够跟踪源自 Apple App Store 中搜索广告促销活动的应用程序下载，并分析这些应用程序下载的归因。有关搜索广告促销活动的更多信息，请参阅 [Apple 搜索广告](https://searchads.apple.com)。
 
 ## 优点 {#section_CEA30C652AC8470784B8054E299B80FA}
 
@@ -43,7 +43,7 @@ Adobe SDK 利用 Apple 的搜索广告应用程序归因 API，让开发人员�
 
    If attribution = `true`, all of the `iad-*` fields will be included in the lifecycle hit.
 
-   In addition, the following values will be mapped from the `"iad"` dictionary to our typical acquisition context data fields:
+   此外，以下值将从 `"iad"` 字典映射到我们典型的客户获取上下文数据字段：
 
    * `"iad-campaign-id"` --&gt; `"a.referrer.campaign.trackingcode"`
    * `"iad-campaign-name"` --&gt; `"a.referrer.campaign.name"`
