@@ -3,10 +3,10 @@ description: 您可以使用 iOS PhoneGap 插件方法完成多种任务。
 keywords: PhoneGap
 seo-description: 您可以使用 iOS PhoneGap 插件方法完成多种任务。
 seo-title: PhoneGap 插件方法
-solution: Marketing Cloud，Analytics
+solution: Marketing Cloud,Analytics
 title: PhoneGap 插件方法
 topic: 开发人员和实施
-uuid: bd830fe5-804a-4d0a-bbb6-99a6 d8 da6 a03
+uuid: bd830fe5-804a-4d0a-bbb6-99a6d8da6a03
 translation-type: tm+mt
 source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
 
@@ -30,7 +30,7 @@ In `html` files where you want to use tracking, add the following to the `<head>
    返回当前用户的隐私状态。以下是可用的状态：
 
    * `ADB.optedIn`，立即发送点击。
-   * `ADB.optedOut`在其中丢弃点击的位置。
+   * `ADB.optedOut`, where hits are discarded.
    * `ADB.optUnknown`如果您的报表包启用了时间戳，将会保存点击，直到隐私状态更改为选择启用（发送点击）或选择禁用（丢弃点击）。****&#x200B;如果您的报表包&#x200B;**未启用**&#x200B;时间戳，则将丢弃点击，直到隐私状态更改为选择启用。\
       默认值在 `ADBMobileConfig.json` 文件中设置。
 
@@ -44,7 +44,7 @@ In `html` files where you want to use tracking, add the following to the `<head>
 
    将当前用户的隐私状态设置为 `status`。您可以设置以下状态之一：
    * `ADB.optedIn`，立即发送点击。
-   * `ADB.optedOut`在其中丢弃点击的位置。
+   * `ADB.optedOut`, where hits are discarded.
    * `ADB.optUnknown`**** - 如果您的报表包启用了时间戳，将会保存点击，直到隐私状态更改为选择启用（发送点击）或选择禁用（丢弃点击）。
 
       如果您的报表包&#x200B;**未启用**&#x200B;时间戳，则将丢弃点击，直到隐私状态更改为选择启用。
@@ -199,7 +199,7 @@ In `html` files where you want to use tracking, add the following to the `<head>
 
 * **collectLifecycleData**
 
-   指示 SDK 应收集生命周期数据以在 SDK 的所有解决方案中使用。有关更多信息，请参阅[生命周期指标](/help/ios/metrics.md)。
+   指示 SDK 应收集生命周期数据以在 SDK 的所有解决方案中使用。有关更多信息，请参阅 [Lifecycle metrics](/help/ios/metrics.md).
 
    * 以下是这种方法的代码示例：
 
@@ -234,7 +234,7 @@ In `html` files where you want to use tracking, add the following to the `<head>
 
    >[!TIP]
    >
-   >如果生命周期调用是启动事件，将附加Adobe链接数据，否则将发送额外的调用。
+   >如果生命周期调用是启动事件，则将附加Adobe link数据，否则将发送额外的调用。
 
    * 下面是这种方法对应的语法：
 
@@ -282,7 +282,7 @@ In `html` files where you want to use tracking, add the following to the `<head>
 
 * **trackState**
 
-   通过可选的上下文数据跟踪应用程序状态。States are the views that are available in your app, such as `home dashboard`, `app settings`, `cart`, and so on. 这些状态与网站中的页面类似，而且 `trackState` 调用会使页面查看次数递增。cData是具有键值对的JSON对象，可在上下文数据中发送。
+   通过可选的上下文数据跟踪应用程序状态。States are the views that are available in your app, such as `home dashboard`, `app settings`, `cart`, and so on. 这些状态与网站中的页面类似，而且 `trackState` 调用会使页面查看次数递增。cData is a JSON object with key-value pairs to send in context data.
 
    * 下面是这种方法对应的语法：
 
@@ -290,7 +290,7 @@ In `html` files where you want to use tracking, add the following to the `<head>
       ADB.trackState(stringstateName[,JSONcData]); 
       ```
 
-   * 以下是此方法的代码示例：
+   * Here are the code samples for this method:
 
       ```javascript
       ADB.trackState("loginpage");
@@ -310,7 +310,7 @@ In `html` files where you want to use tracking, add the following to the `<head>
       ADB.trackAction(stringaction[,JSONcData]);
       ```
 
-   * 以下是此方法的代码示例：
+   * Here are the code samples for this method:
 
       ```javascript
       ADB.trackAction("login");
@@ -330,7 +330,7 @@ In `html` files where you want to use tracking, add the following to the `<head>
       ADB.trackActionFromBackground(stringaction[,JSONcData]); 
       ```
 
-   * 以下是此方法的代码示例：
+   * Here are the code samples for this method:
 
       ```javascript
       ADB.trackActionFromBackground("login");
@@ -342,7 +342,7 @@ In `html` files where you want to use tracking, add the following to the `<head>
 
 * **trackLocation**
 
-   发送当前的x和y坐标。Also uses the points of interest that were defined in the `ADBMobileConfig.json` file to determine if the location provided as a parameter is within any of your POIs. 如果当前坐标位于定义的 POI 内，则会填充上下文数据变量，并随 `trackLocation` 调用发送该变量。
+   Sends the current x and y coordinates. Also uses the points of interest that were defined in the `ADBMobileConfig.json` file to determine if the location provided as a parameter is within any of your POIs. 如果当前坐标位于定义的 POI 内，则会填充上下文数据变量，并随 `trackLocation` 调用发送该变量。
 
    * 下面是这种方法对应的语法：
 
@@ -566,7 +566,7 @@ In `html` files where you want to use tracking, add the following to the `<head>
       ADB.targetSetThirdPartyID(thirdPartyID,success,fail); 
       ```
 
-   * 下面是此组的代码示例：
+   * 以下是此组的代码示例：
 
       ```java
       ADB.targetSetThirdPartyID('test-third-party-id',function(value){alert('success');},function(value){alert('fail');}); 
