@@ -3,10 +3,10 @@ description: “操作路径”报表以路径分析为基础，可显示一个�
 keywords: mobile
 seo-description: “操作路径”报表以路径分析为基础，可显示一个路径图表，以表示在应用程序中从一种状态变为另一种状态的路径。
 seo-title: 操作路径报告
-solution: Marketing Cloud，Analytics
+solution: Marketing Cloud,Analytics
 title: 操作路径报告
 topic: 报表,量度
-uuid: a21e5d9e-fd57-4178-9d64-87181b7 f988 b
+uuid: a21e5d9e-fd57-4178-9d64-87181b7f988b
 translation-type: tm+mt
 source-git-commit: e9691f9cbeadd171948aa752b27a014c3ab254d6
 
@@ -21,7 +21,7 @@ source-git-commit: e9691f9cbeadd171948aa752b27a014c3ab254d6
 
 >[!TIP]
 >
->您可以使用漏斗报表将导航和操作合并到一个报告中。有关更多信息，请参阅 [漏斗](/help/using/usage/reports-funnel.md)。
+>您可以使用漏斗报表将导航和操作组合到一个报表中。 For more information, see [Funnel](/help/using/usage/reports-funnel.md).
 
 ![](assets/action_paths.png)
 
@@ -56,11 +56,11 @@ To isolate the node and show paths that come into, and go out of the selected no
 * 拖动项目
 * 缩放项目
 
-![操作路径焦点](assets/action_paths_focus.png)
+![动作路径聚焦](assets/action_paths_focus.png)
 
 您可以集中或展开多个节点，以详细了解用户在您的应用程序内所采用的路径。例如：
 
-![操作路径多选](assets/action_paths_mult.png)
+![动作路径多](assets/action_paths_mult.png)
 
 您可以为此报表配置以下选项：
 
@@ -74,7 +74,7 @@ To isolate the node and show paths that come into, and go out of the selected no
 
 * **[!UICONTROL 过滤器]**
 
-   单击&#x200B;**[!UICONTROL 过滤器]可创建跨不同报表的过滤器，以便查看区段在所有移动设备报表中的执行情况。**&#x200B;置顶过滤器允许您定义应用于所有非路径报表的过滤器。有关更多信息，请参阅 [添加粘性滤镜](/help/using/usage/reports-customize/t-sticky-filter.md)。
+   单击&#x200B;**[!UICONTROL 过滤器]可创建跨不同报表的过滤器，以便查看区段在所有移动设备报表中的执行情况。**&#x200B;置顶过滤器允许您定义应用于所有非路径报表的过滤器。For more information, see [Add a sticky filter](/help/using/usage/reports-customize/t-sticky-filter.md).
 
 * **[!UICONTROL 下载]**
 
