@@ -1,11 +1,11 @@
 ---
 description: 从 Android SDK 版本 4.5 开始，新增了一个 Android 扩展，此扩展允许您从 Android 可穿戴应用程序中收集数据。
 seo-description: 从 Android SDK 版本 4.5 开始，新增了一个 Android 扩展，此扩展允许您从 Android 可穿戴应用程序中收集数据。
-seo-title: Android令人惊叹的入门
-solution: Marketing Cloud，Analytics
-title: Android令人惊叹的入门
+seo-title: Android可穿戴设备快速入门
+solution: Marketing Cloud,Analytics
+title: Android可穿戴设备快速入门
 topic: 开发人员和实施
-uuid: bfe5d41e-b17 c-4634-80ac-7a38671 betch81
+uuid: bfe5d41e-b17c-4634-80ac-7a38671ecb81
 translation-type: tm+mt
 source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
 
@@ -18,7 +18,7 @@ source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
 
 ## Configuring the SDK for a handheld app (Android Studio) {#section_262237484EC44C58953891B105F0D000}
 
-有关将SDK导入项目的更多信息，请参阅 [核心实施和生命周期](/help/android/getting-started/dev-qs.md)。
+有关将SDK导入项目的更多信息，请参阅核 [心实施和生命周期](/help/android/getting-started/dev-qs.md)。
 
 1. 将 `ADBMobileConfig.json` 文件添加到您项目的 assets 文件夹中。
 1. 将 `adobeMobileLibrary-*.jar` 文件添加到 libs 文件夹中，或确保项目引用了该文件。
@@ -40,7 +40,7 @@ source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
    }
    ```
 
-1. 将以下代码添加到 `AndroidManifest.xml` 文件：
+1. 将以下代码添加到文 `AndroidManifest.xml` 件：
 
    ```java
        <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> 
@@ -88,7 +88,7 @@ source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
    }
    ```
 
-1. 添加 `WearListenerService` 到 `AndroidManifest.xml` 文件：
+1. 添加 `WearListenerService` 到文 `AndroidManifest.xml` 件：
 
    ```java
    If you are using Google Play Services  < 8.2 
@@ -175,7 +175,7 @@ source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
    }
    ```
 
-1. 添加 `WearListenerService` 到 `AndroidManifest.xml` 文件：
+1. 添加 `WearListenerService` 到文 `AndroidManifest.xml` 件：
 
    ```java
    If you are using Google Play Services  < 8.2 
