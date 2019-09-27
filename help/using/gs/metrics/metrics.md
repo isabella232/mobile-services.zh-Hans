@@ -3,10 +3,10 @@ description: 您可以使用 Adobe Mobile 来测量不同的量度，还可以�
 keywords: mobile
 seo-description: 您可以使用 Adobe Mobile 来测量不同的量度，还可以收集想要跟踪与您的应用程序相关的量度。
 seo-title: 移动量度
-solution: Marketing Cloud，Analytics
+solution: Marketing Cloud,Analytics
 title: 移动量度
 topic: 量度
-uuid: c4457f4a-9d1c-4fe9-ad4 a-9eb2 e37 feab7
+uuid: c4457f4a-9d1c-4fe9-ad4a-9eb2e37feab7
 translation-type: tm+mt
 source-git-commit: 814c99695f538160ae28484ca8e2a92f5b24bb1a
 
@@ -31,7 +31,7 @@ source-git-commit: 814c99695f538160ae28484ca8e2a92f5b24bb1a
 
 * **收入**
 
-   您可以查看由应用商店收集的收入和直接使用应用程序内购买事件测量的收入。[自定义报告](/help/using/usage/reports-customize/reports-customize.md)可提供其他购物车指标。
+   您可以查看应用商店收集的收入以及使用应用程序内购买事件直接衡量的收入。 Other cart metrics are available by [Customize Reports](/help/using/usage/reports-customize/reports-customize.md).
 
 * **应用程序事件**
 
@@ -43,7 +43,7 @@ source-git-commit: 814c99695f538160ae28484ca8e2a92f5b24bb1a
 
 * **位置和目标点**
 
-   如果您的 Analytics 报表包中启用了地理报表，则会有多个基于位置的报表可供使用。在Wi-Fi上，地理移植准确度类似于桌面Web浏览器。在数据连接环境下，准确度则根据提供商和请求路由方式的不同而有所差异。
+   如果您的 Analytics 报表包中启用了地理报表，则会有多个基于位置的报表可供使用。在Wi-Fi上，GeoReporting的准确性与桌面Web浏览器的准确性相似。 在数据连接环境下，准确度则根据提供商和请求路由方式的不同而有所差异。
 
    为提高准确度，您还可以在应用程序中添加位置和目标点的跟踪功能。这些选项允许您报告详细的经度和维度位置数据，并使用地理围栏技术来确定用户何时处于某个预定义目标点的半径范围内。
 
