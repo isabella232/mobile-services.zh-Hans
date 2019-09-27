@@ -3,10 +3,10 @@ description: 创建、管理和报告应用程序内消息和推送消息。
 keywords: mobile
 seo-description: 创建、管理和报告应用程序内消息和推送消息。
 seo-title: 消息传送
-solution: Marketing Cloud，Analytics
+solution: Marketing Cloud,Analytics
 title: 消息传送
 topic: 量度
-uuid: e32d3e35-2d09-4df-8919-75dc895abcb3
+uuid: e32d3e35-2d09-4ddf-8919-75dc895abcb3
 translation-type: tm+mt
 source-git-commit: 3b744229b3fc288363be74c3c4adcd71ecc4fad4
 
@@ -15,7 +15,7 @@ source-git-commit: 3b744229b3fc288363be74c3c4adcd71ecc4fad4
 
 # 消息传送 {#messaging}
 
-您可以创建、管理和报告应用程序内和推送消息。
+您可以创建、管理和报告应用程序内消息和推送消息。
 
 ## 新的 Adobe Experience Cloud SDK 发行版本
 
@@ -41,12 +41,12 @@ source-git-commit: 3b744229b3fc288363be74c3c4adcd71ecc4fad4
 * 本机警报消息
 * 本地通知消息
 
-为了帮助您了解应用程序内消息传递的工作原理，以下是一些附加信息：
+为了帮助您了解应用程序内消息传递的工作方式，以下是一些其他信息：
 
-* 应用程序内消息需要SDK4.2或更高版本。
-* 您必须指定具有移动应用程序管理员权限的用户。
+* 应用程序内消息需要SDK版本4.2或更高版本。
+* 您必须指定谁拥有移动应用程序管理权限。
 
-   这些权限允许访问客户获取链接和应用程序内消息。有关详细信息，请参阅 [角色和权限](/help/using/gs/c-mob-roles-and-permissions.md)。
+   这些权限允许访问客户获取链接和应用程序内消息。 有关详细信息，请参阅 [角色和权限](/help/using/gs/c-mob-roles-and-permissions.md)。
 * 在消息获得批准后，便会自动将消息发布到应用程序。
 * 如果消息参数（例如特征、触发器和时间安排）满足相应要求，则 SDK 会向用户呈现消息。
 * 消息可以包含使用在线 URL 的自定义 HTML 或图像。
@@ -59,4 +59,4 @@ source-git-commit: 3b744229b3fc288363be74c3c4adcd71ecc4fad4
 
 推送消息将发送给选择接收通知的用户。您可以将这些推送消息定位到 Analytics 区段或自定义区段中的用户。推送消息可以在应用程序之外的其他许多地方显示，因此可用于重新吸引消极用户或传达特定于时间的和位置的信息。
 
-配置推送消息之前，请参阅 [入门项目以启用推送消息](/help/using/c-manage-app-settings/c-mob-confg-app/configure-push-messaging/prerequisites-push-messaging.md)。在执行这些任务之后，您必须在应用程序的设置中配置推送消息。有关详细信息，请参阅[配置推送消息](/help/using/c-manage-app-settings/c-mob-confg-app/configure-push-messaging/configure-push-messaging.md)。
+在配置推送消息之前，请参阅启 [用推送消息的先决条件](/help/using/c-manage-app-settings/c-mob-confg-app/configure-push-messaging/prerequisites-push-messaging.md)。 在执行这些任务之后，您必须在应用程序的设置中配置推送消息。有关详细信息，请参阅 [Configure push messaging](/help/using/c-manage-app-settings/c-mob-confg-app/configure-push-messaging/configure-push-messaging.md).
