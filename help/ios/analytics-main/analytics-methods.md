@@ -2,10 +2,10 @@
 description: 以下是 iOS 库提供的 Adobe Analytics 方法列表。
 seo-description: 以下是 iOS 库提供的 Adobe Analytics 方法列表。
 seo-title: 分析方法
-solution: Marketing Cloud，Analytics
-title: 分析方法
+solution: Marketing Cloud,Analytics
+title: Analytics methods
 topic: 开发人员和实施
-uuid: d49fe6de-cb32-4b96-9891-c567310 e59 a6
+uuid: d49fe6de-cb32-4b96-9891-c567310e59a6
 translation-type: tm+mt
 source-git-commit: df4ea2c4002611c72009cf69598cbbb74b5c15c4
 
@@ -16,7 +16,7 @@ source-git-commit: df4ea2c4002611c72009cf69598cbbb74b5c15c4
 
 以下是 iOS 库提供的 Adobe Analytics 方法列表。
 
-SDK目前支持多个Adobe Experience Cloud解决方案，包括Analytics、Target、Audience Manager和Adobe Experience Platform Identity Service。Methods are prefixed according to the solution. Experience Cloud ID methods are prefixed with `track`.
+The SDK currently has support for multiple Adobe Experience Cloud Solutions, including Analytics, Target, Audience Manager, and the Adobe Experience Platform Identity Service. Methods are prefixed according to the solution. Experience Cloud ID methods are prefixed with `track`.
 
 下面每个方法均可用来将数据发送至 Adobe Analytics 报表包。
 
@@ -26,7 +26,7 @@ SDK目前支持多个Adobe Experience Cloud解决方案，包括Analytics、Targ
 
    >[!TIP]
    >
-   >这是增加页面视图的唯一跟踪调用。
+   >这是唯一可增加页面查看次数的跟踪调用。
 
    * 下面是这种方法对应的语法：
 
@@ -44,7 +44,7 @@ SDK目前支持多个Adobe Experience Cloud解决方案，包括Analytics、Targ
 
 * **trackAction:&#x200B;data:**
 
-   跟踪您的应用程序中的操作。您要测量的操作(如 `logons`、 `banner taps`和其他指标 `feed subscriptions`)会在您的应用程序中进行。
+   跟踪您的应用程序中的操作。您希望衡量的操作(如、 `logons`、 `banner taps``feed subscriptions`和其他指标)在您的应用程序中发生。
 
    >[!TIP]
    >
@@ -86,7 +86,7 @@ SDK目前支持多个Adobe Experience Cloud解决方案，包括Analytics、Targ
 
    >[!TIP]
    >
-   >仅应在应用程序处于后台运行的代码中调用此方法。
+   >只应在应用程序处于后台时运行的代码中调用此方法。
 
    * 下面是这种方法对应的语法：
 
@@ -263,7 +263,7 @@ SDK目前支持多个Adobe Experience Cloud解决方案，包括Analytics、Targ
 
 * **trackingSendQueuedHits**
 
-   需要SDK4.1。无论当前有多少点击正在排队，强制库在脱机队列中发送所有点击。
+   需要SDK 4.1。无论当前排队的点击数是多少，都会强制库发送脱机队列中的所有点击。
 
    * 下面是这种方法对应的语法：
 
@@ -299,7 +299,7 @@ SDK目前支持多个Adobe Experience Cloud解决方案，包括Analytics、Targ
 
    >[!CAUTION]
    >
-   >手动清除队列时务必谨慎。此过程无法撤消。
+   >手动清除队列时要小心。 此过程无法撤消。
 
    * 下面是这种方法对应的语法：
 
@@ -321,7 +321,7 @@ SDK目前支持多个Adobe Experience Cloud解决方案，包括Analytics、Targ
 
    >[!IMPORTANT]
    >
-   >此方法不增加页面视图。
+   >此方法不会增加页面查看次数。
 
    * 下面是这种方法对应的语法：
 
