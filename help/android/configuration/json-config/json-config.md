@@ -2,10 +2,10 @@
 description: 此信息可帮助您使用 ADBMobile.json 配置文件。
 seo-description: 此信息可帮助您使用 ADBMobile.json 配置文件。
 seo-title: ADBMobile JSON 配置
-solution: Marketing Cloud，Analytics
+solution: Marketing Cloud,Analytics
 title: ADBMobile JSON 配置
 topic: 开发人员和实施
-uuid: 1def605-7bc3-4e73-ad52-1ed5821599 e
+uuid: 1decf605-7bc3-4e73-ad52-1ecd5821599e
 translation-type: tm+mt
 source-git-commit: 19264af3f4a675add6f61c27f4cdaf20033b9bb7
 
@@ -14,9 +14,9 @@ source-git-commit: 19264af3f4a675add6f61c27f4cdaf20033b9bb7
 
 # ADBMobile JSON config file {#adbmobile-json-config}
 
-此信息可帮助您了解AdobeMobile. json配置文件中的变量。
+此信息可帮助您了解ADBMobile.json配置文件中的变量。
 
-## `ADBMobileConfig.json` config文件引用 {#section_5AD4EDF87E304980B4AC4A5657FDA8B9}
+## `ADBMobileConfig.json` 配置文件引用 {#section_5AD4EDF87E304980B4AC4A5657FDA8B9}
 
 同一配置文件可用于多个平台上的应用程序：
 
@@ -24,17 +24,17 @@ source-git-commit: 19264af3f4a675add6f61c27f4cdaf20033b9bb7
 >
 >In **Android**, the `ADBMobileConfig.json` file must be placed in the `assets` folder.
 
-下面列出了JSON文件中的变量以及每个变量所需的最低SDK版本：
+以下是JSON文件中的变量列表以及每个变量所需的最低SDK版本：
 
 * **acquisition**
    * 最低 SDK 版本：4.1
    * 启用移动设备应用程序客户获取。
       * `server`，首次启动时在其中检查客户获取反向链接的客户获取服务器。
       * `appid`，客户获取服务器上生成的唯一标识此应用程序的 ID。
-   如果缺少此部分，请启用移动设备应用程序客户获取并再次下载 SDK 配置文件。有关详细信息，请参阅 *此变量列表中的referrerTimeout* 。
+   如果缺少此部分，请启用移动设备应用程序客户获取并再次下载 SDK 配置文件。有关详细信息，请参 *阅此变量列表* 中的referrerTimeout。
 
 * **analyticsForwardingEnabled**
-   * 最低SDK版本为4.8.0。
+   * SDK的最低版本为4.8.0。
    * 默认值为 `false`.
 
       `audienceManager` 对象中的属性。如果配置了 Audience Manager，并且将 `analyticsForwardingEnabled` 设置为 `true`，则所有 Analytics 流量也将转发至 Audience Manager。
@@ -53,7 +53,7 @@ source-git-commit: 19264af3f4a675add6f61c27f4cdaf20033b9bb7
 
          >[!IMPORTANT]
          >
-         >在会话信息服务器调用中发送过时的会话点击信息，并可能应用其他服务器调用。
+         >在会话信息服务器调用中发送回溯的会话点击信息，并且可能会应用其他服务器调用。
 
 * **batchLimit**
    * 最低 SDK 版本：4.1
@@ -64,7 +64,7 @@ source-git-commit: 19264af3f4a675add6f61c27f4cdaf20033b9bb7
       请牢记以下信息：
 
       * 默认值为 `0`，这表示不启用批量处理。
-      * `offlineEnabled = true`需要。
+      * 需要 `offlineEnabled = true`。
 
 * **charset**
    * 最低 SDK 版本：4.0
@@ -154,7 +154,7 @@ source-git-commit: 19264af3f4a675add6f61c27f4cdaf20033b9bb7
       …/yourfile.json”`,
       ```
 
-      如果未配置此设置，必须更新 `ADBMobile.json` 文件以包含此行。要下载更新的配置文件，请参阅 [开始之前](/help/android/getting-started/requirements.md)。
+      如果未配置此设置，必须更新 `ADBMobile.json` 文件以包含此行。要下载更新的配置文件，请参 [阅启动前](/help/android/getting-started/requirements.md)。
 
 * **postback**
    * 最低 SDK 版本：4.6
@@ -185,7 +185,7 @@ source-git-commit: 19264af3f4a675add6f61c27f4cdaf20033b9bb7
 
       >[!IMPORTANT]
       >
-      >此变量是客户赢取要求。如果将该变量设置为 `0` 或未包含该变量，SDK 将不会等待客户获取数据，而且也不会跟踪客户获取量度。
+      >客户获取需要此变量。 如果将该变量设置为 `0` 或未包含该变量，SDK 将不会等待客户获取数据，而且也不会跟踪客户获取量度。
 
 * **remotes**
    * 最低 SDK 版本：4.2
@@ -209,7 +209,7 @@ source-git-commit: 19264af3f4a675add6f61c27f4cdaf20033b9bb7
 
       >[!IMPORTANT]
       >
-      >Analytics需要此变量。
+      >This variable is required by Analytics.
 
 * **server**
    * 最低 SDK 版本：4.0
