@@ -2,10 +2,10 @@
 description: 具有促销 eVar 和产品特定事件的产品变量示例。
 seo-description: 具有促销 eVar 和产品特定事件的产品变量示例。
 seo-title: 具有促销 eVar 和产品特定事件的产品变量
-solution: Marketing Cloud，Analytics
+solution: Marketing Cloud,Analytics
 title: 具有促销 eVar 和产品特定事件的产品变量
 topic: 开发人员和实施
-uuid: 94e882e4-b19 d-4c48-9dfb-331465490347
+uuid: 94e882e4-b19d-4c48-9dfb-331465490347
 translation-type: tm+mt
 source-git-commit: b630c5cf09be7fbe31018cbf50564001eb6e2a5a
 
@@ -37,5 +37,5 @@ ADB.Analytics.trackState("Order Confirmation", cdata);
 
 >[!TIP]
 >
->如果使用变量 *`&&products`* 触发特定于产品的事件，则还必须在 *`&&events`* 变量中设置该事件，否则在处理过程中会筛选出该事件。
+>If you trigger a product-specific event using the  variable, you must also set that event in the  variable, otherwise the event is filtered out during processing.*`&&products`**`&&events`*
 
