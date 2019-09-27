@@ -2,10 +2,10 @@
 description: 定时操作允许您测量某个操作从开始到结束之间的应用程序内时间和总时间。SDK 会计算完成该操作将花费的每个会话内时间量以及跨会话总时间。您可以使用定时操作定义区段，并比较购买时间、通过水平、结帐流程等。
 seo-description: 定时操作允许您测量某个操作从开始到结束之间的应用程序内时间和总时间。SDK 会计算完成该操作将花费的每个会话内时间量以及跨会话总时间。您可以使用定时操作定义区段，并比较购买时间、通过水平、结帐流程等。
 seo-title: 定时操作
-solution: Marketing Cloud，Analytics
+solution: Marketing Cloud,Analytics
 title: 定时操作
 topic: 开发人员和实施
-uuid: a48a580-b942-4e49-9f1 b-078fea7 fcdb
+uuid: 5a48a580-b942-4e49-9f1b-078fea7fccdb
 translation-type: tm+mt
 source-git-commit: 97c0dc17bcc624b38e9eb8023eb1d69d02568d11
 
@@ -31,7 +31,7 @@ source-git-commit: 97c0dc17bcc624b38e9eb8023eb1d69d02568d11
 
 1. 将库添加到您的项目并实施生命周期。
 
-   有关详细信息，请参阅 *在核心实施和生命周期* 中 [将SDK和Config文件添加到IntelliJ IDEA或Eclipse项目](/help/android/getting-started/dev-qs.md)。
+   For more information, see Add the SDK and Config File to your IntelliJ IDEA or Eclipse Project in Core implementation and lifeycle.**[](/help/android/getting-started/dev-qs.md)
 1. 导入库：
 
    ```java
