@@ -2,10 +2,10 @@
 description: 此信息可帮助您从 3.x 或 2.x 版本的 iOS 库迁移至 4.x 版本的 iOS 库。
 seo-description: 此信息可帮助您从 3.x 或 2.x 版本的 iOS 库迁移至 4.x 版本的 iOS 库。
 seo-title: 迁移到4.x iOS库
-solution: Marketing Cloud，Analytics
-title: 迁移到4.x iOS库
+solution: Marketing Cloud,Analytics
+title: Migrating to the 4.x iOS library
 topic: 开发人员和实施
-uuid: 5668972b-f355-4e03-9df0-8c82 df6809 b
+uuid: 5668972b-f355-4e03-9df0-8c82ddf6809b
 translation-type: tm+mt
 source-git-commit: 68bc21f1c6dba2faeed332495592114af90c8f61
 
@@ -20,7 +20,7 @@ source-git-commit: 68bc21f1c6dba2faeed332495592114af90c8f61
 >
 >The SDK uses `NSUserDefaults` to store data that is needed to calculate unique users, lifecycle metrics, and other data related to core SDK functionality.  If you modify or remove the values in `NSUserDefaults` that are expected by the SDK, unexpected behavior might result in the form of data inconsistencies.
 
-在iOS SDK库的4.x版本中，公共方法整合到一个标题中。此外，现在可通过类级别方法访问该功能，因此无需跟踪指针、实例或单一集合。
+In the version 4.x of the iOS SDK library, the public methods are consolidated into one header. 此外，该功能现在可通过类级方法访问，因此您不必跟踪指针、实例或单个。
 
 ## Events, props, and eVars {#section_76EA6F5611184C5CAE6E62956D84D7B6}
 
@@ -76,7 +76,7 @@ source-git-commit: 68bc21f1c6dba2faeed332495592114af90c8f61
 1. 将为第一列中的变量设置的值移到第二列中的变量。
 1. 从您的代码中删除旧配置变量。
 
-### 迁移信息
+### Migration information
 
 下表列出了需要移到配置文件的配置变量。
 
@@ -106,7 +106,7 @@ source-git-commit: 68bc21f1c6dba2faeed332495592114af90c8f61
 | trackOffline | "offlineEnabled" |
 | offlineLimit | "batchLimit" |
 | account | "rsids" |
-| trackingServer | "server"删除 `"https://"` 前缀。协议前缀将根据 "ssl" 设置自动添加。 |
+| trackingServer | "server", remove the `"https://"` prefix. 协议前缀将根据 "ssl" 设置自动添加。 |
 | trackingServerSecure | 删除。为确保安全连接，请定义 "server"，然后启用 "ssl"。 |
 | charSet | "charset" |
 | currencyCode | "currency" |
@@ -119,22 +119,22 @@ source-git-commit: 68bc21f1c6dba2faeed332495592114af90c8f61
 | dynamicVariablePrefix | 删除，不再使用。 |
 | visitorNamespace | 删除，不再使用。 |
 | usePlugins | 删除，不再使用。 |
-| useBestPractices所有对流失测量 (getChurnInstance) 的调用 | 删除，替换为生命周期指标。有关更多信息，请参阅[生命周期量度](//help/ios/metrics.md)。 |
+| useBestPractices所有对流失测量 (getChurnInstance) 的调用 | Remove, replaced by lifecycle metrics. 有关更多信息，请参阅[生命周期量度](//help/ios/metrics.md)。 |
 
 
 ## Update track calls and tracking variables {#section_96E7D9B3CDAC444789503B7E7F139AB9}
 
 SDK 版本 4 不使用以 Web 为主的 `track` 和 `trackLink` 调用，而是使用以下方法：
 
-* `trackState:data:` 状态是应用程序中可用的视图，如 `home dashboard`、 `app settings`等 `cart`。
+* `trackState:data:` states are the views that are available in your app, such as , , , and so on.`home dashboard``app settings``cart`
 
    这些状态与网站中的页面类似，而且 `trackState` 调用会使页面查看次数递增。
 
-* `trackAction:data:` 操作，如 `logons``banner taps`应用程序 `feed subscriptions`中发生的、您想要测量的其他指标。
+* `trackAction:data:` actions , such as , , , and other metrics that occur in your app and that you want to measure.`logons``banner taps``feed subscriptions`
 
 用于这两种方法的 `data` 参数是 `NSDictionary`，其中包含作为上下文数据发送的名称值对。
 
-### 事件、props、eVar
+### Events, props, eVars
 
 在版本 4 中，您不能再在应用程序中直接分配变量，例如 event、eVar、prop、heir 和 list。SDK 现在会使用上下文数据和处理规则将您的应用程序数据映射到 Analytics 变量以供报告。
 
@@ -148,7 +148,7 @@ SDK 版本 4 不使用以 Web 为主的 `track` 和 `trackLink` 调用，而是�
 
 您直接分配到变量的值应当添加到 `data``NSDictionary`   中。This means that calls to `setProp`, `setEvar`, and assignments to persistent context data should all be removed and the values be added to the `data` parameter.
 
-### AppSection/Server、Geozip、事务ID、Campaign和其他标准变量
+### AppSection/Server、GeoZip、事务ID、Campaign和其他标准变量
 
 您在测量对象（包括上面列出的变量）中设置的数据应当添加到 `data``NSDictionary`   中。随 `trackState` 或 `trackAction` 调用发送的唯一数据是 `data` 参数中的有效负荷。
 
@@ -175,7 +175,7 @@ Replace the `visitorID` variable with a call to `setUserIdentifier:`.
 
 ## Offline tracking {#section_5D4CD8CD1BE041A79A8657E31C0D24C6}
 
-`ADBMobileConfig.json` 在文件中启用离线跟踪，所有其他脱机配置都自动完成。
+Offline tracking is enabled in the `ADBMobileConfig.json` file, and all other offline configuration is done automatically.
 
 在您的代码中，删除对以下方法的调用：
 
