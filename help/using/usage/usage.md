@@ -3,10 +3,10 @@ description: 使用情况报表可显示平均会话时长、每日和每月参�
 keywords: mobile
 seo-description: 使用情况报表可显示平均会话时长、每日和每月参与用户数、升级次数，以及其他分析，从而让您了解应用程序的使用方式和使用频率。维系报表可快速显示初始启动后 1 天、7 天和 28 天的用户维系级别。
 seo-title: 报表
-solution: Marketing Cloud，Analytics
+solution: Marketing Cloud,Analytics
 title: 报表
 topic: 报表,量度
-uuid: abc2bd1-dbae-4af1-9b8 d1 df6 d3 d1 a81 f
+uuid: 2abc2bd1-dbae-4af1-9b8d-1df2f6d3a81f
 translation-type: tm+mt
 source-git-commit: 814c99695f538160ae28484ca8e2a92f5b24bb1a
 
@@ -31,5 +31,5 @@ source-git-commit: 814c99695f538160ae28484ca8e2a92f5b24bb1a
 * [应用商店概述报表](/help/using/usage/c-app-store-store-performance.md)
 * [自定义报表](/help/using/usage/reports-customize/reports-customize.md)
 * [将过滤器添加到报表](/help/using/usage/reports-customize/t-reports-customize.md)
-* [向报表中添加系列(指标)](/help/using/usage/reports-customize/t-reports-series.md)
+* [将系列（指标）添加到报告](/help/using/usage/reports-customize/t-reports-series.md)
 * [添加置顶过滤器](/help/using/usage/reports-customize/t-sticky-filter.md)
