@@ -2,10 +2,10 @@
 description: 如果您的应用程序打开移动 Web 内容，您需要确保访客在本机和移动 Web 之间切换时不会单独进行识别。
 seo-description: 如果您的应用程序打开移动 Web 内容，您需要确保访客在本机和移动 Web 之间切换时不会单独进行识别。
 seo-title: 应用程序和移动 Web 之间的访客跟踪
-solution: Marketing Cloud，Analytics
+solution: Marketing Cloud,Analytics
 title: 应用程序和移动 Web 之间的访客跟踪
 topic: 开发人员和实施
-uuid: 2d951de6-3954-4379-a4 ff-99b9695 b9869
+uuid: 2d951de6-3954-4379-a4ff-99b9695b9869
 translation-type: tm+mt
 source-git-commit: 9257d6b6c2c14d0422cda65fcc9c677ac5ac47a9
 
@@ -16,25 +16,25 @@ source-git-commit: 9257d6b6c2c14d0422cda65fcc9c677ac5ac47a9
 
 如果您的应用程序打开移动 Web 内容，您需要确保访客在本机和移动 Web 之间切换时不会单独进行识别。
 
-## 应用程序中的访问者ID
+## 应用程序中的访客ID
 
-在安装应用程序时，iOS SDK 会生成一个独特访客 ID。此 ID 将存储在移动设备上的永久内存中，并会随每次点击一起发送。此 ID 仅在用户卸载应用程序时才被删除。。
+在安装应用程序时，iOS SDK 会生成一个独特访客 ID。此 ID 将存储在移动设备上的永久内存中，并会随每次点击一起发送。此 ID 仅在用户卸载应用程序时才被删除。.
 
 >[!TIP]
 >
->应用程序访客ID通过升级保留。
+>应用程序访客ID在升级期间保持不变。
 
-## 移动Web中的访问者ID
+## 移动Web中的访客ID
 
 典型的移动 Web 实施使用的标准 Analytics `s_code.js` 或 `AppMeasurement.js` 与桌面站点中所用的相同。JavaScript 库具有自身的独特访客 ID 生成方法，这会导致在从您的应用程序中打开移动 Web 内容时生成一个不同的访客 ID。
 
-要在应用程序和移动Web中使用相同的访客ID，并将应用程序访问者ID传递到URL中的移动Web，请执行以下操作：
+To use the same visitor ID in the app and mobile web and pass the app visitor ID to the mobile web in the URL:
 
 ## 在应用程序和移动Web之间实施访客跟踪 {#section_EDC91D6C67AD43999227707C2769C65D}
 
 1. 将库添加到您的项目并实施生命周期。
 
-   有关详细信息，请参阅 *将SDK和配置文件添加到核心实施和生命周期* 中 [的项目](/help/ios/getting-started/dev-qs.md)。
+   有关详细信息，请参 *阅在核心实施和生命周期中将SDK和配置文件添加*[到您的项目中](/help/ios/getting-started/dev-qs.md)。
 1. 要将访客信息附加到用于打开 Web 视图的 URL，请调用 `visitorAppendToURL`：
 
    ```objective-c
@@ -62,7 +62,7 @@ source-git-commit: 9257d6b6c2c14d0422cda65fcc9c677ac5ac47a9
 
 ## 访客跟踪疑难解答 {#section_C070AE85E3CE4E9893FD4F40E73F2C92}
 
-### `[ADBMobile visitorAppendToURL:]`我看不到。
+### I do not see `[ADBMobile visitorAppendToURL:]`.
 
 确认父应用程序中捆绑的是 Adobe SDK 版本 4.12.0 或更高版本。
 
