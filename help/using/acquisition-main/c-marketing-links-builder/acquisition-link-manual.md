@@ -1,12 +1,12 @@
 ---
-description: 您可以手动配置URL参数，创建营销链接以快速赢取新的移动应用程序用户。
+description: You can create Marketing Links to acquire new mobile app users on-the-fly by manually configuring the URL parameters.
 keywords: mobile
-seo-description: 您可以手动配置URL参数，创建营销链接以快速赢取新的移动应用程序用户。
-seo-title: 手动创建客户获取链接
-solution: Marketing Cloud，Analytics
-title: 手动创建客户获取链接
+seo-description: 您可以通过手动配置URL参数来创建营销链接以立即获取新的移动应用程序用户。
+seo-title: Manually create Acquisition links
+solution: Marketing Cloud,Analytics
+title: Manually create Acquisition links
 topic: 量度
-uuid: d7709203-f793-4982-ada-9c3 c914 aca2 b
+uuid: d7709203-f793-4982-adaa-9c3c914aca2b
 translation-type: tm+mt
 source-git-commit: 54e3b2d673356a616987537d20758bef8b044db4
 
@@ -15,13 +15,13 @@ source-git-commit: 54e3b2d673356a616987537d20758bef8b044db4
 
 # 手动创建客户获取链接 {#create-acquisition-link-manually}
 
-您可以手动配置URL参数，创建营销链接以快速赢取新的移动应用程序用户。
+You can create Marketing Links to acquire new mobile app users on-the-fly by manually configuring the URL parameters.
 
 >[!IMPORTANT]
 >
->此功能需要SDK4.6或更高版本。有关更多信息，请参阅 [客户获取先决条件](/help/using/acquisition-main/c-acquisition-prerequisites.md)。
+>此功能需要SDK版本4.6或更高版本。 有关详细信息，请参阅客 [户获取先决条件](/help/using/acquisition-main/c-acquisition-prerequisites.md)。
 
-下图说明手动构建的跟踪链接的组件，并显示不同的URL参数，这些参数在手动创建客户获取链接时必须正确配置。
+下图说明了手动构建的跟踪链接的组件，并显示了在手动创建客户获取链接时必须正确配置的不同URL参数。
 
 ![](assets/acquisition_url.png)
 
@@ -37,12 +37,12 @@ source-git-commit: 54e3b2d673356a616987537d20758bef8b044db4
 
 对于 iOS，请确保使用正确的协议：
 
-* **如果** 您在版本4.7.0之前使用iOS SDK，或者如果您使用iOS SDK4.7.0或更高版本，并且未在“管理应用程序设置”页面上选择 **[!UICONTROL “使用HTTPS]****** ”，则使用HTTP。
+* Use **HTTP** if you are using the iOS SDKs before version 4.7.0, or if you are using iOS SDK 4.7.0 or later, and if **[!UICONTROL Use HTTPS]** is **not** selected on the Manage App Settings page.
 * Use **HTTPS** if you are using iOS SDK 4.7.0 or later and **[!UICONTROL Use HTTPS]** **is** selected on the Manage App Settings page.
 
 在满足下列条件的情况下：
 
-* `{mobile-services-app-hash}` 与配置 `acquisition:appid ` 文件中的应用程序标识符相匹配。
+* `{mobile-services-app-hash}` 与配置文件中的应用程序标识符 `acquisition:appid ` 匹配。
 
    You can locate `{mobile-services-app-hash}` in the Manage App Settings page under Acquisition SDK Options in the Tracking ID field.
 
@@ -84,7 +84,7 @@ source-git-commit: 54e3b2d673356a616987537d20758bef8b044db4
 
 * **`a_cid`**
 
-   自定义ID覆盖(通常为iOS版IDFA或Android ADID)。
+   自定义ID覆盖（通常为iOS的IDFA或Android的ADID）。
 
    * 示例值：`Any String < 255 characters (UTF-8 encoded)`
 
@@ -100,7 +100,7 @@ source-git-commit: 54e3b2d673356a616987537d20758bef8b044db4
 
    如果要比较不同客户获取链接的性能，此参数是报告所必需的。
 
-   * 示例值：2015峰会会议
+   * 示例值：2015年首脑会议
 
 * **`ctxa.referrer.campaign.trackingcode`**
 
@@ -114,7 +114,7 @@ source-git-commit: 54e3b2d673356a616987537d20758bef8b044db4
 
    源。
 
-   * 示例值：Ad Network
+   * 示例值：广告网络
 
 * **`ctxa.referrer.campaign.medium`**
 
@@ -126,19 +126,19 @@ source-git-commit: 54e3b2d673356a616987537d20758bef8b044db4
 
    内容
 
-   * 示例值：图像#325689
+   * 示例值：图325689
 
 * **`ctxa.referrer.campaign.term`**
 
    术语
 
-   * 示例值：徒步+预订
+   * 示例值：远足和靴子
 
 
 手动创建客户获取链接时，请记住以下信息：
 
 * 与表中参数不匹配的所有参数都将作为应用商店重定向的一部分传递。
-* 所有参数在技术上都可选，但如果至少指定了一个商店ID，链接将不起作用。
+* 从技术上讲，所有参数都是可选的，但如果至少指定了一个存储ID，则链接将不起作用。
 
    An example of a store ID is `a_g_id`/ `a_i_id`.
 
