@@ -1,11 +1,11 @@
 ---
 description: 此信息可帮助您使用 ADBMobile.json 配置文件。
 seo-description: 此信息可帮助您使用 ADBMobile.json 配置文件。
-seo-title: AdBMobile JSON配置
-solution: Marketing Cloud，Analytics
-title: AdBMobile JSON配置
+seo-title: ADBMobile JSON配置
+solution: Marketing Cloud,Analytics
+title: ADBMobile JSON配置
 topic: 开发人员和实施
-uuid: d9708d59-e30 a-4f6 c-ab1 b-d9499855 d0 c2
+uuid: d9708d59-e30a-4f6c-ab1b-d9499855d0c2
 translation-type: tm+mt
 source-git-commit: 19264af3f4a675add6f61c27f4cdaf20033b9bb7
 
@@ -57,7 +57,7 @@ source-git-commit: 19264af3f4a675add6f61c27f4cdaf20033b9bb7
    * 最低 SDK 版本：4.6
    >[!IMPORTANT]
    >
-   >在会话信息服务器调用中发送过时的会话点击信息，可能会应用其他服务器调用。
+   >Backdated session hit information is sent in a session info server call, and additional server calls might apply.
 
 
 * **batchLimit**
@@ -65,12 +65,12 @@ source-git-commit: 19264af3f4a675add6f61c27f4cdaf20033b9bb7
    在连续调用中发送的点击量的阈值。例如，如果将 `batchLimit` 设置为 10，则第 10 次点击之前的每次点击都将存储在队列中。当第 10 次点击进入时，将连续发送所有 10 次点击。
 
    * Default value is `0`, which means that batching is not enabled.
-   * `offlineEnabled = true`需要。
+   * Requires .`offlineEnabled = true`
    * 最低 SDK 版本：4.1
 
 * **charset**
 
-   定义将用于发送到 Analytics 的数据的字符集。charset 用于将传入的数据转换为 UTF-8 以便进行存储和报告。有关更多信息，请参阅 [s. charSet](https://marketing.adobe.com/resources/help/en_US/sc/implement/charset.html)。
+   定义将用于发送到 Analytics 的数据的字符集。charset 用于将传入的数据转换为 UTF-8 以便进行存储和报告。For more information, see [s.charSet](https://marketing.adobe.com/resources/help/en_US/sc/implement/charset.html).
 
    * 最低 SDK 版本：4.0
 
@@ -80,7 +80,7 @@ source-git-commit: 19264af3f4a675add6f61c27f4cdaf20033b9bb7
 
    >[!IMPORTANT]
    >
-   >Target需要此变量。
+   >This variable is required by Target.
 
    * 最低 SDK 版本：4.0
 
@@ -125,7 +125,7 @@ source-git-commit: 19264af3f4a675add6f61c27f4cdaf20033b9bb7
 
    启用后，点击将在设备处于离线状态时排入队列，之后当设备处于在线状态时再进行发送。报表包必须启用时间戳才能使用离线跟踪。默认值为 `false`.
 
-   以下是一些重要信息：
+   Here is some important information:
 
    * 如果报表包已启用时间戳，那么您的 `offlineEnabled` 配置属性&#x200B;*必须*&#x200B;为 true。
    * If your report suite is not timestamp enabled, your `offlineEnabled` configuration property *must* be false.
@@ -136,7 +136,7 @@ source-git-commit: 19264af3f4a675add6f61c27f4cdaf20033b9bb7
 
 * **org**
 
-   指定Adobe Experience Platform Identity Service的Experience Cloud组织ID。
+   指定Adobe Experience Platform Identity service的Experience cloud组织ID。
 
    * 最低 SDK 版本：4.3
 
@@ -145,7 +145,6 @@ source-git-commit: 19264af3f4a675add6f61c27f4cdaf20033b9bb7
    每个 POI 数组均保存目标点区域的 POI 名称、纬度、经度和半径（以米为单位）。POI 名称可以是任何字符串。在发送 `trackLocation` 调用时，如果当前坐标位于定义的 POI 内，则会填充上下文数据变量，并随 `trackLocation` 调用发送该变量。
 
    * 最低 SDK 版本：4.0
-
    ```js
    "poi" [ 
            ["sanfrancisco",37.757144,-122.44812,7000]
@@ -161,7 +160,7 @@ source-git-commit: 19264af3f4a675add6f61c27f4cdaf20033b9bb7
    “analytics.poi”: “`https://assets.adobedtm.com/…/yourfile.json`”,
    ```
 
-   如果未配置此设置，必须更新 `ADBMobile.json` 文件以包含此行。要下载更新的配置文件，请参阅 [开始之前](/help/ios/getting-started/requirements.md)。
+   如果未配置此设置，必须更新 `ADBMobile.json` 文件以包含此行。To download an updated configuration file, see Before you start.[](/help/ios/getting-started/requirements.md)
 
 * **postback**
 
@@ -197,7 +196,7 @@ source-git-commit: 19264af3f4a675add6f61c27f4cdaf20033b9bb7
 
    >[!IMPORTANT]
    >
-   >此变量是客户赢取要求。If the variable is set to `0`, or is not included, the SDK does not wait for acquisition data, and acquisition metrics are not tracked.
+   >客户获取需要此变量。 If the variable is set to `0`, or is not included, the SDK does not wait for acquisition data, and acquisition metrics are not tracked.
 
    * 最低 SDK 版本：4.1
 
@@ -225,7 +224,7 @@ source-git-commit: 19264af3f4a675add6f61c27f4cdaf20033b9bb7
 
    >[!IMPORTANT]
    >
-   >Analytics需要此变量。
+   >This variable is required by Analytics.
 
    * 最低 SDK 版本：4.0
 
@@ -239,7 +238,7 @@ source-git-commit: 19264af3f4a675add6f61c27f4cdaf20033b9bb7
 
    >[!IMPORTANT]
    >
-   >此变量是Analytics和/或受众管理所必需的。
+   >此变量是Analytics和／或Audience Management必需的。
 
    * 最低 SDK 版本：4.0
 
