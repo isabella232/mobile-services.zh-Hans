@@ -2,10 +2,10 @@
 description: 状态是指您的应用程序中的不同屏幕或视图。
 seo-description: 状态是指您的应用程序中的不同屏幕或视图。
 seo-title: 跟踪应用程序状态
-solution: Marketing Cloud，Analytics
+solution: Marketing Cloud,Analytics
 title: 跟踪应用程序状态
 topic: 开发人员和实施
-uuid: 69c99d05-5816-4c86-97c5-d218 dc26 c129
+uuid: 69c99d05-5816-4c86-97c5-d218dc26c129
 translation-type: tm+mt
 source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
 
@@ -22,7 +22,7 @@ source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
 
 1. 将库添加到您的项目并实施生命周期。
 
-   有关详细信息，请参阅 *在核心实施和生命周期* 中 [将SDK和Config文件添加到IntelliJ IDEA或Eclipse项目](/help/android/getting-started/dev-qs.md)。
+   有关详细信息，请参 *阅将SDK和配置文件添加到IntelliJ IDEA或Eclipse Project* (在核心实施和生命 [周期中)中](/help/android/getting-started/dev-qs.md)。
 
 1. 导入库：
 
@@ -43,7 +43,7 @@ source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
    }
    ```
 
-The `"State Name"` is reported in the `View State` variable in Adobe Mobile services, and a view is recorded for each `trackState` call. 在其他Analytics界面 `View State` 中，报告为 `Page Name`， `state views` 并报告为 `page views`。
+The `"State Name"` is reported in the `View State` variable in Adobe Mobile services, and a view is recorded for each `trackState` call. 在其他Analytics界面中， `View State` 报告为 `Page Name`, `state views` 报告为 `page views`。
 
 ## Send additional data {#section_CFDB4F944496401786A145C209AB387C}
 
