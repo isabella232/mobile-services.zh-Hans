@@ -1,11 +1,11 @@
 ---
 description: 此信息可帮助您了解如何跟踪崩溃，以及处理假崩溃的最佳做法。
 seo-description: 此信息可帮助您了解如何跟踪崩溃，以及处理假崩溃的最佳做法。
-seo-title: 跟踪应用程序崩溃
-solution: Marketing Cloud，Analytics
+seo-title: Track App crashes
+solution: Marketing Cloud,Analytics
 title: 跟踪应用程序崩溃
 topic: 开发人员和实施
-uuid: f81988b-198a-4ba9-ad53-78af90 e43856
+uuid: 4f81988b-198a-4ba9-ad53-78af90e43856
 translation-type: tm+mt
 source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
 
@@ -18,7 +18,7 @@ source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
 
 >[!IMPORTANT]
 >
->您应该升级到iOS SDK版本4.8.6，该版本包含防止虚假崩溃的关键更改。
+>You should upgrade to iOS SDK version 4.8.6, which contains critical changes that prevent false crashes from being reported.
 
 ## Adobe 何时会报告崩溃？
 
@@ -44,7 +44,7 @@ Adobe Mobile iOS SDK 具有响应 `UIApplicationDidEnterBackgroundNotification` 
 
    >[!TIP]
    >
-   >在从Xcode再次启动应用程序之前，您可以通过本地化应用程序来避免出现崩溃。
+   >在此情况下，您可以通过在从Xcode再次启动应用程序之前对应用程序进行后台处理来避免崩溃。
 
 * If your app is in the background and sends Analytics hits through a call other than `trackActionFromBackground`, `trackLocation`, or `trackBeacon`, and the app is terminated (manually or by the OS) while in the background, and the next launch will be a crash.
 
@@ -66,5 +66,5 @@ Adobe Mobile iOS SDK 具有响应 `UIApplicationDidEnterBackgroundNotification` 
 * 确保您针对非生产性报表包执行开发，这样应当可防止发生第 1 种假崩溃。
 * 不要删除或修改 Adobe Mobile SDK 在 `NSUserDefaults` 中放置的任何值。
 
-   如果这些值在SDK之外进行修改，则报告的数据将无效。
+   If these values are modified outside the SDK, the reported data will be invalid.
 
