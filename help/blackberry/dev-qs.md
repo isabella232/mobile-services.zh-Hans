@@ -1,15 +1,15 @@
 ---
 title: 开发人员快速入门
-seo-title: Adobe Mobile Services的BlackBerry开发人员快速入门
-description: BlackBerry开发人员快速入门指南可帮助您了解为Adobe Mobile Services实施BlackBerry库的过程。
-seo-description: BlackBerry开发人员快速入门指南可帮助您了解为Adobe Mobile Services实施BlackBerry库的过程。
+seo-title: BlackBerry Developer Quick Start for Adobe Mobile Services
+description: The BlackBerry Developer Quick Start Guide helps you understand the process to implement the BlackBerry library for Adobe Mobile Services.
+seo-description: The BlackBerry Developer Quick Start Guide helps you understand the process to implement the BlackBerry library for Adobe Mobile Services.
 translation-type: tm+mt
 source-git-commit: 19264af3f4a675add6f61c27f4cdaf20033b9bb7
 
 ---
 
 
-# 开发人员快速入门
+# Developer quick start
 
 此信息可帮助您了解 BlackBerry 库的实施过程。
 
@@ -44,20 +44,20 @@ source-git-commit: 19264af3f4a675add6f61c27f4cdaf20033b9bb7
 1. 单击&#x200B;**[!UICONTROL 包含文件夹]**&#x200B;字段旁边的&#x200B;**添加[!UICONTROL 。]**
 1. Navigate to the `ADBMobile-4.0.0BETA-BlackBerry` folder.
 1. 将 `public` 文件夹添加到包含项中。
-1. `ADBMobile-4.0.0BETA-BlackBerry` 在文件夹中，有一个指定的 `.json` 配置文件 `ADBMobileConfig.json`。
+1. In the `ADBMobile-4.0.0BETA-BlackBerry` folder, there is a `.json` config file named `ADBMobileConfig.json`.
 
    将该文件复制到项目的根目录。
 1. Right-click on your project and select **[!UICONTROL Refresh]**.
 
-   `.json` 该文件现在应显示在 **[!UICONTROL 项目资源管理器]**&#x200B;中。
+   The `.json` file should now be visible in your **[!UICONTROL Project Explorer]**.
 1. 打开项目的 `bar-descriptor.xml` 文件。
 1. 在窗口底部选择&#x200B;**[!UICONTROL 资产]选项卡。**
 1. 确认已选择&#x200B;**[!UICONTROL （所有配置）]**，然后单击窗口的&#x200B;**[!UICONTROL 资产]部分中的**&#x200B;添加文件&#x200B;**。**
    >[!TIP]
    >
-   >QNX Mumentics IDE中存在一个错误，它有时会阻止那些按钮可见。如果看不到按钮，则在窗口显示之前调整窗口大小。
+   >There is a bug in the QNX Momentics IDE that sometimes prevents those buttons from being visible. If you can't see the buttons, resize the windows until they appear.
 
-1. 单击 **[!UICONTROL “工作区]**”。
+1. Click Workspace.****
 1. Find the `ADBMobileConfig.json` file in your project and click **[!UICONTROL OK]**.
 
 Your application can import the classes/interfaces from the `adobeMobileLibrary.jar` library by using `#include <ADBMobile.hpp>`.
@@ -87,6 +87,6 @@ In `bar-descriptor.xml` in the project directory, add the line `<permission>acce
 }
 ```
 
-You must at least update the `rsids` and `server` parameters. 有关详细信息，请参阅 [Adobe Mobile类和方法参考](/help/blackberry/methods.md)。
+You must at least update the `rsids` and `server` parameters. For more details, see Adobe Mobile class and method reference.[](/help/blackberry/methods.md)
 
 现在，您可以在 BlackBerry 10 应用程序中实施 Analytics。
