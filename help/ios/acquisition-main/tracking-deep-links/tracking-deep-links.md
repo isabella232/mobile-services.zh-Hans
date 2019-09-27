@@ -1,10 +1,10 @@
 ---
 description: 您可以使用此信息通过 Adobe Mobile iOS SDK 在移动设备应用程序中跟踪深层链接和延期深层链接。
 seo-description: 您可以使用此信息通过 Adobe Mobile iOS SDK 在移动设备应用程序中跟踪深层链接和延期深层链接。
-seo-title: 跟踪深层链接
-solution: Marketing Cloud，Analytics
+seo-title: Tracking deep links
+solution: Marketing Cloud,Analytics
 title: 跟踪深层链接
-uuid: 08dc2820-20fd3-419f-ac2 d-dcf12532578 a
+uuid: 08dc2820-7fd3-419f-ac2d-dcf12532578a
 translation-type: tm+mt
 source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
 
@@ -21,10 +21,10 @@ source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
 
 1. 将 SDK 添加到您的项目并实施生命周期量度。
 
-   有关更多信息，请参阅&#x200B;*在核心实施和生命周期* 中 [将SDK和配置文件添加到您的项目](/help/ios/getting-started/dev-qs.md)。
+   有关详细信息，请参 *阅在核心实施和生命周期中将SDK和配置文件添加*[到您的项目中](/help/ios/getting-started/dev-qs.md)。
 1. 注册应用程序以处理应用程序间通信或支持通用链接。
 
-   有关更多信息，请参阅 [应用程序间通信](https://developer.apple.com/library/ios/documentation/iPhone/Conceptual/iPhoneOSProgrammingGuide/Inter-AppCommunication/Inter-AppCommunication.html#//apple_ref/doc/uid/TP40007072-CH6-SW10) 或 [支持通用链接](https://developer.apple.com/library/ios/documentation/General/Conceptual/AppSearch/UniversalLinks.html)
+   有关详细信息，请参 [阅应用程序间通信](https://developer.apple.com/library/ios/documentation/iPhone/Conceptual/iPhoneOSProgrammingGuide/Inter-AppCommunication/Inter-AppCommunication.html#//apple_ref/doc/uid/TP40007072-CH6-SW10) 或支 [持通用链接](https://developer.apple.com/library/ios/documentation/General/Conceptual/AppSearch/UniversalLinks.html)
 
 1. 跟踪 openURL 中的深层链接。
 
@@ -50,7 +50,7 @@ source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
 
 The Adobe Mobile SDK can parse key and value pairs of data appended to any deep or Universal Link, provided that the link contains a key with a `a.deeplink.id` label and a corresponding non-null and user generated value. 附加到链接的数据的所有键值对都将进行解析，附加到生命周期点击，然后发送到 Adobe Analytics，前提是该链接包含 `a.deeplink.id` 键和值。
 
-您还可以选择将以下一个或多个保留密钥(带有用户生成的值)追加到深层或通用链接：
+您还可以选择将以下一个或多个保留键（带有用户生成的值）附加到深层链接或通用链接：
 
 * `a.launch.campaign.trackingcode`
 * `a.launch.campaign.source`
@@ -60,7 +60,7 @@ The Adobe Mobile SDK can parse key and value pairs of data appended to any deep 
 
 这些键是用于在 Adobe Analytics 中进行报告的预映射变量。有关映射和处理规则的更多信息，请参阅[处理规则和上下文数据](/help/ios/getting-started/proc-rules.md)。
 
-### 跟踪延迟深层链接
+### 跟踪延迟的深层链接
 
 1. 注册 Adobe 数据回调。
 
@@ -69,7 +69,7 @@ The Adobe Mobile SDK can parse key and value pairs of data appended to any deep 
    }];
    ```
 
-1. 内部处理。`ADBMobileDataEventDeepLink``AdobeDataCallback`
+1. 在内 `ADBMobileDataEventDeepLink` 部处 `AdobeDataCallback`理。
 
    ```objective-c
    [ADBMobile registerAdobeDataCallback:^(ADBMobileDataEvent event, NSDictionary * _Nullable adobeData) { 
