@@ -2,10 +2,10 @@
 description: 由通用 Windows 平台库提供的 Target 方法列表。
 seo-description: 由通用 Windows 平台库提供的 Target 方法列表。
 seo-title: Target 方法
-solution: Marketing Cloud，Analytics
+solution: Marketing Cloud,Analytics
 title: Target 方法
 topic: 开发人员和实施
-uuid: 2ad5953b-7850-446a-8053-b3715 b86329 b
+uuid: 2ad5953b-7850-446a-8053-b3715b86329b
 translation-type: tm+mt
 source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
 
@@ -18,7 +18,7 @@ source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
 
 SDK 当前支持多种 Adobe Experience Cloud 解决方案，其中包括 Analytics、Target 和 Audience Manager。
 
-[生命周期指标](/help/universal-windows/metrics.md) 作为参数发送到每个mbox加载。
+[生命周期指标](/help/universal-windows/metrics.md) (Lifecycle metrics)作为参数发送到每个mbox加载。
 
 >[!TIP]
 >
@@ -26,7 +26,7 @@ SDK 当前支持多种 Adobe Experience Cloud 解决方案，其中包括 Analyt
 
 ## 类引用：TargetLocationRequest
 
-## 属性
+## 资产
 
 ```
 property Platform::String ^name; 
@@ -36,7 +36,7 @@ property Windows::Foundation::Collections::IMap<Platform::String^, Platform::Obj
 
 ## 字符串常量
 
-此信息可帮助您设置自定义参数的密钥。
+此信息可帮助您为自定义参数设置键。
 
 ```
 static property Platform::String ^TARGET_PARAMETER_ORDER_ID { 
@@ -68,7 +68,7 @@ static property Platform::String ^TARGET_PARAMETER_MBOX_HOST {
 }
 ```
 
-* **LoadRequest(WinJS：loadRequest)**
+* **LoadRequest(winJS:loadRequest)**
 
    向您配置的 Target 服务器发送 `request`，并返回在块 `callback` 中生成的选件的字符串值。
 
@@ -87,7 +87,7 @@ static property Platform::String ^TARGET_PARAMETER_MBOX_HOST {
        });
       ```
 
-* **CreateEquest(WinJS：createRequest)**
+* **CreateRequest(winJS:createRequest)**
 
    通过给定参数创建 `TargetLocationRequest` 对象。
 
@@ -104,7 +104,7 @@ static property Platform::String ^TARGET_PARAMETER_MBOX_HOST {
       var heroBannerRequest = ADB.Target.createRequest("heroBanner","default.png", null); 
       ```
 
-* **createOrderConfirmRequest(WinJS：createOrderConfirmRequest)**
+* **CreateOrder&#x200B;ConfirmRequest (winJS: createOrder&#x200B;ConfirmRequest)**
 
    通过给定参数创建 `TargetLocationRequest` 对象。
 
@@ -121,7 +121,7 @@ static property Platform::String ^TARGET_PARAMETER_MBOX_HOST {
       var orderConfirm = ADB.Target.createOrderConfirmRequest("orderConfirm","order","47.88","3722",null);
       ```
 
-* **clearCookies(WinJS：clearCookies)**
+* **ClearCookies (winJS: clearCookies)**
 
    清除当前设备上的应用程序的 Target Cookie。
 
@@ -137,7 +137,7 @@ static property Platform::String ^TARGET_PARAMETER_MBOX_HOST {
       ADBMobile.Target.clearCookies();
       ```
 
-* **getPCID(WinJS：getPCID)**
+* **GetPcId (winJS: getPcId)**
 
    返回当前设备的 PC ID Cookie。
 
@@ -153,7 +153,7 @@ static property Platform::String ^TARGET_PARAMETER_MBOX_HOST {
       autopcId = ADBMobile.Target.getPcId();
       ```
 
-* **getSessionID(WinJS：getSessionID)**
+* **GetSessionId (winJS: getSessionId)**
 
    返回当前设备的会话 ID Cookie。
 
