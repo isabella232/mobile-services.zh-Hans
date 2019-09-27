@@ -14,11 +14,11 @@ source-git-commit: 13ff2cb549c4b82a4e0285e1c7c6b3f9c1a5bd4b
 
 在 Adobe Mobile Services 用户界面中配置深层链接 URL 后，该 URL 将通过 adb_deeplink 键包含在推送有效负荷中。
 
-您可以通过调用 `remoteMessage.getData().get("adb_deeplink")` 该URL获取URL `FirebaseMessagingService`。
+You can get the URL by calling  in the .`remoteMessage.getData().get("adb_deeplink")``FirebaseMessagingService`
 
 >[!TIP]
 >
->您可以根据有效负荷是否有深层链接URL定义不同的意图。
+>You can define different intents depending on whether the payload has a deep linking URL.
 
 1. 完成以下任务之一：
 
