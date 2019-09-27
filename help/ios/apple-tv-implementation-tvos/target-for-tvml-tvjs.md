@@ -16,7 +16,7 @@ source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
 
 >[!IMPORTANT]
 >
->Before using the `ADBTarget` element in your TVML pages, you must configure your TVML/TVJS app to use the tvOS SDK. 有关更多信息，请参阅 [Apple TV实施(带电视)](/help/ios/apple-tv-implementation-tvos/apple-tv-implementation-tvos.md)。
+>Before using the `ADBTarget` element in your TVML pages, you must configure your TVML/TVJS app to use the tvOS SDK. For more information, see Apple TV Implementation with tvOS.[](/help/ios/apple-tv-implementation-tvos/apple-tv-implementation-tvos.md)
 
 ## 入门指南 {#section_88445645FD67416EAF6FDC3E3D3F5C33}
 
@@ -30,11 +30,11 @@ The returned content from Target replaces all content between `<ADBTarget>` and 
 
 >[!TIP]
 >
->您应计划要相应替换的内容。
+>您应该相应地计划要替换的内容。
 
 您的用例可能不像在标签中替换字符串值一样简单，也不像替换整个页面一样复杂。
 
-## 配置AdBTarget元素 {#section_44A7AEC6FC0648ADAD0BACB57D493AFA}
+## Configure your ADBTarget element {#section_44A7AEC6FC0648ADAD0BACB57D493AFA}
 
 在 `ADBTarget` 元素中，您必须在 `mbox` 属性中提供 Mbox 名称。You can optionally add custom properties to your request in the `customParameterName="customParameterValue"` format.
 
@@ -42,28 +42,28 @@ The returned content from Target replaces all content between `<ADBTarget>` and 
 
    Mbox 位置名称.
 
-   * 属性类型：字符串
-   * 此属性为必需。
+   * Property type: String
+   * 此属性为必需属性。
 
 * **`id`**
 
-   订单ID。
+   The Order ID.
 
-   * 属性类型：字符串
-   * 不 **** 需要此属性。
+   * Property type: String
+   * 此属性不 **是必需** 。
 
 * **`total`**
 
-   订单总数。
+   The order total.
 
    * 属性类型：字符串
-   * 不 **** 需要此属性。
+   * 此属性不 **是必需** 。
 
 * **`purchasedProductIds`**
 
    此订单的已购产品 ID 的逗号分隔列表。
 
-   * 下面是此属性的代码示例：
+   * 以下是此属性的代码示例：
 
 
       ```objective-c
@@ -71,27 +71,27 @@ The returned content from Target replaces all content between `<ADBTarget>` and 
       ```
 
    * 属性类型：字符串
-   * 不 **** 需要此属性。
+   * This property is not required.****
 
 * **`mboxParameters`**
 
-   `mboxParameters` 的键值对列表。此字符串中的每个条目使用分号分隔，键值由冒号分隔。
+   `mboxParameters` 的键值对列表。此字符串中的每个条目都以分号分隔，键值以冒号分隔。
 
-   * 下面是此属性的代码示例：
+   * 以下是此属性的代码示例：
 
       ```objective-c
       mboxParameters="mboxparameterKey:mboxParameterValue;mboxParameterKey1:mboxParameterValue1;mboxParameterKey2:mboxParameterValue2"
       ```
 
    * 属性类型：字符串
-   * 不 **** 需要此属性。
+   * 此属性不 **是必需** 。
 
 * **`customParameterName`**
 
-   此属性的值 `customParameterValue`为。
+   此属性的值为 `customParameterValue`。
 
    * 属性类型：字符串
-   * 不 **** 需要此属性。
+   * 此属性不 **是必需** 。
 
 
 ## 示例 {#section_6D6D6E8C7FE147168FC30D83CBC06985}
