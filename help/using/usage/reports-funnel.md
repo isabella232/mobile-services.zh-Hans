@@ -2,11 +2,11 @@
 description: “漏斗”报表可帮助确定客户在与您的移动设备应用程序进行交互时，在哪里放弃了营销活动或偏离了定义的转化路径。您还可以使用“漏斗”报表来比较不同区段的操作。
 keywords: mobile
 seo-description: “漏斗”报表可帮助确定客户在与您的移动设备应用程序进行交互时，在哪里放弃了营销活动或偏离了定义的转化路径。您还可以使用“漏斗”报表来比较不同区段的操作。
-seo-title: 漏斗报表
-solution: Marketing Cloud，Analytics
-title: 漏斗报表
+seo-title: Funnel report
+solution: Marketing Cloud,Analytics
+title: 漏斗报告
 topic: 报表,量度
-uuid: 268b4ab9-2e29-4423-9f79-ad93 f5231 eDE
+uuid: 268b4ab9-2e29-4423-9f79-ad93f5231ede
 translation-type: tm+mt
 source-git-commit: e9691f9cbeadd171948aa752b27a014c3ab254d6
 
@@ -23,7 +23,7 @@ source-git-commit: e9691f9cbeadd171948aa752b27a014c3ab254d6
 
 >[!TIP]
 >
->要保存自定义漏斗，请在配置设置并运行报表后保存URL。您可以共享此 URL，或将它保存在文档中。
+>要保存自定义漏斗，请在配置URL设置并运行报告后保存该URL。 您可以共享此 URL，或将它保存在文档中。
 
 以下是此报表的示例：
 
@@ -53,7 +53,7 @@ To generate the report, click **[!UICONTROL Run]**.
    通过更改&#x200B;**[!UICONTROL 显示方式]选项、添加量度和过滤器，以及添加其他系列（量度）等自定义您的报表.** For more information, see [Customize Reports](/help/using/usage/reports-customize/reports-customize.md).
 * **[!UICONTROL 过滤器]**
 
-   单击&#x200B;**[!UICONTROL 过滤器]可创建跨不同报表的过滤器，以便查看区段在所有移动设备报表中的执行情况。**&#x200B;置顶过滤器允许您定义应用于所有非路径报表的过滤器。有关更多信息，请参阅 [添加粘性滤镜](/help/using/usage/reports-customize/t-sticky-filter.md)。
+   单击&#x200B;**[!UICONTROL 过滤器]可创建跨不同报表的过滤器，以便查看区段在所有移动设备报表中的执行情况。**&#x200B;置顶过滤器允许您定义应用于所有非路径报表的过滤器。有关详细信息，请参阅 [添加粘性过滤器](/help/using/usage/reports-customize/t-sticky-filter.md)。
 * **[!UICONTROL 下载]**
 
    Click **[!UICONTROL PDF]** or **[!UICONTROL CSV]** to download or open documents and share with users who do not have access to Mobile Services or to use the file in presentations.
