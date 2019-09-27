@@ -2,10 +2,10 @@
 description: 状态是指您的应用程序中的不同屏幕或视图。每当应用程序中显示了新状态（例如，用户从主页导航到新闻源）时，都应发送一个跟踪状态调用。在 iOS 中，通常会在每个视图的 viewDidLoad 方法中跟踪状态。
 seo-description: 状态是指您的应用程序中的不同屏幕或视图。每当应用程序中显示了新状态（例如，用户从主页导航到新闻源）时，都应发送一个跟踪状态调用。在 iOS 中，通常会在每个视图的 viewDidLoad 方法中跟踪状态。
 seo-title: 跟踪应用程序状态
-solution: Marketing Cloud，Analytics
+solution: Marketing Cloud,Analytics
 title: 跟踪应用程序状态
 topic: 开发人员和实施
-uuid: 12cca4eb-1f15-4cec-a58 f-76b69 d
+uuid: 12cca4eb-1f15-4cec-a58f-76b69eaff99d
 translation-type: tm+mt
 source-git-commit: df4ea2c4002611c72009cf69598cbbb74b5c15c4
 
@@ -24,7 +24,7 @@ source-git-commit: df4ea2c4002611c72009cf69598cbbb74b5c15c4
 
 1. 将库添加到您的项目并实施生命周期。
 
-   有关详细信息，请参阅 *将SDK和配置文件添加到核心实施和生命周期* 中 [的项目](/help/ios/getting-started/dev-qs.md)。
+   有关详细信息，请参 *阅在核心实施和生命周期中将SDK和配置文件添加*[到您的项目中](/help/ios/getting-started/dev-qs.md)。
 1. 导入库。
 
    ```objective-c
