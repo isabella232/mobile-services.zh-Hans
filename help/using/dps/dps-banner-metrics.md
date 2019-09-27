@@ -1,12 +1,12 @@
 ---
-description: “横幅量度”报表会针对您的现有数据显示一个环状层次视图。此报告仅适用于Digital Publishing Suite(DPS)客户。
+description: “横幅量度”报表会针对您的现有数据显示一个环状层次视图。此报告仅对Digital Publishing Suite(DPS)客户可用。
 keywords: mobile
-seo-description: “横幅量度”报表会针对您的现有数据显示一个环状层次视图。此报告仅适用于Digital Publishing Suite(DPS)客户。
+seo-description: “横幅量度”报表会针对您的现有数据显示一个环状层次视图。此报告仅对Digital Publishing Suite(DPS)客户可用。
 seo-title: 横幅量度
-solution: Marketing Cloud，Analytics
+solution: Marketing Cloud,Analytics
 title: 横幅量度
 topic: 量度
-uuid: 50638c55d-10d-43d-7d12-e48908572766
+uuid: 50638c55-f10d-43d7-8d12-e48908572766
 translation-type: tm+mt
 source-git-commit: 7f53ece867144236f170533d8474dada4c29ad39
 
@@ -15,7 +15,7 @@ source-git-commit: 7f53ece867144236f170533d8474dada4c29ad39
 
 # 横幅量度 {#banner-metrics}
 
-“**[!UICONTROL 横幅量度]”报表会针对您的现有数据显示一个环状层次视图。**&#x200B;此报告仅适用于Digital Publishing Suite(DPS)客户。
+“**[!UICONTROL 横幅量度]”报表会针对您的现有数据显示一个环状层次视图。**&#x200B;此报告仅对Digital Publishing Suite(DPS)客户可用。
 
 ![](assets/dps_banner_name.png)
 
@@ -23,7 +23,7 @@ source-git-commit: 7f53ece867144236f170533d8474dada4c29ad39
 
 * **[!UICONTROL 横幅名称]**，横幅的名称。
 * **[!UICONTROL 读者数]**，应用程序用户的数量。
-* **[!UICONTROL 横幅名称实例]**，即通过单击和印象引用横幅的次数。
+* **[!UICONTROL Banner Name Instances]**, which is the number of times the banner was referenced through clicks and impressions.
 * **[!UICONTROL 横幅点击次数]**，用户点击横幅的次数。
 * **[!UICONTROL 横幅展示次数]**，在浏览器页面上查看（或显示）横幅的次数。
 
