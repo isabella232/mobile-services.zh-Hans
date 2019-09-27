@@ -3,10 +3,10 @@ description: 此信息可帮助您排查推送消息问题。
 keywords: mobile
 seo-description: 此信息可帮助您排查推送消息问题。
 seo-title: 排查推送消息问题
-solution: Marketing Cloud，Analytics
+solution: Marketing Cloud,Analytics
 title: 排查推送消息问题
 topic: 量度
-uuid: 87d7dcb6-82a8-46e3-a6 ed-7f895 a22 f2 af
+uuid: 87d7dcb6-82a8-46e3-a6ed-7f895a22f2af
 translation-type: tm+mt
 source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
 
@@ -33,7 +33,7 @@ source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
 
    >[!TIP]
    >
-   >推送服务不保证发送消息。有关服务可靠性的更多信息，请参阅相应的文档：
+   >推送服务不保证消息将被发送。 有关服务可靠性的更多信息，请参阅相应的文档：
    >
    >* **APNS**：[服务的质量](https://developer.apple.com/documentation/usernotifications) (Quality of Service)
       >
