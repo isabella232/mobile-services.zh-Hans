@@ -3,10 +3,10 @@ description: 此信息可帮助您实施 Android 库并收集生命周期量度�
 keywords: android；库；移动；sdk
 seo-description: 此信息可帮助您实施 Android 库并收集生命周期量度，例如启动次数、升级次数、会话数、参与用户数等。
 seo-title: 核心实施和生命周期
-solution: Marketing Cloud，Analytics
+solution: Marketing Cloud,Analytics
 title: 核心实施和生命周期
 topic: 开发人员和实施
-uuid: af4d11ac-8245-46a0-9b3a-4a29cfbbbb2
+uuid: af4d11ac-8245-46a0-9b3a-4a0a29cfbbb2
 translation-type: tm+mt
 source-git-commit: c4da3599c858bfbccb7af954df75f94eb7d8e99a
 
@@ -21,16 +21,16 @@ source-git-commit: c4da3599c858bfbccb7af954df75f94eb7d8e99a
 
 >[!IMPORTANT]
 >
->要下载SDK，您必须使用Android2.2或更高版本。
+>要下载SDK，必须使用Android 2.2或更高版本。
 
 1. 请完成以下部分中的步骤，以设置一个开发报表包并下载预填充版本的配置文件：
 
    * [创建报表包](/help/android/getting-started/requirements.md)
    * [下载 SDK](/help/android/getting-started/requirements.md)
 
-1. 下载并解压缩文件 `[Your_App_Name_]AdobeMobileLibrary-4.*-Android.zip` 并验证存在以下软件组件：
+1. 下载并解压 `[Your_App_Name_]AdobeMobileLibrary-4.*-Android.zip` 缩文件并验证以下软件组件是否存在：
 
-   * `adobeMobileLibrary.jar`这是将与Android设备和模拟器一起使用的库。
+   * `adobeMobileLibrary.jar`，将与Android设备和模拟器一起使用的库。
 
    * `ADBMobileConfig.json`，为您的应用程序自定义的 SDK 配置文件。
    >[!IMPORTANT]
@@ -39,7 +39,7 @@ source-git-commit: c4da3599c858bfbccb7af954df75f94eb7d8e99a
 
 ## Add the SDK and config file to your IntelliJ IDEA or Eclipse project {#section_B89510FBB4C646AEA73A185B966E54D3}
 
-**IntelliJ IDEA项目**
+**IntelliJ IDEA project**
 
 要将 SDK 和配置文件添加到您的项目，请执行以下操作：
 
@@ -81,7 +81,7 @@ AppMeasurement 库需要以下权限来发送数据和记录离线跟踪调用�
 
 ## Set the application context {#set-application-context}
 
-应在主活动的 `onCreate` 方法中添加以下代码：
+应在主活动的方法中添 `onCreate` 加以下代码：
 
 ```java
    @Override
@@ -125,9 +125,9 @@ AppMeasurement 库需要以下权限来发送数据和记录离线跟踪调用�
 
 >[!IMPORTANT]
 >
->您必须将这些调用添加到每个活动，以确保准确的崩溃报告。有关更多信息，请参阅 [跟踪应用程序崩溃](/help/android/analytics-main/crashes.md)。
+>您必须将这些调用添加到每个活动，以确保准确的崩溃报告。 有关详细信息，请参阅 [跟踪应用程序崩溃](/help/android/analytics-main/crashes.md)。
 
-## 包含具有生命周期调用的其他数据
+## Include additional data with lifecycle calls
 
 要通过生命周期量度调用包含其他数据，请将一个额外的参数传递到包含上下文数据的 `collectLifecycleData`：
 
