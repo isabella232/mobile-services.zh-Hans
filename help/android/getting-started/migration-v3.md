@@ -1,12 +1,12 @@
 ---
 description: 此信息可帮助您从 3.x 或 2.x 版本的 Android 库迁移至 4.x 版本的 Android 库。
-keywords: android；库；移动；sdk
+keywords: android;library;mobile;sdk
 seo-description: 此信息可帮助您从 3.x 或 2.x 版本的 Android 库迁移至 4.x 版本的 Android 库。
 seo-title: 迁移至 Android 4.x 库
-solution: Marketing Cloud，Analytics
+solution: Marketing Cloud,Analytics
 title: 迁移至 Android 4.x 库
 topic: 开发人员和实施
-uuid: 906e83bb-2aa-4aa2-ac9 b-3fba6 b833 c7 e
+uuid: 906e83bb-2faf-4aa2-ac9b-3fba6b833c7e
 translation-type: tm+mt
 source-git-commit: 68bc21f1c6dba2faeed332495592114af90c8f61
 
@@ -80,9 +80,9 @@ source-git-commit: 68bc21f1c6dba2faeed332495592114af90c8f61
 
 ### 从版本 3.x 迁移
 
-要从3.x迁移到4，请将配置变量/方法值移至 `ADBMobileConfig.json` 变量。
+To migrate from version 3.x to 4, move the configuration variable/method value to the  variable.`ADBMobileConfig.json`
 
-| 配置变量或方法 | Variable in the `ADBMobileConfig.json` file |
+| Configuration Variable or Method | Variable in the `ADBMobileConfig.json` file |
 |--- |--- |
 | setOfflineTrackingEnabled | "offlineEnabled" |
 | setOfflineHitLimit | "batchLimit" |
@@ -96,14 +96,14 @@ source-git-commit: 68bc21f1c6dba2faeed332495592114af90c8f61
 
 ### 从版本 2.x 迁移
 
-要从2.x迁移到版本4，请将值从第一列移至第二列中的变量。
+To migrate from version 2.x to version 4, move the value from the first column to the variable in the second column.
 
 | 配置变量 | Variable in the `ADBMobileConfig.json` file |
 | --- |--- |
 | trackOffline | "offlineEnabled" |
 | offlineLimit | "batchLimit" |
 | account | "rsids" |
-| trackingServer | "server"删除 `"https://"` 前缀。协议前缀将根据 "ssl" 设置自动添加。 |
+| trackingServer | "server", remove the  prefix. `"https://"`协议前缀将根据 "ssl" 设置自动添加。 |
 | trackingServerSecure | 删除。为确保安全连接，请定义 "server"，然后启用 "ssl"。 |
 | charSet | "charset" |
 | currencyCode | "currency" |
@@ -116,17 +116,17 @@ source-git-commit: 68bc21f1c6dba2faeed332495592114af90c8f61
 | dynamicVariablePrefix | 删除，不再使用。 |
 | visitorNamespace | 删除，不再使用。 |
 | usePlugins | 删除，不再使用。 |
-| useBestPractices所有对流失测量 (getChurnInstance) 的调用 | 删除，由生命周期指标取代。 |
+| useBestPractices所有对流失测量 (getChurnInstance) 的调用 | Remove, replaced by  Lifecycle Metrics. |
 
 ## Update track calls and tracking variables {#section_96E7D9B3CDAC444789503B7E7F139AB9}
 
 SDK 版本 4 不使用以 Web 为主的 `track` 和 `trackLink` 调用，而是使用以下方法：
 
-* `trackState`这是应用程序中可用的视图，如 `home dashboard`、 `app settings``cart`等。
+* `trackState`, which are the views that are available in your app, such as , , , and so on.`home dashboard``app settings``cart`
 
    这些状态与网站中的页面类似，而且 `trackState` 调用会使页面查看次数递增。
 
-* `trackAction` 应用程序中 `logons``banner taps``feed subscriptions`发生的操作，如您要测量的操作。
+* `trackAction` 应用程序中发 `logons`生的、 `banner taps`、 `feed subscriptions`等您要测量的动作。
 
 The `contextData` parameter for both of these methods is a `HashMap<String, Object>`, which contains the name-value pairs that are sent as context data.
 
@@ -144,7 +144,7 @@ The `contextData` parameter for both of these methods is a `HashMap<String, Obje
 
 您直接分配到变量的值应当添加到 `data` 哈希映射中。This means that calls to `setProp`, `setEvar`, and assignments to persistent context data should be removed and the values be added to the `data` parameter.
 
-## AppSection/server、Geozip、事务ID、Campaign和其他标准变量
+## AppSection/服务器、GeoZip、交易ID、Campaign和其他标准变量
 
 您在测量对象（包括上面列出的变量）中设置的数据应当添加到 `data` 哈希映射中。随 `trackState` 或 `trackAction` 调用发送的唯一数据是 `data` 参数中的有效负荷。
 
@@ -170,7 +170,7 @@ Replace the `visitorID` variable with a call to `setUserIdentifier`.
 
 ## Offline tracking {#section_5D4CD8CD1BE041A79A8657E31C0D24C6}
 
-`ADBMobileConfig.json` 在文件中启用离线跟踪，所有其他脱机配置都自动完成。
+Offline tracking is enabled in the `ADBMobileConfig.json` file, and all other offline configuration is done automatically.
 
 删除对以下方法的调用：
 
