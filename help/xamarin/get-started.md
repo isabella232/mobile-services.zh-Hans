@@ -2,10 +2,10 @@
 description: 本主题介绍如何开始使用用于移动解决方案 4.x SDK 的 Xamarin 组件。
 keywords: Xamarin
 seo-description: 本主题介绍如何开始使用用于移动解决方案 4.x SDK 的 Xamarin 组件。
-seo-title: Experience Cloud Solutions4.x SDK的Xamarin组件
-solution: Marketing Cloud，开发人员
-title: Experience Cloud Solutions4.x SDK的Xamarin组件
-uuid: e7a48107-bd0 e-47d6-b49 c-dfce189 ac37
+seo-title: 适用于Experience Cloud Solutions 4.x SDK的Xamarin组件
+solution: Marketing Cloud,Developer
+title: Xamarin components for Experience Cloud Solutions 4.x SDK
+uuid: e7a48107-bd0e-47d6-b49c-dfdae189ac37
 translation-type: tm+mt
 source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
 
@@ -22,18 +22,18 @@ source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
 
 >[!IMPORTANT]
 >
->Adobe Mobile SDK不再提供在Xamarin Components商店或Nubet Gallery中。要下载 Xamarin 组件，请转到 [GitHub](https://github.com/Adobe-Marketing-Cloud/mobile-services)。
+>Xamarin组件商店或NuGet Gallery中不再提供Adobe Mobile SDK。 要下载 Xamarin 组件，请转到 [GitHub](https://github.com/Adobe-Marketing-Cloud/mobile-services)。
 
 
 ## Android {#section_9CAE1BFD359242568D8288C12A4B7A7D}
 
-将AdbMobile组件导入您的Xamarin. Android项目：
+将ADBMobile组件导入您的Xamarin.Android项目：
 
-1. 打开您的Xamarin项目
+1. 打开Xamarin项目
 
 1. Open **[!UICONTROL References]** dialog and click the **[!UICONTROL .Net Assembly]** tab.
 
-1. 从 `ADBMobile.XamarinAndroidBinding.dll`**[!UICONTROL lib/Android]** 文件夹中进行选择。
+1. Select  from the lib/Android folder.`ADBMobile.XamarinAndroidBinding.dll`****
 
 1. Add your `ADBMobileConfig.json` file to the **[!UICONTROL Assets]** folder of your project.
 
@@ -41,13 +41,12 @@ source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
 
    * `INTERNET`
    * `ACCESS_NETWORK_STATE`
-
    ```java
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
    ```
 
-1. 如果您使用应用程序内消息传递，请添加以下活动和接收方：
+1. If you are using In-app messaging, add the following activity and receiver :
 
    ```java
    <activity 
@@ -56,7 +55,7 @@ source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
    <receiver android:name="com.adobe.mobile.MessageNotificationHandler" />
    ```
 
-1. 如果您使用的是客户获取，请添加以下接收方：
+1. 如果您使用客户获取，请添加以下接收器：
 
    ```java
    <receiver android:name="com.your.package.name.GPBroadcastReceiver" android:exported="true">
@@ -68,12 +67,12 @@ source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
 
 ## iOS {#section_1531928DDE904D769B3987BF927D0E02}
 
-将AdbMobile组件导入您的Xamarin. iOS项目：
+将ADBMobile组件导入您的Xamarin.iOS项目：
 
 1. 打开您的Xamarin项目。
 1. Open **[!UICONTROL References]** dialog and click the **[!UICONTROL .Net Assembly]** tab.
 
-1. 从 `ADBMobile.XamarinIOSBinding.dll`**[!UICONTROL lib/ios统一]** 文件夹中进行选择。
+1. 从 `ADBMobile.XamarinIOSBinding.dll` lib/ios- **[!UICONTROL unified文件夹中进行选择]** 。
 
 1. 将您的 `ADBMobileConfig.json` 文件添加到项目中。
 
