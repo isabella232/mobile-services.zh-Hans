@@ -2,10 +2,10 @@
 description: 定时操作允许您测量某个操作从开始到结束之间的应用程序内时间和总时间。SDK 将计算完成该操作所用的每个会话内时间量以及跨会话总时间。您可以使用定时操作定义区段，并比较购买时间、通过水平、结帐流程等。
 seo-description: 定时操作允许您测量某个操作从开始到结束之间的应用程序内时间和总时间。SDK 将计算完成该操作所用的每个会话内时间量以及跨会话总时间。您可以使用定时操作定义区段，并比较购买时间、通过水平、结帐流程等。
 seo-title: 定时操作
-solution: Marketing Cloud，Analytics
+solution: Marketing Cloud,Analytics
 title: 定时操作
 topic: 开发人员和实施
-uuid: dbcbac a-6345-49f6-b050-0db05292 f005
+uuid: dbcbac5a-6345-49f6-b050-0db05292f005
 translation-type: tm+mt
 source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
 
@@ -31,7 +31,7 @@ source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
 
 1. 将库添加到您的项目并实施生命周期。
 
-   有关详细信息，请参阅 *将SDK和配置文件添加到核心实施和生命周期* 中 [的项目](/help/ios/getting-started/dev-qs.md)。
+   For more information, see Add the SDK and Config File to your Project in Core Implementation and Lifecycle.**[](/help/ios/getting-started/dev-qs.md)
 1. 导入库：
 
    ```objective-c
