@@ -1,9 +1,9 @@
 ---
 description: 用于 Xamarin 应用程序的类和枚举列表。
 seo-description: 用于 Xamarin 应用程序的类和枚举列表。
-seo-title: 类、枚举和接口
-title: 类、枚举和接口
-uuid: 2527b3ae-a447-4b2 e90-b3 b8 ec8 cb47 a
+seo-title: 类、表单和接口
+title: Classes, enums, and interfaces
+uuid: 2527b3ae-a447-4b2e-9e90-b3b8ec8cb47a
 translation-type: tm+mt
 source-git-commit: df4ea2c4002611c72009cf69598cbbb74b5c15c4
 
