@@ -2,7 +2,7 @@
 description: 此信息可帮助您对基于设备指纹的 V3 客户获取促销活动链接进行往返测试。
 seo-description: 此信息可帮助您对基于设备指纹的 V3 客户获取促销活动链接进行往返测试。
 seo-title: 测试 V3 客户获取
-solution: Marketing Cloud，Analytics
+solution: Marketing Cloud,Analytics
 title: 测试 V3 客户获取
 uuid: 89137ccf-4839-4b37-926e-303cf8e511a5
 translation-type: tm+mt
@@ -17,12 +17,12 @@ source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
 
 >[!IMPORTANT]
 >
->V客户赢取是指您使用Adobe Mobile Services UI中的客户赢取生成器创建的赢取链接。要使用此功能，您必须升级到 iOS SDK 版本 4.6.0 或更高版本。
+>  V3 客户获取是指您在 Adobe Mobile Services 用户界面中通过客户获取生成器创建的客户获取链接。要使用此功能，您必须升级到 iOS SDK 版本 4.6.0 或更高版本。
 
 如果应用商店中尚未提供相应的移动设备应用程序，则在创建促销活动链接时，可以选择任何移动设备应用程序作为目标。这只会影响在您单击客户获取链接后客户获取服务器将您重定向到的应用程序，而不会影响测试链接的功能。
 
-1. 完成 [移动App获取中的入门任务](/help/ios/acquisition-main/acquisition.md)。
-1. Navigate to the **[!UICONTROL Acquisition Builder]** in the Adobe Mobile Services UI and generate an acquisition campaign URL.
+1. 完成[移动设备应用程序客户获取](/help/ios/acquisition-main/acquisition.md)中的先决任务。
+1. 导航至 Adobe Mobile Services 用户界面中的&#x200B;**[!UICONTROL 客户获取生成器]，并生成客户获取促销活动 URL。**
 
    例如：
 
@@ -32,7 +32,7 @@ source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
 
 
    如果您在客户获取链接中同时引用 iOS 和 Android 应用程序，请使用 Apple Store 作为默认商店。
-1. Open the generated link in a desktop browser and go to `https://c00.adobe.com/v3/<appid>/end`.
+1. 在桌面浏览器中打开生成的链接，然后转到 `https://c00.adobe.com/v3/<appid>/end`。
 
    您应会在 JSON 响应中看到 `contextData`：
 
@@ -45,12 +45,12 @@ source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
 
    | 设置 | 值 |
    |--- |--- |
-   | acquisition | The server should be  `c00.adobe.com`. *`appid`* 应与您的 *`appid`* 客户赢取链接相同。 |
+   | acquisition | The server should be  `c00.adobe.com`. *`appid`* should equal the *`appid`* in your acquisition link. |
    | analytics | `referrerTimeout` 的值应大于 0。 |
 
 
 1. （有条件）如果您的应用程序配置文件中的 `ssl` 设置为 true，请更新您的客户获取链接以使用 HTTPS 协议。
-1. 从您计划安装应用程序的移动设备中单击生成的链接。
+1. Click the generated link from the mobile device on which you plan to install the app.
 
    Adobe 服务器 (`c00.adobe.com`) 将存储指纹并重定向到应用商店。无需下载应用程序进行测试。
 1. 从您在步骤 6 中使用的相同移动设备上首次启动应用程序。
@@ -65,7 +65,7 @@ source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
 
    如果您没有看到以上日志，请确保您完成了步骤 4 和 5。
 
-   下面是一些有关可能出错的信息：
+   以下是一些关于可能的错误的信息：
 
    * `Analytics - Unable to retrieve acquisition service response (<error message>)`出现网络错误。
 
@@ -79,7 +79,7 @@ source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
 
    * `Analytics - Acquisition referrer data was not complete, ignoring`
 
-      `a.referrer.campaign.name` 未包含 `contextData`在内。
+      `a.referrer.campaign.name` is not included in .`contextData`
 
    * `Analytics - Acquisition referrer timed out`
 
@@ -93,11 +93,11 @@ source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
 
       * 通过使用 HTTP 监控工具，可以监控从应用程序发送的点击，以提供客户获取归因验证。
 
-         You should see one `/v3/<appid>/start` request and one `/v3/<appid>/end` request sent to the acquisition server. 发送的用户代理中的变量可能会导致归因失败。
+         您应该会看到向客户获取服务器发送的一个 `/v3/<appid>/start` 请求和一个 `/v3/<appid>/end` 请求。发送的用户代理中的变量可能会导致归因失败。
 
          >[!TIP]
          >
-         >确保并 `https://c00.adobe.com/v3/<appid>/start``https://c00.adobe.com/v3/<appid>/end` 具有相同的用户代理值。
+         >确保 `https://c00.adobe.com/v3/<appid>/start` 和 `https://c00.adobe.com/v3/<appid>/end` 具有相同的用户代理值。
 
       * 客户获取链接和来自 SDK 的点击应使用相同的 HTTP/HTTPS 协议。
 
