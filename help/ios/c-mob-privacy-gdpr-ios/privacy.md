@@ -2,10 +2,10 @@
 description: 此信息可以帮助您处理 GDPR 数据删除请求。
 seo-description: 此信息可以帮助您处理 GDPR 数据删除请求。
 seo-title: 设置用户的选择状态
-solution: Marketing Cloud，Analytics
+solution: Marketing Cloud,Analytics
 title: 设置用户的选择状态
 topic: 开发人员和实施
-uuid: 44a09a25-93c6-4e1a-b69 e-710018e8 b6 c3
+uuid: 44a09a25-93c6-4e1a-b69e-710018e8b6c3
 translation-type: tm+mt
 source-git-commit: 06144a1695ac40ce984656491456968888f9e96e
 
@@ -22,7 +22,7 @@ source-git-commit: 06144a1695ac40ce984656491456968888f9e96e
 
 您可以使用以下设置控制设备上是否允许 Analytics、Target 和 Audience Manager 活动：
 
-* `privacyDefault` 在 [AdobeMobile JSON配置](/help/ios/configuration/json-config/json-config.md)中。
+* `privacyDefault` 在 [ADBMobile JSON配置中](/help/ios/configuration/json-config/json-config.md)。
 
    此设置控制初始设置，除非在代码中进行更改，否则将一直保留初始设置。
 
@@ -32,7 +32,7 @@ source-git-commit: 06144a1695ac40ce984656491456968888f9e96e
 
    有关这些方法的更多信息，请参阅 [配置方法](/help/ios/configuration/json-config/json-config.md).
 
-以下是有关各个隐私状态的信息：
+以下是有关每个隐私状态的信息：
 
 * **选择启用**
 
@@ -40,7 +40,7 @@ source-git-commit: 06144a1695ac40ce984656491456968888f9e96e
    * Target：发送 Mbox 请求。
    * Audience Manager：发送信号和 ID 同步。
    * Value in the JSON config file: `optedin`
-   * 值： `setPrivacyStatus``ADBMobilePrivacyStatusOptIn`
+   * 以下项中的 `setPrivacyStatus`值： `ADBMobilePrivacyStatusOptIn`
 
 * **选择禁用**
 
@@ -48,9 +48,9 @@ source-git-commit: 06144a1695ac40ce984656491456968888f9e96e
    * Target：不允许发送 Mbox 请求。
    * Audience Manager：不允许发送信号和 ID 同步。
    * Value in the JSON config file: `optedout`
-   * 值： `setPrivacyStatus``ADBMobilePrivacyStatusOptOut`
+   * 以下项中的 `setPrivacyStatus`值： `ADBMobilePrivacyStatusOptOut`
 
-* **未知**
+* **Unknown**
 
    * Analytics：如果&#x200B;**启用了**&#x200B;离线跟踪，将会保存点击，直到隐私状态更改为选择启用（发送点击）或选择禁用（丢弃点击）。
 
@@ -59,7 +59,7 @@ source-git-commit: 06144a1695ac40ce984656491456968888f9e96e
    * Target：发送 Mbox 请求。
    * Audience Manager：发送信号和 ID 同步。
    * Value in the JSON config file: `optunknown`
-   * 值： `setPrivacyStatus``ADBMobilePrivacyStatusUnknown`
+   * 以下项中的 `setPrivacyStatus`值： `ADBMobilePrivacyStatusUnknown`
 
 ## 示例 {#section_128AC455EE024193B5D4E5A565B53D00}
 
