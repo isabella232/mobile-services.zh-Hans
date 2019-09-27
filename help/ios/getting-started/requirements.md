@@ -2,10 +2,10 @@
 description: 完成这些步骤可将报表包配置为收集 iOS 应用程序数据。
 seo-description: 完成这些步骤可将报表包配置为收集 iOS 应用程序数据。
 seo-title: 开始之前
-solution: Marketing Cloud，Analytics
+solution: Marketing Cloud,Analytics
 title: 开始之前
 topic: 开发人员和实施
-uuid: 04133f6818-41fd-8a13-aec5 b6 f04 df6
+uuid: 04133f68-3618-41fd-8a13-aec5b6f04df6
 translation-type: tm+mt
 source-git-commit: 06144a1695ac40ce984656491456968888f9e96e
 
@@ -27,11 +27,11 @@ Analytics 管理员和应用程序开发人员必须完成以下任务：
 1. 完成[登录到 Adobe Mobile Services 用户界面](/help/ios/getting-started/getting-started.md)中的某一部分。
 1. 为每个应用程序开发人员创建一个 Analytics 帐户。
 
-此时应用程序开发人员便拥有查看您创建的报表包的权限。
+此时应用程序开发人员便拥有查看您创建的报表包的权限.
 
 >[!IMPORTANT]
 >
->要创建新的报表包并下载SDK，您必须是Analytics管理员。
+>To create a new report suite and download the SDKs, you must be an Analytics Administrator.
 
 ### 应用程序开发人员
 
@@ -52,11 +52,11 @@ Adobe Mobile Services 是用于移动设备应用程序分析和定位的主要�
 
    使用您的 Adobe ID 登录到 [Experience Cloud](https://marketing.adobe.com)。
 
-   此方法假定您的公司已被配置，并且您已关联了Analytics帐户。有关供应的更多信息，请参阅 [管理Experience Cloud用户和产品](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html)。有关链接帐户的详细信息，请参阅 [组织和帐户链接](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/organizations.html)。
+   This method assumes that your company has been provisioned and you have linked your Analytics account. 有关配置的详细信息，请参 [阅管理Experience cloud用户和产品](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html)。 有关关联帐户的详细信息，请参阅组 [织和帐户关联](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/organizations.html)。
 
    >[!TIP]
    >
-   >如果您不确定您的公司是否已在Experience Cloud中供应，请使用您现有的Adobe Analytics帐户。
+   >如果您不确定您的公司是否已在Experience cloud中配置，请使用您的现有Adobe Analytics帐户。
 
 * **Adobe Analytics**
 
@@ -74,7 +74,7 @@ Adobe Mobile Services 是用于移动设备应用程序分析和定位的主要�
 
 1. 输入应用程序的名称并选择一个唯一的报表包 ID。
 
-   例如，报表包 ID 为 `mycomobileappdev`。您需要为开发和生产版本设置单独的报表套件和应用程序。准备好设置生产版本时，请重复这些步骤。
+   例如，报表包 ID 为 `mycomobileappdev`。您需要为开发和生产版本设置单独的报表包和应用程序。 准备好设置生产版本后，请重复这些步骤。
 1. 保留选中&#x200B;**[!UICONTROL 移动设备应用程序模板]。**
 
    此模板将启用时间戳以收集离线数据，并激活移动设备解决方案变量以捕获生命周期量度。
@@ -85,7 +85,7 @@ Adobe Mobile Services 是用于移动设备应用程序分析和定位的主要�
 
 要下载 Mobile SDK，请执行以下操作：
 
-1. 登录Mobile Services并通过以下任一方式打开应用程序：
+1. Log in to Mobile Services and open your app in one of the following ways:
 
    * 在&#x200B;**[!UICONTROL 所有应用程序]下拉列表中，选择您的应用程序。**
    * 在右侧窗格中，找到您的应用程序并将其打开。
@@ -97,5 +97,5 @@ Adobe Mobile Services 是用于移动设备应用程序分析和定位的主要�
 
 >[!TIP]
 >
->您的应用程序的配置文件自动包含在SDK下载中，因此您无需单独下载该文件。但是，如果您已经下载了 SDK，并且想要获取更新的设置，则需要再次下载配置文件。
+>SDK下载中会自动包含应用程序的配置文件，因此您无需单独下载该文件。 但是，如果您已经下载了 SDK，并且想要获取更新的设置，则需要再次下载配置文件。
 
