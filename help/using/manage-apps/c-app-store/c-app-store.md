@@ -3,10 +3,10 @@ description: appFigures Data Connector 集成将集成 appFigures 的强大移�
 keywords: mobile
 seo-description: appFigures Data Connector 集成将集成 appFigures 的强大移动应用商店分析与 Adobe Analytics 的直接应用程序跟踪功能整合在一起，为您的组织提供了强有力的分析和优化机会。
 seo-title: 应用商店
-solution: Marketing Cloud，Analytics
+solution: Marketing Cloud,Analytics
 title: 应用商店
 topic: 量度
-uuid: a194364d-fause-4995-bdd-cf48 f9 c1 f11 b
+uuid: a194364d-faaf-4995-befd-cf48f9c1f11b
 translation-type: tm+mt
 source-git-commit: 814c99695f538160ae28484ca8e2a92f5b24bb1a
 
@@ -15,11 +15,11 @@ source-git-commit: 814c99695f538160ae28484ca8e2a92f5b24bb1a
 
 # App store{#app-store}
 
-`appFigures` 数据连接器集成结合了AppDigigo集成的移动应用商店分析和Adobe Analytics的直接应用程序跟踪功能，为您的组织创建强大的分析和优化机会。
+The `appFigures` data connector integration combines the power of the appFigures integrated mobile app store analytics and the direct app tracking of Adobe Analytics to create powerful analytics and optimization opportunities for your organization.
 
 >[!TIP]
 >
->在Mobile Services UI中，配置集成后 **[!UICONTROL ，App Store]** 菜单项和关联的报告将显示在左侧导航窗格中。
+>In the Mobile Services UI, after you configure the integration, the App Store menu item and associated reports display in the left navigation pane.****
 
 [用于 Adobe Analytics 的 appFigures Data Connector](https://marketing.adobe.com/resources/help/en_US/connectors/appfigures/) 包含以下信息：
 <!--REKHA: no idea where this guide lives-->
