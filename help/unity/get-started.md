@@ -5,7 +5,7 @@ seo-description: 此插件能够让您从 Unity 应用程序发送 Adobe Analyti
 seo-title: 适用于 iOS 和 Android 4.x SDK 的 Unity 插件
 solution: Marketing Cloud，开发人员
 title: 适用于 iOS 和 Android 4.x SDK 的 Unity 插件
-uuid: 83289a73-982d-4472-a8 c8-00b562 dc80 f5
+uuid: 83289a73-982d-4472-a8c8-00b562dc80f5
 translation-type: tm+mt
 source-git-commit: 5fbba02eb61679344f638b6465e47b0d9ae5a988
 
@@ -22,7 +22,7 @@ source-git-commit: 5fbba02eb61679344f638b6465e47b0d9ae5a988
 
 从 GitHub 或 Developer Connection 下载 [ADBMobile.unitypackage](https://github.com/Adobe-Marketing-Cloud/mobile-services/releases) 文件。
 
-以下是 `ADBMobile.unitypackage` 文件的内容：
+以下是文件的内 `ADBMobile.unitypackage` 容：
 
 * Assets（根）
 
