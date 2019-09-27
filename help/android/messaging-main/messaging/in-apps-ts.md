@@ -2,18 +2,18 @@
 description: 此信息可帮助您排查应用程序内消息传送问题。
 keywords: mobile
 seo-description: 此信息可帮助您排查应用程序内消息传送问题。
-seo-title: 应用程序内消息传递疑难解答
-solution: Marketing Cloud，Analytics
-title: 应用程序内消息传递疑难解答
+seo-title: Troubleshoot In-App Messaging
+solution: Marketing Cloud,Analytics
+title: Troubleshoot In-App Messaging
 topic: 量度
-uuid: 39c3a21d-92c2-4004-b00 f-99b6 f91 d3696
+uuid: 39c3a21d-92c2-4004-b00f-99b6f91d3696
 translation-type: tm+mt
 source-git-commit: 12e01e112debffd877dd62f1fd2505724b2aae7d
 
 ---
 
 
-# 应用程序内消息传递疑难解答{#troubleshooting-in-app-messaging}
+# Troubleshoot in-app messaging{#troubleshooting-in-app-messaging}
 
 此信息可帮助您排查应用程序内消息传送问题。
 
@@ -35,11 +35,11 @@ Ensure that you have an [In-App Messaging](/help/android/messaging-main/messagin
 
 要验证您的消息是否为实时消息，请在管理应用程序内消息页面上的&#x200B;**状态**&#x200B;列中，检查消息列表。
 
-## 观看 *节目一次*，始终 *显示*， *在“受众”选项卡上显示脱机* 设置。
+## Look at show once, show always, show offline  settings on the Audience tab.******
 
 验证已按照您所需的方式设置了这些设置。在&#x200B;**[!UICONTROL 受众]**&#x200B;选项卡中，检查您的&#x200B;**触发器]选项，这些选项允许您指定消息显示的频率。[!UICONTROL **
 
-## 如果使用启动事件作为触发器…
+## 如果使用启动事件作为触发器……
 
 启动项只会在新会话中触发。有关会话何时开始的更多信息，请参阅 `lifecycleTimeout`JSON 配置[中的 ](/help/android/configuration/json-config/json-config.md) 行。
 
