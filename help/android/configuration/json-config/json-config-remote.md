@@ -2,10 +2,10 @@
 description: 您可以在应用程序启动时加载其他 ADBMobile JSON 配置文件。
 seo-description: 您可以在应用程序启动时加载其他 ADBMobile JSON 配置文件。
 seo-title: 覆盖 ADBMobile JSON 配置路径
-solution: Marketing Cloud，Analytics
+solution: Marketing Cloud,Analytics
 title: 覆盖 ADBMobile JSON 配置路径
 topic: 开发人员和实施
-uuid: 6872a5d7-0c5a-4fdc-b7 bf-ad1534763 a6 a
+uuid: 6872a5d7-0c5a-4fdc-b7bf-ad1534763a6a
 translation-type: tm+mt
 source-git-commit: bf076aa8e59d5c3e634fc4ae21f0de0d4541a83f
 
