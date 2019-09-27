@@ -2,10 +2,10 @@
 description: 'null'
 seo-description: 'null'
 seo-title: Analytics
-solution: Marketing Cloud，Analytics
+solution: Marketing Cloud,Analytics
 title: Analytics
 topic: 开发人员和实施
-uuid: fa0ef6c4-c04 d-4695-9eb4-ada4 e9920 e6 c
+uuid: fa0ef6c4-c04d-4695-9eb4-ada4e9920e6c
 translation-type: tm+mt
 source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
 
@@ -14,11 +14,11 @@ source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
 
 # Analytics {#analytics}
 
-将库添加到项目后，可以在应用程序中的任意位置调用任何Analytics方法。
+After you add the library to your project, you can make any of the Analytics method calls anywhere in your app.
 
 >[!TIP]
 >
->确保导入 `ADBMobile.h` 到您的类。
+>Ensure that you import  to your class.`ADBMobile.h`
 
 ## Enable mobile application reports in Analytics {#section_F2F9234009184F20BA36B5CDE872B424}
 
@@ -48,7 +48,7 @@ source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
 要在您的应用程序中收集生命周期量度，请添加应用程序被激活时的调用，如以下示例中所示。
 
 
-### winJS in default. js
+### default.js中的WinJS
 
 
 ```js
@@ -64,7 +64,7 @@ app.oncheckpoint = function (args) {
 }
 ```
 
-### C# in App. xaml. cs
+### App.xaml.cs中的C#
 
 ```js
 public App() 
@@ -93,7 +93,7 @@ private void OnSuspending(object sender, SuspendingEventArgs e)
 }
 ```
 
-### 应用程序. xaml. cpp中的C/CX
+### App.xaml.cpp中的C/CX
 
 ```js
 App::App() 
@@ -128,7 +128,7 @@ If `CollectLifecycleData()` is called twice in the same session, then your appli
 ## Events, props, and eVars {#section_76EA6F5611184C5CAE6E62956D84D7B6}
 
 
-如果您查看 [了AdbMobile类和方法参考](/help/windows-appstore/c-configuration/methods.md)，您可能想知道如何设置事件、eVar、prop、heories和列表。在版本 4 中，您不能再在应用程序中直接分配这些类型的变量。SDK 而是会使用上下文数据和处理规则将您的应用程序数据映射到 Analytics 变量以供报告。
+If you've looked at the ADBMobile Class and Method Reference, you are probably wondering where to set events, eVars, props, heirs, and lists. [](/help/windows-appstore/c-configuration/methods.md)在版本 4 中，您不能再在应用程序中直接分配这些类型的变量。SDK 而是会使用上下文数据和处理规则将您的应用程序数据映射到 Analytics 变量以供报告。
 
 处理规则具有以下几个好处：
 
@@ -185,15 +185,15 @@ If `CollectLifecycleData()` is called twice in the same session, then your appli
 
 >[!NOTE]
 >
->Adobe保留命名空间 `a.`。除了这一小限制之外，上下文数据变量只需要在您的登录公司内是唯一的，以便避免冲突。
+>Adobe reserves the namespace . `a.`除了这一小限制之外，上下文数据变量只需要在您的登录公司内是唯一的，以便避免冲突。
 
 ## Products variable {#section_AFBA36F3718C44D29AF81B9E1056A1B4}
 
-要在 *`products`* 移动SDK中设置，您必须使用特殊语法。请参阅 [产品变量](/help/windows-appstore/analytics/products/products.md)。
+To set  in the mobile SDK, you must use a special syntax. *`products`* See Products Variable.[](/help/windows-appstore/analytics/products/products.md)
 
 ## (Optional) Enable offline tracking {#section_955B2A03EB854742BDFC4A0A3C287009}
 
-To store hits when the device is offline, you can enable offline tracking in the [ADBMobileConfig.json config](/help/windows-appstore/c-configuration/methods.md). 在启用脱机跟踪之前，请注意配置文件引用中所述的时间戳要求。
+To store hits when the device is offline, you can enable offline tracking in the [ADBMobileConfig.json config](/help/windows-appstore/c-configuration/methods.md). Before you enable offline tracking, Pay attention to the timestamp requirements described in the config file reference.
 
 ## Geo-location and points of interest {#section_BAD34A8DD013454DB355121316BD7FD4}
 
