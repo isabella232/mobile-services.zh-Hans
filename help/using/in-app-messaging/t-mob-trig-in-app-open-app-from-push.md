@@ -28,7 +28,7 @@ source-git-commit: 114bce95e41c8e13695689dd2da2dbc04cb17ad7
 
    >[!TIP]
    >
-   >推送消息ID是您在步骤中找到的ID。
+   >推送消息ID是您在步骤1中找到的ID。
 
    此触发器必须手动添加，因为它并未在&#x200B;**[!UICONTROL 触发器]下拉列表中提供。**
 
