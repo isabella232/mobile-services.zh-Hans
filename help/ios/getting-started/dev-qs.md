@@ -24,7 +24,7 @@ source-git-commit: be980e0e639d5b0df3f1b6a6f91f3ad0a5efe8d7
 
 **先决条件**
 
-在下载SDK之前，请完成在 *Core实施和生命周期中创建报告套件*[](/help/ios/getting-started/requirements.md) ，以设置开发报告套件并下载预填充版本的配置文件中的步骤。
+Before you download the SDK, complete the steps in Create a Report Suite in Core implementation and lifecycle to set up a development report suite and download a pre-populated version of the configuration file.**[](/help/ios/getting-started/requirements.md)
 
 要下载 SDK，请执行以下操作：
 
@@ -106,7 +106,7 @@ source-git-commit: be980e0e639d5b0df3f1b6a6f91f3ad0a5efe8d7
 
 After you enable lifecycle, each time your app is launched, one hit is sent to measure launches, upgrades, sessions, engaged users, and other [Lifecycle Metrics](/help/ios/metrics.md).
 
-添加 `collectLifecycleData`/ `collectLifecycleDataWithAdditionalData` 呼叫 `application:didFinishLaunchingWithOptions`:
+Add a /  call in :`collectLifecycleData``collectLifecycleDataWithAdditionalData``application:didFinishLaunchingWithOptions`
 
 ```objective-c
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions { 
