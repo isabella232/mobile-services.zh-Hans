@@ -1,9 +1,9 @@
 ---
-description: 营销人员可创建跟踪链接以将更多流量引入到应用程序。这些跟踪链接可以驱使用户进入应用商店、应用程序深层链接和插页式广告，从而可以与应用程序内行为相关联。营销人员可以创建一个链接，以将用户路由到适合的 iOS、Android 或其他平台。
+description: 营销人员可创建跟踪链接以将更多流量引入到应用程序。这些跟踪链接可以促使用户进入应用商店、应用程序深层链接和插页式广告，从而可以与应用程序内行为相关联。营销人员可以创建一个链接，以将用户路由到适合的 iOS、Android 或其他平台。
 keywords: mobile
-seo-description: 营销人员可创建跟踪链接以将更多流量引入到应用程序。这些跟踪链接可以驱使用户进入应用商店、应用程序深层链接和插页式广告，从而可以与应用程序内行为相关联。营销人员可以创建一个链接，以将用户路由到适合的 iOS、Android 或其他平台。
+seo-description: 营销人员可创建跟踪链接以将更多流量引入到应用程序。这些跟踪链接可以促使用户进入应用商店、应用程序深层链接和插页式广告，从而可以与应用程序内行为相关联。营销人员可以创建一个链接，以将用户路由到适合的 iOS、Android 或其他平台。
 seo-title: 客户获取
-solution: Marketing Cloud，Analytics
+solution: Marketing Cloud,Analytics
 title: 客户获取
 topic: 量度
 uuid: 987146e4-2cca-46e7-88aa-74b62d9f1dc5
@@ -15,7 +15,7 @@ source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
 
 # 客户获取 {#acquisition}
 
-营销人员可创建跟踪链接以将更多流量引入到应用程序。这些跟踪链接可以驱使用户进入应用商店、应用程序深层链接和插页式广告，从而可以与应用程序内行为相关联。营销人员可以创建一个链接，以将用户路由到适合的 iOS、Android 或其他平台。
+营销人员可创建跟踪链接以将更多流量引入到应用程序。这些跟踪链接可以促使用户进入应用商店、应用程序深层链接和插页式广告，从而可以与应用程序内行为相关联。营销人员可以创建一个链接，以将用户路由到适合的 iOS、Android 或其他平台。
 
 ## 新的 Adobe Experience Cloud SDK 发行版本
 
@@ -32,15 +32,15 @@ source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
 
 >[!IMPORTANT]
 >
->虽然您可以在UI中配置功能，但直到下载生成的配置文件并将此文件添加到SDK，这些功能才会起作用。For information about downloading and configuring the SDKs, see the *SDK documentation* section on this page.)
+>尽管您可以在UI中配置功能，但是，在您下载生成的配置文件并将此文件添加到SDK之前，这些功能将无法使用。 For information about downloading and configuring the SDKs, see the *SDK documentation* section on this page.)
 
-您可以创建、编辑、管理和查看有关可跟踪移动应用程序营销链接的报告。
+您可以创建、编辑、管理和查看可跟踪移动应用程序营销链接的报告。
 
 >[!TIP]
 >
->此功能需要Adobe Analytics- Mobile Apps或Adobe Analytics Premium SKU。
+>此功能需要Adobe Analytics —— 移动应用程序或Adobe Analytics Premium SKU。
 
-以下客户获取报告可分析营销链接的效果：
+The following Acquisition reports provide insight into how your Marketing Links are performing:
 
 * **概述** {#section_5B2BA47F22694919A472AB591101237E}
 
@@ -50,7 +50,7 @@ source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
 
 * **链接报表** {#section_A23A640C363B43569D9D484CF49EA277}
 
-   此报告提供了营销链接性能的排名视图。除了显示您的链接名称以及关键性能量度外，此报表还是可自定义的。有关详细信息，请参阅 [自定义报表](/help/using/usage/reports-customize/t-reports-customize.md).
+   This report provides a ranked view into your Marketing Links performance. 除了显示您的链接名称以及关键性能量度外，此报表还是可自定义的。有关详细信息，请参阅 [自定义报表](/help/using/usage/reports-customize/t-reports-customize.md).
 
    请牢记以下信息：
 
