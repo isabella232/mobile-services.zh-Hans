@@ -1,9 +1,9 @@
 ---
-description: '在“管理应用程序设置”页面上，您可以进行以下类型的更改。 '
-seo-description: '在“管理应用程序设置”页面上，您可以进行以下类型的更改。 '
+description: 'On the Manage App Settings page, you can make the following types of changes '
+seo-description: '在“管理应用程序设置”页面上，您可以进行以下类型的更改 '
 seo-title: 配置您的应用程序
 title: 配置您的应用程序
-uuid: c088e12d-73b6-40c4-b8 cc-ec3 d3 d3 aa4 a
+uuid: c088e12d-73b6-40c4-b8cc-ec3bb3d3aa4a
 translation-type: tm+mt
 source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
 
@@ -59,7 +59,7 @@ source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
 
    >[!IMPORTANT]
    >
-   >下载SDK和工具之前，必须配置SDK分析选项。有关详细信息，请参阅 [配置SDK分析选项](/help/using/c-manage-app-settings/c-mob-confg-app/t-config-analytics/t-config-analytics.md)。
+   >Before you download the SDKs and tools, you must configure the SDK Analytics options. For more information, see Configure the SDK Analytics Options.[](/help/using/c-manage-app-settings/c-mob-confg-app/t-config-analytics/t-config-analytics.md)
 
    当您准备升级到 4.x SDK 时，或者您要使用新应用程序时，请从“管理应用程序设置”页面的底部下载最新的 SDK 和开发工具。
 
