@@ -1,11 +1,11 @@
 ---
 description: 由通用 Windows 平台库提供的 Audience Manager 方法列表。
 seo-description: 由通用 Windows 平台库提供的 Audience Manager 方法列表。
-seo-title: Audience Manager方法
-solution: Marketing Cloud，Analytics
-title: Audience Manager方法
+seo-title: Audience manager方法
+solution: Marketing Cloud,Analytics
+title: Audience manager方法
 topic: 开发人员和实施
-uuid: efbe8f33-7f53-40a6-b7 aa-a36 ac718 c047
+uuid: efbe8f33-7f53-40a6-b7aa-a36ac718c047
 translation-type: tm+mt
 source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
 
@@ -22,9 +22,9 @@ SDK 当前支持多种 Adobe Experience Cloud 解决方案，其中包括 Analyt
 >
 >When you consume `winmd` methods from winJS (JavaScript), all methods automatically have their first letter lowercased.
 
-如果在JSON文件中配置受众管理器，则包含生命周期指标的信号会在您的生命周期点击中发送。
+如果在JSON文件中配置了Audience Manager，则包含生命周期指标的信号会随生命周期点击发送。
 
-* **getVisitorProfile(WinJS：getVisitorProfile)**
+* **GetVisitorProfile(winJS:getVisitorProfile)**
 
    返回最近获取的访客资料。如果尚未提交任何信号，则返回 `null`。访客资料保存在 `SharedPreferences` 中，以供在多次启动应用程序时轻松访问。
 
@@ -41,7 +41,7 @@ SDK 当前支持多种 Adobe Experience Cloud 解决方案，其中包括 Analyt
       var profile = ADB.AudienceManager.getVisitorProfile();
       ```
 
-* **getDpid(WinJS：getDpid)**
+* **GetDpid(winJS:getDpid)**
 
    返回当前 DPID。
 
@@ -58,7 +58,7 @@ SDK 当前支持多种 Adobe Experience Cloud 解决方案，其中包括 Analyt
       var dpid = ADB.AudienceManager.getDpid(); 
       ```
 
-* **getPuuID(WinJS：getPuuID)**
+* **GetDpuuid(winJS:getDpuuid)**
 
    返回当前 DPUUID。
 
@@ -75,7 +75,7 @@ SDK 当前支持多种 Adobe Experience Cloud 解决方案，其中包括 Analyt
       var dpuuid = ADB.AudienceManager.getDpuuid();
       ```
 
-* **setDpIDAndPuuID(WinJS：setDpIDAndPuUI)**
+* **SetDpidAndDpuuid(winJS:setDpidAndDpuuid)**
 
    设置 DPID 和 DPUUID。如果设置了 DPID 和 DPUUID，它们将与每个信号一起发送。
 
@@ -92,7 +92,7 @@ SDK 当前支持多种 Adobe Experience Cloud 解决方案，其中包括 Analyt
       ADB.AudienceManager.setDpidAndDpuuid("newDpid", "newDpuuid");
       ```
 
-* **SignalWithData(WinJS：signalWithData)**
+* **SignalWithData(winJS:signalWithData)**
 
    向受众管理发送一个具有特征的信号，并获取块回调中返回的匹配区段。
 
