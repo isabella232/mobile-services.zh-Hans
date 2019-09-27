@@ -2,7 +2,7 @@
 description: 您可以提交由任何分析数据或事件触发的应用程序内消息。实施后，消息会被动态提交到应用程序并且不需要更新代码。
 seo-description: 您可以提交由任何分析数据或事件触发的应用程序内消息。实施后，消息会被动态提交到应用程序并且不需要更新代码。
 seo-title: 应用程序内消息传送
-solution: Marketing Cloud，Analytics
+solution: Marketing Cloud,Analytics
 title: 应用程序内消息传送
 topic: 开发人员和实施
 uuid: 351ee3d2-80b9-4f2d-9696-21f274d89f5a
@@ -41,7 +41,7 @@ source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
 
 1. 将库添加到您的项目并实施生命周期。
 
-   有关详细信息，请参阅 *在核心实施和生命周期* 中 [将SDK和Config文件添加到IntelliJ IDEA或Eclipse项目](/help/android/getting-started/dev-qs.md)。
+   有关详细信息，请参 *阅将SDK和配置文件添加到IntelliJ IDEA或Eclipse Project* (在核心实施和生命 [周期中)中](/help/android/getting-started/dev-qs.md)。
 
 1. Update the `AndroidManifest.xml` file to declare the full screen activity and enable the Message Notification Handler:
 
@@ -86,7 +86,7 @@ source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
 
    >[!IMPORTANT]
    >
-   >`messages``remotes` 或者是必需的。
+   >`messages` 或 `remotes` 必填。
 
    对于要在启动时动态更新的应用程序内消息，`remotes` 对象必须存在且进行了正确配置：
 
@@ -122,15 +122,15 @@ Android Mobile SDK 可跟踪应用内消息的以下量度：
 * 对于全屏和警告样式的应用程序内消息：
 
    * **展示次数**：用户触发应用程序内消息时。
-   * **单击浏览**：当用户按下 **[!UICONTROL “点击]**”时。
-   * **取消**：用户按下 **[!UICONTROL “取消]**”时。
+   * **点进次数**:当用户按 **[!UICONTROL 点进时]**。
+   * **取消**:当用户按 **[!UICONTROL 取消时]**。
 
 * 对于自定义的全屏应用程序内消息，消息中的 HTML 内容需要包含正确的代码以通知 SDK 跟踪以下按钮：
 
-   * **点进** (重定向)示例跟踪：
+   * **点进率** （重定向）示例跟踪：
 
       `adbinapp://confirm/?url=https://www.yoursite.com`
-   * **取消** (关闭)示例跟踪：
+   * **取消** （关闭）示例跟踪：
 
       `adbinapp://cancel`
 
@@ -140,7 +140,7 @@ Android Mobile SDK 可跟踪应用内消息的以下量度：
 
 >[!IMPORTANT]
 >
->在Adobe Mobile服务中配置消息时，会指定回退图像资源名称，您需要确保指定的资源可用。
+>The fallback image asset name is specified when you configure the message in Adobe Mobile services, and you need to ensure that the specified resource is available.
 
 ## Configuring notification icons {#section_DDA28BDBCBB748BCBECF3AB50A177D48}
 
@@ -156,7 +156,7 @@ Android Mobile SDK 可跟踪应用内消息的以下量度：
       public static void setSmallIconResourceId(final int resourceId); 
       ```
 
-   * 下面是此方法的代码示例：
+   * Here is the code example for this method:
 
       ```java
       Config.setSmallIconResourceId(R.drawable.appIcon);
@@ -164,7 +164,7 @@ Android Mobile SDK 可跟踪应用内消息的以下量度：
 
 * **Config.setLargeIconResourceId(int resourceId)**
 
-   设置将用于 SDK 创建的通知的大图标。此图标是当用户在通知中心看到完整通知时显示的主图象。
+   设置将用于 SDK 创建的通知的大图标。This icon is the primary image that is displayed when the user sees the complete notification in the notification center.
 
    * 下面是这种方法对应的语法：
 
