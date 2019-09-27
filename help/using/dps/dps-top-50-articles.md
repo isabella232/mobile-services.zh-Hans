@@ -1,23 +1,23 @@
 ---
-description: “前 50 篇文章”报表显示一个条形图形式的排名报表，其中显示了通过应用程序阅读的次数最多的文章。此报告仅适用于Digital Publishing Suite(DPS)客户。
+description: “前 50 篇文章”报表显示一个条形图形式的排名报表，其中显示了通过应用程序阅读的次数最多的文章。此报告仅对Digital Publishing Suites(DPS)客户可用。
 keywords: mobile
-seo-description: “前 50 篇文章”报表显示一个条形图形式的排名报表，其中显示了通过应用程序阅读的次数最多的文章。此报告仅适用于Digital Publishing Suite(DPS)客户。
+seo-description: “前 50 篇文章”报表显示一个条形图形式的排名报表，其中显示了通过应用程序阅读的次数最多的文章。此报告仅对Digital Publishing Suites(DPS)客户可用。
 seo-title: 前 50 篇文章
-solution: Marketing Cloud，Analytics
+solution: Marketing Cloud,Analytics
 title: 前 50 篇文章
 topic: 量度
-uuid: 341370d1-fa87-43ca-8135-425b3 bba272 f
+uuid: 341370d1-fa87-43ca-8135-425b3bba272f
 translation-type: tm+mt
 source-git-commit: b11a03226ff6100554d072b4ef523d703b80a6e5
 
 ---
 
 
-# 50大文章报告{#top-articles}
+# Top 50 Articles report{#top-articles}
 
-**[!UICONTROL 50前文章]** 报告显示条形图和排名报告，使用应用程序显示最阅读的文章。此报告仅适用于DPS客户。
+The **[!UICONTROL Top 50 Articles]** report displays a bar chart and ranked report displays the most-read articles using the app. 此报告仅对DPS客户可用。
 
-虽然默认报告按读者数量显示最近30天的数据，但您可以自定义报告。
+尽管默认报告按读者数量显示最近30天的数据，但您可以自定义报告。
 
 ![](assets/dps_top_50.png)
 
@@ -25,7 +25,7 @@ source-git-commit: b11a03226ff6100554d072b4ef523d703b80a6e5
 
 您可以为此报表配置以下选项：
 
-* **[!UICONTROL 时间段]**&#x200B;单击 **[!UICONTROL 日历]** 图标以选择自定义时间段，或从下拉列表中选择预设时间段。
+* **[!UICONTROL 时间段]**&#x200B;单击 **[!UICONTROL 日历图标]** ，以选择自定义时段或从下拉列表中选择一个预设时间段。
 
 * **[!UICONTROL 自定义]**
 
@@ -33,7 +33,7 @@ source-git-commit: b11a03226ff6100554d072b4ef523d703b80a6e5
 
 * **[!UICONTROL 过滤器]**
 
-   单击&#x200B;**[!UICONTROL 过滤器]可创建跨不同报表的过滤器，以便查看区段在所有移动设备报表中的执行情况。**&#x200B;置顶过滤器允许您定义应用于所有非路径报表的过滤器。有关更多信息，请参阅 [添加粘性滤镜](/help/using/usage/reports-customize/t-sticky-filter.md)。
+   单击&#x200B;**[!UICONTROL 过滤器]可创建跨不同报表的过滤器，以便查看区段在所有移动设备报表中的执行情况。**&#x200B;置顶过滤器允许您定义应用于所有非路径报表的过滤器。For more information, see [Add a sticky filter](/help/using/usage/reports-customize/t-sticky-filter.md).
 
 * **[!UICONTROL 下载]**
 
