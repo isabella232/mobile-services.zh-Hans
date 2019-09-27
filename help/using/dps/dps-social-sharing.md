@@ -1,12 +1,12 @@
 ---
-description: “社交共享”报表会针对您的现有数据显示一个环状层次视图。此报告仅适用于Digital Publishing Suite(DPS)客户。
+description: “社交共享”报表会针对您的现有数据显示一个环状层次视图。此报告仅对Digital Publishing Suites(DPS)客户可用。
 keywords: mobile
-seo-description: “社交共享”报表会针对您的现有数据显示一个环状层次视图。此报告仅适用于Digital Publishing Suite(DPS)客户。
+seo-description: “社交共享”报表会针对您的现有数据显示一个环状层次视图。此报告仅对Digital Publishing Suites(DPS)客户可用。
 seo-title: 社交共享
-solution: Marketing Cloud，Analytics
+solution: Marketing Cloud,Analytics
 title: 社交共享
 topic: 量度
-uuid: 900e58aa-c1 d3-4590-af44-df6757514 a4
+uuid: 900e58aa-c1d3-4590-af44-df67575214a4
 translation-type: tm+mt
 source-git-commit: b11a03226ff6100554d072b4ef523d703b80a6e5
 
@@ -15,7 +15,7 @@ source-git-commit: b11a03226ff6100554d072b4ef523d703b80a6e5
 
 # 社交共享{#social-sharing}
 
-“**[!UICONTROL 社交共享]”报表会针对您的现有数据显示一个环状层次视图。**&#x200B;此报告仅适用于DPS客户。
+“**[!UICONTROL 社交共享]”报表会针对您的现有数据显示一个环状层次视图。**&#x200B;此报告仅对DPS客户可用。
 
 ![](assets/dps_social_share.png)
 
