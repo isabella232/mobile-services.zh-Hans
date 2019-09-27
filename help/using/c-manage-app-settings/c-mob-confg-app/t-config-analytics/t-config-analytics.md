@@ -3,10 +3,10 @@ description: 创建新应用程序或编辑现有应用程序时，您可以在�
 keywords: mobile
 seo-description: 创建新应用程序或编辑现有应用程序时，您可以在“管理应用程序设置”页面上配置“SDK Analytics”选项。
 seo-title: 配置 SDK Analytics 选项
-solution: Marketing Cloud，Analytics
+solution: Marketing Cloud,Analytics
 title: 配置 SDK Analytics 选项
 topic: 量度
-uuid: fd3a21d2-6560-4e96-92fe-b99 caac5 e834
+uuid: fd3a21d2-6560-4e96-92fe-b99caac5e834
 translation-type: tm+mt
 source-git-commit: d028fe0f9477bc011aa8fda21a0a389808df0fce
 
@@ -25,7 +25,7 @@ Type information in the following fields under **[!UICONTROL SDK Analytics Optio
 
 * **[!UICONTROL 回溯会话点击量]**
 
-   启用或禁用Adobe SDK到备份会话信息点击的功能。会话信息点击量当前由崩溃次数和会话时长构成。启用后，Adobe SDK 将回溯会话信息点击至前一会话最后一次点击的 1 秒后。这意味着崩溃次数和会话数据将与它们所发生的正确日期相关联。在应用程序每次新启动时都会回溯一次点击。在禁用后，Adobe SDK 将把会话信息附加到当前的生命周期。
+   启用或禁用Adobe SDK回溯会话信息点击的功能。 会话信息点击量当前由崩溃次数和会话时长构成。启用后，Adobe SDK 将回溯会话信息点击至前一会话最后一次点击的 1 秒后。这意味着崩溃次数和会话数据将与它们所发生的正确日期相关联。在应用程序每次新启动时都会回溯一次点击。在禁用后，Adobe SDK 将把会话信息附加到当前的生命周期。
 
 * **[!UICONTROL 隐私]**
 
