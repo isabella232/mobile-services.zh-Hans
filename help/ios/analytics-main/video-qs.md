@@ -2,7 +2,7 @@
 description: 以下是有关使用里程碑视频测量在 iOS 中测量视频的一些信息。
 seo-description: 以下是有关使用里程碑视频测量在 iOS 中测量视频的一些信息。
 seo-title: Video Analytics
-solution: Marketing Cloud，Analytics
+solution: Marketing Cloud,Analytics
 title: Video Analytics
 topic: 开发人员和实施
 uuid: d75fa415-78f6-4f50-a563-76949f040138
@@ -18,13 +18,13 @@ source-git-commit: df4ea2c4002611c72009cf69598cbbb74b5c15c4
 
 >[!TIP]
 >
->在视频播放过程中，会向此服务发送频繁的“心率”调用，以测量播放的时间。这些心率调用每 10 秒发送一次，从而生成精细的视频参与量度和更准确的视频流失报表。有关更多信息，请参阅 [在Adobe Analytics中测量音频和视频](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html)。
+>在视频播放过程中，会向此服务发送频繁的“心率”调用，以测量播放的时间。这些心率调用每 10 秒发送一次，从而生成精细的视频参与量度和更准确的视频流失报表。For more information, see Measuring audio and video in Adobe Analytics.[](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html)
 
 在所有平台中，测量视频的常规过程都非常相似。本文中的内容提供了开发人员任务的基本概述以及代码示例。
 
 ## Map player events to Analytics variables {#section_E84987F878AB4A3A83AE700FEC4C9D4D}
 
-下表列出了发送到 Analytics 的媒体数据。使用处理规则将上下文数据映射到Analytics变量。
+下表列出了发送到 Analytics 的媒体数据。Use processing rules to map the context data to an Analytics variable.
 
 * **a.media.name**
 
@@ -32,7 +32,7 @@ source-git-commit: df4ea2c4002611c72009cf69598cbbb74b5c15c4
 
    （可选）自定义分析变量提供视频路径信息。
 
-   * 变量类型：eVar
+   * Variable type: eVar
    * 默认过期：访问
    * 自定义分析（s.prop，用于视频路径）
 
@@ -40,7 +40,7 @@ source-git-commit: df4ea2c4002611c72009cf69598cbbb74b5c15c4
 
    （可选）提供视频路径信息。此变量的路径必须由客户关怀团队来启用。
 
-   * 变量类型：自定义分析(s. prop)
+   * 变量类型：自定义分析(s.prop)
    * 事件类型：自定义分析 (s.prop)
 
 * **a.media.segment**
@@ -69,28 +69,28 @@ source-git-commit: df4ea2c4002611c72009cf69598cbbb74b5c15c4
 
    以秒为单位，计算自上次数据收集流程（图像请求）以来，观看视频所花费的时间。
 
-   * 变量类型：Event
+   * 变量类型：活动
    * 类型：计数器
 
 * **a.media.view**
 
    表明访客已查看了视频的某些部分。但是它并不提供有关访客查看了视频中的多少内容或哪一部分的信息。
 
-   * 变量类型：Event
+   * 变量类型：活动
    * 类型：计数器
 
 * **a.media.segmentView**
 
    表明访客已查看了视频区段的某些部分。但是它并不提供有关访客查看了视频中的多少内容或哪一部分的信息。
 
-   * 变量类型：Event
+   * 变量类型：活动
    * 类型：计数器
 
 * **a.media.complete**
 
    表明用户已查看了完整的视频。默认情况下，完整的事件会在视频结束前 1 秒进行测量。在实施过程中，您可以指定希望在距离视频结束有多少秒时被视为查看完成。对于直播视频和没有定义结尾的其他视频流，您可以指定一个自定义时间点来测量完成，例如，在查看了特定时间之后进行测量。
 
-   * 变量类型：Event
+   * 变量类型：活动
    * 类型：计数器
 
 ## Configure media settings {#section_929945D4183C428AAF3B983EFD3E2500}
