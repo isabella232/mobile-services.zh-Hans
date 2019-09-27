@@ -1,11 +1,11 @@
 ---
 description: 如果您的应用程序打开移动 Web 内容，请确保访客在本机和移动 Web 之间切换时不会单独进行识别。
 seo-description: 如果您的应用程序打开移动 Web 内容，请确保访客在本机和移动 Web 之间切换时不会单独进行识别。
-seo-title: 在应用程序和移动Web之间进行访客跟踪
-solution: Marketing Cloud，Analytics
-title: 在应用程序和移动Web之间进行访客跟踪
+seo-title: 应用程序与移动Web之间的访客跟踪
+solution: Marketing Cloud,Analytics
+title: 应用程序与移动Web之间的访客跟踪
 topic: 开发人员和实施
-uuid: 073572e-4c55-4b27-b4 a7-e4349 cdd7 bf
+uuid: 073572e4-4c55-4b27-b4a7-e4349ccde7bf
 translation-type: tm+mt
 source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
 
@@ -16,15 +16,15 @@ source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
 
 如果您的应用程序打开移动 Web 内容，请确保访客在本机和移动 Web 之间切换时不会单独进行识别。
 
-## 应用程序中的访问者ID
+## 应用程序中的访客ID
 
 在安装应用程序时，Android SDK 会生成一个独特访客 ID。此 ID 将存储在移动设备上的永久内存中，并会随每次点击一起发送，且仅在用户卸载应用程序时才被删除。
 
 >[!TIP]
 >
->应用程序访客ID通过升级保留。
+>App visitor IDs persist through upgrades.
 
-## 移动Web中的访问者ID
+## 移动Web中的访客ID
 
 典型的移动 Web 实施使用的标准 Analytics `s_code.js` 或 `AppMeasurement.js` 与桌面站点中所用的相同。JavaScript 库具有自身的独特访客 ID 生成方法，这会导致在从您的应用程序中打开移动 Web 内容时生成一个不同的访客 ID。
 
@@ -34,7 +34,7 @@ source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
 
 1. 将库添加到您的项目并实施生命周期。
 
-   有关详细信息，请参阅 *在核心实施和生命周期* 中 [将SDK和Config文件添加到IntelliJ IDEA或Eclipse项目](/help/android/getting-started/dev-qs.md)。
+   有关详细信息，请参 *阅将SDK和配置文件添加到IntelliJ IDEA或Eclipse Project* (在核心实施和生命 [周期中)中](/help/android/getting-started/dev-qs.md)。
 
 1. 要将访客信息附加到用于打开 Web 视图的 URL，请调用 `visitorAppendToURL`：
 
@@ -65,7 +65,7 @@ source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
 
 ## Troubleshooting visitor tracking {#section_9B641F8569E34A089C52AA28EA4C891D}
 
-### `Visitor.appendToURL`我看不到。
+### I do not see `Visitor.appendToURL`.
 
 确认父应用程序中捆绑的是 Adobe SDK 版本 4.12.0 或更高版本。
 
@@ -89,5 +89,5 @@ source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
 
 >[!IMPORTANT]
 >
->为了允许Adobe验证实施，您需要共享示例应用程序和相关站点。
+>To allow Adobe can validate the implementation, you need to share a sample application and the associated site.
 
