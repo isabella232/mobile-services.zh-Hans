@@ -3,10 +3,10 @@ description: 此信息可帮助您排查推送消息问题。
 keywords: mobile
 seo-description: 此信息可帮助您排查推送消息问题。
 seo-title: 排查推送消息问题
-solution: Marketing Cloud，Analytics
+solution: Marketing Cloud,Analytics
 title: 排查推送消息问题
 topic: 量度
-uuid: c7be7ab7-0cfe-4296-84a8-01412f4fd93f
+uuid: c7be4ab7-0cfe-4296-84a8-01412f4fd93f
 translation-type: tm+mt
 source-git-commit: e9691f9cbeadd171948aa752b27a014c3ab254d6
 
@@ -33,12 +33,12 @@ source-git-commit: e9691f9cbeadd171948aa752b27a014c3ab254d6
 
    >[!TIP]
    >
-   >此计数是成功发送到推送服务的次数。推送服务不保证消息将被发送。
+   >此计数是向推送服务成功发送的次数。 推送服务不保证消息将被发送。
 
-   有关服务可靠性的更多信息，请参阅：
+   有关服务可靠性的详细信息，请参阅：
 
    * [服务质量](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/APNSOverview.html#//apple_ref/doc/uid/TP40008194-CH8-SW5l)
-   * [信息的生命周期](https://developers.google.com/cloud-messaging/concept-options#lifetime)。
+   * [消息的生命周期](https://developers.google.com/cloud-messaging/concept-options#lifetime)。
 
 ## 我的 Android GCM API 密钥为何无效？
 
@@ -82,7 +82,7 @@ source-git-commit: e9691f9cbeadd171948aa752b27a014c3ab254d6
 
 ## 解决推送消息失败问题
 
-**示例**
+**An example**
 
 以下示例说明了如何解决使用 VRS 时出现推送失败的问题。
 
@@ -94,7 +94,7 @@ source-git-commit: e9691f9cbeadd171948aa752b27a014c3ab254d6
    * VRSID定义区段： `a.appid contains “PhotoShop_iOS_app_SF”`
 * 应用程序名称：PhotoShop_app_iOS
    * 父 RSID：AllAdobe PhotoShop_apps
-   * RSID：Photoshop_ iOS_ app_ LA
+   * RSID:PhotoShop_iOS_app_LA
    * VRSID定义区段： `a.os contains “iOS”`
 
 In this example, if a Photoshop employee sends a push to the *PhotoShop_iOS_app_SF* app, all *PhotoShop_iOS_app_SF app* users receive the push message as expected. But, if the employee sends a message to the *PhotoShop_iOS_app_LA* app, because its VRSID Definition Segment is incorrect (`iOS` instead of `a.os contains "PhotoShop_iOS_app_LA"`), the message is sent to **all** iOS users in *AllAdobe PhotoShop_apps*. Although the message still goes to *PhotoShop_iOS_app_LA* users, the message also blacklists the push IDs for *PhotoShop_iOS_app_SF* users because the *PhotoShop_iOS_app_SF* app has a different certificate. If the segment had been defined as `a.os contains “PhotoShop_iOS_app_LA”`, the push message would have been sent to only *PhotoShop_iOS_app_LA* users.
@@ -103,4 +103,4 @@ If passed with the *PhotoShop_IOS_app_LA* push certificate, the push identifiers
 
 >[!CAUTION]
 >
->After you create a push message for an app that is using a VRS and click **[!UICONTROL Save &amp; Send]**, an alert appears that reminds you ensure that each app that is listed **must** have a valid certificate. 如果每个应用都&#x200B;**不**&#x200B;具有有效的证书，则您的受众区段可能会被无限期地列入黑名单，并且将来可能无法将推送消息发送给受影响的用户。有关受众细分的更多信息，请参阅 [受众：定义和配置推送消息的受众选项](/help/using/in-app-messaging/t-create-push-message/c-audience-push-message.md)。
+>After you create a push message for an app that is using a VRS and click **[!UICONTROL Save &amp; Send]**, an alert appears that reminds you ensure that each app that is listed **must** have a valid certificate. 如果每个应用都&#x200B;**不**&#x200B;具有有效的证书，则您的受众区段可能会被无限期地列入黑名单，并且将来可能无法将推送消息发送给受影响的用户。有关受众细分的更多信息，请参 [阅受众：定义和配置推送消息的受众选项](/help/using/in-app-messaging/t-create-push-message/c-audience-push-message.md)。
