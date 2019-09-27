@@ -3,10 +3,10 @@ description: 此信息可帮助您排查应用程序内消息传送问题。
 keywords: mobile
 seo-description: 此信息可帮助您排查应用程序内消息传送问题。
 seo-title: 排查应用程序内消息传送问题
-solution: Marketing Cloud，Analytics
+solution: Marketing Cloud,Analytics
 title: 排查应用程序内消息传送问题
 topic: 量度
-uuid: 58533aa3-4597-8525-77e4e5975e56e
+uuid: 58533aa3-2eb2-4597-8525-77e4e5975e56
 translation-type: tm+mt
 source-git-commit: 1154bab39b5215e00d47ad8e66caeec15e4e98de
 
@@ -35,13 +35,13 @@ source-git-commit: 1154bab39b5215e00d47ad8e66caeec15e4e98de
 
 查看“管理应用程序内消息”页面上列表视图下的“状态”列，确认消息是否为实时消息。
 
-## 观看 *节目一次*，始终 *显示*， *在“受众”选项卡上显示脱机* 设置。
+## Look at show once, show always, show offline settings on the Audience tab.******
 
 验证已按照您所需的方式设置了这些设置。在&#x200B;**[!UICONTROL 受众]**&#x200B;选项卡中，检查您的&#x200B;**触发器]选项，这些选项允许您指定消息显示的频率。[!UICONTROL **
 
 ## 如果使用启动项作为触发器...
 
-启动项只会在新会话中触发。For more information about when a session begins, see the `lifecycleTimeout` row in the JSON Config file. 有关详细信息，请参阅 [AdBMobile JSON配置](/help/ios/configuration/json-config/json-config.md)。
+启动项只会在新会话中触发。For more information about when a session begins, see the `lifecycleTimeout` row in the JSON Config file. For more information, see  ADBMobile JSON Config.[](/help/ios/configuration/json-config/json-config.md)
 
 ## 我远程更新了消息，但我的应用程序仍显示旧消息。
 
