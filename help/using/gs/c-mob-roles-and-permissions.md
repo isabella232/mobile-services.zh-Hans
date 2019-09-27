@@ -3,7 +3,7 @@ description: 在 Adobe Analytics 中，你可以在“管理工具主页”页�
 seo-description: 在 Adobe Analytics 中，你可以在“管理工具主页”页面上管理角色。
 seo-title: 角色和权限
 title: 角色和权限
-uuid: ad350f8d-ef51-4519-98aa-3025bc0 f5588
+uuid: ad350f8d-ef51-4519-98aa-3025bc0f5588
 translation-type: tm+mt
 source-git-commit: c7cac006340e01d0fd1f6afe3419e6fd17294a98
 
@@ -24,13 +24,13 @@ Analytics 管理员可管理用户组和分配权限，其中一个是移动设�
 
 >[!TIP]
 >
->现有Analytics管理员可以将Analytics管理员角色分配给任何用户。
+>现有的Analytics管理员可以将Analytics管理员角色分配给任何用户。
 
 有关此角色的更多信息，请参阅以下内容：
 
-* [用户管理概述](https://docs.adobe.com/content/help/en/analytics/admin/user-product-management/user-management/users.html)
+* [User management overview](https://docs.adobe.com/content/help/en/analytics/admin/user-product-management/user-management/users.html)
 
-* [用户和组权限更改](https://docs.adobe.com/content/help/en/analytics/admin/user-product-management/user-management/permissions-changes.html)
+* [用户和用户组权限更改](https://docs.adobe.com/content/help/en/analytics/admin/user-product-management/user-management/permissions-changes.html)
 
 ### 移动应用程序管理员
 
@@ -44,11 +44,11 @@ Analytics 管理员可管理用户组和分配权限，其中一个是移动设�
 
 以下是有关访问 Mobile Services UI 中选项的其他信息：
 
-### 应用程序和报告套件
+### Apps and report suites
 
 所有 Mobile Service 应用程序都与报表包绑定。如果用户无权访问报表包，则无法访问该报表包的关联应用程序。
 
-### Mobile Services和Analytics功能
+### Mobile services和Analytics功能
 
 如果贵公司没有访问 UI 中功能（例如推送消息）的 Analytics 合同，则无论权限等级如何，贵公司中的任何用户都将无权访问该功能。
 
@@ -64,7 +64,7 @@ Analytics 管理员可管理用户组和分配权限，其中一个是移动设�
 
    >[!IMPORTANT]
    >
-   >尽管在Mobile Services UI中已删除应用程序，但报告套件仍存在于Analytics中。
+   >尽管应用程序已在Mobile Services UI中删除，但Analytics中仍存在报表包。
 
 * 管理应用程序设置
 
@@ -94,10 +94,10 @@ Analytics 管理员可管理用户组和分配权限，其中一个是移动设�
 
 有关群组和用户的更多信息，请参阅：
 
-* [用户组设置](https://docs.adobe.com/content/help/en/analytics/admin/user-product-management/user-groups/groups.html)
+* [User group settings](https://docs.adobe.com/content/help/en/analytics/admin/user-product-management/user-groups/groups.html)
 * [将用户添加到群组](https://docs.adobe.com/content/help/en/analytics/admin/user-product-management/user-management/t-add-user-to-group.html)
 
-### Mobile Services用户
+### Mobile services用户
 
 该角色具有只查看权限，并可以在 Mobile Services UI 中提供反馈。
 
@@ -116,7 +116,7 @@ Analytics 管理员可管理用户组和分配权限，其中一个是移动设�
    * 查看回发
    * 查看链接目标
 
-* 查看和运行报告
+* View and Run Reports
 * 查看营销链接
 * 查看和导出旧版客户获取链接
 * 查看和导出地点（目标点）配置
