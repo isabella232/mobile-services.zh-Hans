@@ -3,25 +3,25 @@ description: 您可以为推送消息定义和配置受众选项，包括日期�
 keywords: mobile
 seo-description: 您可以为推送消息定义和配置受众选项，包括日期范围选项、Analytics 区段和自定义区段。
 seo-title: 受众定义和配置推送消息的受众细分
-solution: Marketing Cloud，Analytics
+solution: Marketing Cloud,Analytics
 title: 受众定义和配置推送消息的受众细分
 topic: 量度
-uuid: efd410e7-3b6c-4cf4-a26 f-b11688 adc491
+uuid: efd410e7-3b6c-4cf4-a26f-b11688adc491
 translation-type: tm+mt
 source-git-commit: f28ea0db13b8d8f209d7521d1f61f1c290e688aa
 
 ---
 
 
-# 受众：推送消息{#audience-define-and-configure-audience-segments-for-push-messages}
+# Audience: push messages{#audience-define-and-configure-audience-segments-for-push-messages}
 
 您可以为推送消息定义和配置受众选项，包括日期范围选项、Analytics 区段和自定义区段。
 
 ## Define audience segments {#section_7C4D2393CF7441959FE2381A02867CAC}
 
-在为推送消息创建受众区段时，该区段可能会涉及来自一个或多个应用程序的用户，这是因为报表包或虚拟报表包可能包含来自一个或多个应用程序的数据。有关虚拟报表包的更多信息，请参阅[虚拟报告套件](/help/using/manage-apps/c-mob-vrs.md)。
+在为推送消息创建受众区段时，该区段可能会涉及来自一个或多个应用程序的用户，这是因为报表包或虚拟报表包可能包含来自一个或多个应用程序的数据。有关虚拟报表包的更多信息，请参阅 [Virtual report suites](/help/using/manage-apps/c-mob-vrs.md).
 
-在 Adobe Mobile Services 中，营销人员只能将消息推送到每个平台的一个应用程序。如果营销人员尝试将消息推送到包含多个应用程序中用户的区段，则会显示一条警告消息，提醒继续操作会导致严重的推送失败，并且用户可能会被加入黑名单。如果遇到推送失败，请参阅“解决推送失败”**（位于[推送推送疑难解答](/help/using/in-app-messaging/t-create-push-message/c-schedule-push-message.md)。
+在 Adobe Mobile Services 中，营销人员只能将消息推送到每个平台的一个应用程序。如果营销人员尝试将消息推送到包含多个应用程序中用户的区段，则会显示一条警告消息，提醒继续操作会导致严重的推送失败，并且用户可能会被加入黑名单。如果遇到推送失败，请参阅“解决推送失败”**（位于 [Troubleshooting push messaging](/help/using/in-app-messaging/t-create-push-message/c-schedule-push-message.md).
 
 要在区段定义中使用 Audience Manager 数据，请参阅[受众分析](https://docs-author-stg.corp.adobe.com/content/help/en/analytics/integration/audience-analytics/mc-audiences-aam.html)。
 
@@ -29,30 +29,30 @@ source-git-commit: f28ea0db13b8d8f209d7521d1f61f1c290e688aa
 >
 >If app users are blacklisted, marketers can **never** send push messages to those affected users again.
 
-如果您选择包含跨多个应用程序用户的受众细分，您可能会看到以下警告：
+If you select an audience segment that contains users across multiple apps, you might see the following alert:
 
-![多个应用程序名称](assets/multiple_appname.png)
+![multiple app name](assets/multiple_appname.png)
 
 The app name is based on the pared down version of the appId, which is automatically sent to Adobe Analytics by the Mobile Services SDK in the `<app name> <version number> (<bundle id>)` format.
 
 >[!TIP]
 >
->版本号为可选号。
+>版本号是可选的。
 
 最多会删除版本的 6 组数字和捆绑 ID 的 5 组数字。
 
 例如：
 
-* `Bea[rd]cons 1.0 (123)` 将显示为 `Bea[rd]cons`
+* `Bea[rd]cons 1.0 (123)` will appear as `Bea[rd]cons`
 * `Bea[rd]cons 1.2 (1.2)` 将显示为 `Bea[rd]cons`
 * `Bea[rd]cons 1.2.3.4.5.6.7 (1111)` 将显示为 `Bea[rd]cons .7`
 * `Bea[rd]cons 1.2.3. (1.2.3.4.5.6)` 将显示为 `Bea[rd]cons (.6)`
 
-要继续将推送消息发送到列出的应用程序，请选择&#x200B;**是，我要继续。** 复选框，然后单击 **[!UICONTROL “发送]**”。
+要继续将推送消息发送到列出的应用程序，请选择&#x200B;**是，我要继续。** 复选框，然后单击“ **[!UICONTROL 发送]**”。
 
 ## 最佳实践
 
-以下是一些最佳实践：
+以下是一些要记住的最佳实践：
 
 * 为了减少混淆，应&#x200B;**避免**&#x200B;定义包含多个应用程序中数据的移动设备应用程序虚拟报表包。
 * **每次**&#x200B;要发送推送消息时，在受众区段中使用唯一的应用程序 ID。这可确保将推送通知发送到&#x200B;**仅**&#x200B;属于一个应用程序的受众区段。
@@ -67,7 +67,7 @@ The app name is based on the pared down version of the appId, which is automatic
 
 ## Configure audience segments {#section_A92C60885A30421B8150820EC1CCBF13}
 
-1. 转到“受众”页面以获取新推送消息。
+1. 转到“受众”页面以获取新的推送消息。
 
    For more information, see [Create a push message](/help/using/in-app-messaging/t-create-push-message/t-create-push-message.md).
 
@@ -83,13 +83,13 @@ The app name is based on the pared down version of the appId, which is automatic
 
       这意味着 SDK 为推送消息选择启用 evar 发送了值 `True`。
 
-   * 虽然设备具有有效的设备令牌，但除非Adobe Analytics已设置了已选择加入的标志，否则该消息不会推送到设备。
+   * 即使设备具有有效的设备令牌，除非Adobe Analytics设置了选择加入标志，否则消息不会推送到设备。
 
    * 有关排查推送消息问题的更多信息，请参阅以下内容：
 
-      * [在iOS中推送消息](https://docs.adobe.com/content/help/en/mobile-services/ios/messaging-ios/push-messaging/push-messaging.html)
+      * [iOS中的推送消息](https://docs.adobe.com/content/help/en/mobile-services/ios/messaging-ios/push-messaging/push-messaging.html)
 
-      * [在Android中推送消息](https://docs.adobe.com/content/help/en/mobile-services/android/messaging-android/push-messaging/push-messaging.html)
+      * [Android中的推送消息](https://docs.adobe.com/content/help/en/mobile-services/android/messaging-android/push-messaging/push-messaging.html)
 
 1. 在以下字段中键入相应信息：
 
@@ -107,7 +107,7 @@ The app name is based on the pared down version of the appId, which is automatic
 
    * **[!UICONTROL Analytics 区段]**
 
-      从下拉列表中选择现有的Adobe Analytics区段。For more information, see [Build segments](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-build.html).
+      从下拉列表中选择一个现有Adobe Analytics区段。 For more information, see [Build segments](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-build.html).
 
    * **[!UICONTROL 自定义区段]**
 
