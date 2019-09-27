@@ -1,18 +1,18 @@
 ---
 description: 此信息可帮助您使用 ADBMobile JSON 配置文件。
 seo-description: 此信息可帮助您使用 ADBMobile JSON 配置文件。
-seo-title: AdBMobileConfig. json配置文件
-solution: Marketing Cloud，Analytics
-title: AdBMobileConfig. json配置文件
+seo-title: ADBMobileConfig.json配置文件
+solution: Marketing Cloud,Analytics
+title: ADBMobileConfig.json配置文件
 topic: 开发人员和实施
-uuid: a45b91cc-982e-4d6c-a4 e4-d2 e4 b4 fa7556
+uuid: a45b91cc-982e-4d6c-a4e4-d2e4b4fa7556
 translation-type: tm+mt
 source-git-commit: 1dbdb998228bd3b0ae41e774b6e9aa111d8dbe1c
 
 ---
 
 
-# `ADBMobileConfig.json` config文件 {#adbmobileconfig-json-config}
+# `ADBMobileConfig.json` 配置文件 {#adbmobileconfig-json-config}
 
 Information to help you use the `ADBMobile.json` config file.
 
@@ -40,7 +40,7 @@ SDK 当前支持多种 Adobe Experience Cloud 解决方案，其中包括 Analyt
 
 * **charset**
 
-   定义将用于发送到 Analytics 的数据的字符集。charset 用于将传入的数据转换为 UTF-8 以便进行存储和报告。有关更多信息，请参阅 [s. charSet](https://marketing.adobe.com/resources/help/en_US/sc/implement/charset.html)。
+   定义将用于发送到 Analytics 的数据的字符集。charset 用于将传入的数据转换为 UTF-8 以便进行存储和报告。For more information, see [s.charSet](https://marketing.adobe.com/resources/help/en_US/sc/implement/charset.html).
 
 * **ssl**
 
@@ -60,25 +60,25 @@ SDK 当前支持多种 Adobe Experience Cloud 解决方案，其中包括 Analyt
 
 * **batchLimit**
 
-   批量发送点击。例如，如果设置为 50，则点击将排入队列，直到存储了 50 个点击之后，才会发送所有排队的点击。`offlineEnabled=true`需要。默认值为 `0` (无批量)。
+   批量发送点击。例如，如果设置为 50，则点击将排入队列，直到存储了 50 个点击之后，才会发送所有排队的点击。需要 `offlineEnabled=true`。 默认值为( `0` 无批处理)。
 
 * **privacyDefault**
 
-   * `optedin` - 点击会立即发送。
-   * `optedout` - 点击将被丢弃。
+   * `optedin` -立即发送点击。
+   * `optedout` -丢弃点击。
    * `optunknown` - 如果您的报表包启用了时间戳，将会保存点击，直到隐私状态更改为选择启用（随后将发送点击）或选择禁用（随后将丢弃点击）。如果您的报表包未启用时间戳，则将丢弃点击，直到隐私状态更改为选择启用。
 
       默认值为 `optedin`.
 
       >[!TIP]
       >
-      >这将仅设置默认值。如果曾在代码中设置或更改此值，则由代码设置的值会保存在本地存储中，并一直使用到它发生更改，或应用程序被卸载后又重新安装时为止。
+      >这仅设置默认值。 如果曾在代码中设置或更改此值，则由代码设置的值会保存在本地存储中，并一直使用到它发生更改，或应用程序被卸载后又重新安装时为止。
 
 * **poi**
 
    每个 POI 数组均保存目标点区域的 POI 名称、纬度、经度和半径（以米为单位）。POI 名称可以是任何字符串。在发送 `trackLocation` 调用时，如果当前坐标位于定义的 POI 内，则会填充上下文数据变量，并随 `trackLocation` 调用发送该变量。
 
-   * 下面是此变量的代码示例：
+   * 以下是此变量的代码示例：
 
       ```js
       "poi": [
