@@ -2,11 +2,11 @@
 description: 以下是 Android 库提供的 Audience Manager 方法列表。
 keywords: android；库；移动；sdk
 seo-description: 以下是 Android 库提供的 Audience Manager 方法列表。
-seo-title: Audience Manager方法
-solution: Marketing Cloud，Analytics
-title: Audience Manager方法
+seo-title: Audience Manager methods
+solution: Marketing Cloud,Analytics
+title: Audience manager方法
 topic: 开发人员和实施
-uuid: 2f6e4664-1306-41d4-9fa7-e3 a99 f1 df4 ab
+uuid: 2f6e4664-1306-41d4-9fa7-e3a99f1df4ab
 translation-type: tm+mt
 source-git-commit: df4ea2c4002611c72009cf69598cbbb74b5c15c4
 
@@ -17,7 +17,7 @@ source-git-commit: df4ea2c4002611c72009cf69598cbbb74b5c15c4
 
 以下是 Android 库提供的 Audience Manager 方法列表。
 
-SDK目前支持多个Adobe Experience Cloud解决方案，包括Analytics、Target、Audience Manager和Adobe Experience Platform Identity Service。Methods are prefixed according to the solution. For example, Experience Cloud ID methods are prefixed with `audience manager`.
+SDK目前支持多个Adobe Experience cloud解决方案，包括Analytics、Target、Audience Manager和Adobe Experience Platform Identity Service。 Methods are prefixed according to the solution. For example, Experience Cloud ID methods are prefixed with `audience manager`.
 
 如果在 JSON 文件中配置了 Audience Manager，则会随生命周期点击发送一个包含生命周期量度的信号。
 
@@ -73,7 +73,7 @@ SDK目前支持多个Adobe Experience Cloud解决方案，包括Analytics、Targ
 
    设置 DPID 和 DPUUID，这些值会随每个信号一起发送。
 
-   如果传递给此方法的DPUUID值包含非URL安全字符，则客户必须对该参数进行编码，然后才能将其传递给SDK。
+   如果传递给此方法的DPUUID值包含非URL安全的字符，则客户必须对该参数进行编码，然后才能将其传递到SDK。
 
    * 下面是这种方法对应的语法：
 
