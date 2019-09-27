@@ -3,7 +3,7 @@ description: 在将库添加到项目后，您可以在应用程序中的任何�
 seo-description: 在将库添加到项目后，您可以在应用程序中的任何位置进行任何 Analytics 方法调用（确保已将 ADBMobile.h 导入到您的类中）。
 seo-title: Analytics
 title: Analytics
-uuid: de018edet-b37 d-4afe-83a0-801181d7 aff
+uuid: de018eda-b37d-4afe-83a0-8011381d7aff
 translation-type: tm+mt
 source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
 
@@ -50,7 +50,7 @@ Lifecycle metrics are now ready to be captured, and Mobile Application Reports] 
 ## Events, props, and eVars {#concept_B885D5A71A5D45129CE7C1C3426A7D28}
 
 
-如果您查看 [了AdbMobile类和方法参考](/help/blackberry/methods.md)，您可能想知道如何设置事件、eVar、prop、heories和列表。在版本 4 中，您不能再在应用程序中直接分配这些类型的变量。SDK 而是会使用上下文数据和处理规则将您的应用程序数据映射到 Analytics 变量以供报告。
+如果您查看过 [ADBMobile类和方法参考](/help/blackberry/methods.md)，您可能会想知道在哪里设置事件、eVar、prop、继承和列表。 在版本 4 中，您不能再在应用程序中直接分配这些类型的变量。SDK 而是会使用上下文数据和处理规则将您的应用程序数据映射到 Analytics 变量以供报告。
 
 处理规则具有以下几个好处：
 
@@ -68,7 +68,7 @@ Lifecycle metrics are now ready to be captured, and Mobile Application Reports] 
 
 [处理规则](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/processing-rules/processing-rules.html)
 
-[获得使用处理规则的授权](https://helpx.adobe.com/analytics/kb/processing-rules-authorization.html)
+[Become authorized to use processing rules](https://helpx.adobe.com/analytics/kb/processing-rules-authorization.html)
 
 我们建议使用“命名空间”对您的上下文数据变量进行分组，因为它能帮助您保持逻辑顺序。例如，如果您要收集有关某个产品的信息，则可以定义以下变量：
 
@@ -106,7 +106,7 @@ Lifecycle metrics are now ready to be captured, and Mobile Application Reports] 
 
 >[!TIP]
 >
->Adobe保留命名空间 `a.`。除了这一小限制之外，上下文数据变量只需要在您的登录公司内是唯一的，以便避免冲突。
+>Adobe保留命名空间 `a.`。 除了这一小限制之外，上下文数据变量只需要在您的登录公司内是唯一的，以便避免冲突。
 
 ## 启用脱机跟踪 {#concept_402F4ECE240B4CA1B779322A7BFCB8DE}
 
@@ -116,4 +116,4 @@ To store hits when the device is offline, you can optionally enable offline trac
 
 ## 分析方法
 
-有关可用于BlackBerry的Analytics方法列表，请参阅 *Adobe Mobile类和方法参考* 中 [的分析方法](/help/blackberry/methods.md)。
+有关BlackBerry可用的Analytics方法的列表，请参阅 *Adobe Mobile Class和Method Reference中的*[Analytics方法](/help/blackberry/methods.md)。
