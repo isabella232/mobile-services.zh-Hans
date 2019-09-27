@@ -2,11 +2,11 @@
 description: “技术”报表允许您查看正在使用您的应用程序的不同设备类型、操作系统、操作系统版本和移动运营商。
 keywords: mobile
 seo-description: “技术”报表允许您查看正在使用您的应用程序的不同设备类型、操作系统、操作系统版本和移动运营商。
-seo-title: 技术报告
-solution: Marketing Cloud，Analytics
-title: 技术报告
+seo-title: Technology report
+solution: Marketing Cloud,Analytics
+title: Technology report
 topic: 报表,量度
-uuid: 4b7322c4-8920-43cd-bb72-5a5 bd515 ae84
+uuid: 4b7322c4-8920-43cd-bb72-5a5bd515ae84
 translation-type: tm+mt
 source-git-commit: e9691f9cbeadd171948aa752b27a014c3ab254d6
 
@@ -25,7 +25,7 @@ source-git-commit: e9691f9cbeadd171948aa752b27a014c3ab254d6
 
 >[!TIP]
 >
->除了此信息之外，您还可以查看产品内教程，其中介绍了如何与朝阳图进行交互。To start the tutorial, click **[!UICONTROL Technology Breakdown]** in the title bar of the report, click **[!UICONTROL Customize]**, and click the **[!UICONTROL i]** icon.
+>In addition to this information, you can view an in-product tutorial that describes how to interact with the sunburst chart. To start the tutorial, click **[!UICONTROL Technology Breakdown]** in the title bar of the report, click **[!UICONTROL Customize]**, and click the **[!UICONTROL i]** icon.
 
 ![](assets/report_technology.png)
 
@@ -51,7 +51,7 @@ source-git-commit: e9691f9cbeadd171948aa752b27a014c3ab254d6
 
 >[!TIP]
 >
->**[!UICONTROL 在运营商]** 报告中，Wi-Fi用户被报告为 `none`。
+>在“ **[!UICONTROL 运营商]** ”报告中，Wi-fi用户报告为 `none`。
 
 
 ## 添加划分和量度 {#section_15833511E82648869E7B1EFC24EF7B82}
@@ -60,7 +60,7 @@ source-git-commit: e9691f9cbeadd171948aa752b27a014c3ab254d6
 
 >[!IMPORTANT]
 >
->您添加到太阳爆发的光环越多，处理过程就越长。
+>您向日光暴增加的环越多，处理时间越长。
 
 To add breakdowns and secondary metrics, click **[!UICONTROL Technology Breakdown]** in the title bar of the report and click **[!UICONTROL Customize]**.
 
