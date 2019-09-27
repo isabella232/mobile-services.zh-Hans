@@ -3,10 +3,10 @@ description: 以下信息可帮助您对 Android 设备上的旧版客户获取�
 keywords: android；库；移动；sdk
 seo-description: 以下信息可帮助您对 Android 设备上的旧版客户获取促销活动链接进行往返测试。
 seo-title: 测试旧版客户获取
-solution: Marketing Cloud，Analytics
+solution: Marketing Cloud,Analytics
 title: 测试旧版客户获取
 topic: 开发人员和实施
-uuid: bb7ce96-68eb-4f43-b3 cf80730 b9 cf
+uuid: bb7ace96-68eb-4f43-b3cf-af80730b9cee
 translation-type: tm+mt
 source-git-commit: bf076aa8e59d5c3e634fc4ae21f0de0d4541a83f
 
