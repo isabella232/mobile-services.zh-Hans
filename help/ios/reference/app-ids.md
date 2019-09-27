@@ -2,10 +2,10 @@
 description: 下表介绍了可供 iOS SDK 和 Adobe Mobile Services 使用的不同应用程序标识符。
 seo-description: 下表介绍了可供 iOS SDK 和 Adobe Mobile Services 使用的不同应用程序标识符。
 seo-title: 应用程序 ID
-solution: Marketing Cloud，Analytics
+solution: Marketing Cloud,Analytics
 title: 应用程序 ID
 topic: 开发人员和实施
-uuid: 24eBC716-23c7-4ee8-8256-b534210367 e0
+uuid: 24ebc716-23c7-4ee8-8256-b534210367e0
 translation-type: tm+mt
 source-git-commit: 0e22d5e080b680ff6b23462f1bc12f27d99e6d42
 
