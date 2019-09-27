@@ -1,9 +1,9 @@
 ---
 description: 用于 Xamarin 应用程序的类和枚举列表。
 seo-description: 用于 Xamarin 应用程序的类和枚举列表。
-seo-title: 课程和枚举
-title: 课程和枚举
-uuid: 410d27ee-ce2 b-4183-971e-39a7031 d1 bd5
+seo-title: 类和边界
+title: 类和边界
+uuid: 410d27ee-ce2b-4183-971e-39a7031d1bd5
 translation-type: tm+mt
 source-git-commit: df4ea2c4002611c72009cf69598cbbb74b5c15c4
 
