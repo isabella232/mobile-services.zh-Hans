@@ -3,10 +3,10 @@ description: 以下是 Android 库提供的方法列表。
 keywords: android；库；移动；sdk
 seo-description: 以下是 Android 库提供的方法列表。
 seo-title: 配置方法
-solution: Marketing Cloud，Analytics
+solution: Marketing Cloud,Analytics
 title: 配置方法
 topic: 开发人员和实施
-uuid: 663aeb6c-1b97-4a3a-3c0e-dd4 c2 ec28 c01
+uuid: 663aeb6c-1b97-4a3a-8c0e-dd4c2ec28c01
 translation-type: tm+mt
 source-git-commit: bf076aa8e59d5c3e634fc4ae21f0de0d4541a83f
 
@@ -37,7 +37,7 @@ source-git-commit: bf076aa8e59d5c3e634fc4ae21f0de0d4541a83f
 
 * **registerAdobeDataCallback**
 
-   * 注册用于实现 `AdobeDataCallback` 接口的对象。The overwritten "call" method will be invoked with a `Config.MobileDataEvent` value and the associated data in a `Map<String, Object>` for the triggering event. 有关哪些事件将触发此回调的详细信息，请参阅 *本主题底部的MobileDataEventNum。*
+   * 注册用于实现 `AdobeDataCallback` 接口的对象。The overwritten "call" method will be invoked with a `Config.MobileDataEvent` value and the associated data in a `Map<String, Object>` for the triggering event. 有关将触发此回调的事件的详细信息，请参 *阅本主题底部的MobileDataEventEnum* 。
 
       >[!TIP]
       >
@@ -73,7 +73,7 @@ source-git-commit: bf076aa8e59d5c3e634fc4ae21f0de0d4541a83f
       public static String getVersion();
       ```
 
-   * 下面是此方法的代码示例：
+   * 以下是此方法的代码示例：
 
       ```java
       String libraryVersion = Config.getVersion(); 
@@ -85,8 +85,8 @@ source-git-commit: bf076aa8e59d5c3e634fc4ae21f0de0d4541a83f
 
       以下是隐私状态值：
 
-      * `MOBILE_PRIVACY_STATUS_OPT_IN`立即发送点击。
-      * `MOBILE_PRIVACY_STATUS_OPT_OUT`将其丢弃的位置。
+      * `MOBILE_PRIVACY_STATUS_OPT_IN`, where the hits are sent immediately.
+      * `MOBILE_PRIVACY_STATUS_OPT_OUT`，此处将其丢弃。
       * `MOBILE_PRIVACY_STATUS_UNKNOWN`：如果您的报表包启用了时间戳，将会保存点击，直到隐私状态更改为选择启用（发送点击）或选择禁用（丢弃点击）。
 
          如果您的报表包未启用时间戳，则将丢弃点击，直到隐私状态更改为选择启用。默认值在 `ADBMobileConfig.json` 文件中设置。
@@ -96,7 +96,7 @@ source-git-commit: bf076aa8e59d5c3e634fc4ae21f0de0d4541a83f
       public static MobilePrivacyStatus getPrivacyStatus(); 
       ```
 
-   * 下面是此方法的代码示例：
+   * 以下是此方法的代码示例：
 
       ```java
       MobilePrivacyStatus privacyStatus Config.getPrivacyStatus();
@@ -108,8 +108,8 @@ source-git-commit: bf076aa8e59d5c3e634fc4ae21f0de0d4541a83f
    * 将当前用户的隐私状态设置为 `status`。
 
       您可以将隐私状态设置为以下值之一：
-      * `MOBILE_PRIVACY_STATUS_OPT_IN`立即发送点击。将会立即发送这些点击。
-      * `MOBILE_PRIVACY_STATUS_OPT_OUT`将其丢弃的位置。将会丢弃这些点击。
+      * `MOBILE_PRIVACY_STATUS_OPT_IN`, where the hits are sent immediately. 将会立即发送这些点击。
+      * `MOBILE_PRIVACY_STATUS_OPT_OUT`，此处将其丢弃。 将会丢弃这些点击。
       * `MOBILE_PRIVACY_STATUS_UNKNOWN`：如果您的报表包启用了时间戳，将会保存点击，直到隐私状态更改为选择启用（发送点击）或选择禁用（丢弃点击）。如果您的报表包未启用时间戳，则将丢弃点击，直到隐私状态更改为选择启用。
    * 下面是这种方法对应的语法：
 
@@ -117,7 +117,7 @@ source-git-commit: bf076aa8e59d5c3e634fc4ae21f0de0d4541a83f
       public static void setPrivacyStatus(MobilePrivacyStatus status); 
       ```
 
-   * 下面是此方法的代码示例：
+   * 以下是此方法的代码示例：
 
       ```java
       Config.setPrivacyStatus(MobilePrivacyStatus.MOBILE_PRIVACY_STATUS_OPT_IN); 
@@ -134,7 +134,7 @@ source-git-commit: bf076aa8e59d5c3e634fc4ae21f0de0d4541a83f
       public static BigDecimal getLifetimeValue();
       ```
 
-   * 下面是此方法的代码示例：
+   * 以下是此方法的代码示例：
 
       ```java
       BigDecimal currentLifetimeValue Config.getLifetimeValue(); 
@@ -146,7 +146,7 @@ source-git-commit: bf076aa8e59d5c3e634fc4ae21f0de0d4541a83f
 
       >[!TIP]
       >
-      >如果您的应用程序升级从Experience Cloud3.x升级到4.x SDK，则会检索先前的自定义或自动生成的访客ID，并将其作为自定义用户标识符存储。这样可在 SDK 升级期间保留访客数据。对于 4.x SDK 上的新安装，用户标识符在设置之前为 `null`。
+      >如果您的应用程序从Experience Cloud 3.x升级到4.x SDK，则会检索之前的自定义或自动生成的访客ID，并将其存储为自定义用户标识符。 这样可在 SDK 升级期间保留访客数据。对于 4.x SDK 上的新安装，用户标识符在设置之前为 `null`。
 
    * 下面是这种方法对应的语法：
 
@@ -154,7 +154,7 @@ source-git-commit: bf076aa8e59d5c3e634fc4ae21f0de0d4541a83f
       public static String&amp getUserIdentifier();
       ```
 
-   * 此处是此方法的代码示例：
+   * Here the code sample for this method:
 
       ```java
       String userId = Config.getUserIdentifier();
