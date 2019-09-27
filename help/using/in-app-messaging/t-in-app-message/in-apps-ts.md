@@ -3,10 +3,10 @@ description: 此信息可帮助您排查应用程序内消息传送问题。
 keywords: mobile
 seo-description: 此信息可帮助您排查应用程序内消息传送问题。
 seo-title: 排查应用程序内消息传送问题
-solution: Marketing Cloud，Analytics
+solution: Marketing Cloud,Analytics
 title: 排查应用程序内消息传送问题
 topic: 量度
-uuid: 8813e8d8-bb1 e-46ad-83cd-98e68 f73 ce6
+uuid: 8813e8d8-bb1e-46ad-83cd-98ae68f73ce6
 translation-type: tm+mt
 source-git-commit: e9691f9cbeadd171948aa752b27a014c3ab254d6
 
@@ -37,13 +37,13 @@ source-git-commit: e9691f9cbeadd171948aa752b27a014c3ab254d6
 
 检查“**管理应用程序内消息”页面上状态**&#x200B;列中的列表视图，确认消息是否是实时的。
 
-## 观看 *节目一次*， *始终显示*， *在“受众”页面上显示脱机* 设置。
+## 在“受 *众”页面上*, *查看一次*，始终 *显示，* 显示脱机设置。
 
 请确认这些设置正确无误。在“受众”页面上，查看&#x200B;**触发器**&#x200B;选项卡中的选项，您可以在此选项卡上指定消息的显示频率。
 
 ## 如果使用启动项作为触发器...
 
-启动项只会在新会话中触发。有关会话何时开始的信息，请参阅`lifecycleTimeout` 在 [AdobeMobile JSON配置](/help/ios/configuration/json-config/json-config.md) 文件中。
+启动项只会在新会话中触发。有关会话何时开始的信息，请参阅 在 `lifecycleTimeout` ADBMobile JSON配 [置文件中](/help/ios/configuration/json-config/json-config.md) 。
 
 ## 我远程更新了消息，但我的应用程序仍显示旧消息。
 
@@ -77,7 +77,7 @@ SDK 在生命周期启动时获取全新/更新的消息。这仅在应用程序
 
 完成以下步骤：
 
-1. 在配置文件中卷起您的消息URL以验证远程消息是否已更新(例如， `curl "https://assets.adobedtm.com/b213090c5204bf94318f4ef0539a38b487d10368/scripts/satellite-542c62859662383b1a0008f4.json"`)
+1. 将消息URL卷起到配置文件中以验证远程消息是否已更新(例如， `curl "https://assets.adobedtm.com/b213090c5204bf94318f4ef0539a38b487d10368/scripts/satellite-542c62859662383b1a0008f4.json"`)
 1. 关闭应用程序。
 1. Wait for a time period that is longer than the `lifecycleTimeout` in the config file.
 1. 打开应用程序，导航到消息应当显示的地方，并验证它是否已更新。
