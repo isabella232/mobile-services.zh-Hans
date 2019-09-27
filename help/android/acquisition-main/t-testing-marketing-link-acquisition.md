@@ -1,12 +1,12 @@
 ---
-description: 以下说明可帮助您通过Android设备上的营销链接来回访问客户赢取活动。
-keywords: android；库；移动；sdk
-seo-description: 以下说明可帮助您通过Android设备上的营销链接来回访问客户赢取活动。
+description: 以下说明可帮助您在Android设备上将客户赢取活动与营销链接进行往返传输。
+keywords: android;library;mobile;sdk
+seo-description: The following instructions help you roundtrip an acquisition campaign with a Marketing Link on an Android device.
 seo-title: 测试营销链接客户获取
-solution: Marketing Cloud，Analytics
+solution: Marketing Cloud,Analytics
 title: 测试营销链接客户获取
 topic: 开发人员和实施
-uuid: d0933dcc-8fc6-4f60-987f-7a54559aacf5
+uuid: d0933dcc-8fc3-4f60-987f-7a54559aacf5
 translation-type: tm+mt
 source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
 
@@ -15,13 +15,13 @@ source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
 
 # Testing Marketing Link acquisition {#testing-marketing-link-acquisition}
 
-以下说明可帮助您通过Android设备上的营销链接来回访问客户赢取活动。
+以下说明可帮助您在Android设备上将客户赢取活动与营销链接进行往返传输。
 
-如果您的移动应用程序尚未在Google Play中，您可以在创建营销链接时选择任何移动应用程序作为目标。这只会影响在您单击客户获取链接后客户获取服务器将您重定向到的应用程序，而不会影响测试客户获取链接的功能。查询字符串参数将传递到 Google Play 商店，进而作为促销活动广播的一部分在安装时传递到应用程序。移动设备应用程序客户获取往返测试需要模拟此类型的广播。
+如果您的移动应用程序尚未在Google play中，则可以在创建营销链接时选择任何移动应用程序作为目标。 这只会影响在您单击客户获取链接后客户获取服务器将您重定向到的应用程序，而不会影响测试客户获取链接的功能。查询字符串参数将传递到 Google Play 商店，进而作为促销活动广播的一部分在安装时传递到应用程序。移动设备应用程序客户获取往返测试需要模拟此类型的广播。
 
 The app must be freshly installed, or have data cleared in **[!UICONTROL Settings]**, each time a test is run. 这可以确保在首次启动应用程序时发送与促销活动查询字符串参数关联的初始生命周期量度。
 
-1. 完成 [移动应用程序获取](/help/android/acquisition-main/acquisition.md) 中的入门任务，确保您正确实施了广播接收器 `INSTALL_REFERRER`。
+1. Complete the prerequisite tasks in Mobile app acquisition and ensure that you have correctly implemented the broadcast receiver for .[](/help/android/acquisition-main/acquisition.md)`INSTALL_REFERRER`
 1. In the Adobe Mobile Services] UI, click  **[!UICONTROL Acquisition]** &gt; **[!UICONTROL Marketing Links Builder]** and generate an Acquisition Marketing Link URL that sets Google Play as the destination for Android devices.
 
    有关更多信息，请参阅[营销链接生成器](/help/using/acquisition-main/c-marketing-links-builder/c-marketing-links-builder.md)。
@@ -38,7 +38,7 @@ The app must be freshly installed, or have data cleared in **[!UICONTROL Setting
 
 1. Copy the unique ID after `utm_content%3D`.
 
-   在上一个示例中，ID为 `91b52ce097b1464b9b47cb2995c493cc6ab2c3a3`。
+   In the previous example, the ID is .`91b52ce097b1464b9b47cb2995c493cc6ab2c3a3`
 
    如果您无法在设备上获取唯一 ID，请在您的桌面上运行以下 `CURL` 命令，以从响应字符串中获取唯一 ID。
 
@@ -69,7 +69,7 @@ The app must be freshly installed, or have data cleared in **[!UICONTROL Setting
 
    | 设置 | 值 |
    |--- |--- |
-   | acquisition | 服务器应为 `c00.adobe.com`，并且 *`appid`* 应等于您的赢取链接 `appid` 中的内容。 |
+   | acquisition | The server should be `c00.adobe.com`, and      *`appid`*  should equal the `appid` in your acquisition link. |
    | analytics | 出于测试目的，请设置反向链接超时以允许有足够的时间（60 秒或更多）手动发送广播。您可以在测试后恢复原始超时设置。 |
 
 1. 将设备连接到计算机，然后卸载并重新安装应用程序。
@@ -114,7 +114,7 @@ The app must be freshly installed, or have data cleared in **[!UICONTROL Setting
    | Analytics - Unable to decode response(`<string>`). | 响应的格式错误。 |
    | Analytics - Unable to parse response (`a JSON Response`). | JSON 字符串的格式错误。 |
    | Analytics - Unable to parse acquisition service response (no `contextData` parameter in response). | 响应中没有 `contextData` 参数。 |
-   | Analytics - Acquisition referrer data was not complete (no `a.referrer.campaign.name` in context data), ignoring. | `a.referrer.campaign.name` 不包含在ContextData中。 |
+   | Analytics - Acquisition referrer data was not complete (no `a.referrer.campaign.name` in context data), ignoring. | `a.referrer.campaign.name` is not included in contextData. |
    | Analytics - Acquisition referrer timed out. | 无法在 `referrerTimeout` 定义的时间内获取响应。请增加值，然后重试。您还应该确保在安装应用程序之前，已经打开客户获取链接。 |
 
 请牢记以下信息：
@@ -138,4 +138,4 @@ The app must be freshly installed, or have data cleared in **[!UICONTROL Setting
 java -jar acquisitionTester.jar -a com.adobe.test -r com.adobe.test.ReferrerReceiver -l "https://c00.adobe.com/v3/appid/start?a_i_id=123456&a_g_id=com.adobe.test&a_dd=i&ctxa.referrer.campaign.name=name&ctxa.referrer.campaign.trackingcode=1234
 ```
 
-营销链接在服务器端缓存，期限为10分钟。如果对营销链接进行更改，再次使用这些链接之前需等待约 10 分钟，所做的更改才会生效。
+营销链接在服务器端缓存10分钟的过期时间。 如果对营销链接进行更改，再次使用这些链接之前需等待约 10 分钟，所做的更改才会生效。
