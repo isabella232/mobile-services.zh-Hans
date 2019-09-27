@@ -2,10 +2,10 @@
 description: 'null'
 seo-description: 'null'
 seo-title: Analytics
-solution: Marketing Cloud，Analytics
+solution: Marketing Cloud,Analytics
 title: Analytics
 topic: 开发人员和实施
-uuid: c2 cf3 d3-77a7-74a8 e-be4-3db10 a77996 a
+uuid: c2cef3d3-77a7-4a8e-bbe4-3db10a77996a
 translation-type: tm+mt
 source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
 
@@ -14,11 +14,11 @@ source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
 
 # Analytics {#analytics}
 
-将库添加到项目后，可以在应用程序中的任意位置调用任何Analytics方法。
+在将库添加到项目后，您可以在应用程序中的任意位置进行任何Analytics方法调用。
 
 >[!TIP]
 >
->确保导入 `ADBMobile.h` 到您的类。
+>确保导入 `ADBMobile.h` 到类。
 
 ## Enable mobile application reports in Analytics {#section_F2F9234009184F20BA36B5CDE872B424}
 
@@ -46,7 +46,7 @@ source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
 
 要在您的应用程序中收集生命周期量度，请添加应用程序被激活时的调用，如以下示例中所示。
 
-### winJS in default. js
+### default.js中的WinJS
 
 ```js
 app.onactivated = function (args) { 
@@ -61,7 +61,7 @@ app.oncheckpoint = function (args) {
 }
 ```
 
-### C# in App. xaml. cs
+### C# in App.xaml.cs
 
 ```js
 public App() 
@@ -178,15 +178,15 @@ If you've looked at [SDK methods](/help/universal-windows/c-configuration/method
 
 >[!TIP]
 >
->Adobe保留命名空间 `a.`。除了此限制之外，上下文数据变量在登录公司中必须是唯一的，才能避免冲突。
+>Adobe保留命名空间 `a.`。 除此限制外，上下文数据变量只需要在登录公司中具有唯一性，以避免冲突。
 
 ## Products variable {#section_AFBA36F3718C44D29AF81B9E1056A1B4}
 
-要在 *`products`* 移动SDK中设置，您必须使用特殊语法。有关更多信息，请参阅 [产品变量](/help/universal-windows/analytics/products.md)。
+要在移 *`products`* 动SDK中设置，必须使用特殊语法。 有关详细信息，请参阅 [产品变量](/help/universal-windows/analytics/products.md)。
 
 ## (Optional) Enable offline tracking {#section_955B2A03EB854742BDFC4A0A3C287009}
 
-To store hits when the device is offline, you can enable offline tracking in the [SDK methods](/help/universal-windows/c-configuration/methods.md) file. 在启用脱机跟踪之前，请注意配置文件引用中所述的时间戳要求。
+To store hits when the device is offline, you can enable offline tracking in the [SDK methods](/help/universal-windows/c-configuration/methods.md) file. 在启用脱机跟踪之前，请仔细注意配置文件引用中描述的时间戳要求。
 
 ## Geo-location and points of interest {#section_BAD34A8DD013454DB355121316BD7FD4}
 
