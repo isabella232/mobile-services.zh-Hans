@@ -2,10 +2,10 @@
 description: 'null'
 keywords: Unity
 seo-description: 'null'
-seo-title: AdBMobile. cs方法
+seo-title: ADBMobile.cs方法
 solution: Marketing Cloud，开发人员
-title: AdBMobile. cs方法
-uuid: af504934-fedd-45d9-81e2210 f4 c65 f4 c65 dc
+title: ADBMobile.cs方法
+uuid: af504934-febd-45d9-81e2-2a310f4c65dc
 translation-type: tm+mt
 source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
 
@@ -83,8 +83,8 @@ source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
 * **GetPrivacyStatus**
 
    返回当前用户隐私状态的枚举表示形式。
-   * `MOBILE_PRIVACY_STATUS_OPT_IN`：点击将立即发送。
-   * `MOBILE_PRIVACY_STATUS_OPT_OUT`：点击将被丢弃。
+   * `MOBILE_PRIVACY_STATUS_OPT_IN`:点击会立即发送。
+   * `MOBILE_PRIVACY_STATUS_OPT_OUT`:将丢弃点击。
    * `MOBILE_PRIVACY_STATUS_UNKNOWN`：如果启用了离线跟踪，将会保存点击，直到隐私状态更改为选择启用（发送点击）或选择禁用（丢弃点击）。
 
       如果未启用离线跟踪，则将丢弃点击，直到隐私状态更改为选择启用。默认值在 [ADBMobileConfig.json](/help/ios/configuration/json-config/json-config.md) 文件中设置。
@@ -139,7 +139,7 @@ source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
 
    >[!TIP]
    >
-   >此方法旨在用于在后台注册通知的应用程序，并且只应从运行应用程序时运行的代码调用。
+   >此方法适用于在后台注册通知的应用程序，并且只应从应用程序在后台运行的代码中调用。
 
    * 下面是这种方法对应的语法：
 
@@ -205,8 +205,8 @@ source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
 
    设置当前用户的隐私状态。设置为以下值之一：
 
-   * `MOBILE_PRIVACY_STATUS_OPT_IN`：点击将立即发送。
-   * `MOBILE_PRIVACY_STATUS_OPT_OUT`：点击将被丢弃。
+   * `MOBILE_PRIVACY_STATUS_OPT_IN`:点击会立即发送。
+   * `MOBILE_PRIVACY_STATUS_OPT_OUT`:将丢弃点击。
    * `MOBILE_PRIVACY_STATUS_UNKNOWN`：如果启用了离线跟踪，将会保存点击，直到隐私状态更改为选择启用（发送点击）或选择禁用（丢弃点击）。如果未启用离线跟踪，则将丢弃点击，直到隐私状态更改为选择启用。
 
    * 下面是这种方法对应的语法：
@@ -215,7 +215,7 @@ source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
       public static void SetPrivacyStatus(ADBPrivacyStatusstatus); 
       ```
 
-   * 下面是此语法的代码示例：
+   * 以下是此语法的代码示例：
 
       ```java
       ADBMobile.SetPrivacyStatus(ADBMobile.ADBPrivacyStatus.MOBILE_PRIVACY_STATUS_OPT_IN);
@@ -259,11 +259,11 @@ source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
 
    通过可选的上下文数据跟踪应用程序状态。状态是指应用程序中可用的视图，如“标题屏幕”、“级别 1”、“暂停”，等等。这些状态与网站中的页面类似，而且 `TrackState` 调用会使页面查看次数递增。
 
-   如果状态为空，则其显示如 *`app name app version (build)`* 报表中。如果您在报表中看到该值，请确保在每个 `TrackState` 调用中设置 state。
+   如果状态为空，则状态将显示为报 *`app name app version (build)`* 告中的状态。 如果您在报表中看到该值，请确保在每个 `TrackState` 调用中设置 state。
 
    >[!TIP]
    >
-   >这是增加页面视图的唯一跟踪调用。
+   >这是唯一可增加页面查看次数的跟踪调用。
 
    * 下面是这种方法对应的语法：
 
@@ -305,7 +305,7 @@ source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
 
    >[!TIP]
    >
-   >仅应在应用程序处于后台运行的代码中调用此方法。
+   >只应在应用程序处于后台时运行的代码中调用此方法。
 
    * 下面是这种方法对应的语法：
 
