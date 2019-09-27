@@ -2,10 +2,10 @@
 description: 您可以使用生命周期值测量和定位每个用户的生命周期值。
 seo-description: 您可以使用生命周期值测量和定位每个用户的生命周期值。
 seo-title: 访客终身价值
-solution: Marketing Cloud，Analytics
-title: 访客终身价值
+solution: Marketing Cloud,Analytics
+title: Visitor lifetime value
 topic: 开发人员和实施
-uuid: d830d18b-4313-43bb-8d75-37889869d0f1d
+uuid: d830d18b-4313-43bb-8d75-3789869d0f1d
 translation-type: tm+mt
 source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
 
@@ -22,7 +22,7 @@ source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
 
 1. 将库添加到您的项目并实施生命周期。
 
-   有关详细信息，请参阅 *将SDK和配置文件添加到核心实施和生命周期* 中 [的项目](/help/ios/getting-started/dev-qs.md)。
+   有关详细信息，请参 *阅在核心实施和生命周期中将SDK和配置文件添加*[到您的项目中](/help/ios/getting-started/dev-qs.md)。
 1. 导入库：
 
    ```objective-c
@@ -45,7 +45,7 @@ NSMutableDictionary *contextData = [NSMutableDictionary dictionary];
 [ADBMobile trackLifetimeValueIncrease:increaseAmount data:contextData];
 ```
 
-上下文数据值必须映射到自定义变量：
+Context data values must be mapped to custom variables:
 
 ![](assets/map-variable-context-ltv.png)
 
