@@ -2,11 +2,11 @@
 description: 您可以为推送消息和富推送消息配置体验选项，包括名称、消息文本和目标选项。您还可以配置高级选项，包括适用于 iOS 设备的负载选项和自定义选项。
 keywords: mobile
 seo-description: 您可以为推送消息和富推送消息配置体验选项，包括名称、消息文本和目标选项。您还可以配置高级选项，包括适用于 iOS 设备的负载选项和自定义选项。
-seo-title: 体验推送消息
-solution: Marketing Cloud，Analytics
+seo-title: Experience  Push Message
+solution: Marketing Cloud,Analytics
 title: 体验推送消息
 topic: 量度
-uuid: 1a8baf3e-9fea-452c-b0 fc-4ba8 ac270861
+uuid: 1a8baf3e-9fea-452c-b0fc-4ba8ac270861
 translation-type: tm+mt
 source-git-commit: e9691f9cbeadd171948aa752b27a014c3ab254d6
 
@@ -17,7 +17,7 @@ source-git-commit: e9691f9cbeadd171948aa752b27a014c3ab254d6
 
 您可以为推送消息和富推送消息配置体验选项，包括名称、消息文本和目标选项。您还可以配置高级选项，包括适用于 iOS 设备的负载选项和自定义选项。
 
-1. 在“受众”页面上，以获取新推送消息，单击 **[!UICONTROL “体验]**”。
+1. 在“受众”页面上，单击“体验”以获取新的推 **[!UICONTROL 送消息]**。
 
    ![体验推送消息屏幕](assets/experience-push-message.png)
 
@@ -30,7 +30,7 @@ source-git-commit: e9691f9cbeadd171948aa752b27a014c3ab254d6
 
    * **[!UICONTROL 媒体 URL]**
 
-      键入您计划在推送通知消息中使用的媒体文件 URL。有关使用丰富推送通知的要求，请参阅 *下方丰富推送通知* 的要求。
+      键入您计划在推送通知消息中使用的媒体文件 URL。有关使用富推送通知的要求，请参 *阅以下富推送通知要求* 。
 
       >[!IMPORTANT]
       >
@@ -41,26 +41,26 @@ source-git-commit: e9691f9cbeadd171948aa752b27a014c3ab254d6
 
    * **[!UICONTROL 目标]**
 
-      指定一个特定目标（如 Web、深层链接或混合链接）以在用户点进消息时将用户发送到该目标。有关更多信息，请参阅 [目标](/help/using/acquisition-main/c-create-destinations.md)。
+      指定一个特定目标（如 Web、深层链接或混合链接）以在用户点进消息时将用户发送到该目标。For more information, see [Destinations](/help/using/acquisition-main/c-create-destinations.md).
 
       >[!TIP]
       >
       >When you use the * **[!UICONTROL Web Link]** or **[!UICONTROL Custom Link]** destination types, the destination type is not tracked. 仅跟踪&#x200B;**[!UICONTROL 深层链接]。**
 
-## 丰富推送通知的要求
+## 富推送通知的要求
 
-以下是发送丰富推送通知的要求：
+以下是发送富推送通知的要求：
 
 * **支持的版本**
 
-   以下版本支持丰富推送通知：
+   以下版本支持富推送通知：
    * Android 4.1.0 或更高版本
    * iOS 10 或更高版本
 
       >[!IMPORTANT]
       >
       >请牢记以下信息：
-      >* 仍将发送发送到先前版本的丰富推送消息，但只显示文本。
+      >* Rich push messages sent to earlier versions will still be sent but only the text is displayed.
       >* 当前不支持手表。
 
 
@@ -75,14 +75,14 @@ source-git-commit: e9691f9cbeadd171948aa752b27a014c3ab254d6
    * 仅限 HTTPS
 
 * **大小调整**
-   * 图像必须采用2：1格式，否则它们会被裁剪。
+   * 图像必须采用2:1格式，否则将被裁剪。
 
 有关配置富推送通知的更多信息，请参阅以下内容：
 
 * [在Android中接收推送通知](/help/android/messaging-main/push-messaging/c-set-up-rich-push-notif-android.md)
 * [在iOS中接收富推送通知](/help/ios/messaging-main/push-messaging/c-set-up-rich-push-notif-ios.md)
 
-要在Experience页面上配置推送消息，请执行以下操作：
+要在“体验”页面上配置推送消息，请执行以下操作：
 
 1. (**Optional**) Click the **[!UICONTROL Show Advanced Options]** link to configure additional options:
 
@@ -104,25 +104,25 @@ source-git-commit: e9691f9cbeadd171948aa752b27a014c3ab254d6
 
 1. （可选）单击以下图标，预览消息的布局：
 
-   * **[！UICCONTROL x摘要}**
+   * **[!UICONTROL x Summary}**
 
-      隐藏预览窗格。单击 ![预览](assets/icon_preview.png) 以再次显示预览窗格。
+      Hides the preview pane. 单击 ![“预览](assets/icon_preview.png) ”以再次显示预览窗格。
 
    * **[!UICONTROL 更改方向]**
 
       To change the orientation of the preview from portrait to landscape mode, click ![orientation](assets/icon_orientation.png). 对于手表，方向从圆形表盘更改为方形表盘。
 
-   * **[!UICONTROL 在用户的观察上预览]**
+   * **[!UICONTROL 在用户观看时预览]**
 
-      要预览消息，如同显示在用户的手表上，单击 ![“观察”图标](assets/icon_watch.png)。
+      To preview your message as it will appear on a users's watches click watch icon.![](assets/icon_watch.png)
 
-   * **[!UICONTROL 在用户的手机上预览]**
+   * **[!UICONTROL Preview on a user's mobile phone]**
 
-      要预览消息，如同在用户的移动电话上显示 ![的电话图标](assets/icon_phone.png)上一样。
+      要预览消息在用户手机上的显示效果，请单击“电话 ![”图标](assets/icon_phone.png)。
 
-   * **[!UICONTROL 在用户的平板电脑上预览]**
+   * **[!UICONTROL Preview on a user's tablet]**
 
-      要在用户的平板电脑中预览消息，请单击 ![平板电脑图标](assets/icon_tablet.png)。
+      To preview your message in a user's tablet, click tablet icon.![](assets/icon_tablet.png)
    在预览窗格的底部，您可以查看上一步所选受众的描述。
 
 1. (**Optional**) Click **[!UICONTROL Test]** to push your message to specified devices for testing purposes.
@@ -130,6 +130,6 @@ source-git-commit: e9691f9cbeadd171948aa752b27a014c3ab254d6
 
    以逗号分隔的列表形式指定令牌，以将消息推送到多个设备。
 
-1. 配置消息的计划选项。
+1. 配置 消息的计划选项。
 
-   有关更多信息，请参阅 [计划：推送消息](/help/using/in-app-messaging/t-create-push-message/c-schedule-push-message.md)。
+   有关详细信息，请参阅 [计划：推送消息](/help/using/in-app-messaging/t-create-push-message/c-schedule-push-message.md)。
