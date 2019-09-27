@@ -1,32 +1,32 @@
 ---
-description: 以下是iOS库提供的Adobe Experience Platform Identity Service方法。
-seo-description: 以下是iOS库提供的Adobe Experience Platform Identity Service方法。
-seo-title: Adobe Experience Platform Identity Service方法
-solution: Marketing Cloud，Analytics
-title: Adobe Experience Platform Identity Service方法
+description: 以下是iOS库提供的Adobe Experience Platform Identity service方法。
+seo-description: 以下是iOS库提供的Adobe Experience Platform Identity service方法。
+seo-title: Adobe Experience Platform Identity Service methods
+solution: Marketing Cloud,Analytics
+title: Adobe Experience Platform Identity Service methods
 topic: 开发人员和实施
-uuid: cdd307bc-8b7d-47a8-b77 e-00902b9 e2968
+uuid: cdd307bc-8b7d-47a8-b77e-00902b9e2968
 translation-type: tm+mt
 source-git-commit: cbbb85b4d117fcaa502a1e01423f1f5d3b2ecc2b
 
 ---
 
 
-# Adobe Experience Platform Identity Service方法 {#experience-cloud-id-service-methods}
+# Adobe Experience Platform Identity Service methods {#experience-cloud-id-service-methods}
 
-以下是iOS库提供的Adobe Experience Platform Identity Service方法。
+Here are the Adobe Experience Platform Identity Service methods that are provided by the iOS library.
 
 SDK 当前支持多个 Adobe Experience Cloud 解决方案，包括 Analytics、Target、Audience Manager 和 Experience Cloud 访客 ID 服务。
 
 Methods are prefixed according to the solution, and Experience Cloud ID methods are prefixed with `visitor`. 有关更多信息，请参阅[启用 Experience Cloud ID](/help/ios/marketing-cloud/mcvid.md)。
 
-* **`+`(nullable NSURL`*`) togortorAppendURL：(nullable NSURL`*`) url；**
+* **`+`(nullable NSURL`*`)visitorAppendToURL:(nullable NSURL`*`)url;**
 
-   将 Adobe 访客数据附加到 URL 字符串以用于 Adobe JavaScript 库。要使用此方法，您必须具有Mobile SDK版本4.12或更高版本。有关更多信息，请参阅[附加访客 ID 辅助函数](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-appendvisitorid.html)。
+   将 Adobe 访客数据附加到 URL 字符串以用于 Adobe JavaScript 库。要使用此方法，您必须拥有Mobile SDK版本4.12或更高版本。 有关更多信息，请参阅[附加访客 ID 辅助函数](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-appendvisitorid.html)。
 
    >[!IMPORTANT]
    >
-   >此方法可能会导致阻止网络调用。请不要在时间敏感的线程中调用此方法。
+   >该方法可导致网络呼叫阻塞。 请不要在时间敏感的线程中调用此方法。
 
    * Input: `URL<NSURL>`
 A required URL string that the visitor information will be appended to.
@@ -135,9 +135,9 @@ A required URL string that the visitor information will be appended to.
       NSArray *myVisitorIDs = [ADBMobile visitorGetIDs];
       ```
 
-* **togtorgOrlvariablesAsync**
+* **visitorgetUrlVariablesAsync**
 
-   在版本4.16.0中引入的此方法返回一个适当的组成字符串，其中包含访问者ID服务URL变量。有关如何使用此方法的更多信息，请参阅 [Adobe Experience Platform Identity Service方法](/help/ios/reference/hybrid-app.md)。
+   Introduced in version 4.16.0, this method returns an appropriately formed string that contains Visitor ID Service URL variables. For more information about how this method is used, see Adobe Experience Platform Identity Service methods.[](/help/ios/reference/hybrid-app.md)
 
    * 下面是这种方法对应的语法：
 
