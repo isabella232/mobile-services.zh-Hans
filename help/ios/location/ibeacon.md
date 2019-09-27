@@ -2,10 +2,10 @@
 description: 通过 iBeacon 跟踪，您可以使用 iBeacon 和低功耗蓝牙测量并定位微位置。
 seo-description: 通过 iBeacon 跟踪，您可以使用 iBeacon 和低功耗蓝牙测量并定位微位置。
 seo-title: iBeacon 跟踪
-solution: Marketing Cloud，Analytics
+solution: Marketing Cloud,Analytics
 title: iBeacon 跟踪
 topic: 开发人员和实施
-uuid: 390883db-027e-4d12-86d16-86d514579db1
+uuid: 390883db-027e-4d12-8a16-86d514579db1
 translation-type: tm+mt
 source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
 
@@ -18,7 +18,7 @@ source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
 
 在调用 `trackBeacon` 时，会将以下信标数据发送到 Analytics 和 Target：
 
-* `a.beacon.uuid` - proximityYIÉ of the信标
+* `a.beacon.uuid` - ProximityUUID of the beacon
 * `a.beacon.major` - 信标的主编号，如存储编号
 * `a.beacon.minor` - 信标的次编号，如存储内的唯一编号
 * `a.beacon.prox` - 以下值表示用户与信标的接近度：
@@ -28,11 +28,11 @@ source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
    * `2` 表示近
    * `3` 表示远
 
-## 跟踪IBebeons {#section_FC3F213545944A468B1E6D5D5C8E2F1F}
+## 跟踪iBeacons {#section_FC3F213545944A468B1E6D5D5C8E2F1F}
 
 1. 将库添加到您的项目并实施生命周期。
 
-   有关详细信息，请参阅 *将SDK和配置文件添加到核心实施和生命周期* 中 [的项目](/help/ios/getting-started/dev-qs.md)。
+   有关详细信息，请参 *阅在核心实施和生命周期中将SDK和配置文件添加*[到您的项目中](/help/ios/getting-started/dev-qs.md)。
 1. 导入库：
 
    ```objective-c
