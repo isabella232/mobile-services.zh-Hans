@@ -2,18 +2,18 @@
 description: 此信息可帮助您排查推送消息问题。
 keywords: mobile
 seo-description: 此信息可帮助您排查推送消息问题。
-seo-title: 推送消息故障诊断
-solution: Marketing Cloud，Analytics
-title: 推送消息故障诊断
+seo-title: 推送消息疑难解答
+solution: Marketing Cloud,Analytics
+title: 推送消息疑难解答
 topic: 量度
-uuid: c4a9371-6691-4a2c-a6 c1 c1-b9 f901 a41599
+uuid: 9c4a9371-6691-4a2c-a6c1-b9f901a41599
 translation-type: tm+mt
 source-git-commit: 12e01e112debffd877dd62f1fd2505724b2aae7d
 
 ---
 
 
-# 推送消息故障诊断 {#troubleshooting-push-messaging}
+# 推送消息疑难解答 {#troubleshooting-push-messaging}
 
 此信息可帮助您排查推送消息问题。
 
@@ -27,16 +27,16 @@ source-git-commit: 12e01e112debffd877dd62f1fd2505724b2aae7d
 
 * 等待推送服务
 
-   推送服务(APNS或FCM)可能不会立即发送消息。偶尔会有 5 到 10 分钟的延迟。在消息页面上，您可以单击消息的&#x200B;**查看**&#x200B;链接来验证推送消息是否已发送到推送服务。在报表中，成功发送到推送服务的消息数会列在&#x200B;**[!UICONTROL 已发布]列中。**
+   推送服务（APNS或FCM）可能不会立即发送消息。 偶尔会有 5 到 10 分钟的延迟。在消息页面上，您可以单击消息的&#x200B;**查看**&#x200B;链接来验证推送消息是否已发送到推送服务。在报表中，成功发送到推送服务的消息数会列在&#x200B;**[!UICONTROL 已发布]列中。**
 
    >[!TIP]
    >
-   >推送服务不保证发送消息。
+   >推送服务不保证消息将被发送。
 
    有关服务可靠性的更多信息，请参阅相应的文档：
 
    * **APNS**：[服务的质量](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/APNSOverview.html#//apple_ref/doc/uid/TP40008194-CH8-SW5) (Quality of Service)
-   * **FCM**： [信息的生命周期](https://firebase.google.com/docs/cloud-messaging/concept-options#lifetime)
+   * **FCM: Lifetime of a Message**[](https://firebase.google.com/docs/cloud-messaging/concept-options#lifetime)
 
 ## 我的推送消息为何会被截断，或为何不能展开？
 
