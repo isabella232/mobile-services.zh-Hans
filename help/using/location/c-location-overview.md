@@ -3,7 +3,7 @@ description: “位置概述”报表允许您查看正在使用您的应用程�
 keywords: mobile
 seo-description: “位置概述”报表允许您查看正在使用您的应用程序的不同国家、地区和目标点。
 seo-title: 概述（位置）
-solution: Marketing Cloud，Analytics
+solution: Marketing Cloud,Analytics
 title: 概述（位置）
 topic: 报表,量度
 uuid: a701abc3-001b-4015-843f-5fb2c6c80d17
@@ -15,11 +15,11 @@ source-git-commit: 814c99695f538160ae28484ca8e2a92f5b24bb1a
 
 # 概述（位置）{#overview-location}
 
-**[!UICONTROL 位置概述]** 报告可让您查看应用程序所在的不同国家、地区和目标点(POI)。
+The **[!UICONTROL Location Overview]** report lets you see the different countries, regions, and points of interest (POI) where your app is being used.
 
 此报表可为您的现有数据提供一种环状层次图可视化，您可以使用此报表发现用于定位的受众区段（访客集合）。创建和管理受众与创建和使用区段类似，不同点在于您可以使受众在 Experience Cloud 中使用。
 
-以下是有关此报告的其他信息：
+Here is some additional information about this report:
 
 ## Navigation and usage {#section_4A88C3849B5847BF8CF433CCFD99FDC3}
 
@@ -27,7 +27,7 @@ source-git-commit: 814c99695f538160ae28484ca8e2a92f5b24bb1a
 
 >[!TIP]
 >
->除了此信息之外，您还可以查看产品内教程，其中介绍了如何与朝阳图进行交互。要启动该教程，请单击报表标题栏中的&#x200B;**[!UICONTROL 位置划分]**，然后单击 **i]图标。[!UICONTROL **
+>In addition to this information, you can view an in-product tutorial that describes how to interact with the sunburst chart. 要启动该教程，请单击报表标题栏中的&#x200B;**[!UICONTROL 位置划分]**，然后单击 **i]图标。[!UICONTROL **
 
 ![](assets/location.png)
 
@@ -59,7 +59,7 @@ Here is the visualization when you select **[!UICONTROL Points of Interest]**:
 
 >[!TIP]
 >
->您添加到太阳爆发的光环越多，处理过程就越长。
+>The more rings you add to the sunburst, the longer it takes to process.
 
 要添加划分和次要量度，请单击报表标题栏中的&#x200B;**[!UICONTROL 位置划分]**，然后单击&#x200B;**自定义]打开右侧边栏。[!UICONTROL **
 
@@ -79,5 +79,5 @@ Click a slice in the ring to select the audience for which you want to create a 
 
 有关位置的更多信息，请参阅以下内容：
 
-* [地图](/help/using/location/c-map-points.md)
+* [映射](/help/using/location/c-map-points.md)
 * [管理目标点](/help/using/location/t-manage-points.md)
