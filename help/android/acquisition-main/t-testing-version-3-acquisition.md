@@ -3,10 +3,10 @@ description: 此信息可帮助您对 Android 设备上的版本 3 客户获取�
 keywords: android；库；移动；sdk
 seo-description: 此信息可帮助您对 Android 设备上的版本 3 客户获取促销活动链接进行往返测试。
 seo-title: 测试版本 3 客户获取
-solution: Marketing Cloud，Analytics
+solution: Marketing Cloud,Analytics
 title: 测试版本 3 客户获取
 topic: 开发人员和实施
-uuid: e38b43d-389e-4412-99e5-3e6223b ad ad28
+uuid: 5e38b43d-389e-4412-99e5-3e6223b6ad28
 translation-type: tm+mt
 source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
 
@@ -19,13 +19,13 @@ source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
 
 >[!IMPORTANT]
 >
->V中的客户获取引用您使用Adobe Mobile Services UI中的客户赢取生成器创建的赢取链接。要使用此功能，您必须升级到适用于 Experience Cloud 解决方案 4.6.0 或更高版本的 Android SDK 4.x。
+>V3中的客户获取是指您在Adobe Mobile Services UI中使用Acquisition builder创建的客户获取链接。 要使用此功能，您必须升级到适用于 Experience Cloud 解决方案 4.6.0 或更高版本的 Android SDK 4.x。
 
 如果 Google Play 中尚未提供相应的移动设备应用程序，则在创建促销活动链接时，可以选择任何移动设备应用程序作为目标。这只会影响在您单击客户获取链接后客户获取服务器将您重定向到的应用程序，而不会影响测试链接的功能。查询字符串参数将传递到 Google Play 商店，进而作为促销活动广播的一部分在安装时传递到应用程序。移动设备应用程序客户获取往返测试需要模拟此类型的广播。
 
 The app must be freshly installed, or have data cleared in **[!UICONTROL Settings]**, each time a test is run. 这可以确保在首次启动应用程序时发送与促销活动查询字符串参数关联的初始生命周期量度。
 
-1. 完成 [移动App获取](/help/android/acquisition-main/acquisition.md) 中的入门任务，确保您正确实施了广播接收器 `INSTALL_REFERRER`。
+1. Complete the prerequisite tasks in Mobile App Acquisition and ensure that you have correctly implemented the broadcast receiver for .[](/help/android/acquisition-main/acquisition.md)`INSTALL_REFERRER`
 1. In the Adobe Mobile Services UI, click  **[!UICONTROL Acquisition]** &gt; **[!UICONTROL Marketing Links Builder]** and generate an Acquisition Marketing Link URL that sets Google Play as the destination for Android devices.
 
    有关更多信息，请参阅[营销链接生成器](/help/using/acquisition-main/c-marketing-links-builder/c-marketing-links-builder.md)。
@@ -34,7 +34,7 @@ The app must be freshly installed, or have data cleared in **[!UICONTROL Setting
 
    >[!TIP]
    >
-   >如果在获取链接中引用Android和iOS应用程序，请使用Google Play作为默认商店。
+   >如果您在客户获取链接中同时引用Android和iOS应用程序，请使用Google Play作为默认商店。
 
 1. 在桌面浏览器中打开生成的链接。
 
@@ -43,7 +43,7 @@ The app must be freshly installed, or have data cleared in **[!UICONTROL Setting
 
 1. Copy the unique ID after `utm_content%3D`.
 
-   在上一个示例中，ID为 `91b52ce097b1464b9b47cb2995c493cc6ab2c3a3`。
+   In the previous example, the ID is .`91b52ce097b1464b9b47cb2995c493cc6ab2c3a3`
 
 1. 使用步骤 3 中的唯一 ID 通过以下格式构建客户获取结束链接：
 
@@ -63,7 +63,7 @@ The app must be freshly installed, or have data cleared in **[!UICONTROL Setting
 
    | 设置 | 值 |
    |--- |--- |
-   | acquisition | The server should be `c00.adobe.com`.   *`appid`* 应与您的 `appid` 客户赢取链接相同。 |
+   | acquisition | The server should be `c00.adobe.com`.   *`appid`*  should equal the `appid`  in your acquisition link. |
    | analytics | 出于测试目的，请设置反向链接超时以允许有足够的时间（60 秒或更多）手动发送广播。您可以在测试后恢复原始超时设置。 |
 
 1. 将设备连接到计算机，然后卸载并重新安装应用程序。
@@ -97,7 +97,7 @@ Broadcast completed: result=0`
 | Analytics - Unable to decode response(*String*). | 响应的格式错误。 |
 | Analytics - Unable to parse response (*a JSON Response*). | JSON 字符串的格式错误。 |
 | Analytics - Unable to parse acquisition service response (no contextData parameter in response). | 响应中没有 contextData 参数。 |
-| Analytics - Acquisition referrer data was not complete (no `a.referrer.campaign.name` in context data), ignoring. | `a.referrer.campaign.name` 不包含在ContextData中。 |
+| Analytics - Acquisition referrer data was not complete (no `a.referrer.campaign.name` in context data), ignoring. | `a.referrer.campaign.name`  is not included in  contextData. |
 | Analytics - Acquisition referrer timed out. | 无法在 `referrerTimeout` 定义的时间内获取响应。请增加值，然后重试。您还应该确保在安装应用程序之前，已经打开客户获取链接。 |
 
 请牢记以下信息：
