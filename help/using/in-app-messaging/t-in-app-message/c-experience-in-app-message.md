@@ -3,10 +3,10 @@ description: 为应用程序内消息配置体验选项，包括类型（全屏�
 keywords: mobile
 seo-description: 为应用程序内消息配置体验选项，包括类型（全屏、警报或通知）和显示、文本与按钮选项。
 seo-title: 体验应用程序内消息
-solution: Marketing Cloud，Analytics
+solution: Marketing Cloud,Analytics
 title: 体验应用程序内消息
 topic: 量度
-uuid: 4c6d6756-47fb-4f1b -8338-b0 c9 b0 fcf0
+uuid: 4c6d6756-47fb-4f1b-8338-0b0c9b0fceb0
 translation-type: tm+mt
 source-git-commit: e9691f9cbeadd171948aa752b27a014c3ab254d6
 
@@ -21,7 +21,7 @@ source-git-commit: e9691f9cbeadd171948aa752b27a014c3ab254d6
 1. 在体验页面上，键入消息的名称。
 1. 填写&#x200B;**[!UICONTROL 类型]部分中的字段：**
 
-   * **[!UICONTROL 类型]**&#x200B;选择应用程序内消息营销活动的消息类型：
+   * **[!UICONTROL 类型]**&#x200B;为应用程序内消息营销活动选择消息类型：
 
       * **[!UICONTROL 全屏幕]**
       * **[!UICONTROL 警报]**
@@ -78,7 +78,7 @@ source-git-commit: e9691f9cbeadd171948aa752b27a014c3ab254d6
 
    * **[!UICONTROL 点进按钮]**
 
-      **[!UICONTROL 点进]按钮的标签。**&#x200B;点击此按钮计为成功点击。将用户重定向到目标位置。
+      **[!UICONTROL 点进]按钮的标签。**&#x200B;点击此按钮可计为成功的点进。 用户将被重定向到目标。
 
    * **[!UICONTROL 目标]**
 
@@ -86,40 +86,40 @@ source-git-commit: e9691f9cbeadd171948aa752b27a014c3ab254d6
 
       此 URL 可能包含以下信息：
 
-      * `{userId}`它替换为用户标识符或未设置用户标识符时为空。
-      * `{trackingId}`它替换为帮助(与 *s_ vi* cookie关联)。
-      * `{messageId}`它将替换为应用程序内消息的唯一ID。
-      * `{lifetimeValue}`它被替换为终身值，如果没有终身值，则替换为0。
+      * `{userId}`，将替换为用户标识符，或在未设置用户标识符时为空。
+      * `{trackingId}`，将替换为aid(与 *s_vi* cookie关联)。
+      * `{messageId}`，将替换为应用程序内消息的唯一ID。
+      * `{lifetimeValue}`，将替换为生命周期值；如果不存在生命周期值，则替换为0。
       Here is an example of tracking the user ID: `https://www.mysite.com?uid={userId}`.
 
       If the click-through URL uses `https://` or `https://`, the URL opens in the device browser outside the app. 否则，每个平台都支持允许您打开或引用您的应用程序的方案，但前提是开发的应用程序支持自定义方案。
 
       >[!TIP]
       >
-      >When you use the **[!UICONTROL Web Link]** or **[!UICONTROL Custom Link]** destination types, the destination type is not tracked. 仅跟踪&#x200B;**[!UICONTROL 深层链接]。**&#x200B;有关更多信息，请参阅 [目标](/help/using/acquisition-main/c-create-destinations.md)。
+      >When you use the **[!UICONTROL Web Link]** or **[!UICONTROL Custom Link]** destination types, the destination type is not tracked. 仅跟踪&#x200B;**[!UICONTROL 深层链接]。** For more information, see [Destinations](/help/using/acquisition-main/c-create-destinations.md).
 
 
 1. （可选）单击以下图标，预览消息的布局：
 
-   * **[!UICONTROL “摘要]** ”将隐藏预览窗格。
+   * **[!UICONTROL “摘要]** ”会隐藏预览窗格。
 
       Click ![preview](assets/icon_preview.png) to redisplay the preview pane.
 
    * **[!UICONTROL 更改方向]**
 
-      To change the orientation of the preview from portrait to landscape mode, click ![orientation](assets/icon_orientation.png). 对于观察，方向从圆形变为方形观察面部。
+      To change the orientation of the preview from portrait to landscape mode, click ![orientation](assets/icon_orientation.png). 对于手表，方向从圆形变为方形表面。
 
-   * **[!UICONTROL 在用户的观察上预览]**
+   * **[!UICONTROL 在用户观看时预览]**
 
-      要预览消息显示在用户的手表上，单击 ![“观察”图标](assets/icon_watch.png)。
+      要预览消息在用户观看时的显示效果，请单击观 ![看图标](assets/icon_watch.png)。
 
    * **[!UICONTROL 在用户的手机上预览]**
 
-      要预览消息，如同在用户的手机图标上显示的 ![那样](assets/icon_phone.png)。
+      要预览消息在用户手机上的显示效果，请单击“电话 ![”图标](assets/icon_phone.png)。
 
    * **[!UICONTROL 在用户的平板电脑上预览]**
 
-      要在用户的平板电脑中预览消息，请单击 ![平板电脑图标](assets/icon_tablet.png)。
+      要在用户的平板电脑中预览消息，请单击平 ![板电脑图标](assets/icon_tablet.png)。
 
       在预览窗格的底部，您可以查看上一步所选受众的描述。您还可以在预览窗格的底部查看上一步骤中所选受众的描述。
 
