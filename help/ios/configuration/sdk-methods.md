@@ -2,10 +2,10 @@
 description: 以下是 iOS 库提供的方法列表。
 seo-description: 以下是 iOS 库提供的方法列表。
 seo-title: 配置方法
-solution: Marketing Cloud，Analytics
+solution: Marketing Cloud,Analytics
 title: 配置方法
 topic: 开发人员和实施
-uuid: 623c7b07-fbb3-4d39-a5 c4-e64 faec4 ca29
+uuid: 623c7b07-fbb3-4d39-a5c4-e64faec4ca29
 translation-type: tm+mt
 source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
 
@@ -16,7 +16,7 @@ source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
 
 以下是 iOS 库提供的方法列表。
 
-SDK目前支持多个Adobe Experience Cloud解决方案，包括Analytics、Target、Audience Manager和Adobe Experience Platform Identity Service。
+SDK目前支持多个Adobe Experience cloud解决方案，包括Analytics、Target、Audience Manager和Adobe Experience Platform Identity Service。
 
 * **setAppExtensionType**
 
@@ -27,7 +27,7 @@ SDK目前支持多个Adobe Experience Cloud解决方案，包括Analytics、Targ
    * `ADBMobileAppExtensionTypeStandAlone` - 扩展未与容器应用程序捆绑在一起.
    >[!TIP]
    >
-   >**仅** 当应用程序具有扩展或为独立扩展时，才应使用此方法。For more information, see *ADBMobileAppExtensionType* below.
+   >This method should **only** be used if your app has an extension or is a stand-alone extension. For more information, see *ADBMobileAppExtensionType* below.
 
    * 下面是这种方法对应的语法：
 
@@ -63,8 +63,8 @@ SDK目前支持多个Adobe Experience Cloud解决方案，包括Analytics、Targ
 
    返回当前用户隐私状态的枚举表示形式。
 
-   * `ADBMobilePrivacyStatusOptIn` - 点击会立即发送。
-   * `ADBMobilePrivacyStatusOptOut` - 点击将被丢弃。
+   * `ADBMobilePrivacyStatusOptIn` -立即发送点击。
+   * `ADBMobilePrivacyStatusOptOut` - hits are discarded.
    * `ADBMobilePrivacyStatusUnknown` - 如果启用了离线跟踪，将会保存点击，直到隐私状态更改为选择启用（发送点击）或选择禁用（丢弃点击）。如果未启用离线跟踪，则将丢弃点击，直到隐私状态更改为选择启用。默认值在 `ADBMobileConfig.json` 文件中设置。
 
    * 下面是这种方法对应的语法：
@@ -85,8 +85,8 @@ SDK目前支持多个Adobe Experience Cloud解决方案，包括Analytics、Targ
 
    设置为以下值之一：
 
-   * `ADBMobilePrivacyStatusOptIn` - 点击会立即发送。
-   * `ADBMobilePrivacyStatusOptOut` - 点击将被丢弃。
+   * `ADBMobilePrivacyStatusOptIn` -立即发送点击。
+   * `ADBMobilePrivacyStatusOptOut` -丢弃点击。
    * `ADBMobilePrivacyStatusUnknown` - 如果启用了离线跟踪，将会保存点击，直到隐私状态更改为选择启用（发送点击）或选择禁用（丢弃点击）。如果未启用离线跟踪，则将丢弃点击，直到隐私状态更改为选择启用。
 
    * 下面是这种方法对应的语法：
@@ -123,7 +123,7 @@ SDK目前支持多个Adobe Experience Cloud解决方案，包括Analytics、Targ
 
    >[!TIP]
    >
-   >如果您的应用程序升级从Experience Cloud3.x升级到4.x SDK，则会检索先前的自定义或自动生成的访客ID，并将其作为自定义用户标识符存储。有关更多信息，请参阅下面的 `userIdentifier` 行。这样可在 SDK 升级期间保留访客数据。对于 4.x SDK 上的新安装，用户标识符为 `nil`，并且将使用跟踪标识符。
+   >如果您的应用程序从Experience Cloud 3.x升级到4.x SDK，则会检索之前的自定义或自动生成的访客ID，并将其存储为自定义用户标识符。 有关更多信息，请参阅下面的 `userIdentifier` 行。这样可在 SDK 升级期间保留访客数据。对于 4.x SDK 上的新安装，用户标识符为 `nil`，并且将使用跟踪标识符。
 
    * 下面是这种方法对应的语法：
 
@@ -143,7 +143,7 @@ SDK目前支持多个Adobe Experience Cloud解决方案，包括Analytics、Targ
 
    >[!TIP]
    >
-   >如果您的应用程序升级从Experience Cloud3.x到4.x SDK，则会检索先前的自定义或自动生成的访客ID，并将其作为自定义用户标识符存储。这样可在 SDK 升级期间保留访客数据。
+   >如果您的应用程序从Experience Cloud 3.x升级到4.x SDK，则会检索之前的自定义或自动生成的访客ID，并将其存储为自定义用户标识符。 这样可在 SDK 升级期间保留访客数据。
 
    对于 4.x SDK 上的新安装，用户标识符在设置之前为 `nil`。
 
@@ -213,7 +213,7 @@ SDK目前支持多个Adobe Experience Cloud解决方案，包括Analytics、Targ
 
    >[!TIP]
    >
-   >此方法适用于在后台注册通知的应用程序，并且只应从运行应用程序时运行的代码调用。
+   >This method is intended to be used for apps that register for notifications while in background and should only be called from the code that runs while your app is in the background.
 
    * 下面是这种方法对应的语法：
 
@@ -251,7 +251,7 @@ SDK目前支持多个Adobe Experience Cloud解决方案，包括Analytics、Targ
 
    允许您在收集生命周期量度时传入其他数据。
 
-   必须从应用程序的入口点调用此方法。Where applicable, this may include one or both of the methods `application:didFinishLaunchingWithOptions:` and/or `applicationWillEnterForeground:` in your AppDelegate class.
+   This method must be called from the entry point of your app. Where applicable, this may include one or both of the methods `application:didFinishLaunchingWithOptions:` and/or `applicationWillEnterForeground:` in your AppDelegate class.
 
    >[!IMPORTANT]
    >
