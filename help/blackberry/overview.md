@@ -1,9 +1,9 @@
 ---
 description: 适用于 Experience Cloud 解决方案的 BlackBerry 10 SDK 4.x 允许您使用 Adobe Analytics 来测量本机 BlackBerry 10 应用程序。
-seo-description: Experience Cloud Solutions的BlackBerry10SDK4.x允许您使用Adobe Analytics测量本机BlackBerry10应用程序
+seo-description: BlackBerry 10 SDK 4.x for Experience Cloud Solutions lets you measure native BlackBerry 10 applications by using Adobe Analytics
 seo-title: 适用于 Experience Cloud 解决方案的 BlackBerry 10 SDK 4.x
 title: 适用于 Experience Cloud 解决方案的 BlackBerry 10 SDK 4.x
-uuid: c336db3-3cb5-48fe-a3 f5-2d3 cf6 c3966
+uuid: c336db33-2cb5-48fe-a3f5-2d3ced6c3966
 translation-type: tm+mt
 source-git-commit: 8f71ee66b364d2c484464e51775c971734381b86
 
@@ -16,10 +16,10 @@ source-git-commit: 8f71ee66b364d2c484464e51775c971734381b86
 
 ## 入门指南 {#section_DB6175C7BD5C41E3A7D5DB175C5E01C7}
 
-开始使用BlackBerry SDK：
+To get started with the BlackBerry SDKs:
 
 1. 要将 SDK 添加到您的项目，请完成[开发人员快速入门](/help/blackberry/dev-qs.md)中的任务。
-1. 查阅[AdbMobile类和方法参考](/help/blackberry/methods.md)。
+1. 查阅 ADBMobile类 [和方法引用](/help/blackberry/methods.md)。
 1. 实施 [Analytics](/help/blackberry/analytics.md).
 
 ## Supported versions {#section_45978BF5C62E4986AAB7FFD96402BF2D}
