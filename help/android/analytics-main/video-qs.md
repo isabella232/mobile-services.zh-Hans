@@ -3,10 +3,10 @@ description: 以下是有关在 Android 上使用视频测量解决方案测量�
 keywords: android；库；移动；sdk
 seo-description: 以下是有关在 Android 上使用视频测量解决方案测量视频的一些信息。
 seo-title: Video Analytics
-solution: Marketing Cloud，Analytics
+solution: Marketing Cloud,Analytics
 title: Video Analytics
 topic: 开发人员和实施
-uuid: a137cc27-dc28-48c0-b08 e-2ca17 d2 c7 e1 d
+uuid: a137cc27-dc28-48c0-b08e-2ca17d2c7e1d
 translation-type: tm+mt
 source-git-commit: bf076aa8e59d5c3e634fc4ae21f0de0d4541a83f
 
@@ -19,7 +19,7 @@ source-git-commit: bf076aa8e59d5c3e634fc4ae21f0de0d4541a83f
 
 >[!TIP]
 >
->在视频播放过程中，会向此服务发送频繁的“心率”调用，以测量播放的时间。这些心率调用每 10 秒发送一次，从而生成精细的视频参与量度和更准确的视频流失报表。有关Adobe视频测量解决方案的更多信息，请参阅 [在Adobe Analytics中测量音频和视频](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html)。
+>在视频播放过程中，会向此服务发送频繁的“心率”调用，以测量播放的时间。这些心率调用每 10 秒发送一次，从而生成精细的视频参与量度和更准确的视频流失报表。有关Adobe视频测量解决方案的更多信息，请参 [阅在Adobe Analytics中测量音频和视频](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html)。
 
 在所有平台中，测量视频的常规过程都非常相似。本文中的内容提供了开发人员任务概述以及代码示例。下表列出了发送到 Analytics 的媒体数据。处理规则用于将上下文数据映射到Analytics变量。
 
@@ -33,12 +33,12 @@ source-git-commit: bf076aa8e59d5c3e634fc4ae21f0de0d4541a83f
    * （**可选**）自定义分析变量提供视频路径信息。
 
 * **a.media.name**
-   * 变量类型：自定义分析(s. prop)
+   * 变量类型：自定义分析(s.prop)
    * （**可选**）提供视频路径信息。
 
       >[!IMPORTANT]
       >
-      >Excare必须启用此变量的路径。
+      >Pathing must be enabled for this variable by ExpCare.
    * 事件类型：自定义分析 (s.prop)
 
 * **a.media.segment**
@@ -64,26 +64,26 @@ source-git-commit: bf076aa8e59d5c3e634fc4ae21f0de0d4541a83f
       由视频测量发送的点击量将被分配内容类型 `video`。从视频测量的角度来看，**内容类型**&#x200B;使您能够识别视频访客，并计算视频转化率。
 
 * **a.media.timePlayed**
-   * 变量类型：Event
+   * 变量类型：活动
    * 类型：计数器
    * 计算自上次数据收集流程（图像请求）以来，观看视频所花费的时间（以秒为单位）。
 
 * **a.media.view**
-   * 变量类型：Event
+   * 变量类型：活动
    * 类型：计数器
    * 表明访客已查看了视频的某些部分。
 
       但是，它并不提供有关访客查看了视频中的多少内容或哪一部分的信息。
 
 * **a.media.segmentView**
-   * 变量类型：Event
+   * 变量类型：活动
    * 类型：计数器
    * 表明访客已查看了视频区段的某些部分。
 
       但是，它并不提供有关访客查看了视频中的多少内容或哪一部分的信息。
 
 * **a .media.complete**
-   * 变量类型：Event
+   * 变量类型：活动
    * 类型：计数器
    * 表明用户已查看了完整的视频。
 
@@ -248,7 +248,7 @@ public boolean eventFirstTime;
       public static void stop(String name, double offset); 
       ```
 
-   * 下面是代码示例或此方法：
+   * Here is the code sample or this method:
 
       ```java
       Media.stop("name", 0);
