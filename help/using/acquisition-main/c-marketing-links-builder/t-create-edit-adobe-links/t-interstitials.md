@@ -3,10 +3,10 @@ description: 您可以将用户路由到相应的目标：用户安装了应用�
 keywords: mobile
 seo-description: 您可以将用户路由到相应的目标：用户安装了应用程序，则路由到应用程序深层链接；用户没有安装应用程序，则路由到某个网站或应用程序商店。
 seo-title: 间隙
-solution: Marketing Cloud，Analytics
+solution: Marketing Cloud,Analytics
 title: 间隙
 topic: 量度
-uuid: dce8ab2-2a5d-4384-ac1 e-e31 dfaa33554
+uuid: 7dce8ab2-2a5d-4384-ac1e-e31dfaa33654
 translation-type: tm+mt
 source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
 
@@ -17,11 +17,11 @@ source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
 
 您可以将用户路由到相应的目标：用户安装了应用程序，则路由到应用程序深层链接；用户没有安装应用程序，则路由到某个网站或应用程序商店。最好让用户自己选择路由到哪个目标。营销人员可以配置一个插播式广告页面，向用户显示可用的着陆目标，以供用户选择。
 
-要在创建营销链接：
+要在 创建营销链接：
 
 1. Click **[!UICONTROL Edit Deep Link Interstitial]**.
 
-   ![深层链接插播](assets/interstitial2.png)
+   ![深连接间隙](assets/interstitial2.png)
 
 1. 在以下字段中键入相应信息：
 
@@ -29,7 +29,7 @@ source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
 
       选择您自定义的插播式广告 HTML 页面。
 
-      通过使用自定义串连广告，营销人员可以自定义带有自定义HTML/CSS/JS的插播式登录页面，以便为您的页面建立品牌。
+      通过使用自定义插播广告，营销人员可以使用自定义HTML/CSS/JS自定义插播式广告登陆页面，从而使您能够为页面添加品牌。
 
       以下是对 HTML 页面的要求：
 
@@ -41,7 +41,7 @@ source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
 
          >[!TIP]
          >
-         >如果上传自定义HTML，则除非删除已上载的文件，否则不会使用此表中的其他四个选项。
+         >如果上传自定义HTML，则除非删除已上传的文件，否则将不使用此表中的其他四个选项。
    * **[!UICONTROL 图像 URL]**
 
       指定到图像资产的 URL。
