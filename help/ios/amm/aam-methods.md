@@ -2,10 +2,10 @@
 description: 以下是 iOS 库提供的 Audience Manager 方法列表。
 seo-description: 以下是 iOS 库提供的 Audience Manager 方法列表。
 seo-title: Audience Manager 方法
-solution: Marketing Cloud，Analytics
+solution: Marketing Cloud,Analytics
 title: Audience Manager 方法
 topic: 开发人员和实施
-uuid: 96758bd6-4c4f-4875-ea9-36adad4 ec8 Bae
+uuid: 97658bd6-4c4f-4875-abe9-36dad4ec8bae
 translation-type: tm+mt
 source-git-commit: df4ea2c4002611c72009cf69598cbbb74b5c15c4
 
@@ -16,7 +16,7 @@ source-git-commit: df4ea2c4002611c72009cf69598cbbb74b5c15c4
 
 以下是 iOS 库提供的 Audience Manager 方法列表。
 
-SDK目前支持多个Adobe Experience Cloud解决方案，包括Analytics、Target、Audience Manager和Adobe Experience Platform Identity Service。方法将根据解决方案来添加前缀， Manager 方法的前缀为“`audience`audience”。
+SDK目前支持多个Adobe Experience cloud解决方案，包括Analytics、Target、Audience Manager和Adobe Experience Platform Identity Service。 方法将根据解决方案来添加前缀， Manager 方法的前缀为“`audience`audience”。
 
 如果在 JSON 文件中配置了 Audience Manager，则会随 `application:didFinishLaunchingWithOptions:` : 发送一个包含生命周期量度的信号。
 
@@ -30,7 +30,7 @@ SDK目前支持多个Adobe Experience Cloud解决方案，包括Analytics、Targ
       + (NSDictionary *) audienceVisitorProfile;
       ```
 
-   * 下面是此菜单的代码示例：
+   * 以下是此菜单的代码示例：
 
       ```objective-c
       NSDictionary *profile = [ADBMobile audienceVisitorProfile]; 
@@ -77,7 +77,7 @@ SDK目前支持多个Adobe Experience Cloud解决方案，包括Analytics、Targ
 
       >[!IMPORTANT]
       >
-      >在4.13.x版本之前，DPUUID未自动编码。从版本 4.13.x 开始，SDK 将首先对传入的值进行解码，然后再对该值重新编码。此过程可确保 SDK 不会破坏向后兼容性。
+      >在版本4.13.x之前，DPUUID未自动编码。 从版本 4.13.x 开始，SDK 将首先对传入的值进行解码，然后再对该值重新编码。此过程可确保 SDK 不会破坏向后兼容性。
 
    * 下面是这种方法对应的语法：
 
