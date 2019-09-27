@@ -2,10 +2,10 @@
 description: 操作是指您要测量的 Android 应用程序中发生的事件。
 seo-description: 操作是指您要测量的 Android 应用程序中发生的事件。
 seo-title: 跟踪应用程序操作
-solution: Marketing Cloud，Analytics
+solution: Marketing Cloud,Analytics
 title: 跟踪应用程序操作
 topic: 开发人员和实施
-uuid: fe01c1df-f6 bb-4b32-b3 ef-959d2 c724 af6
+uuid: fe01c1df-f6bb-4b32-b3ef-959d2c724af6
 translation-type: tm+mt
 source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
 
@@ -22,7 +22,7 @@ source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
 
 1. 将库添加到您的项目并实施生命周期。
 
-   有关详细信息，请参阅 *在核心实施和生命周期* 中 [将SDK和Config文件添加到IntelliJ IDEA或Eclipse项目](/help/android/getting-started/dev-qs.md)。
+   For more information, see Add the SDK and Config File to your IntelliJ IDEA or Eclipse Project in Core implementation and lifecycle.**[](/help/android/getting-started/dev-qs.md)
 
 1. 导入库：
 
