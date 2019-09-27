@@ -1,11 +1,11 @@
 ---
 description: 地理位置可通过在 Android 应用程序中使用纬度和经度以及预定义的目标点，来帮助您测量位置数据。
 seo-description: 地理位置可通过在 Android 应用程序中使用纬度和经度以及预定义的目标点，来帮助您测量位置数据。
-seo-title: 地理位置和兴趣点
-solution: Marketing Cloud，Analytics
-title: 地理位置和兴趣点
+seo-title: 地理位置和目标点
+solution: Marketing Cloud,Analytics
+title: 地理位置和目标点
 topic: 开发人员和实施
-uuid: b8209370-cbc4-40f9-97d8-017e2 d74 a377
+uuid: b8209370-cbc4-40f9-97d8-017e2d74a377
 translation-type: tm+mt
 source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
 
@@ -28,19 +28,19 @@ source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
 
 ## 动态 POI 更新 {#section_3747B310DD5147E2AAE915E762997712}
 
-从版本 4.2 开始，POI 可在 Adobe Mobile 用户界面中定义并动态同步到应用程序配置文件。此同步需要Adobe Mobile JSON配置中的 `analytics.poi`[设置](/help/android/configuration/json-config/json-config.md)：
+从版本 4.2 开始，POI 可在 Adobe Mobile 用户界面中定义并动态同步到应用程序配置文件。This synchronization requires an  setting in the ADBMobile JSON Config:`analytics.poi`[](/help/android/configuration/json-config/json-config.md)
 
 ```js
 “analytics.poi”: “https://assets.adobedtm.com/…/yourfile.json”,
 ```
 
-如果未配置此设置，您必须下载更新版本的 `ADBMobile.json` 文件并将其添加到您的应用程序中。有关更多信息，请参阅 [下载SDK和测试工具](/help/android/getting-started/requirements.md)。
+如果未配置此设置，您必须下载更新版本的 `ADBMobile.json` 文件并将其添加到您的应用程序中。For more information, see Download the SDK and Testing Tools.[](/help/android/getting-started/requirements.md)
 
 ## Tracking geo-location and POIs {#section_B1616E400A7548F9A672F97FEC75AE27}
 
 1. 将库添加到您的项目并实施生命周期。
 
-   有关详细信息，请参阅 *在核心实施和生命周期* 中 [将SDK和Config文件添加到IntelliJ IDEA或Eclipse项目](/help/android/getting-started/dev-qs.md)。
+   For more information, see Add the SDK and Config File to your IntelliJ IDEA or Eclipse Project in Core implementation and lifecycle.**[](/help/android/getting-started/dev-qs.md)
 
 1. 导入库：
 
@@ -57,9 +57,9 @@ source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
 
    >[!TIP]
    >
-   >您可以随时调用 `trackLocation` 。
+   >You can call  at any time.`trackLocation`
 
-   You can use location strategies to determine the location that is passed to the `trackLocation` call. 有关更多信息，请参阅 [Android位置策略](https://developer.android.com/guide/topics/location/strategies.html)。
+   You can use location strategies to determine the location that is passed to the `trackLocation` call. 有关详细信息，请参 [阅Android位置策略](https://developer.android.com/guide/topics/location/strategies.html)。
 
 此外，如果确定位置位于定义的 POI 半径内，则 `a.loc.poi` 上下文数据变量将随 `trackLocation` 点击一起发送，并在&#x200B;**位置划分**&#x200B;报表中报告为 POI。另外，还将发送 `a.loc.dist` 上下文变量，其中包含到定义坐标的距离（以米为单位）。
 
@@ -101,7 +101,7 @@ Analytics.trackLocation(currentLocation, locationContextData);
 
 请牢记以下信息：
 
-* `trackLocation` 请求发送以 `trackAction` 与调用相等的方式发送。
+* A `trackLocation` request sends in the equivalent of a `trackAction` call.
 
 * POI 不会作为典型 `trackAction` 和 `trackState` 调用的一部分进行传递，因此您必须使用 `trackLocation` 调用来跟踪 POI。
 
