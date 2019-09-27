@@ -3,7 +3,7 @@ description: 此信息可帮助您从 iOS 应用程序中检索本地存储的 E
 seo-description: 此信息可帮助您从 iOS 应用程序中检索本地存储的 Experience Cloud SDK 身份和处理 GDPR 数据访问请求。
 seo-title: 检索存储的标识符
 title: 检索存储的标识符
-uuid: fb2c166-6700-4f8b-b60 b-137b199 e0509
+uuid: 4fb2c166-6700-4f8b-b60b-137b199e0509
 translation-type: tm+mt
 source-git-commit: 06144a1695ac40ce984656491456968888f9e96e
 
@@ -18,7 +18,7 @@ source-git-commit: 06144a1695ac40ce984656491456968888f9e96e
 
 >[!IMPORTANT]
 >
->`getAllIdentifiersAsync` 此方法检索存储在Experience Cloud SDK中的身份。您必须在用户选择禁用&#x200B;**之前**&#x200B;调用此方法。
+>该方 `getAllIdentifiersAsync` 法可检索存储在Experience Cloud SDK中的身份。 您必须在用户选择禁用&#x200B;**之前**&#x200B;调用此方法。
 
 Experience Cloud SDK 身份（如适用）存储在本地，并在 JSON 字符串中返回，其中可能包含以下项：
 
