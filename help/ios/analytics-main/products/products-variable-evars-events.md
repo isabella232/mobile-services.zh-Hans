@@ -2,10 +2,10 @@
 description: 以下是一个具有促销 eVar 和产品特定事件的产品变量示例。
 seo-description: 以下是一个具有促销 eVar 和产品特定事件的产品变量示例。
 seo-title: 具有促销 eVar 和产品特定事件的产品变量
-solution: Marketing Cloud，Analytics
+solution: Marketing Cloud,Analytics
 title: 具有促销 eVar 和产品特定事件的产品变量
 topic: 开发人员和实施
-uuid: f913211e-97ad-4237-bfe4-7舍入01295cf
+uuid: f913211e-97ad-4237-bfe4-7ded01295caf
 translation-type: tm+mt
 source-git-commit: 06144a1695ac40ce984656491456968888f9e96e
 
@@ -36,5 +36,5 @@ NSMutableDictionary *contextData = [NSMutableDictionary dictionary];
 
 >[!TIP]
 >
->如果使用变量 *`&&products`* 触发特定于产品的事件，则还必须在 *`&&events`* 变量中设置该事件。如果未设置该事件，则会在处理期间将其过滤掉。
+>If you trigger a product-specific event by using the  variable, you must also set that event in the  variable. *`&&products`**`&&events`*&#x200B;如果未设置该事件，则会在处理期间将其过滤掉。
 
