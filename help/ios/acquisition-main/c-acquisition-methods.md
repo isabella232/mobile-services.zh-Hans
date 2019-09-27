@@ -1,10 +1,10 @@
 ---
-description: '以下获取方法由iOS库提供 '
-seo-description: '以下获取方法由iOS库提供 '
+description: 'iOS库提供以下“获取”方法 '
+seo-description: 'iOS库提供以下“获取”方法 '
 seo-title: 客户获取方法
-solution: Marketing Cloud，Analytics
+solution: Marketing Cloud,Analytics
 title: 客户获取方法
-uuid: 6f88de57-793d-4d33-9a54-f6714289 fd2 c
+uuid: 6f88de57-793d-4d33-9a54-f6714289fd2c
 translation-type: tm+mt
 source-git-commit: 06144a1695ac40ce984656491456968888f9e96e
 
