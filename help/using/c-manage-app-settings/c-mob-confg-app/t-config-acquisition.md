@@ -3,10 +3,10 @@ description: 创建新应用程序或编辑现有应用程序时，您可以在�
 keywords: mobile
 seo-description: 创建新应用程序或编辑现有应用程序时，您可以在“管理应用程序设置”页面上配置“SDK 客户获取”选项。
 seo-title: 配置 SDK 客户获取选项
-solution: Marketing Cloud，Analytics
+solution: Marketing Cloud,Analytics
 title: 配置 SDK 客户获取选项
 topic: 量度
-uuid: 50ce51ad-39bf-4ac7-bd94-757443d11 ca7
+uuid: 50ce51ad-39bf-4ac7-bd94-757443d11ca7
 translation-type: tm+mt
 source-git-commit: 74b3597ce849aa114e6638e89741da3f6e1bee19
 
@@ -21,13 +21,13 @@ source-git-commit: 74b3597ce849aa114e6638e89741da3f6e1bee19
 
    * **[!UICONTROL 启用]**
 
-      创建应用程序商店链接，以便您能够直接从 Apple App Store 和 Google Play 下载应用程序。通过所创建的这些链接，您可以将成功事件归因于下载。有关更多信息，请参阅 [](//help/using/acquisition-main/acquisition-main.md)客户赢取。
+      创建应用程序商店链接，以便您能够直接从 Apple App Store 和 Google Play 下载应用程序。通过所创建的这些链接，您可以将成功事件归因于下载。For more information, see [Acquisition](//help/using/acquisition-main/acquisition-main.md).
 
    * **[!UICONTROL 反向链接超时（秒）]**
 
       指定反向链接超时值。
 
-      默认值为秒钟，此值指定在发送首次启动点击之前等待获取信息的秒数。
+      默认值是5秒，此值指定在发送首次启动点击之前等待获取信息的秒数。
 
    * **[!UICONTROL 更多详细信息]**
 
