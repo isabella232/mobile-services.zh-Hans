@@ -3,10 +3,10 @@ description: 在自定义报表时，广泛的灵活性可能会导致产生一�
 keywords: mobile
 seo-description: 在自定义报表时，广泛的灵活性可能会导致产生一些问题，从而难以确定哪种报表类型最适合获取您所需的数据。
 seo-title: 报表类型
-solution: Marketing Cloud，Analytics
+solution: Marketing Cloud,Analytics
 title: 报表类型
 topic: 报表,量度
-uuid: 8747b11e-31b1-47bc-ad55-db5 ab ef7078
+uuid: 8747b11e-31b1-47bc-ad55-db5ab4ef7078
 translation-type: tm+mt
 source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
 
@@ -21,11 +21,11 @@ source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
 
 * 量度
 
-   量度用于测量您的数据。量度是可以计数并累加的值，用于了解特定操作在您的应用程序中发生的频率。常用量度包括安装次数、启动次数、收入、存留期值和登录次数。例如，每当您的应用程序启动时，_ launches_ value增加一个。
+   量度用于测量您的数据。量度是可以计数并累加的值，用于了解特定操作在您的应用程序中发生的频率。常用量度包括安装次数、启动次数、收入、存留期值和登录次数。例如，每当您的应用程序启动时， _launches_value增加1。
 
 * 维度
 
-   维度用于描述您的数据。维度是通过使用字符串表示的，或用作字符串(如邮政编码)的数字，用于组织和分割数据。常见维度示例包括操作系统版本、促销活动名称、产品名称和移动运营商。每个维度都具有一些与其本身相关联的特定值。For example, the OS version dimension has values such as _iOS 7_ and _Android 4.1.2_.
+   维度用于描述您的数据。维通过使用字符串或类似于字符串的数字（如邮政编码）来表示，并用于组织和细分数据。 常见维度示例包括操作系统版本、促销活动名称、产品名称和移动运营商。每个维度都具有一些与其本身相关联的特定值。For example, the OS version dimension has values such as _iOS 7_ and _Android 4.1.2_.
 
 以下是可以在 Mobile UI 中生成的报表类型：
 
