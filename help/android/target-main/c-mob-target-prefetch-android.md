@@ -3,7 +3,7 @@ description: Adobe Target 预取功能使用 Android Mobile SDK 获取选件内�
 seo-description: Adobe Target 预取功能使用 Android Mobile SDK 获取选件内容，并通过缓存服务器响应来尽量减少获取次数。
 seo-title: 在 Android 中预取选件内容
 title: 在 Android 中预取选件内容
-uuid: 063451b8-e191-4d58-8ed8-1723e310 ad1 a
+uuid: 063451b8-e191-4d58-8ed8-1723e310ad1a
 translation-type: tm+mt
 source-git-commit: fa7375ac8a1345d81748bcf635791c46d3943fed
 
@@ -16,7 +16,7 @@ Adobe Target 预取功能使用 Android Mobile SDK 获取选件内容，并通�
 
 >[!IMPORTANT]
 >
->Adobe Target中的自动Target、自动分配和自动个性化活动类型不支持Android SDK中的预购功能。
+>Adobe Target中的“自动目标”、“自动分配”和“自动个性化”活动类型不支持Android版移动SDK中的预取功能。
 
 此过程可缩短加载时间，阻止多个网络调用，并允许 Adobe Target 接收有关移动设备应用程序用户访问了哪个 mbox 的通知。在预取调用期间将检索和缓存所有内容，对于以后所有包含指定 mbox 名称的缓存内容的调用，都将从缓存中检索该内容。
 
@@ -76,7 +76,7 @@ if (MobileConfig.getInstance().mobileUsingTarget()){
 
    >[!IMPORTANT]
    >
-   >如果请求的位置内容已经缓存，它将立即在提供的回调中返回。否则，SDK 将向 Target 服务器发送网络请求，以检索该内容。
+   >如果所请求位置的内容已缓存，将立即在提供的回调中返回。 否则，SDK 将向 Target 服务器发送网络请求，以检索该内容。
 
    * 下面是这种方法对应的语法：
 
@@ -140,7 +140,7 @@ if (MobileConfig.getInstance().mobileUsingTarget()){
 
 以下是 Android 中支持预取的公共类：
 
-### 类引用：targetPrefetchObject
+### 类引用：TargetPrefetchObject
 
 封装 mbox 名称以及用于 mbox 预取的参数。
 
@@ -152,21 +152,21 @@ if (MobileConfig.getInstance().mobileUsingTarget()){
 * `mboxParameters`
 
    键值对的集合，将作为此 `mboxParameters` 请求的 `TargetPrefetchObject` 附加。
-   * **类型**：地图`<String, Object>`
+   * **类型**:地图`<String, Object>`
 
 * **`orderParameters`**
 
    键值对的集合，将附加到当前位于 order 节点下方的 mbox。
-   * **类型**：地图 `<String, Object>`
+   * **类型**:地图 `<String, Object>`
 
 * **`productParameters`**
 
    键值对的集合，将附加到当前位于 product 节点下方的 mbox。
 
-   * **类型**：地图 `<String, Object>`
+   * **类型**:地图 `<String, Object>`
 
 
-### 类引用：targetRequestObject
+### 类引用：TargetRequestObject
 
 此类封装用于 Target 位置请求的 mbox 名称、默认内容、mbox 参数以及返回的回调。
 
@@ -186,13 +186,13 @@ if (MobileConfig.getInstance().mobileUsingTarget()){
 
    键值对的集合，将附加到当前位于 order 节点下方的 mbox。
 
-   * **类型**：地图 `<String, Object>`
+   * **类型**:地图 `<String, Object>`
 
 * **`productParameters`**
 
    键值对的集合，将附加到当前位于 product 节点下方的 mbox。
 
-   * **类型**：地图 `<String, Object>`
+   * **类型**:地图 `<String, Object>`
 
 * **`defaultContent`**
 
@@ -204,7 +204,7 @@ if (MobileConfig.getInstance().mobileUsingTarget()){
 
    给定 `TargetRequestObject` 的内容可用时将调用的函数指针。
 
-   * **类型**：Target. targetCallback`<String>`
+   * **类型**:Target.TargetCallback`<String>`
 
 
 ## Code sample {#section_BF7F49763D254371B4656E17953D520C}
