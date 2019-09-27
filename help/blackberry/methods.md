@@ -3,7 +3,7 @@ description: BlackBerry库提供的类和方法。
 seo-description: BlackBerry库提供的类和方法。
 seo-title: Adobe Mobile类和方法参考
 title: Adobe Mobile类和方法参考
-uuid: e42d759-be43-4bb3-ac1 a-c7 d64133 d61 c
+uuid: 1e42d759-be43-4bb3-ac1a-c7d64133d61c
 translation-type: tm+mt
 source-git-commit: 68bc21f1c6dba2faeed332495592114af90c8f61
 
@@ -14,7 +14,7 @@ source-git-commit: 68bc21f1c6dba2faeed332495592114af90c8f61
 
 BlackBerry库提供的类和方法。
 
-SDK目前支持Adobe Analytics，而方法基于该解决方案不同的类。
+SDK当前支持Adobe Analytics，并且方法基于该解决方案位于不同的类中。
 
 ## SDK settings {#section_C1EB977043C04D2B93E5A63DB72828B6}
 
@@ -44,8 +44,8 @@ SDK目前支持Adobe Analytics，而方法基于该解决方案不同的类。
 
    将当前用户的隐私状态设置为 `status`。设置为以下值之一：
 
-   * `ADBMobilePrivacyStatusOptIn` - 点击会立即发送。
-   * `ADBMobilePrivacyStatusOptOut` - 点击将被丢弃。
+   * `ADBMobilePrivacyStatusOptIn` -立即发送点击。
+   * `ADBMobilePrivacyStatusOptOut` -丢弃点击。
    * `ADBMobilePrivacyStatusUnknown` - 如果您的报表包启用了时间戳，将会保存点击，直到隐私状态更改为选择启用（随后将发送点击）或选择禁用（随后将丢弃点击）。如果您的报表包未启用时间戳，则将丢弃点击，直到隐私状态更改为选择启用。
 
    * 下面是这种方法对应的语法：
@@ -153,7 +153,7 @@ SDK目前支持Adobe Analytics，而方法基于该解决方案不同的类。
 
    >[!TIP]
    >
-   >这是增加页面视图的唯一跟踪调用。
+   >This is the only tracking call that increments page views.
 
    * 下面是这种方法对应的语法：
 
@@ -199,15 +199,15 @@ SDK目前支持Adobe Analytics，而方法基于该解决方案不同的类。
         ADBMobile::trackLocation(event, null);
       ```
 
-## `ADBMobileConfig.json` config文件引用 {#section_5AD4EDF87E304980B4AC4A5657FDA8B9}
+## `ADBMobileConfig.json` config file reference {#section_5AD4EDF87E304980B4AC4A5657FDA8B9}
 
-`ADBMobileConfig.json` 文件必须放在 *资产* 文件夹中。
+The `ADBMobileConfig.json` file must be placed in the *assets* folder.
 
 * **rsids**
 
    （必需）一个或多个用于接收 Analytics 数据的报表包。多个报表包 ID 应当以逗号分隔，且彼此之间没有空格。
 
-   下面是此变量的代码示例：
+   以下是此变量的代码示例：
 
    ```js
    "rsids" : "rsid"
@@ -219,7 +219,7 @@ SDK目前支持Adobe Analytics，而方法基于该解决方案不同的类。
 
 * **server**
 
-   （必需）。Analytics 服务器。This variable should be populated with the server domain, without an `https://` or `https://` protocol prefix. 协议前缀将由库根据 `ssl` 变量自动处理。如果 `ssl` 为 `true`，则对此服务器进行安全连接。如果 `ssl` 为 `false`，则对此服务器进行非安全连接。
+   (必需). Analytics 服务器。This variable should be populated with the server domain, without an `https://` or `https://` protocol prefix. 协议前缀将由库根据 `ssl` 变量自动处理。如果 `ssl` 为 `true`，则对此服务器进行安全连接。如果 `ssl` 为 `false`，则对此服务器进行非安全连接。
 
 * **charset**
 
@@ -235,7 +235,7 @@ SDK目前支持Adobe Analytics，而方法基于该解决方案不同的类。
 
    >[!TIP]
    >
-   >如果报表包已启用时间戳，那么您的 `offlineEnabled` 配置属性&#x200B;*必须*&#x200B;为 `true`. 如果您的报表包未启用时间戳，则 `offlineEnabled` 配置属性&#x200B;*必须*&#x200B;为 false。如果配置不正确，数据将会丢失。如果您不确定报表包是否已启用时间戳，联系 [企业支持](https://helpx.adobe.com/contact/enterprise-support.ec.html)。
+   >如果报表包已启用时间戳，那么您的 `offlineEnabled` 配置属性&#x200B;*必须*&#x200B;为 `true`. 如果您的报表包未启用时间戳，则 `offlineEnabled` 配置属性&#x200B;*必须*&#x200B;为 false。如果配置不正确，数据将会丢失。如果您不确定报表包是否已启用时间戳， 联系 [企业支持](https://helpx.adobe.com/contact/enterprise-support.ec.html)。
 
    如果您当前向某个报表包报告 AppMeasurement 数据，而该报表包也从 JavaScript 收集数据，则您可能需要为移动设备数据设置一个单独的报表包，或使用 `s.timestamp` 变量在所有 JavaScript 点击中包含自定义时间戳。
 
@@ -249,16 +249,16 @@ SDK目前支持Adobe Analytics，而方法基于该解决方案不同的类。
 
 * **batchLimit**
 
-   队列中存储的离线点击的最大数量。默认值为0(无限制)。
+   队列中存储的离线点击的最大数量。默认值为0（无限制）。
 
 * **privacyDefault**
 
-   * `optedin` - 点击会立即发送。
-   * `optedout` - 点击将被丢弃。
+   * `optedin` -立即发送点击。
+   * `optedout` -丢弃点击。
    * `optunknown` - 如果您的报表包启用了时间戳，将会保存点击，直到隐私状态更改为选择启用（随后将发送点击）或选择禁用（随后将丢弃点击）。
 
       如果您的报表包未启用时间戳，则将丢弃点击，直到隐私状态更改为选择启用。
-   此变量仅设置初始值。如果曾在代码中设置或更改此值，则之后会一直使用新值，直到它发生更改，或应用程序被卸载后又重新安装时为止。
+   此变量仅设置初始值。 如果曾在代码中设置或更改此值，则之后会一直使用新值，直到它发生更改，或应用程序被卸载后又重新安装时为止。
 
    默认值为 `optedin`.
 
