@@ -2,7 +2,7 @@
 description: 以下是 tvOS 库提供的 TVJS 方法列表。
 seo-description: 以下是 tvOS 库提供的 TVJS 方法列表。
 seo-title: TVJS 方法
-solution: Marketing Cloud，Analytics
+solution: Marketing Cloud,Analytics
 title: TVJS 方法
 topic: 开发人员和实施
 uuid: a7bfa85a-0d6e-4f51-9a9e-70429c2a9806
@@ -42,8 +42,8 @@ source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
 
    选项如下：
 
-   * `ADBMobilePrivacyStatusOptIn`：点击将立即发送。
-   * `ADBMobilePrivacyStatusOptOut`：点击将被丢弃。
+   * `ADBMobilePrivacyStatusOptIn`:点击会立即发送。
+   * `ADBMobilePrivacyStatusOptOut`:将丢弃点击。
    * `ADBMobilePrivacyStatusUnknown`：如果启用了离线跟踪，将会保存点击，直到隐私状态更改为选择启用（发送点击）或选择禁用（丢弃点击）。
 
       如果未启用离线跟踪，则将丢弃点击，直到隐私状态更改为选择启用。THe default value is set in the `ADBMobileConfig.json` file.
@@ -66,9 +66,9 @@ source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
 
    将当前用户的隐私状态设置为以下值之一：
 
-   * `ADBMobilePrivacyStatusOptIn`：点击将立即发送。
-   * `ADBMobilePrivacyStatusOptOut`：点击将被丢弃。
-   * `ADBMobilePrivacyStatusUnknown`：如果启用了脱机跟踪，则会保存点击，直到隐私状态更改变为加入(点击)或退出(点击被丢弃)。
+   * `ADBMobilePrivacyStatusOptIn`: Hits are sent immediately.
+   * `ADBMobilePrivacyStatusOptOut`:将丢弃点击。
+   * `ADBMobilePrivacyStatusUnknown`:如果启用了脱机跟踪，则会保存点击，直到隐私状态更改为选择加入（发送点击）或选择退出（丢弃点击）。
    如果未启用离线跟踪，则将丢弃点击，直到隐私状态更改为选择启用。
 
    * 下面是这种方法对应的语法：
@@ -108,7 +108,7 @@ source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
 
    >[!IMPORTANT]
    >
-   >如果您的应用程序升级从Experience Cloud3.x到4.x SDK，则会检索先前的自定义或自动生成的访客ID，并将其作为自定义用户标识符存储。这样可在 SDK 升级期间保留访客数据。对于 4.x SDK 上的新安装，用户标识符在设置之前为 nil。
+   >如果您的应用程序从Experience Cloud 3.x升级到4.x SDK，则会检索之前的自定义或自动生成的访客ID，并将其存储为自定义用户标识符。 这样可在 SDK 升级期间保留访客数据。对于 4.x SDK 上的新安装，用户标识符在设置之前为 nil。
 
    * 下面是这种方法对应的语法：
 
@@ -149,11 +149,11 @@ source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
 
 * **setAdvertisingIdentifier**
 
-   在SDK中设置IDFA，如果在SDK中设置该IDFA，则IDFA将在生命周期内发送。此外，也可以在信号（回发）中访问 IDFA。
+   在SDK中设置IDFA，如果已在SDK中设置IDFA，则IDFA将在生命周期中发送。 此外，也可以在信号（回发）中访问 IDFA。
 
    >[!IMPORTANT]
    >
-   >仅当您使用广告服务时，才从Apple API检索IDFA。如果您检索 IDFA 但并未正确使用它，则您的应用程序可能会被拒绝。
+   >Retrieve the IDFA from Apple APIs only if you are using an ad service. 如果您检索 IDFA 但并未正确使用它，则您的应用程序可能会被拒绝。
 
    * 下面是这种方法对应的语法：
 
@@ -204,7 +204,7 @@ source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
 
    >[!TIP]
    >
-   >这是增加页面视图的唯一跟踪调用。
+   >这是唯一可增加页面查看次数的跟踪调用。
 
    * 下面是这种方法对应的语法：
 
@@ -215,7 +215,7 @@ source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
       * 返回：N/A
       * 参数: `stateName`
          * 类型: `String`
-         * 页面状态名称
+         * Page state name
       * 参数: `contextData`
          * 类型：对象
          * 用于此点击的其他上下文数据。
@@ -368,7 +368,7 @@ source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
 
    结束定时操作。
 
-   如果提供回调函数，您可以访问最终时间值。如果未提供回调，或者回调返回 true，Adobe SDK 将自动发送点击。当回调返回false时，抑制定时操作点击。
+   如果提供回调函数，您可以访问最终时间值。如果未提供回调，或者回调返回 true，Adobe SDK 将自动发送点击。When a false is returned from the callback, the timed action hit is suppressed.
 
    * 下面是这种方法对应的语法：
 
@@ -410,7 +410,7 @@ source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
       * 返回：布尔
       * 参数: `name`
          * 类型: `String`
-         * 要检查存在的计时操作的名称。
+         * 需要检查其是否存在的定时操作的名称。
    * 以下是这种方法的代码示例：
 
 
@@ -427,7 +427,7 @@ source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
 
    >[!TIP]
    >
-   >如果您的应用程序升级从Experience Cloud3.x到4.x SDK，则会检索先前的自定义或自动生成的访客ID，并将其作为自定义用户标识符存储。这样可在 SDK 升级期间保留访客数据。对于 4.x SDK 上的新安装，用户标识符为 `nil`，并且将使用跟踪标识符。有关更多信息，请参阅下面的 userIdentifier 行。
+   >如果您的应用程序从Experience Cloud 3.x升级到4.x SDK，则会检索之前的自定义或自动生成的访客ID，并将其存储为自定义用户标识符。 这样可在 SDK 升级期间保留访客数据。对于 4.x SDK 上的新安装，用户标识符为 `nil`，并且将使用跟踪标识符。有关更多信息，请参阅下面的 userIdentifier 行。
 
    * 下面是这种方法对应的语法：
 
@@ -692,7 +692,7 @@ source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
          * 用于同步到此用户的 ID 服务的标识符。
       * 参数: `authState`
          * 类型：ADBMobileVisitorAuthenticationState
-         * 用户身份验证状态以及可能的值包括：
+         * 用户的身份验证状态和可能的值包括：
             * `ADBMobileVisitorAuthenticationStateUnknown`
             * `ADBMobileVisitorAuthenticationStateAuthenticated`
             * `ADBMobileVisitorAuthenticationStateLoggedOut`
@@ -714,7 +714,7 @@ source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
       visitorSyncIdentifierWithTypeIdentifierAuthenticationState(idType, identifier, authState)
       ```
 
-      * 退回：N/A
+      * 退货：N/A
       * 参数: `idType`
          * 类型: `String`
          * 正在同步的标识符类型。
@@ -722,7 +722,7 @@ source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
          * 类型: `String`
          * 正在同步的标识符值。
       * 参数: `authState`
-         * 类型：AdbMobileVisitorAuthenticationState身份验证状态。可能的值包括：
+         * 类型：ADBMobileVisitorAuthenticationState用户的身份验证状态。 可能的值包括：
             * `ADBMobileVisitorAuthenticationStateUnknown`
             * `ADBMobileVisitorAuthenticationStateAuthenticated`
             * `ADBMobileVisitorAuthenticationStateLoggedOut`
@@ -798,10 +798,9 @@ source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
          * 类型: `String`
          * 用于目标请求的第三方 ID。
    * 以下是这种方法的代码示例：
-
-      ```objective-c
-      ADBMobile.targetSetThirdPartyID(‘thirdPartyID’);
-      ```
+   ```objective-c
+   ADBMobile.targetSetThirdPartyID(‘thirdPartyID’);
+   ```
 
 * **targetPcID**
 
