@@ -4,8 +4,8 @@ keywords: Xamarin
 seo-description: 适用于 Experience Cloud 解决方案 4.x SDK 的 Xamarin 组件的 Android 方法。
 seo-title: Android方法
 solution: Marketing Cloud，开发人员
-title: Android方法
-uuid: 860af1c4-f57 e-4bcb-8308-4e316 da9 a27 b
+title: Android methods
+uuid: 860af1c4-f57e-4bcb-8308-4e316da9a27b
 translation-type: tm+mt
 source-git-commit: df4ea2c4002611c72009cf69598cbbb74b5c15c4
 
@@ -18,9 +18,9 @@ source-git-commit: df4ea2c4002611c72009cf69598cbbb74b5c15c4
 
 ## Configuration methods {#section_405AA09390E346E5BB7B1F4E0F65F51E}
 
-* **调试工具包**
+* **调试记录**
 
-   返回当前调试日志首选项，默认为false。
+   返回当前调试日志记录首选项，默认值为false。
 
    * 下面是这种方法对应的语法：
 
@@ -54,8 +54,8 @@ source-git-commit: df4ea2c4002611c72009cf69598cbbb74b5c15c4
 * **PrivacyStatus**
 
    返回当前用户隐私状态的枚举表示形式。
-   * `ADBMobilePrivacyStatus.OptIn` - 点击会立即发送。
-   * `ADBMobilePrivacyStatus.OptOut` - 点击将被丢弃。
+   * `ADBMobilePrivacyStatus.OptIn` -立即发送点击。
+   * `ADBMobilePrivacyStatus.OptOut` -丢弃点击。
    * `ADBMobilePrivacyStatus.Unknown` - 如果启用了离线跟踪，将会保存点击，直到隐私状态更改为选择启用（发送点击）或选择禁用（丢弃点击）。如果未启用离线跟踪，则将丢弃点击，直到隐私状态更改为选择启用。
    默认值在 [ADBMobileConfig.json](/help/android/configuration/json-config/json-config.md) 文件中设置。
 
@@ -75,7 +75,7 @@ source-git-commit: df4ea2c4002611c72009cf69598cbbb74b5c15c4
 
 * **UserIdentifier**
 
-   如果已设置自定义标识符，则返回此标识符。如果未设置自定义标识符，则返回null。默认值为 `null`.
+   如果已设置自定义标识符，则返回此标识符。 如果未设置自定义标识符，则返回null。 默认值为 `null`.
 
    * 下面是这种方法对应的语法：
 
@@ -176,7 +176,7 @@ source-git-commit: df4ea2c4002611c72009cf69598cbbb74b5c15c4
 
 * **SetLargeIconResourceId(int resourceId)**
 
-   (4.2或更高版本)设置用于SDK创建通知的大图标。此图标是当用户在通知中心看到完整通知时显示的主图象。
+   （4.2或更高版本）设置用于SDK创建的通知的大图标。 此图标是当用户在通知中心看到完整通知时显示的主图像。
 
    * 下面是这种方法对应的语法：
 
@@ -192,7 +192,7 @@ source-git-commit: df4ea2c4002611c72009cf69598cbbb74b5c15c4
 
 * **SetSmallIconResourceId(int resourceId)**
 
-   (4.2或更高版本)设置用于SDK创建通知的小图标。此图标显示在状态栏中，是用户在通知中心看到完整通知时显示的第二幅图像。
+   (4.2 or later) Sets the small icon that is used for notifications created by the SDK. 此图标显示在状态栏中，是用户在通知中心看到完整通知时显示的次映像。
 
    * 下面是这种方法对应的语法：
 
@@ -210,7 +210,7 @@ source-git-commit: df4ea2c4002611c72009cf69598cbbb74b5c15c4
 
 * **TrackingIdentifier**
 
-   返回自动为 Analytics 生成的 ID。这是一个特定于应用程序的唯一ID，在初始启动时生成并从该点开始存储和使用。此ID在应用程序升级期间会保留，并在卸载时被删除。
+   返回自动为 Analytics 生成的 ID。This is an app-specific unique ID that is generated on initial launch and is stored and used from that point forward. This ID is preserved between app upgrades and is removed on uninstall.
 
    * 下面是这种方法对应的语法：
 
@@ -230,7 +230,7 @@ source-git-commit: df4ea2c4002611c72009cf69598cbbb74b5c15c4
 
    >[!TIP]
    >
-   >这是增加页面视图的唯一跟踪调用。
+   >This is the only tracking call that increments page views.
 
    * 下面是这种方法对应的语法：
 
@@ -424,7 +424,7 @@ source-git-commit: df4ea2c4002611c72009cf69598cbbb74b5c15c4
 
 * **SendQueuedHits**
 
-   强制库发送脱机队列中的所有点击，而不管当前排队的点击数如何。
+   强制库发送脱机队列中的所有点击，而不管当前排队的点击数。
 
    * 下面是这种方法对应的语法：
 
@@ -456,7 +456,7 @@ source-git-commit: df4ea2c4002611c72009cf69598cbbb74b5c15c4
 
 * **QueueSize**
 
-   检索当前处于脱机队列中的点击数。
+   Retrieves the number of hits that are currently in the offline queue.
 
    * 下面是这种方法对应的语法：
 
@@ -551,7 +551,7 @@ source-git-commit: df4ea2c4002611c72009cf69598cbbb74b5c15c4
 
 * **CreateOrderConfirmRequest**
 
-   创建 `ADBTargetLocationRequest`一个。
+   创建 `ADBTargetLocationRequest`。
 
    * 下面是这种方法对应的语法：
 
@@ -567,7 +567,7 @@ source-git-commit: df4ea2c4002611c72009cf69598cbbb74b5c15c4
 
 * **ClearCookies**
 
-   清除您的应用程序中的Clears Target cookie。
+   从您的应用程序中清除Target cookie。
 
    * 下面是这种方法对应的语法：
 
@@ -633,7 +633,7 @@ source-git-commit: df4ea2c4002611c72009cf69598cbbb74b5c15c4
 
 * **AudienceSetDpidAndDpuuid**
 
-   设置 `dpid` 和 `dpuuid`。If `dpid` and `dpuuid` are set, they are sent with each signal.
+   设置 `dpid` 和 `dpuuid`。 If `dpid` and `dpuuid` are set, they are sent with each signal.
 
    * 下面是这种方法对应的语法：
 
@@ -727,7 +727,7 @@ source-git-commit: df4ea2c4002611c72009cf69598cbbb74b5c15c4
       MediaSettings adSettings = Media.AdSettingsWith ("adName1", 2, "playerName1", "name1", "podName1", 4, "CPM1"); 
       ```
 
-* **打开**
+* **Open**
 
    打开 `ADBMediaSettings` 对象以进行跟踪。
 
