@@ -3,10 +3,10 @@ description: 您可以创建一个新的链接目标，将用户引导至您应�
 keywords: mobile
 seo-description: 您可以创建一个新的链接目标，将用户引导至您应用程序中的 Web 链接或深层链接。
 seo-title: 新建链接目标
-solution: Marketing Cloud，Analytics
+solution: Marketing Cloud,Analytics
 title: 新建链接目标
 topic: 量度
-uuid: 390e3dea-021-4f97-980d-a90 ca9 f162 fa
+uuid: 390e3dea-0221-4f97-980d-a90ca9f162fa
 translation-type: tm+mt
 source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
 
@@ -24,11 +24,11 @@ source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
 1. 在以下字段中键入相应信息：
    * **[!UICONTROL 标题]**
 
-      为App Link目标键入描述性名称。标题仅在 Adobe Mobile Services UI 中的“管理链接目标”页面上显示。描述性的名称可帮助您或您组织内的其他人快速找到特定的链接目标并可对其用途提供深入分析。
+      为应用程序链接目标键入描述性名称。 标题仅在 Adobe Mobile Services UI 中的“管理链接目标”页面上显示。描述性的名称可帮助您或您组织内的其他人快速找到特定的链接目标并可对其用途提供深入分析。
 
    * **[!UICONTROL 链接类型]**
 
-      下面列出了可用链接类型的列表：
+      以下是可用链接类型的列表：
 
       * **[!UICONTROL 应用程序深层链接]**
 
@@ -41,7 +41,8 @@ source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
       * **[!UICONTROL 混合链接]**
 
          键入一个 iOS 通用链接或 Android 应用程序链接（例如，`https://yourwebsite.com`）。混合链接支持 iOS 通用链接或 Android 应用程序链接。
-   * **[!UICONTROL 应用]**&#x200B;程序选择与您要提供的链接关联的应用程序。
+   * **[!UICONTROL App]**
+Select the app that is associated with the link you are going to provide.
 
       >[!TIP]
       >
@@ -49,9 +50,9 @@ source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
 
    * **[!UICONTROL 链接类型]**
 
-      键入所选链接的实际URL。此字段的标签会因所选链接类型而异。
+      键入所选链接的实际URL。 The label of this field will vary depeneding on the type of link you selected.
 
-   * **[!UICONTROL Notes]**
+   * **[!UICONTROL 注释]**
 
       为您的目标键入可选注释。额外的注释仅在 Adobe Mobile Services UI 中的“管理链接目标”页面上显示。额外的注释可帮助您或您组织内的其他人快速找到特定的链接目标并对其用途、所关联到的促销活动、或您认为非常重要的任何其他内容提供深入分析。
 
