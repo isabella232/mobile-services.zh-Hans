@@ -2,10 +2,10 @@
 description: 操作是指在您要测量的应用程序中发生的事件。每个操作均具有一个或多个对应的量度，每当发生事件时，这些量度的数量都会递增。例如，每当进行了新订阅、查看完文章或完成某个级别时，您都可以相应地进行跟踪。这些事件对应的量度分别配置为订阅数、阅读的文章数和完成的级别数。
 seo-description: 操作是指在您要测量的应用程序中发生的事件。每个操作均具有一个或多个对应的量度，每当发生事件时，这些量度的数量都会递增。例如，每当进行了新订阅、查看完文章或完成某个级别时，您都可以相应地进行跟踪。这些事件对应的量度分别配置为订阅数、阅读的文章数和完成的级别数。
 seo-title: 跟踪应用程序操作
-solution: Marketing Cloud，Analytics
+solution: Marketing Cloud,Analytics
 title: 跟踪应用程序操作
 topic: 开发人员和实施
-uuid: 62017be1-5395-4d16-bde3-4c40 a2 c012 d4
+uuid: 62017be1-5395-4d16-bde3-4c40a2c012d4
 translation-type: tm+mt
 source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
 
@@ -22,7 +22,7 @@ source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
 
 1. 将库添加到您的项目并实施生命周期。
 
-   有关详细信息，请参阅 *将SDK和配置文件添加到核心实施和生命周期* 中 [的项目](/help/ios/getting-started/dev-qs.md)。
+   For more information, see Add the SDK and Config File to your Project in Core Implementation and Lifecycle.**[](/help/ios/getting-started/dev-qs.md)
 1. 导入库。
 
    ```objective-c
@@ -75,5 +75,5 @@ NSMutableDictionary *contextData = [NSMutableDictionary dictionary];
 | 界面 | 报表 |
 |--- |--- |
 | Adobe Mobile Services | ****&#x200B;操作路径报告. 查看操作在应用程序中发生的顺序。您还可以单击任何报表中的&#x200B;**[!UICONTROL 自定义]，以查看操作排名、趋势或在划分报表中查看操作，也可以应用过滤器以查看特定区段的操作。** |
-| 市场营销报告与分析 | **[!UICONTROL 自定义事件]**&#x200B;报表。在将操作映射到自定义事件后，您可以查看与所有其他 Analytics 事件类似的移动设备事件。 |
+| Marketing Reports and Analytics | **[!UICONTROL 自定义事件]**&#x200B;报表。在将操作映射到自定义事件后，您可以查看与所有其他 Analytics 事件类似的移动设备事件。 |
 | Ad hoc analytics | **[!UICONTROL 自定义事件]**&#x200B;报表。在将操作映射到自定义事件后，您可以查看与所有其他 Analytics 事件类似的移动设备事件。 |
