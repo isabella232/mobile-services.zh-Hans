@@ -2,26 +2,26 @@
 description: 您可以查看交互式地图，它会显示您的目标点和其他数据标记。
 keywords: mobile
 seo-description: 您可以查看交互式地图，它会显示您的目标点和其他数据标记。
-seo-title: 地图
-solution: Marketing Cloud，Analytics
-title: 地图
+seo-title: 映射
+solution: Marketing Cloud,Analytics
+title: 映射
 topic: 量度
-uuid: 3c271738-eb8 d-4c26-baf-54b247 bfc4 da
+uuid: 3c271738-eb8d-4c26-baaf-54b247bfc4da
 translation-type: tm+mt
 source-git-commit: e9691f9cbeadd171948aa752b27a014c3ab254d6
 
 ---
 
 
-# 地图 {#map}
+# 映射 {#map}
 
 您可以查看显示POI和其他数据标记的交互式地图。
 
 ![](assets/map.png)
 
-以下是一些重要信息：
+以下是需要记住的一些重要信息：
 
-* 您可以增加或减小地图的大小。
+* You can increase or decrease the size of the map.
 
    在有两个非常靠近的目标点时，此功能非常有用。通过放大地图，可以更详细地查看地图。
 * 您的目标点显示为蓝色。
@@ -34,7 +34,7 @@ Click ![layers](assets/map_layers.png) to select the following options:
 
    显示一个简单的地图。
 
-* **[!UICONTROL 卫星在]**&#x200B;卫星模式下显示地图。
+* **[!UICONTROL 卫星]**&#x200B;以卫星模式显示地图。
 
 * **[!UICONTROL 数据标记]**
 
@@ -60,7 +60,7 @@ Click ![layers](assets/map_layers.png) to select the following options:
 
 * **[!UICONTROL 过滤器]**
 
-   单击&#x200B;**[!UICONTROL 过滤器]可创建跨不同报表的过滤器，以便查看区段在所有移动设备报表中的执行情况。**&#x200B;置顶过滤器允许您定义应用于所有非路径报表的过滤器。有关更多信息，请参阅 [添加粘性滤镜](/help/using/usage/reports-customize/t-sticky-filter.md)。
+   单击&#x200B;**[!UICONTROL 过滤器]可创建跨不同报表的过滤器，以便查看区段在所有移动设备报表中的执行情况。**&#x200B;置顶过滤器允许您定义应用于所有非路径报表的过滤器。For more information, see [Add a sticky filter](/help/using/usage/reports-customize/t-sticky-filter.md).
 
 * **[!UICONTROL 下载]**
 
