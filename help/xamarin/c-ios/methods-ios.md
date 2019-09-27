@@ -3,7 +3,7 @@ description: 适用于 Experience Cloud 解决方案 4.x SDK 的 Xamarin 组件�
 keywords: Xamarin
 seo-description: 适用于 Experience Cloud 解决方案 4.x SDK 的 Xamarin 组件的 iOS 方法。
 seo-title: iOS方法
-solution: Marketing Cloud，开发人员
+solution: Marketing Cloud,Developer
 title: iOS方法
 uuid: d6a056db-80c1-44d0-970f-c961ad01b0bc
 translation-type: tm+mt
@@ -86,7 +86,7 @@ source-git-commit: f53953831e6471ea64eb2ae06ddae16ca0eab6f6
 
    返回当前用户隐私状态的枚举表示形式。
    * `ADBMobilePrivacyStatus.OptIn` -立即发送点击。
-   * `ADBMobilePrivacyStatus.OptOut` -丢弃点击。
+   * `ADBMobilePrivacyStatus.OptOut` - hits are discarded.
    * ADBMobilePrivacyStatus.Unknown - 如果启用了离线跟踪，则将保存点击量，直到隐私状态更改为选择启用（发送点击量）或选择禁用（丢弃点击量）。如果禁用了脱机跟踪，则会丢弃点击，直到隐私状态更改为选择加入。
    The default value is set in the [ADBMobileConfig.json](/help/ios/configuration/json-config/json-config.md).
 
@@ -210,7 +210,7 @@ source-git-commit: f53953831e6471ea64eb2ae06ddae16ca0eab6f6
 
 * **TrackState**
 
-   通过可选的上下文数据跟踪应用程序状态。状态是指应用程序中可用的视图，如“标题屏幕”、“级别 1”、“暂停”，等等。这些状态与网站上的页面类似，并调用增量页面查看次数。如果状态为空，则在报告中将显示为“应用程序名称应用程序版本（内部版本）”。 `TrackState` 如果您在报表中看到该值，请确保在每个 `TrackState` 调用中设置 state。
+   通过可选的上下文数据跟踪应用程序状态。状态是指应用程序中可用的视图，如“标题屏幕”、“级别 1”、“暂停”，等等。These states are similar to pages on a website, and  calls increment page views.If state is empty, it displays as "app name app version (build)" in reports. `TrackState`如果您在报表中看到该值，请确保在每个 `TrackState` 调用中设置 state。
 
    [!TIP]
    >这是唯一可增加页面查看次数的跟踪调用。
@@ -390,7 +390,7 @@ source-git-commit: f53953831e6471ea64eb2ae06ddae16ca0eab6f6
 
 * **TrackingTimedActionExists**
 
-   返回定时操作是否正在进行中。
+   Returns whether a timed action is (or is not) in progress.
 
    * 下面是这种方法对应的语法：
 
