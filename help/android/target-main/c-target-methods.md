@@ -2,22 +2,22 @@
 description: 以下是 Android 库提供的 Adobe Target 方法列表。
 keywords: android；库；移动；sdk
 seo-description: 以下是 Android 库提供的 Adobe Target 方法列表。
-seo-title: 针对Android的Target方法
-solution: Marketing Cloud，Analytics
-title: 针对Android的Target方法
+seo-title: Android的目标方法
+solution: Marketing Cloud,Analytics
+title: Target methods for Android
 topic: 开发人员和实施
-uuid: 8e9808b2-ba80-4646-ba05-8e62 d4 fde065
+uuid: 8e9808b2-ba80-4646-ba05-8e62d4fde065
 translation-type: tm+mt
 source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
 
 ---
 
 
-# 针对Android的Target方法{#target-methods}
+# Android的目标方法{#target-methods}
 
 以下是 Android 库提供的 Adobe Target 方法列表。
 
-SDK目前支持多个Adobe Experience Cloud解决方案，包括Analytics、Target、Audience Manager和Adobe Experience Platform Identity Service]。Methods are prefixed according to the solution. For example, Experience Cloud ID methods are prefixed with `target`.
+The SDK currently supports multiple Adobe Experience Cloud Solutions, including Analytics, Target, Audience Manager, and the Adobe Experience Platform Identity Service]. Methods are prefixed according to the solution. For example, Experience Cloud ID methods are prefixed with `target`.
 
 >[!TIP]
 >
@@ -25,7 +25,7 @@ SDK目前支持多个Adobe Experience Cloud解决方案，包括Analytics、Targ
 
 ## Class reference : TargetLocationRequest {#section_A8CC898922164E819EC730DC92A6742B}
 
-**属性：**
+**资产:**
 
 ```java
 public String name; 
@@ -33,11 +33,11 @@ public String defaultContent;
 public HashMap<String, Object> parameters;
 ```
 
-**String常量**
+**字符串常量**
 
 >[!TIP]
 >
->在为自定义参数设置键时，以下常量便于使用。
+>为自定义参数设置键时，以下常量易于使用。
 
 ```java
 public static final String TARGET_PARAMETER_ORDER_ID   = "orderId"; 
@@ -122,38 +122,38 @@ public static final String TARGET_PARAMETER_MBOX_HOST           = "mboxHost";
 
          要检索的 Target mbox/位置的名称。
 
-         * **类型：** 字符串
+         * **** Type: String
       * **defaultContent**
 
          Target 服务器不可访问或用户不符合促销活动资格时，在回调中返回的值。
 
-         * **类型：** 字符串
+         * **** Type: String
       * **profileParameters**
 
          该词典中的值将在对 Target 的请求中用于“profileParameters”对象。
 
-         * **类型：** 地图 `<String, Object>`
+         * **** 类型：地图 `<String, Object>`
       * **orderParameters**
 
          该词典中的值将在对 Target 的请求中用于“order”对象。
 
-         * **类型：** 地图 `<String, Object>`
+         * **** 类型：地图 `<String, Object>`
       * **mboxParameters**
 
-         此词典中的值将进入Target请求。
+         此词典中的值将在向Target的请求中。
 
-         * **类型：** 地图 `<String, Object>`
+         * **** 类型：地图 `<String, Object>`
       * **requestLocationParameters**
 
          该词典中的值将在对 Target 的请求中用于“requestLocation”对象。
 
-         * **类型：** 地图 `<String, Object>`
+         * **** 类型：地图 `<String, Object>`
       * **callback**
 
          此方法将通过来自 Target 服务器的选件内容进行调用。如果 Target 服务器不可访问，或者用户不符合促销活动资格，则将返回 defaultContent。
 
-         * **类型：** targetCallback `<String>`
-   * 下面是此方法的示例代码：
+         * **** 类型：TargetCallback `<String>`
+   * Here is sample code for this method:
 
       ```java
       Map `<String, Object>` profileParameters = new HashMap `<String, Object>`(); profileParameters.put(“profile-parameter-key”, “profile-parameter-value”); 
