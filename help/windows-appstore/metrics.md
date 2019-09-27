@@ -3,10 +3,10 @@ description: 列出可由移动设备库自动测量的量度和维度。
 keywords: android；库；移动；sdk
 seo-description: 列出可由移动设备库自动测量的量度和维度。
 seo-title: 生命周期量度
-solution: Marketing Cloud，Analytics
+solution: Marketing Cloud,Analytics
 title: 生命周期量度
 topic: 开发人员和实施
-uuid: c483271f-f620-46f4-aad8-d5 f02 d763 f7 d
+uuid: c483271f-f620-46f4-aad8-d5f02d763f7d
 translation-type: tm+mt
 source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
 
@@ -17,13 +17,13 @@ source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
 
 列出可由移动设备库自动测量的量度和维度。
 
-有关更多信息，请参阅 [生命周期数据疑难解答](https://helpx.adobe.com/analytics/kb/troubleshoot-lifecycle-data.html)。
+有关详细信息，请参阅 [生命周期数据疑难解答](https://helpx.adobe.com/analytics/kb/troubleshoot-lifecycle-data.html)。
 
 ## Lifecycle metrics and dimensions {#section_78F036C4296F4BA3A47C2044F79C86C1}
 
-配置后，生命周期量度会在上下文数据参数中发送到 Analytics，随每个 mbox 调用在参数中发送到 Target，以及作为信号发送到 Audience Manager。Analytics和Target使用相同的格式，Audience Manager对每个指标使用不同的前缀。
+配置后，生命周期量度会在上下文数据参数中发送到 Analytics，随每个 mbox 调用在参数中发送到 Target，以及作为信号发送到 Audience Manager。Analytics和Target使用相同的格式，Audience manager对每个指标使用不同的前缀。
 
-对于Analytics，使用下面列出的指标或维度自动捕获和报告随每个生命周期跟踪调用一起发送的上下文数据，并记录例外情况。
+对于Analytics，使用下面列出的度量或维度自动捕获并报告与每个生命周期跟踪调用一起发送的上下文数据，并记录异常情况。
 
 ### 量度
 
@@ -47,7 +47,7 @@ source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
 
    >[!TIP]
    >
-   >此量度不会自动存储在Analytics指标中。您必须创建一个处理规则，以设置一个自定义事件用来捕获此量度。
+   >此量度不会自动存储在Analytics量度中。 您必须创建一个处理规则，以设置一个自定义事件用来捕获此量度。
 
    * Analytics context data/Target parameter: `a.DailyEngUserEvent`
    * Audience Manager signal: `c_a_DailyEngUserEvent`
@@ -58,7 +58,7 @@ source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
 
    >[!IMPORTANT]
    >
-   >此量度不会自动存储在Analytics指标中。您必须创建一个处理规则，以设置一个自定义事件用来捕获此量度。
+   >此量度不会自动存储在Analytics量度中。 您必须创建一个处理规则，以设置一个自定义事件用来捕获此量度。
 
    * Analytics context data/Target parameter: `a.MonthlyEngUserEvent`
    * Audience Manager signal: `c_a_MonthlyEngUserEvent`
@@ -88,7 +88,7 @@ source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
 
 * **安装日期**
 
-   安装后首次启动的日期。日期格式 `MM/DD/YYYY`为。
+   安装后首次启动的日期。日期格式为 `MM/DD/YYYY`。
 
    * Analytics context data/Target: `a.InstallDate`
    * Audience Manager: `c_a_InstallDate`
@@ -148,7 +148,7 @@ source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
 
    >[!IMPORTANT]
    >
-   >此量度不会自动存储在Analytics变量中。您必须创建一个处理规则以将此值复制到 Analytics 变量中以便进行报告。
+   >此量度不会自动存储在Analytics变量中。 您必须创建一个处理规则以将此值复制到 Analytics 变量中以便进行报告。
 
    * Analytics context data/Target: `a.DaysSinceLastUpgrade`
    * Audience Manager: `c_a_DaysSinceLastUpgrade`
@@ -159,7 +159,7 @@ source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
 
    >[!IMPORTANT]
    >
-   >此量度不会自动存储在Analytics变量中。您必须创建一个处理规则以将此值复制到 Analytics 变量中以便进行报告。
+   >此量度不会自动存储在Analytics变量中。 您必须创建一个处理规则以将此值复制到 Analytics 变量中以便进行报告。
 
    * Analytics context data/Target: `a.LaunchesSinceUpgrade`
    * Audience Manager: `c_a_LaunchesSinceUpgrade`
@@ -177,7 +177,7 @@ source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
 
    >[!IMPORTANT]
    >
-   >此量度不会自动存储在Analytics变量中。您必须创建一个处理规则以将此值复制到 Analytics 变量中以便进行报告。
+   >此量度不会自动存储在Analytics变量中。 您必须创建一个处理规则以将此值复制到 Analytics 变量中以便进行报告。
 
    * Analytics context data/Target: `a.CarrierName`
    * Audience Manager: `c_a_CarrierName`
@@ -192,7 +192,7 @@ source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
 
 ## Additional mobile metrics and dimensions {#section_0B32BBF9CA734103BEDB5E755FFE5B31}
 
-以下指标和维度通过描述中列出的方法在移动解决方案变量中捕获。
+The following metrics and dimensions are captured in mobile solution variables by the methods listed in the description.
 
 ### 量度
 
@@ -201,21 +201,21 @@ source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
    Populated by `trackTimedAction` methods.
 
    * Analytics context data/Target parameter: `a.action.time.total`
-   * Audience Manager特征： `c_a_action_time_total`
+   * Audience manager特征： `c_a_action_time_total`
 
 * **应用程序中的操作时间**
 
    Populated by `trackTimedAction` methods.
 
    * Analytics context data/Target parameter: `a.action.time.inapp`
-   * Audience Manager特征： `c_a_action_time_inapp`
+   * Audience manager特征： `c_a_action_time_inapp`
 
 * **生命周期值（事件）**
 
    Populated by `trackLifetimeValue` methods.
 
    * Analytics context data/Target parameter: `a.ltv.amount`
-   * Audience Manager特征： `c_a_ltv_amount`
+   * Audience manager特征： `c_a_ltv_amount`
 
 ## 维度
 
@@ -223,11 +223,11 @@ source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
 
    Populated by `trackLocation` methods.
 
-   * Analytics context data/Target参数：
+   * Analytics上下文数据/Target参数：
 
       * `a.loc.lat.a`
       * `a.loc.lon.a`
-   * Audience Manager特征：
+   * Audience manager特征：
 
       * `c_a_loc_lat_a`
       * `c_a_loc_lon_a`
@@ -237,11 +237,11 @@ source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
 
    Populated by `trackLocation` methods.
 
-   * Analytics context data/Target参数：
+   * Analytics上下文数据/Target参数：
 
       * `a.loc.lat.b`
       * `a.loc.lon.b`
-   * Audience Manager特征：
+   * Audience Manager trait:
 
       * `c_a_loc_lat_b`
       * `c_a_loc_lon_b`
@@ -251,11 +251,11 @@ source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
 
    Populated by `trackLocation` methods.
 
-   * Analytics context data/Target参数：
+   * Analytics上下文数据/Target参数：
 
       * `a.loc.lat.c`
       * `a.loc.lon.c`
-   * Audience Manager特征：
+   * Audience Manager trait:
 
       * `c_a_loc_lat_c`
       * `c_a_loc_lon_c`
@@ -266,18 +266,18 @@ source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
    当设备位于定义的 POI 中时，由 `trackLocation` 方法填充。
 
    * Analytics context data/Target parameter: `a.loc.poi`
-   * Audience Manager特征： `c_a_loc_poi`
+   * Audience Manager trait: `c_a_loc_poi`
 
 * **与目标点中心的距离**
 
    当设备位于定义的 POI 中时，由 `trackLocation` 方法填充。
 
    * Analytics context data/Target parameter: `a.loc.dist`
-   * Audience Manager特征： `c_a_loc_dist`
+   * Audience Manager trait: `c_a_loc_dist`
 
 * **生命周期值（转化变量）**
 
    Populated by `trackLifetimeValue` methods.
 
    * Analytics context data/Target parameter: `a.ltv.amount`
-   * Audience Manager特征： `c_a_ltv_amount`
+   * Audience manager特征： `c_a_ltv_amount`
