@@ -3,7 +3,7 @@ description: 通过“Target 预览”功能，您可以轻松地对 Target 活�
 seo-description: 通过“Target 预览”功能，您可以轻松地对 Target 活动执行端到端的 QA 操作，并在设备上预览这些活动。
 seo-title: Android 上的“Target 预览”功能
 title: Android 上的“Target 预览”功能
-uuid: f3c82d64-009c-4929-a5 e6-3677b2977889
+uuid: f3c82d64-009c-4929-a5e6-3677b2977889
 translation-type: tm+mt
 source-git-commit: 83e6968efb0ed1b4ef504286c6cb2e8e4d2eaf94
 
@@ -18,7 +18,7 @@ source-git-commit: 83e6968efb0ed1b4ef504286c6cb2e8e4d2eaf94
 
 >[!IMPORTANT]
 >
->要使用Target预览，您需要SDK版本4.14.0或更高版本。
+>要使用Target Preview，您需要SDK版本4.14.0或更高版本。
 
 * **setPreviewRestartDeeplink**
 
