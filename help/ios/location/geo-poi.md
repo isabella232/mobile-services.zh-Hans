@@ -1,11 +1,11 @@
 ---
 description: 地理位置可通过在 iOS 应用程序中使用纬度和经度以及预定义的目标点，来帮助您测量位置数据。
 seo-description: 地理位置可通过在 iOS 应用程序中使用纬度和经度以及预定义的目标点，来帮助您测量位置数据。
-seo-title: 地理位置和兴趣点
-solution: Marketing Cloud，Analytics
-title: 地理位置和兴趣点
+seo-title: Geo-Location and points of interest
+solution: Marketing Cloud,Analytics
+title: Geo-Location and points of interest
 topic: 开发人员和实施
-uuid: c800ec85-a33 f-425d-b28 f-bfe8 bf229 ae8
+uuid: c800ec85-a33f-425d-b28f-bfe8bf229ae8
 translation-type: tm+mt
 source-git-commit: df4ea2c4002611c72009cf69598cbbb74b5c15c4
 
@@ -34,15 +34,15 @@ source-git-commit: df4ea2c4002611c72009cf69598cbbb74b5c15c4
 “analytics.poi”: “https://assets.adobedtm.com/…/yourfile.json”,
 ```
 
-有关详细信息，请参阅 [AdBMobile JSON配置](/help/ios/configuration/json-config/json-config.md)。
+有关详细信息，请参 [阅ADBMobile JSON配置](/help/ios/configuration/json-config/json-config.md)。
 
-如果未配置此设置，则必须下载更新版本的 `ADBMobile.json` 文件并将其添加到您的应用程序中。有关更多信息和说明，请参阅 *开始之前下载SDK和测试工具*[](/help/ios/getting-started/requirements.md)。
+如果未配置此设置，则必须下载更新版本的 `ADBMobile.json` 文件并将其添加到您的应用程序中。有关详细信息和说明，请参 *阅开始前下载SDK和测试*[工具](/help/ios/getting-started/requirements.md)。
 
-## 跟踪地理位置和Pois {#section_B1616E400A7548F9A672F97FEC75AE27}
+## 跟踪地理位置和POI {#section_B1616E400A7548F9A672F97FEC75AE27}
 
 1. 将库添加到您的项目并实施生命周期。
 
-   有关详细信息，请参阅 *将SDK和配置文件添加到核心实施和生命周期* 中 [的项目](/help/ios/getting-started/dev-qs.md)。
+   有关详细信息，请参 *阅在核心实施和生命周期中将SDK和配置文件添加*[到您的项目中](/help/ios/getting-started/dev-qs.md)。
 1. 导入库：
 
    ```objective-c
@@ -58,9 +58,9 @@ source-git-commit: df4ea2c4002611c72009cf69598cbbb74b5c15c4
 
    >[!TIP]
    >
-   >您可以随时调用 `trackLocation` 。
+   >您可以随时 `trackLocation` 致电。
 
-   要确定传递 `trackLocation` 给呼叫的位置，请使用 [“获取用户位置](https://developer.apple.com/Library/ios/documentation/UserExperience/Conceptual/LocationAwarenessPG/CoreLocation/CoreLocation.html)”。
+   要确定传递到呼叫的位置，请 `trackLocation` 使用“获 [取用户的位置”](https://developer.apple.com/Library/ios/documentation/UserExperience/Conceptual/LocationAwarenessPG/CoreLocation/CoreLocation.html)。
 
 此外，如果确定位置位于定义的 POI 半径内，则 `a.loc.poi` 上下文数据变量将随 `trackLocation` 点击一起发送，并在位置报表中报告为 POI。另外，还将发送 `a.loc.dist` 上下文变量，其中包含到定义坐标的距离（以米为单位）。
 
@@ -97,7 +97,7 @@ NSMutableDictionary *contextData = [NSMutableDictionary dictionary];
 
 请牢记以下信息：
 
-* `trackLocation` 请求发送以 `trackAction` 与调用相等的方式发送。
+* A `trackLocation` request sends in the equivalent of a `trackAction` call.
 
 * POI 不会作为正常 `trackAction` 和 `trackState` 调用的一部分进行传递，因此您必须使用 `trackLocation` 调用来跟踪 POI。
 
