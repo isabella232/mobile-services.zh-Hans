@@ -1,11 +1,11 @@
 ---
-description: Windows8.1通用App Store库提供的Target方法列表。
-seo-description: Windows8.1通用App Store库提供的Target方法列表。
+description: List of Target methods provided by the Windows 8.1 Universal App Store library.
+seo-description: List of Target methods provided by the Windows 8.1 Universal App Store library.
 seo-title: Target 方法
-solution: Marketing Cloud，Analytics
+solution: Marketing Cloud,Analytics
 title: Target 方法
 topic: 开发人员和实施
-uuid: 8c35b31c-c70 b-4dba-8759-173342a301 e9
+uuid: 8c35b31c-c70b-4dba-8759-173342a301e9
 translation-type: tm+mt
 source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
 
@@ -14,7 +14,7 @@ source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
 
 # Target methods {#target-methods}
 
-Windows8.1通用App Store库提供的Target方法列表。
+Windows 8.1通用应用商店库提供的Target方法列表。
 
 SDK 当前支持多种 Adobe Experience Cloud 解决方案，其中包括 Analytics、Target 和 Audience Manager。方法将根据解决方案来添加前缀。Analytics 方法具有“Target”前缀。
 
@@ -24,9 +24,9 @@ SDK 当前支持多种 Adobe Experience Cloud 解决方案，其中包括 Analyt
 >
 >When you consume `winmd` methods from winJS (JavaScript), all methods automatically have their first letter lowercased.
 
-## 类引用：targetLocationRequest
+## 类引用：TargetLocationRequest
 
-### 属性
+### 资产
 
 ```
 property Platform::String ^name; 
@@ -34,9 +34,9 @@ property Platform::String ^defaultContent;
 property Windows::Foundation::Collections::IMap<Platform::String^, Platform::Object^> ^parameters;
 ```
 
-## String常量
+## String constants
 
-此信息可帮助您设置自定义参数的密钥。
+This information helps you set keys for custom parameters.
 
 ```
 static property Platform::String ^TARGET_PARAMETER_ORDER_ID { 
@@ -68,7 +68,7 @@ static property Platform::String ^TARGET_PARAMETER_MBOX_HOST {
 }
 ```
 
-* **LoadRequest(WinJS：loadRequest)**
+* **LoadRequest (winJS: loadRequest)**
 
    向您配置的 Target 服务器发送 `request`，并返回在块 `callback` 中生成的选件的字符串值。
 
@@ -87,7 +87,7 @@ static property Platform::String ^TARGET_PARAMETER_MBOX_HOST {
       });
       ```
 
-* **CreateEquest(WinJS：createRequest)**
+* **CreateRequest (winJS: createRequest)**
 
    通过给定参数创建 `TargetLocationRequest` 对象。
 
@@ -104,7 +104,7 @@ static property Platform::String ^TARGET_PARAMETER_MBOX_HOST {
       var heroBannerRequest = ADB.Target.createRequest("heroBanner", "default.png", null); 
       ```
 
-* **createOrderConfirmRequest(WinJS：createOrderConfirmRequest)**
+* **CreateOrder&#x200B;ConfirmRequest (winJS: createOrder&#x200B;ConfirmRequest)**
 
    通过给定参数创建 `TargetLocationRequest` 对象。
 
@@ -121,7 +121,7 @@ static property Platform::String ^TARGET_PARAMETER_MBOX_HOST {
       var orderConfirm = ADB.Target.createOrderConfirmRequest("orderConfirm", "order", "47.88", "3722", null); 
       ```
 
-* **clearCookies(WinJS：clearCookies)**
+* **ClearCookies (winJS: clearCookies)**
 
    清除当前设备上的应用程序的 Target Cookie。
 
@@ -137,7 +137,7 @@ static property Platform::String ^TARGET_PARAMETER_MBOX_HOST {
       ADBMobile.Target.clearCookies();
       ```
 
-* **getPCID(WinJS：getPCID)**
+* **GetPcId (winJS: getPcId)**
 
    返回当前设备的 PC ID Cookie。
 
@@ -153,7 +153,7 @@ static property Platform::String ^TARGET_PARAMETER_MBOX_HOST {
       auto pcId = ADBMobile.Target.getPcId(); 
       ```
 
-* **getSessionID(WinJS：getSessionID)**
+* **GetSessionId (winJS: getSessionId)**
 
    返回当前设备的会话 ID Cookie。
 
