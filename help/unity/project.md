@@ -2,10 +2,10 @@
 description: 'null'
 keywords: Unity
 seo-description: 'null'
-seo-title: 构建项目
+seo-title: Building your project
 solution: Marketing Cloud，开发人员
-title: 构建项目
-uuid: 5550a394-6f3f-4b87-b840-89621d8 a0 c1 e
+title: Building your project
+uuid: 5550a394-6f3f-4b87-b840-89621d8a0c1e
 translation-type: tm+mt
 source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
 
@@ -24,7 +24,8 @@ source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
 
 1. In the **[!UICONTROL Build Phases]** tab of your project, add a link to the following libraries:
 
-   * `SystemConfiguration.framework`(此库可能已链接。)
+   * `SystemConfiguration.framework`
+(This library might be linked already.)
 
    * `libsqlite3.0.dylib`
 
@@ -48,7 +49,7 @@ source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
 <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 ```
 
-如果您使用应用程序内消息传递，请添加以下活动和接收方：
+If you are using In-app messaging, add the following activity and receiver:
 
 ```java
 <activity android:name="com.adobe.mobile.MessageFullScreenActivity"  
@@ -56,7 +57,7 @@ android:theme="@android:style/Theme.Translucent.NoTitleBar" />
 <receiver android:name="com.adobe.mobile.MessageNotificationHandler" /> 
 ```
 
-如果您使用的是客户获取，请添加以下接收方：
+如果您使用客户获取，请添加以下接收器：
 
 ```java
 <receiver android:name="com.your.package.name.GPBroadcastReceiver" android:exported="true"> 
