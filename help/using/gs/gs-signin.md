@@ -1,9 +1,9 @@
 ---
 description: 您可以使用 Web 浏览器登录到 Adobe Mobile Services。
-keywords: 移动；更改密码；登录；注销；登录；注销；登录；signin
+keywords: 手机；更改密码；登录；注销；登录；注销；登录；登录
 seo-description: 您可以使用 Web 浏览器登录到 Adobe Mobile Services。
 seo-title: 登录
-solution: Marketing Cloud，Analytics
+solution: Marketing Cloud,Analytics
 title: 登录
 topic: 量度
 uuid: d6ea0ca1-3511-4133-9d41-21ea2d2f7b3a
@@ -62,7 +62,7 @@ source-git-commit: 83e6968efb0ed1b4ef504286c6cb2e8e4d2eaf94
 
 通过以下方式之一重置您的密码：
 
-* **Adobe Experience Cloud** 如果您使用Adobe ID：
+* **Adobe Experience Cloud** 如果您使用Adobe ID:
 
    1. 单击&#x200B;**[!UICONTROL 使用 Adobe ID 登录]，然后单击**&#x200B;忘记密码？****&#x200B;链接。
    1. Type the email account that is associated with your Adobe ID and click **[!UICONTROL Send]**.
