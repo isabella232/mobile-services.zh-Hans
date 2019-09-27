@@ -1,18 +1,18 @@
 ---
 description: 此信息可帮助您使用 ADBMobile JSON 配置文件。
 seo-description: 此信息可帮助您使用 ADBMobile JSON 配置文件。
-seo-title: AdBMobileConfig. json配置
-solution: Marketing Cloud，Analytics
-title: AdBMobileConfig. json配置
+seo-title: ADBMobileConfig.json配置
+solution: Marketing Cloud,Analytics
+title: ADBMobileConfig.json配置
 topic: 开发人员和实施
-uuid: cbcb54a3-4b8f8f-4651-8cb9-2731ac988545
+uuid: cbcb54a3-4b8f-4651-8ce9-2731ac988545
 translation-type: tm+mt
 source-git-commit: 19264af3f4a675add6f61c27f4cdaf20033b9bb7
 
 ---
 
 
-# AdBMobileConfig. json配置文件 {#adbmobileconfig-json-config}
+# ADBMobileConfig.json配置文件 {#adbmobileconfig-json-config}
 
 此信息可帮助您使用 ADBMobile JSON 配置文件。
 
@@ -40,7 +40,7 @@ SDK 当前支持多种 Adobe Experience Cloud 解决方案，其中包括 Analyt
 
 * **charset**
 
-   定义将用于发送到 Analytics 的数据的字符集。charset 用于将传入的数据转换为 UTF-8 以便进行存储和报告。有关更多信息，请参阅 [s. charSet](https://marketing.adobe.com/resources/help/en_US/sc/implement/charset.html)。
+   定义将用于发送到 Analytics 的数据的字符集。charset 用于将传入的数据转换为 UTF-8 以便进行存储和报告。For more information, see [s.charSet](https://marketing.adobe.com/resources/help/en_US/sc/implement/charset.html).
 
 * **ssl**
 
@@ -52,7 +52,7 @@ SDK 当前支持多种 Adobe Experience Cloud 解决方案，其中包括 Analyt
 
    If time stamps are enabled on your report suite, your `offlineEnabled` configuration property *must* be `true`. 如果您的报表包未启用时间戳，则 `offlineEnabled` 配置属性&#x200B;*必须*&#x200B;为 `false`.
 
-   如果配置不正确，数据将会丢失。如果您不确定是否启用了时间戳，请与客户服务联系。If you are currently reporting AppMeasurement data to a report suite that also collects data from JavaScript, you might need to set up a separate report suite for mobile data or include a custom timestamp on all JavaScript hits using the `s.timestamp` variable.
+   如果配置不正确，数据将会丢失。如果不确定报表包是否启用了时间戳，请与客户关怀联系。 If you are currently reporting AppMeasurement data to a report suite that also collects data from JavaScript, you might need to set up a separate report suite for mobile data or include a custom timestamp on all JavaScript hits using the `s.timestamp` variable.
 
    默认值为 `false`.
 
@@ -66,17 +66,17 @@ SDK 当前支持多种 Adobe Experience Cloud 解决方案，其中包括 Analyt
 
    批量发送点击。
 
-   For example, if set to `50`, hits are queued until 50 are stored, then all queued hits are sent. 需要 `offlineEnabled=true`，默认值为 `0` (无批量)。
+   For example, if set to `50`, hits are queued until 50 are stored, then all queued hits are sent. 需 `offlineEnabled=true`要，默认值 `0` 为（无批处理）。
 
 * **privacyDefault**
 
-   选项有：
+   选项包括：
 
-   * `optedin` - 点击会立即发送。
-   * `optedout` - 点击将被丢弃。
+   * `optedin` -立即发送点击。
+   * `optedout` - hits are discarded.
    * `optunknown` - 如果您的报表包启用了时间戳，将会保存点击，直到隐私状态更改为选择启用（随后将发送点击）或选择禁用（随后将丢弃点击）。如果您的报表包未启用时间戳，则将丢弃点击，直到隐私状态更改为选择启用。
 
-      这将仅设置默认值。如果曾在代码中设置或更改此值，则由代码设置的值会保存在本地存储中，并一直使用到它发生更改，或应用程序被卸载后又重新安装时为止。
+      这仅设置默认值。 如果曾在代码中设置或更改此值，则由代码设置的值会保存在本地存储中，并一直使用到它发生更改，或应用程序被卸载后又重新安装时为止。
 
       默认值为 `optedin`.
 
@@ -84,7 +84,7 @@ SDK 当前支持多种 Adobe Experience Cloud 解决方案，其中包括 Analyt
 
    每个 POI 数组均保存目标点区域的 POI 名称、纬度、经度和半径（以米为单位）。POI 名称可以是任何字符串。在发送 `trackLocation` 调用时，如果当前坐标位于定义的 POI 内，则会填充上下文数据变量，并随 `trackLocation` 调用发送该变量。
 
-   * 下面是此变量的代码示例：
+   * 以下是此变量的代码示例：
 
       ```js
        "poi" [ 
