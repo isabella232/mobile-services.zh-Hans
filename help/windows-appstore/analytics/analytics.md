@@ -48,7 +48,7 @@ After you add the library to your project, you can make any of the Analytics met
 要在您的应用程序中收集生命周期量度，请添加应用程序被激活时的调用，如以下示例中所示。
 
 
-### default.js中的WinJS
+### WinJS，在 default.js 中
 
 
 ```js
@@ -64,7 +64,7 @@ app.oncheckpoint = function (args) {
 }
 ```
 
-### App.xaml.cs中的C#
+### C#，在 App.xaml.cs 中
 
 ```js
 public App() 
