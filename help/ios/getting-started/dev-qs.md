@@ -7,7 +7,7 @@ title: 核心实施和生命周期
 topic: 开发人员和实施
 uuid: 96d06325-e424-4770-8659-4b5431318ee3
 translation-type: tm+mt
-source-git-commit: be980e0e639d5b0df3f1b6a6f91f3ad0a5efe8d7
+source-git-commit: 4db9781e6e1e75a04d9715a41c5a32c10ede1bf4
 
 ---
 
@@ -24,7 +24,7 @@ source-git-commit: be980e0e639d5b0df3f1b6a6f91f3ad0a5efe8d7
 
 **先决条件**
 
-Before you download the SDK, complete the steps in Create a Report Suite in Core implementation and lifecycle to set up a development report suite and download a pre-populated version of the configuration file.**[](/help/ios/getting-started/requirements.md)
+在下载SDK之前，请完成在 *Core实施和生命周期中创建报告套件*[](/help/ios/getting-started/requirements.md) ，以设置开发报告套件并下载预填充版本的配置文件中的步骤。
 
 要下载 SDK，请执行以下操作：
 
@@ -78,6 +78,7 @@ Before you download the SDK, complete the steps in Create a Report Suite in Core
       * `WebKit.framework`
       * `libsqlite3.0.tbd`
       * `AdobeMobileLibrary.a`
+      * `CoreLocation.framework` （可选，但是地理跟踪功能需要）
    * **iOS 扩展目标**
 
       * `SystemConfiguration.framework`
@@ -106,7 +107,7 @@ Before you download the SDK, complete the steps in Create a Report Suite in Core
 
 After you enable lifecycle, each time your app is launched, one hit is sent to measure launches, upgrades, sessions, engaged users, and other [Lifecycle Metrics](/help/ios/metrics.md).
 
-Add a /  call in :`collectLifecycleData``collectLifecycleDataWithAdditionalData``application:didFinishLaunchingWithOptions`
+添加 `collectLifecycleData`/ `collectLifecycleDataWithAdditionalData` 呼叫 `application:didFinishLaunchingWithOptions`:
 
 ```objective-c
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions { 
@@ -115,7 +116,7 @@ Add a /  call in :`collectLifecycleData``collectLifecycleDataWithAdditionalData`
 }
 ```
 
-### 在生命周期调用中包含其他数据
+### Include additional data with lifecycle calls
 
 要通过生命周期量度调用包含其他数据，请使用 `collectLifecycleDataWithAdditionalData`：
 
