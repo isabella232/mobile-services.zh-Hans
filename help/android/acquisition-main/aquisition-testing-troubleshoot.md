@@ -6,7 +6,7 @@ seo-title: 客户获取测试疑难解答
 solution: Marketing Cloud,Analytics
 title: 客户获取测试疑难解答
 translation-type: tm+mt
-source-git-commit: da8798d7ee1f05dcade31cced5404d78c9cf360a
+source-git-commit: 1c387b063eedb41a52e044dc824df6a51f173ad2
 
 ---
 
@@ -19,7 +19,7 @@ source-git-commit: da8798d7ee1f05dcade31cced5404d78c9cf360a
 
 * 该名称区分大小写，因此请勿在小写字母中提供名称。
 
-   您需要确保从主 `Config.setContext(this.getApplicationContext())` 活动中调用该选项。 For more information, see Configuration methods.[](https://docs.adobe.com/content/help/en/mobile-services/android/configuration-android/methods.html)
+   您需要确保从主 `Config.setContext(this.getApplicationContext())` 活动中调用该选项。 有关详细信息，请参阅 [配置方法](https://docs.adobe.com/content/help/en/mobile-services/android/configuration-android/methods.html)。
 
 * 提供的AndroidManifest.xml文件中缺少一些用户权限，发送数据和记录脱机跟踪调用时需要这些权限：
 
@@ -31,11 +31,11 @@ source-git-commit: da8798d7ee1f05dcade31cced5404d78c9cf360a
    </manifest>
    ```
 
-* 在您的配置中，如果引用超时设置为 `referrerTimeout: 5`，这意味着您需要在应用程序第一次安装并启动后的5秒钟内发送安装意向，以查看附加到安装点击的引用信息。
+* 在您的配置中，如果引用超时设置为 `referrerTimeout: 5`，这意味着您需要在应用程序第一次安装并启动后的5秒钟内发送安装意图，以查看附加到安装点击的引用信息。
 
-   For manual testing, increase the  to 10-15 seconds, so that there is enough time to send the referrer information before the install hit is processed.`referrerTimeout`
+   对于手动测试，请将 `referrerTimeout` 显示时间增加到10-15秒，以便在处理安装点击之前有足够时间发送引用信息。
 
-* It is important to run all the steps in Testing Marketing Link acquisition in order and make sure you execute  shell and then the following:[](https://docs.adobe.com/content/help/en/mobile-services/android/acquisition-android/t-testing-marketing-link-acquisition.html)`adb`
+* 务必按顺序运行 [Testing Marketing link客户获取中的所有步骤](https://docs.adobe.com/content/help/en/mobile-services/android/acquisition-android/t-testing-marketing-link-acquisition.html) ，并确保执行Shell，然后执 `adb` 行以下操作：
 
    ```java
    am broadcast -a com.android.vending.INSTALL_REFERRER -n 
@@ -45,4 +45,4 @@ source-git-commit: da8798d7ee1f05dcade31cced5404d78c9cf360a
 
 >[!IMPORTANT]
 >
->You must run these two commands independently to process the referrer intent correctly.  否则， `adb` 双重转义参照信息，广播接收机接收的数据将不完整。
+>必须独立运行这两个命令才能正确处理引用意图。  否则， `adb` 双重转义参照信息，广播接收机接收的数据将不完整。
