@@ -7,7 +7,7 @@ title: Video Analytics
 topic: 开发人员和实施
 uuid: d75fa415-78f6-4f50-a563-76949f040138
 translation-type: tm+mt
-source-git-commit: df4ea2c4002611c72009cf69598cbbb74b5c15c4
+source-git-commit: 1c387b063eedb41a52e044dc824df6a51f173ad2
 
 ---
 
@@ -18,13 +18,13 @@ source-git-commit: df4ea2c4002611c72009cf69598cbbb74b5c15c4
 
 >[!TIP]
 >
->在视频播放过程中，会向此服务发送频繁的“心率”调用，以测量播放的时间。这些心率调用每 10 秒发送一次，从而生成精细的视频参与量度和更准确的视频流失报表。For more information, see Measuring audio and video in Adobe Analytics.[](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html)
+>在视频播放过程中，会向此服务发送频繁的“心率”调用，以测量播放的时间。这些心率调用每 10 秒发送一次，从而生成精细的视频参与量度和更准确的视频流失报表。有关详细信息，请参 [阅在Adobe Analytics中测量音频和视频](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html)。
 
 在所有平台中，测量视频的常规过程都非常相似。本文中的内容提供了开发人员任务的基本概述以及代码示例。
 
 ## Map player events to Analytics variables {#section_E84987F878AB4A3A83AE700FEC4C9D4D}
 
-下表列出了发送到 Analytics 的媒体数据。Use processing rules to map the context data to an Analytics variable.
+下表列出了发送到 Analytics 的媒体数据。使用处理规则将上下文数据映射到Analytics变量。
 
 * **a.media.name**
 
@@ -32,7 +32,7 @@ source-git-commit: df4ea2c4002611c72009cf69598cbbb74b5c15c4
 
    （可选）自定义分析变量提供视频路径信息。
 
-   * Variable type: eVar
+   * 变量类型：eVar
    * 默认过期：访问
    * 自定义分析（s.prop，用于视频路径）
 
@@ -116,7 +116,7 @@ mediaSettings.trackSeconds = 30; // sends a hit every 30 seconds
 [ADBMobile mediaOpenWithSettings:mediaSettings callback:nil]; 
  
 // You are now ready to play the video, for example, [movieViewController.moviePlayer play]; 
-// Note the the mediaPlay, mediaStop and mediaClose methods are called in the 
+// Note the mediaPlay, mediaStop and mediaClose methods are called in the 
 // event handlers described in the next section
 ```
 
