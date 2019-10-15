@@ -1,13 +1,13 @@
 ---
-description: This topic provides information about how to troubleshoot issues you might face during Acquisition testing.
+description: 本主题提供了有关如何解决客户获取测试过程中可能遇到的问题的信息。
 keywords: android；库；移动；sdk
-seo-description: This topic provides information about how to troubleshoot issues you might face during Acquisition testing.
-seo-title: Troubleshoot Acquisition testing
+seo-description: 本主题提供了有关如何解决客户获取测试过程中可能遇到的问题的信息。
+seo-title: 客户获取测试疑难解答
 solution: Marketing Cloud,Analytics
-title: Troubleshoot Acquisition testing
+title: 客户获取测试疑难解答
 topic: 开发人员和实施
 translation-type: tm+mt
-source-git-commit: 97202c672d7349496f83b9ac0c365dd8b3e13eda
+source-git-commit: 1c387b063eedb41a52e044dc824df6a51f173ad2
 
 ---
 
