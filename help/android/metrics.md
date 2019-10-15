@@ -1,6 +1,6 @@
 ---
 description: 以下是在实施生命周期后可由移动设备库自动测量的量度和维度，以及生命周期数据疑难解答链接。
-keywords: android;library;mobile;sdk
+keywords: android；库；移动；sdk
 seo-description: 以下是在实施生命周期后可由移动设备库自动测量的量度和维度，以及生命周期数据疑难解答链接。
 seo-title: 生命周期量度
 solution: Marketing Cloud,Analytics
@@ -8,22 +8,22 @@ title: 生命周期量度
 topic: 开发人员和实施
 uuid: a8f3ebac-be3b-4948-82bb-105d46cfff6d
 translation-type: tm+mt
-source-git-commit: b690ec677cf5aedfb2673b707f82716af1851124
+source-git-commit: 1c387b063eedb41a52e044dc824df6a51f173ad2
 
 ---
 
 
 # Lifecycle metrics{#lifecycle-metrics}
 
-本节提供有关在实施生命周期后由移动库自动测量的指标和维度的信息，以及生命周期数据疑难解答的链接。 For more information about troubleshooting, go to [Troubleshoot Lifecycle data](https://helpx.adobe.com/analytics/kb/troubleshoot-lifecycle-data.html).
+本节提供有关在实施生命周期后由移动库自动测量的指标和维度的信息，以及生命周期数据疑难解答的链接。 有关疑难解答的更多信息，请转到生命周期 [数据疑难解答](https://helpx.adobe.com/analytics/kb/troubleshoot-lifecycle-data.html)。
 
-## New Adobe Experience Platform Mobile SDK Release
+## 新版Adobe Experience Platform Mobile SDK
 
 查找与 Adobe Experience Platform Mobile SDK 相关的信息和文档？单击[此处](https://aep-sdks.gitbook.io/docs/)可获取最新的文档。
 
 在 2018 年 9 月，我们发布了一个新的 SDK 主要版本。这些新的 Adobe Experience Platform Mobile SDK 可通过 [Experience Platform Launch](https://www.adobe.com/experience-platform/launch.html) 进行配置。
 
-* To get started, go to Adobe Experience Platform Launch.
+* 要开始使用，请转到Adobe Experience Platform Launch。
 * 要查看 Experience Platform SDK 存储库中的内容，请转到 [Github：Adobe Experience Platform SDK](https://github.com/Adobe-Marketing-Cloud/acp-sdks)。
 
 ## Lifecycle metrics and dimensions {#section_78F036C4296F4BA3A47C2044F79C86C1}
@@ -212,7 +212,7 @@ source-git-commit: b690ec677cf5aedfb2673b707f82716af1851124
    Populated by `trackTimedAction` methods.
 
    * Analytics 上下文数据/Target 参数: `a.action.time.total`
-   * Audience Manager Trait: `c_a_action_time_total`
+   * Audience manager特征： `c_a_action_time_total`
 
 * **应用程序中的操作时间**
 
@@ -226,7 +226,7 @@ source-git-commit: b690ec677cf5aedfb2673b707f82716af1851124
    Populated by `trackLifetimeValue` methods.
 
    * Analytics 上下文数据/Target 参数: `a.ltv.amount`
-   * Audience Manager Trait: `c_a_ltv_amount`
+   * Audience manager特征： `c_a_ltv_amount`
 
 ### 维度
 
@@ -234,7 +234,7 @@ source-git-commit: b690ec677cf5aedfb2673b707f82716af1851124
 
    Populated by `trackLocation` methods.
 
-   * Analytics Context Data/Target Parameters:
+   * Analytics上下文数据／目标参数：
 
       * `a.loc.lat.a`
       * `a.loc.lon.a`
@@ -300,7 +300,7 @@ source-git-commit: b690ec677cf5aedfb2673b707f82716af1851124
    * Analytics Context Data/Target Parameters: `a.referrer.campaign.trackingcode`
    * Audience manager特征： `c_a_referrer_campaign_trackingcode`
 
-* ** Campaign
+* **Campaign**
 
    促销活动的名称，也存储在促销活动变量中。由移动设备应用程序客户获取填充。
 
