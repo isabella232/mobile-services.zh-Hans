@@ -4,7 +4,7 @@ seo-description: Adobe Target 预取功能使用 iOS Mobile SDK 获取选件内�
 seo-title: 在 iOS 中预取选件内容
 title: 在 iOS 中预取选件内容
 uuid: fef58042-65e2-4579-b8f1-d21554d2af57
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: fa7375ac8a1345d81748bcf635791c46d3943fed
 
 ---
@@ -16,17 +16,17 @@ Adobe Target 预取功能使用 iOS Mobile SDK 获取选件内容，并通过缓
 
 >[!IMPORTANT]
 >
->Prefetch functionality in the Mobile SDKs for iOS is not supported for Auto Target, Auto Allocate, and Automated Personalization activity types in Adobe Target.
+>Adobe Target 中的“自动定位”、“自动分配”和“自动个性化”活动类型不支持 iOS Mobile SDK 中的预取功能。
 
 此过程可缩短加载时间，阻止多个网络调用，并允许 Adobe Target 接收有关移动设备应用程序用户访问了哪个 mbox 的通知。在预取调用期间将检索和缓存所有内容，对于以后所有包含指定 mbox 名称的缓存内容的调用，都将从缓存中检索该内容。
 
-在启动时，预取内容不会持久保留。The prefetch content is cached as long as the application lives or until the `clearPrefetchCache()` method is called.
+在启动时，预取内容不会持久保留。只要应用程序处于活动状态，或者在调用 `clearPrefetchCache()` 方法之前，都会一直缓存预取内容。
 
 >[!IMPORTANT]
 >
->Target prefetch APIs have been available since SDK version 4.14.0. For more information about parameter limitations, see [Batch Input Parameters](https://developers.adobetarget.com/api/#batch-input-parameters).
+>Target 预取 API 自 SDK 版本 4.14.0 起便已推出。有关参数限制的更多信息，请参阅[批量处理输入参数](https://developers.adobetarget.com/api/#batch-input-parameters)。
 
-在 SDK 版本 4.14 或更高版本中，如果已指定 ，则在发起 v2 批量 mbox TNT 调用时，会从 文件中选取指定的 `environmentId``ADBMobileConfig.json`environmentId。如果未在此文件中指定 `environmentId`，则不会在 TNT 批量 mbox 调用中发送任何环境参数，将交付默认环境的选件。
+在 SDK 版本 4.14 或更高版本中，如果已指定 `environmentId`，则在发起 v2 批量 mbox TNT 调用时，会从 `ADBMobileConfig.json` 文件中选取指定的 environmentId。如果未在此文件中指定 `environmentId`，则不会在 TNT 批量 mbox 调用中发送任何环境参数，将交付默认环境的选件。
 
 例如：
 
@@ -39,7 +39,7 @@ if (MobileConfig.getInstance().mobileUsingTarget()){
         }
 ```
 
-## Prefetch methods {#section_05967F1F3A554B0FBC2C08A954554BDE}
+## 预取方法 {#section_05967F1F3A554B0FBC2C08A954554BDE}
 
 以下是可用于在 iOS 中进行预取的方法：
 
@@ -47,7 +47,7 @@ if (MobileConfig.getInstance().mobileUsingTarget()){
 
    将包含位置数组的预取请求发送到配置的 Target 服务器，并在提供的回调中返回请求状态。
 
-   * 下面是这种方法对应的语法：
+   * 以下是此方法的语法：
 
       ```objective-c
       (void) targetPrefetchContent:(nonnull NSArray*)targetPrefetchObjectArray 
@@ -55,7 +55,7 @@ if (MobileConfig.getInstance().mobileUsingTarget()){
                             callback:(nullable void(^)(BOOL success))callback;
       ```
 
-   * Here are the parameters for this method:
+   * 以下是此方法的参数：
 
       * **`targetPrefetchArray`**
 
@@ -67,24 +67,24 @@ if (MobileConfig.getInstance().mobileUsingTarget()){
 
       * **`callback`**
 
-         在预取完成时被调用。Returns `true` if the prefetch was successful and `false` if the prefetch was unsuccesful.
+         在预取完成时被调用。如果预取成功，则返回 `true`；如果预取失败，则返回 `false`。
 
 * **targetLoadRequests**
 
-   执行批量请求，以获取请求数组中指定的多个 mbox 位置。数组中的每个对象都包含一个回调函数，当内容可用于其给定mbox位置时，将调用该函数。
+   执行批量请求，以获取请求数组中指定的多个 mbox 位置。数组中的每个对象都包含一个回调函数，当其给定的 mbox 位置有相应的内容可用时，将会调用该函数。
 
    >[!IMPORTANT]
    >
-   >如果所请求位置的内容已缓存，将立即在提供的回调中返回。 否则，SDK 将向 Target 服务器发送网络请求，以检索该内容。
+   >如果所请求位置的内容已经缓存，则会立即在提供的回调中返回该内容。否则，SDK 将向 Target 服务器发送网络请求，以检索该内容。
 
-   * 下面是这种方法对应的语法：
+   * 以下是此方法的语法：
 
       ```objective-c
       (void)targetLoadRequests:(nonnullNSArray*)requests 
                withProfileParameters:(nullableNSDictionary*)profileParameters;
       ```
 
-   * Here are the parameters for this method:
+   * 以下是此方法的参数：
 
       * **`requests`**
 
@@ -98,19 +98,19 @@ if (MobileConfig.getInstance().mobileUsingTarget()){
 
    清除通过 Target 预取缓存的数据。
 
-   * 下面是这种方法对应的语法：
+   * 以下是此方法的语法：
 
       ```objective-c
       (void) targetPrefetchClearCache; 
       ```
 
-   * There are no parameters for this method.
+   * 此方法没有参数。
 
 * **targetRequestObjectWithName**
 
    使用提供的数据创建并返回 `TargetRequestObject` 的实例。
 
-   * 下面是这种方法对应的语法：
+   * 以下是此方法的语法：
 
       ```objective-c
       +(nullableADBTargetRequestObject*)targetRequestObjectWithName:(nonnullNSString*)name
@@ -119,20 +119,20 @@ if (MobileConfig.getInstance().mobileUsingTarget()){
       callback:(nullablevoid(^)(NSString*__nullablecontent))callback;
       ```
 
-   * There are no parameters for this method.
+   * 此方法没有参数。
 
 * **createTargetPrefetchObject**
 
    使用提供的数据创建并返回 `TargetPrefetchObject` 的实例。
 
-   * 下面是这种方法对应的语法：
+   * 以下是此方法的语法：
 
       ```objective-c
       +(nullable ADBTargetPrefetchObject *) targetPrefetchObjectWithName:(nonnullNSString *)name
       mboxParameters:(nullableNSDictionary *)mboxParameters;
       ```
 
-## Public classes {#section_A273E53F069E4327BBC8CE4910B37888}
+## 公共类 {#section_A273E53F069E4327BBC8CE4910B37888}
 
 以下是 iOS 中支持预取的公共类：
 
@@ -142,7 +142,7 @@ if (MobileConfig.getInstance().mobileUsingTarget()){
 
 * **`name`**
 
-   Name for the location/mbox you want to retrieve.
+   要检索的位置/mbox 的名称。
 
    * **类型**：NSString*
 
@@ -192,7 +192,7 @@ if (MobileConfig.getInstance().mobileUsingTarget()){
 
    * **类型**：函数
 
-## Code sample {#section_BF7F49763D254371B4656E17953D520C}
+## 代码示例 {#section_BF7F49763D254371B4656E17953D520C}
 
 以下是如何使用 iOS SDK 预取内容的示例：
 
