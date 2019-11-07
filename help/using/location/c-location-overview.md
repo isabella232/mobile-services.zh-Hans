@@ -7,7 +7,7 @@ solution: Marketing Cloud,Analytics
 title: 概述（位置）
 topic: 报表,量度
 uuid: a701abc3-001b-4015-843f-5fb2c6c80d17
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 814c99695f538160ae28484ca8e2a92f5b24bb1a
 
 ---
@@ -15,33 +15,33 @@ source-git-commit: 814c99695f538160ae28484ca8e2a92f5b24bb1a
 
 # 概述（位置）{#overview-location}
 
-The **[!UICONTROL Location Overview]** report lets you see the different countries, regions, and points of interest (POI) where your app is being used.
+**[!UICONTROL 位置概述]**&#x200B;报表允许您查看正在使用您的应用程序的不同国家、地区和目标点 (POI)。
 
 此报表可为您的现有数据提供一种环状层次图可视化，您可以使用此报表发现用于定位的受众区段（访客集合）。创建和管理受众与创建和使用区段类似，不同点在于您可以使受众在 Experience Cloud 中使用。
 
-Here is some additional information about this report:
+以下是有关此报表的一些其他信息：
 
-## Navigation and usage {#section_4A88C3849B5847BF8CF433CCFD99FDC3}
+## 导航和使用情况 {#section_4A88C3849B5847BF8CF433CCFD99FDC3}
 
 例如，该视图提供了带有细目的基础报表。该视图使用高度来显示所关注的量度，以及量度之间的性能差异。每个环均表示此环所属类别中的一个受众区段。您可以对受众执行操作，例如应用置顶过滤器、隐藏量度和查看量度。
 
 >[!TIP]
 >
->In addition to this information, you can view an in-product tutorial that describes how to interact with the sunburst chart. 要启动该教程，请单击报表标题栏中的&#x200B;**[!UICONTROL 位置划分]**，然后单击 **i]图标。[!UICONTROL **
+>除了此信息以外，您还可以查看产品中提供的描述如何与环状层次图交互的教程。要启动该教程，请单击报表标题栏中的&#x200B;**[!UICONTROL 位置划分]**，然后单击 **[!UICONTROL i]** 图标。
 
 ![](assets/location.png)
 
-这是一个可交互式环状层次图。您可以单击右上角的&#x200B;**[!UICONTROL 日历]图标来更改时间段。**&#x200B;将鼠标移动到图表的任何部分可显示更多信息。例如，在以下插图中，您可以查看美国地区正在使用您的应用程序的用户总数和百分比。
+这是一个可交互式环状层次图。您可以单击右上角的&#x200B;**[!UICONTROL 日历]**&#x200B;图标来更改时间段。将鼠标移动到图表的任何部分可显示更多信息。例如，在以下插图中，您可以查看美国地区正在使用您的应用程序的用户总数和百分比。
 
 ![](assets/location_mouse.png)
 
-In this illustration, the **[!UICONTROL Categories]** buttons in the upper right corner allow you to toggle between viewing information about the top ten countries, regions, and the top three **[!UICONTROL Points of Interest]**.
+在此插图中，通过右上角的&#x200B;**[!UICONTROL 类别]**&#x200B;按钮，您可以切换查看有关前十个国家和地区的信息和有关前三个&#x200B;**[!UICONTROL 目标点]**&#x200B;的信息。
 
-Here is the visualization when you select **[!UICONTROL Country]**:
+当您选择&#x200B;**[!UICONTROL 国家/地区]**&#x200B;时，您可以看到以下视图：
 
 ![](assets/location_countries.png)
 
-Here is the visualization when you select **[!UICONTROL Points of Interest]**:
+当您选择&#x200B;**[!UICONTROL 目标点]**&#x200B;时，您可以看到以下视图：
 
 ![](assets/location_poi.png)
 
@@ -53,23 +53,23 @@ Here is the visualization when you select **[!UICONTROL Points of Interest]**:
 
 ![](assets/location_secondary.png)
 
-## Add breakdowns and metrics {#section_15833511E82648869E7B1EFC24EF7B82}
+## 添加划分和量度 {#section_15833511E82648869E7B1EFC24EF7B82}
 
 您可以添加划分和次要量度，这会更改每个受众相对于图表中其他受众的高度。
 
 >[!TIP]
 >
->The more rings you add to the sunburst, the longer it takes to process.
+>您在环状层次图中添加的环越多，所需的处理时间就越长。
 
-要添加划分和次要量度，请单击报表标题栏中的&#x200B;**[!UICONTROL 位置划分]**，然后单击&#x200B;**自定义]打开右侧边栏。[!UICONTROL **
+要添加划分和次要量度，请单击报表标题栏中的&#x200B;**[!UICONTROL 位置划分]**，然后单击&#x200B;**[!UICONTROL 自定义]**&#x200B;打开右侧边栏。
 
 ![](assets/location_rail.png)
 
-When you click **[!UICONTROL Add Breakdown]** or **[!UICONTROL Add Metric]**, a new item displays with the same name as the previous item in the respective list. 单击新创建的划分或量度会显示一个下拉列表，您可以从中选择新项目。
+单击&#x200B;**[!UICONTROL 添加划分]**&#x200B;或&#x200B;**[!UICONTROL 添加量度]**&#x200B;后，将显示一个新项目，其名称与相应列表中上一个项目的名称相同。单击新创建的划分或量度会显示一个下拉列表，您可以从中选择新项目。
 
-## Create a sticky filter {#section_365999D49FC744ECBF9273132497E06C}
+## 创建置顶过滤器 {#section_365999D49FC744ECBF9273132497E06C}
 
-Click a slice in the ring to select the audience for which you want to create a sticky filter and click **[!UICONTROL Sticky Filter]**. 此置顶过滤器允许您应用当前过滤器，并基于这些过滤器运行新报表。
+单击环中的一段选择要创建置顶过滤器的受众，然后单击&#x200B;**[!UICONTROL 置顶过滤器]**。此置顶过滤器允许您应用当前过滤器，并基于这些过滤器运行新报表。
 
 ## 共享报表 {#section_F8AF2AA73D4C4C008976D45847F82D0B}
 
@@ -79,5 +79,5 @@ Click a slice in the ring to select the audience for which you want to create a 
 
 有关位置的更多信息，请参阅以下内容：
 
-* [映射](/help/using/location/c-map-points.md)
+* [地图](/help/using/location/c-map-points.md)
 * [管理目标点](/help/using/location/t-manage-points.md)
