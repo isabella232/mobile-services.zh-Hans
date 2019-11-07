@@ -2,26 +2,26 @@
 description: 应用商店“概述”报表会为您提供应用商店的量度信息，包括下载次数、应用程序内购买次数、应用商店平均评分、下载收入、应用程序内收入、按国家/地区划分的下载次数、按应用商店划分的下载次数，以及按名称划分的应用程序内购买次数。
 keywords: mobile
 seo-description: 应用商店“概述”报表会为您提供应用商店的量度信息，包括下载次数、应用程序内购买次数、应用商店平均评分、下载收入、应用程序内收入、按国家/地区划分的下载次数、按应用商店划分的下载次数，以及按名称划分的应用程序内购买次数。
-seo-title: 应用商店概述报表
+seo-title: 应用商店“概述”报表
 solution: Marketing Cloud,Analytics
-title: 应用商店概述报表
+title: 应用商店“概述”报表
 topic: 量度
 uuid: ac066f31-ec4b-4b67-b839-780c2cd1574e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3b744229b3fc288363be74c3c4adcd71ecc4fad4
 
 ---
 
 
-# App Store Overview report{#app-store-overview-report}
+# 应用商店“概述”报表{#app-store-overview-report}
 
-**[!UICONTROL 应用商店概述]报表会为您提供应用商店的量度信息，包括下载次数、应用程序内购买次数、应用商店平均评分、下载收入、应用程序内收入、按国家/地区划分的下载次数、按应用商店划分的下载次数，以及按名称划分的应用程序内购买次数。**
+**[!UICONTROL 应用商店概述]**&#x200B;报表会为您提供应用商店的量度信息，包括下载次数、应用程序内购买次数、应用商店平均评分、下载收入、应用程序内收入、按国家/地区划分的下载次数、按应用商店划分的下载次数，以及按名称划分的应用程序内购买次数。
 
 >[!TIP]
 >
->In the Mobile Services UI, the **[!UICONTROL App Store]** menu item and **[!UICONTROL Overview]** report appear in the left navigation menu after you configure the integration.
+>在 Mobile Services UI 中，当您配置集成后，左侧导航菜单中会显示&#x200B;**[!UICONTROL 应用商店]**&#x200B;菜单项和&#x200B;**[!UICONTROL 概述]**&#x200B;报表。
 
-**[!UICONTROL 概述]报表包含一个时间段内的图表，展示应用商店下载次数、使用您的应用程序进行的应用程序内购买次数，以及应用程序平均评分等相关信息。**
+**[!UICONTROL 概述]**&#x200B;报表包含一个时间段内的图表，展示应用商店下载次数、使用您的应用程序进行的应用程序内购买次数，以及应用程序平均评分等相关信息。
 
 ![](assets/app_store_metrics.png)
 
@@ -29,11 +29,11 @@ source-git-commit: 3b744229b3fc288363be74c3c4adcd71ecc4fad4
 
 >[!IMPORTANT]
 >
->App store metrics, such as downloads, rank, revenue, rating, and so on in Adobe Analytics require a Data Connector integration with an appropriate vendor. `appFigures` 目前提供了一个集成，您需要先从 `appFigures`**购买相应的产品和/或服务，之后**&#x200B;才能启用该集成。有关 Data Connector 集成的更多信息，请参阅 [Adobe Exchange](https://www.adobeexchange.com/experiencecloud.html)。
+>应用商店量度（如 Adobe Analytics 中的下载量、排名、收入、评分等）需要相应供应商提供的 Data Connector 集成。`appFigures` 目前提供了一个集成，您需要先从 `appFigures` 购买相应的产品和/或服务，**之后**&#x200B;才能启用该集成。有关 Data Connector 集成的更多信息，请参阅 [Adobe Exchange](https://www.adobeexchange.com/experiencecloud.html)。
 
 >[!TIP]
 >
->In addition to changing the report's date range by clicking the calendar icon in the top right, you can customize some of the drill-down reports, add filters and series (metrics), add sticky filters, and download the report in PDF or CSV format. For more information, see [Customize reports](/help/using/usage/reports-customize/reports-customize.md).
+>除了通过单击右上角的日历图标来更改报表的日期范围外，您还可以自定义某些深入分析报表、添加过滤器和系列（量度）、添加置顶过滤器以及下载 PDF 或 CSV 格式的报表。有关更多信息，请参阅[自定义报表](/help/using/usage/reports-customize/reports-customize.md)。
 
 ## 应用商店平均评分 {#section_60D0D21824AE4450BC3E34D7ACA12A7A}
 
@@ -41,7 +41,7 @@ source-git-commit: 3b744229b3fc288363be74c3c4adcd71ecc4fad4
 
 ![](assets/app_store_rating.png)
 
-You can click anywhere on the **[!UICONTROL App Store Average Rating]** widget to display a graph and chart that displays the average rating by date. 要查看某一天的数据，请将鼠标悬停在当天上。
+您可以通过单击&#x200B;**[!UICONTROL 应用商店平均评分]**&#x200B;构件上的任何位置，来显示按日期显示平均评分的图表。要查看某一天的数据，请将鼠标悬停在当天上。
 
 ![](assets/app_store_downloads_detail.png)
 
@@ -59,7 +59,7 @@ You can click anywhere on the **[!UICONTROL App Store Average Rating]** widget t
 
 ![](assets/country.png)
 
-To display a graph and chart that displays the number of downloads per country by date, click **[!UICONTROL Downloads by Country]**. 将鼠标悬停在某个日期上即可查看当天的数据。
+要显示按日期划分每个国家/地区下载次数的图表，请单击&#x200B;**[!UICONTROL 按国家/地区划分的下载次数]**。将鼠标悬停在某个日期上即可查看当天的数据。
 
 ![](assets/downloads_by_country.png)
 
@@ -69,7 +69,7 @@ To display a graph and chart that displays the number of downloads per country b
 
 ![](assets/app_store.png)
 
-To display a graph and chart that displays the number of downloads per app store grouped by date, click **[!UICONTROL Downloads by App Store]**. 将鼠标悬停在某个日期上即可查看当天的数据。
+要显示按日期划分每个应用商店下载次数的图表，请单击&#x200B;**[!UICONTROL 按应用商店划分的下载次数]**。将鼠标悬停在某个日期上即可查看当天的数据。
 
 ![](assets/app_store_downloads_detail.png)
 
