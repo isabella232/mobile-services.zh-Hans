@@ -6,31 +6,31 @@ solution: Marketing Cloud,Analytics
 title: Audience Manager 方法
 topic: 开发人员和实施
 uuid: 97658bd6-4c4f-4875-abe9-36dad4ec8bae
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: df4ea2c4002611c72009cf69598cbbb74b5c15c4
 
 ---
 
 
-# Audience Manager methods {#audience-manager-methods}
+# Audience Manager 方法 {#audience-manager-methods}
 
 以下是 iOS 库提供的 Audience Manager 方法列表。
 
-SDK目前支持多个Adobe Experience cloud解决方案，包括Analytics、Target、Audience Manager和Adobe Experience Platform Identity Service。 方法将根据解决方案来添加前缀， Manager 方法的前缀为“`audience`audience”。
+SDK 当前支持多个 Adobe Experience Cloud 解决方案，包括 Analytics、Target、Audience Manager 和 Adobe Experience Platform Identity Service。方法将根据解决方案来添加前缀，Audience Manager 方法的前缀为“`audience`”。
 
-如果在 JSON 文件中配置了 Audience Manager，则会随 `application:didFinishLaunchingWithOptions:` : 发送一个包含生命周期量度的信号。
+如果在 JSON 文件中配置了 Audience Manager，则会随 `application:didFinishLaunchingWithOptions:` 发送一个包含生命周期量度的信号。
 
 * **audienceVisitorProfile**
 
    返回最近获取的访客资料，如果没有提交任何信号，则返回 `null`。访客资料保存在 `NSUserDefaults` 中，以供在多次启动应用程序时轻松访问。
 
-   * 下面是这种方法对应的语法：
+   * 以下是此方法的语法：
 
       ```objective-c
       + (NSDictionary *) audienceVisitorProfile;
       ```
 
-   * 以下是此菜单的代码示例：
+   * 以下是此方法的代码示例：
 
       ```objective-c
       NSDictionary *profile = [ADBMobile audienceVisitorProfile]; 
@@ -40,13 +40,13 @@ SDK目前支持多个Adobe Experience cloud解决方案，包括Analytics、Targ
 
    返回当前 DPID。
 
-   * 下面是这种方法对应的语法：
+   * 以下是此方法的语法：
 
       ```objective-c
       +(NSString *) audience Dpid;
       ```
 
-   * 以下是这种方法的代码示例：
+   * 以下是此方法的代码示例：
 
       ```objective-c
       NSString *currentDpid = [ADBMobileaudience Dpid]; 
@@ -56,13 +56,13 @@ SDK目前支持多个Adobe Experience cloud解决方案，包括Analytics、Targ
 
    返回当前 DPUUID。
 
-   * 下面是这种方法对应的语法：
+   * 以下是此方法的语法：
 
       ```objective-c
       +(NSString *) audienceDpuuid;
       ```
 
-   * 以下是这种方法的代码示例：
+   * 以下是此方法的代码示例：
 
       ```objective-c
       NSString *currentDpuuid = [ADBMobileaudience Dpuuid]; 
@@ -77,16 +77,16 @@ SDK目前支持多个Adobe Experience cloud解决方案，包括Analytics、Targ
 
       >[!IMPORTANT]
       >
-      >在版本4.13.x之前，DPUUID未自动编码。 从版本 4.13.x 开始，SDK 将首先对传入的值进行解码，然后再对该值重新编码。此过程可确保 SDK 不会破坏向后兼容性。
+      >在版本 4.13.x 之前，DPUUID 并不自动进行编码。从版本 4.13.x 开始，SDK 将首先对传入的值进行解码，然后再对该值重新编码。此过程可确保 SDK 不会破坏向后兼容性。
 
-   * 下面是这种方法对应的语法：
+   * 以下是此方法的语法：
 
       ```objective-c
       + (void) audienceSetDpid: (NSString*)   
                       dpiddpuuid:(NSString*)dpuuid;
       ```
 
-   * 以下是这种方法的代码示例：
+   * 以下是此方法的代码示例：
 
       ```objective-
       [ADBMobile audienceSetDpid:@"290"
@@ -97,13 +97,13 @@ SDK目前支持多个Adobe Experience cloud解决方案，包括Analytics、Targ
 
    重置 Audience Manager UUID 并清除当前访客资料。
 
-   * 下面是这种方法对应的语法：
+   * 以下是此方法的语法：
 
       ```objective-c
       +(void) audienceReset;
       ```
 
-   * 以下是这种方法的代码示例：
+   * 以下是此方法的代码示例：
 
       ```objective-c
       [ADBMobile audienceReset]; 
@@ -113,7 +113,7 @@ SDK目前支持多个Adobe Experience cloud解决方案，包括Analytics、Targ
 
    向受众管理发送一个具有特征的信号，并获取块回调中返回的匹配区段。
 
-   * 下面是这种方法对应的语法：
+   * 以下是此方法的语法：
 
       ```objective-c
       + (void) audienceSignalWithData:(NSDictionary*)data
@@ -121,7 +121,7 @@ SDK目前支持多个Adobe Experience cloud解决方案，包括Analytics、Targ
       *response))callback; 
       ```
 
-   * 以下是这种方法的代码示例：
+   * 以下是此方法的代码示例：
 
       ```objective-c
       [ADBMobile audienceSignalWithData:traits
