@@ -6,45 +6,44 @@ solution: Marketing Cloud,Analytics
 title: 推送消息
 topic: 开发人员和实施
 uuid: 2e2d8175-d7d0-4b6b-a14e-d419da1f9615
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
 
 ---
 
 
-# Push messaging {#push-messaging}
+# 推送消息 {#push-messaging}
 
 Adobe Mobile 和 Adobe Mobile SDK 允许您将推送消息发送给用户。该 SDK 还允许您轻松报告在点进推送消息后打开您的应用程序的用户。
 
 >[!IMPORTANT]
 >
->The information in this topic is a suggestion for a possible implementation. 我们强烈建议您查看 Apple 的 iOS 文档，以确定适用于您的应用程序的最佳实施方式。您的实施应由您所使用的框架以及应用程序将针对的iOS版本决定。
+>本主题中的信息是适用于可能实施的建议。我们强烈建议您查看 Apple 的 iOS 文档，以确定适用于您的应用程序的最佳实施方式。您的实施应由正在使用的框架以及应用程序的目标 iOS 版本来确定。
 
 要使用推送消息，您&#x200B;**必须**&#x200B;具有 SDK 版本 4.6 或更高版本。
 
 >[!IMPORTANT]
 >
->请勿在您的应用程序中手动设置Experience Cloud ID。 这会导致创建一个新的独特用户，该用户将由于其选择启用状态而不接受推送消息。例如，假定已选择接收推送消息的用户登录到您的应用程序。登录后，如果您在应用程序中手动设置 ID，则会创建一个未选择接收推送消息的新独特用户。该新用户将不会接收您的推送消息。
+>请不要在您的应用程序中手动设置 Experience Cloud ID。这会导致创建一个新的独特用户，该用户将由于其选择启用状态而不接受推送消息。例如，假定已选择接收推送消息的用户登录到您的应用程序。登录后，如果您在应用程序中手动设置 ID，则会创建一个未选择接收推送消息的新独特用户。该新用户将不会接收您的推送消息。
 
 ## 先决条件 {#section_06655ABE973743DC965897B229A2118D}
 
-* 将库添加到项目并实施生命周期指标。
+* 将库添加到您的项目并实施生命周期量度。
 
-   For more information, see [Lifecycle metrics](/help/ios/metrics.md).
+   有关更多信息，请参阅[生命周期量度](/help/ios/metrics.md)。
 
 
-* The SDK must be enabled for the ID Service.
-有关详细信息，请参 [阅配置SDK ID服务选项](/help/using/c-manage-app-settings/c-mob-confg-app/t-config-visitor.md)。
+* 必须为 ID 服务启用 SDK。有关更多信息，请参阅[配置 SDK ID 服务选项](/help/using/c-manage-app-settings/c-mob-confg-app/t-config-visitor.md)。
 
 >[!IMPORTANT]
 >
->不支持将应用程序移至新的报表包。 如果迁移到新报表包，则推送配置可能会中断，并且可能无法发送消息。
+>不支持将应用程序移动到新的报表包。如果迁移到新报表包，则推送配置可能会中断，并且可能无法发送消息。
 
-## Enabling push messaging {#section_CBD63C5B11FE4424BC2BF552C23F2BD9}
+## 启用推送消息 {#section_CBD63C5B11FE4424BC2BF552C23F2BD9}
 
-1. Verify that the `ADBMobileConfig.json` file contains the required settings for push messaging.
+1. 确认 `ADBMobileConfig.json` 文件中包含推送消息所需的设置。
 
-   The `"marketingCloud"` object must have its `"org"` property configured for push messaging.
+   `"marketingCloud"` 对象必须为推送消息配置了其 `"org"` 属性。
 
    ```objective-c
    "marketingCloud": { 
@@ -58,9 +57,9 @@ Adobe Mobile 和 Adobe Mobile SDK 允许您将推送消息发送给用户。该 
    #import "ADBMobile.h"
    ```
 
-1. 要确定您的应用程序需要为其请求权限的设置，请查看配置远程 [通知支持](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/HandlingRemoteNotifications.html#//apple_ref/doc/uid/TP40008194-CH6-SW1)。
+1. 要确定应用程序需要获得权限的设置，请参阅[配置远程通知支持](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/HandlingRemoteNotifications.html#//apple_ref/doc/uid/TP40008194-CH6-SW1)。
 
-   以下是一个可能的实现示例，它要求允许使用警报、标记、声音和远程通知：
+   以下是需要获得警报、徽章、声音和远程通知使用权限的可能实施示例：
 
    ```objective-c
    // iOS 10 and newer 
@@ -94,7 +93,7 @@ Adobe Mobile 和 Adobe Mobile SDK 允许您将推送消息发送给用户。该 
    }
    ```
 
-1. The push token must be passed to the SDK using the `setPushIdentifier:` method in ADBMobile class.
+1. 必须使用 ADBMobile 类中的 `setPushIdentifier:` 方法将推送令牌传递到 SDK。
 
    ```objective-c
    - (void) application:(UIApplication *)application didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)deviceToken { 
@@ -104,7 +103,7 @@ Adobe Mobile 和 Adobe Mobile SDK 允许您将推送消息发送给用户。该 
    }
    ```
 
-1. To determine the correct implementation for your environment, go to UserNotifications.[](https://developer.apple.com/documentation/usernotifications)
+1. 要确定环境的正确实施，请转到 [UserNotifications](https://developer.apple.com/documentation/usernotifications)。
 
    此步骤可帮助您启用推送报表，方法是在用户通过点进推送消息打开应用程序时，将 `userInfo` 字典传递到 SDK。
 
@@ -138,7 +137,7 @@ Adobe Mobile 和 Adobe Mobile SDK 允许您将推送消息发送给用户。该 
    }
    ```
 
-1. To keep your estimated push audience accurate, notify the SDK when a user manually disables push messaging for your app by calling `[ADBMobile setPushIdentifier: nil]` in the `applicationDidBecomeActive:` method in your `AppDelegate`.
+1. 为了保持您的预计推送受众的准确度，当用户通过在 `AppDelegate` 的 `applicationDidBecomeActive:` 方法中调用 `[ADBMobile setPushIdentifier: nil]` 来手动禁用应用程序的推送消息时，应通知 SDK。
 
    ```objective-c
    // device running < iOS 7 
