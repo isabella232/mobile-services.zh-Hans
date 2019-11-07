@@ -7,19 +7,19 @@ solution: Marketing Cloud,Analytics
 title: 移动量度和维度参考
 topic: 量度
 uuid: 96170ae7-8553-4f3e-ae01-65e5b664adf4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 056bb3edb94c2ceb2961bbe8e4851c20429e1ea2
 
 ---
 
 
-# Mobile metrics and dimensions reference {#mobile-metrics-and-dimensions-reference}
+# 移动量度和维度参考 {#mobile-metrics-and-dimensions-reference}
 
-This information helps you understand more about the default mobile metrics and dimensions.
+此信息可帮助您进一步了解默认移动量度和维度。
 
 >[!TIP]
 >
->在Adobe Analytics中设置的维度和度量权限适用于Mobile Services。 When you try to run a report without the proper permissions, an error occurs.
+>在 Adobe Analytics 中设置的维度和量度权限同样适用于 Mobile Services。当您尝试运行没有相应权限的报表时，会发生错误。
 
 ## 量度 {#section_6704C815147D44AF96151D626BEB813C}
 
@@ -38,28 +38,28 @@ This information helps you understand more about the default mobile metrics and 
    当特定的某天使用应用程序时触发。
 
    >[!TIP]
-   >“每日参与的用户”事件不会自动存储在Analytics量度中。 您必须创建一个处理规则，以设置一个自定义事件用来捕获此量度。
+   >“每日参与的用户数”事件不会自动存储到 Analytics 量度中。您必须创建一个处理规则，以设置一个自定义事件用来捕获此量度。
 
-* **每月参与的用户**
+* **每月参与的用户数**
 
    在每月使用应用程序时触发。
 
    >[!TIP]
-   >The Monthly Engaged Users event is not automatically stored in an Analytics metric. 您必须创建一个处理规则，以设置一个自定义事件用来捕获此量度。
+   >“每月参与的用户数”事件不会自动存储到 Analytics 量度中。您必须创建一个处理规则，以设置一个自定义事件用来捕获此量度。
 
 * **启动次数**
 
-   在除安装或升级以外的任何情况下运行时触发。当应用程序移出后台时也会触发该事件。默认情况下，如果应用程序在后台的时间达到或超过五分钟，则会触发一个新的启动。The amount of background time before triggering a new launch can be configured in **[!UICONTROL SDK Analytics Options]** on the Manage App Settings page. For more information, see the Session Timeout (Seconds) row in Configure SDK Analytics Options.**[](/help/using/c-manage-app-settings/c-mob-confg-app/t-config-analytics/t-config-analytics.md)
+   在除安装或升级以外的任何情况下运行时触发。当应用程序移出后台时也会触发该事件。默认情况下，如果应用程序在后台的时间达到或超过五分钟，则会触发一个新的启动。可以在“管理应用程序设置”页面的 **[!UICONTROL SDK Analytics 选项]**&#x200B;中，配置触发新的启动之前应用程序在后台运行的时长。有关更多信息，请参阅[配置 SDK Analytics 选项](/help/using/c-manage-app-settings/c-mob-confg-app/t-config-analytics/t-config-analytics.md)中的“会话超时（秒）”**&#x200B;行。
 
    >[!IMPORTANT]
-   >Because how visits in [!UICONTROL Adobe Analytics] and mobile app launches in [!UICONTROL Adobe Mobile Services] are calculated, you might see different results in reporting. 有关更多信息，请参阅[比较查看次数和移动设备应用程序启动次数](https://helpx.adobe.com/analytics/kb/compare-visits-and-mobile-app-launches.html)。
+   >由于计算 [!UICONTROL Adobe Analytics] 中访问次数和 [!UICONTROL Adobe Mobile Services] 中移动设备应用程序启动次数的方式，您可能会在报表中看到不同的结果。有关更多信息，请参阅[比较查看次数和移动设备应用程序启动次数](https://helpx.adobe.com/cn/analytics/kb/compare-visits-and-mobile-app-launches.html)。
 
 * **崩溃**
 
    在应用程序未正常退出时触发。该事件在应用程序崩溃后又重新启动时发送。
 
    >[!TIP]
-   >The application is considered to crash if quit is not called.
+   >如果未调用退出，则视为应用程序发生崩溃。
 
 * **会话总时长**
 
@@ -67,7 +67,7 @@ This information helps you understand more about the default mobile metrics and 
 
 ## 维度 {#section_1784C7E859F64CCEB95C5DD1DCF5C98D}
 
-Here is the list of default mobile dimensions:
+以下是默认移动维度列表：
 
 * **安装日期**
 
@@ -75,7 +75,7 @@ Here is the list of default mobile dimensions:
 
 * **应用程序 ID**
 
-   Stores the Application name and version in the following format: `[AppName] [BundleVersion]`. 例如：`myapp 1.1`。
+   采用以下格式存储应用程序名称和版本：`[AppName] [BundleVersion]`。例如：`myapp 1.1`。
 
 * **启动次数**
 
@@ -97,7 +97,7 @@ Here is the list of default mobile dimensions:
 
    应用程序星期几启动。
 
-* **Operating System**
+* **操作系统**
 
    设备的操作系统。
 
@@ -111,7 +111,7 @@ Here is the list of default mobile dimensions:
 
    >[!TIP]
    >
-   >上次升级后的天数不会自动存储在Analytics变量中。 您必须创建一个处理规则以将此值复制到 Analytics 变量中以便进行报告。
+   >自上次升级后的天数不会自动存储在 Analytics 变量中。您必须创建一个处理规则以将此值复制到 Analytics 变量中以便进行报告。
 
 * **上次升级后启动次数**
 
@@ -119,11 +119,11 @@ Here is the list of default mobile dimensions:
 
    >[!TIP]
    >
-   >自上次升级以来的启动项不会自动存储在Analytics变量中。 您必须创建一个处理规则以将此值复制到 Analytics 变量中以便进行报告。
+   >自上次升级后的启动次数不会自动存储在 Analytics 变量中。您必须创建一个处理规则以将此值复制到 Analytics 变量中以便进行报告。
 
 * **设备名称**
 
-   存储设备名称。In iOS, a comma-separated, two-digit string identifies the iOS device. 第一数字表示设备生成，第二数字表示设备系列的不同成员。 要获取常见设备名称的完整列表，请参阅 [iOS 设备版本](/help/ios/reference/device-versions.md)。
+   存储设备名称。在 iOS 中，使用以逗号分隔的两位字符串来标识 iOS 设备。第一个数字代表第几代设备，第二个数字表示设备系列的不同成员。要获取常见设备名称的完整列表，请参阅 [iOS 设备版本](/help/ios/reference/device-versions.md)。
 
 * **运营商名称**
 
