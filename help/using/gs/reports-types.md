@@ -1,13 +1,13 @@
 ---
 description: 在自定义报表时，广泛的灵活性可能会导致产生一些问题，从而难以确定哪种报表类型最适合获取您所需的数据。
-keywords: mobile
+keywords: 移动设备
 seo-description: 在自定义报表时，广泛的灵活性可能会导致产生一些问题，从而难以确定哪种报表类型最适合获取您所需的数据。
 seo-title: 报表类型
 solution: Marketing Cloud,Analytics
 title: 报表类型
 topic: 报表,量度
 uuid: 8747b11e-31b1-47bc-ad55-db5ab4ef7078
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
 
 ---
@@ -21,11 +21,11 @@ source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
 
 * 量度
 
-   量度用于测量您的数据。量度是可以计数并累加的值，用于了解特定操作在您的应用程序中发生的频率。常用量度包括安装次数、启动次数、收入、存留期值和登录次数。例如，每当您的应用程序启动时， _launches_value增加1。
+   量度用于测量您的数据。量度是可以计数并累加的值，用于了解特定操作在您的应用程序中发生的频率。常用量度包括安装次数、启动次数、收入、存留期值和登录次数。例如，每当您的应用程序启动时，_launches_value 便会增加 1。
 
 * 维度
 
-   维度用于描述您的数据。维通过使用字符串或类似于字符串的数字（如邮政编码）来表示，并用于组织和细分数据。 常见维度示例包括操作系统版本、促销活动名称、产品名称和移动运营商。每个维度都具有一些与其本身相关联的特定值。For example, the OS version dimension has values such as _iOS 7_ and _Android 4.1.2_.
+   维度用于描述您的数据。维度采用字符串或在行为上类似于字符串的数字（例如邮政编码）来表示，用于组织和划分您的数据。常见维度示例包括操作系统版本、促销活动名称、产品名称和移动运营商。每个维度都具有一些与其本身相关联的特定值。例如，操作系统版本维度具有 _iOS 7_ 和 _Android 4.1.2_ 之类的值。
 
 以下是可以在 Mobile UI 中生成的报表类型：
 
@@ -67,10 +67,10 @@ source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
 
 要启动此教程，请执行以下操作：
 
-1. in Manage App Settings, click **[!UICONTROL Usage]**.
+1. 在“管理应用程序设置”中，单击&#x200B;**[!UICONTROL 使用情况]**。
 
-1. Click **[!UICONTROL Technology]** &gt; **[!UICONTROL Technology Breakdown]**.
-1. In the title bar of the report, click **[!UICONTROL Customize]**, and click the information icon.
+1. 单击&#x200B;**[!UICONTROL 技术]** &gt; **[!UICONTROL 技术划分]**。
+1. 单击报表标题栏中的&#x200B;**[!UICONTROL 自定义]**，然后单击信息图标。
 
 ![](assets/report_technology.png)
 
@@ -82,9 +82,9 @@ source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
 
 每个节点的形状都类似于框，可表示用户路径通过应用程序时的一种状态。例如，在以上插图中，顶级节点表示启动应用程序然后从图库中选择照片的用户数量。
 
-### 漏斗报表 {#section_AF3B0C899D844FC3AD1F91A2C452C92F}
+### “漏斗”报表 {#section_AF3B0C899D844FC3AD1F91A2C452C92F}
 
-“漏斗”报表可帮助确定客户在与您的移动设备应用程序进行交互时，在哪里放弃了营销活动或偏离了定义的转化路径。您还可以使用“漏斗”报表来比较不同区段的操作。
+“漏斗”报表可帮助确定客户在与您的移动设备应用程序进行交互时，在哪里放弃了营销活动或偏离了定义的转化路径。您还可以使用漏斗报表来比较不同区段的操作。
 
 通过漏斗视图，您可以发现客户在何处离开流程。监视每个步骤的客户决策可让您了解客户在哪里受到阻碍，他们倾向于遵循哪条路径，以及客户何时离开您的应用程序。
 
