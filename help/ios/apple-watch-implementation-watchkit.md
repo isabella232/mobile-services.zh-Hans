@@ -6,27 +6,27 @@ solution: Marketing Cloud,Analytics
 title: 使用 WatchOS 2 实施 Apple Watch
 topic: 开发人员和实施
 uuid: 9498467e-db5e-411e-a00e-d19841f485de
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 718e336b9002fe3d5282697d4302d12a89297181
 
 ---
 
 
-# Apple Watch implementation with WatchOS 2{#apple-watch-implementation-with-watchos}
+# 使用 WatchOS 2 实施 Apple Watch{#apple-watch-implementation-with-watchos}
 
-从WatchOS 2开始，您的WatchKit扩展可在Apple watch上运行。 Applications that run in this environment require the `WatchConnectivity` framework to share data with their containing iOS app.
+从 WatchOS 2 开始，WatchKit 扩展可在 Apple Watch 上运行。在此环境中运行的应用程序需要 `WatchConnectivity` 框架才能与它们的 iOS 容器应用程序共享数据。
 
 >[!TIP]
 >
->Starting with  v4.6.0,  is supported.`AdobeMobileLibrary``WatchConnectivity`
+>从 `AdobeMobileLibrary` v4.6.0 开始，支持 `WatchConnectivity`。
 
-## New Adobe Experience Platform Mobile SDK Release
+## 新的 Adobe Experience Platform Mobile SDK 发行版本
 
 查找与 Adobe Experience Platform Mobile SDK 相关的信息和文档？单击[此处](https://aep-sdks.gitbook.io/docs/)可获取最新的文档。
 
-在 2018 年 9 月，我们发布了一个新的 SDK 主要版本。这些新的 Adobe Experience Platform Mobile SDK 可通过 [Experience Platform Launch](https://www.adobe.com/experience-platform/launch.html) 进行配置。
+在 2018 年 9 月，我们发布了一个新的 SDK 主要版本。这些新的 Adobe Experience Platform Mobile SDK 可通过 [Experience Platform Launch](https://www.adobe.com/cn/experience-platform/launch.html) 进行配置。
 
-* To get started, go to Adobe Experience Platform Launch.
+* 要开始配置，请转到 Adobe Experience Platform Launch。
 * 要查看 Experience Platform SDK 存储库中的内容，请转到 [Github：Adobe Experience Platform SDK](https://github.com/Adobe-Marketing-Cloud/acp-sdks)。
 
 ## 入门指南 {#section_70BC28BB69414F169196953D3D264BC1}
@@ -44,13 +44,13 @@ source-git-commit: 718e336b9002fe3d5282697d4302d12a89297181
 
 有关开发 WatchKit 应用程序的更多信息，请参阅 [The Watch App Architecture](https://developer.apple.com/library/ios/documentation/General/Conceptual/WatchKitProgrammingGuide/DesigningaWatchKitApp.html#//apple_ref/doc/uid/TP40014969-CH3-SW1)（Watch 应用程序架构）。
 
-## Configure the containing app {#section_0A2A3995575B4E2ABD12E426BA06AEFF}
+## 配置容器应用程序 {#section_0A2A3995575B4E2ABD12E426BA06AEFF}
 
 在您的 Xcode 项目中完成以下步骤：
 
 1. 将 `AdobeMobileLibrary` 文件夹拖动到您的项目中。
-1. Ensure that the `ADBMobileConfig.json` file is a member of the containing app’s target.
-1. 在容器应用程序目标的&#x200B;**[!UICONTROL 生成阶段]**&#x200B;选项卡中，展开&#x200B;**将二进制文件与库关联]部分，然后添加以下库：[!UICONTROL **
+1. 确保 `ADBMobileConfig.json` 文件是容器应用程序目标的成员。
+1. 在容器应用程序目标的&#x200B;**[!UICONTROL 生成阶段]**&#x200B;选项卡中，展开&#x200B;**[!UICONTROL 将二进制文件与库关联]**&#x200B;部分，然后添加以下库：
 
    * `AdobeMobileLibrary.a`
    * `libsqlite3.tbd`
@@ -69,7 +69,7 @@ source-git-commit: 718e336b9002fe3d5282697d4302d12a89297181
    #import “ADBMobile.h”
    ```
 
-1. Before making a call to the `ADBMobile` library, in `application:didFinishLaunchingWithOptions:` of your app delegate, configure your `WCSession`.
+1. 在对 `ADBMobile` 库进行调用之前，在应用程序委托的 `application:didFinishLaunchingWithOptions:` 中配置 `WCSession`。
 
    ```objective-c
    // check for session availability 
@@ -80,9 +80,9 @@ source-git-commit: 718e336b9002fe3d5282697d4302d12a89297181
    }
    ```
 
-1. In your app delegate, implement the `session:didReceiveMessage:` and `session:didReceiveUserInfo:` methods.
+1. 在应用程序委托中，实现 `session:didReceiveMessage:` 和 `session:didReceiveUserInfo:` 方法。
 
-   `syncSettings:` 在库中调 `ADBMobile` 用，它返回指示字典是否由库使用的bool `ADBMobile` 。 如果返回 `No`，则不会从 Adobe SDK 发起消息。
+   将在 `ADBMobile` 库中调用 `syncSettings:`，它将返回一个布尔值，指示词典是否可供 `ADBMobile` 库使用。如果返回 `No`，则不会从 Adobe SDK 发起消息。
 
    ```objective-c
    - (void) session:(WCSession *)session didReceiveMessage:(NSDictionary<NSString *,id> *)message { 
@@ -99,15 +99,15 @@ source-git-commit: 718e336b9002fe3d5282697d4302d12a89297181
    } 
    ```
 
-## Configure the WatchKit extension {#section_5ADE31741E514330A381F2E3CFD4A814}
+## 配置 WatchKit 扩展 {#section_5ADE31741E514330A381F2E3CFD4A814}
 
-1. Ensure that the `ADBMobileConfig.json` file is a member of your WatchKit extension’s target.
-1. 在 WatchKit 扩展目标的&#x200B;**[!UICONTROL 生成阶段]**&#x200B;选项卡中，展开&#x200B;**将二进制文件与库关联]部分，然后添加以下库：[!UICONTROL **
+1. 确保 `ADBMobileConfig.json` 文件是 WatchKit 扩展目标的成员。
+1. 在 WatchKit 扩展目标的&#x200B;**[!UICONTROL 生成阶段]**&#x200B;选项卡中，展开&#x200B;**[!UICONTROL 将二进制文件与库关联]**&#x200B;部分，然后添加以下库：
 
    * `AdobeMobileLibrary_Watch.a`
    * `libsqlite3.tbd`
 
-1. In your class that implements the `WKExtensionDelegate` protocol, import `WatchConnectivity` and add the `WCSessionDelegate` protocol.
+1. 在实现 `WKExtensionDelegate` 协议的类中，导入 `WatchConnectivity` 并添加 `WCSessionDelegate` 协议。
 
    ```objective-c
    #import <WatchConnectivity/WatchConnectivity.h> 
@@ -120,7 +120,7 @@ source-git-commit: 718e336b9002fe3d5282697d4302d12a89297181
    #import “ADBMobile.h”
    ```
 
-1. In `applicationDidFinishLaunching` of your extension delegate, configure your `WCSession` before making any calls to the `ADBMobile` library.
+1. 在对 `ADBMobile` 库进行任何调用之前，在扩展委托的 `applicationDidFinishLaunching` 中配置 `WCSession`。
 
    ```objective-c
    // check for session availability 
@@ -137,9 +137,9 @@ source-git-commit: 718e336b9002fe3d5282697d4302d12a89297181
    [ADBMobile initializeWatch];
    ```
 
-1. In your extension delegate, implement the `session:didReceiveMessage:` and `session:didReceiveUserInfo:` methods.
+1. 在扩展委托中，实现 `session:didReceiveMessage:` 和 `session:didReceiveUserInfo:` 方法。
 
-   `syncSettings:` 在库中调 `ADBMobile` 用，它返回指示字典是否由库使用的bool `ADBMobile` 。 如果返回 `NO`，则不会从 Adobe SDK 发起消息。
+   将在 `ADBMobile` 库中调用 `syncSettings:`，它将返回一个布尔值，指示词典是否可供 `ADBMobile` 库使用。如果返回 `NO`，则不会从 Adobe SDK 发起消息。
 
    ```objective-c
    - (void) session:(WCSession *)session didReceiveMessage:(NSDictionary<NSString *,id> *)message { 
@@ -160,7 +160,7 @@ source-git-commit: 718e336b9002fe3d5282697d4302d12a89297181
 
 请牢记以下信息：
 
-* For WatchKit apps, `a.RunMode` will be set to `Extension`.
+* 对于 WatchKit 应用程序，`a.RunMode` 将设置为 `Extension`。
 * 由于 WatchKit 应用程序在 Watch 上运行，因此应用程序将在 `a.AppID` 中正确报告它们的名称。
 * 在 WatchOS2 应用程序中不会触发生命周期调用。
 
