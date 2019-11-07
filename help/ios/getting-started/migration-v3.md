@@ -1,28 +1,28 @@
 ---
 description: 此信息可帮助您从 3.x 或 2.x 版本的 iOS 库迁移至 4.x 版本的 iOS 库。
 seo-description: 此信息可帮助您从 3.x 或 2.x 版本的 iOS 库迁移至 4.x 版本的 iOS 库。
-seo-title: 迁移到4.x iOS库
+seo-title: 迁移至 4.x iOS 库
 solution: Marketing Cloud,Analytics
-title: Migrating to the 4.x iOS library
+title: 迁移至 4.x iOS 库
 topic: 开发人员和实施
 uuid: 5668972b-f355-4e03-9df0-8c82ddf6809b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 68bc21f1c6dba2faeed332495592114af90c8f61
 
 ---
 
 
-# Migrating to the 4.x iOS library{#migrating-to-the-x-ios-library}
+# 迁移至 4.x iOS 库{#migrating-to-the-x-ios-library}
 
 此信息可帮助您从 3.x 或 2.x 版本的 iOS 库迁移至 4.x 版本的 iOS 库。
 
 >[!IMPORTANT]
 >
->The SDK uses `NSUserDefaults` to store data that is needed to calculate unique users, lifecycle metrics, and other data related to core SDK functionality.  If you modify or remove the values in `NSUserDefaults` that are expected by the SDK, unexpected behavior might result in the form of data inconsistencies.
+>SDK 使用 `NSUserDefaults` 来存储计算独特用户数所需的数据、生命周期量度以及与 SDK 核心功能相关的其他数据。如果您修改或删除了 `NSUserDefaults` 中 SDK 所预期的值，则可能会出现意外行为，从而导致出现数据不一致的情况。
 
-In the version 4.x of the iOS SDK library, the public methods are consolidated into one header. 此外，该功能现在可通过类级方法访问，因此您不必跟踪指针、实例或单个。
+在 4.x 版本的 iOS SDK 库中，公共方法都整合到一个标头中。此外，功能现在可通过类级别方法访问，因此您无需跟踪指针、实例或单例。
 
-## Events, props, and eVars {#section_76EA6F5611184C5CAE6E62956D84D7B6}
+## Event、Prop 和 eVar {#section_76EA6F5611184C5CAE6E62956D84D7B6}
 
 在版本 4 中，您不能再在应用程序中直接分配变量，例如 event、eVar、prop、heir 和 list。SDK 而是会使用上下文数据和处理规则将您的应用程序数据映射到 Analytics 变量以供报告。
 
@@ -36,9 +36,9 @@ In the version 4.x of the iOS SDK library, the public methods are consolidated i
 
 >[!TIP]
 >
->Values that you were assigning directly to variables should now be added to the `data` NSDictionary.
+>现在，应当将您直接分配到变量的值添加到 `data` NSDictionary 中。
 
-## Remove unused properties {#section_145222EAA20F4CC2977DD883FDDBBFC5}
+## 删除未使用的属性 {#section_145222EAA20F4CC2977DD883FDDBBFC5}
 
 新的 `ADBMobileConfig.json` 文件包含特定于应用程序的全局设置，并会替换在之前版本中使用的大部分配置变量。以下是 `ADBMobileConfig.json` 文件的示例：
 
@@ -76,7 +76,7 @@ In the version 4.x of the iOS SDK library, the public methods are consolidated i
 1. 将为第一列中的变量设置的值移到第二列中的变量。
 1. 从您的代码中删除旧配置变量。
 
-### Migration information
+### 迁移信息
 
 下表列出了需要移到配置文件的配置变量。
 
@@ -84,7 +84,7 @@ In the version 4.x of the iOS SDK library, the public methods are consolidated i
 
 将第一列中的值移到第二列中的变量。
 
-| 配置变量 | Variable in the `ADBMobileConfig.json` file |
+| 配置变量 | `ADBMobileConfig.json` 文件中的变量 |
 |--- |--- |
 | offlineTrackingEnabled | "offlineEnabled" |
 | offlineHitLimit | "batchLimit" |
@@ -101,12 +101,12 @@ In the version 4.x of the iOS SDK library, the public methods are consolidated i
 
 将第一列中的值移到第二列中的变量。
 
-| 配置变量 | Variable in the `ADBMobileConfig.json` file |
+| 配置变量 | `ADBMobileConfig.json` 文件中的变量 |
 |--- |--- |
 | trackOffline | "offlineEnabled" |
 | offlineLimit | "batchLimit" |
 | account | "rsids" |
-| trackingServer | "server", remove the `"https://"` prefix. 协议前缀将根据 "ssl" 设置自动添加。 |
+| trackingServer | "server"，删除 `"https://"` 前缀。协议前缀将根据 "ssl" 设置自动添加。 |
 | trackingServerSecure | 删除。为确保安全连接，请定义 "server"，然后启用 "ssl"。 |
 | charSet | "charset" |
 | currencyCode | "currency" |
@@ -119,22 +119,22 @@ In the version 4.x of the iOS SDK library, the public methods are consolidated i
 | dynamicVariablePrefix | 删除，不再使用。 |
 | visitorNamespace | 删除，不再使用。 |
 | usePlugins | 删除，不再使用。 |
-| useBestPractices所有对流失测量 (getChurnInstance) 的调用 | Remove, replaced by lifecycle metrics. 有关更多信息，请参阅[生命周期量度](//help/ios/metrics.md)。 |
+| useBestPractices 所有对流失测量 (getChurnInstance) 的调用 | 删除，替换为生命周期量度。有关更多信息，请参阅[生命周期量度](//help/ios/metrics.md)。 |
 
 
-## Update track calls and tracking variables {#section_96E7D9B3CDAC444789503B7E7F139AB9}
+## 更新跟踪调用和跟踪变量 {#section_96E7D9B3CDAC444789503B7E7F139AB9}
 
 SDK 版本 4 不使用以 Web 为主的 `track` 和 `trackLink` 调用，而是使用以下方法：
 
-* `trackState:data:` states are the views that are available in your app, such as , , , and so on.`home dashboard``app settings``cart`
+* `trackState:data:` 状态是您的应用程序中可用的一些视图，例如 `home dashboard`、`app settings`、`cart` 等等。
 
    这些状态与网站中的页面类似，而且 `trackState` 调用会使页面查看次数递增。
 
-* `trackAction:data:` actions , such as , , , and other metrics that occur in your app and that you want to measure.`logons``banner taps``feed subscriptions`
+* `trackAction:data:` 操作，跟踪您的应用程序中发生的要测量的操作，例如 `logons`、`banner taps`、`feed subscriptions` 和其他量度。
 
 用于这两种方法的 `data` 参数是 `NSDictionary`，其中包含作为上下文数据发送的名称值对。
 
-### Events, props, eVars
+### Event、Prop、eVar
 
 在版本 4 中，您不能再在应用程序中直接分配变量，例如 event、eVar、prop、heir 和 list。SDK 现在会使用上下文数据和处理规则将您的应用程序数据映射到 Analytics 变量以供报告。
 
@@ -146,11 +146,11 @@ SDK 版本 4 不使用以 Web 为主的 `track` 和 `trackLink` 调用，而是�
 
    这些值在使用处理规则映射后才会显示在报表中。有关更多信息，请参阅[处理规则和上下文数据](/help/ios/getting-started/proc-rules.md)。
 
-您直接分配到变量的值应当添加到 `data``NSDictionary`   中。This means that calls to `setProp`, `setEvar`, and assignments to persistent context data should all be removed and the values be added to the `data` parameter.
+您直接分配到变量的值应当添加到 `data` `NSDictionary` 中。这意味着应全部删除对 `setProp`、`setEvar` 的调用和对永久性上下文数据的分配，并将值添加到 `data` 参数中。
 
-### AppSection/Server、GeoZip、事务ID、Campaign和其他标准变量
+### AppSection/服务器、GeoZip、交易 ID、促销活动和其他标准变量
 
-您在测量对象（包括上面列出的变量）中设置的数据应当添加到 `data``NSDictionary`   中。随 `trackState` 或 `trackAction` 调用发送的唯一数据是 `data` 参数中的有效负荷。
+您在测量对象（包括上面列出的变量）中设置的数据应当添加到 `data` `NSDictionary` 中。随 `trackState` 或 `trackAction` 调用发送的唯一数据是 `data` 参数中的有效负荷。
 
 ### 替换跟踪调用
 
@@ -169,13 +169,13 @@ SDK 版本 4 不使用以 Web 为主的 `track` 和 `trackLink` 调用，而是�
 * `track (trackState)`
 * `trackLink (trackAction)`
 
-## Custom visitor ID {#section_2CF930C13BA64F04959846E578B608F3}
+## 自定义访客 ID {#section_2CF930C13BA64F04959846E578B608F3}
 
-Replace the `visitorID` variable with a call to `setUserIdentifier:`.
+将 `visitorID` 变量替换为对 `setUserIdentifier:` 的调用。
 
-## Offline tracking {#section_5D4CD8CD1BE041A79A8657E31C0D24C6}
+## 离线跟踪 {#section_5D4CD8CD1BE041A79A8657E31C0D24C6}
 
-Offline tracking is enabled in the `ADBMobileConfig.json` file, and all other offline configuration is done automatically.
+离线跟踪在 `ADBMobileConfig.json` 文件中已启用，并且所有其他离线配置均已自动完成。
 
 在您的代码中，删除对以下方法的调用：
 
@@ -189,7 +189,7 @@ Offline tracking is enabled in the `ADBMobileConfig.json` file, and all other of
 * `forceOffline`
 * `forceOnline`
 
-## Products variable {#section_AFBA36F3718C44D29AF81B9E1056A1B4}
+## 产品变量 {#section_AFBA36F3718C44D29AF81B9E1056A1B4}
 
 由于产品变量在处理规则中不可用，因此可以使用以下语法设置 `products`：
 
