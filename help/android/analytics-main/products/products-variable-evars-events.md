@@ -1,19 +1,19 @@
 ---
 description: 以下是一个具有促销 eVar 和产品特定事件的产品变量示例。
-keywords: android;library;mobile;sdk
+keywords: Android;库;移动;SDK
 seo-description: 以下是一个具有促销 eVar 和产品特定事件的产品变量示例。
 seo-title: 具有促销 eVar 和产品特定事件的产品变量
 solution: Marketing Cloud,Analytics
 title: 具有促销 eVar 和产品特定事件的产品变量
 topic: 开发人员和实施
 uuid: 64f822a0-6ccf-48e7-8886-31b93d8198a3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: bf076aa8e59d5c3e634fc4ae21f0de0d4541a83f
 
 ---
 
 
-# Products variable with merchandising eVars and product-specific events {#products-variable-with-merchandising-evars-and-product-specific-events}
+# 具有促销 eVar 和产品特定事件的产品变量 {#products-variable-with-merchandising-evars-and-product-specific-events}
 
 以下是一个具有促销 eVar 和产品特定事件的产品变量示例。
 
@@ -37,5 +37,5 @@ Analytics.trackState("Order Confirmation", cdata);
 
 >[!TIP]
 >
->If you trigger a product-specific event by using the  variable, you must also set that event in the  variable. *`&&products`**`&&events`*&#x200B;如果未设置该事件，则会在处理期间将其过滤掉。
+>如果通过使用 *`&&products`* 变量触发产品特定事件，则还必须在 *`&&events`* 变量中设置该事件。如果未设置该事件，则会在处理期间将其过滤掉。
 
