@@ -7,13 +7,13 @@ solution: Marketing Cloud,Analytics
 title: 排查应用程序内消息传送问题
 topic: 量度
 uuid: 58533aa3-2eb2-4597-8525-77e4e5975e56
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1154bab39b5215e00d47ad8e66caeec15e4e98de
 
 ---
 
 
-# Troubleshooting in-app messaging{#troubleshooting-in-app-messaging}
+# 排查应用程序内消息传送问题￼{#troubleshooting-in-app-messaging}
 
 此信息可帮助您排查应用程序内消息传送问题。
 
@@ -21,7 +21,7 @@ source-git-commit: 1154bab39b5215e00d47ad8e66caeec15e4e98de
 
 ## 应用程序中是否纳入了新配置和新 SDK？
 
-确认 SDK 的版本为 4.2 或更高，并且已正确配置 SDK。Ensure that you have a `Messages` section in your configuration (downloaded JSON file), or have a Messages remote endpoint, so that it can be retrieved from dynamic tag management.
+确认 SDK 的版本为 4.2 或更高，并且已正确配置 SDK。确保您的配置（已下载的 JSON 文件）中包含 `Messages` 部分，或者您具有消息远程端点，以便可以通过 Dynamic Tag Management 进行检索。
 
 ## 我的全屏消息在 Android 中不显示。我使用的 SDK 和配置正确无误，而且也触发了触发器。
 
@@ -29,19 +29,19 @@ source-git-commit: 1154bab39b5215e00d47ad8e66caeec15e4e98de
 
 ## 我的本地通知消息不能在 Android 中使用。
 
-确保在清单中声明了本地通知广播接收器。For more information, see step 2 in [Enabling In-App Messages](/help/android/messaging-main/messaging/messaging.md).
+确保在清单中声明了本地通知广播接收器。有关更多信息，请参阅[启用应用程序内消息](/help/android/messaging-main/messaging/messaging.md)中的步骤 2。
 
 ## 消息是实时的吗？
 
 查看“管理应用程序内消息”页面上列表视图下的“状态”列，确认消息是否为实时消息。
 
-## Look at show once, show always, show offline settings on the Audience tab.******
+## 查看“受众”选项卡上的“显示一次”**、“始终显示”**&#x200B;和“脱机显示”**&#x200B;设置。
 
-验证已按照您所需的方式设置了这些设置。在&#x200B;**[!UICONTROL 受众]**&#x200B;选项卡中，检查您的&#x200B;**触发器]选项，这些选项允许您指定消息显示的频率。[!UICONTROL **
+验证已按照您所需的方式设置了这些设置。在&#x200B;**[!UICONTROL 受众]**&#x200B;选项卡中，检查您的&#x200B;**[!UICONTROL 触发器]**&#x200B;选项，这些选项允许您指定消息显示的频率。
 
 ## 如果使用启动项作为触发器...
 
-启动项只会在新会话中触发。For more information about when a session begins, see the `lifecycleTimeout` row in the JSON Config file. For more information, see  ADBMobile JSON Config.[](/help/ios/configuration/json-config/json-config.md)
+启动项只会在新会话中触发。有关会话何时开始的更多信息，请参阅 JSON 配置文件中的 `lifecycleTimeout` 行。有关更多信息，请参阅 [ADBMobile JSON 配置](/help/ios/configuration/json-config/json-config.md)。
 
 ## 我远程更新了消息，但我的应用程序仍显示旧消息。
 
@@ -63,13 +63,13 @@ source-git-commit: 1154bab39b5215e00d47ad8e66caeec15e4e98de
 
 以下是每个方向的准确定位和大小调整规则：
 
-* **纵向**:
+* **纵向**：
    * 对于手机，高度为 195 像素
    * 对于平板电脑，高度为 529 像素
    * 如果图像宽度小于设备宽度，则将图像居中。
    * 如果图像宽度大于设备宽度，则裁剪图像。
 
-* **横向**:
+* **横向**：
    * 图像缩放至设备高度的 100%。
    * 宽度为设备的 75%，并在右侧淡出。
 
@@ -79,7 +79,7 @@ source-git-commit: 1154bab39b5215e00d47ad8e66caeec15e4e98de
 
 要在 iPhone X 上以全屏模式显示应用程序内消息，请执行以下操作：
 
-1. Add `viewport-fit=cover` in the meta tag.
+1. 在 Meta 标记中添加 `viewport-fit=cover`。
 
    ```html
    <meta name="viewport" content="viewport-fit=cover">
