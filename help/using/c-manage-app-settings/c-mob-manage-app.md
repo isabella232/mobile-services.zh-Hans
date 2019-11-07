@@ -7,7 +7,7 @@ solution: Marketing Cloud,Analytics
 title: 管理您的应用程序
 topic: 量度
 uuid: 0cc356c3-8457-40a7-8c97-7cbc68a5dc0c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
 
 ---
@@ -19,14 +19,14 @@ source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
 
 ## 管理变量和量度 {#section_EC2D58AC334F4ED49E764B81C2423A62}
 
-* **“标准变量和量度”**
+* **标准变量和量度**
 
-   每个应用程序都包含用于跟踪购物车和购买活动的变量和量度。Some purchase information cannot be handled with processing rules, so the SDK exposes the special `"&&products"` context data. 例如，您可以使用诸如购物车加货、购物车减货、结账、订购等变量。上下文数据必须映射到 Adobe Analytics 中的数据。如果该变量填充了一个来自上下文数据的简单映射，则它是映射到此变量的键。如果变量由Analytics管理工具中更复杂的规则填充，则将其留空。
+   每个应用程序都包含用于跟踪购物车和购买活动的变量和量度。由于有些购买信息无法通过处理规则进行处理，因此 SDK 公开了特殊的 `"&&products"` 上下文数据。例如，您可以使用诸如购物车加货、购物车减货、结账、订购等变量。上下文数据必须映射到 Adobe Analytics 中的数据。如果该变量填充了一个来自上下文数据的简单映射，则它是映射到此变量的键。如果变量由 Analytics 管理工具中更为复杂的规则填充，则保留为空。
 
    有关这些变量和量度的更多信息，请参阅以下内容：
 
-   * [Android中的产品变量](/help/android/analytics-main/products/products.md)
-   * [iOS中的产品变量](/help/ios/analytics-main/products/products.md)
+   * [Android 中的产品变量](/help/android/analytics-main/products/products.md)
+   * [iOS 中的产品变量](/help/ios/analytics-main/products/products.md)
 
 * **自定义变量**
 
@@ -34,22 +34,22 @@ source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
 
 ### 将上下文数据映射到 Analytics 变量
 
-Click **[!UICONTROL Manage App Settings]** &gt; **[!UICONTROL Manage Variables &amp; Metrics]** &gt; **[!UICONTROL Custom Variables]**.
+单击&#x200B;**[!UICONTROL 管理应用程序设置]** &gt; **[!UICONTROL 管理变量与量度]** &gt; **[!UICONTROL 自定义变量]**。
 
-These mappings call the same API that is used in [Processing Rules](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/processing-rules/processing-rules.html).
+这些映射将调用[处理规则](https://docs.adobe.com/content/help/zh-Hans/analytics/admin/admin-tools/processing-rules/processing-rules.html)中使用的相同 API。
 
 ![上下文数据映射](assets/custom_data_content.png)
 
 以下是您可以配置的自定义变量列表：
 
-* The **[!UICONTROL Custom Properties]** (or props) answer the question "which one?" Prop 可以设置为将要与同一次点击中发送的其他变量和量度相关联的文本值。该值可用于过滤报表，也可以按关联的量度以排名顺序列出。
+* **[!UICONTROL 自定义属性]**（或 prop）回答了“哪一个”的问题。Prop 可以设置为将要与同一次点击中发送的其他变量和量度相关联的文本值。该值可用于过滤报表，也可以按关联的量度以排名顺序列出。
 
    在为跟踪调用（或命中）中的属性设置值时，它仅适用于此调用。
 
-* The **[!UICONTROL Custom Variables]** (or evars) also answer the question "which one?" 但是，evar 值不仅应用于发送该变量的点击，还会应用于于随后的点击中发送的变量和量度，直至该值到期或设置了新值为止。
-* The **[!UICONTROL Custom List Variables (or Multi-Value Variables)]** behave the same as variables except they allow you to capture multiple values on one hit. 有关详细信息，请参阅 [列表变量](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/page-variables.html)。
+* **[!UICONTROL 自定义变量]**（或 evar）也回答了“哪一个”的问题。但是，evar 值不仅应用于发送该变量的点击，还会应用于于随后的点击中发送的变量和量度，直至该值到期或设置了新值为止。
+* **[!UICONTROL 自定义列表变量（或多值变量）]**&#x200B;执行的操作与变量相同，但是列表变量允许在一次点击中捕获多个值。有关更多信息，请参阅[列表变量](https://docs.adobe.com/content/help/zh-Hans/analytics/implementation/javascript-implementation/variables-analytics-reporting/page-variables.html)。
 
-Analytics中显示的以下映射是在Mobile services中创建的。
+以下映射在 Mobile Services 中创建后即会显示在 Analytics 中。
 
 * **[!UICONTROL 名称]**
 
@@ -69,28 +69,28 @@ Analytics中显示的以下映射是在Mobile services中创建的。
 
    * **[!UICONTROL 会话]**
 
-      The eVar value persists for the length of the Analytics visit.
+      eVar 值将会在 Analytics 访问期间持续存在。
 
    * **[!UICONTROL 跟踪调用]**
 
-      eVar值仅对跟踪调用有效，或者只对包含它的跟踪调用有效。
+      eVar 值将只在跟踪调用或包含它的点击中持续存在。
 
    * **[!UICONTROL 永不过期]**
 
-      eVar值会持续用于所有后续跟踪调用。
+      eVar 值将在所有后续跟踪调用中持续存在。
    * **[!UICONTROL 高级]**
 
-      Adobe Analytics 拥有更高级的 UI 可用于设置 eVar 持久性。如果为Mobile services中不支持的eVar设置了持久性值，则该值将显示在Mobile Services UI中。
+      Adobe Analytics 拥有更高级的 UI 可用于设置 eVar 持久性。如果为 Mobile Services 不支持的 eVar 设置了持久性值，则此值会显示在 Mobile Services UI 中。
 
-      To manage eVars, click **[!UICONTROL Adobe Analytics Report Suite Manager]** &gt; **[!UICONTROL Conversion Variables UI]**.
+      要管理 eVar，请单击 **[!UICONTROL Adobe Analytics 报表包管理器]** &gt; **[!UICONTROL 转化变量 UI]**。
 
    * **[!UICONTROL 列表支持]**
 
-      允许在一个跟踪调用中传递多个值以与属性相关联。 分隔符必须为一个字符，不能为零或空格。
+      支持在一个跟踪调用中传递与该属性关联的多个值。分隔符必须为一个字符，且不能为零或空格。
 
-   * **[!UICONTROL Delimiter（分隔符）]**
+   * **[!UICONTROL 分隔符]**
 
-      分隔符必须为一个字符，不能为零或空格。
+      分隔符必须为一个字符，且不能为零或空格。
 
 ### 其他 Analytics 变量
 
@@ -102,9 +102,9 @@ Analytics中显示的以下映射是在Mobile services中创建的。
 
 * **自定义量度**
 
-   *指标（或事件）能回答*&#x200B;多少问题？还 *是多少？*。事件可以在每次用户执行操作或者持有数字值（例如价格）时递增。自定义量度包括以下事件：已创建应用程序、已下载或导出 PDF 或 CSV 文件、已保存促销活动、已下载 SDK、已运行报表、已添加指向应用商店的链接、已激活应用程序内消息，等等。
+   量度（或事件）回答了“多少数量？”**&#x200B;或“多少次？”**&#x200B;的问题。事件可以在每次用户执行操作或者持有数字值（例如价格）时递增。自定义量度包括以下事件：已创建应用程序、已下载或导出 PDF 或 CSV 文件、已保存促销活动、已下载 SDK、已运行报表、已添加指向应用商店的链接、已激活应用程序内消息，等等。
 
-   选择以下自定义度量类型之一：
+   选择以下任一自定义量度类型：
 
    * **[!UICONTROL 整数]**
    * **[!UICONTROL 小数]**
@@ -112,11 +112,11 @@ Analytics中显示的以下映射是在Mobile services中创建的。
 
 ## 管理目标点 {#section_990EF15E4E3B42CC807FCD9BEC8DB4C6}
 
-兴趣点允许您定义可用于关联目的的地理位置，通过应用程序内消息定位，等等。 在目标点中发送一个点击之后，该目标点会附加到该点击上。有关目标点的更多信息，请参阅 [管理目标点](/help/using/location/t-manage-points.md).
+目标点允许您定义地理位置，将其用于关联、通过应用程序内消息进行定位等。在目标点中发送一个点击之后，该目标点会附加到该点击上。有关目标点的更多信息，请参阅[管理目标点](/help/using/location/t-manage-points.md)。
 
 ## 管理链接目标 {#section_F722A387E22A430187B063D358A87711}
 
-您可以创建、编辑、存档/取消存档和删除链接目标。然后，在构建营销链接、推送通知或应用程序内消息时，可以内联调用这些目标。 有关链接目标的详细信息，请参阅 [管理链接目标](/help/using/acquisition-main/c-manage-link-destinations/t-archive-unarchive-link-destinations.md)。
+您可以创建、编辑、存档/取消存档和删除链接目标。随后在生成营销链接、推送通知或应用程序内消息时，这些目标可以在内联调用。有关链接目标的更多信息，请参阅[管理链接目标](/help/using/acquisition-main/c-manage-link-destinations/t-archive-unarchive-link-destinations.md)。
 
 ## 管理回发 {#section_78B0A8D7AE6940E78D85AE3AB829E860}
 
