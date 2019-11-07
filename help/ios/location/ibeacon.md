@@ -6,7 +6,7 @@ solution: Marketing Cloud,Analytics
 title: iBeacon 跟踪
 topic: 开发人员和实施
 uuid: 390883db-027e-4d12-8a16-86d514579db1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
 
 ---
@@ -18,7 +18,7 @@ source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
 
 在调用 `trackBeacon` 时，会将以下信标数据发送到 Analytics 和 Target：
 
-* `a.beacon.uuid` - ProximityUUID of the beacon
+* `a.beacon.uuid` - 信标的 ProximityUUID
 * `a.beacon.major` - 信标的主编号，如存储编号
 * `a.beacon.minor` - 信标的次编号，如存储内的唯一编号
 * `a.beacon.prox` - 以下值表示用户与信标的接近度：
@@ -28,11 +28,11 @@ source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
    * `2` 表示近
    * `3` 表示远
 
-## 跟踪iBeacons {#section_FC3F213545944A468B1E6D5D5C8E2F1F}
+## 跟踪 iBeacon {#section_FC3F213545944A468B1E6D5D5C8E2F1F}
 
 1. 将库添加到您的项目并实施生命周期。
 
-   有关详细信息，请参 *阅在核心实施和生命周期中将SDK和配置文件添加*[到您的项目中](/help/ios/getting-started/dev-qs.md)。
+   有关更多信息，请参阅[核心实施和生命周期](/help/ios/getting-started/dev-qs.md)中的“将 SDK 和配置文件添加到您的项目”**。
 1. 导入库：
 
    ```objective-c
@@ -51,7 +51,7 @@ source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
    [ADBMobile trackingClearCurrentBeacon];
    ```
 
-## Send additional data {#section_3EBE813E54A24F6FB669B2478B5661F9}
+## 发送其他数据 {#section_3EBE813E54A24F6FB669B2478B5661F9}
 
 除了定时操作名称之外，您还可以通过每个跟踪操作调用发送其他上下文数据：
 
@@ -59,7 +59,7 @@ source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
 [ADBMobile trackBeacon:beacon data:@{@"myapp.ImageLiked" : imageName}];
 ```
 
-上下文数据值必须映射到自定义变量：
+上下文数据值必须映射到以下自定义变量：
 
 ![](assets/map-variable-context-ltv.png)
 
