@@ -1,27 +1,28 @@
 ---
 description: 以下是 Android 库提供的方法列表。
-keywords: android；库；移动；sdk
+keywords: Android;库;移动;SDK
 seo-description: 以下是 Android 库提供的方法列表。
 seo-title: 配置方法
 solution: Marketing Cloud,Analytics
 title: 配置方法
 topic: 开发人员和实施
 uuid: 663aeb6c-1b97-4a3a-8c0e-dd4c2ec28c01
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: bf076aa8e59d5c3e634fc4ae21f0de0d4541a83f
 
 ---
 
 
-# Configuration methods{#configuration-methods}
+# 配置方法{#configuration-methods}
 
 以下是 Android 库提供的方法列表。
 
-## Initial configuration {#section_9169243ECC4744A899A8271F92090ECD}
+## 初始配置 {#section_9169243ECC4744A899A8271F92090ECD}
 
 必须在主活动的 `onCreate` 方法中对以下方法调用一次：
 
-* `setContext`以下是这种方法的代码示例：
+* `setContext`
+以下是此方法的代码示例：
 
    ```java
     @Override
@@ -33,23 +34,23 @@ source-git-commit: bf076aa8e59d5c3e634fc4ae21f0de0d4541a83f
    ````
 
 
-## SDK settings (Config Class) {#section_C1EB977043C04D2B93E5A63DB72828B6}
+## SDK 设置（配置类）{#section_C1EB977043C04D2B93E5A63DB72828B6}
 
 * **registerAdobeDataCallback**
 
-   * 注册用于实现 `AdobeDataCallback` 接口的对象。The overwritten "call" method will be invoked with a `Config.MobileDataEvent` value and the associated data in a `Map<String, Object>` for the triggering event. 有关将触发此回调的事件的详细信息，请参 *阅本主题底部的MobileDataEventEnum* 。
+   * 注册用于实现 `AdobeDataCallback` 接口的对象。覆盖的“call”方法将通过 `Config.MobileDataEvent` 值以及 `Map<String, Object>` 中用于触发事件的关联数据进行调用。有关哪些事件将触发此回调的更多详细信息，请参阅本主题底部的 *MobileDataEventEnum*。
 
       >[!TIP]
       >
-      >此方法需要版本4.9.0或更高版本。
+      >此方法需要版本 4.9.0 或更高版本。
 
-   * 下面是这种方法对应的语法：
+   * 以下是此方法的语法：
 
       ```java
       public static void registerAdobeDataCallback(final AdobeDataCallback&amp;nbsp;callback);
       ```
 
-   * 以下是这种方法的代码示例：
+   * 以下是此方法的代码示例：
 
       ```java
         Config.registerAdobeDataCallback(new Config.AdobeDataCallback() {
@@ -67,7 +68,7 @@ source-git-commit: bf076aa8e59d5c3e634fc4ae21f0de0d4541a83f
 * **getVersion**
 
    * 返回 Adobe Mobile 库的当前版本。
-   * 下面是这种方法对应的语法：
+   * 以下是此方法的语法：
 
       ```java
       public static String getVersion();
@@ -85,12 +86,12 @@ source-git-commit: bf076aa8e59d5c3e634fc4ae21f0de0d4541a83f
 
       以下是隐私状态值：
 
-      * `MOBILE_PRIVACY_STATUS_OPT_IN`, where the hits are sent immediately.
-      * `MOBILE_PRIVACY_STATUS_OPT_OUT`，此处将其丢弃。
+      * `MOBILE_PRIVACY_STATUS_OPT_IN`：立即发送点击。
+      * `MOBILE_PRIVACY_STATUS_OPT_OUT`：丢弃点击。
       * `MOBILE_PRIVACY_STATUS_UNKNOWN`：如果您的报表包启用了时间戳，将会保存点击，直到隐私状态更改为选择启用（发送点击）或选择禁用（丢弃点击）。
 
          如果您的报表包未启用时间戳，则将丢弃点击，直到隐私状态更改为选择启用。默认值在 `ADBMobileConfig.json` 文件中设置。
-   * 下面是这种方法对应的语法：
+   * 以下是此方法的语法：
 
       ```java
       public static MobilePrivacyStatus getPrivacyStatus(); 
@@ -108,10 +109,10 @@ source-git-commit: bf076aa8e59d5c3e634fc4ae21f0de0d4541a83f
    * 将当前用户的隐私状态设置为 `status`。
 
       您可以将隐私状态设置为以下值之一：
-      * `MOBILE_PRIVACY_STATUS_OPT_IN`, where the hits are sent immediately. 将会立即发送这些点击。
-      * `MOBILE_PRIVACY_STATUS_OPT_OUT`，此处将其丢弃。 将会丢弃这些点击。
+      * `MOBILE_PRIVACY_STATUS_OPT_IN`：立即发送点击。将会立即发送这些点击。
+      * `MOBILE_PRIVACY_STATUS_OPT_OUT`：丢弃点击。将会丢弃这些点击。
       * `MOBILE_PRIVACY_STATUS_UNKNOWN`：如果您的报表包启用了时间戳，将会保存点击，直到隐私状态更改为选择启用（发送点击）或选择禁用（丢弃点击）。如果您的报表包未启用时间戳，则将丢弃点击，直到隐私状态更改为选择启用。
-   * 下面是这种方法对应的语法：
+   * 以下是此方法的语法：
 
       ```java
       public static void setPrivacyStatus(MobilePrivacyStatus status); 
@@ -126,9 +127,9 @@ source-git-commit: bf076aa8e59d5c3e634fc4ae21f0de0d4541a83f
 
 * **getLifetimeValue**
 
-   * 返回当前用户的生命周期值。默认值为 `0`.
+   * 返回当前用户的生命周期值。默认值为 `0`。
 
-   * 下面是这种方法对应的语法：
+   * 以下是此方法的语法：
 
       ```java
       public static BigDecimal getLifetimeValue();
@@ -142,19 +143,19 @@ source-git-commit: bf076aa8e59d5c3e634fc4ae21f0de0d4541a83f
 
 * **getUserIdentifier**
 
-   * 如果已设置自定义标识符，则会返回自定义用户标识符。如果未设置自定义标识符，则会返回 `null`。默认值为 `null`.
+   * 如果已设置自定义标识符，则会返回自定义用户标识符。如果未设置自定义标识符，则会返回 `null`。默认值为 `null`。
 
       >[!TIP]
       >
-      >如果您的应用程序从Experience Cloud 3.x升级到4.x SDK，则会检索之前的自定义或自动生成的访客ID，并将其存储为自定义用户标识符。 这样可在 SDK 升级期间保留访客数据。对于 4.x SDK 上的新安装，用户标识符在设置之前为 `null`。
+      >如果您的应用程序从 Experience Cloud 3.x SDK 升级到 4.x SDK，则会检索之前的自定义访客 ID 或自动生成的访客 ID，并将其存储为自定义用户标识符。这样可在 SDK 升级期间保留访客数据。对于 4.x SDK 上的新安装，用户标识符在设置之前为 `null`。
 
-   * 下面是这种方法对应的语法：
+   * 以下是此方法的语法：
 
       ```java
       public static String&amp getUserIdentifier();
       ```
 
-   * Here the code sample for this method:
+   * 以下是此方法的代码示例：
 
       ```java
       String userId = Config.getUserIdentifier();
@@ -163,13 +164,13 @@ source-git-commit: bf076aa8e59d5c3e634fc4ae21f0de0d4541a83f
 * **setUserIdentifier**
 
    * 将用户标识符设置为 `identifier`。
-   * 下面是这种方法对应的语法：
+   * 以下是此方法的语法：
 
       ```java
       public static void setUserIdentifer(String identifier);
       ```
 
-   * 以下是这种方法的代码示例：
+   * 以下是此方法的代码示例：
 
       ```java
       Config.setUserIdentifier("billybob"); 
@@ -177,14 +178,14 @@ source-git-commit: bf076aa8e59d5c3e634fc4ae21f0de0d4541a83f
 
 * **getDebugLogging**
 
-   * 返回当前的调试日志记录首选项。默认值为 `false`.
-   * 下面是这种方法对应的语法：
+   * 返回当前的调试日志记录首选项。默认值为 `false`。
+   * 以下是此方法的语法：
 
       ```java
       public static Boolean getDebugLogging(); 
       ```
 
-   * 以下是这种方法的代码示例：
+   * 以下是此方法的代码示例：
 
       ```java
       Boolean debugging = Config.getDebugLogging(); 
@@ -192,13 +193,13 @@ source-git-commit: bf076aa8e59d5c3e634fc4ae21f0de0d4541a83f
 
 * **setDebugLogging**
    * 将调试日志记录首选项设置为 `debugLogging`。
-   * 下面是这种方法对应的语法：
+   * 以下是此方法的语法：
 
       ```java
       public static void setDebugLogging(Boolea debugLogging);
       ```
 
-   * 以下是这种方法的代码示例：
+   * 以下是此方法的代码示例：
 
       ```java
       Config.setDebugLogging(true);
@@ -207,13 +208,13 @@ source-git-commit: bf076aa8e59d5c3e634fc4ae21f0de0d4541a83f
 * **collectLifecycleData**
    * 指示 SDK 应收集生命周期数据以在 SDK 的所有解决方案中使用。有关更多信息，请参阅[生命周期量度](/help/android/configuration/methods.md)。
 
-   * 下面是这种方法对应的语法：
+   * 以下是此方法的语法：
 
       ```java
       public static void collectLifecycleData(final Activity activity,final Map<String, Object>contextData); 
       ```
 
-   * 以下是这种方法的代码示例：
+   * 以下是此方法的代码示例：
 
       ```java
       @Override
@@ -235,13 +236,13 @@ source-git-commit: bf076aa8e59d5c3e634fc4ae21f0de0d4541a83f
 * **collectLifecycleData (Activity activity)**
 
    * （**版本 4.2 或更高版本**）指示 SDK 应收集生命周期数据以用于 SDK 中的所有解决方案。有关更多信息，请参阅[生命周期量度](/help/android/metrics.md)。
-   * 下面是这种方法对应的语法：
+   * 以下是此方法的语法：
 
       ```java
       public static void collectLifecycleData(final Activity activity);
       ```
 
-   * 以下是这种方法的代码示例：
+   * 以下是此方法的代码示例：
 
       ```java
       @Overrideprotected void onResume() {
@@ -254,13 +255,13 @@ source-git-commit: bf076aa8e59d5c3e634fc4ae21f0de0d4541a83f
 
    * 指示 SDK 您的应用程序已暂停，以便正确计算生命周期量度。例如，`onPause` 会收集一个时间戳，以确定上一个会话长度。此方法还会设置一个标志，以便生命周期知晓应用程序并没有崩溃。有关更多信息，请参阅[生命周期量度](/help/android/metrics.md)。
 
-   * 下面是这种方法对应的语法：
+   * 以下是此方法的语法：
 
       ```java
       public static void pauseCollectingLifecycleData(); 
       ```
 
-   * 以下是这种方法的代码示例：
+   * 以下是此方法的代码示例：
 
       ```java
       @Override
@@ -273,13 +274,13 @@ source-git-commit: bf076aa8e59d5c3e634fc4ae21f0de0d4541a83f
 * **setSmallIconResourceId(int resourceId)**
 
    * （**版本 4.2 或更高版本**）设置将用于 SDK 创建的通知的小图标。此图标将显示在状态栏中，是用户在通知中心查看完整通知时显示的辅助图像。
-   * 下面是这种方法对应的语法：
+   * 以下是此方法的语法：
 
       ```java
       public static void setSmallIconResourceId(final int resourceId); 
       ```
 
-   * 以下是这种方法的代码示例：
+   * 以下是此方法的代码示例：
 
       ```java
       Config.setSmallIconResourceId(R.drawable.appIcon);
@@ -288,13 +289,13 @@ source-git-commit: bf076aa8e59d5c3e634fc4ae21f0de0d4541a83f
 * **setLargeIconResourceId(int resourceId)**
 
    * （**版本 4.2 或更高版本**）设置将用于 SDK 创建的通知的大图标。此图标将是用户在通知中心查看完整通知时显示的主要图像。
-   * 下面是这种方法对应的语法：
+   * 以下是此方法的语法：
 
       ```java
       public static void setLargeIconResourceId(final int  resourceId);
       ```
 
-   * 以下是这种方法的代码示例：
+   * 以下是此方法的代码示例：
 
       ```Java
       Config.setLargeIconResourceId(R.drawable.appIcon);
@@ -303,13 +304,13 @@ source-git-commit: bf076aa8e59d5c3e634fc4ae21f0de0d4541a83f
 * **overrideConfigStream(InputStream configInput)**
 
    * （**版本 4.2 或更高版本**）允许您在应用程序启动时加载其他 ADBMobile JSON 配置文件。在应用程序关闭之前，将一直使用该配置。
-   * 下面是这种方法对应的语法：
+   * 以下是此方法的语法：
 
       ```java
       public static void overrideConfigStream(final InputStream configInput);
       ```
 
-   * 以下是这种方法的代码示例：
+   * 以下是此方法的代码示例：
 
       ```java
        try {
@@ -323,13 +324,13 @@ source-git-commit: bf076aa8e59d5c3e634fc4ae21f0de0d4541a83f
 * **setPushIdentifier**
 
    * 设置推送通知的设备令牌。
-   * 下面是这种方法对应的语法：
+   * 以下是此方法的语法：
 
       ```java
       public static void setPushIdentifier(final String registrationId); 
       ```
 
-   * 以下是这种方法的代码示例：
+   * 以下是此方法的代码示例：
 
       ```java
       ...// note the code to retreive the push token must run in the background
@@ -343,15 +344,15 @@ source-git-commit: bf076aa8e59d5c3e634fc4ae21f0de0d4541a83f
 
       >[!IMPORTANT]
       > 
-      >If you want to use the Advertising Identifier in Acquisition or Lifecycle, call it before calling `Config.collectLifecycleData`.
+      >如果您要在客户获取或生命周期中使用广告标识符，则必须先调用该广告标识符，然后再调用 `Config.collectLifecycleData`。
 
-      * 下面是这种方法对应的语法：
+      * 以下是此方法的语法：
 
          ```java
          public static void submitAdvertisingIdentifierTask(final Callable<String> task); 
          ```
 
-      * 以下是这种方法的代码示例：
+      * 以下是此方法的代码示例：
 
          ```java
          @Override
