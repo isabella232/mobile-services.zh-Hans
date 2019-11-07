@@ -1,24 +1,24 @@
 ---
-description: 以下说明可帮助您使用基于设备指纹的营销链接来回切换客户获取营销活动。
-keywords: android;library;mobile;sdk
-seo-description: 以下说明可帮助您使用基于设备指纹的营销链接来回切换客户获取营销活动。
-seo-title: 测试Marketing Link赢取
+description: 以下说明可帮助您对使用基于设备指纹的营销链接的客户获取促销活动进行往返测试。
+keywords: Android;库;移动;SDK
+seo-description: 以下说明可帮助您对使用基于设备指纹的营销链接的客户获取促销活动进行往返测试。
+seo-title: 测试营销链接客户获取
 solution: Marketing Cloud,Analytics
-title: 测试Marketing Link赢取
+title: 测试营销链接客户获取
 topic: 开发人员和实施
 uuid: 69503e01-182d-44c6-b0fb-e1c012ffa3bd
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
 
 ---
 
 
-# Testing Marketing Link acquisition {#testing-marketing-link-acquisition}
+# 测试营销链接客户获取 {#testing-marketing-link-acquisition}
 
-以下说明可帮助您使用基于设备指纹的营销链接来回切换客户获取营销活动。
+以下说明可帮助您对使用基于设备指纹的营销链接的客户获取促销活动进行往返测试。
 
 1. 完成[移动设备应用程序客户获取](/help/ios/acquisition-main/acquisition.md)中的先决任务。
-1. In the Adobe Mobile Services UI, click **[!UICONTROL Marketing Links Builder]** and generate an acquisition Marketing Link URL that sets the App Store as the destination for iOS devices.
+1. 在 Adobe Mobile Services 用户界面中，单击&#x200B;**[!UICONTROL 营销链接生成器]**，并生成一个客户获取营销链接 URL，以将应用商店设置为 iOS 设备的目标。
 
    例如：
 
@@ -29,7 +29,7 @@ source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
    有关更多信息，请参阅[营销链接生成器](/help/using/acquisition-main/c-marketing-links-builder/c-marketing-links-builder.md)。
 
 
-1. Open the generated link on the iOS device and open `https://c00.adobe.com/v3/<appid>/end`.
+1. 在 iOS 设备上打开生成的链接，然后打开 `https://c00.adobe.com/v3/<appid>/end`。
 
    您应会在 JSON 响应中看到 contextData：
 
@@ -42,7 +42,7 @@ source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
 
    | 设置 | 值 |
    |--- |--- |
-   | acquisition | The server should be  `c00.adobe.com`. `appid` should equal the  *`appid`* in your acquisition link. |
+   | acquisition | 服务器应为 `c00.adobe.com`。`appid` 应等于您的客户获取链接中的相应 *`appid`*。 |
    | analytics | `referrerTimeout` 的值应大于 0。 |
 
 1. （有条件）如果您的应用程序配置文件中的 SSL 设置为 `false`，请更新您的客户获取链接以使用 HTTP 协议而不是 HTTPS。
@@ -59,9 +59,9 @@ source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
    `"Analytics - Trying to fetch referrer data from <acquisition end url>"`
    `"Analytics - Received Referrer Data(<Json Object>)"`
 
-   如果看不到这些日志，请确认您完成了步骤4和5。
+   如果您没有看到这些日志，请确认您已完成步骤 4 和 5。
 
-   Here is some information about possible errors:
+   以下是关于可能出现的错误的一些信息：
 
    * `Analytics - Unable to retrieve acquisition service response (<error message>)`：
 
@@ -77,7 +77,7 @@ source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
 
    * `Analytics - Acquisition referrer data was not complete, ignoring`
 
-      `a.referrer.campaign.name` 不包含在 `contextData`中。
+      `contextData` 中未包含 `a.referrer.campaign.name`。
 
    * `Analytics - Acquisition referrer timed out`
 
@@ -95,12 +95,12 @@ source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
 
 * 发送的用户代理中的变量可能会导致归因失败。
 
-   Ensure that  and  have the same user-agent values.`https://c00.adobe.com/v3/<appid>/start``https://c00.adobe.com/v3/<appid>/end`
+   确保 `https://c00.adobe.com/v3/<appid>/start` 和 `https://c00.adobe.com/v3/<appid>/end` 具有相同的用户代理值。
 
 * 客户获取链接和来自 SDK 的点击应使用相同的 HTTP/HTTPS 协议。
 
-   如果链接和点击使用不同的协议（例如，链接使用HTTP，而SDK使用HTTPS），则每个请求的某些运营商的IP地址可能不同。 这可能导致归因失败。
+   如果该链接和点击使用的协议不同（例如，链接使用 HTTP，而 SDK 使用 HTTPS），则每个请求的 IP 地址可能会不同（对于某些运营商）。这可能导致归因失败。
 
-* The Marketing Links are cached on the server side with a ten-minutes expiration time.
+* 营销链接缓存在服务器端，过期时间为 10 分钟。
 
-   当您对营销链接进行更改时，应等待大约10分钟，然后再使用链接。
+   当您对营销链接做出更改时，您应当等待大约 10 分钟后再使用该链接。
