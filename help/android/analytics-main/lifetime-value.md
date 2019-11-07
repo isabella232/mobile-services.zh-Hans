@@ -6,23 +6,23 @@ solution: Marketing Cloud,Analytics
 title: 访客生命周期值
 topic: 开发人员和实施
 uuid: ba0308de-282e-46f9-a14c-19fb6d5c363e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: bf076aa8e59d5c3e634fc4ae21f0de0d4541a83f
 
 ---
 
 
-# Visitor lifetime value {#visitor-lifetime-value}
+# 访客生命周期值 {#visitor-lifetime-value}
 
 生命周期值允许您测量和定位每个 Android 用户的生命周期值。该值可用于存储生命周期购买、广告查看、视频完成、社交分享、照片上载等。
 
 每当您通过 `trackLifetimeValueIncrease` 发送值时，该值都会添加到现有值。生命周期值存储在设备上，并可随时通过调用 `lifetimeValue` 进行检索。
 
-## Track the visitor lifetime value {#section_390943A49AF841F2941E65D6DF2B3F5A}
+## 跟踪访客生命周期值 {#section_390943A49AF841F2941E65D6DF2B3F5A}
 
-1. 将[library]添加到您的项目并实施生命周期。
+1. 将库添加到您的项目并实施生命周期。
 
-   For more information, see Add the SDK and Config File to your IntelliJ IDEA or Eclipse Project in Core implementation and lifecycle.**[](/help/android/getting-started/dev-qs.md)
+   有关更多信息，请参阅[核心实施和生命周期](/help/android/getting-started/dev-qs.md)中的“将 SDK 和配置文件添加到您的 IntelliJ IDEA 或 Eclipse 项目”**。
 1. 导入库：
 
    ```java
@@ -35,7 +35,7 @@ source-git-commit: bf076aa8e59d5c3e634fc4ae21f0de0d4541a83f
    Analytics.trackLifetimeValueIncrease(BigDecimal.valueOf(5.0), null);
    ```
 
-## Send additional data {#section_3EBE813E54A24F6FB669B2478B5661F9}
+## 发送其他数据 {#section_3EBE813E54A24F6FB669B2478B5661F9}
 
 除了生命周期值之外，您还可以通过每个跟踪操作调用发送其他上下文数据：
 
