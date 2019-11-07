@@ -2,20 +2,20 @@
 description: “技术”报表允许您查看正在使用您的应用程序的不同设备类型、操作系统、操作系统版本和移动运营商。
 keywords: mobile
 seo-description: “技术”报表允许您查看正在使用您的应用程序的不同设备类型、操作系统、操作系统版本和移动运营商。
-seo-title: Technology report
+seo-title: “技术”报表
 solution: Marketing Cloud,Analytics
-title: Technology report
+title: “技术”报表
 topic: 报表,量度
 uuid: 4b7322c4-8920-43cd-bb72-5a5bd515ae84
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e9691f9cbeadd171948aa752b27a014c3ab254d6
 
 ---
 
 
-# 技术报告 {#technology}
+# “技术”报表 {#technology}
 
-**[!UICONTROL 技术]报表允许您查看正在使用您的应用程序的不同设备类型、操作系统、操作系统版本和移动运营商。**
+**[!UICONTROL 技术]**&#x200B;报表允许您查看正在使用您的应用程序的不同设备类型、操作系统、操作系统版本和移动运营商。
 
 此报表可为您的现有数据提供一种环状层次图可视化，您可以使用此报表发现用于定位的受众区段（访客集合）。创建和管理受众与创建和使用区段类似，不同点在于您可以使受众在 Experience Cloud 中使用。
 
@@ -25,16 +25,16 @@ source-git-commit: e9691f9cbeadd171948aa752b27a014c3ab254d6
 
 >[!TIP]
 >
->In addition to this information, you can view an in-product tutorial that describes how to interact with the sunburst chart. To start the tutorial, click **[!UICONTROL Technology Breakdown]** in the title bar of the report, click **[!UICONTROL Customize]**, and click the **[!UICONTROL i]** icon.
+>除了此信息以外，您还可以查看产品中提供的描述如何与环状层次图交互的教程。要启动此教程，请单击报表标题栏中的&#x200B;**[!UICONTROL 技术划分]**，然后依次单击&#x200B;**[!UICONTROL 自定义]**&#x200B;和 **[!UICONTROL i]** 图标。
 
 ![](assets/report_technology.png)
 
 环状层次图是交互式图表，在该图表中您可以完成以下任务：
 
 * 将鼠标移动到图表的任何部分可显示更多信息。
-* 单击&#x200B;**[!UICONTROL 日历]图标更改时间段。**
+* 单击&#x200B;**[!UICONTROL 日历]**&#x200B;图标更改时间段。
 * 单击环中的一段可选择受众并对其执行操作，例如放大，隐藏受众，创建应用程序内消息或置顶过滤器。
-* 选择右上角的&#x200B;**[!UICONTROL 设备类型]**&#x200B;和&#x200B;**设备]查看有关设备和设备类型的信息。[!UICONTROL **
+* 选择右上角的&#x200B;**[!UICONTROL 设备类型]**&#x200B;和&#x200B;**[!UICONTROL 设备]**&#x200B;查看有关设备和设备类型的信息。
 
 * 单击右侧的次要量度，将其添加到可视化中。
 
@@ -51,7 +51,7 @@ source-git-commit: e9691f9cbeadd171948aa752b27a014c3ab254d6
 
 >[!TIP]
 >
->在“ **[!UICONTROL 运营商]** ”报告中，Wi-fi用户报告为 `none`。
+>在&#x200B;**[!UICONTROL 运营商]**&#x200B;报表中，Wi-Fi 用户报告为 `none`。
 
 
 ## 添加划分和量度 {#section_15833511E82648869E7B1EFC24EF7B82}
@@ -60,15 +60,15 @@ source-git-commit: e9691f9cbeadd171948aa752b27a014c3ab254d6
 
 >[!IMPORTANT]
 >
->您向日光暴增加的环越多，处理时间越长。
+>您在环状层次图中添加的环越多，所需的处理时间就越长。
 
-To add breakdowns and secondary metrics, click **[!UICONTROL Technology Breakdown]** in the title bar of the report and click **[!UICONTROL Customize]**.
+要添加划分和次要量度，请单击报表标题栏中的&#x200B;**[!UICONTROL 技术划分]**，然后单击&#x200B;**[!UICONTROL 自定义]**。
 
-When you click **[!UICONTROL Add Breakdown]** or **[!UICONTROL Add Metric]**, a new item displays with the same name as the previous item in the list. 单击新创建的划分或量度会显示一个下拉列表，您可以从中选择新项目。
+单击&#x200B;**[!UICONTROL 添加划分]**&#x200B;或&#x200B;**[!UICONTROL 添加量度]**&#x200B;后，将显示一个新项目，其名称与列表中上一个项目的名称相同。单击新创建的划分或量度会显示一个下拉列表，您可以从中选择新项目。
 
 ## 创建置顶过滤器 {#section_B4E355CD1FE34E4C8ADC38139ED67FC8}
 
-Click a slice in the ring to select the audience for which you want to create a sticky filter and click **[!UICONTROL Sticky Filter]**. 此置顶过滤器允许您应用当前过滤器，并基于这些过滤器运行新报表。
+单击环中的一段选择要创建置顶过滤器的受众，然后单击&#x200B;**[!UICONTROL 置顶过滤器]**。此置顶过滤器允许您应用当前过滤器，并基于这些过滤器运行新报表。
 
 ## 共享报表 {#section_560DD5CED5144249B7E49461E2422100}
 
