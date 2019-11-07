@@ -6,13 +6,13 @@ solution: Marketing Cloud,Analytics
 title: 定时操作
 topic: 开发人员和实施
 uuid: dbcbac5a-6345-49f6-b050-0db05292f005
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
 
 ---
 
 
-# Timed actions {#timed-actions}
+# 定时操作 {#timed-actions}
 
 定时操作允许您测量某个操作从开始到结束之间的应用程序内时间和总时间。SDK 将计算完成该操作所用的每个会话内时间量以及跨会话总时间。您可以使用定时操作定义区段，并比较购买时间、通过水平、结帐流程等。
 
@@ -27,11 +27,11 @@ source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
 * 在传入持续时间之前添加上下文数据。
 * 取消尚未发送的点击和持续时间。
 
-## Tracking timed actions {#section_FF5B1EDC1A5340A5B13BC0F1BF2E13E1}
+## 跟踪定时操作 {#section_FF5B1EDC1A5340A5B13BC0F1BF2E13E1}
 
 1. 将库添加到您的项目并实施生命周期。
 
-   For more information, see Add the SDK and Config File to your Project in Core Implementation and Lifecycle.**[](/help/ios/getting-started/dev-qs.md)
+   有关更多信息，请参阅[核心实施和生命周期](/help/ios/getting-started/dev-qs.md)中的“将 SDK 和配置文件添加到您的项目”**。
 1. 导入库：
 
    ```objective-c
@@ -61,7 +61,7 @@ source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
                             logic:nil];
    ```
 
-## Sending additional data {#section_3EBE813E54A24F6FB669B2478B5661F9}
+## 发送其他数据 {#section_3EBE813E54A24F6FB669B2478B5661F9}
 
 除了定时操作名称之外，您还可以通过操作开始和操作更新调用发送其他上下文数据：
 
@@ -70,7 +70,7 @@ source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
                              data:@{@"myapp.ImageLiked" : imageName}];
 ```
 
-上下文数据值必须映射到自定义变量：
+上下文数据值必须映射到以下自定义变量：
 
 ![](assets/map-variable-context-ltv.png)
 
