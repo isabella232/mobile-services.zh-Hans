@@ -1,13 +1,13 @@
 ---
 description: 处理规则不支持事件序列化。在 Mobile SDK 中，您必须在上下文数据参数中使用专门的语法，以直接在服务器调用中设置序列化事件。
-keywords: android;library;mobile;sdk
+keywords: Android;库;移动;SDK
 seo-description: 处理规则不支持事件序列化。在 Mobile SDK 中，您必须在上下文数据参数中使用专门的语法，以直接在服务器调用中设置序列化事件。
 seo-title: 事件序列化
 solution: Marketing Cloud,Analytics
 title: 事件序列化
 topic: 开发人员和实施
 uuid: acdeda16-ab83-4cfc-907d-33448b801b31
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: bf076aa8e59d5c3e634fc4ae21f0de0d4541a83f
 
 ---
