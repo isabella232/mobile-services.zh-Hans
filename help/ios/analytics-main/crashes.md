@@ -1,12 +1,12 @@
 ---
 description: 此信息可帮助您了解如何跟踪崩溃，以及处理假崩溃的最佳做法。
 seo-description: 此信息可帮助您了解如何跟踪崩溃，以及处理假崩溃的最佳做法。
-seo-title: Track App crashes
+seo-title: 跟踪应用程序的崩溃情况
 solution: Marketing Cloud,Analytics
-title: 跟踪应用程序崩溃
+title: 跟踪应用程序的崩溃情况
 topic: 开发人员和实施
 uuid: 4f81988b-198a-4ba9-ad53-78af90e43856
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
 
 ---
@@ -18,7 +18,7 @@ source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
 
 >[!IMPORTANT]
 >
->You should upgrade to iOS SDK version 4.8.6, which contains critical changes that prevent false crashes from being reported.
+>您应当升级到 iOS SDK 版本 4.8.6，其中包含可防止报告假崩溃的关键更改。
 
 ## Adobe 何时会报告崩溃？
 
@@ -44,13 +44,13 @@ Adobe Mobile iOS SDK 具有响应 `UIApplicationDidEnterBackgroundNotification` 
 
    >[!TIP]
    >
-   >在此情况下，您可以通过在从Xcode再次启动应用程序之前对应用程序进行后台处理来避免崩溃。
+   >在这种情况下，再次从 Xcode 启动应用程序之前，先将应用程序转入后台可避免崩溃。
 
-* If your app is in the background and sends Analytics hits through a call other than `trackActionFromBackground`, `trackLocation`, or `trackBeacon`, and the app is terminated (manually or by the OS) while in the background, and the next launch will be a crash.
+* 如果您的应用程序处于后台，并通过除 `trackActionFromBackground`、`trackLocation` 或 `trackBeacon` 之外的其他调用发送 Analytics 点击，且应用程序在处于后台时终止（手动或由操作系统终止），则下次启动时将会发生崩溃。
 
    >[!TIP]
    >
-   >Background activity that occurs beyond the `lifecycleTimeout` threshold might also result in an additional false launch.
+   >在 `lifecycleTimeout` 阈值以外发生的后台活动也可能会导致额外的假启动。
 
 * 如果您的应用程序因后台获取、位置更新等原因而在后台启动，并且未进入前台就由操作系统终止，则下次启动（后台或前台）会导致崩溃。
 * 如果您以编程方式从 `NSUserDefaults` 中删除 Adobe 的暂停标志，则当应用程序处于后台时，下次启动或恢复会导致崩溃。
@@ -66,5 +66,5 @@ Adobe Mobile iOS SDK 具有响应 `UIApplicationDidEnterBackgroundNotification` 
 * 确保您针对非生产性报表包执行开发，这样应当可防止发生第 1 种假崩溃。
 * 不要删除或修改 Adobe Mobile SDK 在 `NSUserDefaults` 中放置的任何值。
 
-   If these values are modified outside the SDK, the reported data will be invalid.
+   如果这些值在 SDK 之外发生修改，则报告的数据将无效。
 
