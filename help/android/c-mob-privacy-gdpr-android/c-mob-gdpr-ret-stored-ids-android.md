@@ -4,19 +4,19 @@ seo-description: 此信息可帮助您从 Android 应用程序中检索本地存
 seo-title: 检索存储的标识符
 title: 检索存储的标识符
 uuid: 6fd3d202-b0a1-4c80-96f4-369fc24ac0a3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
 
 ---
 
 
-# Retrieving stored identifiers{#retrieving-stored-identifiers}
+# 检索存储的标识符{#retrieving-stored-identifiers}
 
 此信息可帮助您从 Android 应用程序中检索本地存储的 SDK 身份和处理 GDPR 数据访问请求。
 
 >[!IMPORTANT]
 >
->The `getAllIdentifiersAsync` method retrieves identities stored in the SDK. 您必须在用户选择禁用&#x200B;**之前**&#x200B;调用此方法。
+>`getAllIdentifiersAsync` 方法可检索存储在 SDK 中的身份信息。您必须在用户选择禁用&#x200B;**之前**&#x200B;调用此方法。
 
 SDK 身份（如适用）存储在本地，并在 JSON 字符串中返回，其中可能包含以下项：
 
