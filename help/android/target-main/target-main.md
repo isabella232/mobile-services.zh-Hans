@@ -1,27 +1,27 @@
 ---
 description: 此信息可帮助您在 Android 应用程序中提供目标内容。
-keywords: android；库；移动；sdk
+keywords: Android;库;移动;SDK
 seo-description: 此信息可帮助您在 Android 应用程序中提供目标内容。
-seo-title: Target概述
+seo-title: Target 概述
 solution: Marketing Cloud,Analytics
-title: Target概述
+title: Target 概述
 topic: 开发人员和实施
-uuid: 3501b76d-f83f-45eb-b56d-39e6471772e
-translation-type: tm+mt
+uuid: 3501b76d-f83f-45eb-b56d-39e64717772e
+translation-type: ht
 source-git-commit: b690ec677cf5aedfb2673b707f82716af1851124
 
 ---
 
 
-# Target概述 {#target}
+# Target 概述 {#target}
 
-本节中的信息可帮助您在Android应用程序中提供目标内容。
+此部分中的信息可帮助您在 Android 应用程序中交付目标内容。
 
-## 新版Adobe Experience Platform Mobile SDK
+## 新的 Adobe Experience Platform Mobile SDK 发行版本
 
 查找与 Adobe Experience Platform Mobile SDK 相关的信息和文档？单击[此处](https://aep-sdks.gitbook.io/docs/)可获取最新的文档。
 
-在 2018 年 9 月，我们发布了一个新的 SDK 主要版本。这些新的 Adobe Experience Platform Mobile SDK 可通过 [Experience Platform Launch](https://www.adobe.com/experience-platform/launch.html) 进行配置。
+在 2018 年 9 月，我们发布了一个新的 SDK 主要版本。这些新的 Adobe Experience Platform Mobile SDK 可通过 [Experience Platform Launch](https://www.adobe.com/cn/experience-platform/launch.html) 进行配置。
 
-* 要开始使用，请转到Adobe Experience Platform Launch。
+* 要开始配置，请转到 Adobe Experience Platform Launch。
 * 要查看 Experience Platform SDK 存储库中的内容，请转到 [Github：Adobe Experience Platform SDK](https://github.com/Adobe-Marketing-Cloud/acp-sdks)。
