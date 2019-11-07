@@ -2,18 +2,18 @@
 description: 此信息可帮助您排查应用程序内消息传送问题。
 keywords: mobile
 seo-description: 此信息可帮助您排查应用程序内消息传送问题。
-seo-title: Troubleshoot In-App Messaging
+seo-title: 排查应用程序内消息传送问题
 solution: Marketing Cloud,Analytics
-title: Troubleshoot In-App Messaging
+title: 排查应用程序内消息传送问题
 topic: 量度
 uuid: 39c3a21d-92c2-4004-b00f-99b6f91d3696
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 12e01e112debffd877dd62f1fd2505724b2aae7d
 
 ---
 
 
-# Troubleshoot in-app messaging{#troubleshooting-in-app-messaging}
+# 排查应用程序内消息传送问题{#troubleshooting-in-app-messaging}
 
 此信息可帮助您排查应用程序内消息传送问题。
 
@@ -21,7 +21,7 @@ source-git-commit: 12e01e112debffd877dd62f1fd2505724b2aae7d
 
 ## 应用程序中是否纳入了新配置和新 SDK？
 
-Ensure that you have an [In-App Messaging](/help/android/messaging-main/messaging/messaging.md) section in your configuration (downloaded JSON file) or have a Messages remote endpoint, so that it can be retrieved from dynamic tag management.
+确保您的配置（已下载的 JSON 文件）中包含[应用程序内消息传送](/help/android/messaging-main/messaging/messaging.md)部分，或者您具有消息远程端点，以便可以通过 Dynamic Tag Management 进行检索。
 
 ## 我的全屏消息在 Android 中不显示。我使用的 SDK 和配置正确无误，而且也触发了触发器。
 
@@ -29,25 +29,25 @@ Ensure that you have an [In-App Messaging](/help/android/messaging-main/messagin
 
 ## 我的本地通知消息在 Android 中无法使用。
 
-确保在清单中声明了本地通知广播接收器。For more information, see step 2 in *Enabling In-App Messaging* in [In-App Messaging](/help/android/messaging-main/messaging/messaging.md).
+确保在清单中声明了本地通知广播接收器。有关更多信息，请参阅[应用程序内消息传送](/help/android/messaging-main/messaging/messaging.md)中“启用应用程序内消息传送”**&#x200B;的步骤 2。
 
 ## 消息是实时的吗？
 
-要验证您的消息是否为实时消息，请在管理应用程序内消息页面上的&#x200B;**状态**&#x200B;列中，检查消息列表。
+要验证您的消息是否为实时消息，请在管理应用程序内消息页面上的&#x200B;**[!UICONTROL 状态]**&#x200B;列中，检查消息列表。
 
-## Look at show once, show always, show offline  settings on the Audience tab.******
+## 查看“受众”选项卡上的“显示一次”**、“始终显示”**&#x200B;和“脱机显示”**&#x200B;设置。
 
-验证已按照您所需的方式设置了这些设置。在&#x200B;**[!UICONTROL 受众]**&#x200B;选项卡中，检查您的&#x200B;**触发器]选项，这些选项允许您指定消息显示的频率。[!UICONTROL **
+验证已按照您所需的方式设置了这些设置。在&#x200B;**[!UICONTROL 受众]**&#x200B;选项卡中，检查您的&#x200B;**[!UICONTROL 触发器]**&#x200B;选项，这些选项允许您指定消息显示的频率。
 
-## 如果使用启动事件作为触发器……
+## 如果使用启动项作为触发器...
 
-启动项只会在新会话中触发。有关会话何时开始的更多信息，请参阅 `lifecycleTimeout`JSON 配置[中的 ](/help/android/configuration/json-config/json-config.md) 行。
+启动项只会在新会话中触发。有关会话何时开始的更多信息，请参阅 [JSON 配置](/help/android/configuration/json-config/json-config.md)中的 `lifecycleTimeout` 行。
 
 ## 我远程更新了消息，但我的应用程序仍显示旧消息。
 
 请牢记以下信息：
 
-* 动态标签管理可能要用几分钟时间来使用您的新定义更新其端点。请稍等片刻，然后重试。
+* Dynamic Tag Management 可能要用几分钟时间来使用您的新定义更新其端点。请稍等片刻，然后重试。
 * 只有在全新启动之后，该配置才会更新。如果应用程序是在生命周期会话超时期间重新启动的，则可能未下载您的新配置。
 
 有关更多信息，请参阅[生命周期量度](/help/android/metrics.md)。
