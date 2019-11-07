@@ -6,7 +6,7 @@ solution: Marketing Cloud,Analytics
 title: 应用程序 ID
 topic: 开发人员和实施
 uuid: 24ebc716-23c7-4ee8-8256-b534210367e0
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 0e22d5e080b680ff6b23462f1bc12f27d99e6d42
 
 ---
