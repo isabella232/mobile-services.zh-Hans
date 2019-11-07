@@ -7,17 +7,17 @@ solution: Marketing Cloud,Analytics
 title: 配置 SDK Analytics 选项
 topic: 量度
 uuid: fd3a21d2-6560-4e96-92fe-b99caac5e834
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d028fe0f9477bc011aa8fda21a0a389808df0fce
 
 ---
 
 
-# Configure SDK Analytics options {#configure-sdk-analytics-options}
+# 配置 SDK Analytics 选项 {#configure-sdk-analytics-options}
 
 创建新应用程序或编辑现有应用程序时，您可以在“管理应用程序设置”页面上配置“SDK Analytics”选项。
 
-Type information in the following fields under **[!UICONTROL SDK Analytics Options]**:
+在 **[!UICONTROL SDK Analytics 选项]**&#x200B;下的以下字段中键入相应信息：
 
 * **[!UICONTROL 使用 HTTPS]**
 
@@ -25,7 +25,7 @@ Type information in the following fields under **[!UICONTROL SDK Analytics Optio
 
 * **[!UICONTROL 回溯会话点击量]**
 
-   启用或禁用Adobe SDK回溯会话信息点击的功能。 会话信息点击量当前由崩溃次数和会话时长构成。启用后，Adobe SDK 将回溯会话信息点击至前一会话最后一次点击的 1 秒后。这意味着崩溃次数和会话数据将与它们所发生的正确日期相关联。在应用程序每次新启动时都会回溯一次点击。在禁用后，Adobe SDK 将把会话信息附加到当前的生命周期。
+   启用或禁用 Adobe SDK 回溯会话信息点击量的功能。会话信息点击量当前由崩溃次数和会话时长构成。启用后，Adobe SDK 将回溯会话信息点击至前一会话最后一次点击的 1 秒后。这意味着崩溃次数和会话数据将与它们所发生的正确日期相关联。在应用程序每次新启动时都会回溯一次点击。在禁用后，Adobe SDK 将把会话信息附加到当前的生命周期。
 
 * **[!UICONTROL 隐私]**
 
@@ -48,6 +48,6 @@ Type information in the following fields under **[!UICONTROL SDK Analytics Optio
 
 * **[!UICONTROL 更多详细信息]**
 
-   单击&#x200B;**[!UICONTROL 更多详细信息]链接可查看报表包 ID 和跟踪服务器、启用或禁用离线跟踪，以及查看正在使用的字符编码模型（例如 UTF-8）。**
+   单击&#x200B;**[!UICONTROL 更多详细信息]**&#x200B;链接可查看报表包 ID 和跟踪服务器、启用或禁用离线跟踪，以及查看正在使用的字符编码模型（例如 UTF-8）。
 
    如果启用离线跟踪，则在设备脱机时生成的数据将被添加时间戳，并于稍后发送。如果禁用此选项，则脱机数据将被丢弃。
