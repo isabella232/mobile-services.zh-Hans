@@ -6,13 +6,13 @@ solution: Marketing Cloud,Analytics
 title: 定时操作
 topic: 开发人员和实施
 uuid: 5a48a580-b942-4e49-9f1b-078fea7fccdb
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 97c0dc17bcc624b38e9eb8023eb1d69d02568d11
 
 ---
 
 
-# Timed actions {#timed-actions}
+# 定时操作 {#timed-actions}
 
 定时操作允许您测量某个操作从开始到结束之间的应用程序内时间和总时间。SDK 会计算完成该操作将花费的每个会话内时间量以及跨会话总时间。您可以使用定时操作定义区段，并比较购买时间、通过水平、结帐流程等。
 
@@ -27,11 +27,11 @@ source-git-commit: 97c0dc17bcc624b38e9eb8023eb1d69d02568d11
 * 在传入持续时间之前添加上下文数据。
 * 取消尚未发送的点击和持续时间。
 
-## Track timed actions {#section_FF5B1EDC1A5340A5B13BC0F1BF2E13E1}
+## 跟踪定时操作 {#section_FF5B1EDC1A5340A5B13BC0F1BF2E13E1}
 
 1. 将库添加到您的项目并实施生命周期。
 
-   For more information, see Add the SDK and Config File to your IntelliJ IDEA or Eclipse Project in Core implementation and lifeycle.**[](/help/android/getting-started/dev-qs.md)
+   有关更多信息，请参阅[核心实施和生命周期](/help/android/getting-started/dev-qs.md)中的“将 SDK 和配置文件添加到您的 IntelliJ IDEA 或 Eclipse 项目”**。
 1. 导入库：
 
    ```java
@@ -62,7 +62,7 @@ source-git-commit: 97c0dc17bcc624b38e9eb8023eb1d69d02568d11
 
    定时事件量度将保存在移动设备解决方案变量中，以便自动进行报告。
 
-## Sending additional data {#section_3EBE813E54A24F6FB669B2478B5661F9}
+## 发送其他数据 {#section_3EBE813E54A24F6FB669B2478B5661F9}
 
 除了定时操作名称之外，您还可以通过操作开始和操作更新调用发送其他上下文数据：
 
