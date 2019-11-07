@@ -1,22 +1,22 @@
 ---
 description: 此信息可帮助您使用 ADBMobile.json 配置文件。
 seo-description: 此信息可帮助您使用 ADBMobile.json 配置文件。
-seo-title: ADBMobile JSON配置
+seo-title: ADBMobile JSON 配置
 solution: Marketing Cloud,Analytics
-title: ADBMobile JSON配置
+title: ADBMobile JSON 配置
 topic: 开发人员和实施
 uuid: d9708d59-e30a-4f6c-ab1b-d9499855d0c2
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 19264af3f4a675add6f61c27f4cdaf20033b9bb7
 
 ---
 
 
-# ADBMobile JSON config {#adbmobile-json-config}
+# ADBMobile JSON 配置 {#adbmobile-json-config}
 
 此信息可帮助您使用 `ADBMobile.json` 配置文件。
 
-## ADBMobileConfig.json config file reference {#section_5AD4EDF87E304980B4AC4A5657FDA8B9}
+## ADBMobileConfig.json 配置文件引用 {#section_5AD4EDF87E304980B4AC4A5657FDA8B9}
 
 同一配置文件可用于多个平台上的应用程序：
 
@@ -36,7 +36,7 @@ source-git-commit: 19264af3f4a675add6f61c27f4cdaf20033b9bb7
 
 * **analyticsForwardingEnabled**
 
-   `audienceManager` 对象中的属性。If `Audience Manager` is configured and `analyticsForwardingEnabled` is set to `true`, all Analytics traffic is also forwarded to Audience Manager. 默认值为 `false`.
+   `audienceManager` 对象中的属性。如果配置了 `Audience Manager`，并且将 `analyticsForwardingEnabled` 设置为 `true`，则所有 Analytics 流量也将转发至 Audience Manager。默认值为 `false`。
 
    * 最低 SDK 版本：4.8.0
 
@@ -57,20 +57,20 @@ source-git-commit: 19264af3f4a675add6f61c27f4cdaf20033b9bb7
    * 最低 SDK 版本：4.6
    >[!IMPORTANT]
    >
-   >Backdated session hit information is sent in a session info server call, and additional server calls might apply.
+   >回溯的会话点击信息是在会话信息服务器调用中发送的，其他服务器调用也可能适用。
 
 
 * **batchLimit**
 
    在连续调用中发送的点击量的阈值。例如，如果将 `batchLimit` 设置为 10，则第 10 次点击之前的每次点击都将存储在队列中。当第 10 次点击进入时，将连续发送所有 10 次点击。
 
-   * Default value is `0`, which means that batching is not enabled.
-   * Requires .`offlineEnabled = true`
+   * 默认值为 `0`，这表示不启用批量处理。
+   * 需要 `offlineEnabled = true`。
    * 最低 SDK 版本：4.1
 
 * **charset**
 
-   定义将用于发送到 Analytics 的数据的字符集。charset 用于将传入的数据转换为 UTF-8 以便进行存储和报告。For more information, see [s.charSet](https://marketing.adobe.com/resources/help/en_US/sc/implement/charset.html).
+   定义将用于发送到 Analytics 的数据的字符集。charset 用于将传入的数据转换为 UTF-8 以便进行存储和报告。有关更多信息，请参阅 [s.charSet](https://marketing.adobe.com/resources/help/zh_CN/sc/implement/charset.html)。
 
    * 最低 SDK 版本：4.0
 
@@ -80,7 +80,7 @@ source-git-commit: 19264af3f4a675add6f61c27f4cdaf20033b9bb7
 
    >[!IMPORTANT]
    >
-   >This variable is required by Target.
+   >这是 Target 的必需变量。
 
    * 最低 SDK 版本：4.0
 
@@ -90,13 +90,13 @@ source-git-commit: 19264af3f4a675add6f61c27f4cdaf20033b9bb7
 
    请牢记以下信息：
 
-   * When `coopUnsafe` is set to `true`, `coop_unsafe=1` will always be appended to Audience Manager and Visitor ID hits.
+   * 如果将 `coopUnsafe` 设置为 `true`，则会始终将 `coop_unsafe=1` 附加到 Audience Manager 和访客 ID 点击中。
    * 如果启用到 Audience Manager 的 Analytics 服务器端转发，则还将会在 Analytics 点击中看到 `coop_unsafe=1`。
    以下是一些附加信息：
 
    * 最低 SDK 版本：4.16.1
-   * The Boolean property of the `marketingCloud` object that, when set to `true`, causes the device to be opted-out of the Experience Cloud's Device Co-Op.
-   * 默认值为 `false`.
+   * `marketingCloud` 对象的布尔属性，将该属性设置为 `true` 后，会导致设备退出 Experience Cloud 设备协作。
+   * 默认值为 `false`。
    * 这项设置&#x200B;**仅**&#x200B;适用于已配置设备协作的客户。
 
 
@@ -123,12 +123,12 @@ source-git-commit: 19264af3f4a675add6f61c27f4cdaf20033b9bb7
 
 * **offlineEnabled**
 
-   启用后，点击将在设备处于离线状态时排入队列，之后当设备处于在线状态时再进行发送。报表包必须启用时间戳才能使用离线跟踪。默认值为 `false`.
+   启用后，点击将在设备处于离线状态时排入队列，之后当设备处于在线状态时再进行发送。报表包必须启用时间戳才能使用离线跟踪。默认值为 `false`。
 
-   Here is some important information:
+   以下是一些重要信息：
 
-   * 如果报表包已启用时间戳，那么您的 `offlineEnabled` 配置属性&#x200B;*必须*&#x200B;为 true。
-   * If your report suite is not timestamp enabled, your `offlineEnabled` configuration property *must* be false.
+   * 如果报表包已启用时间戳，则 `offlineEnabled` 配置属性&#x200B;*必须*&#x200B;为 true。
+   * 如果报表包未启用时间戳，则 `offlineEnabled` 配置属性&#x200B;*必须*&#x200B;为 false。
 
       如果配置不正确，数据将会丢失。如果您不确定报表包是否已启用时间戳，请联系客户关怀团队或从 Adobe Mobile Services 下载配置文件。如果您当前向某个报表包报告 AppMeasurement 数据，而该报表包也从 JavaScript 收集数据，则您可能需要为移动数据设置一个单独的报表包，或在使用 `s.timestamp` 变量的所有 JavaScript 点击中包含自定义时间戳。
 
@@ -136,7 +136,7 @@ source-git-commit: 19264af3f4a675add6f61c27f4cdaf20033b9bb7
 
 * **org**
 
-   指定Adobe Experience Platform Identity service的Experience cloud组织ID。
+   指定 Adobe Experience Platform Identity Service 的 Experience Cloud 组织 ID。
 
    * 最低 SDK 版本：4.3
 
@@ -160,7 +160,7 @@ source-git-commit: 19264af3f4a675add6f61c27f4cdaf20033b9bb7
    “analytics.poi”: “`https://assets.adobedtm.com/…/yourfile.json`”,
    ```
 
-   如果未配置此设置，必须更新 `ADBMobile.json` 文件以包含此行。To download an updated configuration file, see Before you start.[](/help/ios/getting-started/requirements.md)
+   如果未配置此设置，必须更新 `ADBMobile.json` 文件以包含此行。要下载更新的配置文件，请参阅[开始之前](/help/ios/getting-started/requirements.md)。
 
 * **postback**
 
@@ -174,7 +174,7 @@ source-git-commit: 19264af3f4a675add6f61c27f4cdaf20033b9bb7
        "timeout": 0 //optional-number of seconds to wait before timingout.Defaultis2.}
    ```
 
-   The `payload` object in the code is an example payload for a message definition that would go in the `ADBMobileConfig.json` file. For more information, see [Postbacks](/help/ios/analytics-main/postback/postback.md).
+   代码中的 `payload` 对象是用于消息定义的有效负荷示例，将会进入 `ADBMobileConfig.json` 文件中。有关更多信息，请参阅[回发](/help/ios/analytics-main/postback/postback.md)。
 
    * 最低 SDK 版本：4.6
 
@@ -186,7 +186,7 @@ source-git-commit: 19264af3f4a675add6f61c27f4cdaf20033b9bb7
 
       如果您的报表包未启用时间戳，则将丢弃点击，直到隐私状态更改为选择启用。
 
-      这仅设置初始值。如果在代码中设置或更改了此值，则会使用新值，直到再次进行更改或者卸载并重新安装应用程序为止。默认值为 `optedin`.
+      这仅设置初始值。如果在代码中设置或更改了此值，则会使用新值，直到再次进行更改或者卸载并重新安装应用程序为止。默认值为 `optedin`。
 
    * 最低 SDK 版本：4.0
 
@@ -196,7 +196,7 @@ source-git-commit: 19264af3f4a675add6f61c27f4cdaf20033b9bb7
 
    >[!IMPORTANT]
    >
-   >客户获取需要此变量。 If the variable is set to `0`, or is not included, the SDK does not wait for acquisition data, and acquisition metrics are not tracked.
+   >这是客户获取的必需变量。如果将该变量设置为 `0` 或未包含该变量，SDK 将不会等待客户获取数据，而且也不会跟踪客户获取量度。
 
    * 最低 SDK 版本：4.1
 
@@ -224,7 +224,7 @@ source-git-commit: 19264af3f4a675add6f61c27f4cdaf20033b9bb7
 
    >[!IMPORTANT]
    >
-   >This variable is required by Analytics.
+   >这是 Analytics 的必需变量。
 
    * 最低 SDK 版本：4.0
 
@@ -232,19 +232,19 @@ source-git-commit: 19264af3f4a675add6f61c27f4cdaf20033b9bb7
 
    基于父节点的 Analytics 或受众管理服务器。
 
-   This variable should be populated with the server domain, without an `https://` or `https://` protocol prefix. 此前缀基于 `ssl` 变量，将由库自动处理。
+   应当使用不含 `https://` 或 `https://` 协议前缀的服务器域填充此变量。此前缀基于 `ssl` 变量，将由库自动处理。
 
    如果 `ssl` 为 `true`，则对此服务器进行安全连接。如果 `ssl` 为 `false`，则对此服务器进行非安全连接。
 
    >[!IMPORTANT]
    >
-   >此变量是Analytics和／或Audience Management必需的。
+   >这是 Analytics 和/或受众管理的必需变量。
 
    * 最低 SDK 版本：4.0
 
 * **ssl**
 
-   默认值为 `false`. 启用 (`true`) 或禁用 (`false`) 使用 SSL (HTTPS) 发送测量数据的功能。
+   默认值为 `false`。启用 (`true`) 或禁用 (`false`) 使用 SSL (HTTPS) 发送测量数据的功能。
 
    “回调”消息模板的定义如下所示：
 
@@ -256,7 +256,7 @@ source-git-commit: 19264af3f4a675add6f61c27f4cdaf20033b9bb7
        "timeout":0//optional-numberofsecondstowaitbeforetimingout.Defaultis2.} 
    ```
 
-   The `payload` object in the code is an sample payload for a message definition that goes in the `ADBMobileConfig.json` file. For more information, see [Postbacks](/help/ios/analytics-main/postback/postback.md).
+   代码中的 `payload` 对象是用于消息定义的有效负荷示例，将会进入 `ADBMobileConfig.json` 文件中。有关更多信息，请参阅[回发](/help/ios/analytics-main/postback/postback.md)。
 
    * 最低 SDK 版本：4.0
 
@@ -267,7 +267,7 @@ source-git-commit: 19264af3f4a675add6f61c27f4cdaf20033b9bb7
    * 最低 SDK 版本：4.0
 
 
-## Sample `ADBMobileConfig.json` file {#section_52FA7C71A99147AFA9BE08D2177D8DA7}
+## `ADBMobileConfig.json` 示例文件 {#section_52FA7C71A99147AFA9BE08D2177D8DA7}
 
 以下是一个 `ADBMobileConfig.json` 示例文件：
 
