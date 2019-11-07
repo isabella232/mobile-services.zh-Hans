@@ -4,7 +4,7 @@ seo-description: 通过直接替换 .xml 文件，可以在 TVML/TVJS 应用程�
 seo-title: 适用于 TVML/TVJS 的 Adobe Target
 title: 适用于 TVML/TVJS 的 Adobe Target
 uuid: afd5a583-5266-43f2-8cb0-0ace89c53a57
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
 
 ---
@@ -16,48 +16,48 @@ source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
 
 >[!IMPORTANT]
 >
->Before using the `ADBTarget` element in your TVML pages, you must configure your TVML/TVJS app to use the tvOS SDK. For more information, see Apple TV Implementation with tvOS.[](/help/ios/apple-tv-implementation-tvos/apple-tv-implementation-tvos.md)
+>在 TVML 页面中使用 `ADBTarget` 元素之前，必须将 TVML/TVJS 应用程序配置为使用 tvOS SDK。有关更多信息，请参阅[使用 tvOS 实施 Apple TV](/help/ios/apple-tv-implementation-tvos/apple-tv-implementation-tvos.md)。
 
 ## 入门指南 {#section_88445645FD67416EAF6FDC3E3D3F5C33}
 
-1. Identify the `.xml` file in which you want to use your Target location.
-1. Add an `ADBTarget` element to the file as a child of the `<document>` element.
-1. If Target fails to find your Mbox location, or it times out, the value between your `<ADBTarget>` and `</ADBTarget>` tags is used as default content.
+1. 找到要使用 Target 位置的 `.xml` 文件。
+1. 将 `ADBTarget` 元素作为 `<document>` 元素的子项添加到该文件中。
+1. 如果 Target 找不到 Mbox 位置或发生超时，将使用 `<ADBTarget>` 和 `</ADBTarget>` 标记之间的值作为默认内容。
 
-## Configure your mbox in Target {#section_F2DA140C34B0421D976046F825B23123}
+## 在 Target 中配置 Mbox {#section_F2DA140C34B0421D976046F825B23123}
 
-The returned content from Target replaces all content between `<ADBTarget>` and `</ADBTarget>`, including both `ADBTarget` tags.
+从 Target 返回的内容将替换 `<ADBTarget>` 和 `</ADBTarget>` 之间的所有内容，其中包括两个 `ADBTarget` 标记。
 
 >[!TIP]
 >
->您应该相应地计划要替换的内容。
+>您应当相应地计划要替换的内容。
 
 您的用例可能不像在标签中替换字符串值一样简单，也不像替换整个页面一样复杂。
 
-## Configure your ADBTarget element {#section_44A7AEC6FC0648ADAD0BACB57D493AFA}
+## 配置 ADBTarget 元素 {#section_44A7AEC6FC0648ADAD0BACB57D493AFA}
 
-在 `ADBTarget` 元素中，您必须在 `mbox` 属性中提供 Mbox 名称。You can optionally add custom properties to your request in the `customParameterName="customParameterValue"` format.
+在 `ADBTarget` 元素中，您必须在 `mbox` 属性中提供 Mbox 名称。您可以选择采用 `customParameterName="customParameterValue"` 格式将自定义属性添加到请求中。
 
 * **`mbox`**
 
-   Mbox 位置名称.
+   Mbox 位置名称。
 
-   * Property type: String
-   * 此属性为必需属性。
+   * 属性类型：字符串
+   * 此属性是必需的。
 
 * **`id`**
 
-   The Order ID.
+   订单 ID。
 
-   * Property type: String
-   * 此属性不 **是必需** 。
+   * 属性类型：字符串
+   * 此属性&#x200B;**不是**&#x200B;必需的。
 
 * **`total`**
 
-   The order total.
+   订单总计。
 
    * 属性类型：字符串
-   * 此属性不 **是必需** 。
+   * 此属性&#x200B;**不是**&#x200B;必需的。
 
 * **`purchasedProductIds`**
 
@@ -71,11 +71,11 @@ The returned content from Target replaces all content between `<ADBTarget>` and 
       ```
 
    * 属性类型：字符串
-   * This property is not required.****
+   * 此属性&#x200B;**不是**&#x200B;必需的。
 
 * **`mboxParameters`**
 
-   `mboxParameters` 的键值对列表。此字符串中的每个条目都以分号分隔，键值以冒号分隔。
+   `mboxParameters` 的键值对列表。此字符串中的各条目用分号分隔，键值用冒号分隔。
 
    * 以下是此属性的代码示例：
 
@@ -84,21 +84,21 @@ The returned content from Target replaces all content between `<ADBTarget>` and 
       ```
 
    * 属性类型：字符串
-   * 此属性不 **是必需** 。
+   * 此属性&#x200B;**不是**&#x200B;必需的。
 
 * **`customParameterName`**
 
    此属性的值为 `customParameterValue`。
 
    * 属性类型：字符串
-   * 此属性不 **是必需** 。
+   * 此属性&#x200B;**不是**&#x200B;必需的。
 
 
 ## 示例 {#section_6D6D6E8C7FE147168FC30D83CBC06985}
 
 ### 示例 1
 
-以下示例在 `ADBTarget` 页面中使用 `LandingPage.xml.js` 元素来替换警报的内容：
+以下示例在 `LandingPage.xml.js` 页面中使用 `ADBTarget` 元素来替换警报的内容：
 
 #### 配置 Target
 
