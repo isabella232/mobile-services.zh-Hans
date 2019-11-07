@@ -4,29 +4,29 @@ seo-description: 在 Adobe Mobile Services 用户界面中配置深层链接 URL
 seo-title: 实施包含深层链接的推送消息
 title: 实施包含深层链接的推送消息
 uuid: ee9590fc-8bd3-4111-9221-9011d9edbd84
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 06144a1695ac40ce984656491456968888f9e96e
 
 ---
 
 
-# Implement push messaging with deep linking {#implement-push-messaging-with-deep-linking}
+# 实施包含深层链接的推送消息 {#implement-push-messaging-with-deep-linking}
 
 在 Adobe Mobile Services 用户界面中配置深层链接 URL 后，该 URL 将通过 `adb_deeplink` 键包含在推送有效负荷中。
 
 1. 在 AppDelegate 中，您可以从以下位置获取并自行处理深层链接 URL：
 
-   * 在 `application:didFinishLaunchingWithOptions`:
+   * 在 `application:didFinishLaunchingWithOptions`：
 
       如果在发生推送点进时应用程序未运行，则可以从 `launchOptions` 获取推送有效负荷，并且深层链接 URL 将通过 `adb_deeplink` 键位于有效负荷词典中。
 
    * 远程通知的委托方法
 
-      In the `didReceiveRemoteNotification:` application or in the `didReceiveRemoteNotification:fetchCompletionHandler:` application, you can get the URL by accessing the `userInfo` dictionary with the `adb_deeplink` key.
+      在 `didReceiveRemoteNotification:` 应用程序或 `didReceiveRemoteNotification:fetchCompletionHandler:` 应用程序中，您可以通过访问包含 `adb_deeplink` 键的 `userInfo` 词典来获取该 URL。
 
-   * The delegate methods for `UNUserNotificationCenter`
+   * `UNUserNotificationCenter` 的委托方法
 
-      In the `userNotificationCenter:didReceiveNotificationResponse:withCompletionHandler:` method, you can get the push payload from the `userInfo` dictionary, in the `adb_deeplink` key.
+      在 `userNotificationCenter:didReceiveNotificationResponse:withCompletionHandler:` 方法中，您可以从 `userInfo` 词典的 `adb_deeplink` 键中获取推送有效负荷。
 
 例如：
 
