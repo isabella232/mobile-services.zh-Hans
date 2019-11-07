@@ -6,7 +6,7 @@ solution: Marketing Cloud,Analytics
 title: Video Analytics
 topic: 开发人员和实施
 uuid: d75fa415-78f6-4f50-a563-76949f040138
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1c387b063eedb41a52e044dc824df6a51f173ad2
 
 ---
@@ -18,13 +18,13 @@ source-git-commit: 1c387b063eedb41a52e044dc824df6a51f173ad2
 
 >[!TIP]
 >
->在视频播放过程中，会向此服务发送频繁的“心率”调用，以测量播放的时间。这些心率调用每 10 秒发送一次，从而生成精细的视频参与量度和更准确的视频流失报表。有关详细信息，请参 [阅在Adobe Analytics中测量音频和视频](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html)。
+>在视频播放过程中，会向此服务发送频繁的“心率”调用，以测量播放的时间。这些心率调用每 10 秒发送一次，从而生成精细的视频参与量度和更准确的视频流失报表。有关更多信息，请参阅[在 Adobe Analytics 中测量音频和视频](https://docs.adobe.com/content/help/zh-Hans/media-analytics/using/media-overview.html)。
 
 在所有平台中，测量视频的常规过程都非常相似。本文中的内容提供了开发人员任务的基本概述以及代码示例。
 
-## Map player events to Analytics variables {#section_E84987F878AB4A3A83AE700FEC4C9D4D}
+## 将播放器事件映射到 Analytics 变量 {#section_E84987F878AB4A3A83AE700FEC4C9D4D}
 
-下表列出了发送到 Analytics 的媒体数据。使用处理规则将上下文数据映射到Analytics变量。
+下表列出了发送到 Analytics 的媒体数据。使用处理规则将上下文数据映射到 Analytics 变量。
 
 * **a.media.name**
 
@@ -40,12 +40,12 @@ source-git-commit: 1c387b063eedb41a52e044dc824df6a51f173ad2
 
    （可选）提供视频路径信息。此变量的路径必须由客户关怀团队来启用。
 
-   * 变量类型：自定义分析(s.prop)
+   * 变量类型：自定义分析 (s.prop)
    * 事件类型：自定义分析 (s.prop)
 
 * **a.media.segment**
 
-   （必需）收集视频区段数据，包括区段名称以及区段在视频中出现的顺序。此变量在自动跟踪播放器事件时通过启用 `segmentByMilestones` 变量来填充，或在手动跟踪播放器事件时通过设置自定义区段名称来填充。For example, when a visitor views the first segment in a video, SiteCatalyst might collect the following in the `1:M:0-25` Segments evar.
+   （必需）收集视频区段数据，包括区段名称以及区段在视频中出现的顺序。此变量在自动跟踪播放器事件时通过启用 `segmentByMilestones` 变量来填充，或在手动跟踪播放器事件时通过设置自定义区段名称来填充。例如，当访客查看视频中的第一个区段时，SiteCatalyst 可能会在 `1:M:0-25` 区段 eVar 中收集以下信息。
 
    默认视频数据收集方法在以下时间点收集数据：
 
@@ -69,31 +69,31 @@ source-git-commit: 1c387b063eedb41a52e044dc824df6a51f173ad2
 
    以秒为单位，计算自上次数据收集流程（图像请求）以来，观看视频所花费的时间。
 
-   * 变量类型：活动
+   * 变量类型：事件
    * 类型：计数器
 
 * **a.media.view**
 
    表明访客已查看了视频的某些部分。但是它并不提供有关访客查看了视频中的多少内容或哪一部分的信息。
 
-   * 变量类型：活动
+   * 变量类型：事件
    * 类型：计数器
 
 * **a.media.segmentView**
 
    表明访客已查看了视频区段的某些部分。但是它并不提供有关访客查看了视频中的多少内容或哪一部分的信息。
 
-   * 变量类型：活动
+   * 变量类型：事件
    * 类型：计数器
 
 * **a.media.complete**
 
    表明用户已查看了完整的视频。默认情况下，完整的事件会在视频结束前 1 秒进行测量。在实施过程中，您可以指定希望在距离视频结束有多少秒时被视为查看完成。对于直播视频和没有定义结尾的其他视频流，您可以指定一个自定义时间点来测量完成，例如，在查看了特定时间之后进行测量。
 
-   * 变量类型：活动
+   * 变量类型：事件
    * 类型：计数器
 
-## Configure media settings {#section_929945D4183C428AAF3B983EFD3E2500}
+## 配置媒体设置 {#section_929945D4183C428AAF3B983EFD3E2500}
 
 使用您要用于跟踪视频的设置配置 `ADBMediaSettings` 对象：
 
@@ -120,9 +120,9 @@ mediaSettings.trackSeconds = 30; // sends a hit every 30 seconds
 // event handlers described in the next section
 ```
 
-## Track player events {#section_C7F43AECBC0D425390F7FCDF3035B65D}
+## 跟踪播放器事件 {#section_C7F43AECBC0D425390F7FCDF3035B65D}
 
-To measure video playback, The `mediaPlay`, `mediaStop`, and `mediaClose` methods need to be called at the appropriate times. 例如，暂停播放器时，调用 `mediaStop`。开始或继续播放时，调用 `mediaPlay`。
+要测量视频播放，需要在适当时调用 `mediaPlay`、`mediaStop` 和 `mediaClose` 方法。例如，暂停播放器时，调用 `mediaStop`。开始或继续播放时，调用 `mediaPlay`。
 
 以下示例演示了如何配置通知和调用媒体方法来测量视频：
 
@@ -220,13 +220,13 @@ NSUInteger segmentNum
 NSUInteger eventType
 ```
 
-## Media measurement class and method reference {#section_50DF9359A7B14DF092634C8E913C77FE}
+## 媒体测量类和方法引用 {#section_50DF9359A7B14DF092634C8E913C77FE}
 
 * **mediaCreateSettings&#x200B;WithName:&#x200B;length:&#x200B;playerName:&#x200B;playerID:**
 
    通过指定的参数返回 `ADBMediaSettings` 对象。
 
-   * 下面是这种方法对应的语法：
+   * 以下是此方法的语法：
 
       ```objective-c
       +(ADBMediaSettings *) mediaCreateSettingsWithName:(NSString *)name
@@ -235,7 +235,7 @@ NSUInteger eventType
                                                playerID:(NSString *)playerID;
       ```
 
-   * 以下是这种方法的代码示例：
+   * 以下是此方法的代码示例：
 
       ```objective-c
       ADBMediaSettings *myCatSettings =
@@ -248,7 +248,7 @@ NSUInteger eventType
 
    返回用于跟踪广告视频的 `ADBMediaSettings` 对象。
 
-   * 下面是这种方法对应的语法：
+   * 以下是此方法的语法：
 
       ```objective-c
       + (ADBMediaSettings *) mediaAdCreateSettingsWithName:(NSString *)name
@@ -260,7 +260,7 @@ NSUInteger eventType
                                                       CPM:(NSString *)CPM; 
       ```
 
-   * 以下是这种方法的代码示例：
+   * 以下是此方法的代码示例：
 
       ```objective-c
         ADBMediaSettings *mySettings = 
@@ -276,14 +276,14 @@ NSUInteger eventType
 
    打开 `ADBMediaSettings` 对象以进行跟踪。
 
-   * 下面是这种方法对应的语法：
+   * 以下是此方法的语法：
 
       ```objective-c
       + (void) mediaOpenWithSettings:(ADBMediaSettings *)settings
                             callback:(void (^)(ADBMediaState *mediaState))callback; 
       ```
 
-   * 以下是这种方法的代码示例：
+   * 以下是此方法的代码示例：
 
       ```objective-c
       [ADBMobile mediaOpenWithSettings:mySettings callback:^(ADBMediaState *mediaState) {
@@ -294,13 +294,13 @@ NSUInteger eventType
 
    关闭名为“name”**&#x200B;的媒体项目。
 
-   * 下面是这种方法对应的语法：
+   * 以下是此方法的语法：
 
       ```objective-c
        + (void) mediaClose:(NSString *)name; 
       ```
 
-   * 以下是这种方法的代码示例：
+   * 以下是此方法的代码示例：
 
       ```objective-c
       [ADBMobile mediaClose:@"kittiesPlaying"];
@@ -310,13 +310,13 @@ NSUInteger eventType
 
    在给定的“offset”**&#x200B;时间（以秒为单位）播放名为“name”**&#x200B;的媒体项目。
 
-   * 下面是这种方法对应的语法：
+   * 以下是此方法的语法：
 
       ```objective-c
        + (void) mediaPlay:(NSString *)name offset:(double)offset;
       ```
 
-   * 以下是这种方法的代码示例：
+   * 以下是此方法的代码示例：
 
       ```objective-c
       [ADBMobile mediaPlay:@"cats" offset:25];
@@ -326,13 +326,13 @@ NSUInteger eventType
 
    在提供的“offset”**&#x200B;时间（以秒为单位）将媒体项目手动标记为完成。
 
-   * 下面是这种方法对应的语法：
+   * 以下是此方法的语法：
 
       ```objective-c
        + (void) mediaComplete:(NSString *)name offset:(double)offset;
       ```
 
-   * 以下是这种方法的代码示例：
+   * 以下是此方法的代码示例：
 
       ```objective-c
        [ADBMobile mediaComplete:@"meowzah" offset:90]; 
@@ -342,13 +342,13 @@ NSUInteger eventType
 
    通知媒体模块已在给定的“offset”**&#x200B;时间停止或暂停视频。
 
-   * 下面是这种方法对应的语法：
+   * 以下是此方法的语法：
 
       ```objective-c
       + (void) mediaStop:(NSString *)name offset:(double)offset; 
       ```
 
-   * 以下是这种方法的代码示例：
+   * 以下是此方法的代码示例：
 
       ```objective-c
       [ADBMobile mediaStop:@"toonses" offset:30]; 
@@ -358,13 +358,13 @@ NSUInteger eventType
 
    通知媒体模块已单击媒体项目。
 
-   * 下面是这种方法对应的语法：
+   * 以下是此方法的语法：
 
       ```objective-c
       + (void) mediaClick:(NSString *)name offset:(double)offset;
       ```
 
-   * 以下是这种方法的代码示例：
+   * 以下是此方法的代码示例：
 
       ```objective-c
       [ADBMobile mediaClick:@"soManyCats" offset:47];
@@ -374,7 +374,7 @@ NSUInteger eventType
 
    发送用于获取当前媒体状态的跟踪操作调用（无页面查看）。
 
-   * 下面是这种方法对应的语法：
+   * 以下是此方法的语法：
 
       ```objective-c
       + (void) mediaTrack:(NSString *)name withData:(NSDictionary *)data;
