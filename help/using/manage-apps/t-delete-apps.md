@@ -7,22 +7,22 @@ solution: Marketing Cloud,Analytics
 title: 删除应用程序
 topic: 量度
 uuid: 1721cce5-b368-4f05-a40b-e3f2348d96d8
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 814c99695f538160ae28484ca8e2a92f5b24bb1a
 
 ---
 
 
-# Delete an app{#delete-an-app}
+# 删除应用程序{#delete-an-app}
 
-You can delete an app from the Mobile Services UI.
+您可以从 Mobile Services UI 中删除应用程序。
 
-1. Click **[!UICONTROL Manage Apps]**.
+1. 单击&#x200B;**[!UICONTROL 管理应用程序]**。
 1. 选中您要删除的应用程序旁的复选框。
 
    >[!IMPORTANT]
    >
-   >Deleting an app from Adobe Mobile removes the app from the Adobe Mobile UI, but the app is not removed from the Apple App Store or Google Play. 报表包和数据将仍可以在 Adobe Analytics 中使用，但无法在 Adobe Mobile 中进行管理。
+   >从 Adobe Mobile 中删除某个应用程序时，只是从 Adobe Mobile UI 中删除该应用程序，而不会从 Apple App Store 或 Google Play 中将其删除。报表包和数据将仍可以在 Adobe Analytics 中使用，但无法在 Adobe Mobile 中进行管理。
 
-1. Click **[!UICONTROL Delete Selected]**.
-1. Click **[!UICONTROL Delete]**.
+1. 单击&#x200B;**[!UICONTROL 删除选定项]**。
+1. 单击&#x200B;**[!UICONTROL 删除]**。
