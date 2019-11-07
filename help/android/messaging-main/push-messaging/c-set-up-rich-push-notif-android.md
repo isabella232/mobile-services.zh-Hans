@@ -4,17 +4,17 @@ seo-description: 您可以将图像文件附加到 Android 通知中。添加可
 seo-title: 接收富推送通知
 title: 接收富推送通知
 uuid: 4a0340a6-666b-49b6-907a-9afc966dfdba
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dca3663986b3ecc6e9fb736cc99513279715225c
 
 ---
 
 
-# Receive rich push notifications {#receive-rich-push-notifications}
+# 接收富推送通知 {#receive-rich-push-notifications}
 
 您可以将图像文件附加到 Android 通知中。添加可视组件能够显著提高推送通知带来的用户参与度。
 
-## Handle the incoming rich push message (FCM) {#section_AF1A3BC2312C4E1DA517CC90296C11E2}
+## 处理传入富推送消息 (FCM) {#section_AF1A3BC2312C4E1DA517CC90296C11E2}
 
 如果应用程序处于前台，推送消息将由扩展 `FirebaseMessagingService` 类的应用程序处理，并通过以下方式在清单文件中声明：
 
@@ -30,9 +30,9 @@ source-git-commit: dca3663986b3ecc6e9fb736cc99513279715225c
 
 >[!IMPORTANT]
 >
->The class that contains the  implementation handles the data that is received.`onMessageReceived()`
+>包含 `onMessageReceived()` 实现的类用于处理接收到的数据。
 
-If the push message contains a Media URL, the URL will be available in the `RemoteMessage` parameter that is passed to the `onMessageReceived()` function. 要使用的键为 `attachment-url`，如以下代码示例中所示：
+如果推送消息包含媒体 URL，则该 URL 将在传递到 `onMessageReceived()` 函数的 `RemoteMessage` 参数中可用。要使用的键为 `attachment-url`，如以下代码示例中所示：
 
 ```java
 public class MyFirebaseMessagingService extends FirebaseMessagingService {
@@ -90,9 +90,9 @@ private void sendNotification(RemoteMessage message) {
 
 >[!IMPORTANT]
 >
->When you set `NotificationCompat.BigPictureStyle`, large images might not be displayed. 要确保始终显示大图像，请设置本机 `Notification.BigPictureStyle`。
+>设置 `NotificationCompat.BigPictureStyle` 后，大图像可能无法显示。要确保始终显示大图像，请设置本机 `Notification.BigPictureStyle`。
 
-## Sample rich push notification {#section_6819316BEDDE45108413B541CA2BB2DC}
+## 富推送通知示例 {#section_6819316BEDDE45108413B541CA2BB2DC}
 
 以下是一个包含图像的富推送通知示例：
 
