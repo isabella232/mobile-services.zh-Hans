@@ -7,13 +7,13 @@ solution: Marketing Cloud,Analytics
 title: 排查推送消息问题
 topic: 量度
 uuid: 87d7dcb6-82a8-46e3-a6ed-7f895a22f2af
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
 
 ---
 
 
-# Troubleshooting push messaging {#troubleshooting-push-messaging}
+# 排查推送消息问题 {#troubleshooting-push-messaging}
 
 此信息可帮助您排查推送消息问题。
 
@@ -33,9 +33,9 @@ source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
 
    >[!TIP]
    >
-   >推送服务不保证消息将被发送。 有关服务可靠性的更多信息，请参阅相应的文档：
+   >推送服务不保证消息将被发送。有关服务可靠性的更多信息，请参阅相应的文档：
    >
-   >* **APNS**：[服务的质量](https://developer.apple.com/documentation/usernotifications) (Quality of Service)
+   >* **APNS**：[服务的质量](https://developer.apple.com/documentation/usernotifications)
       >
       >
    * **GCM**：[消息的生命周期](https://developers.google.com/cloud-messaging/concept-options) (Lifetime of a Message)
@@ -45,8 +45,8 @@ source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
 
 发送推送消息需要有效的推送服务证书。当您的证书将要到期或已过期时，Mobile Services 将会通知您。如果您收到此通知，请完成以下步骤来续订您的证书：
 
-1. Click **[!UICONTROL Manage App Settings]**.
-2. To delete the current certificate, scroll to **[!UICONTROL Push Services]** and click **[!UICONTROL Delete]**.
+1. 单击&#x200B;**[!UICONTROL 管理应用程序设置]**。
+2. 要删除当前证书，请滚动到&#x200B;**[!UICONTROL 推送服务]**，然后单击&#x200B;**[!UICONTROL 删除]**。
 3. 配置并测试新证书。
 
    有关更多信息，请参阅[启用推送消息的先决条件](/help/using/c-manage-app-settings/c-mob-confg-app/configure-push-messaging/prerequisites-push-messaging.md)。
