@@ -6,13 +6,13 @@ solution: Marketing Cloud,Analytics
 title: 核心实施和生命周期
 topic: 开发人员和实施
 uuid: 96d06325-e424-4770-8659-4b5431318ee3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 4db9781e6e1e75a04d9715a41c5a32c10ede1bf4
 
 ---
 
 
-# Core implementation and lifecycle {#core-implementation-and-lifecycle}
+# 核心实施和生命周期 {#core-implementation-and-lifecycle}
 
 此信息可帮助您实施 iOS 库并收集生命周期量度，例如启动次数、升级次数、会话数、参与用户数等。
 
@@ -20,19 +20,19 @@ source-git-commit: 4db9781e6e1e75a04d9715a41c5a32c10ede1bf4
 
 >[!IMPORTANT]
 >
->To download the SDKs, you **must** use iOS 6 or later.
+>要下载 SDK，您&#x200B;**必须**&#x200B;使用 iOS 6 或更高版本。
 
 **先决条件**
 
-在下载SDK之前，请完成在 *Core实施和生命周期中创建报告套件*[](/help/ios/getting-started/requirements.md) ，以设置开发报告套件并下载预填充版本的配置文件中的步骤。
+在下载 SDK 之前，请先完成[核心实施和生命周期](/help/ios/getting-started/requirements.md)的“创建报表包”**&#x200B;中的步骤，以设置一个开发报表包并下载预填充版本的配置文件。
 
 要下载 SDK，请执行以下操作：
 
-1. Download, unzip the `[Your_App_Name_]AdobeMobileLibrary-4.*-iOS.zip` file and verify that you have the following software components:
+1. 下载并解压缩 `[Your_App_Name_]AdobeMobileLibrary-4.*-iOS.zip` 文件，同时确认具有以下软件组件：
 
    * `ADBMobile.h`，用于 iOS AppMeasurement 的 Objective-C 头文件。
    * `ADBMobileConfig.json`，为您的应用程序自定义的 SDK 配置文件。
-   * `AdobeMobileLibrary.a`、支持位代码的胖二进制文件，它包含用于iOS设备(armv7、armv7s、arm64)和模拟器(i386、x86_64)的库构建。
+   * `AdobeMobileLibrary.a`，启用 bitcode 的胖二进制文件，其中包含为 iOS 设备（armv7、armv7s、arm64）和模拟器（i386、x86_64）生成的库。
 
       当目标面向 iOS 应用程序时，应该关联此胖二进制文件。
 
@@ -50,35 +50,35 @@ source-git-commit: 4db9781e6e1e75a04d9715a41c5a32c10ede1bf4
 
 >[!IMPORTANT]
 >
->If you download the SDK outside the Adobe Mobile services UI, the `ADBMobileConfig.json` file must be manually configured. If you are new to Analytics and the Mobile SDK, see [Before You Start](/help/ios/getting-started/requirements.md) to set up a development report suite and download a pre-populated version of the configuration file.
+>如果您在 Adobe Mobile Services 用户界面之外下载 SDK，则必须手动配置 `ADBMobileConfig.json` 文件。如果您是初次使用 Analytics 和 Mobile SDK，请参阅[开始之前](/help/ios/getting-started/requirements.md)以设置一个开发报表包并下载预填充版本的配置文件。
 
-## Add the SDK and config file to your project {#section_93C25D893B4A4CD3B996CF3C5590C8DC}
+## 将 SDK 和配置文件添加到您的项目 {#section_93C25D893B4A4CD3B996CF3C5590C8DC}
 
 1. 启动 Xcode IDE 并打开您的应用程序。
 1. 在项目导航器中，将 `AdobeMobileLibrary` 文件夹拖放到您的项目下。
 1. 确认以下内容：
 
-   * 已选中&#x200B;**[!UICONTROL 根据需要复制项目]复选框。**
-   * **[!UICONTROL 已选中创建组]**。
-   * 未选中&#x200B;**[!UICONTROL 添加到目标]部分中的任何复选框。**
+   * 已选中&#x200B;**[!UICONTROL 根据需要复制项目]**&#x200B;复选框。
+   * 已选中&#x200B;**[!UICONTROL 创建群组]**。
+   * 未选中&#x200B;**[!UICONTROL 添加到目标]**&#x200B;部分中的任何复选框。
    ![](assets/step_3.png)
 
-1. Click **[!UICONTROL Finish]**.
-1. In **[!UICONTROL Project Navigator]**, select **[!UICONTROL`ADBMobileConfig.json`]**.
-1. In **[!UICONTROL File Inspector]**, add the JSON file to any targets in your project that will use the Adobe SDK.
+1. 单击&#x200B;**[!UICONTROL 完成]**。
+1. 在&#x200B;**[!UICONTROL 项目导航器]**&#x200B;中，选择 **[!UICONTROL`ADBMobileConfig.json`]**。
+1. 在&#x200B;**[!UICONTROL 文件检查器]**&#x200B;中，将该 JSON 文件添加到您的项目中将使用 Adobe SDK 的任何目标。
 
    ![](assets/step_4.png)
 
-1. In **[!UICONTROL Project Navigator]**, complete the following steps:
+1. 在&#x200B;**[!UICONTROL 项目导航器]**&#x200B;中，完成以下步骤：
 
    1. 单击您的应用程序。
-   1. 在&#x200B;**[!UICONTROL 常规]**&#x200B;选项卡上，选择您的目标并关联&#x200B;**[!UICONTROL 关联的框架]和**&#x200B;库]部分中的所需框架和库。**[!UICONTROL **
+   1. 在&#x200B;**[!UICONTROL 常规]**&#x200B;选项卡上，选择您的目标并关联&#x200B;**[!UICONTROL 关联的框架]**&#x200B;和&#x200B;**[!UICONTROL 库]**&#x200B;部分中的所需框架和库。
    * **iOS 应用程序目标**
       * `SystemConfiguration.framework`
       * `WebKit.framework`
       * `libsqlite3.0.tbd`
       * `AdobeMobileLibrary.a`
-      * `CoreLocation.framework` （可选，但是地理跟踪功能需要）
+      * `CoreLocation.framework`（可选，但是对于“地理跟踪”功能是必需的）
    * **iOS 扩展目标**
 
       * `SystemConfiguration.framework`
@@ -95,19 +95,19 @@ source-git-commit: 4db9781e6e1e75a04d9715a41c5a32c10ede1bf4
       * `AdobeMobileLibrary\_TV.a`
    >[!CAUTION]
    >
-   > Linking more than one `AdobeMobileLibrary*.a` file in the same target will result in unexpected behavior or the inability to build.
+   > 在同一目标中关联多个 `AdobeMobileLibrary*.a` 文件将导致意外行为或无法执行生成操作。
 
 1. 确认您的应用程序在生成时没有出现错误。
 
-## Implement lifecycle metrics {#section_532702562A7A43809407C9A2CBA80E1E}
+## 实施生命周期量度 {#section_532702562A7A43809407C9A2CBA80E1E}
 
 >[!IMPORTANT]
 >
->iOS will send lifecycle information with or without calling `collectlifecycledata`, and `collectlifecycledata` is only a way to initiate lifecycle earlier in the application's launch sequence.
+>无论是否调用 `collectlifecycledata`，iOS 都将发送生命周期信息；`collectlifecycledata` 是在应用程序启动序列中提前启动生命周期的唯一方法。
 
-After you enable lifecycle, each time your app is launched, one hit is sent to measure launches, upgrades, sessions, engaged users, and other [Lifecycle Metrics](/help/ios/metrics.md).
+启用生命周期后，每次启动您的应用程序时，系统都会发送一个点击来测量启动次数、升级次数、会话数、参与用户数及其他[生命周期量度](/help/ios/metrics.md)。
 
-添加 `collectLifecycleData`/ `collectLifecycleDataWithAdditionalData` 呼叫 `application:didFinishLaunchingWithOptions`:
+在 `application:didFinishLaunchingWithOptions` 中添加一个 `collectLifecycleData`/`collectLifecycleDataWithAdditionalData` 调用：
 
 ```objective-c
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions { 
@@ -116,13 +116,13 @@ After you enable lifecycle, each time your app is launched, one hit is sent to m
 }
 ```
 
-### Include additional data with lifecycle calls
+### 通过生命周期调用包含其他数据
 
 要通过生命周期量度调用包含其他数据，请使用 `collectLifecycleDataWithAdditionalData`：
 
 >[!IMPORTANT]
 >
->Any data that is passed to the SDK through `collectLifecycleDataWithAdditionalData:` is persisted in `NSUserDefaults` by the SDK. SDK 会删除 `NSDictionary` 参数中类型不为 `NSString` 或 `NSNumber` 的值。
+>通过 `collectLifecycleDataWithAdditionalData:` 传递到 SDK 的任何数据将由 SDK 保留在 `NSUserDefaults` 中。SDK 会删除 `NSDictionary` 参数中类型不为 `NSString` 或 `NSNumber` 的值。
 
 ```objective-c
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions { 
