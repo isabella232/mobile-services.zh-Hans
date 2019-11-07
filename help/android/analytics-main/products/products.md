@@ -1,23 +1,23 @@
 ---
 description: 无法使用处理规则设置产品变量。在 Mobile SDK 中，您必须在上下文数据参数中使用专门的语法，以在服务器调用中设置产品。
-keywords: android;library;mobile;sdk
+keywords: Android;库;移动;SDK
 seo-description: 无法使用处理规则设置产品变量。在 Mobile SDK 中，您必须在上下文数据参数中使用专门的语法，以在服务器调用中设置产品。
 seo-title: 产品变量
 solution: Marketing Cloud,Analytics
 title: 产品变量
 topic: 开发人员和实施
-uuid: f4484022-cb8b-4dea-9209-5a10ba607df
-translation-type: tm+mt
+uuid: f4484022-cb8b-4dea-9209-5a110ba607df
+translation-type: ht
 source-git-commit: 7aff336586058302046a728a0b1b0ce12660c1ba
 
 ---
 
 
-# Products variable {#products-variable}
+# 产品变量 {#products-variable}
 
 无法使用处理规则设置产品变量。在 Mobile SDK 中，您必须在上下文数据参数中使用专门的语法，以在服务器调用中设置产品。
 
-To set the *products* variable, set a context data key to `"&&products"`, and set the value by using the syntax that is defined for the *products* variable:
+要设置“产品”**&#x200B;变量，请将上下文数据键设置为 `"&&products"`，然后使用为“产品”**&#x200B;变量定义的语法来设置值：
 
 ```java
 cdata.put("&&products", "Category;Product;Quantity;Price[,Category;Product;Quantity;Price]");
@@ -42,8 +42,8 @@ Analytics.trackAction("purchase", cdata);
 Analytics.trackState("Order Confirmation", cdata);
 ```
 
-The *products* variable is set on the image request, and the other variables are set as context data. 必须使用处理规则映射所有上下文数据变量：
+“产品”**&#x200B;变量在图像请求中设置，而其他变量则设置为上下文数据。必须使用处理规则映射所有上下文数据变量：
 
 ![](assets/map-products.png)
 
-您不需要使用处理规则映射 *products* variable by using processing rules because this variable is set directly on the image request by the SDK.
+您不需要使用处理规则映射“产品”**&#x200B;变量，因为该变量是由 SDK 直接在图像请求中设置的。
