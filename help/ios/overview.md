@@ -6,8 +6,8 @@ solution: Marketing Cloud,Analytics
 title: 适用于 Experience Cloud 解决方案的 iOS SDK 4.x
 topic: 开发人员和实施
 uuid: 8b374cee-1432-460b-aac2-70623dd80a04
-translation-type: ht
-source-git-commit: 6d92beff55f359d667b399e66bae4cbffa4a1a0a
+translation-type: tm+mt
+source-git-commit: cb4a549d889d169bdf8ab0bb997d5c95f44f073e
 
 ---
 
@@ -28,14 +28,14 @@ source-git-commit: 6d92beff55f359d667b399e66bae4cbffa4a1a0a
 
 查找与 Adobe Experience Platform Mobile SDK 相关的信息和文档？单击[此处](https://aep-sdks.gitbook.io/docs/)可获取最新的文档。
 
-在 2018 年 9 月，我们发布了一个新的 SDK 主要版本。这些新的 Adobe Experience Platform Mobile SDK 可通过 [Experience Platform Launch](https://www.adobe.com/cn/experience-platform/launch.html) 进行配置。
+在 2018 年 9 月，我们发布了一个新的 SDK 主要版本。这些新的 Adobe Experience Platform Mobile SDK 可通过 [Experience Platform Launch](https://www.adobe.com/experience-platform/launch.html) 进行配置。
 
 * 要开始配置，请转到 Adobe Experience Platform Launch。
 * 要查看 Experience Platform SDK 存储库中的内容，请转到 [Github：Adobe Experience Platform SDK](https://github.com/Adobe-Marketing-Cloud/acp-sdks)。
 
 请牢记以下信息：
 
-* 支持 iOS 5 或更高版本
+* 支持 iOS 8 或更高版本
 
    对于 iOS 11 或更高版本，**必须**&#x200B;安装 SDK 版本 4.13.8 或更高版本。
 
