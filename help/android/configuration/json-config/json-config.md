@@ -6,15 +6,15 @@ solution: Marketing Cloud,Analytics
 title: ADBMobile JSON 配置
 topic: 开发人员和实施
 uuid: 1decf605-7bc3-4e73-ad52-1ecd5821599e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 19264af3f4a675add6f61c27f4cdaf20033b9bb7
 
 ---
 
 
-# ADBMobile JSON config file {#adbmobile-json-config}
+# ADBMobile JSON 配置文件 {#adbmobile-json-config}
 
-此信息可帮助您了解ADBMobile.json配置文件中的变量。
+此信息可帮助您了解 ADBMobile.json 配置文件中的变量。
 
 ## `ADBMobileConfig.json` 配置文件引用 {#section_5AD4EDF87E304980B4AC4A5657FDA8B9}
 
@@ -22,25 +22,25 @@ source-git-commit: 19264af3f4a675add6f61c27f4cdaf20033b9bb7
 
 >[!TIP]
 >
->In **Android**, the `ADBMobileConfig.json` file must be placed in the `assets` folder.
+>在 **Android** 中，必须将 `ADBMobileConfig.json` 文件放置在 `assets` 文件夹中。
 
-以下是JSON文件中的变量列表以及每个变量所需的最低SDK版本：
+以下是 JSON 文件中的变量列表，以及每个变量所需的最低 SDK 版本：
 
 * **acquisition**
    * 最低 SDK 版本：4.1
    * 启用移动设备应用程序客户获取。
       * `server`，首次启动时在其中检查客户获取反向链接的客户获取服务器。
       * `appid`，客户获取服务器上生成的唯一标识此应用程序的 ID。
-   如果缺少此部分，请启用移动设备应用程序客户获取并再次下载 SDK 配置文件。有关详细信息，请参 *阅此变量列表* 中的referrerTimeout。
+   如果缺少此部分，请启用移动设备应用程序客户获取并再次下载 SDK 配置文件。有关更多信息，请参阅此变量列表中的 *referrerTimeout*。
 
 * **analyticsForwardingEnabled**
-   * SDK的最低版本为4.8.0。
-   * 默认值为 `false`.
+   * 最低 SDK 版本：4.8.0。
+   * 默认值为 `false`。
 
       `audienceManager` 对象中的属性。如果配置了 Audience Manager，并且将 `analyticsForwardingEnabled` 设置为 `true`，则所有 Analytics 流量也将转发至 Audience Manager。
 
 * **backdateSessionInfo**
-   * 最低 SDK 版本：4.6.
+   * 最低 SDK 版本：4.6。
    * 启用/禁用 Adobe SDK 回溯会话信息点击量的功能。
 
       会话信息点击量当前包含崩溃次数和会话时长，可以启用或者禁用该功能。
@@ -53,7 +53,7 @@ source-git-commit: 19264af3f4a675add6f61c27f4cdaf20033b9bb7
 
          >[!IMPORTANT]
          >
-         >在会话信息服务器调用中发送回溯的会话点击信息，并且可能会应用其他服务器调用。
+         >回溯的会话点击信息是在会话信息服务器调用中发送的，其他服务器调用也可能适用。
 
 * **batchLimit**
    * 最低 SDK 版本：4.1
@@ -78,19 +78,19 @@ source-git-commit: 19264af3f4a675add6f61c27f4cdaf20033b9bb7
 
       >[!IMPORTANT]
       >
-      >Target需要此变量。
+      >这是 Target 的必需变量。
 
 * **coopUnsafe**
    * 最低 SDK 版本：4.16.1
-   * The Boolean property of the `marketingCloud` object that, when set to `true`, causes the device to be opted-out of the Experience Cloud's Device Co-Op.
-   * 默认值为 `false`.
+   * `marketingCloud` 对象的布尔属性，将该属性设置为 `true` 后，会导致设备退出 Experience Cloud 设备协作。
+   * 默认值为 `false`。
    * 这项设置&#x200B;**仅**&#x200B;适用于已配置设备协作的客户。
    对于要求将该值设置为 `true` 的设备协作成员，您需要与相应的协作团队合作，以申请关于您的设备协作帐户上的黑名单标记。不存在启用这些标记的自助途径。
 
    请牢记以下信息：
 
-   * When `coopUnsafe` is set to `true`, `coop_unsafe=1` will always be appended to Audience Manager and Visitor ID hits.
-   * If you enable Analytics server-side forwarding to Audience Manager, you will also see `coop_unsafe=1` Analytics hits.
+   * 如果将 `coopUnsafe` 设置为 `true`，则会始终将 `coop_unsafe=1` 附加到 Audience Manager 和访客 ID 点击中。
+   * 如果启用到 Audience Manager 的 Analytics 服务器端转发，则还将会在 Analytics 点击中看到 `coop_unsafe=1`。
 
 
 * **environmentId**
@@ -103,7 +103,7 @@ source-git-commit: 19264af3f4a675add6f61c27f4cdaf20033b9bb7
    * 最低 SDK 版本：4.0
    * 默认值为 300 秒。
 
-      指定应用程序启动（但在启动被视为新会话之前）必须间隔的时长（以秒为单位）。此超时也包括应用程序被发送到后台运行到重新启动应用程序的时间。
+      指定应用程序启动（但在启动被视为新会话之前）必须间隔的时长（以秒为单位）。此超时也适用于应用程序被发送到后台后又重新启用的情况。
 
       会话时间长度不包括应用程序在后台中运行的时间。
 
@@ -119,11 +119,11 @@ source-git-commit: 19264af3f4a675add6f61c27f4cdaf20033b9bb7
 
       报表包必须启用时间戳才能使用离线跟踪。
 
-      默认值为 `false`.
+      默认值为 `false`。
 
       >[!IMPORTANT]
       >
-      >如果报表包已启用时间戳，那么您的 `offlineEnabled` 配置属性&#x200B;**必须**&#x200B;为 true。如果您的报表包未启用时间戳，则 `offlineEnabled` 配置属性&#x200B;**必须**&#x200B;为 false。
+      >如果报表包已启用时间戳，则 `offlineEnabled` 配置属性&#x200B;**必须**&#x200B;为 true。如果报表包未启用时间戳，则 `offlineEnabled` 配置属性&#x200B;**必须**&#x200B;为 false。
       >
       >如果配置不正确，数据将会丢失。如果您不确定报表包是否已启用时间戳，请联系客户关怀团队或从 Adobe Mobile Services 下载配置文件。
 
@@ -154,7 +154,7 @@ source-git-commit: 19264af3f4a675add6f61c27f4cdaf20033b9bb7
       …/yourfile.json”`,
       ```
 
-      如果未配置此设置，必须更新 `ADBMobile.json` 文件以包含此行。要下载更新的配置文件，请参 [阅启动前](/help/android/getting-started/requirements.md)。
+      如果未配置此设置，必须更新 `ADBMobile.json` 文件以包含此行。要下载更新后的配置文件，请参阅[开始之前](/help/android/getting-started/requirements.md)。
 
 * **postback**
    * 最低 SDK 版本：4.6
@@ -168,15 +168,15 @@ source-git-commit: 19264af3f4a675add6f61c27f4cdaf20033b9bb7
         "timeout": 0 // optional - number of seconds to wait before timing out.  Default is 2.}
       ```
 
-      The `payload` object in the code is a sample payload for a message definition that goes in the `ADBMobileConfig.json` file. For more information, see [Postbacks](/help/android/analytics-main/postbacks/postbacks.md).
+      代码中的 `payload` 对象是用于消息定义的有效负荷示例，将会进入 `ADBMobileConfig.json` 文件中。有关更多信息，请参阅[回发](/help/android/analytics-main/postbacks/postbacks.md)。
 
 * **privacyDefault**
    * 最低 SDK 版本：4.0
-   * 默认值为 `optedin`.
+   * 默认值为 `optedin`。
       * 如果为 `optedin`，将会立即发送点击。
       * 如果为 `optedout`，将会丢弃点击。
       * 如果为 `optunknown`，当您的报表包启用了时间戳时，将会保存点击，直到隐私状态更改为选择启用（发送点击）或选择禁用（丢弃点击）。
-      If your report suite is not timestamp-enabled, hits are discarded until the privacy status changes to `optedin`.  这仅设置初始值。如果在代码中设置或更改了此值，则会使用新值，直到再次进行更改或者卸载并重新安装应用程序为止。
+      如果您的报表包未启用时间戳，则将丢弃点击，直到隐私状态更改为 `optedin`。这仅设置初始值。如果在代码中设置或更改了此值，则会使用新值，直到再次进行更改或者卸载并重新安装应用程序为止。
 
 
 * **referrerTimeout**
@@ -185,7 +185,7 @@ source-git-commit: 19264af3f4a675add6f61c27f4cdaf20033b9bb7
 
       >[!IMPORTANT]
       >
-      >客户获取需要此变量。 如果将该变量设置为 `0` 或未包含该变量，SDK 将不会等待客户获取数据，而且也不会跟踪客户获取量度。
+      >这是客户获取的必需变量。如果将该变量设置为 `0` 或未包含该变量，SDK 将不会等待客户获取数据，而且也不会跟踪客户获取量度。
 
 * **remotes**
    * 最低 SDK 版本：4.2
@@ -209,15 +209,15 @@ source-git-commit: 19264af3f4a675add6f61c27f4cdaf20033b9bb7
 
       >[!IMPORTANT]
       >
-      >This variable is required by Analytics.
+      >这是 Analytics 的必需变量。
 
 * **server**
    * 最低 SDK 版本：4.0
-   * 基于父节点的 Analytics 或受众管理服务器。This variable should be populated with the server domain, without an `https://` or `https://` protocol prefix. 此前缀基于 `ssl` 变量，将由库自动处理。如果 `ssl` 为 `true`，则对此服务器进行安全连接。如果 `ssl` 为 `false`，则对此服务器进行非安全连接。
+   * 基于父节点的 Analytics 或受众管理服务器。应当使用不含 `https://` 或 `https://` 协议前缀的服务器域填充此变量。此前缀基于 `ssl` 变量，将由库自动处理。如果 `ssl` 为 `true`，则对此服务器进行安全连接。如果 `ssl` 为 `false`，则对此服务器进行非安全连接。
 
 * **ssl**
    * 最低 SDK 版本：4.0
-   * 默认值为 `false`.
+   * 默认值为 `false`。
 
       启用 (`true`) 或禁用 (`false`) 使用 SSL (HTTPS) 发送测量数据的功能。
 
@@ -236,7 +236,7 @@ source-git-commit: 19264af3f4a675add6f61c27f4cdaf20033b9bb7
    * 确定 Target 等待响应的时间。
 
 
-## Sample `ADBMobileConfig.json` file {#section_4655EF79744649E5A5AE19E3224C472C}
+## `ADBMobileConfig.json` 示例文件 {#section_4655EF79744649E5A5AE19E3224C472C}
 
 以下是一个 `ADBMobileConfig.json` 示例文件：
 
