@@ -2,49 +2,49 @@
 description: 您可以查看应用程序内消息和推送消息的消息报表。
 keywords: mobile
 seo-description: 您可以查看应用程序内消息和推送消息的消息报表。
-seo-title: View message reports
+seo-title: 查看消息报表
 solution: Marketing Cloud,Analytics
-title: 查看消息报告
+title: 查看消息报表
 topic: 量度
 uuid: 0ac73a81-388f-4dfd-84d5-21b8db4b8c83
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 44f531ad140827d563255fad197811185c5337c9
 
 ---
 
 
-# View message reports{#view-message-reports}
+# 查看消息报表{#view-message-reports}
 
 您可以查看应用程序内消息和推送消息的消息报表。
 
-1. Click ![report icon](assets/icon_report.png) in the **[!UICONTROL Report]** column for a message.
-1. (**Optional**) Create a sticky filter for the report or change the time period by clicking the **[!UICONTROL Calendar]** icon.
+1. 单击某个消息&#x200B;**[!UICONTROL 报表]**&#x200B;列中的 ![报表图标](assets/icon_report.png)。
+1. （**可选**）为报表创建置顶过滤器，或通过单击&#x200B;**[!UICONTROL 日历]**&#x200B;图标来更改时间段。
 
-   For more information about creating a sticky filter, see Add a sticky filter.[](/help/using/usage/reports-customize/t-sticky-filter.md)
+   有关创建置顶过滤器的更多信息，请参阅[添加置顶过滤器](/help/using/usage/reports-customize/t-sticky-filter.md)。
 
 >[!TIP]
 >
->根据您查看的消息类型，报告可能会有所不同。
+>根据您查看的消息类型，报表可能会有所不同。
 
-## In-app messages {#section_90B79BA58E8141F78538C187EB1BF8C7}
+## 应用程序内消息 {#section_90B79BA58E8141F78538C187EB1BF8C7}
 
 如果您查看的是应用程序内消息的报表，则该报表类似于以下插图：
 
-![report message](assets/report_message.png)
+![报表消息](assets/report_message.png)
 
-### In-app message metrics
+### 应用程序内消息量度
 
-Here is a list of the metrics that are available for in-app messages:
+以下是可用于应用程序内消息的量度列表：
 
-* **[!UICONTROL 印象]**，消息触发时。
+* **[!UICONTROL 展示]**，消息触发时。
 
-* **[!UICONTROL 点进]**，当用户按下警报或全屏消息上的“点进 **** ”按钮时，以及用户从本地通知打开应用程序时。
+* **[!UICONTROL 点进]**，用户按下警报或全屏消息上的&#x200B;**[!UICONTROL 点进]**&#x200B;按钮时，以及用户从本地通知中打开应用程序时。
 
-* **[!UICONTROL 取消]**，当用户按下警报或全 **[!UICONTROL 屏消息上的]** “取消”按钮时。
+* **[!UICONTROL 取消]**，用户按下警报或全屏消息上的&#x200B;**[!UICONTROL 取消]**&#x200B;按钮时。
 
-* **[!UICONTROL 参与率]**,Adobe Analytics的一个计算量度，它是点击次数除以展示次数的结果。
+* **[!UICONTROL 参与率]**，这是 Adobe Analytics 的一种计算量度，它是用点进次数除以展示次数得来的。
 
-## Push messages {#section_BEAFD858CA194185B6F88903446058E9}
+## 推送消息 {#section_BEAFD858CA194185B6F88903446058E9}
 
 如果您查看的是推送消息的报表，则该报表类似于以下插图：
 
@@ -52,9 +52,9 @@ Here is a list of the metrics that are available for in-app messages:
 
 顶部的图表显示了已打开消息的用户数量。
 
-### Push message metrics
+### 推送消息量度
 
-Here is a list of the metrics that are available for push messages:
+以下是可用于推送消息的量度列表：
 
 * **[!UICONTROL 时间]**
 
@@ -62,24 +62,24 @@ Here is a list of the metrics that are available for push messages:
 
 * **[!UICONTROL 状态]**
 
-   The status of the message, and the available statuses are:
+   消息的状态，可用状态包括：
 
-   * **[!UICONTROL Cancelled]**
+   * **[!UICONTROL 已取消]**
    * **[!UICONTROL 已计划]**
-   * **[!UICONTROL Executing]**
+   * **[!UICONTROL 正在执行]**
    * **[!UICONTROL 已执行]**
 
 * **[!UICONTROL 已发布]**
 
-   成功发送到Apple Push Notification Service/Firebase Cloud Messaging(APNS/FCM)以向用户设备发送消息的设备令牌数。
+   成功发送到 Apple 推送通知服务/Firebase Cloud Messaging (APNS/FCM) 以将消息发送到用户设备的设备令牌数量。
 
 * **[!UICONTROL 失败]**
 
-   The number of device tokens not successfully sent to APNS/FCM. 失败的一些可能原因：
+   未成功发送到 APNS/FCM 的设备令牌数量。一些可能导致失败的原因有：
 
    * pushID 无效
 
-   * 为作业应用程序提供的推送平台（APNS、FCM等）不存在。 例如，此平台可收集 iOS 推送令牌但并未配置 APNS 服务。
+   * 给定的用来接收令牌的推送平台（APNS、FCM 等）不具备可执行此任务的相应设置。例如，此平台可收集 iOS 推送令牌但并未配置 APNS 服务。
 
    * 消息可能会因为推送服务配置错误或 Mobile Services 系统关闭而推送失败。
    >[!IMPORTANT]
@@ -88,4 +88,4 @@ Here is a list of the metrics that are available for push messages:
 
 * **[!UICONTROL 已列入黑名单]**
 
-   不再有效的设备令牌数发送到APNS或FCM。 这通常意味着该应用程序已从设备中卸载，或用户更改了用来接收消息的选择启用设置。对于在何时将令牌计入黑名单，Android 和 iOS 存在不同。Android 令牌会立即在列入黑名单的计数中显示。iOS 令牌最初会显示为已发布，但随后会根据来自 APNS 的反馈在后续消息中显示为已列入黑名单。
+   不能再被发送到 APNS 或 FCM 的设备令牌数量。这通常意味着该应用程序已从设备中卸载，或用户更改了用来接收消息的选择启用设置。对于在何时将令牌计入黑名单，Android 和 iOS 存在不同。Android 令牌会立即在列入黑名单的计数中显示。iOS 令牌最初会显示为已发布，但随后会根据来自 APNS 的反馈在后续消息中显示为已列入黑名单。
