@@ -1,30 +1,30 @@
 ---
 description: 以下是 iOS 库提供的 Adobe Target 方法列表。
 seo-description: 以下是 iOS 库提供的 Adobe Target 方法列表。
-seo-title: iOS Target Methods for Adobe Mobile Services
+seo-title: 适用于 Adobe Mobile Services 的 iOS Target 方法
 solution: Marketing Cloud,Analytics
-title: Target Methods for iOS
+title: 适用于 iOS 的 Target 方法
 topic: 开发人员和实施
 uuid: 692bcda1-02ba-4902-bd65-15888adf1952
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8dc075603544aaab7fdedb1ff10a12f7fa7e21f5
 
 ---
 
 
-# iOS的目标方法 {#target-methods}
+# 适用于 iOS 的 Target 方法 {#target-methods}
 
 以下是 iOS 库提供的 Adobe Target 方法列表。
 
-The SDK currently has support for multiple Adobe Experience Cloud Solutions, including Analytics, Target, Audience Manager, and the Adobe Experience Platform Identity Service. 方法将根据解决方案来添加前缀。例如， 方法的前缀为 `target`target。
+SDK 当前支持多个 Adobe Experience Cloud 解决方案，包括 Analytics、Target、Audience Manager 和 Adobe Experience Platform Identity Service。方法将根据解决方案来添加前缀。例如，Target 方法的前缀为 `target`。
 
 >[!TIP]
 >
->生命周期量度将作为参数发送至每个 mbox 负载。有关更多信息，请参阅[生命周期量度](/help/ios/metrics.md)。如果您是在委托方法中发送Target请 `didFinishLaunching` 求，请在Target实施代 `[ADBMobile trackAction:data:]` 码之 `[ADBMobile trackState:data:]` 前添加或调用。 这样，Target请求将包含完整的生命周期数据。
+>生命周期量度将作为参数发送至每个 mbox 负载。有关更多信息，请参阅[生命周期量度](/help/ios/metrics.md)。如果您在 `didFinishLaunching` 委托方法中发送 Target 请求，请在 Target 实施代码前添加 `[ADBMobile trackAction:data:]` 或 `[ADBMobile trackState:data:]` 调用。这样，Target 请求将包含完整的生命周期数据。
 
 ## 类引用：ADBTargetLocationRequest
 
-### 资产
+### 属性
 
 ```objective-c
 NSString *name; 
@@ -32,11 +32,11 @@ NSString *defaultContent;
 NSMutableDictionary *parameters;
 ```
 
-### String constants
+### 字符串常量
 
 >[!TIP]
 >
->为自定义参数设置键时，以下常量易于使用。
+>在为自定义参数设置键时，可以方便地使用以下常量。
 
 ```iOS
 NSString *const ADBTargetParameterOrderId; 
@@ -52,10 +52,10 @@ NSString *const ADBTargetParameterMboxHost;
 
 >[!IMPORTANT]
 >
->* If you are using SDKs **before** version 4.14.0, see [Input Parameters](https://developers.adobetarget.com/api/#input-parameters) for parameters limitations.
+>* 如果您使用的是&#x200B;**低于** 4.14.0 版本的 SDK，请参阅[输入参数](https://developers.adobetarget.com/api/#input-parameters)以了解参数限制。
    >
    >
-* If you are using SDKs version 4.14.0 **or after**, see [Batch Input Parameters](https://developers.adobetarget.com/api/#batch-input-parameters) for parameters limitations.
+* 如果您使用的是 4.14.0 版本&#x200B;**或更高版本**&#x200B;的 SDK，请参阅[批量输入参数](https://developers.adobetarget.com/api/#batch-input-parameters)以了解参数限制。
 
 
 ### 方法
@@ -64,14 +64,14 @@ NSString *const ADBTargetParameterMboxHost;
 
    向您配置的 Target 服务器发送 request，并返回在块 `callback` 中生成的选件的字符串值。
 
-   * 下面是这种方法对应的语法：
+   * 以下是此方法的语法：
 
       ```objective-c
       + (void) targetLoadRequest:(ADBTargetLocationRequest *)request
                         callback:(void (^)(NSString *content))callback;
       ```
 
-   * 以下是这种方法的代码示例：
+   * 以下是此方法的代码示例：
 
       ```objective-c
       [ADBMobile targetLoadRequest:myRequest
@@ -84,7 +84,7 @@ NSString *const ADBTargetParameterMboxHost;
 
    向您配置的 Target 服务器发送请求，并返回在块回调中生成的选件的字符串值。
 
-   * 下面是这种方法对应的语法：
+   * 以下是此方法的语法：
 
       ```objective-c
       + (void) targetLoadRequestWithName:(nullable NSString *)name
@@ -97,7 +97,7 @@ NSString *const ADBTargetParameterMboxHost;
                                  * __nullable content))callback;
       ```
 
-   * 返回：N/A
+   * 返回：不适用
 
    * 以下是此方法的参数：
 
@@ -137,7 +137,7 @@ NSString *const ADBTargetParameterMboxHost;
          此方法将通过来自 Target 服务器的选件内容进行调用。如果 Target 服务器不可访问，或者用户不符合促销活动资格，则将返回 defaultContent。
       **类型**：函数
 
-   * 以下是这种方法的代码示例：
+   * 以下是此方法的代码示例：
 
       ```objective-c
       [ADBMobile targetLoadRequestWithName:@"myHeroBanner"
@@ -152,7 +152,7 @@ NSString *const ADBTargetParameterMboxHost;
                                  }];
       ```
 
-      有关基础Target API的详细信息，请参 [阅Adobe Target开发人员](https://docs.adobe.com/dev/products/target/reference/delivery.html)。
+      有关基础 Target API 的更多信息，请参阅 [Adobe Target 开发人员](https://docs.adobe.com/dev/products/target/reference/delivery.html)。
 
 
 
@@ -164,7 +164,7 @@ NSString *const ADBTargetParameterMboxHost;
 
    向您配置的 Target 服务器发送 request，并返回在块 callback 中生成的选件的字符串值。
 
-   * 下面是这种方法对应的语法：
+   * 以下是此方法的语法：
 
       ```objective-c
       + (void) targetLoadRequestWithName:(nullable NSString *)name
@@ -175,7 +175,7 @@ NSString *const ADBTargetParameterMboxHost;
                                callback:(nullable void (^)(NSString * __nullable content))callback;
       ```
 
-   * 以下是这种方法的代码示例：
+   * 以下是此方法的代码示例：
 
       ```objective-c
       [ADBMobile targetLoadRequestWithName:@"mboxName"
@@ -193,7 +193,7 @@ NSString *const ADBTargetParameterMboxHost;
 
    创建 `ADBTargetLocationRequest`。
 
-   * 下面是这种方法对应的语法：
+   * 以下是此方法的语法：
 
       ```objective-c
       + (ADBTargetLocationRequest *)
@@ -208,7 +208,7 @@ NSString *const ADBTargetParameterMboxHost;
 
    一个方便使用的构造函数，用于使用给定参数创建 ADBTargetLocationRequest 对象。
 
-   * 下面是这种方法对应的语法：
+   * 以下是此方法的语法：
 
       ```objective-c
       + (ADBTargetLocationRequest *)
@@ -217,7 +217,7 @@ NSString *const ADBTargetParameterMboxHost;
                                parameters:(NSDictionary *)parameters;
       ```
 
-   * 以下是这种方法的代码示例：
+   * 以下是此方法的代码示例：
 
       ```objective-c
       ADBTargetLocationRequest *myRequest =  
@@ -230,13 +230,13 @@ NSString *const ADBTargetParameterMboxHost;
 
    返回第三方 ID。
 
-   * 下面是这种方法对应的语法：
+   * 以下是此方法的语法：
 
       ```objective-c
       + (nullable NSString *) targetThirdPartyID;
       ```
 
-   * 以下是这种方法的代码示例：
+   * 以下是此方法的代码示例：
 
       ```objective-c
       NSString *thirdPartyId = [ADBMobile targetThirdPartyID];
@@ -246,13 +246,13 @@ NSString *const ADBTargetParameterMboxHost;
 
    设置第三方 ID。
 
-   * 下面是这种方法对应的语法：
+   * 以下是此方法的语法：
 
       ```objective-c
       + (void) targetSetThirdPartyID:(nullable NSString *)thirdPartyID;
       ```
 
-   * 以下是这种方法的代码示例：
+   * 以下是此方法的代码示例：
 
       ```objective-c
       [ADBMobile targetSetThirdPartyID:@"thirdPartyID"];
@@ -264,15 +264,15 @@ NSString *const ADBTargetParameterMboxHost;
 
    >[!TIP]
    >
-   >自SDK版本4.10.0起，Target不再使用cookies。 此方法会重置 thirdPartyID 和 sessionID。
+   >自 SDK 版本 4.10.0 起，Target 不再使用 Cookie。此方法会重置 thirdPartyID 和 sessionID。
 
-   * 下面是这种方法对应的语法：
+   * 以下是此方法的语法：
 
       ```objective-c
       + (void) targetClearCookies;
       ```
 
-   * 以下是这种方法的代码示例：
+   * 以下是此方法的代码示例：
 
       ```objective-c
       [ADBMobile targetClearCookies];
@@ -282,13 +282,13 @@ NSString *const ADBTargetParameterMboxHost;
 
    返回 PcID。
 
-   * 下面是这种方法对应的语法：
+   * 以下是此方法的语法：
 
       ```objective-c
       + (nullable NSString *) targetPcID;
       ```
 
-   * 以下是这种方法的代码示例：
+   * 以下是此方法的代码示例：
 
       ```objective-c
       NSString *myTargetPcID = [ADBMobile targetPcID];
@@ -298,13 +298,13 @@ NSString *const ADBTargetParameterMboxHost;
 
    返回 SessionID。
 
-   * 下面是这种方法对应的语法：
+   * 以下是此方法的语法：
 
       ```objective-c
       + (nullable NSString *) targetPcID;
       ```
 
-   * 以下是这种方法的代码示例：
+   * 以下是此方法的代码示例：
 
       ```objective-c
       NSString *myTargetSessionID = [ADBMobile targetSessionID];
