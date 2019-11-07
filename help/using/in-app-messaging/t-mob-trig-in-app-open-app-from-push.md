@@ -4,13 +4,13 @@ seo-description: 您可以将应用程序内消息触发器设置为在用户从
 seo-title: 在从推送消息中打开应用程序时触发应用程序内消息
 title: 在从推送消息中打开应用程序时触发应用程序内消息
 uuid: e1c8e29d-1c2b-47b2-8ab2-6b6e15df86f6
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 114bce95e41c8e13695689dd2da2dbc04cb17ad7
 
 ---
 
 
-# Trigger an in-app message when the app is opened from a push message{#trigger-an-in-app-message-when-the-app-is-opened-from-a-push-message}
+# 在从推送消息中打开应用程序时触发应用程序内消息{#trigger-an-in-app-message-when-the-app-is-opened-from-a-push-message}
 
 您可以将应用程序内消息触发器设置为在用户从推送消息打开应用程序时发送的推送消息 ID。
 
@@ -28,9 +28,9 @@ source-git-commit: 114bce95e41c8e13695689dd2da2dbc04cb17ad7
 
    >[!TIP]
    >
-   >推送消息ID是您在步骤1中找到的ID。
+   >推送消息 ID 就是您在步骤 1 中找到的 ID。
 
-   此触发器必须手动添加，因为它并未在&#x200B;**[!UICONTROL 触发器]下拉列表中提供。**
+   此触发器必须手动添加，因为它并未在&#x200B;**[!UICONTROL 触发器]**&#x200B;下拉列表中提供。
 
    ![](assets/brandon_task2.png)
 
