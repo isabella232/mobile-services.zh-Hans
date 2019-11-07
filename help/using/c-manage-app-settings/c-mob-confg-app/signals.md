@@ -4,27 +4,27 @@ seo-description: 回发允许您将 Adobe Mobile 收集的数据发送至单独�
 seo-title: 配置回发
 title: 配置回发
 uuid: a026575c-057b-4868-b6c8-9514cbc32b4d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d028fe0f9477bc011aa8fda21a0a389808df0fce
 
 ---
 
 
-# Configure postbacks {#configure-postbacks}
+# 配置回发 {#configure-postbacks}
 
 回发允许您将 Adobe Mobile 收集的数据发送至单独的第三方服务器。利用您用来显示应用程序内消息的相同触发器和特征，可以配置 Mobile Services 以将自定义数据发送至第三方目标。
 
 >[!IMPORTANT]
 >
->要使用回发，必须安装4.6 SDK或更高版本。 有关更多信息，请参阅 [Android - 回发](/help/android/analytics-main/postbacks/postbacks.md)或 [iOS - 回发](/help/ios/analytics-main/postback/postback.md)。
+>要使用回发，您必须安装 SDK 4.6 或更高版本。有关更多信息，请参阅 [Android - 回发](/help/android/analytics-main/postbacks/postbacks.md)或 [iOS - 回发](/help/ios/analytics-main/postback/postback.md)。
 
-1. 单击所需应用程序的名称以转到其“管理应用程序设置”页面，然后单击页面右上方的&#x200B;**管理回发**&#x200B;链接。
-1. Click **[!UICONTROL Create Postback]**.
+1. 单击所需应用程序的名称以转到其“管理应用程序设置”页面，然后单击页面右上方的&#x200B;**[!UICONTROL 管理回发]**&#x200B;链接。
+1. 单击&#x200B;**[!UICONTROL 创建回发]**。
 1. 在字段中键入以下信息：
 
    * **[!UICONTROL 回发类型]**
 
-      Choose **[!UICONTROL Custom]**. 模板将在将来提供。
+      选择&#x200B;**[!UICONTROL 自定义]**。模板将在将来提供。
 
    * **[!UICONTROL 名称]**
 
@@ -32,15 +32,15 @@ source-git-commit: d028fe0f9477bc011aa8fda21a0a389808df0fce
 
    * **[!UICONTROL URL]**
 
-      Specify a valid endpoint URL (with appropriate query parameters as needed for GET requests). 您从数据被发送到的参与方获取此 URL（广告服务器或您自己的端点）。For example `https://my.server.com/?user=bob&amp;zip=90210&amp;c16=4.6.0-iOS&amp;c27=cln,132`.
+      指定一个有效的端点 URL（以及 GET 请求所需的相应查询参数）。您从数据被发送到的参与方获取此 URL（广告服务器或您自己的端点）。例如：`https://my.server.com/?user=bob&amp;zip=90210&amp;c16=4.6.0-iOS&amp;c27=cln,132`。
 
    * **[!UICONTROL 上下文变量]**
 
-      突出显示 URL 的某些部分，并从下拉列表中选择所需的上下文变量。You can also insert context variables into the URL, and the URL will replace all template variables with values from the hit.
+      突出显示 URL 的某些部分，并从下拉列表中选择所需的上下文变量。您还可以将上下文变量插入到 URL 中，该 URL 将使用来自点击的值替换所有模板变量。
 
    * **[!UICONTROL 添加帖子正文]**
 
-      指定任何其他帖子正文内容，例如在帖子请求中。如果指定帖子正文文本，请指定帖子正文的内容类型。 例如：`application/json`。
+      指定任何其他帖子正文内容，例如在帖子请求中。如果您指定帖子正文文本，请指定帖子正文的内容类型。例如：`application/json`。
 
    * **[!UICONTROL 超时（以秒为单位）]**
 
@@ -48,14 +48,14 @@ source-git-commit: d028fe0f9477bc011aa8fda21a0a389808df0fce
 
    * **[!UICONTROL 触发器]**
 
-      指定一个或多个数据标记和触发回发的条件。For example, you might choose **[!UICONTROL Crashed]** as the trigger and **[!UICONTROL Exists]** as the condition to trigger the postback when the app crashes. 您还可以指定激活回发的量度。For example, you can select **[!UICONTROL Device Name]** as the trigger, **[!UICONTROL Equals]**, and **[!UICONTROL iPhone 6 Plus]** as conditions to activate the postback when the app crashes on iPhone 6 Plus devices.
+      指定一个或多个数据标记和触发回发的条件。例如，您可以选择&#x200B;**[!UICONTROL 已崩溃]**&#x200B;作为触发器，选择&#x200B;**[!UICONTROL 存在]**&#x200B;作为条件，以便在应用程序崩溃时触发回发。您还可以指定激活回发的量度。例如，您可以选择&#x200B;**[!UICONTROL 设备名称]**&#x200B;作为触发器，选择&#x200B;**[!UICONTROL 等于]**&#x200B;以及 **[!UICONTROL iPhone 6 Plus]** 作为条件，以便当应用程序在 iPhone 6 Plus 设备上崩溃时激活回发。
 
    * **[!UICONTROL 特征]**
-   指定可在消息触发后查看消息的对象。Options include **[!UICONTROL Session Length**, **[!UICONTROL First Launch Date]**, and **[!UICONTROL App ID]**.
+   指定可在消息触发后查看消息的对象。选项包括&#x200B;**[!UICONTROL 会话时长**、**[!UICONTROL 首次启动日期]**&#x200B;和&#x200B;**[!UICONTROL 应用程序 ID]**。
 
-1. 单击&#x200B;**[!UICONTROL 保存]**&#x200B;以创建回发，并将其添加到&#x200B;**管理回发]列表。[!UICONTROL **
+1. 单击&#x200B;**[!UICONTROL 保存]**&#x200B;以创建回发，并将其添加到&#x200B;**[!UICONTROL 管理回发]**&#x200B;列表。
 
    之后若要激活回发，请执行以下操作之一：
 
-   * Select the checkbox next to the postback in the **[!UICONTROL Manage Postbacks]** list and click **[!UICONTROL Activate Selected]**.
-   * 单击&#x200B;**[!UICONTROL 保存并激活]以保存您的更改，并立即激活回发。**
+   * 选中&#x200B;**[!UICONTROL 管理回发]**&#x200B;列表中的回发旁边的复选框，然后单击&#x200B;**[!UICONTROL 激活选定项]**。
+   * 单击&#x200B;**[!UICONTROL 保存并激活]**&#x200B;以保存您的更改，并立即激活回发。
