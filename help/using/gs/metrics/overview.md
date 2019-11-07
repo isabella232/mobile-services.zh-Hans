@@ -7,19 +7,19 @@ solution: Marketing Cloud,Analytics
 title: 显示移动量度
 topic: 量度
 uuid: 57db0b77-6b0a-4a0c-9aad-0731275233fd
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d028fe0f9477bc011aa8fda21a0a389808df0fce
 
 ---
 
 
-# Display mobile metrics {#display-mobile-metrics}
+# 显示移动量度 {#display-mobile-metrics}
 
 您可以显示最近查看的应用程序关键绩效量度。默认情况下，您最多可查看 12 个应用程序。您可以在“概述”页面上更改日期范围、创建过滤器来细分数据和编辑任何应用程序。
 
 针对每个应用程序显示的量度反映您在创建该应用程序时选择的关键量度。有关更多信息，请参阅 [添加新应用程序](/help/using/manage-apps/t-new-app.md).
 
-If the app you want to view is not displayed, search for it by typing the app's name or by clicking the drop-down list in **[!UICONTROL All Apps]**.
+如果未显示您要查看的应用程序，请通过键入该应用程序的名称或单击&#x200B;**[!UICONTROL 所有应用程序]**&#x200B;中的下拉列表来进行搜索。
 
 您可以在概述页面中执行以下任务：
 
@@ -36,30 +36,30 @@ If the app you want to view is not displayed, search for it by typing the app's 
    创建过滤器：
 
    1. 单击&#x200B;**[!UICONTROL 过滤器]**&#x200B;图标，以显示&#x200B;**置顶过滤器]对话框。[!UICONTROL **
-   1. Click **[!UICONTROL Add Rule]**, select an option from the drop-down list, and type the necessary information.
+   1. 单击&#x200B;**[!UICONTROL 添加规则]**，从下拉列表中选择一个选项，然后键入相应的必需信息。
 
-      例如，您可以选择“应用 **[!UICONTROL 程序版本]** ”并键入 `4.5` 相应版本。 You could select **[!UICONTROL Device Type]** and type `Android`.
+      例如，您可能选择&#x200B;**[!UICONTROL 应用程序版本]**&#x200B;并键入 `4.5` 作为版本。您还可以选择&#x200B;**[!UICONTROL 设备类型]**，然后键入 `Android`。
 
       >[!TIP]
       >
-      >You can create complex filters by using *AND* and *OR* statements.
+      >您可以使用 *AND* 和 *OR* 语句创建复杂的过滤器。
 
-   1. Click **[!UICONTROL Update]**.
+   1. 单击&#x200B;**[!UICONTROL 更新]**。
    >[!TIP]
    >
-   >A blue bubble displays next to the **[!UICONTROL Filter]** icon to indicate the number of active filters.
+   >**[!UICONTROL 过滤器]**&#x200B;图标旁会显示一个蓝色气泡，以指示处于活动状态的过滤器数量。
 
-   To cancel filters, click the **[!UICONTROL Filter]** icon, and click **[!UICONTROL Cancel]**.
+   要取消过滤器，请单击&#x200B;**[!UICONTROL 过滤器]**&#x200B;图标，然后单击&#x200B;**[!UICONTROL 取消]**。
 
 * **显示关键绩效指标**
 
-   单击应用程序名称可显示关于关键绩效指标的详细信息。图表中的线条使用不同的颜色进行标示，你可以将鼠标悬停在数据点上方以显示特定日期的统计数据。要向下展开，请单击“ **** Key Performance Indicators（关键绩效指标）”旁 **[!UICONTROL 边的&gt;图标]**。 The lines on the chart are color coded, and you can mouse over any data point to see statistics for specific dates. 在表格中点击类标头以对数据进行升序或降序排序。
+   单击应用程序名称可显示关于关键绩效指标的详细信息。图表中的线条使用不同的颜色进行标示，您可以将鼠标悬停在数据点上以显示特定日期的统计数据。要深入分析，请单击&#x200B;**[!UICONTROL 关键绩效指标]**&#x200B;旁边的&#x200B;**** &gt; 图标。图表中的线条使用不同的颜色进行标示，您可以将鼠标悬停在数据点上来查看特定日期的统计数据。在表格中点击类标头以对数据进行升序或降序排序。
 
-## Edit an app's settings {#section_C1CF227A2E534A798F0073E43AD6A2D1}
+## 编辑应用程序设置 {#section_C1CF227A2E534A798F0073E43AD6A2D1}
 
 1. 单击任意应用程序图块上的齿轮图标，即可打开“应用程序信息”页面。
 1. 编辑应用程序设置。
 
-   有关每个设置的更多信息，请参阅 [配置您的应用程序](/help/using/c-manage-app-settings/c-mob-confg-app/c-mob-confg-app.md).
+   有关每个设置的更多信息，请参阅[配置您的应用程序](/help/using/c-manage-app-settings/c-mob-confg-app/c-mob-confg-app.md)。
 
 1. 单击&#x200B;**[!UICONTROL 保存]**。
