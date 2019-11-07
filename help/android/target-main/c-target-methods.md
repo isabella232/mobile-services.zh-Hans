@@ -1,31 +1,31 @@
 ---
 description: 以下是 Android 库提供的 Adobe Target 方法列表。
-keywords: android；库；移动；sdk
+keywords: Android;库;移动;SDK
 seo-description: 以下是 Android 库提供的 Adobe Target 方法列表。
-seo-title: Android的目标方法
+seo-title: 适用于 Android 的 Target 方法
 solution: Marketing Cloud,Analytics
-title: Target methods for Android
+title: 适用于 Android 的 Target 方法
 topic: 开发人员和实施
 uuid: 8e9808b2-ba80-4646-ba05-8e62d4fde065
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
 
 ---
 
 
-# Android的目标方法{#target-methods}
+# 适用于 Android 的 Target 方法{#target-methods}
 
 以下是 Android 库提供的 Adobe Target 方法列表。
 
-The SDK currently supports multiple Adobe Experience Cloud Solutions, including Analytics, Target, Audience Manager, and the Adobe Experience Platform Identity Service]. Methods are prefixed according to the solution. For example, Experience Cloud ID methods are prefixed with `target`.
+SDK 当前支持多个 Adobe Experience Cloud 解决方案，包括 Analytics、Target、Audience Manager 和 Adobe Experience Platform Identity Service。方法将根据解决方案来添加前缀。例如，Experience Cloud ID 方法的前缀为 `target`。
 
 >[!TIP]
 >
 >[生命周期量度](/help/android/metrics.md)将作为参数发送至每个 mbox 负载。
 
-## Class reference : TargetLocationRequest {#section_A8CC898922164E819EC730DC92A6742B}
+## 类引用：TargetLocationRequest {#section_A8CC898922164E819EC730DC92A6742B}
 
-**资产:**
+**属性：**
 
 ```java
 public String name; 
@@ -37,7 +37,7 @@ public HashMap<String, Object> parameters;
 
 >[!TIP]
 >
->为自定义参数设置键时，以下常量易于使用。
+>在为自定义参数设置键时，可以方便地使用以下常量。
 
 ```java
 public static final String TARGET_PARAMETER_ORDER_ID   = "orderId"; 
@@ -53,23 +53,23 @@ public static final String TARGET_PARAMETER_MBOX_HOST           = "mboxHost";
 
 >[!IMPORTANT]
 >
->* If you are using SDKs **before** version 4.14.0, see [https://developers.adobetarget.com/api/#input-parameters](https://developers.adobetarget.com/api/#input-parameters) for parameters limitations.
+>* 如果您使用的是&#x200B;**低于** 4.14.0 版本的 SDK，请访问 [https://developers.adobetarget.com/api/#input-parameters](https://developers.adobetarget.com/api/#input-parameters) 以了解参数限制。
    >
    >
-* If you are using SDKs version 4.14.0 **or later**, see [https://developers.adobetarget.com/api/#batch-input-parameters](https://developers.adobetarget.com/api/#batch-input-parameters) for parameters limitations.
+* 如果您使用的是 4.14.0 版本&#x200B;**或更高版本**&#x200B;的 SDK，请访问 [https://developers.adobetarget.com/api/#batch-input-parameters](https://developers.adobetarget.com/api/#batch-input-parameters) 以了解参数限制。
 
 
 * **loadRequest**
 
    向您配置的 Target 服务器发送 request，并返回在块 callback 中生成的选件的字符串值。
 
-   * 下面是这种方法对应的语法：
+   * 以下是此方法的语法：
 
       ```java
       public static void loadRequest(TargetLocationRequest request, TargetCallback<String> callback);
       ```
 
-   * 以下是这种方法的代码示例：
+   * 以下是此方法的代码示例：
 
       ```java
       Target.loadRequest(heroBannerRequest, new Target.TargetCallback<String>() {  @Override  public void call(String item) {   // do something with item  } });
@@ -79,14 +79,14 @@ public static final String TARGET_PARAMETER_MBOX_HOST           = "mboxHost";
 
    向您配置的 Target 服务器发送 request，并返回在块 callback 中生成的选件的字符串值。
 
-   * 下面是这种方法对应的语法：
+   * 以下是此方法的语法：
 
       ```java
       public static void loadRequest(final String name final String defaultContent, final Map `<String, Object>` profileParameters, 
                                      final Map `<String, Object>` orderParameters,final Map `<String Object>` mboxParameters, final TargetCallback<String> callback)
       ```
 
-   * 以下是这种方法的代码示例：
+   * 以下是此方法的代码示例：
 
       ```java
       Map `<String, Object>` profileParameters = new HashMap `<String, Object>`(); profileParameters.put(“profile-parameter-key”, “profile-parameter-value”); 
@@ -106,13 +106,13 @@ public static final String TARGET_PARAMETER_MBOX_HOST           = "mboxHost";
 
    向您配置的 Target 服务器发送请求，并返回在 TargetCallback 中生成的选件的字符串值。
 
-   * 下面是这种方法对应的语法：
+   * 以下是此方法的语法：
 
       ```java
       public static void loadRequest(final String name, final String defaultContent, final Map<String, Object> profileParameters, final Map<String, Object> orderParameters, final Map<String, Object> mboxParameters, final Map<String, Object> requestLocationParameters, final TargetCallback<String> callback);
       ```
 
-   * **返回：** N/A
+   * **返回：**&#x200B;不适用
 
    * **参数：**
 
@@ -122,38 +122,38 @@ public static final String TARGET_PARAMETER_MBOX_HOST           = "mboxHost";
 
          要检索的 Target mbox/位置的名称。
 
-         * **** Type: String
+         * **类型：**&#x200B;字符串
       * **defaultContent**
 
          Target 服务器不可访问或用户不符合促销活动资格时，在回调中返回的值。
 
-         * **** Type: String
+         * **类型：**&#x200B;字符串
       * **profileParameters**
 
          该词典中的值将在对 Target 的请求中用于“profileParameters”对象。
 
-         * **** 类型：地图 `<String, Object>`
+         * **类型：** Map `<String, Object>`
       * **orderParameters**
 
          该词典中的值将在对 Target 的请求中用于“order”对象。
 
-         * **** 类型：地图 `<String, Object>`
+         * **类型：** Map `<String, Object>`
       * **mboxParameters**
 
-         此词典中的值将在向Target的请求中。
+         该词典中的值将在对 Target 的请求中使用。
 
-         * **** 类型：地图 `<String, Object>`
+         * **类型：** Map `<String, Object>`
       * **requestLocationParameters**
 
          该词典中的值将在对 Target 的请求中用于“requestLocation”对象。
 
-         * **** 类型：地图 `<String, Object>`
+         * **类型：** Map `<String, Object>`
       * **callback**
 
          此方法将通过来自 Target 服务器的选件内容进行调用。如果 Target 服务器不可访问，或者用户不符合促销活动资格，则将返回 defaultContent。
 
-         * **** 类型：TargetCallback `<String>`
-   * Here is sample code for this method:
+         * **类型：** TargetCallback `<String>`
+   * 以下是此方法的代码示例：
 
       ```java
       Map `<String, Object>` profileParameters = new HashMap `<String, Object>`(); profileParameters.put(“profile-parameter-key”, “profile-parameter-value”); 
@@ -169,7 +169,7 @@ public static final String TARGET_PARAMETER_MBOX_HOST           = "mboxHost";
       });
       ```
 
-      有关基本 Target API 的更多信息，请参阅 Target 开发人员帮助中的 [Delivery](https://docs.adobe.com/dev/products/target/reference/delivery.html)（交付）。
+      有关基本 Target API 的更多信息，请参阅 Target 开发人员帮助中的[交付](https://docs.adobe.com/dev/products/target/reference/delivery.html)。
 
 
 
@@ -182,13 +182,13 @@ public static final String TARGET_PARAMETER_MBOX_HOST           = "mboxHost";
 
    通过给定参数创建 TargetLocationRequest 对象。
 
-   * 下面是这种方法对应的语法：
+   * 以下是此方法的语法：
 
       ```java
       public static TargetLocationRequest createOrderConfirmRequest(String name, String orderId, String orderTotal, String productPurchasedId, Map<String, Object> parameters);
       ```
 
-   * 以下是这种方法的代码示例：
+   * 以下是此方法的代码示例：
 
       ```java
       TargetLocationRequest orderConfirm = Target.createOrderConfirmRequest("orderConfirm", "order", "47.88", "3722", null);
@@ -198,13 +198,13 @@ public static final String TARGET_PARAMETER_MBOX_HOST           = "mboxHost";
 
    通过给定参数创建 TargetLocationRequest 对象。
 
-   * 下面是这种方法对应的语法：
+   * 以下是此方法的语法：
 
       ```java
       public static TargetLocationRequest createRequest(String name, String defaultContent, Map<String, Object> parameters);
       ```
 
-   * 以下是这种方法的代码示例：
+   * 以下是此方法的代码示例：
 
       ```java
       TargetLocationRequest heroBannerRequest = Target.createRequest("heroBanner", "default.png", null);
@@ -214,13 +214,13 @@ public static final String TARGET_PARAMETER_MBOX_HOST           = "mboxHost";
 
    清除应用程序中的任何目标 Cookie。
 
-   * 下面是这种方法对应的语法：
+   * 以下是此方法的语法：
 
       ```java
       public static void clearCookies();
       ```
 
-   * 以下是这种方法的代码示例：
+   * 以下是此方法的代码示例：
 
       ```java
       Target.clearCookies();
@@ -230,13 +230,13 @@ public static final String TARGET_PARAMETER_MBOX_HOST           = "mboxHost";
 
    返回 pcID。
 
-   * 下面是这种方法对应的语法：
+   * 以下是此方法的语法：
 
       ```java
       public static String getPcID();
       ```
 
-   * 以下是这种方法的代码示例：
+   * 以下是此方法的代码示例：
 
       ```java
       Target.getPcID();
@@ -246,13 +246,13 @@ public static final String TARGET_PARAMETER_MBOX_HOST           = "mboxHost";
 
    返回会话 ID。
 
-   * 下面是这种方法对应的语法：
+   * 以下是此方法的语法：
 
       ```java
       public static String getSessionID();
       ```
 
-   * 以下是这种方法的代码示例：
+   * 以下是此方法的代码示例：
 
       ```java
       Target.getSessionID();
@@ -262,13 +262,13 @@ public static final String TARGET_PARAMETER_MBOX_HOST           = "mboxHost";
 
    设置第三方 ID。
 
-   * 下面是这种方法对应的语法：
+   * 以下是此方法的语法：
 
       ```java
       public static String setThirdPartyID(final String thirdPartyId);
       ```
 
-   * 以下是这种方法的代码示例：
+   * 以下是此方法的代码示例：
 
       ```java
       Target.setThirdPartyID(“third-party-id”);
@@ -278,13 +278,13 @@ public static final String TARGET_PARAMETER_MBOX_HOST           = "mboxHost";
 
    返回第三方 ID。
 
-   * 下面是这种方法对应的语法：
+   * 以下是此方法的语法：
 
       ```java
       public static String getThirdPartyID();
       ```
 
-   * 以下是这种方法的代码示例：
+   * 以下是此方法的代码示例：
 
       ```java
       String thirdPartyId = Target.getThirdPartyID();
