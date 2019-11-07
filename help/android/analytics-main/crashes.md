@@ -1,12 +1,12 @@
 ---
 description: 此信息可帮助您了解如何跟踪崩溃，以及处理假崩溃的最佳做法。
 seo-description: 此信息可帮助您了解如何跟踪崩溃，以及处理假崩溃的最佳做法。
-seo-title: 跟踪应用程序崩溃
+seo-title: 跟踪应用程序的崩溃情况
 solution: Marketing Cloud,Analytics
-title: 跟踪应用程序崩溃
+title: 跟踪应用程序的崩溃情况
 topic: 开发人员和实施
 uuid: 3ab98c14-ccdf-4060-ad88-ec07c1c6bf07
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
 
 ---
@@ -18,13 +18,13 @@ source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
 
 >[!TIP]
 >
->应用程序崩溃作为生命周期指标的一部分进行跟踪。 Before you can track crashes, add the library to your project and implement lifecycle. For more information, see Add the SDK and Config File to your IntelliJ IDEA or Eclipse Project in Core implementation and lifecycle.**[](/help/android/getting-started/dev-qs.md)
+>应用程序崩溃情况将作为生命周期量度的一部分进行跟踪。在跟踪崩溃情况之前，请将库添加到您的项目并实施生命周期。有关更多信息，请参阅[核心实施和生命周期](/help/android/getting-started/dev-qs.md)中的“将 SDK 和配置文件添加到您的 IntelliJ IDEA 或 Eclipse 项目”**。
 
-实施生命周期量度时，将在每个活动的 `Config.collectLifecycleData` 方法中对 `OnResume` 进行调用。In the `onPause` method, a call is made to `Config.pauseCollectingLifeCycleData`.
+实施生命周期量度时，将在每个活动的 `OnResume` 方法中对 `Config.collectLifecycleData` 进行调用。在 `onPause` 方法中，将对 `Config.pauseCollectingLifeCycleData` 进行调用。
 
 在 `pauseCollectingLifeCycleData` 中，设置了一个标志来指示正常退出。再次启动或恢复应用程序后，`collectLifecycleData` 会检查此标志。如果应用程序没有按照标志状态的指示成功退出，将在下次调用时发送 `a.CrashEvent` 上下文数据，并报告崩溃事件。
 
-为了确保准确报告崩溃，您必须在每个活动的 `pauseCollectingLifeCycleData` 方法中调用 `onPause`。要了解为何必须这样做，请参阅下面的 Android 活动生命周期插图：
+为了确保准确报告崩溃，您必须在每个活动的 `onPause` 方法中调用 `pauseCollectingLifeCycleData`。要了解为何必须这样做，请参阅下面的 Android 活动生命周期插图：
 
 ![](assets/android-lifecycle.png)
 
@@ -38,9 +38,9 @@ source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
 
    >[!TIP]
    >
-   >您可以通过在从IDE再次启动之前对应用程序进行后台处理来避免此崩溃。
+   >再次从 IDE 启动应用程序之前，先将应用程序转入后台可避免此崩溃。
 
-1. If the last foreground Activity of your app is backgrounded and does not call `Config.pauseCollectingLifecycleData();` in `onPause`, and your app is manually closed or killed by the OS, the next launch results in a crash.
+1. 如果应用程序的上一个前台活动转入后台，没有在 `onPause` 中调用 `Config.pauseCollectingLifecycleData();`，且应用程序被手动关闭或被操作系统终止，则下次启动时会导致崩溃。
 
 ## 应如何处理碎片？
 
@@ -48,13 +48,13 @@ source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
 
 >[!IMPORTANT]
 >
->您需要依赖包含活动可以运行代码的生命周期事件。 这将由碎片的父视图来处理。
+>您需要依赖生命周期事件，容器活动可以针对这些事件运行您的代码。这将由碎片的父视图来处理。
 
-## (Optional) Implement activity lifecycle callbacks
+## （可选）实施活动生命周期回调
 
-从 API 级别 14 开始，Android 允许对活动进行全局生命周期回调。For more information, see [Application](https://developer.android.com/reference/android/app/Application).
+从 API 级别 14 开始，Android 允许对活动进行全局生命周期回调。有关更多信息，请参阅[应用程序](https://developer.android.com/reference/android/app/Application)。
 
-You can use these callbacks to ensure that all of your Activities correctly call `collectLifecycleData()` and `pauseCollectingLifecycleData()`. 您需要只在主活动以及可能在其中启动您的应用程序的任何其他活动中添加此代码：
+您可以使用这些回调确保您的所有活动均可正确调用 `collectLifecycleData()` 和 `pauseCollectingLifecycleData()`。您需要只在主活动以及可能在其中启动您的应用程序的任何其他活动中添加此代码：
 
 ```js
 import com.adobe.mobile.Config; 
@@ -96,7 +96,7 @@ public class MainActivity extends Activity {
 }
 ```
 
-To send additional context data with your lifecycle call by using `Config.collectLifecycleData(Activity activity`, `Map<String`, `Object> contextData)`, you must override the `onResume` method for that Activity and ensure that you call `super.onResume()` after manually calling `collectLifecycleData`.
+要使用 `Config.collectLifecycleData(Activity activity`、`Map<String` 和 `Object> contextData)` 随生命周期调用发送其他上下文数据，您必须覆盖该活动的 `onResume` 方法，并确保在手动调用 `collectLifecycleData` 之后再调用 `super.onResume()`。
 
 ```js
 @Override 
