@@ -6,13 +6,13 @@ solution: Marketing Cloud,Analytics
 title: 推送消息
 topic: 开发人员和实施
 uuid: 729d4010-3733-4dff-b188-ad45bd3e7cc4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 17cb91a28966cf32f955a2cb724e89ab228de5b8
 
 ---
 
 
-# Push messaging {#push-messaging}
+# 推送消息 {#push-messaging}
 
 Adobe Mobile 和 Adobe Mobile SDK 允许您将推送消息发送给用户。该 SDK 还允许您轻松报告在点进推送消息后打开您的应用程序的用户。
 
@@ -20,19 +20,19 @@ Adobe Mobile 和 Adobe Mobile SDK 允许您将推送消息发送给用户。该 
 
 >[!IMPORTANT]
 >
->Do not manually set the Experience Cloud ID inside your app. 这会导致创建一个新的独特用户，该用户将由于其选择启用状态而不接受推送消息。例如，某个已选择接收推送消息的用户登录到您的应用程序。登录后，如果您在应用程序中手动设置 ID，则会创建一个未选择接收推送消息的新独特用户。该新用户将不会接收您的推送消息。
+>请不要在您的应用程序中手动设置 Experience Cloud ID。这会导致创建一个新的独特用户，该用户将由于其选择启用状态而不接受推送消息。例如，某个已选择接收推送消息的用户登录到您的应用程序。登录后，如果您在应用程序中手动设置 ID，则会创建一个未选择接收推送消息的新独特用户。该新用户将不会接收您的推送消息。
 >
->Moving your app to a new report suite is not supported. 如果迁移到新报表包，则推送配置可能会中断，并且可能无法发送消息。
+>不支持将应用程序移动到新的报表包。如果迁移到新报表包，则推送配置可能会中断，并且可能无法发送消息。
 
-## Enable push messaging {#section_CBD63C5B11FE4424BC2BF552C23F2BD9}
+## 启用推送消息 {#section_CBD63C5B11FE4424BC2BF552C23F2BD9}
 
 >[!TIP]
 >
->If your app is already set up to use messaging through Firebase Cloud Messaging (FCM), some of the following steps might already be completed.
+>如果您的应用程序已设置为使用通过 Firebase Cloud Messaging (FCM) 的消息传送，下面有些步骤可能已经完成。
 
-1. Verify that the `ADBMobileConfig.json` file contains the required settings for push messaging.
+1. 确认 `ADBMobileConfig.json` 文件中包含推送消息所需的设置。
 
-   The `"marketingCloud"` object must have its `"org"` property configured for push messaging.
+   `"marketingCloud"` 对象必须为推送消息配置了其 `"org"` 属性。
 
    ```js
    "marketingCloud": { 
@@ -47,7 +47,7 @@ Adobe Mobile 和 Adobe Mobile SDK 允许您将推送消息发送给用户。该 
    String token = FirebaseInstanceId.getInstance().getToken();
    ```
 
-1. The registration ID/token must be passed to the SDK by using the `Config.setPushIdentifier(final String registrationId)` method.
+1. 必须使用 `Config.setPushIdentifier(final String registrationId)` 方法将注册 ID/令牌传递到 SDK。
 
    ```js
    Config.setPushIdentifier(token); // token was obtained in step 2
@@ -57,7 +57,7 @@ Adobe Mobile 和 Adobe Mobile SDK 允许您将推送消息发送给用户。该 
 
    以下是启用推送点进报表的要求：
 
-   * In your implementation of `FireBaseMessageService`, the Bundle object that contains the message data, which is passed into the `onMessageReceived` method with the RemoteMessage object, must be added to the Intent that is used to open the target activity on a click-through. 这可以使用该方法 `putExtras` 完成。 For more information, see [putExtras](https://developer.android.com/reference/android/content/Intent.html#putExtras(android.os.Bundle))).
+   * 在 `FireBaseMessageService` 的实现中，必须将包含消息数据（将与 RemoteMessage 对象一起被传递到 `onMessageReceived` 方法中）的包对象添加到用于在点进时打开目标活动的意图中。可以使用 `putExtras` 方法来完成此操作。有关更多信息，请参阅 [putExtras](https://developer.android.com/reference/android/content/Intent.html#putExtras(android.os.Bundle))）。
    ```java
    Intent intent = new Intent(this, MainActivity.class);
       intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
@@ -71,7 +71,7 @@ Adobe Mobile 和 Adobe Mobile SDK 允许您将推送消息发送给用户。该 
 
       * 使用 `Config.collectLifecycleData(this)` 或 `Config.collectLifecycleData(this, contextData)`。
 
-      * Do **not** use `Config.collectLifecycleData()`.
+      * **不要**&#x200B;使用 `Config.collectLifecycleData()`。
 
 
 
