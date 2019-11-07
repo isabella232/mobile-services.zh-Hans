@@ -5,14 +5,14 @@ seo-title: iOS 设备版本
 solution: Marketing Cloud,Analytics
 title: iOS 设备版本
 topic: 开发人员和实施
-uuid: 8b8a9bc3-0737-4de2-9792-0b112a4cf65
-translation-type: tm+mt
+uuid: 8b8a9bc3-0737-4de2-9792-0b112aa4cf65
+translation-type: ht
 source-git-commit: 06144a1695ac40ce984656491456968888f9e96e
 
 ---
 
 
-# iOS device versions {#ios-device-versions}
+# iOS 设备版本 {#ios-device-versions}
 
 下表包含许多 iOS 设备发送的 iOS 版本字符串。
 
