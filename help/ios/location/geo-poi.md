@@ -1,18 +1,18 @@
 ---
 description: 地理位置可通过在 iOS 应用程序中使用纬度和经度以及预定义的目标点，来帮助您测量位置数据。
 seo-description: 地理位置可通过在 iOS 应用程序中使用纬度和经度以及预定义的目标点，来帮助您测量位置数据。
-seo-title: Geo-Location and points of interest
+seo-title: 地理位置和目标点
 solution: Marketing Cloud,Analytics
-title: Geo-Location and points of interest
+title: 地理位置和目标点
 topic: 开发人员和实施
 uuid: c800ec85-a33f-425d-b28f-bfe8bf229ae8
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: df4ea2c4002611c72009cf69598cbbb74b5c15c4
 
 ---
 
 
-# Geo-location and points of interest {#geo-location-and-points-of-interest}
+# 地理位置和目标点 {#geo-location-and-points-of-interest}
 
 地理位置可通过在 iOS 应用程序中使用纬度和经度以及预定义的目标点，来帮助您测量位置数据。
 
@@ -24,25 +24,25 @@ source-git-commit: df4ea2c4002611c72009cf69598cbbb74b5c15c4
 
 * 作为上下文数据传递的到中心的距离以及精确度。
 
-   系统不会自动捕获这些变量。You must map these context data variables by using the instructions in *Sending Additional Data* section below.
+   系统不会自动捕获这些变量。您必须按照以下“发送其他数据”**&#x200B;部分中的说明来映射这些上下文数据变量。
 
 ## 动态 POI 更新 {#section_3747B310DD5147E2AAE915E762997712}
 
-从版本 4.2 开始，POI 可在 Adobe Mobile 界面中定义并动态同步到应用程序配置文件。This synchronization requires an `analytics.poi` setting in the `ADBMobile.json` file:
+从版本 4.2 开始，POI 可在 Adobe Mobile 界面中定义并动态同步到应用程序配置文件。此同步需要 `ADBMobile.json` 文件中的 `analytics.poi` 设置：
 
 ```js
 “analytics.poi”: “https://assets.adobedtm.com/…/yourfile.json”,
 ```
 
-有关详细信息，请参 [阅ADBMobile JSON配置](/help/ios/configuration/json-config/json-config.md)。
+有关更多信息，请参阅 [ADBMobile JSON 配置](/help/ios/configuration/json-config/json-config.md)。
 
-如果未配置此设置，则必须下载更新版本的 `ADBMobile.json` 文件并将其添加到您的应用程序中。有关详细信息和说明，请参 *阅开始前下载SDK和测试*[工具](/help/ios/getting-started/requirements.md)。
+如果未配置此设置，则必须下载更新版本的 `ADBMobile.json` 文件并将其添加到您的应用程序中。有关更多信息和说明，请参阅[开始之前](/help/ios/getting-started/requirements.md)中的“下载 SDK 和测试工具”**。
 
-## 跟踪地理位置和POI {#section_B1616E400A7548F9A672F97FEC75AE27}
+## 跟踪地理位置和 POI {#section_B1616E400A7548F9A672F97FEC75AE27}
 
 1. 将库添加到您的项目并实施生命周期。
 
-   有关详细信息，请参 *阅在核心实施和生命周期中将SDK和配置文件添加*[到您的项目中](/help/ios/getting-started/dev-qs.md)。
+   有关更多信息，请参阅[核心实施和生命周期](/help/ios/getting-started/dev-qs.md)中的“将 SDK 和配置文件添加到您的项目”**。
 1. 导入库：
 
    ```objective-c
@@ -58,13 +58,13 @@ source-git-commit: df4ea2c4002611c72009cf69598cbbb74b5c15c4
 
    >[!TIP]
    >
-   >您可以随时 `trackLocation` 致电。
+   >您可以随时调用 `trackLocation`。
 
-   要确定传递到呼叫的位置，请 `trackLocation` 使用“获 [取用户的位置”](https://developer.apple.com/Library/ios/documentation/UserExperience/Conceptual/LocationAwarenessPG/CoreLocation/CoreLocation.html)。
+   要确定传递到 `trackLocation` 调用的位置，请参阅[获取用户的位置](https://developer.apple.com/Library/ios/documentation/UserExperience/Conceptual/LocationAwarenessPG/CoreLocation/CoreLocation.html)。
 
 此外，如果确定位置位于定义的 POI 半径内，则 `a.loc.poi` 上下文数据变量将随 `trackLocation` 点击一起发送，并在位置报表中报告为 POI。另外，还将发送 `a.loc.dist` 上下文变量，其中包含到定义坐标的距离（以米为单位）。
 
-## Send additional data {#section_3EBE813E54A24F6FB669B2478B5661F9}
+## 发送其他数据 {#section_3EBE813E54A24F6FB669B2478B5661F9}
 
 除了位置数据之外，您还可以通过每个跟踪位置调用发送其他上下文数据：
 
@@ -74,17 +74,17 @@ NSMutableDictionary *contextData = [NSMutableDictionary dictionary];
 [ADBMobile trackLocation: currentLocation data:contextData];
 ```
 
-上下文数据值必须映射到自定义变量：
+上下文数据值必须映射到以下自定义变量：
 
 ![](assets/map-location-context-data.png)
 
-## Location context data {#section_FFB71E6653F9410A89CC6ACC0C9164A9}
+## 位置上下文数据 {#section_FFB71E6653F9410A89CC6ACC0C9164A9}
 
 纬度和经度均使用三个不同的上下文数据参数进行发送，其中每个参数表示不同的精度级别，总共有六个上下文数据参数。
 
 例如，坐标纬度为 40.93231、经度为 -111.93152 表示精度达 1 米的位置。此位置将根据精度级别在以下变量中进行拆分：
 
-* `a.loc.lat.a`= 040.9
+* `a.loc.lat.a` = 040.9
 * `a.loc.lat.b` = 32
 * `a.loc.lat.c` = 31
 * `a.loc.lon.a` = -111.9
@@ -97,7 +97,7 @@ NSMutableDictionary *contextData = [NSMutableDictionary dictionary];
 
 请牢记以下信息：
 
-* A `trackLocation` request sends in the equivalent of a `trackAction` call.
+* 发送 `trackLocation` 请求相当于调用 `trackAction`。
 
 * POI 不会作为正常 `trackAction` 和 `trackState` 调用的一部分进行传递，因此您必须使用 `trackLocation` 调用来跟踪 POI。
 
