@@ -6,7 +6,7 @@ solution: Marketing Cloud,Analytics
 title: 事件序列化
 topic: 开发人员和实施
 uuid: 19a27df4-0998-403d-800c-26ff61149208
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 06144a1695ac40ce984656491456968888f9e96e
 
 ---
