@@ -7,7 +7,7 @@ solution: Marketing Cloud,Analytics
 title: 创建应用程序内消息
 topic: 量度
 uuid: 15b52713-9ffc-4df9-b21a-6b0576a96a54
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 83e6968efb0ed1b4ef504286c6cb2e8e4d2eaf94
 
 ---
@@ -19,9 +19,9 @@ source-git-commit: 83e6968efb0ed1b4ef504286c6cb2e8e4d2eaf94
 
 >[!TIP]
 >
->要创建应用程序内消息，客户必须具备应用程序内消息传递所需的Analytics-Mobile Apps或移动应用程序加载项。
+>要创建应用程序内消息，客户必须安装应用程序内消息传送所需的 Analytics—Mobile Apps 或移动设备应用程序加载项。
 
-1. In your app, click **[!UICONTROL Messaging]** &gt; **[!UICONTROL Manage Messages]** &gt; **[!UICONTROL Create Message]** &gt; **[!UICONTROL Create In-App]**.
+1. 在应用程序中，单击&#x200B;**[!UICONTROL 消息传送]** &gt; **[!UICONTROL 管理消息]** &gt; **[!UICONTROL 创建消息]** &gt; **[!UICONTROL 创建应用程序内消息]**。
 1. 配置受众选项。
 
-   有关受众选项的更多信息，请参阅受 [众选项](/help/using/in-app-messaging/t-in-app-message/c-audience-in-app-message.md)。
+   有关受众选项的更多信息，请参阅[受众选项](/help/using/in-app-messaging/t-in-app-message/c-audience-in-app-message.md)。
