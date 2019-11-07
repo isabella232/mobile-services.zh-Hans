@@ -1,19 +1,19 @@
 ---
 description: 此信息可帮助您实施 Android 库并收集生命周期量度，例如启动次数、升级次数、会话数、参与用户数等。
-keywords: android；库；移动；sdk
+keywords: Android;库;移动;SDK
 seo-description: 此信息可帮助您实施 Android 库并收集生命周期量度，例如启动次数、升级次数、会话数、参与用户数等。
 seo-title: 核心实施和生命周期
 solution: Marketing Cloud,Analytics
 title: 核心实施和生命周期
 topic: 开发人员和实施
 uuid: af4d11ac-8245-46a0-9b3a-4a0a29cfbbb2
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4da3599c858bfbccb7af954df75f94eb7d8e99a
 
 ---
 
 
-# Core implementation and lifecycle {#core-implementation-and-lifecycle}
+# 核心实施和生命周期 {#core-implementation-and-lifecycle}
 
 此信息可帮助您实施 Android 库并收集生命周期量度，例如启动次数、升级次数、会话数、参与用户数等。
 
@@ -21,51 +21,51 @@ source-git-commit: c4da3599c858bfbccb7af954df75f94eb7d8e99a
 
 >[!IMPORTANT]
 >
->要下载SDK，必须使用Android 2.2或更高版本。
+>要下载 SDK，您必须使用 Android 2.2 或更高版本。
 
 1. 请完成以下部分中的步骤，以设置一个开发报表包并下载预填充版本的配置文件：
 
    * [创建报表包](/help/android/getting-started/requirements.md)
    * [下载 SDK](/help/android/getting-started/requirements.md)
 
-1. 下载并解压 `[Your_App_Name_]AdobeMobileLibrary-4.*-Android.zip` 缩文件并验证以下软件组件是否存在：
+1. 下载并解压缩 `[Your_App_Name_]AdobeMobileLibrary-4.*-Android.zip` 文件，同时确认存在以下软件组件：
 
-   * `adobeMobileLibrary.jar`，将与Android设备和模拟器一起使用的库。
+   * `adobeMobileLibrary.jar`，这是将用于 Android 设备和模拟器的库。
 
    * `ADBMobileConfig.json`，为您的应用程序自定义的 SDK 配置文件。
    >[!IMPORTANT]
    >
-   >If you download the SDK outside the Adobe Mobile services UI, the `ADBMobileConfig.json` file must be manually configured. If you are new to Analytics and the Mobile SDK, and you want to set up a development report suite and download a pre-populated version of the configuration file, see [Before You Start](/help/android/getting-started/requirements.md).
+   >如果您在 Adobe Mobile Services 用户界面之外下载 SDK，则必须手动配置 `ADBMobileConfig.json` 文件。如果您是初次使用 Analytics 和 Mobile SDK，而且想要设置一个开发报表包并下载预填充版本的配置文件，请参阅[开始之前](/help/android/getting-started/requirements.md)。
 
-## Add the SDK and config file to your IntelliJ IDEA or Eclipse project {#section_B89510FBB4C646AEA73A185B966E54D3}
+## 将 SDK 和配置文件添加到您的 IntelliJ IDEA 或 Eclipse 项目 {#section_B89510FBB4C646AEA73A185B966E54D3}
 
-**IntelliJ IDEA project**
+**IntelliJ IDEA 项目**
 
 要将 SDK 和配置文件添加到您的项目，请执行以下操作：
 
-1. Add the `ADBMobileConfig.json` file to the `assets` folder in your project.
+1. 将 `ADBMobileConfig.json` 文件添加到您项目的 `assets` 文件夹中。
 
 1. 在项目导航面板中，右键单击您的项目。
-1. Select **[!UICONTROL Open Module Settings]**.
-1. Under **[!UICONTROL Project Settings]**, select **[!UICONTROL Libraries]**.
-1. Click the **[!UICONTROL +]** icon to add a new library.
+1. 选择&#x200B;**[!UICONTROL 打开模块设置]**。
+1. 在&#x200B;**[!UICONTROL 项目设置]**&#x200B;下，选择&#x200B;**[!UICONTROL 库]**。
+1. 单击 **[!UICONTROL +]** 图标以添加新库。
 1. 选择 **[!UICONTROL Java]** 并导航至 `adobeMobileLibrary.jar` 文件。
 1. 选择您计划在其中使用移动设备库的模块。
-1. 单击&#x200B;**[!UICONTROL 应用]**，然后单击&#x200B;**[!UICONTROL 确定]以关闭模块设置窗口。**
+1. 单击&#x200B;**[!UICONTROL 应用]**，然后单击&#x200B;**[!UICONTROL 确定]**&#x200B;以关闭“模块设置”窗口。
 
-**Eclipse项目**
+**Eclipse 项目**
 
 要将 SDK 和配置文件添加到您的项目，请执行以下操作：
 
-1. Add the `ADBMobileConfig.json` file to the `assets` folder in your project.
-1. In **[!UICONTROL Eclipse IDE]**, right-click the project name.
-1. Click  **[!UICONTROL Build Path]** &gt; **[!UICONTROL Add External Archives]**.
-1. 选择 `adobeMobileLibrary.jar`.
-1. Click **[!UICONTROL Open]**.
-1. Right-click the project again and select **[!UICONTROL Build Path]** &gt; **[!UICONTROL Configure Build Path]**.
-1. 在&#x200B;**[!UICONTROL 顺序和导出]**&#x200B;选项卡中，确保已选中 **`adobeMobileLibrary.jar`。**
+1. 将 `ADBMobileConfig.json` 文件添加到您项目的 `assets` 文件夹中。
+1. 在 **[!UICONTROL Eclipse IDE]** 中，右键单击项目名称。
+1. 单击&#x200B;**[!UICONTROL 生成路径]** &gt; **[!UICONTROL 添加外部存档]**。
+1. 选择 `adobeMobileLibrary.jar`。
+1. 单击&#x200B;**[!UICONTROL 打开]**。
+1. 再次右键单击项目，然后选择&#x200B;**[!UICONTROL 生成路径]** &gt; **[!UICONTROL 配置生成路径]**。
+1. 在&#x200B;**[!UICONTROL 顺序和导出]**&#x200B;选项卡中，确保已选中 **`adobeMobileLibrary.jar`**。
 
-## Add app permissions {#section_2EAF73ABF6424647B219A63B33B02CD5}
+## 添加应用程序权限 {#section_2EAF73ABF6424647B219A63B33B02CD5}
 
 AppMeasurement 库需要以下权限来发送数据和记录离线跟踪调用：
 
@@ -79,9 +79,9 @@ AppMeasurement 库需要以下权限来发送数据和记录离线跟踪调用�
 <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 ```
 
-## Set the application context {#set-application-context}
+## 设置应用程序上下文 {#set-application-context}
 
-应在主活动的方法中添 `onCreate` 加以下代码：
+应在主活动的 `onCreate` 方法中添加以下代码：
 
 ```java
    @Override
@@ -92,7 +92,7 @@ AppMeasurement 库需要以下权限来发送数据和记录离线跟踪调用�
    }
 ````
 
-## Implement lifecycle metrics {#section_BA686C09021F474AADDE8690BBB910F7}
+## 实施生命周期量度 {#section_BA686C09021F474AADDE8690BBB910F7}
 
 启用生命周期后，每次启动您的应用程序时，系统都会发送一个点击来测量启动次数、升级次数、会话数、参与用户数等量度。有关更多信息，请参阅[生命周期量度](/help/android/metrics.md)。
 
@@ -125,9 +125,9 @@ AppMeasurement 库需要以下权限来发送数据和记录离线跟踪调用�
 
 >[!IMPORTANT]
 >
->您必须将这些调用添加到每个活动，以确保准确的崩溃报告。 有关详细信息，请参阅 [跟踪应用程序崩溃](/help/android/analytics-main/crashes.md)。
+>您必须将这些调用添加到每个活动中，才能确保准确报告崩溃情况。有关更多信息，请参阅[跟踪应用程序的崩溃情况](/help/android/analytics-main/crashes.md)。
 
-## Include additional data with lifecycle calls
+## 通过生命周期调用包含其他数据
 
 要通过生命周期量度调用包含其他数据，请将一个额外的参数传递到包含上下文数据的 `collectLifecycleData`：
 
