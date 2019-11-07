@@ -1,75 +1,77 @@
 ---
 description: 以下是 Android 库提供的 Adobe Analytics 方法列表。
-keywords: android；库；移动；sdk
+keywords: Android;库;移动;SDK
 seo-description: 以下是 Android 库提供的 Adobe Analytics 方法列表。
 seo-title: Analytics 方法
 solution: Marketing Cloud,Analytics
 title: Analytics 方法
 topic: 开发人员和实施
 uuid: ac7c640e-9dcc-4724-b561-019cc025d5a7
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
 
 ---
 
 
-# Analytics methods {#analytics-methods}
+# Analytics 方法 {#analytics-methods}
 
 以下是 Android 库提供的 Adobe Analytics 方法列表。
 
-SDK目前支持多个Adobe Experience cloud解决方案]，包括Analytics]、Target]、Audience Manager]和Adobe Experience Platform Identity Service]。 方法将根据解决方案来添加前缀，例如，Experience Cloud ID 方法的前缀为 `analytics`。
+SDK 当前支持多个 Adobe Experience Cloud 解决方案，包括 Analytics、Target、Audience Manager 和 Adobe Experience Platform Identity Service。方法将根据解决方案来添加前缀，例如，Experience Cloud ID 方法的前缀为 `analytics`。
 
 下面每个方法均可用来将数据发送至 Adobe Analytics 报表包：
 
 * **trackState**
 
-   通过可选的上下文数据跟踪应用程序状态。States are the views that are available in your app, such as `home dashboard`, `app settings`, `cart`, and so on. 这些状态与网站中的页面类似，而且 `trackState` 调用会使页面查看次数递增。
+   通过可选的上下文数据跟踪应用程序状态。状态是您的应用程序中可用的一些视图，例如 `home dashboard`、`app settings`、`cart` 等等。这些状态与网站中的页面类似，而且 `trackState` 调用会使页面查看次数递增。
 
-   如果 `state` 为空，则报 `app name app version (build)` 告中会显示该选项。 如果您在报表中看到此值，请确保在每个 `state` 调用中设置 `trackState`。
+   如果 `state` 为空，则会在报表中显示 `app name app version (build)`。如果您在报表中看到此值，请确保在每个 `trackState` 调用中设置 `state`。
 
    >[!TIP]
    >
-   >这是唯一可增加页面查看次数的跟踪调用。
+   >只有此跟踪调用会递增页面查看次数。
 
-   * 下面是这种方法对应的语法：
+   * 以下是此方法的语法：
 
       ```java
       public staticvoidtrackState(Stringstate, Map<String,Object> contextData);
       ```
 
-   * 以下是这种方法的代码示例：
+   * 以下是此方法的代码示例：
 
       ```java
       Analytics.trackState("loginScreen",null);
       ```
 
-* **trackAction**&#x200B;跟踪应用程序中的操作。
+* **trackAction**
+跟踪应用程序中的操作。
 
-   Actions that you want to measure, such as `logons`, `banner taps`, `feed subscriptions`, and other metrics, that occur in your app.
+   例如，您的应用程序中发生的要测量的操作，包括 `logons`、`banner taps`、`feed subscriptions` 及其他量度。
 
-   * 下面是这种方法对应的语法：
+   * 以下是此方法的语法：
 
       ```java
       publicstaticvoidtrackAction(Stringstate,Map<String,Object> contextData);
       ```
 
-   * 以下是这种方法的代码示例：
+   * 以下是此方法的代码示例：
 
       ```java
       Analytics.trackAction("heroBannerTouched",null);
       ```
 
-* **getTrackingIdentifier**&#x200B;返回自动生成的Analytics访客标识符。
+* **getTrackingIdentifier**
+返回自动为 Analytics 生成的访客标识符。
 
    这是特定于应用程序的独特访客 ID，该 ID 在首次启动时生成，之后会存储并使用该 ID。在应用程序升级期间，会保留该 ID，而在应用程序卸载时，则会将其删除。
 
-   * 下面是这种方法对应的语法：
+   * 以下是此方法的语法：
 
       ```java
       public static String getTrackingIdentifier(); 
       ```
 
-   * 以下是这种方法的代码示例：
+   * 以下是此方法的代码示例：
 
       ```java
       String trackingId = Analytics.getTrackingIdentifier(); 
@@ -77,15 +79,15 @@ SDK目前支持多个Adobe Experience cloud解决方案]，包括Analytics]、Ta
 
 * **trackLocation**
 
-   发送在定义的目标点中的当前纬度、经度和位置。 有关详细信息，请 [参阅地理位置和目标点](/help/android/location/geo-poi.md)。
+   发送当前的纬度和经度，以及在定义的目标点中的位置。有关更多信息，请参阅[地理位置和目标点](/help/android/location/geo-poi.md)。
 
-   * 下面是这种方法对应的语法：
+   * 以下是此方法的语法：
 
       ```java
       public static void trackLocation(Location location, Map<String,Object> contextData); 
       ```
 
-   * 以下是这种方法的代码示例：
+   * 以下是此方法的代码示例：
 
       ```java
       Analytics.trackLocation(userLocation, null);
@@ -95,13 +97,13 @@ SDK目前支持多个Adobe Experience cloud解决方案]，包括Analytics]、Ta
 
    向用户的生命周期值中添加 `amount`。
 
-   * 下面是这种方法对应的语法：
+   * 以下是此方法的语法：
 
       ```java
       publicstaticvoidtrackLifetimeValueIncrease(BigDecimalamount,Map<String,Object>contextData);
       ```
 
-   * 以下是这种方法的代码示例：
+   * 以下是此方法的代码示例：
 
       ```java
       Analytics.trackLifetimeValueIncrease(new BigDecimal(30), null);
@@ -117,12 +119,12 @@ SDK目前支持多个Adobe Experience cloud解决方案]，包括Analytics]、Ta
    >
    >这个调用不发送点击。
 
-   * 下面是这种方法对应的语法：
+   * 以下是此方法的语法：
    ```java
    publicstaticvoidtrackTimedActionStart(Stringaction,Map<String,Object>contextData);
    ```
 
-   * 以下是这种方法的代码示例：
+   * 以下是此方法的代码示例：
 
       ```java
       Analytics.trackTimedActionStart("cartToCheckout",null)
@@ -137,7 +139,7 @@ SDK目前支持多个Adobe Experience cloud解决方案]，包括Analytics]、Ta
    >
    >这个调用不发送点击。
 
-   * 下面是这种方法对应的语法：
+   * 以下是此方法的语法：
 
       ```java
       public static void trackTimedActionUpdate(Stringaction,Map <String,Object> contextData); 
@@ -157,15 +159,15 @@ SDK目前支持多个Adobe Experience cloud解决方案]，包括Analytics]、Ta
 
    >[!TIP]
    >
-   >If you provide `block`, you must return `true` to send a hit. Passing `null` for `block` sends the final hit.
+   >如果提供 `block`，则必须返回 `true` 才能发送点击。为 `block` 传递 `null` 将发送最终点击。
 
-   * 下面是这种方法对应的语法：
+   * 以下是此方法的语法：
 
       ```java
       public static void trackTimedActionEnd(Stringaction,TimedActionBlock<Boolean> logic); 
       ```
 
-   * 以下是这种方法的代码示例：
+   * 以下是此方法的代码示例：
 
       ```java
       Analytics.trackTimedActionEnd("cartToCheckout",new
@@ -181,17 +183,17 @@ SDK目前支持多个Adobe Experience cloud解决方案]，包括Analytics]、Ta
 
 * **sendQueuedHits**
 
-   **需要 SDK 4.1.**
+   **需要 SDK 4.1。**
 
    无论有多少点击已排入队列，此方法都强制库发送离线队列中的所有点击。
 
-   * 下面是这种方法对应的语法：
+   * 以下是此方法的语法：
 
       ```java
       voidsendQueuedHits()
       ```
 
-   * 以下是这种方法的代码示例：
+   * 以下是此方法的代码示例：
 
       ```java
       Analytics.sendQueuedHits();
@@ -201,13 +203,13 @@ SDK目前支持多个Adobe Experience cloud解决方案]，包括Analytics]、Ta
 
    返回离线队列中存储的跟踪调用的数量。
 
-   * 下面是这种方法对应的语法：
+   * 以下是此方法的语法：
 
       ```java
       long getQueueSize()
       ```
 
-   * 以下是这种方法的代码示例：
+   * 以下是此方法的代码示例：
 
       ```java
       long queueSize = Analytics.getQueueSize(); 
@@ -217,13 +219,13 @@ SDK目前支持多个Adobe Experience cloud解决方案]，包括Analytics]、Ta
 
    清除离线队列中的所有点击。
 
-   * 下面是这种方法对应的语法：
+   * 以下是此方法的语法：
 
       ```java
       voidclearQueue()
       ```
 
-   * 以下是这种方法的代码示例：
+   * 以下是此方法的代码示例：
 
       ```java
       Analytics.clearQueue();
