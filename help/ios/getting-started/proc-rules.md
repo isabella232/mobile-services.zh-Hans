@@ -6,22 +6,22 @@ solution: Marketing Cloud,Analytics
 title: 处理规则和上下文数据
 topic: 开发人员和实施
 uuid: 51338ccd-fa52-4d9c-97c4-947a4100465d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 06144a1695ac40ce984656491456968888f9e96e
 
 ---
 
 
-# Processing rules and context data{#processing-rules-and-context-data}
+# 处理规则和上下文数据{#processing-rules-and-context-data}
 
 处理规则用于将您在上下文数据变量中发送的数据复制到 eVar、prop 及其他变量以供报告。
 
 有关更多信息，请参阅以下内容：
 
 * 2013 年峰会上的[处理规则培训](https://tv.adobe.com/embed/1181/16506/)
-* Become authorized to use processing rules
+* 获得使用处理规则的授权
 
-   For more information about processing rules, see Processing rules overview.[](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/processing-rules/processing-rules.html)
+   有关处理规则的更多信息，请参阅[处理规则概述](https://docs.adobe.com/content/help/zh-Hans/analytics/admin/admin-tools/processing-rules/processing-rules.html)。
 
 在使用处理规则时，请牢记以下信息：
 
@@ -63,5 +63,5 @@ source-git-commit: 06144a1695ac40ce984656491456968888f9e96e
 
 >[!TIP]
 >
->Adobe reserves the namespace " ". `a.`除了该限制之外，为了避免发生冲突，还只需满足一个要求，即上下文数据变量在您的登录公司中是唯一的。
+>Adobe 会保留命名空间“`a.`”。除了该限制之外，为了避免发生冲突，还只需满足一个要求，即上下文数据变量在您的登录公司中是唯一的。
 
