@@ -7,7 +7,7 @@ solution: Marketing Cloud,Analytics
 title: 入门指南
 topic: 量度
 uuid: a7ae7c5a-dab8-4603-b4cd-af73a2f09f71
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
 
 ---
@@ -41,7 +41,7 @@ Adobe Mobile Services 可帮助通过列方式提高移动设备应用程序参�
 
 在&#x200B;*获取*&#x200B;中，您可以使用付费媒体、自有媒体和免费媒体推动领先应用商店中应用程序下载的用户获取。通过使用 Adobe Mobile Services，您可以加快应用程序用户的客户获取过程。
 
-Adobe Mobile Services 提供用户客户获取工作流程，包括客户获取跟踪链接和深层链接，可以测量您的渠道在获取应用程序用户方面的有效性。通过跟踪哪些用户来自哪个渠道的营销链接，您可以了解哪些赢取渠道在驱动盈利和参与度较高的用户方面最为有效。
+Adobe Mobile Services 提供用户客户获取工作流程，包括客户获取跟踪链接和深层链接，可以测量您的渠道在获取应用程序用户方面的有效性。借助可跟踪哪些用户来自哪些渠道的营销链接，您可以深入了解哪些客户获取渠道在吸引有利可图的用户方面最有效。
 
 此外，通过深层链接，您可以将用户直接引导至您希望他们看到的应用程序内容，并鼓励他们在必要时安装您的应用程序。
 
@@ -52,7 +52,7 @@ Adobe Mobile Services 提供用户客户获取工作流程，包括客户获取�
 * 到应用程序的深层链接
 * 回发与广告网络的集成
 
-有关此阶段的更多信息，请参阅 [客户获取](/help/using/acquisition-main/acquisition-main.md).
+有关此阶段的更多信息，请参阅[客户获取](/help/using/acquisition-main/acquisition-main.md)。
 
 ### 分析
 
@@ -70,7 +70,7 @@ Adobe Mobile Services 提供用户客户获取工作流程，包括客户获取�
 * 位置分析
 * 广泛的设备和平台支持
 
-有关可以运行和分析客户的报表的更多信息，请参阅 [报表](/help/using/usage/usage.md).
+有关可以运行和分析客户的报表的更多信息，请参阅[报表](/help/using/usage/usage.md)。
 
 ### 参与
 
@@ -82,7 +82,7 @@ Adobe Mobile Services 提供用户客户获取工作流程，包括客户获取�
 * 应用程序内消息由实时分析、警报和新选件/内容触发。
 * 了解查看次数、点进率和下游行为
 
-### Adobe Mobile消息传递
+### Adobe Mobile 消息传送
 
 您可以使用推送通知和应用程序内通知与您的用户进行通信。推送通知通过设备上的操作系统发送，而应用程序内消息在用户积极与应用程序进行交互时由应用程序发送。应用程序内消息通常可以包含其他一些格式，如弹出窗口和插播式广告。
 
@@ -111,7 +111,7 @@ Adobe Mobile Services 提供用户客户获取工作流程，包括客户获取�
 
 在&#x200B;*优化*&#x200B;中，您可以优化转换（订阅、商业、广告收入等）并提高客户维系率。优化应用程序中的用户体验可帮助您个性化内容，从而实现最大的投资回报率和转化率。
 
-有关测试和 Adobe Target 的更多信息，请转到 [Adobe Target](https://docs.adobe.com/content/help/en/target/using/target-home.html)。
+有关测试和 Adobe Target 的更多信息，请转到 [Adobe Target](https://docs.adobe.com/content/help/zh-Hans/target/using/target-home.html)。
 
 ### 地域定向
 
@@ -121,9 +121,9 @@ Adobe Target for Mobile 应用程序现在可充分利用 Adobe Analytics 提供
 
 有关位置的更多信息，请参阅以下内容：
 
-* [Mobile services用户指南中的位置](/help/using/location/c-location-overview.md)
+* [Mobile Services 用户指南中的位置](/help/using/location/c-location-overview.md)
 * Android SDK 手册中的[位置](/help/android/location/location.md)
-* iOS SDK 手册中的[位置](/help/ios/location/location.md)
+* [iOS SDK 手册中的位置](/help/ios/location/location.md)
 
 ## Adobe Mobile SDK {#mobile-services-sdk}
 
@@ -158,4 +158,4 @@ Adobe Mobile SDK 提供以下功能：
    * 最大限度地减少用于将数据发送到 Adobe 服务器和第三方系统的设备处理负载。
    * 占用空间小，可以减小提交给应用商店的应用程序包大小。
 
-有关 Adobe Mobile SDK 的更多信息，请参阅[适用于 Experience Cloud 解决方案的 Android SDK 4.x](https://docs.adobe.com/content/help/en/mobile-services/android/overview.html) 和[适用于 Experience Cloud 解决方案的 iOS SDK 4.x](https://docs.adobe.com/content/help/en/mobile-services/ios/rel-notes.html)。
+有关 Adobe Mobile SDK 的更多信息，请参阅[适用于 Experience Cloud 解决方案的 Android SDK 4.x](https://docs.adobe.com/content/help/zh-Hans/mobile-services/android/overview.html) 和[适用于 Experience Cloud 解决方案的 iOS SDK 4.x](https://docs.adobe.com/content/help/zh-Hans/mobile-services/ios/rel-notes.html)。
