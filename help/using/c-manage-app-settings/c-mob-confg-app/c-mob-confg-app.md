@@ -1,10 +1,10 @@
 ---
-description: 'On the Manage App Settings page, you can make the following types of changes '
+description: '在“管理应用程序设置”页面上，您可以进行以下类型的更改 '
 seo-description: '在“管理应用程序设置”页面上，您可以进行以下类型的更改 '
 seo-title: 配置您的应用程序
 title: 配置您的应用程序
 uuid: c088e12d-73b6-40c4-b8cc-ec3bb3d3aa4a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
 
 ---
@@ -28,11 +28,11 @@ source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
 
       * **客户获取**
 
-         跟踪应用程序下载促销活动的反向链接 URL。有关更多信息，请参阅 [客户获取](/help/using/acquisition-main/acquisition-main.md).
+         跟踪应用程序下载促销活动的反向链接 URL。有关更多信息，请参阅[客户获取](/help/using/acquisition-main/acquisition-main.md)。
 
       * **生命周期**
 
-         跟踪在生命周期实施后，能够由 Mobile 库自动测量的量度和维度。有关详细信息，请参阅后面几节的内容：
+         跟踪在生命周期实施后，能够由 Mobile 库自动测量的量度和维度。有关更多信息，请参阅以下部分：
 
          * [iOS SDK 生命周期量度](/help/ios/metrics.md)
          * [Android 生命周期量度](/help/android/metrics.md)
@@ -42,9 +42,9 @@ source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
 
          基于应用程序内操作启用报表和路径。
 
-      * **存留期值**
+      * **生命周期值**
 
-         了解用户如何使用应用程序 KPI（例如购买、广告查看、视频完成、社交分享、照片上载等），让价值随着时间增长。
+         了解用户如何使用应用程序 KPI（例如购买、广告查看、视频完成、社交分享、照片上传等），让价值随着时间增长。
 
       * **定时事件**
 
@@ -59,7 +59,7 @@ source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
 
    >[!IMPORTANT]
    >
-   >Before you download the SDKs and tools, you must configure the SDK Analytics options. For more information, see Configure the SDK Analytics Options.[](/help/using/c-manage-app-settings/c-mob-confg-app/t-config-analytics/t-config-analytics.md)
+   >在下载 SDK 和工具之前，您必须配置 SDK Analytics 选项。有关更多信息，请参阅[配置 SDK Analytics 选项](/help/using/c-manage-app-settings/c-mob-confg-app/t-config-analytics/t-config-analytics.md)。
 
    当您准备升级到 4.x SDK 时，或者您要使用新应用程序时，请从“管理应用程序设置”页面的底部下载最新的 SDK 和开发工具。
 
