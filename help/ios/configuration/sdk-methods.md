@@ -6,17 +6,17 @@ solution: Marketing Cloud,Analytics
 title: 配置方法
 topic: 开发人员和实施
 uuid: 623c7b07-fbb3-4d39-a5c4-e64faec4ca29
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
 
 ---
 
 
-# Configuration methods {#configuration-methods}
+# 配置方法 {#configuration-methods}
 
 以下是 iOS 库提供的方法列表。
 
-SDK目前支持多个Adobe Experience cloud解决方案，包括Analytics、Target、Audience Manager和Adobe Experience Platform Identity Service。
+SDK 当前支持多个 Adobe Experience Cloud 解决方案，包括 Analytics、Target、Audience Manager 和 Adobe Experience Platform Identity Service。
 
 * **setAppExtensionType**
 
@@ -27,15 +27,15 @@ SDK目前支持多个Adobe Experience cloud解决方案，包括Analytics、Targ
    * `ADBMobileAppExtensionTypeStandAlone` - 扩展未与容器应用程序捆绑在一起.
    >[!TIP]
    >
-   >This method should **only** be used if your app has an extension or is a stand-alone extension. For more information, see *ADBMobileAppExtensionType* below.
+   >**仅**&#x200B;当您的应用程序具有扩展或本身是独立扩展时，才应使用此方法。有关更多信息，请参阅下面的“ADBMobileAppExtensionType”**。
 
-   * 下面是这种方法对应的语法：
+   * 以下是此方法的语法：
 
       ```objective-c
       + (void) setAppExtensionType:(ADBMobileAppExtensionType)type;
       ```
 
-   * 以下是这种方法的代码示例：
+   * 以下是此方法的代码示例：
 
       ```objective-c
       [ADBMobile setAppExtensionType:ADBMobileAppExtensionTypeStandAlone]; 
@@ -43,17 +43,17 @@ SDK目前支持多个Adobe Experience cloud解决方案，包括Analytics、Targ
 
 
 
-* **版本**
+* **version**
 
    返回 Adobe Mobile 库的当前版本。
 
-   * 下面是这种方法对应的语法：
+   * 以下是此方法的语法：
 
       ```objective-c
       +(NSString*) version;
       ```
 
-   * 以下是这种方法的代码示例：
+   * 以下是此方法的代码示例：
 
       ```objective-c
       NSString*libraryVersion = [ADBMobileversion];
@@ -63,17 +63,17 @@ SDK目前支持多个Adobe Experience cloud解决方案，包括Analytics、Targ
 
    返回当前用户隐私状态的枚举表示形式。
 
-   * `ADBMobilePrivacyStatusOptIn` -立即发送点击。
-   * `ADBMobilePrivacyStatusOptOut` - hits are discarded.
+   * `ADBMobilePrivacyStatusOptIn` - 立即发送点击。
+   * `ADBMobilePrivacyStatusOptOut` - 丢弃点击。
    * `ADBMobilePrivacyStatusUnknown` - 如果启用了离线跟踪，将会保存点击，直到隐私状态更改为选择启用（发送点击）或选择禁用（丢弃点击）。如果未启用离线跟踪，则将丢弃点击，直到隐私状态更改为选择启用。默认值在 `ADBMobileConfig.json` 文件中设置。
 
-   * 下面是这种方法对应的语法：
+   * 以下是此方法的语法：
 
       ```objective-c
       + (ADBMobilePrivacyStatus) privacyStatus;
       ```
 
-   * 以下是这种方法的代码示例：
+   * 以下是此方法的代码示例：
 
       ```objective-c
       ADBMobilePrivacyStatus privacyStatus = [ADBMobileprivacyStatus];
@@ -85,17 +85,17 @@ SDK目前支持多个Adobe Experience cloud解决方案，包括Analytics、Targ
 
    设置为以下值之一：
 
-   * `ADBMobilePrivacyStatusOptIn` -立即发送点击。
-   * `ADBMobilePrivacyStatusOptOut` -丢弃点击。
+   * `ADBMobilePrivacyStatusOptIn` - 立即发送点击。
+   * `ADBMobilePrivacyStatusOptOut` - 丢弃点击。
    * `ADBMobilePrivacyStatusUnknown` - 如果启用了离线跟踪，将会保存点击，直到隐私状态更改为选择启用（发送点击）或选择禁用（丢弃点击）。如果未启用离线跟踪，则将丢弃点击，直到隐私状态更改为选择启用。
 
-   * 下面是这种方法对应的语法：
+   * 以下是此方法的语法：
 
       ```objective-c
       + (void) setPrivacyStatus:(ADBMobilePrivacyStatus)status;
       ```
 
-   * 以下是这种方法的代码示例：
+   * 以下是此方法的代码示例：
 
       ```objective-c
       [ADBMobile setPrivacyStatus:ADBMobilePrivacyStatusOptIn];
@@ -103,15 +103,15 @@ SDK目前支持多个Adobe Experience cloud解决方案，包括Analytics、Targ
 
 * **lifetimeValue**
 
-   返回当前用户的生命周期值。默认值为 `0`.
+   返回当前用户的生命周期值。默认值为 `0`。
 
-   * 下面是这种方法对应的语法：
+   * 以下是此方法的语法：
 
       ```objective-c
       + (NSDecimalNumber *) lifetimeValue;
       ```
 
-   * 以下是这种方法的代码示例：
+   * 以下是此方法的代码示例：
 
       ```objective-c
       NSDecimalNumber *lifeValue = [ADBMobile lifetimeValue];
@@ -123,15 +123,15 @@ SDK目前支持多个Adobe Experience cloud解决方案，包括Analytics、Targ
 
    >[!TIP]
    >
-   >如果您的应用程序从Experience Cloud 3.x升级到4.x SDK，则会检索之前的自定义或自动生成的访客ID，并将其存储为自定义用户标识符。 有关更多信息，请参阅下面的 `userIdentifier` 行。这样可在 SDK 升级期间保留访客数据。对于 4.x SDK 上的新安装，用户标识符为 `nil`，并且将使用跟踪标识符。
+   >如果您的应用程序从 Experience Cloud 3.x SDK 升级到 4.x SDK，则会检索之前的自定义访客 ID 或自动生成的访客 ID，并将其存储为自定义用户标识符。有关更多信息，请参阅下面的 `userIdentifier` 行。这样可在 SDK 升级期间保留访客数据。对于 4.x SDK 上的新安装，用户标识符为 `nil`，并且将使用跟踪标识符。
 
-   * 下面是这种方法对应的语法：
+   * 以下是此方法的语法：
 
       ```objective-c
       + (NSString *) trackingIdentifier;
       ```
 
-   * 以下是这种方法的代码示例：
+   * 以下是此方法的代码示例：
 
       ```objective-c
       NSString *tid = [ADBMobile trackingIdentifier];
@@ -139,21 +139,21 @@ SDK目前支持多个Adobe Experience cloud解决方案，包括Analytics、Targ
 
 * **userIdentifier**
 
-   如果已设置自定义标识符，则会返回用户标识符。如果未设置自定义标识符，则会返回 `nil`。默认值为 `nil`.
+   如果已设置自定义标识符，则会返回用户标识符。如果未设置自定义标识符，则会返回 `nil`。默认值为 `nil`。
 
    >[!TIP]
    >
-   >如果您的应用程序从Experience Cloud 3.x升级到4.x SDK，则会检索之前的自定义或自动生成的访客ID，并将其存储为自定义用户标识符。 这样可在 SDK 升级期间保留访客数据。
+   >如果您的应用程序从 Experience Cloud 3.x SDK 升级到 4.x SDK，则会检索之前的自定义访客 ID 或自动生成的访客 ID，并将其存储为自定义用户标识符。这样可在 SDK 升级期间保留访客数据。
 
    对于 4.x SDK 上的新安装，用户标识符在设置之前为 `nil`。
 
-   * 下面是这种方法对应的语法：
+   * 以下是此方法的语法：
 
       ```objective-c
       +(NSString *) userIdentifier;
       ```
 
-   * 以下是这种方法的代码示例：
+   * 以下是此方法的代码示例：
 
       ```objective-c
       NSString *uid = [ADBMobileuserIdentifier];
@@ -163,13 +163,13 @@ SDK目前支持多个Adobe Experience cloud解决方案，包括Analytics、Targ
 
    将用户标识符设置为 `identifier`。
 
-   * 下面是这种方法对应的语法：
+   * 以下是此方法的语法：
 
       ```objective-c
       +(void)setUserIdentifier:(NSString*)identifier;
       ```
 
-   * 以下是这种方法的代码示例：
+   * 以下是此方法的代码示例：
 
       ```objective-c
       [ADBMobile setUserIdentifier:@"billybob"]; 
@@ -177,15 +177,15 @@ SDK目前支持多个Adobe Experience cloud解决方案，包括Analytics、Targ
 
 * **debugLogging**
 
-   返回当前的调试日志记录首选项。默认值为 `NO`.
+   返回当前的调试日志记录首选项。默认值为 `NO`。
 
-   * 下面是这种方法对应的语法：
+   * 以下是此方法的语法：
 
       ```objective-c
       + (BOOL) debugLogging;
       ```
 
-   * 以下是这种方法的代码示例：
+   * 以下是此方法的代码示例：
 
       ```objective-c
       BOOL debugging = [ADBMobile debugLogging];
@@ -195,13 +195,13 @@ SDK目前支持多个Adobe Experience cloud解决方案，包括Analytics、Targ
 
    将调试日志记录首选项设置为 `debug`。
 
-   * 下面是这种方法对应的语法：
+   * 以下是此方法的语法：
 
       ```objective-c
       + (void) setDebugLogging:(BOOL)debug;
       ```
 
-   * 以下是这种方法的代码示例：
+   * 以下是此方法的代码示例：
 
       ```objective-c
       [ADBMobile setDebugLogging:YES];
@@ -213,15 +213,15 @@ SDK目前支持多个Adobe Experience cloud解决方案，包括Analytics、Targ
 
    >[!TIP]
    >
-   >This method is intended to be used for apps that register for notifications while in background and should only be called from the code that runs while your app is in the background.
+   >此方法专门用于在后台注册通知的应用程序，而且只应从应用程序处于后台时运行的代码中调用。
 
-   * 下面是这种方法对应的语法：
+   * 以下是此方法的语法：
 
       ```objective-c
       + (void) keepLifecycleSessionAlive;
       ```
 
-   * 以下是这种方法的代码示例：
+   * 以下是此方法的代码示例：
 
       ```objective-c
       [ADBMobile keepLifecycleSessionAlive]; 
@@ -233,15 +233,15 @@ SDK目前支持多个Adobe Experience cloud解决方案，包括Analytics、Targ
 
    >[!TIP]
    >
-   >The preferred location to invoke this method is in `application:didFinishLaunchingWithOptions:`.
+   >首选在 `application:didFinishLaunchingWithOptions:` 中调用此方法。
 
-   * 下面是这种方法对应的语法：
+   * 以下是此方法的语法：
 
       ```objective-c
       + (void) collectLifecycleData;
       ```
 
-   * 以下是这种方法的代码示例：
+   * 以下是此方法的代码示例：
 
       ```objective-c
       [ADBMobile collectLifecycleData];
@@ -251,19 +251,19 @@ SDK目前支持多个Adobe Experience cloud解决方案，包括Analytics、Targ
 
    允许您在收集生命周期量度时传入其他数据。
 
-   This method must be called from the entry point of your app. Where applicable, this may include one or both of the methods `application:didFinishLaunchingWithOptions:` and/or `applicationWillEnterForeground:` in your AppDelegate class.
+   必须从应用程序的入口点调用此方法。在适用的情况下，这可能包括 AppDelegate 类中的以下一种或两种方法：`application:didFinishLaunchingWithOptions:` 和/或 `applicationWillEnterForeground:`。
 
    >[!IMPORTANT]
    >
-   >Data that is passed to the SDK via `collectLifecycleDataWithAdditionalData:` will be persisted by the SDK in `NSUserDefaults`. SDK 将删除 `NSDictionary` 参数中类型不为 `NSString` 或 `NSNumber` 的值。To use  `collectLifecycleDataWithAdditionalData:`, you must have SDK **version 4.4** or later.
+   >通过 `collectLifecycleDataWithAdditionalData:` 传递到 SDK 的数据将由 SDK 持久保留在 `NSUserDefaults` 中。SDK 将删除 `NSDictionary` 参数中类型不为 `NSString` 或 `NSNumber` 的值。要使用 `collectLifecycleDataWithAdditionalData:`，您必须具有 SDK **版本 4.4** 或更高版本。
 
-   * 下面是这种方法对应的语法：
+   * 以下是此方法的语法：
 
       ```objective-c
       + (void) collectLifecycleDataWithAdditionalData:(nullableNSDictionary*)data; 
       ```
 
-   * 以下是这种方法的代码示例：
+   * 以下是此方法的代码示例：
 
       ```objective-c
       [ADBMobile collectLifecycleDataWithAdditionalData:@{@"entryType":@"appShortcutIcon"}]; 
@@ -275,15 +275,15 @@ SDK目前支持多个Adobe Experience cloud解决方案，包括Analytics、Targ
 
    >[!IMPORTANT]
    >
-   >To use `overrideConfigPath`, you must have SDK version 4.2 or later.
+   >要使用 `overrideConfigPath`，您必须具有 SDK 版本 4.2 或更高版本。
 
-   * 下面是这种方法对应的语法：
+   * 以下是此方法的语法：
 
       ```objective-c
        + (void) overrideConfigPath: (nullableNSString *) path;
       ```
 
-   * 以下是这种方法的代码示例：
+   * 以下是此方法的代码示例：
 
       ```objective-c
       NSString *filePath = [[NSBundle mainBundle] pathForResource:@"ExampleJSONFile" ofType:@"json"]; 
@@ -296,15 +296,15 @@ SDK目前支持多个Adobe Experience cloud解决方案，包括Analytics、Targ
 
    >[!IMPORTANT]
    >
-   >This method should only be used in the  `application:didRegisterForRemoteNotificationsWithDeviceToken:` method.
+   >应当只在 `application:didRegisterForRemoteNotificationsWithDeviceToken:` 方法中使用此方法。
 
-   * 下面是这种方法对应的语法：
+   * 以下是此方法的语法：
 
       ```objective-c
       + (void) setPushIdentifier:(NSData *)deviceToken;
       ```
 
-   * 以下是这种方法的代码示例：
+   * 以下是此方法的代码示例：
 
       ```objective-c
       - (void) application:(UIApplication *) application  didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)deviceToken { 
@@ -318,15 +318,15 @@ SDK目前支持多个Adobe Experience cloud解决方案，包括Analytics、Targ
 
    >[!TIP]
    >
-   >Retrieve the IDFA from Apple APIs **only** if you are using an ad service. 如果您检索 IDFA 但并未正确使用它，则您的应用程序可能会被拒绝。
+   >**仅**&#x200B;当使用广告服务时，才应从 Apple API 检索 IDFA。如果您检索 IDFA 但并未正确使用它，则您的应用程序可能会被拒绝。
 
-   * 下面是这种方法对应的语法：
+   * 以下是此方法的语法：
 
       ```objective-c
       +(void) setAdvertisingIdentifier:(NSString*)identifier;
       ```
 
-   * 以下是这种方法的代码示例：
+   * 以下是此方法的代码示例：
 
       ```objective-c
       NSString *idfa = [[[ASIdentifierManager sharedManager]advertisingIdentifier] UUIDString]; 
