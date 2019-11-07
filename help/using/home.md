@@ -1,11 +1,11 @@
 ---
-description: Adobe Mobile services的技术文档
-seo-description: 本指南概述了Adobe Mobile services的技术文档和自助服务，它集中了Adobe Experience cloud中移动应用程序的移动营销功能，使您能够了解和提高用户对移动应用程序的参与度。
+description: Adobe Mobile Services 的技术文档
+seo-description: 本指南概述了 Adobe Mobile Services 的技术文档和自助帮助，其中整合了 Adobe Experience Cloud 中移动设备应用程序的移动营销功能，从而使您能够了解并提高用户对移动设备应用程序的参与度。
 seo-title: Adobe Mobile Services
 solution: Marketing Cloud, Analytics, Experience Cloud
 title: Adobe Mobile Services
 uuid: e86a77c9-4ff1-403f-a5a1-4afbdc4e6f68
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 20fdbba819f7c182a23a01cd06e1738ad83eba38
 
 ---
@@ -13,37 +13,37 @@ source-git-commit: 20fdbba819f7c182a23a01cd06e1738ad83eba38
 
 # Adobe Mobile Services {#adobe-mobile-services}
 
-本指南概述了Adobe Mobile services的技术文档和自助服务，它集中了Adobe Experience cloud中移动应用程序的移动营销功能，使您能够了解和提高用户对移动应用程序的参与度。
+本指南概述了 Adobe Mobile Services 的技术文档和自助帮助，其中整合了 Adobe Experience Cloud 中移动设备应用程序的移动营销功能，从而使您能够了解并提高用户对移动设备应用程序的参与度。
 
 >[!IMPORTANT]
 >
->需要Adobe Analytics Mobile Marketing Add-on SKU,Mobile services才能访问移动客户获取、深层链接、地理位置和移动消息传递功能。 有关详细信息，请与您的Adobe CSM联系。
+>要允许 Mobile Services 访问移动设备客户获取、深度链接、地理定位和移动设备消息传送功能，需要安装 Adobe Analytics Mobile Marketing Add-on SKU。有关更多信息，请与您的 Adobe CSM 联系。
 
 ## 新的 Adobe Experience Cloud SDK 发行版本
 
 查找与 Adobe Experience Platform Mobile SDK 相关的信息和文档？单击[此处](https://aep-sdks.gitbook.io/docs/)可获取最新的文档。
 
-在 2018 年 9 月，我们发布了一个新的 SDK 主要版本。这些新的 Adobe Experience Platform Mobile SDK 可通过 [Experience Platform Launch](https://www.adobe.com/experience-platform/launch.html) 进行配置。
+在 2018 年 9 月，我们发布了一个新的 SDK 主要版本。这些新的 Adobe Experience Platform Mobile SDK 可通过 [Experience Platform Launch](https://www.adobe.com/cn/experience-platform/launch.html) 进行配置。
 
 * 要开始配置，请转到 Launch。
 * 要查看 Experience Platform SDK 存储库中的内容，请转到 [Github：Adobe Experience Platform SDK](https://github.com/Adobe-Marketing-Cloud/acp-sdks)。
 
 >[!IMPORTANT]
 >
-> If you are using the Adobe Experience Platform Mobile SDKs with Adobe Launch, you **must** also install the Adobe Analytics Mobile Services extension to use Adobe Mobile Services features such as in-App messaging, push notifications or Acquisition links. 有关更多信息，请参阅 [Adobe Analytics - Mobile Services](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-analytics-mobile-services)。
+> 如果您要在 Adobe Launch 中使用 Adobe Experience Platform Mobile SDK，则还&#x200B;**必须**&#x200B;安装 Adobe Analytics Mobile Services 扩展才能使用 Adobe Mobile Services 功能，例如应用程序内消息传送、推送通知或客户获取链接。有关更多信息，请参阅 [Adobe Analytics - Mobile Services](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-analytics-mobile-services)。
 
 >[!IMPORTANT]
 >
->尽管您可以在UI中配置功能，但是，在您下载生成的配置文件并将此文件添加到SDK之前，这些功能将无法使用。 For information about downloading and configuring the SDKs, see the *SDK documentation* section on this page.
+>虽然您可以在 UI 中配置功能，但配置的功能要在下载生成的配置文件并将其添加到 SDK 后才能正常工作。有关下载和配置 SDK 的信息，请参阅此页面上的“SDK 文档”**&#x200B;部分。
 
-要获取最新的发行说明，请参阅 [Experience Cloud 发行说明](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html)。
+要获取最新的发行说明，请参阅 [Experience Cloud 发行说明](https://docs.adobe.com/content/help/zh-Hans/release-notes/experience-cloud/current.html)。
 
 ## 热门主题 {#section_AFFBC9EDDE5B4E4493A7C2896121A773}
 
 以下是本指南中的一些热门主题：
 
 * [入门指南](/help/using/gs/gs.md)
-* [正在登录](/help/using/gs/gs-signin.md)
+* [登录](/help/using/gs/gs-signin.md)
 * [角色和权限](/help/using/gs/c-mob-roles-and-permissions.md)
 * [移动量度](/help/using/gs/metrics/metrics.md)
 * [消息传送](/help/using/in-app-messaging/in-app-messaging.md)
@@ -53,20 +53,20 @@ source-git-commit: 20fdbba819f7c182a23a01cd06e1738ad83eba38
 
 ## 开发人员
 
-以下是帮助开发人员的一些链接：
+以下是对开发人员有所帮助的一些链接：
 
-* [下载移动 SDK 和工具](/help/using/c-manage-app-settings/c-mob-confg-app/t-config-analytics/download-sdk.md)
-* [开发人员](https://marketing.adobe.com/resources/help/en_US/reference/developer.html)
+* [下载 Mobile SDK 和工具](/help/using/c-manage-app-settings/c-mob-confg-app/t-config-analytics/download-sdk.md)
+* [开发人员](https://marketing.adobe.com/resources/help/zh_CN/reference/developer.html)
 
 ## 社区资源
 
 以下是一些其他资源：
 
 * [Experience Cloud 论坛](https://forums.adobe.com/community/experience-cloud)
-* [Adobe Marketing Cloud 社区](https://helpx.adobe.com/marketing-cloud.html?promoid=KAWSE)
+* [Adobe Marketing Cloud 社区](https://helpx.adobe.com/cn/marketing-cloud.html?promoid=KAWSE)
 * [意见交流](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
-* [Adobe 培训和教程](https://helpx.adobe.com/learning.html?promoid=KAUDK)
-* [特色解决方案服务中心](https://www.adobe.com/marketing-cloud.html)
+* [Adobe 培训和教程](https://helpx.adobe.com/cn/learning.html?promoid=KAUDK)
+* [特色解决方案服务中心](https://www.adobe.com/cn/marketing-cloud.html)
 
 ## SDK 文档 {#section_3A500233347C4305AB545E298A827CEA}
 
@@ -74,21 +74,21 @@ source-git-commit: 20fdbba819f7c182a23a01cd06e1738ad83eba38
 
 已为以下平台提供本地库：
 
-* [适用于 Experience Cloud 解决方案的 Android SDK 4.x](https://docs.adobe.com/content/help/en/mobile-services/android/overview.html)
+* [适用于 Experience Cloud 解决方案的 Android SDK 4.x](https://docs.adobe.com/content/help/zh-Hans/mobile-services/android/overview.html)
 
-* [适用于 Experience Cloud 解决方案的 iOS SDK 4.x](https://docs.adobe.com/content/help/en/mobile-services/ios/overview.html)
+* [适用于 Experience Cloud 解决方案的 iOS SDK 4.x](https://docs.adobe.com/content/help/zh-Hans/mobile-services/ios/overview.html)
 
-* [适用于 iOS 和 Android 4.x SDK 的 Unity 插件](https://docs.adobe.com/content/help/en/mobile-services/unity/get-started.html)
+* [适用于 iOS 和 Android 4.x SDK 的 Unity 插件](https://docs.adobe.com/content/help/zh-Hans/mobile-services/unity/get-started.html)
 
-* [适用于 Experience Cloud 解决方案 4.x SDK 的 Xamarin 组件](https://docs.adobe.com/content/help/en/mobile-services/xamarin/get-started.html)
+* [适用于 Experience Cloud 解决方案 4.x SDK 的 Xamarin 组件](https://docs.adobe.com/content/help/zh-Hans/mobile-services/xamarin/get-started.html)
 
-* [适用于 Experience Cloud 解决方案的通用 Windows 平台 SDK 4.x](https://docs.adobe.com/content/help/en/mobile-services/universal-windows/overview.html)
+* [适用于 Experience Cloud 解决方案的通用 Windows 平台 SDK 4.x](https://docs.adobe.com/content/help/zh-Hans/mobile-services/universal-windows/overview.html)
 
-* [Windows 8.1 跨平台通用应用商店](https://docs.adobe.com/content/help/en/mobile-services/windows-universal-appstore/overview.html)
+* [Windows 8.1 跨平台通用应用商店](https://docs.adobe.com/content/help/zh-Hans/mobile-services/windows-universal-appstore/overview.html)
 
-   * [适用于 Experience Cloud 解决方案 4.x SDK 的 Windows Visual Studio 扩展](https://docs.adobe.com/content/help/en/mobile-services/windows-universal-appstore/win-vse-4x.html)
+   * [适用于 Experience Cloud 解决方案 4.x SDK 的 Windows Visual Studio 扩展](https://docs.adobe.com/content/help/zh-Hans/mobile-services/windows-universal-appstore/win-vse-4x.html)
 
-* [适用于 Experience Cloud 解决方案的 BlackBerry 10 SDK 4.x](https://docs.adobe.com/content/help/en/mobile-services/blackberry/overview.html)
+* [适用于 Experience Cloud 解决方案的 BlackBerry 10 SDK 4.x](https://docs.adobe.com/content/help/zh-Hans/mobile-services/blackberry/overview.html)
 
 ## Adobe Mobile 快速入门网络研讨会 {#section_420EA66F39FE44B9B531ADF5F5465543}
 
