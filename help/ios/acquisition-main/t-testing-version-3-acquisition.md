@@ -5,24 +5,24 @@ seo-title: 测试 V3 客户获取
 solution: Marketing Cloud,Analytics
 title: 测试 V3 客户获取
 uuid: 89137ccf-4839-4b37-926e-303cf8e511a5
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
 
 ---
 
 
-# Testing V3 acquisition{#testing-v-acquisition}
+# 测试 V3 客户获取{#testing-v-acquisition}
 
 此信息可帮助您对基于设备指纹的 V3 客户获取促销活动链接进行往返测试。
 
 >[!IMPORTANT]
 >
->  V3 客户获取是指您在 Adobe Mobile Services 用户界面中通过客户获取生成器创建的客户获取链接。要使用此功能，您必须升级到 iOS SDK 版本 4.6.0 或更高版本。
+>V3 客户获取是指您在 Adobe Mobile Services 用户界面中通过客户获取生成器创建的客户获取链接。要使用此功能，您必须升级到 iOS SDK 版本 4.6.0 或更高版本。
 
 如果应用商店中尚未提供相应的移动设备应用程序，则在创建促销活动链接时，可以选择任何移动设备应用程序作为目标。这只会影响在您单击客户获取链接后客户获取服务器将您重定向到的应用程序，而不会影响测试链接的功能。
 
 1. 完成[移动设备应用程序客户获取](/help/ios/acquisition-main/acquisition.md)中的先决任务。
-1. 导航至 Adobe Mobile Services 用户界面中的&#x200B;**[!UICONTROL 客户获取生成器]，并生成客户获取促销活动 URL。**
+1. 导航至 Adobe Mobile Services 用户界面中的&#x200B;**[!UICONTROL 客户获取生成器]**，并生成客户获取促销活动 URL。
 
    例如：
 
@@ -40,17 +40,17 @@ source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
    {"fingerprint":"228d7e6058b1d731dc7a8b8bd0c15e1d78242f31","timestamp":1457989293,"appguid":"","contextData":{"a.referrer.campaign.name":"name","a.referrer.campaign.trackingcode":"trackingcode"}}.
    ```
 
-   If you do not see `contextData`, or some of it is missing, ensure that the acquisition URL follows the format that is specified in [Create Acquisition Link Manually](/help/using/acquisition-main/c-marketing-links-builder/acquisition-link-manual.md).
+   如果您没有看到 `contextData`，或者缺少某些内容，请确保客户获取 URL 遵循[手动创建客户获取链接](/help/using/acquisition-main/c-marketing-links-builder/acquisition-link-manual.md)中指定的格式。
 1. 确认配置文件中的以下设置准确无误：
 
    | 设置 | 值 |
    |--- |--- |
-   | acquisition | The server should be  `c00.adobe.com`. *`appid`* should equal the *`appid`* in your acquisition link. |
+   | acquisition | 服务器应为 `c00.adobe.com`。*`appid`* 应等于您的客户获取链接中的相应 *`appid`*。 |
    | analytics | `referrerTimeout` 的值应大于 0。 |
 
 
 1. （有条件）如果您的应用程序配置文件中的 `ssl` 设置为 true，请更新您的客户获取链接以使用 HTTPS 协议。
-1. Click the generated link from the mobile device on which you plan to install the app.
+1. 在要安装应用程序的移动设备上单击生成的链接。
 
    Adobe 服务器 (`c00.adobe.com`) 将存储指纹并重定向到应用商店。无需下载应用程序进行测试。
 1. 从您在步骤 6 中使用的相同移动设备上首次启动应用程序。
@@ -65,9 +65,10 @@ source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
 
    如果您没有看到以上日志，请确保您完成了步骤 4 和 5。
 
-   以下是一些关于可能的错误的信息：
+   以下是关于可能出现的错误的一些信息：
 
-   * `Analytics - Unable to retrieve acquisition service response (<error message>)`出现网络错误。
+   * `Analytics - Unable to retrieve acquisition service response (<error message>)`
+出现网络错误。
 
    * `Analytics - Unable to parse acquisition service response (<error message>)`
 
@@ -79,7 +80,7 @@ source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
 
    * `Analytics - Acquisition referrer data was not complete, ignoring`
 
-      `a.referrer.campaign.name` is not included in .`contextData`
+      `contextData` 中未包含 `a.referrer.campaign.name`。
 
    * `Analytics - Acquisition referrer timed out`
 
