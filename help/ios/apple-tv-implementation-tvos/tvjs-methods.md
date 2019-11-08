@@ -799,6 +799,7 @@ source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
          * 类型：`String`
          * 用于目标请求的第三方 ID。
    * 以下是此方法的代码示例：
+
    ```objective-c
    ADBMobile.targetSetThirdPartyID(‘thirdPartyID’);
    ```

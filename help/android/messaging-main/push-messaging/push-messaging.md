@@ -43,6 +43,7 @@ Adobe Mobile 和 Adobe Mobile SDK 允许您将推送消息发送给用户。该 
 1. 使用 Firebase Cloud Messaging (FCM) API 获取注册 ID /令牌。
 
    * 有关设置 FCM 的更多信息，请参阅 [Set Up a Firebase Cloud Messaging Client App on Android](https://firebase.google.com/docs/cloud-messaging/android/client)（在 Android 上设置 Firebase Cloud Messaging 客户端应用程序）。
+
    ```js
    String token = FirebaseInstanceId.getInstance().getToken();
    ```
@@ -57,7 +58,8 @@ Adobe Mobile 和 Adobe Mobile SDK 允许您将推送消息发送给用户。该 
 
    以下是启用推送点进报表的要求：
 
-   * 在 `FireBaseMessageService` 的实现中，必须将包含消息数据（将与 RemoteMessage 对象一起被传递到 `onMessageReceived` 方法中）的包对象添加到用于在点进时打开目标活动的意图中。可以使用 `putExtras` 方法来完成此操作。有关更多信息，请参阅 [putExtras](https://developer.android.com/reference/android/content/Intent.html#putExtras(android.os.Bundle))）。
+   * 在 `FireBaseMessageService` 的实现中，必须将包含消息数据（将与 RemoteMessage 对象一起被传递到 `onMessageReceived` 方法中）的包对象添加到用于在点进时打开目标活动的意图中。可以使用 `putExtras` 方法来完成此操作。有关更多信息，请参阅 [putExtras](https://developer.android.com/reference/android/content/Intent.html#putExtras(android.os.Bundle))。
+
    ```java
    Intent intent = new Intent(this, MainActivity.class);
       intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
