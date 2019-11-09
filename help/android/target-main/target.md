@@ -32,4 +32,4 @@ public void onCreate(Bundle savedInstanceState) {
 }
 ```
 
-如果您在实施 Analytics 或受众管理时已经添加此方法调用，则无需再次�
+如果您在实施 Analytics 或受众管理时已经添加此方法调用，则无需再次添加。
