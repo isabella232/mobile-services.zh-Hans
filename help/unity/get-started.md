@@ -7,7 +7,7 @@ solution: Marketing Cloud，开发人员
 title: 适用于 iOS 和 Android 4.x SDK 的 Unity 插件
 uuid: 83289a73-982d-4472-a8c8-00b562dc80f5
 translation-type: tm+mt
-source-git-commit: 5fbba02eb61679344f638b6465e47b0d9ae5a988
+source-git-commit: df4ff7128357a18c56d840eb5697f9c8813ad751
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 5fbba02eb61679344f638b6465e47b0d9ae5a988
 
 此插件能够让您从 Unity 应用程序发送 Adobe Analytics 调用。
 
-上次更新：**2016 年 10 月 20 日**
+Last Updated: **November 12, 2019**
 
 ## 入门指南 {#section_246D1F9B32ED47EABC41BDA8D0BD0CC7}
 
@@ -28,16 +28,6 @@ source-git-commit: 5fbba02eb61679344f638b6465e47b0d9ae5a988
 
    * ADBMobile
 
-      * Demo
-
-         * ADBMobileDemo.cs
-         * BooDemo.boo
-         * BooScene.unity
-         * CSharpScene.unity
-         * JavaScriptDemo.js
-         * JavaScriptScene.unity
-         * SecondScene.unity
-         * SecondSceneScript.cs
    * 插件
 
       * ADBMobile.cs
@@ -55,7 +45,6 @@ source-git-commit: 5fbba02eb61679344f638b6465e47b0d9ae5a988
          * ADBMobileWrapper.h
          * ADBMobileWrapper.mm
          * AdobeMobileLibrary.a
-
 
 
 可选文件夹：Demo 文件夹包含适用于每种受支持的脚本语言的 Unity 场景和示例代码。
