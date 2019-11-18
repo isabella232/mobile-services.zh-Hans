@@ -3,10 +3,10 @@ description: 此插件能够让您从 Unity 应用程序发送 Adobe Analytics �
 keywords: Unity
 seo-description: 此插件能够让您从 Unity 应用程序发送 Adobe Analytics 调用。
 seo-title: 适用于 iOS 和 Android 4.x SDK 的 Unity 插件
-solution: Marketing Cloud，开发人员
+solution: Marketing Cloud,开发人员
 title: 适用于 iOS 和 Android 4.x SDK 的 Unity 插件
 uuid: 83289a73-982d-4472-a8c8-00b562dc80f5
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: df4ff7128357a18c56d840eb5697f9c8813ad751
 
 ---
@@ -16,13 +16,13 @@ source-git-commit: df4ff7128357a18c56d840eb5697f9c8813ad751
 
 此插件能够让您从 Unity 应用程序发送 Adobe Analytics 调用。
 
-Last Updated: **November 12, 2019**
+上次更新日期：**2019 年 11 月 12 日**
 
 ## 入门指南 {#section_246D1F9B32ED47EABC41BDA8D0BD0CC7}
 
 从 GitHub 或 Developer Connection 下载 [ADBMobile.unitypackage](https://github.com/Adobe-Marketing-Cloud/mobile-services/releases) 文件。
 
-以下是文件的内 `ADBMobile.unitypackage` 容：
+以下是 `ADBMobile.unitypackage` 文件的内容：
 
 * Assets（根）
 
@@ -52,6 +52,6 @@ Last Updated: **November 12, 2019**
 ## 将 ADBMobile 插件导入您的 Unity 项目 {#section_35FB6DAE49FB4FA1ACB749A1F9480FE0}
 
 1. 打开您的 Unity 项目。
-1. Double-click **[!UICONTROL ADBMobile.unitypackage]**.
+1. 双击 **[!UICONTROL ADBMobile.unitypackage]**。
 1. 选择您希望导入的文件夹。
 
