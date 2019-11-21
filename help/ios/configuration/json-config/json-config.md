@@ -6,7 +6,7 @@ solution: Marketing Cloud,Analytics
 title: ADBMobile JSON 配置
 topic: Developer and implementation
 uuid: d9708d59-e30a-4f6c-ab1b-d9499855d0c2
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: bb7fc1c1fc6e88549a1673baedae19f808d222f0
 
 ---
@@ -70,7 +70,7 @@ source-git-commit: bb7fc1c1fc6e88549a1673baedae19f808d222f0
 
 * **charset**
 
-   定义将用于发送到 Analytics 的数据的字符集。charset 用于将传入的数据转换为 UTF-8 以便进行存储和报告。有关更多信息，请参阅 [s.charSet](https://marketing.adobe.com/resources/help/en_US/sc/implement/charset.html)。
+   定义将用于发送到 Analytics 的数据的字符集。charset 用于将传入的数据转换为 UTF-8 以便进行存储和报告。有关更多信息，请参阅 [s.charSet](https://marketing.adobe.com/resources/help/zh_CN/sc/implement/charset.html)。
 
    * 最低 SDK 版本：4.0
 
@@ -247,7 +247,7 @@ source-git-commit: bb7fc1c1fc6e88549a1673baedae19f808d222f0
 
    >[!IMPORTANT]
    >
-   > 从4.10.0版开始，如果未设置标志，则SSL默认为true。
+   > 从版本 4.10.0 开始，如果未设置标记，则 SSL 默认为 true。
 
    启用 (`true`) 或禁用 (`false`) 使用 SSL (HTTPS) 发送测量数据的功能。
 
