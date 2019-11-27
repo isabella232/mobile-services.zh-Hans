@@ -4,10 +4,10 @@ seo-description: 此信息可帮助您实施 iOS 库并收集生命周期量度�
 seo-title: 核心实施和生命周期
 solution: Marketing Cloud,Analytics
 title: 核心实施和生命周期
-topic: 开发人员和实施
+topic: Developer and implementation
 uuid: 96d06325-e424-4770-8659-4b5431318ee3
-translation-type: ht
-source-git-commit: 4db9781e6e1e75a04d9715a41c5a32c10ede1bf4
+translation-type: tm+mt
+source-git-commit: bd8aa0c7ff58e4cf28a67b8a107db52fb30cd3dc
 
 ---
 
@@ -64,7 +64,7 @@ source-git-commit: 4db9781e6e1e75a04d9715a41c5a32c10ede1bf4
    ![](assets/step_3.png)
 
 1. 单击&#x200B;**[!UICONTROL 完成]**。
-1. 在&#x200B;**[!UICONTROL 项目导航器]**&#x200B;中，选择 **[!UICONTROL`ADBMobileConfig.json`]**。
+1. 在&#x200B;**[!UICONTROL 项目导航器]**&#x200B;中，选择 **`ADBMobileConfig.json`**。
 1. 在&#x200B;**[!UICONTROL 文件检查器]**&#x200B;中，将该 JSON 文件添加到您的项目中将使用 Adobe SDK 的任何目标。
 
    ![](assets/step_4.png)
