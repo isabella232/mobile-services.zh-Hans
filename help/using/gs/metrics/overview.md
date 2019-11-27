@@ -5,10 +5,10 @@ seo-description: 您可以显示最近查看的应用程序关键绩效量度。
 seo-title: 显示移动量度
 solution: Marketing Cloud,Analytics
 title: 显示移动量度
-topic: 量度
+topic: Metrics
 uuid: 57db0b77-6b0a-4a0c-9aad-0731275233fd
-translation-type: ht
-source-git-commit: d028fe0f9477bc011aa8fda21a0a389808df0fce
+translation-type: tm+mt
+source-git-commit: bd8aa0c7ff58e4cf28a67b8a107db52fb30cd3dc
 
 ---
 
@@ -53,7 +53,7 @@ source-git-commit: d028fe0f9477bc011aa8fda21a0a389808df0fce
 
 * **显示关键绩效指标**
 
-   单击应用程序名称可显示关于关键绩效指标的详细信息。图表中的线条使用不同的颜色进行标示，您可以将鼠标悬停在数据点上以显示特定日期的统计数据。要深入分析，请单击&#x200B;**[!UICONTROL 关键绩效指标]**&#x200B;旁边的&#x200B;**** &gt; 图标。图表中的线条使用不同的颜色进行标示，您可以将鼠标悬停在数据点上来查看特定日期的统计数据。在表格中点击类标头以对数据进行升序或降序排序。
+   单击应用程序名称可显示关于关键绩效指标的详细信息。图表中的线条使用不同的颜色进行标示，您可以将鼠标悬停在数据点上以显示特定日期的统计数据。To drill down, click the icon next to **[!UICONTROL Key Performance Indicators]**. 图表中的线条使用不同的颜色进行标示，您可以将鼠标悬停在数据点上来查看特定日期的统计数据。在表格中点击类标头以对数据进行升序或降序排序。
 
 ## 编辑应用程序设置 {#section_C1CF227A2E534A798F0073E43AD6A2D1}
 
