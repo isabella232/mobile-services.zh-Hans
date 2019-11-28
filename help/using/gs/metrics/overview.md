@@ -7,7 +7,7 @@ solution: Marketing Cloud,Analytics
 title: 显示移动量度
 topic: Metrics
 uuid: 57db0b77-6b0a-4a0c-9aad-0731275233fd
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: bd8aa0c7ff58e4cf28a67b8a107db52fb30cd3dc
 
 ---
@@ -17,7 +17,7 @@ source-git-commit: bd8aa0c7ff58e4cf28a67b8a107db52fb30cd3dc
 
 您可以显示最近查看的应用程序关键绩效量度。默认情况下，您最多可查看 12 个应用程序。您可以在“概述”页面上更改日期范围、创建过滤器来细分数据和编辑任何应用程序。
 
-针对每个应用程序显示的量度反映您在创建该应用程序时选择的关键量度。有关更多信息，请参阅 [添加新应用程序](/help/using/manage-apps/t-new-app.md).
+针对每个应用程序显示的量度反映您在创建该应用程序时选择的关键量度。有关更多信息，请参阅[添加新应用程序](/help/using/manage-apps/t-new-app.md)。
 
 如果未显示您要查看的应用程序，请通过键入该应用程序的名称或单击&#x200B;**[!UICONTROL 所有应用程序]**&#x200B;中的下拉列表来进行搜索。
 
@@ -35,7 +35,7 @@ source-git-commit: bd8aa0c7ff58e4cf28a67b8a107db52fb30cd3dc
 
    创建过滤器：
 
-   1. 单击&#x200B;**[!UICONTROL 过滤器]**&#x200B;图标，以显示&#x200B;**置顶过滤器]对话框。[!UICONTROL **
+   1. 单击&#x200B;**[!UICONTROL 过滤器]**&#x200B;图标，以显示&#x200B;**[!UICONTROL 置顶过滤器]**&#x200B;对话框。
    1. 单击&#x200B;**[!UICONTROL 添加规则]**，从下拉列表中选择一个选项，然后键入相应的必需信息。
 
       例如，您可能选择&#x200B;**[!UICONTROL 应用程序版本]**&#x200B;并键入 `4.5` 作为版本。您还可以选择&#x200B;**[!UICONTROL 设备类型]**，然后键入 `Android`。
@@ -53,7 +53,7 @@ source-git-commit: bd8aa0c7ff58e4cf28a67b8a107db52fb30cd3dc
 
 * **显示关键绩效指标**
 
-   单击应用程序名称可显示关于关键绩效指标的详细信息。图表中的线条使用不同的颜色进行标示，您可以将鼠标悬停在数据点上以显示特定日期的统计数据。To drill down, click the icon next to **[!UICONTROL Key Performance Indicators]**. 图表中的线条使用不同的颜色进行标示，您可以将鼠标悬停在数据点上来查看特定日期的统计数据。在表格中点击类标头以对数据进行升序或降序排序。
+   单击应用程序名称可显示关于关键绩效指标的详细信息。图表中的线条使用不同的颜色进行标示，您可以将鼠标悬停在数据点上以显示特定日期的统计数据。要深入分析，请单击&#x200B;**[!UICONTROL 关键绩效指标]**&#x200B;旁边的图标。图表中的线条使用不同的颜色进行标示，您可以将鼠标悬停在数据点上来查看特定日期的统计数据。在表格中点击类标头以对数据进行升序或降序排序。
 
 ## 编辑应用程序设置 {#section_C1CF227A2E534A798F0073E43AD6A2D1}
 
