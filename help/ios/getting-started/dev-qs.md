@@ -6,7 +6,7 @@ solution: Marketing Cloud,Analytics
 title: 核心实施和生命周期
 topic: Developer and implementation
 uuid: 96d06325-e424-4770-8659-4b5431318ee3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: bd8aa0c7ff58e4cf28a67b8a107db52fb30cd3dc
 
 ---
