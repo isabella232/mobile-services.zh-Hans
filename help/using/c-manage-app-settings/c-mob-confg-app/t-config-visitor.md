@@ -8,14 +8,14 @@ title: 配置 SDK ID 服务选项
 topic: Metrics
 uuid: e69b57f7-153a-4a95-9c1e-c07fe29dea2d
 translation-type: tm+mt
-source-git-commit: 27b9b262876271ba8bdec27e5d27b802082a43f4
+source-git-commit: 712a1107b317f02216e4df8d75fddda67a6f1feb
 
 ---
 
 
 # 配置 SDK ID 服务选项 {#configure-sdk-id-service-options}
 
-创建新应用程序或编辑现有应用程序时，您可以在“管理应用程序设置”页面上配置 Adobe Experience Platform 标识服务选项。
+在创建新应用程序或编辑现有应用程序时，您可以在“管理应用程序设置”页面上配置Adobe Experience Cloud Identity service选项。
 
 1. Type information in the following fields under **[!UICONTROL Visitor ID Service]**:
 
