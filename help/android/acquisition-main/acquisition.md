@@ -1,14 +1,14 @@
 ---
 description: 带有唯一跟踪码的客户获取链接可以在 Adobe Mobile Services 中生成。当用户单击生成的链接后从应用商店下载并运行应用程序时，SDK 会自动收集客户获取数据并将这些数据发送至 Adobe Mobile Services。
-keywords: Android;库;移动;SDK
+keywords: android;library;mobile;sdk
 seo-description: 带有唯一跟踪码的客户获取链接可以在 Adobe Mobile Services 中生成。当用户单击生成的链接后从应用商店下载并运行应用程序时，SDK 会自动收集客户获取数据并将这些数据发送至 Adobe Mobile Services。
 seo-title: 移动设备应用程序客户获取
 solution: Marketing Cloud,Analytics
 title: 移动设备应用程序客户获取
-topic: 开发人员和实施
+topic: Developer and implementation
 uuid: 4d32eae9-e856-4e40-8a29-2b5bccd106e0
-translation-type: ht
-source-git-commit: b690ec677cf5aedfb2673b707f82716af1851124
+translation-type: tm+mt
+source-git-commit: 8a25259732a916f977f733cd22971b1d847aae5f
 
 ---
 
@@ -21,7 +21,7 @@ source-git-commit: b690ec677cf5aedfb2673b707f82716af1851124
 
 查找与 Adobe Experience Platform Mobile SDK 相关的信息和文档？单击[此处](https://aep-sdks.gitbook.io/docs/)可获取最新的文档。
 
-在 2018 年 9 月，我们发布了一个新的 SDK 主要版本。这些新的 Adobe Experience Platform Mobile SDK 可通过 [Experience Platform Launch](https://www.adobe.com/cn/experience-platform/launch.html) 进行配置。
+在 2018 年 9 月，我们发布了一个新的 SDK 主要版本。这些新的 Adobe Experience Platform Mobile SDK 可通过 [Experience Platform Launch](https://www.adobe.com/experience-platform/launch.html) 进行配置。
 
 * 要开始配置，请转到 Adobe Experience Platform Launch。
 * 要查看 Experience Platform SDK 存储库中的内容，请转到 [Github：Adobe Experience Platform SDK](https://github.com/Adobe-Marketing-Cloud/acp-sdks)。
@@ -31,6 +31,91 @@ source-git-commit: b690ec677cf5aedfb2673b707f82716af1851124
 >要使用 Acquisition，您&#x200B;**必须**&#x200B;具有 SDK 版本 4.1 或更高版本。
 
 客户获取链接必须在 Adobe Mobile Services 中创建。有关更多信息，请参阅[客户获取](/help/using/acquisition-main/acquisition-main.md)。
+
+**在 SDK 版本 4.18.0 及更高版本中**：
+
+从2020年3月1日开始，Google弃用install_referrer意图广播机制。 有关详细信息，请参 [阅Still Using InstallBroadcast? 在 2020 年 3 月 1 日之前切换到 Play Referrer API](https://android-developers.googleblog.com/2019/11/still-using-installbroadcast-switch-to.html)。要继续从Google Play商店收集安装引用信息，请更新您的应用程序以使用SDK版本4.18.0或更高版本。
+
+弃用后，您需要从新的Google API收集安装引用URL，并将生成的URL传递给SDK，而不是创建引用URL。 `BroadcastReceiver`
+
+1. 将Google Play安装引用程序包添加到您的Gradle文件的依赖项中：
+
+   `implementation 'com.android.installreferrer:installreferrer:1.1'`
+
+1. 要从安装引用API检索引用URL，请完成获取安装引 [用中的步骤](https://developer.android.com/google/play/installreferrer/library#install-referrer)。
+
+1. 将引用URL传递给SDK:
+
+   `Analytics.processGooglePlayInstallReferrerUrl(referrerUrl);`
+
+>[!IMPORTANT]
+>
+>为避免在应用程序中调用不必要的API,Google建议您在安装后仅调用一次API。
+
+要确定在您的应用程序中使用Google Play安装引用API的最佳方式，请参阅Google的文档。 以下是如何将Adobe SDK与Google Play安装参考API一起使用的示例：
+
+```java
+void handleGooglePlayReferrer() {
+    // Google recommends only calling this API the first time you need it:
+    // https://developer.android.com/google/play/installreferrer/library#install-referrer
+
+    // Store a boolean in SharedPreferences to ensure we only call it once.
+    final SharedPreferences prefs = getSharedPreferences("acquisition", 0);
+    if (prefs != null) {
+        if (prefs.getBoolean("referrerHasBeenProcessed", false)) {
+            return;
+        }
+    }
+
+    final InstallReferrerClient referrerClient = InstallReferrerClient.newBuilder(getApplicationContext()).build();
+    referrerClient.startConnection(new InstallReferrerStateListener() {
+        private boolean complete = false;
+
+        @Override
+        public void onInstallReferrerSetupFinished(int responseCode) {
+            switch (responseCode) {
+                case InstallReferrerClient.InstallReferrerResponse.OK:
+                    // connection is established
+                    complete();
+                    try {
+                        final ReferrerDetails details = referrerClient.getInstallReferrer();                        
+
+                        // pass the install referrer url to the SDK
+                        Analytics.processGooglePlayInstallReferrerUrl(details.getInstallReferrer());
+
+                    } catch (final RemoteException ex) {
+                        Log.w("Acquisition - RemoteException while retrieving referrer information (%s)", ex.getLocalizedMessage() == null ? "unknown" : ex.getLocalizedMessage());
+                    } finally {
+                        referrerClient.endConnection();
+                    }
+                    break;
+                case InstallReferrerClient.InstallReferrerResponse.FEATURE_NOT_SUPPORTED:
+                case InstallReferrerClient.InstallReferrerResponse.SERVICE_UNAVAILABLE:
+                default:
+                    // API not available in the Play Store app - nothing to do here
+                    complete();
+                    referrerClient.endConnection();
+                    break;
+            }
+        }
+
+        @Override
+        public void onInstallReferrerServiceDisconnected() {
+            if (!complete) {
+                // something went wrong trying to get a connection, try again
+                referrerClient.startConnection(this);
+            }
+        }
+
+        void complete() {
+            complete = true;
+            SharedPreferences.Editor editor = getSharedPreferences("acquisition", 0).edit();
+            editor.putBoolean("referrerHasBeenProcessed", true);
+            editor.apply();
+        }
+    });
+}
+```
 
 **在 SDK 版本 4.13.1 及更高版本中**：
 
@@ -56,7 +141,7 @@ source-git-commit: b690ec677cf5aedfb2673b707f82716af1851124
 
 1. 为客户获取变量添加前缀“`adb`”。
 
-   当 SDK 收到来自 Adobe Mobile Services 的客户获取数据（首次启动）时，该数据将存储在之前在 SDK 中注册的 `AdobeDataCallback` 实例内以供使用，如[配置方法](/help/android/configuration/methods.md)中所述。
+   当SDK在首次启动时从Adobe Mobile services接收到客户获取数据时，数据会存储在之前向SDK注册的实 `AdobeDataCallback` 例中并可用。 有关更多信息，请参阅[配置方法](/help/android/configuration/methods.md)。
 
 1. 将使用 `MobileDataEvent.MOBILE_EVENT_ACQUISITION_INSTALL` 或 `MobileDataEvent.MOBILE_EVENT_ACQUISITION_LAUNCH` 事件类型。
 
@@ -83,39 +168,39 @@ source-git-commit: b690ec677cf5aedfb2673b707f82716af1851124
 1. 对反向链接实施 `BroadcastReceiver`：
 
    ```java
-   package com.your.package.name;  // replace with your app package name 
+   package com.your.package.name;  // replace with your app package name
    
-   import android.content.BroadcastReceiver; 
-   import android.content.Context; 
-   import android.content.Intent; 
+   import android.content.BroadcastReceiver;
+   import android.content.Context;
+   import android.content.Intent;
    
-   public class GPBroadcastReceiver extends BroadcastReceiver { 
-     @Override 
-     public void onReceive(Context c, Intent i) { 
-      com.adobe.mobile.Analytics.processReferrer(c, i); 
-     } 
+   public class GPBroadcastReceiver extends BroadcastReceiver {
+     @Override
+     public void onReceive(Context c, Intent i) {
+      com.adobe.mobile.Analytics.processReferrer(c, i);
+     }
    }
    ```
 
 1. 更新 `AndroidManifest.xml` 以启用在上一步骤中创建的 `BroadcastReceiver`：
 
    ```xml
-   <receiver android:name="com.your.package.name.GPBroadcastReceiver" android:exported="true"> 
-    <intent-filter> 
-     <action android:name="com.android.vending.INSTALL_REFERRER" /> 
-    </intent-filter> 
+   <receiver android:name="com.your.package.name.GPBroadcastReceiver" android:exported="true">
+    <intent-filter>
+     <action android:name="com.android.vending.INSTALL_REFERRER" />
+    </intent-filter>
    </receiver>
    ```
 
 1. 确认 `ADBMobileConfig.json` 文件包含必需的客户获取设置：
 
    ```xml
-   "acquisition": { 
-      "server": "c00.adobe.com", 
-      "appid": "0652024f-adcd-49f9-9bd7-2552a4565d2f" 
-   }, 
-   "analytics": { 
-     "referrerTimeout": 5, 
+   "acquisition": {
+      "server": "c00.adobe.com",
+      "appid": "0652024f-adcd-49f9-9bd7-2552a4565d2f"
+   },
+   "analytics": {
+     "referrerTimeout": 5,
      ...
    ```
 
