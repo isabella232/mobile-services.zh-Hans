@@ -1,14 +1,14 @@
 ---
 description: 以下是 Android 库提供的 Adobe Analytics 方法列表。
-keywords: Android;库;移动;SDK
+keywords: android;library;mobile;sdk
 seo-description: 以下是 Android 库提供的 Adobe Analytics 方法列表。
 seo-title: Analytics 方法
 solution: Marketing Cloud,Analytics
 title: Analytics 方法
-topic: 开发人员和实施
+topic: Developer and implementation
 uuid: ac7c640e-9dcc-4724-b561-019cc025d5a7
-translation-type: ht
-source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
+translation-type: tm+mt
+source-git-commit: 657e8b93d1516690ad21d6cf504f9c8f611747b6
 
 ---
 
@@ -34,13 +34,13 @@ SDK 当前支持多个 Adobe Experience Cloud 解决方案，包括 Analytics、
    * 以下是此方法的语法：
 
       ```java
-      public staticvoidtrackState(Stringstate, Map<String,Object> contextData);
+      public static void trackState(String state, Map<String, Object> contextData);
       ```
 
    * 以下是此方法的代码示例：
 
       ```java
-      Analytics.trackState("loginScreen",null);
+      Analytics.trackState("loginScreen", null);
       ```
 
 * **trackAction**
@@ -51,13 +51,13 @@ SDK 当前支持多个 Adobe Experience Cloud 解决方案，包括 Analytics、
    * 以下是此方法的语法：
 
       ```java
-      publicstaticvoidtrackAction(Stringstate,Map<String,Object> contextData);
+      public static void trackAction(String state, Map<String, Object> contextData);
       ```
 
    * 以下是此方法的代码示例：
 
       ```java
-      Analytics.trackAction("heroBannerTouched",null);
+      Analytics.trackAction("heroBannerTouched", null);
       ```
 
 * **getTrackingIdentifier**
@@ -68,13 +68,13 @@ SDK 当前支持多个 Adobe Experience Cloud 解决方案，包括 Analytics、
    * 以下是此方法的语法：
 
       ```java
-      public static String getTrackingIdentifier(); 
+      public static String getTrackingIdentifier();
       ```
 
    * 以下是此方法的代码示例：
 
       ```java
-      String trackingId = Analytics.getTrackingIdentifier(); 
+      String trackingId = Analytics.getTrackingIdentifier();
       ```
 
 * **trackLocation**
@@ -84,7 +84,7 @@ SDK 当前支持多个 Adobe Experience Cloud 解决方案，包括 Analytics、
    * 以下是此方法的语法：
 
       ```java
-      public static void trackLocation(Location location, Map<String,Object> contextData); 
+      public static void trackLocation(Location location, Map<String, Object> contextData);
       ```
 
    * 以下是此方法的代码示例：
@@ -100,7 +100,7 @@ SDK 当前支持多个 Adobe Experience Cloud 解决方案，包括 Analytics、
    * 以下是此方法的语法：
 
       ```java
-      publicstaticvoidtrackLifetimeValueIncrease(BigDecimalamount,Map<String,Object>contextData);
+      public static void trackLifetimeValueIncrease(BigDecimal amount, Map<String, Object> contextData);
       ```
 
    * 以下是此方法的代码示例：
@@ -122,13 +122,13 @@ SDK 当前支持多个 Adobe Experience Cloud 解决方案，包括 Analytics、
    * 以下是此方法的语法：
 
    ```java
-   publicstaticvoidtrackTimedActionStart(Stringaction,Map<String,Object>contextData);
+   public static void trackTimedActionStart(String action, Map<String, Object> contextData);
    ```
 
    * 以下是此方法的代码示例：
 
       ```java
-      Analytics.trackTimedActionStart("cartToCheckout",null)
+      Analytics.trackTimedActionStart("cartToCheckout", null)
       ```
 
 
@@ -143,14 +143,14 @@ SDK 当前支持多个 Adobe Experience Cloud 解决方案，包括 Analytics、
    * 以下是此方法的语法：
 
       ```java
-      public static void trackTimedActionUpdate(Stringaction,Map <String,Object> contextData); 
+      public static void trackTimedActionUpdate(String action, Map<String, Object> contextData);
       ```
 
    * 以下是此方法的代码示例：
 
       ```java
-      HashMap cdata = new HashMap<String Object> (); 
-      cdata.put("quantity",3); 
+      HashMap cdata = new HashMap<String Object> ();
+      cdata.put("quantity",3);
       Analytics.trackTimedActionUpdate("cartToCheckout", cdata);
       ```
 
@@ -165,7 +165,7 @@ SDK 当前支持多个 Adobe Experience Cloud 解决方案，包括 Analytics、
    * 以下是此方法的语法：
 
       ```java
-      public static void trackTimedActionEnd(Stringaction,TimedActionBlock<Boolean> logic); 
+      public static void trackTimedActionEnd(String action, TimedActionBlock<Boolean> logic);
       ```
 
    * 以下是此方法的代码示例：
@@ -173,12 +173,11 @@ SDK 当前支持多个 Adobe Experience Cloud 解决方案，包括 Analytics、
       ```java
       Analytics.trackTimedActionEnd("cartToCheckout",new
       Analytics.TimedActionBlock<Boolean>(){
-        @Override
-        public Booleancall(long inAppDuration,long totalDuration, Map<String,
-      Object> contextData) {
+          @Override
+          public Boolean call(long inAppDuration, long totalDuration, Map<String, Object> contextData) {
               contextData.put("price", 49.95);
               return true;
-         }
+          }
       });
       ```
 
@@ -191,7 +190,7 @@ SDK 当前支持多个 Adobe Experience Cloud 解决方案，包括 Analytics、
    * 以下是此方法的语法：
 
       ```java
-      voidsendQueuedHits()
+      public static void sendQueuedHits();
       ```
 
    * 以下是此方法的代码示例：
@@ -207,13 +206,13 @@ SDK 当前支持多个 Adobe Experience Cloud 解决方案，包括 Analytics、
    * 以下是此方法的语法：
 
       ```java
-      long getQueueSize()
+      public static long getQueueSize();
       ```
 
    * 以下是此方法的代码示例：
 
       ```java
-      long queueSize = Analytics.getQueueSize(); 
+      long queueSize = Analytics.getQueueSize();
       ```
 
 * **clearQueue**
@@ -223,7 +222,7 @@ SDK 当前支持多个 Adobe Experience Cloud 解决方案，包括 Analytics、
    * 以下是此方法的语法：
 
       ```java
-      voidclearQueue()
+      public static void clearQueue();
       ```
 
    * 以下是此方法的代码示例：
@@ -235,3 +234,45 @@ SDK 当前支持多个 Adobe Experience Cloud 解决方案，包括 Analytics、
       >[!WARNING]
       >
       > 手动清除队列时务必谨慎。此过程无法撤消。
+
+* **processReferrer**
+
+   处理来自Google Play Store的引荐营销活动数据供以后使用。
+
+   * 以下是此方法的语法：
+
+      ```java
+      public static void processReferrer(final Context context, final Intent intent);
+      ```
+
+   * 以下是此方法的代码示例：
+
+      ```java
+      Analytics.processReferrer(getApplicationContext(), intent);
+      ```
+
+* **processGooglePlayInstallReferrerUrl**
+
+   >[!IMPORTANT]
+   >
+   > 此API从SDK版本4.18.0开始提供
+
+   从提供的Google Play安装参考URL检索客户获取数据。
+
+   从此API收集的数据将在发送到Analytics的安装点击时发送，并将在Adobe Data Callback中可用。
+
+   如果SDK已收集引用数据，调用此方法将导致无操作。
+
+   有关如何检索引用URL的信息，请参阅Google文档：https://developer.android.com/google/play/installreferrer/library。
+
+   * 以下是此方法的语法：
+
+      ```java
+      public static void processGooglePlayInstallReferrerUrl(final String referrerUrl);
+      ```
+
+   * 以下是此方法的代码示例：
+
+      ```java
+      Analytics.processGooglePlayInstallReferrerUrl(referrerUrl);
+      ```
