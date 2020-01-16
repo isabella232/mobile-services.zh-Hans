@@ -1,14 +1,14 @@
 ---
 description: 此信息可帮助您对 Android 设备上的版本 3 客户获取促销活动链接进行往返测试。
-keywords: Android;库;移动;SDK
+keywords: android;library;mobile;sdk
 seo-description: 此信息可帮助您对 Android 设备上的版本 3 客户获取促销活动链接进行往返测试。
 seo-title: 测试版本 3 客户获取
 solution: Marketing Cloud,Analytics
 title: 测试版本 3 客户获取
-topic: 开发人员和实施
+topic: Developer and implementation
 uuid: 5e38b43d-389e-4412-99e5-3e6223b6ad28
-translation-type: ht
-source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
+translation-type: tm+mt
+source-git-commit: 657e8b93d1516690ad21d6cf504f9c8f611747b6
 
 ---
 
@@ -23,10 +23,15 @@ source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
 
 如果 Google Play 中尚未提供相应的移动设备应用程序，则在创建促销活动链接时，可以选择任何移动设备应用程序作为目标。这只会影响在您单击客户获取链接后客户获取服务器将您重定向到的应用程序，而不会影响测试链接的功能。查询字符串参数将传递到 Google Play 商店，进而作为促销活动广播的一部分在安装时传递到应用程序。移动设备应用程序客户获取往返测试需要模拟此类型的广播。
 
-每次运行测试时，必须全新安装应用程序，或清除&#x200B;**[!UICONTROL 设置]**&#x200B;中的数据。这可以确保在首次启动应用程序时发送与促销活动查询字符串参数关联的初始生命周期量度。
+>[!IMPORTANT]
+>
+>如果您使用Google Play安装引用API来实施，则在应用程序位于Google Play商店之前，无法测试客户获取。
+
+每次运行测试时，必须全新安装应用程序，或清除&#x200B;**[!UICONTROL 设置]**中的数据。这可以确保在首次启动应用程序时发送与促销活动查询字符串参数关联的初始生命周期量度。
 
 1. 完成[移动设备应用程序客户获取](/help/android/acquisition-main/acquisition.md)中的先决任务，并确保已正确实现了 `INSTALL_REFERRER` 的广播接收器。
-1. 在 Adobe Mobile Services 用户界面中，单击&#x200B;**[!UICONTROL 客户获取]** &gt; **[!UICONTROL 营销链接生成器]**，并生成一个客户获取营销链接 URL，以将 Google Play 设置为 Android 设备的目标。
+
+1. In the Adobe Mobile Services UI, click  **[!UICONTROL Acquisition]**>**[!UICONTROL  Marketing Links Builder]** and generate an Acquisition Marketing Link URL that sets Google Play as the destination for Android devices.
 
    有关更多信息，请参阅[营销链接生成器](/help/using/acquisition-main/c-marketing-links-builder/c-marketing-links-builder.md)。
 
@@ -63,7 +68,7 @@ source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
 
    | 设置 | 值 |
    |--- |--- |
-   | acquisition | 服务器应为 `c00.adobe.com`。*`appid`* 应等于您的客户获取链接中的相应 `appid`。 |
+   | acquisition | 服务器应为 `c00.adobe.com`。*`appid`*应等于您的客户获取链接中的相应`appid`。 |
    | analytics | 出于测试目的，请设置反向链接超时以允许有足够的时间（60 秒或更多）手动发送广播。您可以在测试后恢复原始超时设置。 |
 
 1. 将设备连接到计算机，然后卸载并重新安装应用程序。
@@ -78,8 +83,8 @@ source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
    1. 替换与 `utm_content` 关联的值。
    如果广播成功，您可以看到与以下示例类似的响应：
 
-   `Broadcasting: Intent 
-{ act=com.android.vending.INSTALL_REFERRER cmp=com.adobe.adms.tests/.ReferralReceiver (has extras) } 
+   `Broadcasting: Intent
+{ act=com.android.vending.INSTALL_REFERRER cmp=com.adobe.adms.tests/.ReferralReceiver (has extras) }
 Broadcast completed: result=0`
 
 1. （可选）您可以启用 SDK 的调试日志记录以获取其他信息。
