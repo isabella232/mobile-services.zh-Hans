@@ -95,7 +95,7 @@ Adobe Mobile Services 是用于移动设备应用程序分析和定位的主要�
 
    >[!IMPORTANT]
    >
-   >如果看不到&#x200B;**[!UICONTROL 管理应用程序设置]**选项，请确保您已登录 Adobe Mobile Services。要进行验证，请单击页面右上方的![解决方案切换器](assets/solution-switcher.png)图标，并确保**[!UICONTROL  Adobe Mobile Services]** 显示在左上方。
+   >如果看不到&#x200B;**[!UICONTROL 管理应用程序设置]** 选项，请确保您已登录 Adobe Mobile Services。要进行验证，请单击页面右上方的![解决方案切换器](assets/solution-switcher.png)图标，并确保 **[!UICONTROL  Adobe Mobile Services]** 显示在左上方。
 
 1. 在“管理应用程序设置”页面底部的&#x200B;**[!UICONTROL 应用程序 SDK 下载]**部分中，下载适用于您平台的 SDK 和示例应用程序。
 
