@@ -7,7 +7,7 @@ solution: Marketing Cloud,Analytics
 title: 测试版本 3 客户获取
 topic: Developer and implementation
 uuid: 5e38b43d-389e-4412-99e5-3e6223b6ad28
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 657e8b93d1516690ad21d6cf504f9c8f611747b6
 
 ---
@@ -25,13 +25,13 @@ source-git-commit: 657e8b93d1516690ad21d6cf504f9c8f611747b6
 
 >[!IMPORTANT]
 >
->如果您使用Google Play安装引用API来实施，则在应用程序位于Google Play商店之前，无法测试客户获取。
+>如果您使用 Google Play Install Referrer API 来实施，则在将该应用程序置于 Google Play 商店中之前，无法测试客户获取。
 
 每次运行测试时，必须全新安装应用程序，或清除&#x200B;**[!UICONTROL 设置]**中的数据。这可以确保在首次启动应用程序时发送与促销活动查询字符串参数关联的初始生命周期量度。
 
 1. 完成[移动设备应用程序客户获取](/help/android/acquisition-main/acquisition.md)中的先决任务，并确保已正确实现了 `INSTALL_REFERRER` 的广播接收器。
 
-1. In the Adobe Mobile Services UI, click  **[!UICONTROL Acquisition]**>**[!UICONTROL  Marketing Links Builder]** and generate an Acquisition Marketing Link URL that sets Google Play as the destination for Android devices.
+1. 在 Adobe Mobile Services 用户界面中，单击&#x200B;**[!UICONTROL 客户获取]**>**[!UICONTROL &#x200B;营销链接生成器]**，并生成一个客户获取营销链接 URL，以将 Google Play 设置为 Android 设备的目标。
 
    有关更多信息，请参阅[营销链接生成器](/help/using/acquisition-main/c-marketing-links-builder/c-marketing-links-builder.md)。
 
