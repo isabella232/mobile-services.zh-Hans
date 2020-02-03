@@ -4,10 +4,10 @@ seo-description: 以下是 iOS 库提供的方法列表。
 seo-title: 配置方法
 solution: Marketing Cloud,Analytics
 title: 配置方法
-topic: 开发人员和实施
+topic: Developer and implementation
 uuid: 623c7b07-fbb3-4d39-a5c4-e64faec4ca29
-translation-type: ht
-source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
+translation-type: tm+mt
+source-git-commit: ea4b054fbeea3967c28ee938aed5997a4c287a0d
 
 ---
 
@@ -268,6 +268,40 @@ SDK 当前支持多个 Adobe Experience Cloud 解决方案，包括 Analytics、
       ```objective-c
       [ADBMobile collectLifecycleDataWithAdditionalData:@{@"entryType":@"appShortcutIcon"}]; 
       ```
+
+* **pauseCollectingLifecycleData**
+
+   使用此API可暂停生命周期数据的收集。 有关更多信息，请参阅[生命周期量度](/help/ios/metrics.md)。
+
+   >[!IMPORTANT]
+   >
+   >在委 `applicationDidEnterBackground` 托方法中，必须首先调用该方 `pauseCollectingLifecycleData` 法。
+   >
+   >提供API是为了缓解iOS 13中iPhone7/7s或较旧设备上的会话长度度量变得异常的问题。 这是由于iOS 13中发生了一些未知的更改，在这些更改中，iOS没有留出足够的时间来完成后台任务，当您回溯应用程序时。
+
+   * 以下是此方法的语法：
+
+      ```objective-c
+      + (void) pauseCollectingLifecycleData;
+      ```
+
+   * 以下是此方法的代码示例：
+
+      ```objective-c
+      - (void)applicationDidEnterBackground:(UIApplication *)application{
+          // manually stop the lifecycle of SDK
+          // important: do NOT call any track state or track action after this line
+          [ADBMobile pauseCollectingLifecycleData];   
+      
+      
+          // the following code is optional, may help to mitigate the issue a bit more. If you have other logic to run here that probably takes more than 10ms, then there is no need to add this line of code.
+          [NSThread sleepForTimeInterval:0.01];
+      
+      
+          // app's code to handle applicationDidEnterBackground
+      }
+      ```
+
 
 * **overrideConfigPath**
 
