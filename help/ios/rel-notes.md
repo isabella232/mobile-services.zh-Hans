@@ -6,7 +6,7 @@ solution: Marketing Cloud,Analytics
 title: 发行说明
 topic: Developer and implementation
 uuid: e1613dc5-02a4-43a7-997a-29b4de98b4d1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c7a0fde8b981ae5cfb0f54131d8ae59a008825b3
 
 ---
@@ -16,13 +16,13 @@ source-git-commit: c7a0fde8b981ae5cfb0f54131d8ae59a008825b3
 
 以下是适用于 Experience Cloud 解决方案的 iOS SDK 4.x 的发行说明、已知问题和热修复信息：
 
-**2020年2月4日：版本4.19.0**
+**2020 年 2 月 4 日：版本 4.19.0**
 
-* 生命周期——添加了一个新的APIpauseCollectingLifecycleData，以缓解从某些旧iOS设备报告的异常会话长度数据。
+* 生命周期 - 添加了一个新的 API pauseCollectingLifecycleData，以缓解某些旧 iOS 设备报告的异常会话长度数据。
 
-**2019年11月8日：版本4.18.9**
+**2019 年 11 月 8 日：版本 4.18.9**
 
-* 在应用程序消息传递中——修复了无法在全屏消息中加载缓存或捆绑图像的错误。
+* 应用程序内消息 - 修复了在全屏消息中无法加载缓存或捆绑图像的错误。
 
 **2019 年 9 月 20 日：版本 4.18.8**
 
@@ -60,4 +60,4 @@ source-git-commit: c7a0fde8b981ae5cfb0f54131d8ae59a008825b3
 
 * 访客 ID 服务 - `setPushIdentifier` API 调用现在会在每次调用时向访客 ID 服务发送同步调用。
 
-有关所有解决方案当前和以往发行说明的更多信息，请参阅 [Adobe Experience Cloud 发行说明](https://marketing.adobe.com/resources/help/en_US/whatsnew/)。
+有关所有解决方案当前和以往发行说明的更多信息，请参阅 [Adobe Experience Cloud 发行说明](https://marketing.adobe.com/resources/help/zh_CN/whatsnew/)。
