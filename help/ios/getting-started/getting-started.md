@@ -6,7 +6,7 @@ solution: Marketing Cloud,Analytics
 title: 入门指南概述
 topic: Developer and implementation
 uuid: a2b9baad-b959-4b9a-893d-99c0f4072e8d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a424eb9be750e22e7130dae0d1c54a081ac475cd
 
 ---
@@ -20,11 +20,11 @@ source-git-commit: a424eb9be750e22e7130dae0d1c54a081ac475cd
 
 查找与 Adobe Experience Platform Mobile SDK 相关的信息和文档？单击[此处](https://aep-sdks.gitbook.io/docs/)可获取最新的文档。
 
-在 2018 年 9 月，我们发布了一个新的 SDK 主要版本。这些新的 Adobe Experience Platform Mobile SDK 可通过 [Experience Platform Launch](https://www.adobe.com/experience-platform/launch.html) 进行配置。
+在 2018 年 9 月，我们发布了一个新的 SDK 主要版本。这些新的 Adobe Experience Platform Mobile SDK 可通过 [Experience Platform Launch](https://www.adobe.com/cn/experience-platform/launch.html) 进行配置。
 
 * 要开始配置，请转到 Adobe Experience Platform Launch。
 * 要查看 Experience Platform SDK 存储库中的内容，请转到 [Github：Adobe Experience Platform SDK](https://github.com/Adobe-Marketing-Cloud/acp-sdks)。
 
 >[!IMPORTANT]
 >
->自2020年4月1日起，Apple将不再支持UIWebView API。 要避免出现任何问题，请确保您使用v4 SDK for iOS版本4.18.8或更高版本。 有关UIWebView API的详细信息，请参 [阅UIWebView](https://developer.apple.com/documentation/uikit/uiwebview)。
+>自 2020 年 4 月 1 日起，Apple 将不再支持 UIWebView API。为了避免出现任何问题，请确保使用 v4 SDK for iOS 版本 4.18.8 或更高版本。有关 UIWebView API 的更多信息，请参阅 [UIWebView](https://developer.apple.com/documentation/uikit/uiwebview)。
