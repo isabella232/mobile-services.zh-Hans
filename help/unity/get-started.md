@@ -3,11 +3,11 @@ description: 此插件能够让您从 Unity 应用程序发送 Adobe Analytics �
 keywords: Unity
 seo-description: 此插件能够让您从 Unity 应用程序发送 Adobe Analytics 调用。
 seo-title: 适用于 iOS 和 Android 4.x SDK 的 Unity 插件
-solution: Marketing Cloud,开发人员
+solution: Marketing Cloud,Developer
 title: 适用于 iOS 和 Android 4.x SDK 的 Unity 插件
 uuid: 83289a73-982d-4472-a8c8-00b562dc80f5
-translation-type: ht
-source-git-commit: df4ff7128357a18c56d840eb5697f9c8813ad751
+translation-type: tm+mt
+source-git-commit: 0d50c7e6674de33b8190e74c113ae010ff226e97
 
 ---
 
@@ -16,13 +16,14 @@ source-git-commit: df4ff7128357a18c56d840eb5697f9c8813ad751
 
 此插件能够让您从 Unity 应用程序发送 Adobe Analytics 调用。
 
-上次更新日期：**2019 年 11 月 12 日**
+Last Update: **March 10, 2020**
+* [Unity-v4.19.0](https://github.com/Adobe-Marketing-Cloud/mobile-services/releases/tag/v4.19.0-Unity)
 
 ## 入门指南 {#section_246D1F9B32ED47EABC41BDA8D0BD0CC7}
 
-从 GitHub 或 Developer Connection 下载 [ADBMobile.unitypackage](https://github.com/Adobe-Marketing-Cloud/mobile-services/releases) 文件。
+从GitHub下载ADBMobile.unitypackage文件。
 
-以下是 `ADBMobile.unitypackage` 文件的内容：
+Below are the contents of the `ADBMobile.unitypackage` file:
 
 * Assets（根）
 
@@ -47,11 +48,10 @@ source-git-commit: df4ff7128357a18c56d840eb5697f9c8813ad751
          * AdobeMobileLibrary.a
 
 
-可选文件夹：Demo 文件夹包含适用于每种受支持的脚本语言的 Unity 场景和示例代码。
+**可选文件夹**:Demo文 *件夹包含* Unity场景和示例代码。
 
 ## 将 ADBMobile 插件导入您的 Unity 项目 {#section_35FB6DAE49FB4FA1ACB749A1F9480FE0}
 
 1. 打开您的 Unity 项目。
 1. 双击 **[!UICONTROL ADBMobile.unitypackage]**。
 1. 选择您希望导入的文件夹。
-
