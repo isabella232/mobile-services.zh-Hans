@@ -5,7 +5,7 @@ seo-title: Adobe Mobile Services
 solution: Marketing Cloud, Analytics, Experience Cloud
 title: Adobe Mobile Services
 uuid: e86a77c9-4ff1-403f-a5a1-4afbdc4e6f68
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9e3f199582351165d0a76ce5042b5eaeec2cc981
 
 ---
@@ -19,19 +19,19 @@ source-git-commit: 9e3f199582351165d0a76ce5042b5eaeec2cc981
 >
 >要允许 Mobile Services 访问移动设备客户获取、深度链接、地理定位和移动设备消息传送功能，需要安装 Adobe Analytics Mobile Marketing Add-on SKU。有关更多信息，请与您的 Adobe CSM 联系。
 
-## 宣布不再支持4x SDK
+## 宣布终止支持 4x SDK
 
-2020年9月30日之后，客户可以继续下载和使用版本4 SDK，但客户关怀支持或访问论坛。 Adobe Experience Platform Mobile SDK（以前称为v5）将独家支持即将推出的Adobe Experience Cloud功能。
+2020 年 9 月 30 日之后，客户可以继续下载和使用版本 4 SDK，但将无法获得客户关怀支持或访问论坛。Adobe Experience Platform Mobile SDK（以前称为 v5）将专门支持即将推出的 Adobe Experience Cloud 功能。
 
-有关更多详细信息，请参 [阅支持](https://aep-sdks.gitbook.io/docs/version-4-sdk-end-of-support-faq) FAQ的结束。
+有关更多详细信息，请参阅终止支持[常见问题解答](https://aep-sdks.gitbook.io/docs/version-4-sdk-end-of-support-faq)。
 
-我们建议您在可行时迁移到新的Experience Platform Mobile SDK。
+我们建议您在可行的情况下迁移到新的 Experience Platform Mobile SDK。
 
 ## 新的 Adobe Experience Cloud SDK 版本
 
 正在寻找与 Adobe Experience Platform Mobile SDK 相关的信息和文档？请单击[此处](https://aep-sdks.gitbook.io/docs/)获取我们的最新文档。
 
-在 2018 年 9 月，我们发布了一个新的 SDK 主要版本。这些新的 Adobe Experience Platform Mobile SDK 可通过 [Experience Platform Launch](https://www.adobe.com/experience-platform/launch.html) 进行配置。
+在 2018 年 9 月，我们发布了一个新的 SDK 主要版本。这些新的 Adobe Experience Platform Mobile SDK 可通过 [Experience Platform Launch](https://www.adobe.com/cn/experience-platform/launch.html) 进行配置。
 
 * 要开始配置，请转到 Launch。
 * 要查看 Experience Platform SDK 存储库中的内容，请转到 [Github：Adobe Experience Platform SDK](https://github.com/Adobe-Marketing-Cloud/acp-sdks)。
@@ -44,7 +44,7 @@ source-git-commit: 9e3f199582351165d0a76ce5042b5eaeec2cc981
 >
 >虽然您可以在 UI 中配置功能，但配置的功能要在下载生成的配置文件并将其添加到 SDK 后才能正常工作。有关下载和配置 SDK 的信息，请参阅此页面上的“SDK 文档”**&#x200B;部分。
 
-要获取最新的发行说明，请参阅 [Experience Cloud 发行说明](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html)。
+要获取最新的发行说明，请参阅 [Experience Cloud 发行说明](https://docs.adobe.com/content/help/zh-Hans/release-notes/experience-cloud/current.html)。
 
 ## 热门主题 {#section_AFFBC9EDDE5B4E4493A7C2896121A773}
 
@@ -64,17 +64,17 @@ source-git-commit: 9e3f199582351165d0a76ce5042b5eaeec2cc981
 以下是对开发人员有所帮助的一些链接：
 
 * [下载 Mobile SDK 和工具](/help/using/c-manage-app-settings/c-mob-confg-app/t-config-analytics/download-sdk.md)
-* [开发人员](https://docs.adobe.com/content/help/en/analytics/implementation/home.html)
+* [开发人员](https://docs.adobe.com/content/help/zh-Hans/analytics/implementation/home.html)
 
 ## 社区资源
 
 以下是一些其他资源：
 
 * [Experience Cloud 论坛](https://forums.adobe.com/community/experience-cloud)
-* [Adobe Marketing Cloud 社区](https://helpx.adobe.com/marketing-cloud.html?promoid=KAWSE)
+* [Adobe Marketing Cloud 社区](https://helpx.adobe.com/cn/marketing-cloud.html?promoid=KAWSE)
 * [Idea Exchange](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
-* [Adobe 培训和教程](https://helpx.adobe.com/learning.html?promoid=KAUDK)
-* [特色解决方案服务中心](https://www.adobe.com/marketing-cloud.html)
+* [Adobe 培训和教程](https://helpx.adobe.com/cn/learning.html?promoid=KAUDK)
+* [特色解决方案服务中心](https://www.adobe.com/cn/marketing-cloud.html)
 
 ## SDK 文档 {#section_3A500233347C4305AB545E298A827CEA}
 
