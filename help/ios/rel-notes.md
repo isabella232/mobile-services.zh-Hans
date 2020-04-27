@@ -1,13 +1,13 @@
 ---
-description: 适用于 Experience Cloud 解决方案的 iOS SDK 4.x 的发行说明和已知问题。
-seo-description: 适用于 Experience Cloud 解决方案的 iOS SDK 4.x 的发行说明和已知问题。
+description: 适用于Experience Cloud解决方案的iOS SDK 4.x的发行说明和已知问题。
+seo-description: 适用于Experience Cloud解决方案的iOS SDK 4.x的发行说明和已知问题。
 seo-title: 发行说明
 solution: Marketing Cloud,Analytics
 title: 发行说明
 topic: Developer and implementation
 uuid: e1613dc5-02a4-43a7-997a-29b4de98b4d1
-translation-type: ht
-source-git-commit: b608516b0103db3ae0eed1deaa4fb9733a98f7fa
+translation-type: tm+mt
+source-git-commit: c9ee89ef5039c52ebab41a9495f1794c08a415ba
 
 ---
 
@@ -15,6 +15,15 @@ source-git-commit: b608516b0103db3ae0eed1deaa4fb9733a98f7fa
 # 发行说明 {#release-notes}
 
 以下是适用于 Experience Cloud 解决方案的 iOS SDK 4.x 的发行说明、已知问题和热修复信息：
+
+**2020年3月24日：版本4.19.2**
+
+* 常规——修复了目标代码中的一些漏洞。
+
+**2020年3月12日：版本4.19.1**
+
+* 常规——解决了在跟踪调用的上下文数据中包含Swiftem时可能导致的崩溃问题。
+* 目标-目标会话ID现在将作为上下文数据参数“a.目标.sessionId”添加到发送到Adobe Analytics的内部Analytics中的目标点击。
 
 **2020 年 2 月 4 日：版本 4.19.0**
 
