@@ -1,14 +1,14 @@
 ---
 description: 以下是 Android 库提供的方法列表。
-keywords: Android;库;移动;SDK
+keywords: android;library;mobile;sdk
 seo-description: 以下是 Android 库提供的方法列表。
 seo-title: 配置方法
 solution: Marketing Cloud,Analytics
 title: 配置方法
-topic: 开发人员和实施
+topic: Developer and implementation
 uuid: 663aeb6c-1b97-4a3a-8c0e-dd4c2ec28c01
-translation-type: ht
-source-git-commit: bf076aa8e59d5c3e634fc4ae21f0de0d4541a83f
+translation-type: tm+mt
+source-git-commit: dae60a21286edc28c84b7638da214b824abf0cd3
 
 ---
 
@@ -31,8 +31,7 @@ source-git-commit: bf076aa8e59d5c3e634fc4ae21f0de0d4541a83f
       setContentView(R.layout.main);
       Config.setContext(this.getApplicationContext());
     }
-   ````
-
+   ```
 
 ## SDK 设置（配置类）{#section_C1EB977043C04D2B93E5A63DB72828B6}
 
@@ -273,7 +272,7 @@ source-git-commit: bf076aa8e59d5c3e634fc4ae21f0de0d4541a83f
 
 * **setSmallIconResourceId(int resourceId)**
 
-   * （**版本 4.2 或更高版本**）设置将用于 SDK 创建的通知的小图标。此图标将显示在状态栏中，是用户在通知中心查看完整通知时显示的辅助图像。
+   * (**版本4.2或更高版本**)设置将用于SDK创建的通知的小图标。 此图标将显示在状态栏中，并且是当用户在通知中心看到完整通知时显示的次映像。
    * 以下是此方法的语法：
 
       ```java
@@ -288,7 +287,7 @@ source-git-commit: bf076aa8e59d5c3e634fc4ae21f0de0d4541a83f
 
 * **setLargeIconResourceId(int resourceId)**
 
-   * （**版本 4.2 或更高版本**）设置将用于 SDK 创建的通知的大图标。此图标将是用户在通知中心查看完整通知时显示的主要图像。
+   * (**版本4.2或更高版本**)设置将用于SDK创建的通知的大图标。 此图标将是用户在通知中心查看完整通知时显示的主要图像。
    * 以下是此方法的语法：
 
       ```java
@@ -303,7 +302,7 @@ source-git-commit: bf076aa8e59d5c3e634fc4ae21f0de0d4541a83f
 
 * **overrideConfigStream(InputStream configInput)**
 
-   * （**版本 4.2 或更高版本**）允许您在应用程序启动时加载其他 ADBMobile JSON 配置文件。在应用程序关闭之前，将一直使用该配置。
+   * (**版本4.2或更高版本**)允许您在应用程序开始时加载其他ADBMobile JSON配置文件。 在应用程序关闭之前，将一直使用该配置。
    * 以下是此方法的语法：
 
       ```java
