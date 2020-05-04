@@ -4,10 +4,10 @@ seo-description: 以下是 iOS 库提供的 Adobe Analytics 方法列表。
 seo-title: Analytics 方法
 solution: Marketing Cloud,Analytics
 title: Analytics 方法
-topic: 开发人员和实施
+topic: Developer and implementation
 uuid: d49fe6de-cb32-4b96-9891-c567310e59a6
-translation-type: ht
-source-git-commit: df4ea2c4002611c72009cf69598cbbb74b5c15c4
+translation-type: tm+mt
+source-git-commit: 82c8e82ce5ce333c2482252e96f928829d322e7e
 
 ---
 
@@ -40,7 +40,7 @@ SDK 当前支持多个 Adobe Experience Cloud 解决方案，包括 Analytics、
       ```objective-c
       [ADBMobile  trackState:@"loginScreen"
                         data:nil]; 
-      ````
+      ```
 
 * **trackAction:&#x200B;data:**
 
