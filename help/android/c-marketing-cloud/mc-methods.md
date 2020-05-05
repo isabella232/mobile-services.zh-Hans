@@ -1,14 +1,14 @@
 ---
 description: 以下是 Android 库提供的 Experience Cloud ID 方法。
-keywords: Android;库;移动;SDK
+keywords: android;library;mobile;sdk
 seo-description: 以下是 Android 库提供的 Experience Cloud ID 方法。
 seo-title: Adobe Experience Platform Identity Service 方法
 solution: Marketing Cloud,Analytics
 title: Adobe Experience Platform Identity Service 方法
-topic: 开发人员和实施
+topic: Developer and implementation
 uuid: c5107a7e-273b-4f71-8738-4c603479b24c
-translation-type: ht
-source-git-commit: 8fc515a6e89044b9dac98b3f207c5f43b658a2ec
+translation-type: tm+mt
+source-git-commit: 82b3dc38a0325b3aa733b491ddad9b59dbe84eaa
 
 ---
 
@@ -23,7 +23,7 @@ SDK 当前支持多个 Adobe Experience Cloud 解决方案，包括 Analytics、
 
 * **public static String appendToURL(final String URL)**
 
-   将 Adobe 访客数据附加到 URL 字符串以用于 Adobe JavaScript 库。您必须具有 Mobile SDK 4.12 及更高版本才能使用此方法。有关更多信息，请参阅[附加访客 ID 辅助函数](https://marketing.adobe.com/resources/help/zh_CN/mcvid/mcvid-appendvisitorid.html)。
+   将 Adobe 访客数据附加到 URL 字符串以用于 Adobe JavaScript 库。您必须拥有Mobile SDK 4.12+才能使用此方法。 有关更多信息，请参阅[附加访客 ID 辅助函数](https://docs.adobe.com/content/help/zh-Hans/id-service/using/id-service-api/methods/appendvisitorid.html)。
 
    >[!IMPORTANT]
    >
@@ -70,7 +70,7 @@ SDK 当前支持多个 Adobe Experience Cloud 解决方案，包括 Analytics、
 
 * **syncIdentifiers**
 
-   除了 Experience Cloud ID 之外，您还可以设置其他与每个访客关联的客户 ID。访客 API 接受同一访客具有多个客户 ID，并且使用客户类型标识符区分不同客户 ID 的适用范围。此方法对应于 JavaScript 库中的 `setCustomerIDs`。
+   利用Experience Cloud ID，您可以设置可与每个访客关联的其他客户ID。 访客 API 接受同一访客具有多个客户 ID，并且使用客户类型标识符区分不同客户 ID 的适用范围。此方法对应于 JavaScript 库中的 `setCustomerIDs`。
 
    * 以下是此方法的语法：
 
