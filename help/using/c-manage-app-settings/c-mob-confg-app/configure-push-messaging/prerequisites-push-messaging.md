@@ -5,10 +5,10 @@ seo-description: 在应用程序中配置推送消息之前，您必须先完成
 seo-title: 启用推送消息的先决条件
 solution: Marketing Cloud,Analytics
 title: 启用推送消息的先决条件
-topic: 量度
+topic: Metrics
 uuid: 194e6e07-b794-4152-a838-a4125c3292d4
-translation-type: ht
-source-git-commit: 92b1e430293fbded666e8af3f01393898c0e5811
+translation-type: tm+mt
+source-git-commit: 82b3dc38a0325b3aa733b491ddad9b59dbe84eaa
 
 ---
 
@@ -38,9 +38,9 @@ source-git-commit: 92b1e430293fbded666e8af3f01393898c0e5811
 
 >[!IMPORTANT]
 >
->要使用推送服务功能，用户必须使用他们的 Adobe ID 登录到 Mobile 核心服务，而且他们的 Analytics 帐户必须关联到他们的 Adobe ID。如果用户使用他们现有的 Adobe Analytics 帐户登录，将无法使用推送服务功能。
+>要使用推送服务功能，用户必须使用他们的 Adobe ID 登录到 Mobile 核心服务，而且他们的 Analytics 帐户必须关联到他们的 Adobe ID。如果用户使用其现有Adobe Analytics帐户登录，则推送服务功能不可用。
 
-如果用户没有 Adobe ID，请完成以下步骤：
+如果用户没有Adobe ID，请完成以下步骤：
 
 1. （**Experience Cloud 管理员**）邀请用户加入 Experience Cloud。
 
@@ -64,30 +64,30 @@ source-git-commit: 92b1e430293fbded666e8af3f01393898c0e5811
 
    Adobe ID 现在已关联到您的 Analytics 帐户、公司和登录凭据。
 
-有关详细信息，请参阅[排查帐户关联问题](https://marketing.adobe.com/resources/help/zh_CN/mcloud/organizations.html)。
+有关详细信息，请参阅[排查帐户关联问题](https://docs.adobe.com/content/help/zh-Hans/core-services/interface/manage-users-and-products/organizations.html)。
 
 ## 在 Mobile 用户界面中配置推送服务和 SDK ID 服务
 
-在为您的应用程序启用 ID 服务之前，**[!UICONTROL 推送服务]部分处于禁用状态。**&#x200B;但是，启用 ID 服务后，“推送服务”部分即会启用。有关启用推送服务的更多信息，请参阅[配置 SDK ID 服务选项](/help/using/c-manage-app-settings/c-mob-confg-app/t-config-visitor.md)。
+在为您的应用程序启用 ID 服务之前，**[!UICONTROL 推送服务]**&#x200B;部分处于禁用状态。但是，启用 ID 服务后，“推送服务”部分即会启用。有关启用推送服务的更多信息，请参阅[配置 SDK ID 服务选项](/help/using/c-manage-app-settings/c-mob-confg-app/t-config-visitor.md)。
 
 >[!IMPORTANT]：您必须单击&#x200B;**[!UICONTROL 保存]**&#x200B;以保存所做更改，然后刷新推送服务。
 >
->您可以在每个报表包中为 Apple 和 Google 各配置一个应用商店应用程序。如果您需要更多的应用程序，例如用于生产环境的应用程序和用于开发环境的应用程序，您可以为每个环境设置一个新的应用商店应用程序和一个新报表包。
+>您可以在每个报告套件中为Apple和Google配置一个应用商店应用程序。 如果您需要其他应用程序，例如，一个用于生产环境，一个用于开发环境，请为每个环境设置一个新的应用程序商店应用程序和一个新的报告套件。
 
-* 对于 **Apple**：拖放您的私钥和/或证书。如果您的私钥是用密码加密的，请键入其密码。
+* 对 **于Apple**，拖放您的私钥和／或证书。 如果您的私钥是密码加密的，请键入其密码。
 
    * 对于&#x200B;**私钥**：将您的私钥拖放到框中。
 
       您还可以单击&#x200B;**[!UICONTROL 浏览]**&#x200B;以选择该文件。此文件包含私钥。证书可能也包含在此文件内（`.p12`、`pkcs12`、`.pfx`、`.key`、`.pem`）。
 
-   * 对于&#x200B;**私钥密码**：如果您的私钥文件已加密，请键入密码。
+   * 对于“ **私钥密码**”，如果私钥文件已加密，请键入密码。
 
-      （可选）对于&#x200B;**证书**：将您的证书文件拖放到框中。您还可以单击&#x200B;**[!UICONTROL 浏览]**&#x200B;以选择该文件。如果私钥文件也包含证书（`.cert`、`.cer`、`.crt`、`.pem`），则不需要填写此字段。
+      （视情况而定）对 **于证书**，请将您的证书文件拖放到框中。 您还可以单击&#x200B;**[!UICONTROL 浏览]**&#x200B;以选择该文件。如果私钥文件也包含证书（`.cert`、`.cer`、`.crt`、`.pem`），则不需要填写此字段。
 
 * 对于 **Google**：指定应用程序的 API 密钥。
 
-   单击&#x200B;**[!UICONTROL 测试]**&#x200B;以验证是否已正确配置应用程序和 Mobile Services。此选项在进行调试和疑难解答时非常有用。
+   单击&#x200B;**[!UICONTROL 测试]**&#x200B;以验证是否已正确配置应用程序和 Mobile Services。此选项对调试和故障排除很有用。
 
-   键入要接收消息的设备推送令牌。您可以在一个以逗号分隔的列表中指定令牌，以便向多个设备发送消息。
+   键入要发送消息的设备的推送令牌。 您可以在一个以逗号分隔的列表中指定令牌，以便向多个设备发送消息。
 
    ![推送测试消息](assets/push_test_list.png)
