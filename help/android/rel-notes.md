@@ -1,13 +1,13 @@
 ---
-description: 适用于 Experience Cloud 解决方案的 Android SDK 4.x 的发行说明和已知问题。
-seo-description: 适用于 Experience Cloud 解决方案的 Android SDK 4.x 的发行说明和已知问题。
+description: 适用于Experience Cloud解决方案的Android SDK 4.x的发行说明和已知问题。
+seo-description: 适用于Experience Cloud解决方案的Android SDK 4.x的发行说明和已知问题。
 seo-title: 发行说明
 solution: Marketing Cloud,Analytics
 title: 发行说明
 topic: Developer and implementation
 uuid: 16bb4de8-a216-47a8-928c-0b1e1421adcf
-translation-type: ht
-source-git-commit: 712a1107b317f02216e4df8d75fddda67a6f1feb
+translation-type: tm+mt
+source-git-commit: 82b3dc38a0325b3aa733b491ddad9b59dbe84eaa
 
 ---
 
@@ -47,4 +47,4 @@ source-git-commit: 712a1107b317f02216e4df8d75fddda67a6f1feb
 * 访客 ID 服务 - 将连接和读取超时从 2 秒增加到 5 秒。
 
 
-有关所有解决方案当前和以往发行说明的更多信息，请参阅 [Adobe Experience Cloud 发行说明](https://marketing.adobe.com/resources/help/zh_CN/whatsnew/)。
+有关所有解决方案当前和以往发行说明的更多信息，请参阅 [Adobe Experience Cloud 发行说明](hhttps://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html)。
