@@ -6,8 +6,8 @@ solution: Marketing Cloud,Analytics
 title: 开始之前
 topic: Developer and implementation
 uuid: 0ca9e937-8d40-4570-9dbf-9aecc6ecedf6
-translation-type: ht
-source-git-commit: 0720b2004097eb288bd8f59723eeb09a79dd81e7
+translation-type: tm+mt
+source-git-commit: 82b3dc38a0325b3aa733b491ddad9b59dbe84eaa
 
 ---
 
@@ -24,10 +24,10 @@ Analytics 管理员和应用程序开发人员必须完成以下任务：
 
 要配置报表包并收集移动设备应用程序数据，请执行以下操作：
 
-1. 完成[登录到 Adobe Mobile Services 用户界面](../getting-started/requirements.md#section_690A2EC4572E47869F183974E932A6A8)中的某一部分。
-1. 为每个应用程序开发人员创建一个 Analytics 帐户。
+1. 完成登录Adobe Mobile [Services UI中的某个部分](../getting-started/requirements.md#section_690A2EC4572E47869F183974E932A6A8)。
+1. 为每个应用程序开发人员创建一个Analytics帐户。
 
-此时应用程序开发人员便拥有查看您创建的报表包的权限。
+应用程序开发人员现在有权视图您创建的报表包。
 
 >[!IMPORTANT]
 >
@@ -39,17 +39,17 @@ Analytics 管理员和应用程序开发人员必须完成以下任务：
 1. 确认 Analytics 管理员已完成[登录到 Adobe Mobile Services 用户界面](../getting-started/requirements.md#section_690A2EC4572E47869F183974E932A6A8)中的某一部分。
 1. 配置报表包后，完成[下载 SDK](../getting-started/requirements.md#section_044C17DF82BC4FD8A3E409C456CE9A46) 中的步骤。
 
-有关角色和权限的更多信息，请参阅[角色和权限](/help/using/gs/c-mob-roles-and-permissions.md)。
+有关角色和权限的详细信息，请参 [阅角色和权限](/help/using/gs/c-mob-roles-and-permissions.md)。
 
-## 登录到 Adobe Mobile Services 用户界面 {#section_690A2EC4572E47869F183974E932A6A8}
+## 登录Adobe Mobile Services UI {#section_690A2EC4572E47869F183974E932A6A8}
 
-Adobe Mobile Services 是用于移动设备应用程序分析和定位的主要报表界面。完成这些步骤后，您可以下载预先配置了数据收集服务器、报表包及许多其他设置的配置文件。
+Adobe Mobile Services是移动应用分析和定位的主要报告界面。 完成这些步骤后，您可以下载一个配置文件，该文件已与数据收集服务器、报告套件和许多其他设置一起预配置。
 
-您可以使用以下方法之一登录到 Adobe Mobile Services 用户界面：
+您可以通过以下方式之一登录Adobe Mobile Services UI:
 
 ### Experience Cloud
 
-使用您的 Adobe ID 登录到 [Experience Cloud](https://marketing.adobe.com)。此方法假定您的公司已在 Experience Cloud 中进行配置，并且您已经关联 Analytics 帐户。有关更多信息，请参阅[管理 Experience Cloud 用户和产品](https://docs.adobe.com/content/help/zh-Hans/core-services/interface/manage-users-and-products/admin-getting-started.html)。
+使用您的 Adobe ID 登录到 [Experience Cloud](https://experiencecloud.adobe.com)。此方法假定您的公司已在 Experience Cloud 中进行配置，并且您已经关联 Analytics 帐户。有关更多信息，请参阅[管理 Experience Cloud 用户和产品](https://docs.adobe.com/content/help/zh-Hans/core-services/interface/manage-users-and-products/admin-getting-started.html)。
 
 >[!TIP]
 >
@@ -57,7 +57,7 @@ Adobe Mobile Services 是用于移动设备应用程序分析和定位的主要�
 
 ### Adobe Analytics
 
-单击&#x200B;**[!UICONTROL 使用 Analytics 登录]**并输入您的 Analytics 公司名称、用户名和密码。
+单击&#x200B;**[!UICONTROL 使用 Analytics 登录]**&#x200B;并输入您的 Analytics 公司名称、用户名和密码。
 
 ## 创建报表包 {#section_7BC602ED1ABA42C6AB722F506B5219F3}
 
@@ -66,15 +66,15 @@ Adobe Mobile Services 是用于移动设备应用程序分析和定位的主要�
 1. 在浏览器中键入 [https://mobilemarketing.adobe.com/](https://mobilemarketing.adobe.com/) 以登录 Mobile Services UI。
 1. 单击&#x200B;**[!UICONTROL 创建应用程序]**。
 
-   如果未看到此按钮，请单击&#x200B;**[!UICONTROL 管理应用程序]**>**[!UICONTROL &#x200B;添加]**。
+   如果未看到此按钮，请单击&#x200B;**[!UICONTROL 管理应用程序]** > **[!UICONTROL 添加]**。
 
-1. 在&#x200B;**[!UICONTROL 报表包]**下拉列表中，选择**[!UICONTROL &#x200B;新的报表包]**。
+1. 在&#x200B;**[!UICONTROL 报表包]**&#x200B;下拉列表中，选择&#x200B;**[!UICONTROL 新的报表包]**。
 
 1. 输入应用程序的名称并选择一种报表包类型。
 
    例如，报表包 ID 为 `mycomobileappdev`。由于您需要为开发版本和生产版本分别设置不同的报表包和应用程序，因此在准备好设置生产版本时，可以重复这些步骤。
-1. 在&#x200B;**[!UICONTROL 报表包 ID]**中，确认显示了您的报表包名称。
-1. 在&#x200B;**[!UICONTROL 从以下来源复制设置]**中，确认已选中**[!UICONTROL &#x200B;移动设备应用程序模板]**。
+1. 在&#x200B;**[!UICONTROL 报表包 ID]** 中，确认显示了您的报表包名称。
+1. 在&#x200B;**[!UICONTROL 从以下来源复制设置]**&#x200B;中，确认已选中&#x200B;**[!UICONTROL 移动设备应用程序模板]**。
 
    此模板将启用时间戳以收集离线数据，并激活移动设备解决方案变量以捕获生命周期量度。
 
@@ -85,7 +85,7 @@ Adobe Mobile Services 是用于移动设备应用程序分析和定位的主要�
 要下载 Mobile SDK，请执行以下操作：
 
 1. 在浏览器中键入 [https://mobilemarketing.adobe.com/](https://mobilemarketing.adobe.com/) 以登录 Mobile Services UI。
-1. 在左窗格中，单击&#x200B;**[!UICONTROL 所有应用程序]**下拉列表，然后选择您的应用程序。您还可以在右侧窗格中选择您的应用程序。
+1. 在左窗格中，单击&#x200B;**[!UICONTROL 所有应用程序]**&#x200B;下拉列表，然后选择您的应用程序。您还可以在右侧窗格中选择您的应用程序。
 
    >[!IMPORTANT]
    >
@@ -95,9 +95,9 @@ Adobe Mobile Services 是用于移动设备应用程序分析和定位的主要�
 
    >[!IMPORTANT]
    >
-   >如果看不到&#x200B;**[!UICONTROL 管理应用程序设置]** 选项，请确保您已登录 Adobe Mobile Services。要进行验证，请单击页面右上方的![解决方案切换器](assets/solution-switcher.png)图标，并确保 **[!UICONTROL  Adobe Mobile Services]** 显示在左上方。
+   >如果看不到&#x200B;**[!UICONTROL 管理应用程序设置]**&#x200B;选项，请确保您已登录 Adobe Mobile Services。要进行验证，请单击页面右上方的![解决方案切换器](assets/solution-switcher.png)图标，并确保 **[!UICONTROL Adobe Mobile Services]** 显示在左上方。
 
-1. 在“管理应用程序设置”页面底部的&#x200B;**[!UICONTROL 应用程序 SDK 下载]**部分中，下载适用于您平台的 SDK 和示例应用程序。
+1. 在“管理应用程序设置”页面底部的&#x200B;**[!UICONTROL 应用程序 SDK 下载]**&#x200B;部分中，下载适用于您平台的 SDK 和示例应用程序。
 
 >[!TIP]
 >
@@ -111,5 +111,5 @@ compile 'com.adobe.mobile:adobeMobileLibrary:4.13.7'
 
 请牢记以下信息：
 
-* 将代码示例中的版本号替换为 Android SDK 的相应版本。
-* 下载配置文件，并将其包含在您的项目中。
+* 将代码示例中的版本号替换为相应版本的Android SDK。
+* 下载配置文件并将其包含在您的项目中。
