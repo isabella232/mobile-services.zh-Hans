@@ -5,10 +5,10 @@ seo-description: appFigures Data Connector 集成将集成 appFigures 的强大�
 seo-title: 应用商店
 solution: Marketing Cloud,Analytics
 title: 应用商店
-topic: 量度
+topic: Metrics
 uuid: a194364d-faaf-4995-befd-cf48f9c1f11b
-translation-type: ht
-source-git-commit: 814c99695f538160ae28484ca8e2a92f5b24bb1a
+translation-type: tm+mt
+source-git-commit: 82b3dc38a0325b3aa733b491ddad9b59dbe84eaa
 
 ---
 
@@ -21,19 +21,18 @@ source-git-commit: 814c99695f538160ae28484ca8e2a92f5b24bb1a
 >
 >在 Mobile Services UI 中，当您配置集成后，**[!UICONTROL 应用商店]**&#x200B;菜单项和关联的报表将显示在左侧导航窗格中。
 
-[用于 Adobe Analytics 的 appFigures Data Connector](https://marketing.adobe.com/resources/help/zh_CN/connectors/appfigures/) 包含以下信息：
-<!--REKHA: no idea where this guide lives-->
+[appFigures Data Connector for Adobe](https://docs.adobe.com/content/help/en/analytics/import/dataconnectors/appfigures/appfigures-overview.html) Analytics包含以下信息：
 
-* 集成的主要优点和功能
-* 实现集成，包括：
+* 集成的主要优势和功能
+* 实施集成，包括：
 
-   * Adobe Analytics 要求
-   * appFigures 要求
+   * Adobe Analytics要求
+   * appFigures要求
    * 定价
-   * Analytics 集成变量
+   * Analytics集成变量
 
 * 配置集成
-* 集成中包含的量度和维度
-* 区段应用程序数据
+* 包含在集成中的指标和维度
+* 细分应用程序数据
 
-有关应用商店报表的更多信息，请参阅[应用商店“概述”报表](/help/using/usage/c-app-store-store-performance.md)。
+有关App Store报告的详细信息，请参阅App [Store概述报告](/help/using/usage/c-app-store-store-performance.md)。
