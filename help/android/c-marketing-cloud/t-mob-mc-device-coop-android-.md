@@ -1,26 +1,26 @@
 ---
-description: 要开始使用 Experience Cloud 设备协作，请联系您的 Adobe 代表。
-seo-description: 要开始使用 Experience Cloud 设备协作，请联系您的 Adobe 代表。
+description: 要使用Experience Cloud Device Co-op进行开始，请与Adobe代表联系。
+seo-description: 要使用Experience Cloud Device Co-op进行开始，请与Adobe代表联系。
 seo-title: Experience Cloud 设备协作
 title: Experience Cloud 设备协作
 uuid: 7bb8a19c-4b80-4911-879d-f9941baa3b62
-translation-type: ht
-source-git-commit: df4ea2c4002611c72009cf69598cbbb74b5c15c4
+translation-type: tm+mt
+source-git-commit: 82b3dc38a0325b3aa733b491ddad9b59dbe84eaa
 
 ---
 
 
 # Experience Cloud 设备协作 {#experience-cloud-device-co-op}
 
-要开始使用 Experience Cloud 设备协作，请联系您的 Adobe 代表。
+要使用Experience Cloud Device Co-op进行开始，请与Adobe代表联系。
 
-要使您的移动设备应用程序能够使用 Experience Cloud 设备协作，请完成以下适用于 Experience Cloud Android SDK 的步骤：
+要为Experience Cloud设备合作社启用移动应用程序，请完成Experience Cloud Android SDK的以下步骤：
 
 >[!IMPORTANT]
 >
 >此功能需要 Android SDK 版本 4.8.3 或更高版本。
 
-从 SDK 版本 4.16.1 开始，设备协作成员可以选择将自己的移动设备数据退出 Experience Cloud 设备协作。有关更多信息，请参阅 [ADBMobile JSON 配置](/help/android/configuration/json-config/json-config.md)和适用于 `visitorAPI.js`isCoopSafe[ 的 ](https://marketing.adobe.com/resources/help/zh_CN/mcvid/mcvid-coopsafe.html) 方法。
+从SDK版本4.16.1开始，设备合作社成员可以从Experience Cloud设备合作社中选择其移动设备数据。 有关详细信息，请 [参阅ADBMobile JSON](/help/android/configuration/json-config/json-config.md) Config和 `visitorAPI.js` isCoopSafe [的方法](https://docs.adobe.com/content/help/en/id-service/using/id-service-api/configurations/coopsafe.html)。
 
 1. 实施 Adobe Mobile SDK。
 
