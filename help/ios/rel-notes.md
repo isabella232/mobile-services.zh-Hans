@@ -6,8 +6,8 @@ solution: Marketing Cloud,Analytics
 title: 发行说明
 topic: Developer and implementation
 uuid: e1613dc5-02a4-43a7-997a-29b4de98b4d1
-translation-type: ht
-source-git-commit: c9ee89ef5039c52ebab41a9495f1794c08a415ba
+translation-type: tm+mt
+source-git-commit: 82b3dc38a0325b3aa733b491ddad9b59dbe84eaa
 
 ---
 
@@ -69,4 +69,4 @@ source-git-commit: c9ee89ef5039c52ebab41a9495f1794c08a415ba
 
 * 访客 ID 服务 - `setPushIdentifier` API 调用现在会在每次调用时向访客 ID 服务发送同步调用。
 
-有关所有解决方案当前和以往发行说明的更多信息，请参阅 [Adobe Experience Cloud 发行说明](https://marketing.adobe.com/resources/help/zh_CN/whatsnew/)。
+有关所有解决方案当前和以往发行说明的更多信息，请参阅 [Adobe Experience Cloud 发行说明](https://docs.adobe.com/content/help/zh-Hans/release-notes/experience-cloud/current.html)。
