@@ -4,10 +4,10 @@ seo-description: Adobe Experience Platform Identity Service 可以跨多个 Expe
 seo-title: Experience Cloud ID 配置
 solution: Marketing Cloud,Analytics
 title: Experience Cloud ID 配置
-topic: 开发人员和实施
+topic: Developer and implementation
 uuid: 8ebdf2bf-c581-448f-9542-f99a19784fe7
-translation-type: ht
-source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
+translation-type: tm+mt
+source-git-commit: 82b3dc38a0325b3aa733b491ddad9b59dbe84eaa
 
 ---
 
@@ -18,7 +18,7 @@ Adobe Experience Platform Identity Service 可以跨多个 Experience Cloud 解�
 
 >[!TIP]
 >
->除非使用 Adobe Experience Platform Identity Service，否则无需填充此 ID。有关更多信息，请参阅 [Adobe Experience Platform Identity Service](https://marketing.adobe.com/resources/help/zh_CN/mcvid/)。
+>除非使用 Adobe Experience Platform Identity Service，否则无需填充此 ID。有关更多信息，请参阅 [Adobe Experience Platform Identity Service](https://docs.adobe.com/content/help/zh-Hans/id-service/using/home.html)。
 
 >[!IMPORTANT]
 >
@@ -56,4 +56,4 @@ Adobe Experience Platform Identity Service 可以跨多个 Experience Cloud 解�
 
    如果未配置这些 ID，请从 Adobe Mobile Services 下载更新的 `ADBMobileConfig.json` 文件。有关更多信息，请参阅[开始之前](/help/android/getting-started/requirements.md)。
 
-配置完成后，将生成一个 Experience Cloud ID，并将其包含在所有点击中。其他 ID（如自定义和自动生成的 ID）将继续随每次点击一起发送。
+配置完成后，将生成Experience Cloud ID，并将其包含在所有点击中。 每次点击时，都会继续发送其他ID，如自定义和自动生成的ID。
