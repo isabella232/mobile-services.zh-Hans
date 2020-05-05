@@ -1,14 +1,14 @@
 ---
 description: 适用于 Experience Cloud 解决方案的 Android SDK 4.x 允许您测量本机 Android 应用程序，在您的应用程序中提供目标内容，以及通过受众管理收集并利用受众数据。
-keywords: Android;库;移动;SDK
+keywords: android;library;mobile;sdk
 seo-description: 适用于 Experience Cloud 解决方案的 Android SDK 4.x 允许您测量本机 Android 应用程序，在您的应用程序中提供目标内容，以及通过受众管理收集并利用受众数据。
 seo-title: 适用于 Experience Cloud 解决方案的 Android SDK 4.x
 solution: Marketing Cloud,Analytics
 title: 适用于 Experience Cloud 解决方案的 Android SDK 4.x
-topic: 开发人员和实施
+topic: Developer and implementation
 uuid: 56f1ff41-0365-41dd-bdde-245c823dff07
-translation-type: ht
-source-git-commit: b690ec677cf5aedfb2673b707f82716af1851124
+translation-type: tm+mt
+source-git-commit: 82b3dc38a0325b3aa733b491ddad9b59dbe84eaa
 
 ---
 
@@ -19,7 +19,7 @@ source-git-commit: b690ec677cf5aedfb2673b707f82716af1851124
 
 ## 新的 Adobe Experience Platform Mobile SDK 发行版本
 
-查找与 Adobe Experience Platform Mobile SDK 相关的信息和文档？单击[此处](https://aep-sdks.gitbook.io/docs/)可获取最新的文档。
+正在寻找与 Adobe Experience Platform Mobile SDK 相关的信息和文档？请单击[此处](https://aep-sdks.gitbook.io/docs/)获取我们的最新文档。
 
 在 2018 年 9 月，我们发布了一个新的 SDK 主要版本。这些新的 Adobe Experience Platform Mobile SDK 可通过 [Experience Platform Launch](https://www.adobe.com/cn/experience-platform/launch.html) 进行配置。
 
@@ -34,14 +34,14 @@ source-git-commit: b690ec677cf5aedfb2673b707f82716af1851124
 >
 >虽然您可以在 UI 中配置功能，但配置的功能要在下载生成的配置文件并将其添加到 SDK 后才能正常工作。有关下载和配置 SDK 的信息，请参阅[核心实施和生命周期](/help/android/getting-started/dev-qs.md)。
 
-SDK 支持以下 Android 版本：
+SDK支持以下版本的Android:
 
-* SDK 版本 4.6.0 或更低版本支持 Android 2.2 (API 8) - Android 5.1.1 (API 22)
-* SDK 版本 4.6.1 或更高版本支持 Android 2.3 (API 9) 或更高版本
+* 版本4.6.0或更早版本支持Android 2.2(API 8)- Android 5.1.1(API 22)
+* 版本4.6.1或更高版本支持Android 2.3(API 9)或更高版本
 
 请牢记以下信息：
 
-* 在版本 4.2 及更高版本中，现在使用 HTTP POST 发送所有点击。
+* 在版本4.2及更高版本中，现在使用HTTP POST发送所有点击。
 
    这对收集或报告的数据没有影响，但是您将需要使用支持检查 POST 数据的数据包分析器来查看点击。
 
@@ -49,11 +49,11 @@ SDK 支持以下 Android 版本：
 
 ## Adobe Mobile 用户文档 {#section_7583FD5FDED143619048E9744A3F2D21}
 
-Adobe Mobile Services 提供了一个用户界面，以整合 Adobe Experience Cloud 中针对移动设备应用程序的移动营销功能。要了解有关 用户界面的更多信息并阅读用户文档，请参阅 [Adobe Mobile Services](https://marketing.adobe.com/resources/help/zh_CN/mobile/)。
+Adobe Mobile Services 提供了一个用户界面，以整合 Adobe Experience Cloud 中针对移动设备应用程序的移动营销功能。要了解有关 用户界面的更多信息并阅读用户文档，请参阅 [Adobe Mobile Services](https://docs.adobe.com/content/help/zh-Hans/mobile-services/using/home.html)。
 
 ## 发行说明 {#section_F8181DC052D44DD2A99AB40A41F6792C}
 
-有关 Experience Cloud 发行版本的最新信息，请参阅 [Experience Cloud 发行说明](https://marketing.adobe.com/resources/help/zh_CN/whatsnew/)。
+有关 Experience Cloud 发行版本的最新信息，请参阅 [Experience Cloud 发行说明](https://docs.adobe.com/content/help/zh-Hans/release-notes/experience-cloud/current.html)。
 
 ## 使用 Bloodhound
 
