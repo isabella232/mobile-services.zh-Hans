@@ -7,7 +7,10 @@ title: 发行说明
 topic: Developer and implementation
 uuid: 16bb4de8-a216-47a8-928c-0b1e1421adcf
 translation-type: tm+mt
-source-git-commit: 82b3dc38a0325b3aa733b491ddad9b59dbe84eaa
+source-git-commit: a2a2ea4bd3826b061b198e684dd31d9328137d7e
+workflow-type: tm+mt
+source-wordcount: '297'
+ht-degree: 76%
 
 ---
 
@@ -15,6 +18,14 @@ source-git-commit: 82b3dc38a0325b3aa733b491ddad9b59dbe84eaa
 # 发行说明 {#release-notes}
 
 以下是适用于 Experience Cloud 解决方案的 Android SDK 4.x 的发行说明、已知问题和热修复信息：
+
+**2020年4月3日： 4.18.2**
+
+* 在应用程序消息传递中——出于安全原因，SDK创建的WebView现在将属性“setAllowFileAccess”设置为false。
+
+**2020年3月12日： 4.18.1**
+
+* 目标-目标会话ID现在将作为上下文数据参数“a.目标.sessionId”添加到发送到Adobe Analytics的内部“分析目标”点击中。
 
 **2020 年 1 月 16 日：4.18.0**
 
