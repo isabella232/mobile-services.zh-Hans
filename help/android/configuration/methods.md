@@ -7,7 +7,7 @@ solution: Marketing Cloud,Analytics
 title: 配置方法
 topic: Developer and implementation
 uuid: 663aeb6c-1b97-4a3a-8c0e-dd4c2ec28c01
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dae60a21286edc28c84b7638da214b824abf0cd3
 
 ---
@@ -272,7 +272,7 @@ source-git-commit: dae60a21286edc28c84b7638da214b824abf0cd3
 
 * **setSmallIconResourceId(int resourceId)**
 
-   * (**版本4.2或更高版本**)设置将用于SDK创建的通知的小图标。 此图标将显示在状态栏中，并且是当用户在通知中心看到完整通知时显示的次映像。
+   * （**版本 4.2 或更高版本**）设置将用于由 SDK 创建的通知的小图标。此图标将显示在状态栏中，并且将是用户在通知中心查看完整通知时显示的辅助图像。
    * 以下是此方法的语法：
 
       ```java
@@ -287,7 +287,7 @@ source-git-commit: dae60a21286edc28c84b7638da214b824abf0cd3
 
 * **setLargeIconResourceId(int resourceId)**
 
-   * (**版本4.2或更高版本**)设置将用于SDK创建的通知的大图标。 此图标将是用户在通知中心查看完整通知时显示的主要图像。
+   * （**版本 4.2 或更高版本**）设置将用于由 SDK 创建的通知的大图标。此图标将是用户在通知中心查看完整通知时显示的主要图像。
    * 以下是此方法的语法：
 
       ```java
@@ -302,7 +302,7 @@ source-git-commit: dae60a21286edc28c84b7638da214b824abf0cd3
 
 * **overrideConfigStream(InputStream configInput)**
 
-   * (**版本4.2或更高版本**)允许您在应用程序开始时加载其他ADBMobile JSON配置文件。 在应用程序关闭之前，将一直使用该配置。
+   * （**版本 4.2 或更高版本**）允许您在应用程序启动时加载其他 ADBMobile JSON 配置文件。在应用程序关闭之前，将一直使用该配置。
    * 以下是此方法的语法：
 
       ```java
@@ -380,7 +380,7 @@ source-git-commit: dae60a21286edc28c84b7638da214b824abf0cd3
          ```
 
 
-## AdobeDataCallback 接口 {#section_600A63B3136F47DCB928071485C5117C}
+## AdobeDataCallback Interface {#section_600A63B3136F47DCB928071485C5117C}
 
 ```java
 public interface AdobeDataCallback {  
@@ -388,7 +388,7 @@ public interface AdobeDataCallback {
 } 
 ```
 
-## MobileDataEvent 枚举 {#section_92732814141646E294782BC9020367EB}
+## MobileDataEvent Enum {#section_92732814141646E294782BC9020367EB}
 
 ```java
 public enum MobileDataEvent {  
