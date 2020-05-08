@@ -7,7 +7,7 @@ solution: Marketing Cloud,Analytics
 title: 核心实施和生命周期
 topic: Developer and implementation
 uuid: af4d11ac-8245-46a0-9b3a-4a0a29cfbbb2
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dae60a21286edc28c84b7638da214b824abf0cd3
 
 ---
@@ -23,7 +23,7 @@ source-git-commit: dae60a21286edc28c84b7638da214b824abf0cd3
 >
 >要下载 SDK，您必须使用 Android 2.2 或更高版本。
 
-1. 完成以下各节中的步骤，以设置开发报告套件并下载配置文件的预填充版本：
+1. 请完成以下各节中的步骤，以设置开发报表包并下载配置文件的预填充版本：
 
    * [创建报表包](/help/android/getting-started/requirements.md)
    * [下载 SDK](/help/android/getting-started/requirements.md)
@@ -48,7 +48,7 @@ source-git-commit: dae60a21286edc28c84b7638da214b824abf0cd3
 1. 在项目导航面板中，右键单击您的项目。
 1. 选择&#x200B;**[!UICONTROL 打开模块设置]**。
 1. 在&#x200B;**[!UICONTROL 项目设置]**&#x200B;下，选择&#x200B;**[!UICONTROL 库]**。
-1. Click the **[!UICONTROL +]** icon to add a new library.
+1. 单击 **[!UICONTROL +]** 图标以添加新库。
 1. 选择 **[!UICONTROL Java]** 并导航至 `adobeMobileLibrary.jar` 文件。
 1. 选择您计划在其中使用移动设备库的模块。
 1. 单击&#x200B;**[!UICONTROL 应用]**，然后单击&#x200B;**[!UICONTROL 确定]**&#x200B;以关闭“模块设置”窗口。
@@ -59,10 +59,10 @@ source-git-commit: dae60a21286edc28c84b7638da214b824abf0cd3
 
 1. 将 `ADBMobileConfig.json` 文件添加到您项目的 `assets` 文件夹中。
 1. 在 **[!UICONTROL Eclipse IDE]** 中，右键单击项目名称。
-1. Click  **[!UICONTROL Build Path]** > **[!UICONTROL Add External Archives]**.
+1. 单击&#x200B;**[!UICONTROL 生成路径]** > **[!UICONTROL 添加外部存档]**。
 1. 选择 `adobeMobileLibrary.jar`。
 1. 单击&#x200B;**[!UICONTROL 打开]**。
-1. Right-click the project again and select **[!UICONTROL Build Path]** > **[!UICONTROL Configure Build Path]**.
+1. 再次右键单击项目，然后选择&#x200B;**[!UICONTROL 生成路径]** > **[!UICONTROL 配置生成路径]**。
 1. 在&#x200B;**[!UICONTROL 顺序和导出]**&#x200B;选项卡中，确保已选中 **`adobeMobileLibrary.jar`**。
 
 ## 添加应用程序权限 {#section_2EAF73ABF6424647B219A63B33B02CD5}
