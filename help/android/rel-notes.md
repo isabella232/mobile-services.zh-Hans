@@ -1,16 +1,16 @@
 ---
-description: 适用于Experience Cloud解决方案的Android SDK 4.x的发行说明和已知问题。
-seo-description: 适用于Experience Cloud解决方案的Android SDK 4.x的发行说明和已知问题。
+description: 适用于 Experience Cloud 解决方案的 Android SDK 4.x 的发行说明和已知问题。
+seo-description: 适用于 Experience Cloud 解决方案的 Android SDK 4.x 的发行说明和已知问题。
 seo-title: 发行说明
 solution: Marketing Cloud,Analytics
 title: 发行说明
 topic: Developer and implementation
 uuid: 16bb4de8-a216-47a8-928c-0b1e1421adcf
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a2a2ea4bd3826b061b198e684dd31d9328137d7e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '297'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
@@ -19,13 +19,13 @@ ht-degree: 76%
 
 以下是适用于 Experience Cloud 解决方案的 Android SDK 4.x 的发行说明、已知问题和热修复信息：
 
-**2020年4月3日： 4.18.2**
+**2020 年 4 月 3 日：4.18.2**
 
-* 在应用程序消息传递中——出于安全原因，SDK创建的WebView现在将属性“setAllowFileAccess”设置为false。
+* 应用程序内消息 - 出于安全原因，SDK 创建的 WebViews 现在将“setAllowFileAccess”属性设置为 false。
 
-**2020年3月12日： 4.18.1**
+**2020 年 3 月 12 日：4.18.1**
 
-* 目标-目标会话ID现在将作为上下文数据参数“a.目标.sessionId”添加到发送到Adobe Analytics的内部“分析目标”点击中。
+* Target - Target 会话 ID 现在将作为上下文数据参数“a.target.sessionId”添加到发往 Adobe Analytics 的 Analytics-for-Target 内部点击中。
 
 **2020 年 1 月 16 日：4.18.0**
 
