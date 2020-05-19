@@ -7,8 +7,11 @@ solution: Marketing Cloud,Analytics
 title: 适用于 Experience Cloud 解决方案的 Android SDK 4.x
 topic: Developer and implementation
 uuid: 56f1ff41-0365-41dd-bdde-245c823dff07
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 82b3dc38a0325b3aa733b491ddad9b59dbe84eaa
+workflow-type: ht
+source-wordcount: '447'
+ht-degree: 100%
 
 ---
 
@@ -34,14 +37,14 @@ source-git-commit: 82b3dc38a0325b3aa733b491ddad9b59dbe84eaa
 >
 >虽然您可以在 UI 中配置功能，但配置的功能要在下载生成的配置文件并将其添加到 SDK 后才能正常工作。有关下载和配置 SDK 的信息，请参阅[核心实施和生命周期](/help/android/getting-started/dev-qs.md)。
 
-SDK支持以下版本的Android:
+SDK 支持以下 Android 版本：
 
-* 版本4.6.0或更早版本支持Android 2.2(API 8)- Android 5.1.1(API 22)
-* 版本4.6.1或更高版本支持Android 2.3(API 9)或更高版本
+* SDK 版本 4.6.0 或更低版本支持 Android 2.2 (API 8) - Android 5.1.1 (API 22)
+* SDK 版本 4.6.1 或更高版本支持 Android 2.3 (API 9) 或更高版本
 
 请牢记以下信息：
 
-* 在版本4.2及更高版本中，现在使用HTTP POST发送所有点击。
+* 在 SDK 版本 4.2 及更高版本中，现在会使用 HTTP POST 发送所有点击。
 
    这对收集或报告的数据没有影响，但是您将需要使用支持检查 POST 数据的数据包分析器来查看点击。
 
