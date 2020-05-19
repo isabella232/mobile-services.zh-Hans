@@ -6,8 +6,11 @@ solution: Marketing Cloud,Analytics
 title: 开始之前
 topic: Developer and implementation
 uuid: 0ca9e937-8d40-4570-9dbf-9aecc6ecedf6
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 82b3dc38a0325b3aa733b491ddad9b59dbe84eaa
+workflow-type: ht
+source-wordcount: '760'
+ht-degree: 100%
 
 ---
 
@@ -24,10 +27,10 @@ Analytics 管理员和应用程序开发人员必须完成以下任务：
 
 要配置报表包并收集移动设备应用程序数据，请执行以下操作：
 
-1. 完成登录Adobe Mobile [Services UI中的某个部分](../getting-started/requirements.md#section_690A2EC4572E47869F183974E932A6A8)。
-1. 为每个应用程序开发人员创建一个Analytics帐户。
+1. 完成[登录 Adobe Mobile Services UI](../getting-started/requirements.md#section_690A2EC4572E47869F183974E932A6A8) 中的任一部分。
+1. 为每个应用程序开发人员创建一个 Analytics 帐户。
 
-应用程序开发人员现在有权视图您创建的报表包。
+应用程序开发人员现在将有权查看您创建的报表包。
 
 >[!IMPORTANT]
 >
@@ -39,13 +42,13 @@ Analytics 管理员和应用程序开发人员必须完成以下任务：
 1. 确认 Analytics 管理员已完成[登录到 Adobe Mobile Services 用户界面](../getting-started/requirements.md#section_690A2EC4572E47869F183974E932A6A8)中的某一部分。
 1. 配置报表包后，完成[下载 SDK](../getting-started/requirements.md#section_044C17DF82BC4FD8A3E409C456CE9A46) 中的步骤。
 
-有关角色和权限的详细信息，请参 [阅角色和权限](/help/using/gs/c-mob-roles-and-permissions.md)。
+有关角色和权限的更多信息，请参阅[角色和权限](/help/using/gs/c-mob-roles-and-permissions.md)。
 
-## 登录Adobe Mobile Services UI {#section_690A2EC4572E47869F183974E932A6A8}
+## 登录 Adobe Mobile Services UI {#section_690A2EC4572E47869F183974E932A6A8}
 
-Adobe Mobile Services是移动应用分析和定位的主要报告界面。 完成这些步骤后，您可以下载一个配置文件，该文件已与数据收集服务器、报告套件和许多其他设置一起预配置。
+Adobe Mobile Services 是用于移动设备应用程序分析和定位的主要报告界面。完成这些步骤后，您可以下载一个配置文件，该文件已预先配置了数据收集服务器、报表包和许多其他设置。
 
-您可以通过以下方式之一登录Adobe Mobile Services UI:
+您可以通过以下某种方式登录 Adobe Mobile Services UI：
 
 ### Experience Cloud
 
@@ -111,5 +114,5 @@ compile 'com.adobe.mobile:adobeMobileLibrary:4.13.7'
 
 请牢记以下信息：
 
-* 将代码示例中的版本号替换为相应版本的Android SDK。
-* 下载配置文件并将其包含在您的项目中。
+* 将代码示例中的版本号替换为 Android SDK 的相应版本。
+* 下载配置文件并将其包含到您的项目中。
