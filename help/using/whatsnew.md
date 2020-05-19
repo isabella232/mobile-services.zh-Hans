@@ -7,8 +7,11 @@ solution: Marketing Cloud,Analytics
 title: 发行说明
 topic: Metrics
 uuid: 522b0589-d61f-4a9f-952e-ba7ce11af2f9
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 82b3dc38a0325b3aa733b491ddad9b59dbe84eaa
+workflow-type: ht
+source-wordcount: '80'
+ht-degree: 100%
 
 ---
 
@@ -21,7 +24,7 @@ Adobe Mobile Services 的最新发行信息。
 
 发行日期：**2019 年 4 月 11 日**
 
-Mobile Services的新增功能、更新和修复：
+Mobile Services 的新增功能、更新和修复：
 
 * **推送消息**：添加了对 Android Firebase 通知类型的支持。
 
