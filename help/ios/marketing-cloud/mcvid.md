@@ -6,8 +6,11 @@ solution: Marketing Cloud,Analytics
 title: Experience Cloud ID
 topic: Developer and implementation
 uuid: 13628ea8-3cd4-4cfc-8ff6-722c33f7813a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 82b3dc38a0325b3aa733b491ddad9b59dbe84eaa
+workflow-type: ht
+source-wordcount: '261'
+ht-degree: 100%
 
 ---
 
@@ -49,4 +52,4 @@ Adobe Experience Platform Identity Service 可以跨多个 Experience Cloud 解�
 
    如果不存在这些值，请从 Adobe Mobile Services 下载更新的 `ADBMobileConfig.json` 文件。有关更多信息，请参阅 [ADBMobile JSON 配置](/help/ios/getting-started/requirements.md)。
 
-配置完成后，将生成Experience Cloud ID，并将其包含在所有点击中。 其他访客 ID（如自定义和自动生成的访客 ID）将继续随每次点击一起发送。
+配置完成后，将生成一个 Experience Cloud ID，并将其包含在所有点击中。其他访客 ID（如自定义和自动生成的访客 ID）将继续随每次点击一起发送。
