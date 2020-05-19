@@ -1,13 +1,16 @@
 ---
-description: 此信息可帮助您使用ADBMobile.json配置文件。
-seo-description: 此信息可帮助您使用ADBMobile.json配置文件。
+description: 此信息可帮助您使用 ADBMobile.json 配置文件。
+seo-description: 此信息可帮助您使用 ADBMobile.json 配置文件。
 seo-title: ADBMobile JSON 配置
 solution: Marketing Cloud,Analytics
 title: ADBMobile JSON 配置
 topic: Developer and implementation
 uuid: d9708d59-e30a-4f6c-ab1b-d9499855d0c2
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 82b3dc38a0325b3aa733b491ddad9b59dbe84eaa
+workflow-type: ht
+source-wordcount: '1715'
+ht-degree: 100%
 
 ---
 
@@ -28,7 +31,7 @@ source-git-commit: 82b3dc38a0325b3aa733b491ddad9b59dbe84eaa
 
    启用移动设备应用程序客户获取。
 
-   如果缺少此部分，请启用移动设备应用程序客户获取并再次下载 SDK 配置文件。For more information, see *referrerTimeout* below.
+   如果缺少此部分，请启用移动设备应用程序客户获取并再次下载 SDK 配置文件。有关更多信息，请参阅下面的 *referrerTimeout*。
 
    * `server` - 首次启动时在其中检查客户获取反向链接的客户获取服务器。
    * `appid` - 客户获取服务器上生成的唯一标识此应用程序的 ID。
@@ -44,15 +47,15 @@ source-git-commit: 82b3dc38a0325b3aa733b491ddad9b59dbe84eaa
 
    启用/禁用 Adobe SDK 回溯会话信息点击量的功能。
 
-   会话信息点击当前由崩溃和会话长度组成，可以启用或禁用。
+   会话信息点击量当前由崩溃次数和会话时长组成，可以启用或禁用。
 
    * 如果将该值设置为 `false`，则&#x200B;**禁用**&#x200B;点击量。
 
-      SDK返回其4.1之前的行为，将上一会话的会话信息与后续会话的第一次点击相混合。 Adobe SDK还将会话信息附加到当前生命周期中，这可避免创建夸大访问。 由于不再产生夸大的访问，访问计数会立即下降。
+      SDK 将返回到 4.1 版本之前的行为，即，将上一个会话的会话信息与后续会话的第一次点击进行归并。Adobe SDK 还会将会话信息附加到当前生命周期中，以避免造成访问次数夸大。由于访问次数不会再夸大，访问计数会立即下降。
 
    * 如果不提供值，则默认值为 `true`，并&#x200B;**启用**&#x200B;点击量。
 
-      启用点击后，Adobe SDK会将会话信息点击回溯到上一会话中最后一次点击后的1秒。 这意味着崩溃数据和会话数据将与它们发生的正确日期相关。 一个副作用是SDK可能创建对追溯点击的访问。 每次新启动应用程序时都会有一个回溯的点击。
+      启用点击量后，Adobe SDK 会将会话信息点击量对应的时间回溯到上一个会话中最后一次点击后的 1 秒。这意味着崩溃数据和会话数据将与正确的日期（即崩溃和会话发生的日期）相关联。但同时存在一个副作用，即 SDK 可能会为回溯的点击创建一次访问。每次新启动应用程序时都会有一个回溯的点击。
 
    * 最低 SDK 版本：4.6
    >[!IMPORTANT]
@@ -70,7 +73,7 @@ source-git-commit: 82b3dc38a0325b3aa733b491ddad9b59dbe84eaa
 
 * **charset**
 
-   定义将用于发送到 Analytics 的数据的字符集。charset 用于将传入的数据转换为 UTF-8 以便进行存储和报告。有关更多信息，请参阅 [s.charSet](https://docs.adobe.com/content/help/en/analytics/implementation/vars/config-vars/charset.html)。
+   定义将用于发送到 Analytics 的数据的字符集。charset 用于将传入的数据转换为 UTF-8 以便进行存储和报告。有关更多信息，请参阅 [s.charSet](https://docs.adobe.com/content/help/zh-Hans/analytics/implementation/vars/config-vars/charset.html)。
 
    * 最低 SDK 版本：4.0
 
@@ -109,15 +112,15 @@ source-git-commit: 82b3dc38a0325b3aa733b491ddad9b59dbe84eaa
 
 * **lifecycleTimeout**
 
-   默认值为300秒。
+   默认值为 300 秒。
 
-   指定在应用程序启动之间、但在启动被视为新会话之前必须经历的时长（以秒为单位）。 此超时也适用于应用程序被发送到后台后又重新启用的情况。应用程序在后台所花费的时间不包括在会话长度中。
+   指定从应用程序启动到将该启动视为新会话之前必须经过的时间（以秒为单位）。此超时也适用于应用程序被发送到后台后又重新启用的情况。应用程序在后台所用的时间不包括在会话时长中。
 
    * 最低 SDK 版本：4.0
 
 * **messages**
 
-   由Adobe Mobile Services自动生成，定义应用程序内消息传递的设置。 有关详细信息，请参阅下 *面的消息* 说明部分。
+   由 Adobe Mobile Services 自动生成，用于定义应用程序内消息传递的设置。有关更多信息，请参阅下面的&#x200B;*消息描述*&#x200B;部分。
 
    * 最低 SDK 版本：4.2
 
@@ -130,7 +133,7 @@ source-git-commit: 82b3dc38a0325b3aa733b491ddad9b59dbe84eaa
    * 如果报表包已启用时间戳，则 `offlineEnabled` 配置属性&#x200B;*必须*&#x200B;为 true。
    * 如果报表包未启用时间戳，则 `offlineEnabled` 配置属性&#x200B;*必须*&#x200B;为 false。
 
-      如果未正确配置，则数据将丢失。 如果您不确定报表包是否启用时间戳，请与客户服务联系或从Adobe Mobile Services下载配置文件。 如果您当前向某个报表包报告 AppMeasurement 数据，而该报表包也从 JavaScript 收集数据，则您可能需要为移动数据设置一个单独的报表包，或在使用 `s.timestamp` 变量的所有 JavaScript 点击中包含自定义时间戳。
+      如果未正确配置，数据将丢失。如果您不确定报表包是否启用了时间戳，请与客户关怀团队联系或从 Adobe Mobile Services 下载配置文件。如果您当前向某个报表包报告 AppMeasurement 数据，而该报表包也从 JavaScript 收集数据，则您可能需要为移动数据设置一个单独的报表包，或在使用 `s.timestamp` 变量的所有 JavaScript 点击中包含自定义时间戳。
 
    * 最低 SDK 版本：4.0
 
@@ -187,13 +190,13 @@ source-git-commit: 82b3dc38a0325b3aa733b491ddad9b59dbe84eaa
 
       如果您的报表包未启用时间戳，则将丢弃点击，直到隐私状态更改为选择启用。
 
-      这仅设置初始值。 如果在代码中设置或更改了此值，则会使用新值，直到再次进行更改或者卸载并重新安装应用程序为止。默认值为 `optedin`。
+      这仅设置初始值。如果在代码中设置或更改了此值，则会使用新值，直到再次进行更改或者卸载并重新安装应用程序为止。默认值为 `optedin`。
 
    * 最低 SDK 版本：4.0
 
 * **referrerTimeout**
 
-   SDK在初始启动时等待获取推荐人数据的秒数，然后超时。 如果您使用客户获取，我们建议使用5秒超时。
+   首次启动时 SDK 等待客户获取反向链接数据直到超时的时间（以秒为单位）。如果您要使用客户获取，我们建议设置 5 秒的超时。
 
    >[!IMPORTANT]
    >
@@ -213,7 +216,7 @@ source-git-commit: 82b3dc38a0325b3aa733b491ddad9b59dbe84eaa
 
 * **rsids**
 
-   一个或多个用于接收Analytics数据的报表包。 多个报表包ID应以逗号分隔，中间不应有空格。
+   一个或多个用于接收 Analytics 数据的报表包。多个报表包 ID 应以逗号分隔，且中间不应有空格。
 
    ```js
    "rsids": "rsid"
@@ -343,56 +346,56 @@ source-git-commit: 82b3dc38a0325b3aa733b491ddad9b59dbe84eaa
 
 ## 消息描述 {#section_B97D654BA92149CE91F525268D7AD71F}
 
-消息节点由Adobe Mobile Services自动生成，通常不需要手动更改。 提供以下说明用于故障排除：
+消息节点由 Adobe Mobile Services 自动生成，且通常不需要手动更改。下面提供了相应描述，以供进行故障排除：
 
 * &quot;messageId&quot;
 
-   * 生成的ID，必需
+   * 生成的 ID，必需
 
-* “模板”
+* &quot;template&quot;
 
-   * “alert”、“fullscreen”或“local”
+   * &quot;alert&quot;、&quot;fullscreen&quot; 或 &quot;local&quot;
    * 必需
 
-* &quot;有效负荷&quot;
+* &quot;payload&quot;
 
    * &quot;html&quot;
 
       * 仅限全屏模板，必需
-      * 定义消息的html
+      * 用于定义消息的 html
    * &quot;image&quot;
 
       * 仅限全屏，可选
-      * 要用于全屏图像的图像的url
+      * 要用作全屏图像的图像 URL
    * &quot;altImage&quot;
 
       * 仅限全屏，可选
-      * 在
+      * 在 
          `image` 中指定的 url 不可访问时要使用的捆绑图像的名称
-   * “标题”
+   * &quot;title&quot;
 
       * 全屏和警报，必需
       * 全屏或警报消息的标题文本
-   * “内容”
+   * &quot;content&quot;
 
       * 警报和本地通知，必需
-      * 警报消息的子文本或本地通知消息的通知文本
-   * &quot;确认&quot;
+      * 警报消息的次文本或本地通知消息的通知文本
+   * &quot;confirm&quot;
 
       * 警报，可选
       * “确认”按钮中使用的文本
-   * “取消”
+   * &quot;cancel&quot;
 
       * 警报，必需
       * “取消”按钮中使用的文本
    * &quot;url&quot;
 
       * 警报，可选
-      * 单击确认按钮时要加载的url操作
-   * “等待”
+      * 单击“确认”按钮时要加载的 url 操作
+   * &quot;wait&quot;
 
       * 本地通知，必需
-      * 在匹配本地通知标准后等待发布的时间（以秒为单位）
+      * 符合本地通知条件时等待本地通知发布的时间（以秒为单位）
 
 
 
@@ -404,22 +407,22 @@ source-git-commit: 82b3dc38a0325b3aa733b491ddad9b59dbe84eaa
 
 * &quot;showOffline&quot;
 
-   * true或false
-   * default为false
+   * true 或 false
+   * 默认为 false
 
 * &quot;showRule&quot;
 
-   * “always”、“once”或“untilClick”
+   * &quot;always&quot;、&quot;once&quot; 或 &quot;untilClick&quot;
    * 必需
 
 * &quot;endDate&quot;
 
-   * 自1970年1月1日以来的秒数
+   * 自 1970 年 1 月 1 日以来的秒数
    * 默认为 2524730400
 
 * &quot;startDate&quot;
 
-   * 自1970年1月1日以来的秒数
+   * 自 1970 年 1 月 1 日以来的秒数
    * 默认为 0
 
 * &quot;audiences&quot;
@@ -434,24 +437,24 @@ source-git-commit: 82b3dc38a0325b3aa733b491ddad9b59dbe84eaa
 
       进行比较时使用的匹配程序类型：
 
-      * eq =等于
-      * ne =不等于
-      * co =包含
-      * nc =不包含
-      * sw =开始
-      * ew =结尾
-      * ex =存在
-      * nx =不存在
-      * lt =小于
-      * le =小于或等于
-      * gt =大于
-      * ge =大于或等于
+      * eq 表示等于
+      * ne 表示不等于
+      * co 表示包含
+      * nc 表示不包含
+      * sw 表示开头为
+      * ew 表示结尾为
+      * ex 表示存在
+      * nx 表示不存在
+      * lt 表示小于
+      * le 表示小于或等于
+      * gt 表示大于
+      * ge 表示大于或等于
    * &quot;values&quot;
 
       一个用来匹配以下命名的变量值的值数组：
 
       * key
-      * 匹配器类型
+      * with the matcher type in
       * matches
 
 
