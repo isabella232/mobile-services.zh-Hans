@@ -5,10 +5,13 @@ seo-description: 您可以为推送消息定义和配置受众选项，包括日
 seo-title: 受众：为推送消息定义和配置受众区段
 solution: Marketing Cloud,Analytics
 title: 受众：为推送消息定义和配置受众区段
-topic: 量度
+topic: Metrics
 uuid: efd410e7-3b6c-4cf4-a26f-b11688adc491
-translation-type: ht
-source-git-commit: f28ea0db13b8d8f209d7521d1f61f1c290e688aa
+translation-type: tm+mt
+source-git-commit: e6af295ddc5fea2a3e649b659894e6c6123a3457
+workflow-type: tm+mt
+source-wordcount: '1024'
+ht-degree: 69%
 
 ---
 
@@ -19,15 +22,15 @@ source-git-commit: f28ea0db13b8d8f209d7521d1f61f1c290e688aa
 
 ## 定义受众区段 {#section_7C4D2393CF7441959FE2381A02867CAC}
 
-在为推送消息创建受众区段时，该区段可能会涉及来自一个或多个应用程序的用户，这是因为报表包或虚拟报表包可能包含来自一个或多个应用程序的数据。有关虚拟报表包的更多信息，请参阅[虚拟报表包](/help/using/manage-apps/c-mob-vrs.md)。
+当创建用于推送消息的受众区段时，该区段可能涉及来自一个或多个应用程序的用户，因为报表包或虚拟报表包可能包含来自一个或多个应用程序的数据。 For more information about virtual report suites, see [Virtual report suites](/help/using/manage-apps/c-mob-vrs.md).
 
-在 Adobe Mobile Services 中，营销人员只能将消息推送到每个平台的一个应用程序。如果营销人员尝试将消息推送到包含多个应用程序中用户的区段，则会显示一条警告消息，提醒继续操作会导致严重的推送失败，并且用户可能会被加入黑名单。如果遇到推送失败，请参阅“解决推送失败”**（位于[排查推送消息问题](/help/using/in-app-messaging/t-create-push-message/c-schedule-push-message.md)中）。
+在Adobe Mobile Services中，营销人员可能只将每个平台推送到一个应用程序。 如果营销人员尝试推送到包含来自多个应用程序的用户的区段，则会显示一条警告，指出继续操作可能会导致严重的推送失败和可能拒绝列出用户。 如果您遇到推送失败，请参阅解决 *推送消息*[疑难排解中的推送失败](/help/using/in-app-messaging/t-create-push-message/c-schedule-push-message.md)。
 
 要在区段定义中使用 Audience Manager 数据，请参阅[受众分析](https://docs-author-stg.corp.adobe.com/content/help/en/analytics/integration/audience-analytics/mc-audiences-aam.html)。
 
 >[!IMPORTANT]
 >
->如果应用程序用户被列入黑名单，则营销人员再也&#x200B;**不**&#x200B;能向这些受影响的用户发送推送消息。
+>If app users are deny listed, marketers can **never** send push messages to those affected users again.
 
 如果您选择的受众区段包含跨多个应用程序的用户，则可能会看到以下提醒：
 
@@ -39,7 +42,7 @@ source-git-commit: f28ea0db13b8d8f209d7521d1f61f1c290e688aa
 >
 >版本号为可选参数。
 
-最多会删除版本的 6 组数字和捆绑 ID 的 5 组数字。
+版本最多可删除6组数字，捆绑ID最多可删除5组数字。
 
 例如：
 
@@ -48,7 +51,7 @@ source-git-commit: f28ea0db13b8d8f209d7521d1f61f1c290e688aa
 * `Bea[rd]cons 1.2.3.4.5.6.7 (1111)` 将显示为 `Bea[rd]cons .7`
 * `Bea[rd]cons 1.2.3. (1.2.3.4.5.6)` 将显示为 `Bea[rd]cons (.6)`
 
-要继续将推送消息发送到列出的应用程序，请选择&#x200B;**是，我要继续。**&#x200B;复选框，然后单击&#x200B;**[!UICONTROL 发送]**。
+要继续将推送消息发送到列出的应用程序，请选择&#x200B;**[!UICONTROL 是，我要继续。]**&#x200B;复选框，然后单击&#x200B;**[!UICONTROL 发送]**。
 
 ## 最佳实践
 
@@ -59,11 +62,11 @@ source-git-commit: f28ea0db13b8d8f209d7521d1f61f1c290e688aa
 
 ### 示例
 
-以下这些示例可帮助您了解如何正确定义区段：
+以下是帮助您了解如何正确定义区段的一些示例：
 
-**应做事项**：营销人员为一个应用程序（例如 Adobe Photoshop）的 iOS 和 Android 版本提供推送证书。营销人员可能会将推送通知发送到跨两个平台的用户区段。
+**执行**: 营销人员为某个应用程序的iOS和Android版本（例如，Adobe Photoshop）提供推送证书。 营销人员可能会向跨两个平台的用户群发送推送通知。
 
-**勿做事项**：多个营销人员为一个应用程序（例如 Adobe Photoshop）的 iOS 和 Android 版本提供推送证书。如果营销人员创建一个包含“最近 30 天内所有活动用户”**&#x200B;的区段，并将消息推送至该区段，则只有 Adobe Photoshop iOS 和 Android 应用程序的用户才能收到推送消息，且所有的 Adobe Illustrator iOS 和 Android 应用程序用户将被列入黑名单。有关更详细的示例，请参阅“解决推送消息失败”**（位于[排查推送消息问题](/help/using/in-app-messaging/t-create-push-message/c-troubleshooting-push-messaging.md)中）。
+**不要**: 营销人员为iOS和Android版本的一个应用程序（例如，Adobe Photoshop）提供推送证书。 如果营销人员在过去30天内创建 *并推送到所有活动用户的区段*，则只有Adobe Photoshop iOS和Android应用程序的用户会收到推送，并且所有Adobe Illustrator iOS和Android应用程序用户都将被拒绝列出。 有关更详细的信息，请参阅解 *决推送消息故障* ( [Troubleshooting Push Messaging)中的推送消息故障](/help/using/in-app-messaging/t-create-push-message/c-troubleshooting-push-messaging.md)。
 
 ## 配置受众区段 {#section_A92C60885A30421B8150820EC1CCBF13}
 
@@ -75,7 +78,7 @@ source-git-commit: f28ea0db13b8d8f209d7521d1f61f1c290e688aa
 
    * **[!UICONTROL 预计的选择启用受众]**&#x200B;是指与 Adobe Analytics 区段匹配的设备数量&#x200B;**和**&#x200B;选择启用的设备数量。
 
-      您可以查看选定区段内选择接收消息并将接收推送消息的预计用户数量。应用程序用户的总数量显示低于预期，无论其选择启用状态如何。
+      您可以视图选定区段中已选择接收消息并将接收推送消息的用户数估计。 无论选择加入状态如何，应用程序用户总数均显示在估计值下方。
 
    * **[!UICONTROL 合计]**&#x200B;是与 Adobe Analytics 区段匹配的设备数量。
 
