@@ -4,10 +4,13 @@ seo-description: 此信息可帮助您使用 ADBMobile.json 配置文件。
 seo-title: ADBMobile JSON 配置
 solution: Marketing Cloud,Analytics
 title: ADBMobile JSON 配置
-topic: 开发人员和实施
+topic: Developer and implementation
 uuid: 1decf605-7bc3-4e73-ad52-1ecd5821599e
-translation-type: ht
-source-git-commit: 19264af3f4a675add6f61c27f4cdaf20033b9bb7
+translation-type: tm+mt
+source-git-commit: e6af295ddc5fea2a3e649b659894e6c6123a3457
+workflow-type: tm+mt
+source-wordcount: '1679'
+ht-degree: 92%
 
 ---
 
@@ -31,6 +34,7 @@ source-git-commit: 19264af3f4a675add6f61c27f4cdaf20033b9bb7
    * 启用移动设备应用程序客户获取。
       * `server`，首次启动时在其中检查客户获取反向链接的客户获取服务器。
       * `appid`，客户获取服务器上生成的唯一标识此应用程序的 ID。
+
    如果缺少此部分，请启用移动设备应用程序客户获取并再次下载 SDK 配置文件。有关更多信息，请参阅此变量列表中的 *referrerTimeout*。
 
 * **analyticsForwardingEnabled**
@@ -43,13 +47,13 @@ source-git-commit: 19264af3f4a675add6f61c27f4cdaf20033b9bb7
    * 最低 SDK 版本：4.6。
    * 启用/禁用 Adobe SDK 回溯会话信息点击量的功能。
 
-      会话信息点击量当前包含崩溃次数和会话时长，可以启用或者禁用该功能。
+      会话信息点击量当前由崩溃次数和会话时长组成，可以启用或禁用。
 
-      **启用或禁用点击量**
+      **启用或禁用点击**
 
-      * 如果将该值设置为 `false`，则&#x200B;**禁用**&#x200B;点击量。SDK 会返回其 4.1 版本之前的行为，即同时包含上一个会话的会话信息和后续会话的第一次点击信息。Adobe SDK 还会将会话信息附加到当前生命周期，这可避免创建过多的访问。因为不再创建过多的访问，访问计数会立即减少。
+      * 如果将该值设置为 `false`，则&#x200B;**禁用**&#x200B;点击量。SDK 将返回到 4.1 版本之前的行为，即，将上一个会话的会话信息与后续会话的第一次点击进行归并。Adobe SDK 还会将会话信息附加到当前生命周期中，以避免造成访问次数夸大。由于访问次数不会再夸大，访问计数会立即下降。
 
-      * 如果不提供值，则默认值为 `true`，并&#x200B;**启用**&#x200B;点击量。启用点击量后，Adobe SDK 会将会话信息点击回溯到上一个会话最终点击后 1 秒钟。这意味着崩溃和会话数据将与它们所发生的正确日期相关联。一个不利影响是，SDK 可能会为回溯的点击创建一次访问。每次新启动应用程序时都会有一个回溯的点击。
+      * 如果不提供值，则默认值为 `true`，并&#x200B;**启用**&#x200B;点击量。启用点击量后，Adobe SDK 会将会话信息点击量对应的时间回溯到上一个会话中最后一次点击后的 1 秒。这意味着崩溃数据和会话数据将与正确的日期（即崩溃和会话发生的日期）相关联。但同时存在一个副作用，即 SDK 可能会为回溯的点击创建一次访问。每次新启动应用程序时都会有一个回溯的点击。
 
          >[!IMPORTANT]
          >
@@ -59,7 +63,7 @@ source-git-commit: 19264af3f4a675add6f61c27f4cdaf20033b9bb7
    * 最低 SDK 版本：4.1
    * 在连续调用中发送的点击量的阈值。
 
-      例如，如果将 `batchLimit` 设置为 10，则第 10 次点击之前的每次点击都将存储在队列中。当第 10 次点击进入时，将连续发送所有 10 次点击。
+      例如，如果将 `batchLimit` 设置为 10，则第 10 次点击之前的每次点击都将存储在队列中。当第10次点击进入时，将连续发送所有10次点击。
 
       请牢记以下信息：
 
@@ -85,7 +89,8 @@ source-git-commit: 19264af3f4a675add6f61c27f4cdaf20033b9bb7
    * `marketingCloud` 对象的布尔属性，将该属性设置为 `true` 后，会导致设备退出 Experience Cloud 设备协作。
    * 默认值为 `false`。
    * 这项设置&#x200B;**仅**&#x200B;适用于已配置设备协作的客户。
-   对于要求将该值设置为 `true` 的设备协作成员，您需要与相应的协作团队合作，以申请关于您的设备协作帐户上的黑名单标记。不存在启用这些标记的自助途径。
+
+   For Device Co-op members who require this value set to `true`, you need to work with the Co-op team to request a deny list flag on your Device Co-op account. 不存在启用这些标记的自助途径。
 
    请牢记以下信息：
 
@@ -103,14 +108,14 @@ source-git-commit: 19264af3f4a675add6f61c27f4cdaf20033b9bb7
    * 最低 SDK 版本：4.0
    * 默认值为 300 秒。
 
-      指定应用程序启动（但在启动被视为新会话之前）必须间隔的时长（以秒为单位）。此超时也适用于应用程序被发送到后台后又重新启用的情况。
+      指定从应用程序启动到将该启动视为新会话之前必须经过的时间（以秒为单位）。此超时也适用于应用程序被发送到后台后又重新启用的情况。
 
-      会话时间长度不包括应用程序在后台中运行的时间。
+      应用程序在后台所用的时间不包括在会话时长中。
 
 * **messages**
 
    * 最低 SDK 版本：4.2
-   * 由 Adobe Mobile Services 自动生成，定义应用程序内消息传送的设置。有关更多信息，请参阅下面的&#x200B;*消息描述*&#x200B;部分。
+   * 由 Adobe Mobile Services 自动生成，用于定义应用程序内消息传递的设置。有关更多信息，请参阅下面的&#x200B;*消息描述*&#x200B;部分。
 
 * **offlineEnabled**
 
@@ -125,7 +130,7 @@ source-git-commit: 19264af3f4a675add6f61c27f4cdaf20033b9bb7
       >
       >如果报表包已启用时间戳，则 `offlineEnabled` 配置属性&#x200B;**必须**&#x200B;为 true。如果报表包未启用时间戳，则 `offlineEnabled` 配置属性&#x200B;**必须**&#x200B;为 false。
       >
-      >如果配置不正确，数据将会丢失。如果您不确定报表包是否已启用时间戳，请联系客户关怀团队或从 Adobe Mobile Services 下载配置文件。
+      >如果未正确配置，数据将丢失。如果您不确定报表包是否启用时间戳，请与客户服务联系或从Adobe Mobile Services下载配置文件。
 
       如果您当前向某个报表包报告 AppMeasurement 数据，而该报表包也从 JavaScript 收集数据，则您可能需要为移动数据设置一个单独的报表包，或在使用 `s.timestamp` 变量的所有 JavaScript 点击中包含自定义时间戳。
 
@@ -176,12 +181,13 @@ source-git-commit: 19264af3f4a675add6f61c27f4cdaf20033b9bb7
       * 如果为 `optedin`，将会立即发送点击。
       * 如果为 `optedout`，将会丢弃点击。
       * 如果为 `optunknown`，当您的报表包启用了时间戳时，将会保存点击，直到隐私状态更改为选择启用（发送点击）或选择禁用（丢弃点击）。
+
       如果您的报表包未启用时间戳，则将丢弃点击，直到隐私状态更改为 `optedin`。这仅设置初始值。如果在代码中设置或更改了此值，则会使用新值，直到再次进行更改或者卸载并重新安装应用程序为止。
 
 
 * **referrerTimeout**
    * 最低 SDK 版本：4.1
-   * SDK 在首次启动时等待客户获取反向链接数据多少秒才被视为超时。如果您使用客户获取，我们建议采用 5 秒超时。
+   * 首次启动时 SDK 等待客户获取反向链接数据直到超时的时间（以秒为单位）。如果您要使用客户获取，我们建议设置 5 秒的超时。
 
       >[!IMPORTANT]
       >
@@ -197,7 +203,7 @@ source-git-commit: 19264af3f4a675add6f61c27f4cdaf20033b9bb7
 
 * **rsids**
    * 最低 SDK 版本：4.0
-   * 一个或多个用于接收 Analytics 数据的报表包。多个报表包 ID 应当以逗号分隔，且彼此之间没有空格。
+   * 一个或多个用于接收 Analytics 数据的报表包。多个报表包 ID 应以逗号分隔，且中间不应有空格。
 
       ```javascript
         "rsids" "rsid"
@@ -307,88 +313,88 @@ source-git-commit: 19264af3f4a675add6f61c27f4cdaf20033b9bb7
 
 ## 消息描述 {#section_B97D654BA92149CE91F525268D7AD71F}
 
-消息节点由 Adobe Mobile Services 自动生成，通常不需要手动更改。下面提供的描述仅供疑难解答之用：
+消息节点由 Adobe Mobile Services 自动生成，且通常不需要手动更改。下面提供了相应描述，以供进行故障排除：
 
-* "messageId"
+* &quot;messageId&quot;
 * 生成的 ID，必需
-* "template"
-   * "alert"、"fullscreen" 或 "local"
+* &quot;template&quot;
+   * &quot;alert&quot;、&quot;fullscreen&quot; 或 &quot;local&quot;
    * 必需
 
-* "showOffline"
+* &quot;showOffline&quot;
    * true 或 false
    * 默认为 false
 
-* "showRule"
-   * "always"、"once" 或 "untilClick"
+* &quot;showRule&quot;
+   * &quot;always&quot;、&quot;once&quot; 或 &quot;untilClick&quot;
    * 必需
 
-* "endDate"
+* &quot;endDate&quot;
    * 自 1970 年 1 月 1 日以来的秒数
    * 默认为 2524730400
 
-* "startDate"
+* &quot;startDate&quot;
    * 自 1970 年 1 月 1 日以来的秒数
    * 默认为 0
 
-* "payload"
-   * "html"
-      * 仅全屏模板，必需
-      * 定义消息的 html
-   * "image"
-      * 仅全屏，可选
-      * 用于全屏图像的图像 url
-   * "altImage"
-      * 仅全屏，可选
-      * 当
+* &quot;payload&quot;
+   * &quot;html&quot;
+      * 仅限全屏模板，必需
+      * 用于定义消息的 html
+   * &quot;image&quot;
+      * 仅限全屏，可选
+      * 要用作全屏图像的图像 URL
+   * &quot;altImage&quot;
+      * 仅限全屏，可选
+      * 在 
          * image
          * 中指定的 url 不可访问时要使用的捆绑图像的名称
-   * "title"
+   * &quot;title&quot;
       * 全屏和警报，必需
       * 全屏或警报消息的标题文本
-   * "content"
+   * &quot;content&quot;
       * 警报和本地通知，必需
-      * 警报消息的子文本，或本地通知消息的通知文本
-   * "confirm"
+      * 警报消息的次文本或本地通知消息的通知文本
+   * &quot;confirm&quot;
       * 警报，可选
-      * 确认按钮中使用的文本
-   * "cancel"
+      * “确认”按钮中使用的文本
+   * &quot;cancel&quot;
       * 警报，必需
-      * 取消按钮中使用的文本
-   * "url"
+      * “取消”按钮中使用的文本
+   * &quot;url&quot;
       * 警报，可选
-      * 单击确认按钮时要加载的 url 操作
-   * "wait"
+      * 单击“确认”按钮时要加载的 url 操作
+   * &quot;wait&quot;
       * 本地通知，必需
-      * 等待符合条件后发布本地通知的时间（以秒为单位）
+      * 符合本地通知条件时等待本地通知发布的时间（以秒为单位）
 
 
 
-* "audiences"
-   * 定义消息应如何显示的对象数组
-   * "key"
+* &quot;audiences&quot;
+   * 定义如何显示消息的对象数组
+   * &quot;key&quot;
       * 要在点击中查找的变量名称，必需
-* "matches"
-   * 进行比较时使用的匹配符类型
-   * eq = 等于
-   * ne = 不等于
-   * co = 包含
-   * nc = 不包含
-   * sw = 开始于
-   * ew = 结束于
-   * ex = 存在
-   * nx = 不存在
-   * lt = 小于
-   * le = 小于或等于
-   * gt = 大于
-   * ge = 大于或等于
-* "values"
-   * 一个值数组，用于匹配在
+* &quot;matches&quot;
+   * 进行比较时使用的匹配器类型
+   * eq 表示等于
+   * ne 表示不等于
+   * co 表示包含
+   * nc 表示不包含
+   * sw 表示开头为
+   * ew 表示结尾为
+   * ex 表示存在
+   * nx 表示不存在
+   * lt 表示小于
+   * le 表示小于或等于
+   * gt 表示大于
+   * ge 表示大于或等于
+* &quot;values&quot;
+   * 用于与名为
       * key
-      * 中命名的变量值，匹配符类型位于
+      * with the matcher type in
       * matches
-* "triggers"
-   * 与 audiences 相同，但这是操作而不是受众
-   * "key"
-   * "matches"
-   * "values"
+* &quot;triggers&quot;
+   * 和受众一样，但这是动作而不是受众
+   * &quot;key&quot;
+   * &quot;matches&quot;
+   * &quot;values&quot;
