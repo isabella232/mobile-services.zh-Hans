@@ -5,10 +5,13 @@ seo-description: 您可以查看应用程序内消息和推送消息的消息报
 seo-title: 查看消息报表
 solution: Marketing Cloud,Analytics
 title: 查看消息报表
-topic: 量度
+topic: Metrics
 uuid: 0ac73a81-388f-4dfd-84d5-21b8db4b8c83
-translation-type: ht
-source-git-commit: 44f531ad140827d563255fad197811185c5337c9
+translation-type: tm+mt
+source-git-commit: e6af295ddc5fea2a3e649b659894e6c6123a3457
+workflow-type: tm+mt
+source-wordcount: '493'
+ht-degree: 78%
 
 ---
 
@@ -17,7 +20,7 @@ source-git-commit: 44f531ad140827d563255fad197811185c5337c9
 
 您可以查看应用程序内消息和推送消息的消息报表。
 
-1. 单击某个消息&#x200B;**[!UICONTROL 报表]**&#x200B;列中的 ![报表图标](assets/icon_report.png)。
+1. 单击某个消息![报表](assets/icon_report.png)列中的 **[!UICONTROL 报表图标]**。
 1. （**可选**）为报表创建置顶过滤器，或通过单击&#x200B;**[!UICONTROL 日历]**&#x200B;图标来更改时间段。
 
    有关创建置顶过滤器的更多信息，请参阅[添加置顶过滤器](/help/using/usage/reports-customize/t-sticky-filter.md)。
@@ -69,7 +72,7 @@ source-git-commit: 44f531ad140827d563255fad197811185c5337c9
    * **[!UICONTROL 正在执行]**
    * **[!UICONTROL 已执行]**
 
-* **[!UICONTROL 已发布]**
+* **[!UICONTROL Published]**
 
    成功发送到 Apple 推送通知服务/Firebase Cloud Messaging (APNS/FCM) 以将消息发送到用户设备的设备令牌数量。
 
@@ -79,13 +82,13 @@ source-git-commit: 44f531ad140827d563255fad197811185c5337c9
 
    * pushID 无效
 
-   * 给定的用来接收令牌的推送平台（APNS、FCM 等）不具备可执行此任务的相应设置。例如，此平台可收集 iOS 推送令牌但并未配置 APNS 服务。
+   * 给定的用来接收令牌的推送平台（APNS、FCM 等）不具备可执行此任务的相应设置。例如，该平台可能会收集iOS推送令牌，但未配置APNS服务。
 
-   * 消息可能会因为推送服务配置错误或 Mobile Services 系统关闭而推送失败。
+   * 由于推送服务配置不正确或Mobile Services系统关闭，消息可能已失败。
    >[!IMPORTANT]
    >
-   >如果您遇到了异乎寻常的大量失败，请检查您的推送服务配置。如果推送服务看似配置正确，请联系 Adobe 客户关怀。
+   >如果出现异常多的故障，请检查您的推送服务配置。 如果推送服务配置正确，请与Adobe客户服务部门联系。
 
 * **[!UICONTROL 已列入黑名单]**
 
-   不能再被发送到 APNS 或 FCM 的设备令牌数量。这通常意味着该应用程序已从设备中卸载，或用户更改了用来接收消息的选择启用设置。对于在何时将令牌计入黑名单，Android 和 iOS 存在不同。Android 令牌会立即在列入黑名单的计数中显示。iOS 令牌最初会显示为已发布，但随后会根据来自 APNS 的反馈在后续消息中显示为已列入黑名单。
+   不能再被发送到 APNS 或 FCM 的设备令牌数量。这通常意味着该应用程序已从设备中卸载，或用户更改了用来接收消息的选择启用设置。Android和iOS在将令牌计为拒绝列出的时间上有所不同。 Android令牌会立即显示在拒绝列表计数中。 iOS令牌最初显示为已发布，但根据APNS的反馈，在后续消息中显示为拒绝。
