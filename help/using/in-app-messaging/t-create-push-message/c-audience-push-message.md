@@ -8,9 +8,9 @@ title: 受众：为推送消息定义和配置受众区段
 topic: Metrics
 uuid: efd410e7-3b6c-4cf4-a26f-b11688adc491
 translation-type: tm+mt
-source-git-commit: e6af295ddc5fea2a3e649b659894e6c6123a3457
+source-git-commit: 86ba045b44bf6553e80727c0d61ccdd9a552d16c
 workflow-type: tm+mt
-source-wordcount: '1024'
+source-wordcount: '1021'
 ht-degree: 69%
 
 ---
@@ -24,13 +24,13 @@ ht-degree: 69%
 
 当创建用于推送消息的受众区段时，该区段可能涉及来自一个或多个应用程序的用户，因为报表包或虚拟报表包可能包含来自一个或多个应用程序的数据。 For more information about virtual report suites, see [Virtual report suites](/help/using/manage-apps/c-mob-vrs.md).
 
-在Adobe Mobile Services中，营销人员可能只将每个平台推送到一个应用程序。 如果营销人员尝试推送到包含来自多个应用程序的用户的区段，则会显示一条警告，指出继续操作可能会导致严重的推送失败和可能拒绝列出用户。 如果您遇到推送失败，请参阅解决 *推送消息*[疑难排解中的推送失败](/help/using/in-app-messaging/t-create-push-message/c-schedule-push-message.md)。
+在Adobe Mobile Services中，营销人员可能只将每个平台推送到一个应用程序。 如果营销人员尝试推送到包含来自多个应用程序的用户的细分，则会显示一条警告，指出继续操作可能会导致严重的推送失败和潜在的用户阻止列表。 如果您遇到推送失败，请参阅解决 *推送消息*[疑难排解中的推送失败](/help/using/in-app-messaging/t-create-push-message/c-schedule-push-message.md)。
 
 要在区段定义中使用 Audience Manager 数据，请参阅[受众分析](https://docs-author-stg.corp.adobe.com/content/help/en/analytics/integration/audience-analytics/mc-audiences-aam.html)。
 
 >[!IMPORTANT]
 >
->If app users are deny listed, marketers can **never** send push messages to those affected users again.
+>If app users are blocklisted, marketers can **never** send push messages to those affected users again.
 
 如果您选择的受众区段包含跨多个应用程序的用户，则可能会看到以下提醒：
 
@@ -66,7 +66,7 @@ ht-degree: 69%
 
 **执行**: 营销人员为某个应用程序的iOS和Android版本（例如，Adobe Photoshop）提供推送证书。 营销人员可能会向跨两个平台的用户群发送推送通知。
 
-**不要**: 营销人员为iOS和Android版本的一个应用程序（例如，Adobe Photoshop）提供推送证书。 如果营销人员在过去30天内创建 *并推送到所有活动用户的区段*，则只有Adobe Photoshop iOS和Android应用程序的用户会收到推送，并且所有Adobe Illustrator iOS和Android应用程序用户都将被拒绝列出。 有关更详细的信息，请参阅解 *决推送消息故障* ( [Troubleshooting Push Messaging)中的推送消息故障](/help/using/in-app-messaging/t-create-push-message/c-troubleshooting-push-messaging.md)。
+**不要**: 营销人员为iOS和Android版本的一个应用程序（例如，Adobe Photoshop）提供推送证书。 如果营销人员在过去30天内创 *建并推送到所有活动用户的区段*，则只有Adobe Photoshop iOS和Android应用程序的用户会收到推送，并且所有Adobe Illustrator iOS和Android应用程序用户都将被阻止列出。 有关更详细的信息，请参阅解 *决推送消息故障* ( [Troubleshooting Push Messaging)中的推送消息故障](/help/using/in-app-messaging/t-create-push-message/c-troubleshooting-push-messaging.md)。
 
 ## 配置受众区段 {#section_A92C60885A30421B8150820EC1CCBF13}
 
