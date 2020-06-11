@@ -5,9 +5,9 @@ seo-title: Experience Cloud 设备协作
 title: Experience Cloud 设备协作
 uuid: 7bb8a19c-4b80-4911-879d-f9941baa3b62
 translation-type: tm+mt
-source-git-commit: e6af295ddc5fea2a3e649b659894e6c6123a3457
+source-git-commit: 86ba045b44bf6553e80727c0d61ccdd9a552d16c
 workflow-type: tm+mt
-source-wordcount: '291'
+source-wordcount: '290'
 ht-degree: 90%
 
 ---
@@ -44,7 +44,7 @@ ht-degree: 90%
 * 默认值为 `false`。
 * 这项设置&#x200B;**仅**&#x200B;适用于已配置设备协作的客户。
 
-For Device Co-op members who require this value set to `true`, you need to work with the Co-op team to request a deny list flag on your Device Co-op account. 不存在启用这些标记的自助途径。
+For Device Co-op members who require this value set to `true`, you need to work with the Co-op team to request a blocklist flag on your Device Co-op account. 不存在启用这些标记的自助途径。
 
 请牢记以下信息：
 
