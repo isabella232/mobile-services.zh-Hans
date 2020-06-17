@@ -8,9 +8,9 @@ title: 查看消息报表
 topic: Metrics
 uuid: 0ac73a81-388f-4dfd-84d5-21b8db4b8c83
 translation-type: tm+mt
-source-git-commit: 33297c9e6537f664222c91a44c20bb9ab2ee310a
+source-git-commit: 3b6edc10d042658ef1ca17a203877b7ee09d999d
 workflow-type: tm+mt
-source-wordcount: '493'
+source-wordcount: '490'
 ht-degree: 78%
 
 ---
@@ -89,6 +89,6 @@ ht-degree: 78%
    >
    >如果出现异常多的故障，请检查您的推送服务配置。 如果推送服务配置正确，请与Adobe客户服务部门联系。
 
-* **[!UICONTROL 拒绝列表]**
+* **[!UICONTROL 块列出]**
 
-   不能再被发送到 APNS 或 FCM 的设备令牌数量。这通常意味着该应用程序已从设备中卸载，或用户更改了用来接收消息的选择启用设置。Android和iOS在将令牌计为块列出的时间上有所不同。 Android令牌会立即显示在拒绝列表（块列表）计数中。 iOS令牌最初显示为已发布，但根据APNS的反馈，在后续消息中显示为块。
+   不能再被发送到 APNS 或 FCM 的设备令牌数量。这通常意味着该应用程序已从设备中卸载，或用户更改了用来接收消息的选择启用设置。Android和iOS在将令牌计为块列出的时间上有所不同。 Android令牌会立即显示在块列表计数中。 iOS令牌最初显示为已发布，但根据APNS的反馈，在后续消息中显示为块。
