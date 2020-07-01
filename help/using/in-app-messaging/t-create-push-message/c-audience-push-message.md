@@ -11,7 +11,7 @@ translation-type: tm+mt
 source-git-commit: 86ba045b44bf6553e80727c0d61ccdd9a552d16c
 workflow-type: tm+mt
 source-wordcount: '1021'
-ht-degree: 69%
+ht-degree: 90%
 
 ---
 
@@ -22,9 +22,9 @@ ht-degree: 69%
 
 ## 定义受众区段 {#section_7C4D2393CF7441959FE2381A02867CAC}
 
-当创建用于推送消息的受众区段时，该区段可能涉及来自一个或多个应用程序的用户，因为报表包或虚拟报表包可能包含来自一个或多个应用程序的数据。 For more information about virtual report suites, see [Virtual report suites](/help/using/manage-apps/c-mob-vrs.md).
+当创建用于推送消息的受众区段时，该区段可能涉及来自一个或多个应用程序的用户，因为报表包或虚拟报表包可能包含来自一个或多个应用程序的数据。有关虚拟报表包的更多信息，请参阅[虚拟报表包](/help/using/manage-apps/c-mob-vrs.md)。
 
-在Adobe Mobile Services中，营销人员可能只将每个平台推送到一个应用程序。 如果营销人员尝试推送到包含来自多个应用程序的用户的细分，则会显示一条警告，指出继续操作可能会导致严重的推送失败和潜在的用户阻止列表。 如果您遇到推送失败，请参阅解决 *推送消息*[疑难排解中的推送失败](/help/using/in-app-messaging/t-create-push-message/c-schedule-push-message.md)。
+在 Adobe Mobile Services 中，营销人员可能只将消息推送到每个平台的一个应用程序。如果营销人员尝试推送到包含来自多个应用程序的用户的区段，则会显示一条警告，指出继续操作可能会导致严重的推送失败，并可能导列入阻止列表致用户的。 如果您遇到推送故障，请参阅[排查推送消息问题](/help/using/in-app-messaging/t-create-push-message/c-schedule-push-message.md)中的&#x200B;*解决推送消息失败问题*。
 
 要在区段定义中使用 Audience Manager 数据，请参阅[受众分析](https://docs-author-stg.corp.adobe.com/content/help/en/analytics/integration/audience-analytics/mc-audiences-aam.html)。
 
@@ -42,7 +42,7 @@ ht-degree: 69%
 >
 >版本号为可选参数。
 
-版本最多可删除6组数字，捆绑ID最多可删除5组数字。
+最多会删除版本的 6 组编号和包 ID 的 5 组编号。
 
 例如：
 
@@ -62,11 +62,11 @@ ht-degree: 69%
 
 ### 示例
 
-以下是帮助您了解如何正确定义区段的一些示例：
+以下是有助于您了解如何正确定义区段的一些示例：
 
-**执行**: 营销人员为某个应用程序的iOS和Android版本（例如，Adobe Photoshop）提供推送证书。 营销人员可能会向跨两个平台的用户群发送推送通知。
+**可以做**：营销人员为某个应用程序（例如，Adobe Photoshop）的 iOS 和 Android 版本提供推送证书。营销人员可能会向跨两个平台的用户区段发送推送通知。
 
-**不要**: 营销人员为iOS和Android版本的一个应用程序（例如，Adobe Photoshop）提供推送证书。 如果营销人员在过去30天内创 *建并推送到所有活动用户的区段*，则只有Adobe Photoshop iOS和Android应用程序的用户会收到推送，并且所有Adobe Illustrator iOS和Android应用程序用户都将被阻止列出。 有关更详细的信息，请参阅解 *决推送消息故障* ( [Troubleshooting Push Messaging)中的推送消息故障](/help/using/in-app-messaging/t-create-push-message/c-troubleshooting-push-messaging.md)。
+**不可以做**：营销人员为某个应用程序（例如，Adobe Photoshop）的 iOS 和 Android 版本提供推送证书。If the marketer creates and pushes to a segment of *all active users in the last 30 days*, only the users of the Adobe Photoshop iOS and Android app receive the push, and all of the Adobe Illustrator iOS and Android app users will be blocklisted. 有关更多详细示例，请参阅[排查推送消息问题](/help/using/in-app-messaging/t-create-push-message/c-troubleshooting-push-messaging.md)中的&#x200B;*解决推送消息失败问题*。
 
 ## 配置受众区段 {#section_A92C60885A30421B8150820EC1CCBF13}
 
@@ -78,7 +78,7 @@ ht-degree: 69%
 
    * **[!UICONTROL 预计的选择启用受众]**&#x200B;是指与 Adobe Analytics 区段匹配的设备数量&#x200B;**和**&#x200B;选择启用的设备数量。
 
-      您可以视图选定区段中已选择接收消息并将接收推送消息的用户数估计。 无论选择加入状态如何，应用程序用户总数均显示在估计值下方。
+      您可以查看选定区段中已选择接收消息并将收到推送消息的用户预计数量。无论选择启用状态如何，应用程序用户总数都会显示在预计数量下方。
 
    * **[!UICONTROL 合计]**&#x200B;是与 Adobe Analytics 区段匹配的设备数量。
 
