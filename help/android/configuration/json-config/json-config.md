@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 86ba045b44bf6553e80727c0d61ccdd9a552d16c
 workflow-type: tm+mt
 source-wordcount: '1678'
-ht-degree: 92%
+ht-degree: 98%
 
 ---
 
@@ -63,7 +63,7 @@ ht-degree: 92%
    * 最低 SDK 版本：4.1
    * 在连续调用中发送的点击量的阈值。
 
-      例如，如果将 `batchLimit` 设置为 10，则第 10 次点击之前的每次点击都将存储在队列中。当第10次点击进入时，将连续发送所有10次点击。
+      例如，如果将 `batchLimit` 设置为 10，则第 10 次点击之前的每次点击都将存储在队列中。当第 10 次点击进入时，将连续发送所有 10 次点击。
 
       请牢记以下信息：
 
@@ -130,7 +130,7 @@ ht-degree: 92%
       >
       >如果报表包已启用时间戳，则 `offlineEnabled` 配置属性&#x200B;**必须**&#x200B;为 true。如果报表包未启用时间戳，则 `offlineEnabled` 配置属性&#x200B;**必须**&#x200B;为 false。
       >
-      >如果未正确配置，数据将丢失。如果您不确定报表包是否启用时间戳，请与客户服务联系或从Adobe Mobile Services下载配置文件。
+      >如果未正确配置，数据将丢失。如果您不确定报表包是否启用了时间戳，请与客户关怀团队联系或从 Adobe Mobile Services 下载配置文件。
 
       如果您当前向某个报表包报告 AppMeasurement 数据，而该报表包也从 JavaScript 收集数据，则您可能需要为移动数据设置一个单独的报表包，或在使用 `s.timestamp` 变量的所有 JavaScript 点击中包含自定义时间戳。
 
@@ -371,11 +371,11 @@ ht-degree: 92%
 
 
 * &quot;audiences&quot;
-   * 定义如何显示消息的对象数组
+   * 用来定义消息显示方式的对象数组
    * &quot;key&quot;
       * 要在点击中查找的变量名称，必需
 * &quot;matches&quot;
-   * 进行比较时使用的匹配器类型
+   * 进行比较时使用的匹配程序类型
    * eq 表示等于
    * ne 表示不等于
    * co 表示包含
@@ -389,12 +389,12 @@ ht-degree: 92%
    * gt 表示大于
    * ge 表示大于或等于
 * &quot;values&quot;
-   * 用于与名为
+   * 一个用来匹配以下命名的变量值的值数组：
       * key
       * with the matcher type in
       * matches
 * &quot;triggers&quot;
-   * 和受众一样，但这是动作而不是受众
+   * 与受众相同，不过，它是指操作而非受众
    * &quot;key&quot;
    * &quot;matches&quot;
    * &quot;values&quot;
