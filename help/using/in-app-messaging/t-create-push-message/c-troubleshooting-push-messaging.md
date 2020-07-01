@@ -11,7 +11,7 @@ translation-type: tm+mt
 source-git-commit: 86ba045b44bf6553e80727c0d61ccdd9a552d16c
 workflow-type: tm+mt
 source-wordcount: '735'
-ht-degree: 59%
+ht-degree: 91%
 
 ---
 
@@ -28,11 +28,11 @@ ht-degree: 59%
 
    每个报表包都有一个设置来确定何时处理传入的 Analytics 点击。默认每 1 小时处理一次点击。
 
-   对 Analytics 点击的实际处理可能最多需要 30 分钟，但通常为 15 到 20 分钟。例如，报表包每小时处理一次点击。 如果将所需的处理时间（最大为30分钟）计算在内，则传入的点击最多可能需要90分钟才能用于推送消息。 如果用户在上午 9:01 启动应用程序，则该点击将在上午 10:15 到 10:30 期间在 Mobile Services UI 中显示为新的独特用户。
+   对 Analytics 点击的实际处理可能最多需要 30 分钟，但通常为 15 到 20 分钟。例如，报表包会每小时处理一次点击。如果将所需的处理时间（最长为 30 分钟）计算在内，则传入的点击最多可能需要 90 分钟才能用于推送消息。如果用户在上午 9:01 启动应用程序，则该点击将在上午 10:15 到 10:30 期间在 Mobile Services UI 中显示为新的独特用户。
 
 * **等待推送服务**
 
-   推送服务（APNS或GCM）可能不会立即发出消息。 虽然不常见，但会出现等待时间长达 5-10 分钟的情况。您可以验证推送消息是否已发送到推送服务，方法是查看推送消息的&#x200B;**[!UICONTROL 报表]**&#x200B;视图，在&#x200B;**[!UICONTROL 消息历史记录]**&#x200B;表中找到该消息，然后查看&#x200B;**[!UICONTROL 已发布]**&#x200B;计数。
+   推送服务（APNS 或 GCM）可能不会立即发出消息。虽然不常见，但会出现等待时间长达 5-10 分钟的情况。您可以验证推送消息是否已发送到推送服务，方法是查看推送消息的&#x200B;**[!UICONTROL 报表]**&#x200B;视图，在&#x200B;**[!UICONTROL 消息历史记录]**&#x200B;表中找到该消息，然后查看&#x200B;**[!UICONTROL 已发布]**&#x200B;计数。
 
    >[!TIP]
    >
@@ -43,18 +43,18 @@ ht-degree: 59%
    * [服务的质量](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/APNSOverview.html#//apple_ref/doc/uid/TP40008194-CH8-SW5l)
    * [消息的生命周期](https://developers.google.com/cloud-messaging/concept-options#lifetime)。
 
-## 为什么我的Android GCM API密钥无效？
+## 为什么我的 Android GCM API 密钥无效？
 
-* **API密钥无效**
+* **API 密钥无效**
 
-   您的API密钥可能无效，原因如下：
+   您的 API 密钥可能由于以下原因而无效：
 
-   * 您提供的API密钥不是具有正确GCM API密钥值的服务器密钥。
-   * 服务器密钥已允许IP，并阻止Adobe服务器发送推送消息。
+   * 您提供的 API 密钥不是具有正确 GCM API 密钥值的服务器密钥。
+   * 服务器密钥已允许 IP，但却阻止 Adobe 服务器发送推送消息。
 
-* **确定API密钥的有效性**
+* **确定 API 密钥的有效性**
 
-   要确定API密钥的有效性，请运行以下命令：
+   要确定您的 API 密钥的有效性，请运行以下命令：
 
    **Android**
 
@@ -66,7 +66,7 @@ ht-degree: 59%
        -d"{\"registration_ids\":[\"ABC\"]}"
    ```
 
-   返回的401 HTTP状态代码表示您的API密钥无效。 否则，您将看到类似的内容：
+   若返回 401 HTTP 状态代码，则表示您的 API 密钥无效。否则，您将看到类似以下的内容：
 
    ```java
    {"multicast_id":6782339717028231855,"success":0,"failure":1,
@@ -77,26 +77,26 @@ ht-degree: 59%
 
 ## 为何我的 APNS 证书无效？
 
-您的APNS证书可能无效，原因如下：
+您的 APNS 证书可能由于以下原因而无效：
 
-* 您可能使用沙箱证书而不是生产证书。
-* 您使用的是不受支持的新生产／沙箱证书。
+* 您可能使用的是沙盒证书，而不是生产证书。
+* 您使用的是不受支持的新生产/沙盒证书。
 * 您使用的是 `.p8` 文件而不是 `.p12` 文件。
 
 ## 解决推送消息失败问题
 
 **示例**
 
-以下示例说明了在使用VRS时如何解决推送故障。
+以下示例说明了在使用 VRS 时如何解决推送故障。
 
-以下客户有两个iOS应用程序：
+以下客户拥有两个 iOS 应用程序：
 
-* 应用程序名称： PhotoShop_app_iOS
-   * 父RSID: 所有Adobe PhotoShop_apps
-   * VRSID: PhotoShop_iOS_app_SF
+* 应用程序名称：PhotoShop_app_iOS
+   * 父 RSID：AllAdobe PhotoShop_apps
+   * VRSID：PhotoShop_iOS_app_SF
    * VRSID 定义区段：`a.appid contains “PhotoShop_iOS_app_SF”`
-* 应用程序名称： PhotoShop_app_iOS
-   * 父RSID: 所有Adobe PhotoShop_apps
+* 应用程序名称：PhotoShop_app_iOS
+   * 父 RSID：AllAdobe PhotoShop_apps
    * RSID：PhotoShop_iOS_app_LA
    * VRSID 定义区段：`a.os contains “iOS”`
 
