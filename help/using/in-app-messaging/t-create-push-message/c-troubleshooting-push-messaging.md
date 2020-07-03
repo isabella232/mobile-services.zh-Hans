@@ -7,11 +7,11 @@ solution: Marketing Cloud,Analytics
 title: 排查推送消息问题
 topic: Metrics
 uuid: c7be4ab7-0cfe-4296-84a8-01412f4fd93f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 86ba045b44bf6553e80727c0d61ccdd9a552d16c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '735'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -100,10 +100,10 @@ ht-degree: 91%
    * RSID：PhotoShop_iOS_app_LA
    * VRSID 定义区段：`a.os contains “iOS”`
 
-在此示例中，如果 Photoshop 员工将推送消息发送到 *PhotoShop_iOS_app_SF* 应用程序，则所有 *PhotoShop_iOS_app_SF 应用程序*&#x200B;用户都将会按预期收到推送消息。但是，如果员工将消息发送到 *PhotoShop_iOS_app_LA* 应用程序，因为其 VRSID 定义区段有误（是 `iOS` 而不是 `a.os contains "PhotoShop_iOS_app_LA"`），则该消息会发送到 *AllAdobe PhotoShop_apps* 中的&#x200B;**所有** iOS 用户。Although the message still goes to *PhotoShop_iOS_app_LA* users, the message also blocklists the push IDs for *PhotoShop_iOS_app_SF* users because the *PhotoShop_iOS_app_SF* app has a different certificate. 如果该区段被定义为 `a.os contains “PhotoShop_iOS_app_LA”`，则推送消息将仅被发送到 *PhotoShop_iOS_app_LA* 用户。
+在此示例中，如果 Photoshop 员工将推送消息发送到 *PhotoShop_iOS_app_SF* 应用程序，则所有 *PhotoShop_iOS_app_SF 应用程序*&#x200B;用户都将会按预期收到推送消息。但是，如果员工将消息发送到 *PhotoShop_iOS_app_LA* 应用程序，因为其 VRSID 定义区段有误（是 `iOS` 而不是 `a.os contains "PhotoShop_iOS_app_LA"`），则该消息会发送到 *AllAdobe PhotoShop_apps* 中的&#x200B;**所有** iOS 用户。虽然该消息仍会发送到 *PhotoShop_iOS_app_LA* 用户，但该消息也会将 *PhotoShop_iOS_app_SF* 用户的推送 ID 列入阻止列表，因为 *PhotoShop_iOS_app_SF* 应用程序具有不同的证书。如果该区段被定义为 `a.os contains “PhotoShop_iOS_app_LA”`，则推送消息将仅被发送到 *PhotoShop_iOS_app_LA* 用户。
 
 如果通过 *PhotoShop_IOS_app_LA* 推送证书传递消息，则 *PhotoShop_iOS_app_SF* 的推送标识符将会返回为 `invalid`。
 
 >[!CAUTION]
 >
->在为使用 VRS 的应用程序创建推送消息并单击&#x200B;**[!UICONTROL 保存并发送]**&#x200B;后，会出现一个警报，提醒您确保列出的每个应用程序都&#x200B;**必须**&#x200B;具有一个有效证书。If each app does **not** have a valid certificate, your audience segments might be indefinitely blocklisted, and you might not be able to send future push messages to the affected users. 有关受众区段的更多信息，请参阅[受众：为推送消息定义和配置受众选项](/help/using/in-app-messaging/t-create-push-message/c-audience-push-message.md)。
+>在为使用 VRS 的应用程序创建推送消息并单击&#x200B;**[!UICONTROL 保存并发送]**&#x200B;后，会出现一个警报，提醒您确保列出的每个应用程序都&#x200B;**必须**&#x200B;具有一个有效证书。如果每个应用都&#x200B;**不**&#x200B;具有有效的证书，则您的受众区段可能会被无限期地列入阻止列表，并且将来可能无法将推送消息发送给受影响的用户。有关受众区段的更多信息，请参阅[受众：为推送消息定义和配置受众选项](/help/using/in-app-messaging/t-create-push-message/c-audience-push-message.md)。
