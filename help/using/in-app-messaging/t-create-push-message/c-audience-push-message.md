@@ -7,11 +7,11 @@ solution: Marketing Cloud,Analytics
 title: 受众：为推送消息定义和配置受众区段
 topic: Metrics
 uuid: efd410e7-3b6c-4cf4-a26f-b11688adc491
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 86ba045b44bf6553e80727c0d61ccdd9a552d16c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1021'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -24,13 +24,13 @@ ht-degree: 90%
 
 当创建用于推送消息的受众区段时，该区段可能涉及来自一个或多个应用程序的用户，因为报表包或虚拟报表包可能包含来自一个或多个应用程序的数据。有关虚拟报表包的更多信息，请参阅[虚拟报表包](/help/using/manage-apps/c-mob-vrs.md)。
 
-在 Adobe Mobile Services 中，营销人员可能只将消息推送到每个平台的一个应用程序。如果营销人员尝试推送到包含来自多个应用程序的用户的区段，则会显示一条警告，指出继续操作可能会导致严重的推送失败，并可能导列入阻止列表致用户的。 如果您遇到推送故障，请参阅[排查推送消息问题](/help/using/in-app-messaging/t-create-push-message/c-schedule-push-message.md)中的&#x200B;*解决推送消息失败问题*。
+在 Adobe Mobile Services 中，营销人员可能只将消息推送到每个平台的一个应用程序。如果营销人员尝试将消息推送到包含来自多个应用程序的用户的区段，则会显示一条警告，指出继续操作可能会导致严重的推送故障并可能将用户列入阻止列表。如果您遇到推送故障，请参阅[排查推送消息问题](/help/using/in-app-messaging/t-create-push-message/c-schedule-push-message.md)中的&#x200B;*解决推送消息失败问题*。
 
 要在区段定义中使用 Audience Manager 数据，请参阅[受众分析](https://docs-author-stg.corp.adobe.com/content/help/en/analytics/integration/audience-analytics/mc-audiences-aam.html)。
 
 >[!IMPORTANT]
 >
->If app users are blocklisted, marketers can **never** send push messages to those affected users again.
+>如果应用程序用户被列入阻止列表，则营销人员再也&#x200B;**不**&#x200B;能向这些受影响的用户发送推送消息。
 
 如果您选择的受众区段包含跨多个应用程序的用户，则可能会看到以下提醒：
 
@@ -66,7 +66,7 @@ ht-degree: 90%
 
 **可以做**：营销人员为某个应用程序（例如，Adobe Photoshop）的 iOS 和 Android 版本提供推送证书。营销人员可能会向跨两个平台的用户区段发送推送通知。
 
-**不可以做**：营销人员为某个应用程序（例如，Adobe Photoshop）的 iOS 和 Android 版本提供推送证书。If the marketer creates and pushes to a segment of *all active users in the last 30 days*, only the users of the Adobe Photoshop iOS and Android app receive the push, and all of the Adobe Illustrator iOS and Android app users will be blocklisted. 有关更多详细示例，请参阅[排查推送消息问题](/help/using/in-app-messaging/t-create-push-message/c-troubleshooting-push-messaging.md)中的&#x200B;*解决推送消息失败问题*。
+**不可以做**：营销人员为某个应用程序（例如，Adobe Photoshop）的 iOS 和 Android 版本提供推送证书。如果营销人员创建“过去 30 天内所有活动的用户”**&#x200B;区段并向该区段推送消息，则仅 Adobe Photoshop iOS 和 Android 版应用程序的用户会收到推送消息，而所有 Adobe Illustrator iOS 和 Android 版应用程序用户都将被列入阻止列表。有关更多详细示例，请参阅[排查推送消息问题](/help/using/in-app-messaging/t-create-push-message/c-troubleshooting-push-messaging.md)中的&#x200B;*解决推送消息失败问题*。
 
 ## 配置受众区段 {#section_A92C60885A30421B8150820EC1CCBF13}
 
