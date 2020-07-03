@@ -6,11 +6,11 @@ solution: Marketing Cloud,Analytics
 title: ADBMobile JSON 配置
 topic: Developer and implementation
 uuid: 1decf605-7bc3-4e73-ad52-1ecd5821599e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 86ba045b44bf6553e80727c0d61ccdd9a552d16c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1678'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -90,7 +90,7 @@ ht-degree: 98%
    * 默认值为 `false`。
    * 这项设置&#x200B;**仅**&#x200B;适用于已配置设备协作的客户。
 
-   For Device Co-op members who require this value set to `true`, you need to work with the Co-op team to request a blocklist flag on your Device Co-op account. 不存在启用这些标记的自助途径。
+   对于要求将该值设置为 `true` 的设备协作成员，您需要与相应的协作团队合作，以申请关于您的设备协作帐户上的阻止列表标记。不存在启用这些标记的自助途径。
 
    请牢记以下信息：
 
