@@ -7,11 +7,11 @@ solution: Marketing Cloud,Analytics
 title: 查看消息报表
 topic: Metrics
 uuid: 0ac73a81-388f-4dfd-84d5-21b8db4b8c83
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3b6edc10d042658ef1ca17a203877b7ee09d999d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '490'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -72,7 +72,7 @@ ht-degree: 91%
    * **[!UICONTROL 正在执行]**
    * **[!UICONTROL 已执行]**
 
-* **[!UICONTROL Published]**
+* **[!UICONTROL 已发布]**
 
    成功发送到 Apple 推送通知服务/Firebase Cloud Messaging (APNS/FCM) 以将消息发送到用户设备的设备令牌数量。
 
@@ -91,4 +91,4 @@ ht-degree: 91%
 
 * **[!UICONTROL 已列入阻止列表]**
 
-   不能再被发送到 APNS 或 FCM 的设备令牌数量。这通常意味着该应用程序已从设备中卸载，或用户更改了用来接收消息的选择启用设置。Android和iOS在将令牌计为已列入阻止列表时有不同。 Android令牌会立即显示在阻止列表计数中。 iOS令牌最初显示为已发布，但根据APNS的反馈，在后续消息上显示为已列入阻止列表。
+   不能再被发送到 APNS 或 FCM 的设备令牌数量。这通常意味着该应用程序已从设备中卸载，或用户更改了用来接收消息的选择启用设置。关于令牌何时会计入阻止列表这个问题，Android 和 iOS 存在差异。Android 令牌会立即显示在阻止列表计数中。iOS 令牌最初显示为已发布，但根据 APNS 的反馈，会在后续消息中显示为阻止。
