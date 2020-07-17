@@ -6,11 +6,11 @@ solution: Marketing Cloud,Analytics
 title: 发行说明
 topic: Developer and implementation
 uuid: e1613dc5-02a4-43a7-997a-29b4de98b4d1
-translation-type: ht
-source-git-commit: 82b3dc38a0325b3aa733b491ddad9b59dbe84eaa
-workflow-type: ht
-source-wordcount: '401'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 48c3addeb929f3356990ef55b44f93dd4bb2f728
+workflow-type: tm+mt
+source-wordcount: '422'
+ht-degree: 95%
 
 ---
 
@@ -18,6 +18,10 @@ ht-degree: 100%
 # 发行说明 {#release-notes}
 
 以下是适用于 Experience Cloud 解决方案的 iOS SDK 4.x 的发行说明、已知问题和热修复信息：
+
+**2020年7月16日： 版本4.19.3**
+
+* 常规——修复了阻止正确处理多个等号登录查询参数的链接URL的错误。
 
 **2020 年 3 月 24 日：版本 4.19.2**
 
