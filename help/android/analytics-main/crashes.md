@@ -6,11 +6,11 @@ solution: Marketing Cloud,Analytics
 title: 跟踪应用程序的崩溃情况
 topic: Developer and implementation
 uuid: 3ab98c14-ccdf-4060-ad88-ec07c1c6bf07
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 161212216565d56e346abc664197fedbea83d6a0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '487'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 95%
 
 ![](assets/android-lifecycle.png)
 
-For more information about the Android activity lifecycle, see [Activities](https://developer.android.com/guide/components/activities.html).
+有关 Android 活动生命周期的更多信息，请参阅[活动](https://developer.android.com/guide/components/activities.html)。
 
 *此 Android 生命周期插图由[Android 开源项目制作和共享](https://source.android.com/)，并依据[创作共用署名 2.5 许可证](https://creativecommons.org/licenses/by/2.5/)中的条款使用。*
 
@@ -47,7 +47,7 @@ For more information about the Android activity lifecycle, see [Activities](http
 
 ## 应如何处理碎片？
 
-碎片具有类似于活动的应用程序生命周期事件。但是，片段不附加到活动就不能处于活动状态。
+碎片具有类似于活动的应用程序生命周期事件。但是，碎片不附加到活动就无法处于活动状态。
 
 >[!IMPORTANT]
 >
