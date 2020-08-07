@@ -5,10 +5,13 @@ seo-description: 您可以使用此信息完成以下操作：创建新应用程
 seo-title: 添加新应用程序
 solution: Marketing Cloud,Analytics
 title: 添加新应用程序
-topic: 量度
+topic: Metrics
 uuid: 706b5e4d-1318-4a9e-8c69-ffabf51fa02c
-translation-type: ht
-source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
+translation-type: tm+mt
+source-git-commit: c198ae57b05f8965a8e27191443ee2cd552d6c50
+workflow-type: tm+mt
+source-wordcount: '710'
+ht-degree: 95%
 
 ---
 
@@ -69,9 +72,9 @@ source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
 
    * **[!UICONTROL 类型]**
 
-      从下拉列表中选择一种类型。在左侧导航菜单中显示的可用报表会依据您选择的应用程序类型而变。
+      从下拉列表中选择类型。 左侧导航菜单中显示的可用报告因您选择的应用程序类型而异。
 
-      以下是可用的类型：
+      以下是可用类型：
 
       * **[!UICONTROL 标准实施]**
 
