@@ -5,10 +5,13 @@ seo-description: 以下是关于默认 Mobile 量度和维度的参考信息。
 seo-title: 移动量度和维度参考
 solution: Marketing Cloud,Analytics
 title: 移动量度和维度参考
-topic: 量度
+topic: Metrics
 uuid: 96170ae7-8553-4f3e-ae01-65e5b664adf4
-translation-type: ht
-source-git-commit: 056bb3edb94c2ceb2961bbe8e4851c20429e1ea2
+translation-type: tm+mt
+source-git-commit: c198ae57b05f8965a8e27191443ee2cd552d6c50
+workflow-type: tm+mt
+source-wordcount: '637'
+ht-degree: 94%
 
 ---
 
@@ -38,6 +41,7 @@ source-git-commit: 056bb3edb94c2ceb2961bbe8e4851c20429e1ea2
    当特定的某天使用应用程序时触发。
 
    >[!TIP]
+   >
    >“每日参与的用户数”事件不会自动存储到 Analytics 量度中。您必须创建一个处理规则，以设置一个自定义事件用来捕获此量度。
 
 * **每月参与的用户数**
@@ -56,7 +60,7 @@ source-git-commit: 056bb3edb94c2ceb2961bbe8e4851c20429e1ea2
 
 * **崩溃**
 
-   在应用程序未正常退出时触发。该事件在应用程序崩溃后又重新启动时发送。
+   当应用程序无法正确退出时触发。 应用程序在崩溃后开始时发送此事件。
 
    >[!TIP]
    >如果未调用退出，则视为应用程序发生崩溃。
@@ -71,7 +75,7 @@ source-git-commit: 056bb3edb94c2ceb2961bbe8e4851c20429e1ea2
 
 * **安装日期**
 
-   安装后首次启动的日期。日期采用 *YYYY/MM/DD* 格式。
+   安装后首次启动的日期。 日期采用 *MM/DD/YYYY格式* 。
 
 * **应用程序 ID**
 
