@@ -7,8 +7,11 @@ solution: Marketing Cloud,Analytics
 title: Analytics 方法
 topic: Developer and implementation
 uuid: ac7c640e-9dcc-4724-b561-019cc025d5a7
-translation-type: ht
-source-git-commit: 657e8b93d1516690ad21d6cf504f9c8f611747b6
+translation-type: tm+mt
+source-git-commit: c198ae57b05f8965a8e27191443ee2cd552d6c50
+workflow-type: tm+mt
+source-wordcount: '740'
+ht-degree: 94%
 
 ---
 
@@ -63,7 +66,7 @@ SDK 当前支持多个 Adobe Experience Cloud 解决方案，包括 Analytics、
 * **getTrackingIdentifier**
 返回自动为 Analytics 生成的访客标识符。
 
-   这是特定于应用程序的独特访客 ID，该 ID 在首次启动时生成，之后会存储并使用该 ID。在应用程序升级期间，会保留该 ID，而在应用程序卸载时，则会将其删除。
+   这是特定于应用程序的唯一访客ID，在初始启动时生成，从该点开始存储和使用。 该ID将在应用程序升级期间保留，并在卸载应用程序时删除。
 
    * 以下是此方法的语法：
 
