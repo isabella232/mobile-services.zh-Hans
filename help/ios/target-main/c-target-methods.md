@@ -4,10 +4,13 @@ seo-description: 以下是 iOS 库提供的 Adobe Target 方法列表。
 seo-title: 适用于 Adobe Mobile Services 的 iOS Target 方法
 solution: Marketing Cloud,Analytics
 title: 适用于 iOS 的 Target 方法
-topic: 开发人员和实施
+topic: Developer and implementation
 uuid: 692bcda1-02ba-4902-bd65-15888adf1952
-translation-type: ht
-source-git-commit: 8dc075603544aaab7fdedb1ff10a12f7fa7e21f5
+translation-type: tm+mt
+source-git-commit: c198ae57b05f8965a8e27191443ee2cd552d6c50
+workflow-type: tm+mt
+source-wordcount: '656'
+ht-degree: 100%
 
 ---
 
