@@ -7,11 +7,11 @@ solution: Marketing Cloud,Analytics
 title: 启用推送消息的先决条件
 topic: Metrics
 uuid: 194e6e07-b794-4152-a838-a4125c3292d4
-translation-type: ht
-source-git-commit: 82b3dc38a0325b3aa733b491ddad9b59dbe84eaa
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: c198ae57b05f8965a8e27191443ee2cd552d6c50
+workflow-type: tm+mt
 source-wordcount: '646'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -73,7 +73,9 @@ ht-degree: 100%
 
 在为您的应用程序启用 ID 服务之前，**[!UICONTROL 推送服务]**&#x200B;部分处于禁用状态。但是，启用 ID 服务后，“推送服务”部分即会启用。有关启用推送服务的更多信息，请参阅[配置 SDK ID 服务选项](/help/using/c-manage-app-settings/c-mob-confg-app/t-config-visitor.md)。
 
->[!IMPORTANT]：您必须单击&#x200B;**[!UICONTROL 保存]**&#x200B;以保存所做更改，然后刷新推送服务。
+>[!IMPORTANT]
+>
+>You must click **[!UICONTROL Save]** to save your changes and refresh the Push Services.
 >
 >您可以在每个报表包中配置一个用于 Apple 的应用商店应用程序和一个用于 Google 的应用商店应用程序。如果您需要其他应用商店应用程序，例如，一个用于生产环境的应用商店应用程序和一个用于开发环境的应用商店应用程序，请为每个环境分别设置一个新的应用商店应用程序和一个新的报表包。
 
