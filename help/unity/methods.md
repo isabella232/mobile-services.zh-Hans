@@ -7,12 +7,15 @@ solution: Marketing Cloud,Developer
 title: ADBMobile.cs方法
 uuid: af504934-febd-45d9-81e2-2a310f4c65dc
 translation-type: tm+mt
-source-git-commit: 0d50c7e6674de33b8190e74c113ae010ff226e97
+source-git-commit: c198ae57b05f8965a8e27191443ee2cd552d6c50
+workflow-type: tm+mt
+source-wordcount: '1324'
+ht-degree: 65%
 
 ---
 
 
-# ADBMobile.cs methods {#adbmobile-cs-methods}
+# ADBMobile.cs方法 {#adbmobile-cs-methods}
 
 ## 配置方法
 
@@ -32,9 +35,9 @@ source-git-commit: 0d50c7e6674de33b8190e74c113ae010ff226e97
       ADBMobile.CollectLifecycleData();
       ```
 
-* **EnableLocalNotifications（仅限 iOS）**
+* **EnableLocalNotifications（仅限iOS）**
 
-   在您的应用程序中启用本机通知。
+   在应用程序中启用本地通知。
 
    * 以下是此方法的语法：
 
@@ -85,9 +88,9 @@ source-git-commit: 0d50c7e6674de33b8190e74c113ae010ff226e97
    返回当前用户隐私状态的枚举表示形式。
    * `MOBILE_PRIVACY_STATUS_OPT_IN`：立即发送点击。
    * `MOBILE_PRIVACY_STATUS_OPT_OUT`：丢弃点击。
-   * `MOBILE_PRIVACY_STATUS_UNKNOWN`：如果启用了离线跟踪，将会保存点击，直到隐私状态更改为选择启用（发送点击）或选择禁用（丢弃点击）。
+   * `MOBILE_PRIVACY_STATUS_UNKNOWN`:如果启用了脱机跟踪，则会保存点击，直到隐私状态更改为选择加入（然后发送点击）或选择退出（然后丢弃点击）。
 
-      如果未启用离线跟踪，则将丢弃点击，直到隐私状态更改为选择启用。默认值在 [ADBMobileConfig.json](/help/ios/configuration/json-config/json-config.md) 文件中设置。
+      如果未启用离线跟踪，则将丢弃点击，直到隐私状态更改为选择启用。The default value is set in the [ADBMobileConfig.json](/help/ios/configuration/json-config/json-config.md) file.
 
    * 以下是此方法的语法：
 
@@ -103,7 +106,7 @@ source-git-commit: 0d50c7e6674de33b8190e74c113ae010ff226e97
 
 * **GetUserIdentifier**
 
-   如果设置了自定义标识符，则返回自定义用户标识符。如果未设置自定义标识符，则返回 null。默认值为 `null`。
+   如果已设置自定义标识符，则返回自定义用户标识符。 如果未设置自定义标识符，则返回null。 默认值为 `null`。
 
    * 以下是此方法的语法：
 
@@ -133,13 +136,13 @@ source-git-commit: 0d50c7e6674de33b8190e74c113ae010ff226e97
       var version = ADBMobile.GetVersion();
       ```
 
-* **KeepLifecycleSessionAlive（仅限 iOS）**
+* **KeepLifecycleSessionAlive（仅限iOS）**
 
    指示 SDK 无论配置文件中的生命周期会话超时值为多少，下次从后台恢复时都不应启动新会话。
 
    >[!TIP]
    >
-   >此方法适用于在后台注册通知的应用程序，并且仅应从应用程序在后台运行时运行的代码中调用该方法。
+   >此方法适用于在后台注册通知的应用程序，并且只应从应用程序在后台运行时运行的代码中调用。
 
    * 以下是此方法的语法：
 
@@ -153,9 +156,9 @@ source-git-commit: 0d50c7e6674de33b8190e74c113ae010ff226e97
       ADBMobile.KeepLifecycleSessionAlive();
       ```
 
-* **PauseCollectingLifecycleData（仅限 Android）**
+* **PauseCollectingLifecycleData（仅限Android）**
 
-   指示 SDK 您的应用程序已暂停，以便正确计算生命周期量度。例如，暂停时收集时间戳以确定上一个会话时长。此方法还会设置一个标记，以便生命周期准确知道应用程序并没有崩溃。有关更多信息，请参阅[生命周期量度](/help/android/metrics.md)。
+   指示 SDK 您的应用程序已暂停，以便正确计算生命周期量度。例如，在暂停时会收集时间戳以确定上一个会话长度。 这还会设置一个标志，使生命周期能够正确地知道应用程序未崩溃。 有关更多信息，请参阅[生命周期量度](/help/android/metrics.md)。
 
    * 以下是此方法的语法：
 
@@ -169,9 +172,9 @@ source-git-commit: 0d50c7e6674de33b8190e74c113ae010ff226e97
       ADBMobile.PauseCollectingLifecycleData();
       ```
 
-* **SetContext（仅限 Android）**
+* **SetContext（仅限Android）**
 
-   向 SDK 指明，应该通过 UnityPlayer 的当前活动设置其应用程序上下文.
+   向SDK指示它应根据UnityPlayer的当前活动设置其应用程序上下文。
 
    * 以下是此方法的语法：
 
@@ -203,11 +206,11 @@ source-git-commit: 0d50c7e6674de33b8190e74c113ae010ff226e97
 
 * **SetPrivacyStatus**
 
-   设置当前用户的隐私状态。设置为以下值之一：
+   将当前用户的隐私状态设置为状态。 设置为以下值之一：
 
    * `MOBILE_PRIVACY_STATUS_OPT_IN`：立即发送点击。
    * `MOBILE_PRIVACY_STATUS_OPT_OUT`：丢弃点击。
-   * `MOBILE_PRIVACY_STATUS_UNKNOWN`：如果启用了离线跟踪，将会保存点击，直到隐私状态更改为选择启用（发送点击）或选择禁用（丢弃点击）。如果未启用离线跟踪，则将丢弃点击，直到隐私状态更改为选择启用。
+   * `MOBILE_PRIVACY_STATUS_UNKNOWN`:如果启用了脱机跟踪，则会保存点击，直到隐私状态更改为选择加入（然后发送点击）或选择退出（然后丢弃点击）。 如果未启用离线跟踪，则将丢弃点击，直到隐私状态更改为选择启用。
 
    * 以下是此方法的语法：
 
@@ -223,7 +226,7 @@ source-git-commit: 0d50c7e6674de33b8190e74c113ae010ff226e97
 
 * **SetUserIdentifier**
 
-   将用户标识符设置为 userId。
+   将用户标识符设置为userId。
 
    * 以下是此方法的语法：
 
@@ -257,9 +260,9 @@ source-git-commit: 0d50c7e6674de33b8190e74c113ae010ff226e97
 
 * **TrackState**
 
-   通过可选的上下文数据跟踪应用程序状态。状态是指应用程序中可用的视图，如“标题屏幕”、“级别 1”、“暂停”，等等。这些状态与网站中的页面类似，而且 `TrackState` 调用会使页面查看次数递增。
+   通过可选的上下文数据跟踪应用程序状态。状态是您的应用程序中可用的视图，如“标题屏幕”、“级别1”、“暂停”等。 这些状态与网站中的页面类似，而且 `TrackState` 调用会使页面查看次数递增。
 
-   If state is empty, it displays as *`app name app version (build)`* in reports. 如果您在报表中看到该值，请确保在每个 `TrackState` 调用中设置 state。
+   如果状态为空，则状态将显示 *`app name app version (build)`* 为报告。 If you see this value in reports, make sure you are setting state in each `TrackState` call.
 
    >[!TIP]
    >
@@ -281,7 +284,7 @@ source-git-commit: 0d50c7e6674de33b8190e74c113ae010ff226e97
 
 * **TrackAction**
 
-   跟踪您的应用程序中的操作。操作是指应用程序中发生的需要测量的事件，如“终止次数”、“获取的级别”、“信息源订阅”及其他量度。
+   跟踪您的应用程序中的操作。操作是您要衡量的应用程序中发生的事情，如“死亡”、“获得的级别”、“供给订阅”和其他指标。
 
    >[!TIP]
    >
@@ -299,9 +302,9 @@ source-git-commit: 0d50c7e6674de33b8190e74c113ae010ff226e97
       ADBMobile.TrackAction("level gained", null);
       ```
 
-* **TrackActionFromBackground（仅限 iOS）**
+* **TrackActionFromBackground（仅限iOS）**
 
-   跟踪后台发生的操作。此方法在某些情况下会阻止生命周期事件的触发。
+   跟踪在后台发生的操作。 这抑制了在某些情况下触发生命周期事件。
 
    >[!TIP]
    >
@@ -321,7 +324,7 @@ source-git-commit: 0d50c7e6674de33b8190e74c113ae010ff226e97
 
 * **TrackLocation**
 
-   发送当前纬度和经度坐标。此方法还使用 `ADBMobileConfig.json` 文件中定义的目标点来确定作为参数提供的位置是否位于您的任何 POI 内。如果当前坐标位于定义的 POI 内，则会填充上下文数据变量并且与 TrackLocation 调用一起发送。
+   发送当前纬度和经度坐标。此方法还使用 `ADBMobileConfig.json` 文件中定义的目标点来确定作为参数提供的位置是否位于您的任何 POI 内。如果当前坐标在定义的POI中，则填充上下文数据变量，并随TrackLocation调用发送。
 
    * 以下是此方法的语法：
 
@@ -363,7 +366,7 @@ source-git-commit: 0d50c7e6674de33b8190e74c113ae010ff226e97
 
 * **TrackLifetimeValueIncrease**
 
-   增加用户生命周期值的数量。
+   增加用户终身价值。
 
    * 以下是此方法的语法：
 
@@ -399,7 +402,7 @@ source-git-commit: 0d50c7e6674de33b8190e74c113ae010ff226e97
 
 * **TrackTimedActionUpdate**
 
-   传入数据以更新与给定操作关联的上下文数据。传入的数据会附加在给定操作的现有数据之后，但如果已为操作定义了相同的键值，则会覆盖现有数据。
+   传入数据以更新与给定操作关联的上下文数据。 传入的数据将附加到给定操作的现有数据中，并覆盖数据（如果已为操作定义相同的密钥）。
 
    >[!TIP]
    >
@@ -499,7 +502,7 @@ source-git-commit: 0d50c7e6674de33b8190e74c113ae010ff226e97
       var queueSize = ADBMobile.TrackingGetQueueSize();
       ```
 
-## Experience Cloud ID方法
+## Experience CloudID方法
 
 * **GetMarketingCloudID**
 
@@ -519,7 +522,7 @@ source-git-commit: 0d50c7e6674de33b8190e74c113ae010ff226e97
 
 * **VisitorSyncIdentifiers**
 
-   使用 Experience Cloud ID，您可以设置其他的客户 ID 以便关联每位访客。访客 API 可以接受同一访客的多个客户 ID 和一个客户类型标识符（用以区分不同客户 ID 的作用范围）。此方法对应于 JavaScript 库中的 setCustomerIDs。
+   使用Experience CloudID，您可以设置其他客户ID以与每个访客关联。 访客API接受同一访客的多个客户ID以及客户类型标识符，以分隔不同客户ID的范围。 此方法对应于 JavaScript 库中的 setCustomerIDs。
 
    * 以下是此方法的语法：
 
@@ -539,7 +542,7 @@ source-git-commit: 0d50c7e6674de33b8190e74c113ae010ff226e97
 
 * **ProcessGooglePlayInstallReferrerUrl** ( *仅限Android)*
 
-   将从调用Google Play安装引用API返回的引用URL传递给此方法。
+   将从调用返回的推荐人URL传递给此方法的Google Play安装推荐人API。
 
    * 以下是此方法的语法：
 
