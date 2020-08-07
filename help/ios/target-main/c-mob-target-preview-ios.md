@@ -4,8 +4,11 @@ seo-description: 通过“Target 预览”功能，您可以轻松地对 Target 
 seo-title: iOS 上的 Target 预览
 title: iOS 上的 Target 预览
 uuid: d92867a4-0569-4732-a928-28f9e2f8b21e
-translation-type: ht
-source-git-commit: 06144a1695ac40ce984656491456968888f9e96e
+translation-type: tm+mt
+source-git-commit: c198ae57b05f8965a8e27191443ee2cd552d6c50
+workflow-type: tm+mt
+source-wordcount: '141'
+ht-degree: 87%
 
 ---
 
@@ -22,9 +25,9 @@ source-git-commit: 06144a1695ac40ce984656491456968888f9e96e
 
 ## Target 预览方法
 
-* **setPreviewRestartDeeplink**
+* **setPreviewRestartDeplink**
 
-   在“预览”模式下应用预览选项时，可设置将要触发的应用程序深层链接。
+   设置在预览模式下应用预览选择时将触发的应用程序链接。
 
    * 以下是此方法的语法：
 
