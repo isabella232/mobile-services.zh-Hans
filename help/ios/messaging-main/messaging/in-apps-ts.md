@@ -5,10 +5,13 @@ seo-description: 此信息可帮助您排查应用程序内消息传送问题。
 seo-title: 排查应用程序内消息传送问题
 solution: Marketing Cloud,Analytics
 title: 排查应用程序内消息传送问题
-topic: 量度
+topic: Metrics
 uuid: 58533aa3-2eb2-4597-8525-77e4e5975e56
-translation-type: ht
-source-git-commit: 1154bab39b5215e00d47ad8e66caeec15e4e98de
+translation-type: tm+mt
+source-git-commit: c198ae57b05f8965a8e27191443ee2cd552d6c50
+workflow-type: tm+mt
+source-wordcount: '595'
+ht-degree: 53%
 
 ---
 
@@ -17,33 +20,33 @@ source-git-commit: 1154bab39b5215e00d47ad8e66caeec15e4e98de
 
 此信息可帮助您排查应用程序内消息传送问题。
 
-如果您符合应用程序内消息传送的所有要求，但消息仍无法显示，请检查以下各项：
+如果已完成应用程序内消息传递的所有要求，但消息不显示，请检查以下项：
 
 ## 应用程序中是否纳入了新配置和新 SDK？
 
-确认 SDK 的版本为 4.2 或更高，并且已正确配置 SDK。确保您的配置（已下载的 JSON 文件）中包含 `Messages` 部分，或者您具有消息远程端点，以便可以通过 Dynamic Tag Management 进行检索。
+验证SDK是4.2版或更高版本，并正确配置。 确保您的配置（已下载的 JSON 文件）中包含 `Messages` 部分，或者您具有消息远程端点，以便可以通过 Dynamic Tag Management 进行检索。
 
-## 我的全屏消息在 Android 中不显示。我使用的 SDK 和配置正确无误，而且也触发了触发器。
+## Android中的全屏消息未显示。 我使用的是正确的SDK、配置，并且我的触发器正在满足。
 
-您是否更新了清单文件以定义全屏活动？
+是否更新清单文件以定义全屏活动?
 
-## 我的本地通知消息不能在 Android 中使用。
+## Android中的本地通知消息无效。
 
 确保在清单中声明了本地通知广播接收器。有关更多信息，请参阅[启用应用程序内消息](/help/android/messaging-main/messaging/messaging.md)中的步骤 2。
 
 ## 消息是实时的吗？
 
-查看“管理应用程序内消息”页面上列表视图下的“状态”列，确认消息是否为实时消息。
+在“状态”列的“管理应用程序内消息”页面上检查列表视图，并验证它是否处于实时状态。
 
 ## 查看“受众”选项卡上的“显示一次”**、“始终显示”**&#x200B;和“脱机显示”**&#x200B;设置。
 
 验证已按照您所需的方式设置了这些设置。在&#x200B;**[!UICONTROL 受众]**&#x200B;选项卡中，检查您的&#x200B;**[!UICONTROL 触发器]**&#x200B;选项，这些选项允许您指定消息显示的频率。
 
-## 如果使用启动项作为触发器...
+## 如果使用启动事件作为触发器……
 
 启动项只会在新会话中触发。有关会话何时开始的更多信息，请参阅 JSON 配置文件中的 `lifecycleTimeout` 行。有关更多信息，请参阅 [ADBMobile JSON 配置](/help/ios/configuration/json-config/json-config.md)。
 
-## 我远程更新了消息，但我的应用程序仍显示旧消息。
+## 我远程更新了我的邮件，但我的应用程序仍显示旧邮件。
 
 完成以下任务之一：
 
@@ -57,7 +60,7 @@ source-git-commit: 1154bab39b5215e00d47ad8e66caeec15e4e98de
 
 ## 我的图像不完全适合模板提供的空间。
 
-应用程序内消息全屏模板支持显示来自远程服务器（图像 URL）或来自应用程序包（捆绑图像）的图像。图像应采用标准图像格式，例如 JPG、GIF 或 PNG。
+应用程序内消息全屏模板支持显示来自远程服务器（图像URL）或应用程序捆绑（捆绑图像）的图像。 图像应采用标准图像格式，例如 JPG、GIF 或 PNG。
 
 由于设备屏幕具有多种不同的尺寸，因此图像很可能并不完全适合模板提供的空间。模板主要用于显示图像的中央部分，如果图像不适合，则会裁剪（纵向）或淡化（横向）侧边。
 
@@ -66,18 +69,18 @@ source-git-commit: 1154bab39b5215e00d47ad8e66caeec15e4e98de
 * **纵向**：
    * 对于手机，高度为 195 像素
    * 对于平板电脑，高度为 529 像素
-   * 如果图像宽度小于设备宽度，则将图像居中。
-   * 如果图像宽度大于设备宽度，则裁剪图像。
+   * 如果图像宽度小于设备宽度，则居中显示。
+   * 如果图像宽度大于设备宽度，则进行裁剪。
 
 * **横向**：
-   * 图像缩放至设备高度的 100%。
-   * 宽度为设备的 75%，并在右侧淡出。
+   * 图像缩放到设备高度的100%。
+   * 宽度是设备的75%，右侧显示淡出。
 
-如果您的全屏模板存在问题，则可以下载并使用自定义 HTML 模板。此模板为图像提供了更高的灵活性，并允许完全控制模板。
+如果全屏模板有问题，可下载并使用自定义HTML模板。 此模板为图像提供了更大的灵活性，并允许完全控制模板。
 
-## 无法在 iPhone X 上以全屏模式显示应用程序内消息。
+## iPhone X上的应用程序内消息不以全屏模式显示。
 
-要在 iPhone X 上以全屏模式显示应用程序内消息，请执行以下操作：
+在iPhone X上以全屏模式显示应用程序内消息：
 
 1. 在 Meta 标记中添加 `viewport-fit=cover`。
 
@@ -85,16 +88,16 @@ source-git-commit: 1154bab39b5215e00d47ad8e66caeec15e4e98de
    <meta name="viewport" content="viewport-fit=cover">
    ```
 
-1. 在 CSS 中为顶部 UI 元素设置适当的边距，如下所示：
+1. 在CSS中为顶部UI元素设置适当的填充，如：
 
    ```html
-   topelement {
-     padding-top:20px;
-     /*Status bar height on iOS 11.0*/
-     padding-top:constant(safe-area-inset-top);
-     /*Status bar height on iOS 11+ */
-     padding-top:env(safe-area-inset-top);
-     } 
+    topelement {
+      padding-top:20px;
+      /*Status bar height on iOS 11.0*/
+      padding-top:constant(safe-area-inset-top);
+      /*Status bar height on iOS 11+ */
+      padding-top:env(safe-area-inset-top);
+      } 
    ```
 
-   这些设置可阻止 UI 元素与状态栏发生冲突。
+   这些设置可防止UI元素与状态栏发生冲突。
