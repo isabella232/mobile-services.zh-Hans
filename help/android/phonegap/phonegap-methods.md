@@ -1,14 +1,17 @@
 ---
 description: 您可以使用 iOS PhoneGap 插件方法完成多种任务。
-keywords: Android;库;移动;SDK
+keywords: android;library;mobile;sdk
 seo-description: 您可以使用 iOS PhoneGap 插件方法完成多种任务。
 seo-title: PhoneGap 插件方法
 solution: Marketing Cloud,Analytics
 title: PhoneGap 插件方法
-topic: 开发人员和实施
+topic: Developer and implementation
 uuid: bc3db9ce-81b7-45ec-88aa-6020c1db5d9c
-translation-type: ht
-source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
+translation-type: tm+mt
+source-git-commit: c198ae57b05f8965a8e27191443ee2cd552d6c50
+workflow-type: tm+mt
+source-wordcount: '1569'
+ht-degree: 97%
 
 ---
 
@@ -93,7 +96,7 @@ source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
 
    返回自动生成的访客标识符。
 
-   这是特定于应用程序的独特访客 ID，该 ID 在首次启动应用程序时生成，之后会存储并使用该 ID。在应用程序升级期间，会保留该 ID，而在应用程序卸载时，则会将其删除。
+   这是应用程序特定的唯一访客ID，最初启动应用程序时生成，并从该点存储和使用。 此ID在应用程序升级期间保留，在卸载应用程序时删除。
 
    >[!TIP]
    >
