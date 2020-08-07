@@ -4,10 +4,13 @@ seo-description: 以下是 tvOS 库提供的 TVJS 方法列表。
 seo-title: TVJS 方法
 solution: Marketing Cloud,Analytics
 title: TVJS 方法
-topic: 开发人员和实施
+topic: Developer and implementation
 uuid: a7bfa85a-0d6e-4f51-9a9e-70429c2a9806
-translation-type: ht
-source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
+translation-type: tm+mt
+source-git-commit: c198ae57b05f8965a8e27191443ee2cd552d6c50
+workflow-type: tm+mt
+source-wordcount: '2013'
+ht-degree: 84%
 
 ---
 
@@ -38,9 +41,9 @@ source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
 
 * **privacyStatus**
 
-   返回当前用户隐私状态枚举的 NSUInteger 表示形式。
+   返回当前用户隐私状态枚举的NSUInteger表示形式。
 
-   选项如下：
+   以下是选项：
 
    * `ADBMobilePrivacyStatusOptIn`：立即发送点击。
    * `ADBMobilePrivacyStatusOptOut`：丢弃点击。
@@ -69,6 +72,7 @@ source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
    * `ADBMobilePrivacyStatusOptIn`：立即发送点击。
    * `ADBMobilePrivacyStatusOptOut`：丢弃点击。
    * `ADBMobilePrivacyStatusUnknown`：如果启用了离线跟踪，将会保存点击，直到隐私状态更改为选择启用（发送点击）或选择禁用（丢弃点击）。
+
    如果未启用离线跟踪，则将丢弃点击，直到隐私状态更改为选择启用。
 
    * 以下是此方法的语法：
@@ -218,7 +222,7 @@ source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
          * 页面状态名称
       * 参数：`contextData`
          * 类型：对象
-         * 用于此点击的其他上下文数据。
+         * 此点击的其他上下文数据。
    * 以下是此方法的代码示例：
 
       ```objective-c
@@ -241,10 +245,10 @@ source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
       * 返回：不适用
       * 参数：`actionName`
          * 类型：字符串
-         * 跟踪的操作的名称。
+         * 要跟踪的操作的名称。
       * 参数：`contextData`
          * 类型：对象
-         * 用于此点击的其他上下文数据。
+         * 此点击的其他上下文数据。
    * 以下是此方法的代码示例：
 
       ```objective-c
@@ -267,14 +271,14 @@ source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
 
       * 返回：不适用
       * 参数：`lat`
-         * 类型：数值
+         * 类型：数字
          * 位置的纬度。
       * 参数：`lon`
-         * 类型：数值
+         * 类型：数字
          * 位置的经度。
       * 参数：`contextData`
          * 类型：对象
-         * 用于此点击的其他上下文数据。
+         * 此点击的其他上下文数据。
    * 以下是此方法的代码示例：
 
       ```objective-c
@@ -296,8 +300,8 @@ source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
 
       * 返回：不适用
       * 参数：`increaseAmount`
-         * 类型：数值
-         * 添加到用户当前生命周期值中的数量。
+         * 类型：数字
+         * 添加到用户当前生存期值的金额。
    * 以下是此方法的代码示例：
 
       ```objective-c
@@ -322,10 +326,10 @@ source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
       * 返回：不适用
       * 参数：`name`
          * 类型：字符串
-         * 要启动的定时操作的名称。
+         * 正在启动的定时操作的名称。
       * 参数：`contextData`
          * 类型：对象
-         * 用于此点击的其他上下文数据。
+         * 此点击的其他上下文数据。
    * 以下是此方法的代码示例：
 
       ```objective-c
@@ -335,9 +339,9 @@ source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
 
 * **trackTimedActionUpdateData**
 
-   传入数据，以更新与给定操作关联的上下文数据。
+   传入数据以更新与给定操作关联的上下文数据。
 
-   传入的数据将附加到给定操作的现有数据中，如果已经为操作定义相同的键，则会覆盖数据。
+   传入的数据将附加到给定操作的现有数据中，如果同一密钥已经为操作定义，则数据将被覆盖。
 
    >[!TIP]
    >
@@ -352,10 +356,10 @@ source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
       * 返回：不适用
       * 参数：`name`
          * 类型：字符串
-         * 要更新的定时操作的名称。
+         * 正在更新的定时操作的名称。
       * 参数：`contextData`
          * 类型：对象
-         * 用于此点击的其他上下文数据。
+         * 此点击的其他上下文数据。
    * 以下是此方法的代码示例：
 
       ```objective-c
@@ -368,7 +372,7 @@ source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
 
    结束定时操作。
 
-   如果提供回调函数，您可以访问最终时间值。如果未提供回调，或者回调返回 true，Adobe SDK 将自动发送点击。当从回调返回 false 时，将禁止定时操作点击。
+   如果提供回调函数，则可以访问最终时间值。 如果未提供回调，或该回调返回true，则AdobeSDK会自动发送点击。 当从回调返回 false 时，将禁止定时操作点击。
 
    * 以下是此方法的语法：
 
@@ -379,7 +383,7 @@ source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
       * 返回：不适用
       * 参数：`name`
          * 类型：字符串
-         * 要结束的定时操作的名称。
+         * 要结束的定时操作的名称
       * 参数：`callback`
          * 类型：`function(inAppDuration, totalDuration, data)`
          * 参数中具有 `inAppDuration`（数值）、`totalDuration`（数值）和 `data`（上下文数据对象）的回调方法。
@@ -423,7 +427,7 @@ source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
 
    返回自动生成的访客标识符。
 
-   这是由 Adobe 服务器生成的特定于应用程序的独特访客 ID。如果在生成时无法访问 Adobe 服务器，则将使用 Apple 的 CFUUID 生成该 ID。该值在首次启动时生成，之后会存储并使用该值。在应用程序升级期间，会保留该 ID；在标准应用程序备份过程中，会保存并恢复该 ID；而在应用程序卸载时，则会删除该 ID。
+   这是由访客服务器生成的特定于应用程序的唯一AdobeID。 如果在生成时无法访问Adobe的服务器，则ID将使用Apple的CFUUID生成。 该值在初始启动时生成，并从该点存储和使用。 此ID在应用程序升级期间保留，在标准应用程序备份过程中保存并恢复，在卸载应用程序时删除。
 
    >[!TIP]
    >
@@ -599,10 +603,10 @@ source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
 
       * 参数：`traits`
          * 类型：对象
-         * 此用户的特征词典。
+         * 此用户的特征字典。
       * 参数：`callback`
-         * 类型：函数(配置文件)
-         * 在回调函数的参数中从 Audience Manager 返回的配置文件。
+         * 类型：函数(用户档案)
+         * 从回调函数参数中的用户档案返回的Audience Manager。
    * 以下是此方法的代码示例：
 
       ```objective-c
@@ -656,7 +660,7 @@ source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
 
 * **visitorSyncIdentifiers**
 
-   除了 Experience Cloud ID 之外，您还可以设置其他与每个访客关联的客户 ID。访客 API 接受同一访客具有多个客户 ID，并且使用客户类型标识符区分不同客户 ID 的适用范围。此方法对应于 JavaScript 库中的 setCustomerIDs。
+   除了Experience CloudID之外，您还可以设置要与每个访客关联的其他客户ID。 访客 API 接受同一访客具有多个客户 ID，并且使用客户类型标识符区分不同客户 ID 的适用范围。此方法对应于 JavaScript 库中的 setCustomerIDs。
 
    * 以下是此方法的语法：
 
