@@ -7,8 +7,11 @@ solution: Marketing Cloud,Analytics
 title: 配置方法
 topic: Developer and implementation
 uuid: 663aeb6c-1b97-4a3a-8c0e-dd4c2ec28c01
-translation-type: ht
-source-git-commit: dae60a21286edc28c84b7638da214b824abf0cd3
+translation-type: tm+mt
+source-git-commit: c198ae57b05f8965a8e27191443ee2cd552d6c50
+workflow-type: tm+mt
+source-wordcount: '985'
+ht-degree: 100%
 
 ---
 
@@ -248,8 +251,8 @@ source-git-commit: dae60a21286edc28c84b7638da214b824abf0cd3
         super.onResume()
         // assume being called in an Activity class Config.collectLifecycleData(this);
         } 
-        ```
-      
+      ```
+
 * **pauseCollecting&#x200B;LifecycleData**
 
    * 指示 SDK 您的应用程序已暂停，以便正确计算生命周期量度。例如，`onPause` 会收集一个时间戳，以确定上一个会话长度。此方法还会设置一个标志，以便生命周期知晓应用程序并没有崩溃。有关更多信息，请参阅[生命周期量度](/help/android/metrics.md)。
