@@ -1,14 +1,17 @@
 ---
 description: 以下说明可帮助您对使用基于设备指纹的营销链接的客户获取促销活动进行往返测试。
-keywords: Android;库;移动;SDK
+keywords: android;library;mobile;sdk
 seo-description: 以下说明可帮助您对使用基于设备指纹的营销链接的客户获取促销活动进行往返测试。
 seo-title: 测试营销链接客户获取
 solution: Marketing Cloud,Analytics
 title: 测试营销链接客户获取
-topic: 开发人员和实施
+topic: Developer and implementation
 uuid: 69503e01-182d-44c6-b0fb-e1c012ffa3bd
-translation-type: ht
-source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
+translation-type: tm+mt
+source-git-commit: c64e2fa7cee3cd35c4574e5007406b7604c99499
+workflow-type: tm+mt
+source-wordcount: '562'
+ht-degree: 94%
 
 ---
 
@@ -33,7 +36,8 @@ source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
 
    您应会在 JSON 响应中看到 contextData：
 
-   ```js{"fingerprint":"bae91bb778f0ad52e37f0892961d06ac6a5c935b","endCallbacks":["***"],"timestamp":1464301217,"appguid":"da120731d6c09658b82d8fac78da1d5fc2d09c48e21b3a55f9e2d7344e08425d","contextData":
+   ```js
+   {"fingerprint":"bae91bb778f0ad52e37f0892961d06ac6a5c935b","endCallbacks":["***"],"timestamp":1464301217,"appguid":"da120731d6c09658b82d8fac78da1d5fc2d09c48e21b3a55f9e2d7344e08425d","contextData":
    {"a.launch.campaign.trackingcode":"twdf4546","a.referrer.campaign.name":"iOS Demo","a.referrer.campaign.trackingcode":"twdf4546"}
    ,"adobeData":{"unique_id":"8c14098d7c79e8a180c15e4b2403549d3cc21ea8","deeplinkid":"57477650072932ec6d3a470f"}}
    ```
@@ -81,7 +85,7 @@ source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
 
    * `Analytics - Acquisition referrer timed out`
 
-      无法在 `referrerTimeout` 定义的时间内获取响应。请增加值，然后重试。您还应确保在安装应用程序之前打开客户获取链接，并且在单击 URL 和打开应用程序时，使用的是同一个网络。
+      无法在 `referrerTimeout` 定义的时间内获取响应。请增加值，然后重试。您还应确保在安装应用程序之前已打开客户获取链接，并且在单击URL并打开应用程序时，您使用的网络相同。
 
 请牢记以下信息：
 
