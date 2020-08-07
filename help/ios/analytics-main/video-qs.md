@@ -4,10 +4,13 @@ seo-description: 以下是有关使用里程碑视频测量在 iOS 中测量视�
 seo-title: Video Analytics
 solution: Marketing Cloud,Analytics
 title: Video Analytics
-topic: 开发人员和实施
+topic: Developer and implementation
 uuid: d75fa415-78f6-4f50-a563-76949f040138
-translation-type: ht
-source-git-commit: 1c387b063eedb41a52e044dc824df6a51f173ad2
+translation-type: tm+mt
+source-git-commit: c64e2fa7cee3cd35c4574e5007406b7604c99499
+workflow-type: tm+mt
+source-wordcount: '952'
+ht-degree: 79%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 1c387b063eedb41a52e044dc824df6a51f173ad2
 >
 >在视频播放过程中，会向此服务发送频繁的“心率”调用，以测量播放的时间。这些心率调用每 10 秒发送一次，从而生成精细的视频参与量度和更准确的视频流失报表。有关更多信息，请参阅[在 Adobe Analytics 中测量音频和视频](https://docs.adobe.com/content/help/zh-Hans/media-analytics/using/media-overview.html)。
 
-在所有平台中，测量视频的常规过程都非常相似。本文中的内容提供了开发人员任务的基本概述以及代码示例。
+衡量视频的一般过程在所有平台上都非常相似。 此内容通过代码示例提供开发人员任务的基本概述。
 
 ## 将播放器事件映射到 Analytics 变量 {#section_E84987F878AB4A3A83AE700FEC4C9D4D}
 
@@ -28,17 +31,17 @@ source-git-commit: 1c387b063eedb41a52e044dc824df6a51f173ad2
 
 * **a.media.name**
 
-   （必需）当访客以某种方式查看视频时，收集在实施中指定的视频名称。您可以为此变量添加分类。
+   （必需）当访客以某种方式视图视频时，按照实现中指定的方式收集视频的名称。 您可以为此变量添加分类。
 
-   （可选）自定义分析变量提供视频路径信息。
+   （可选）Custom Insight变量提供视频路径信息。
 
    * 变量类型：eVar
    * 默认过期：访问
-   * 自定义分析（s.prop，用于视频路径）
+   * Custom Insight（s.prop，用于视频寻路）
 
 * **a.media.name**
 
-   （可选）提供视频路径信息。此变量的路径必须由客户关怀团队来启用。
+   （可选）提供视频路径信息。客户关怀部门必须为此变量启用路径。
 
    * 变量类型：自定义分析 (s.prop)
    * 事件类型：自定义分析 (s.prop)
@@ -47,12 +50,13 @@ source-git-commit: 1c387b063eedb41a52e044dc824df6a51f173ad2
 
    （必需）收集视频区段数据，包括区段名称以及区段在视频中出现的顺序。此变量在自动跟踪播放器事件时通过启用 `segmentByMilestones` 变量来填充，或在手动跟踪播放器事件时通过设置自定义区段名称来填充。例如，当访客查看视频中的第一个区段时，SiteCatalyst 可能会在 `1:M:0-25` 区段 eVar 中收集以下信息。
 
-   默认视频数据收集方法在以下时间点收集数据：
+   默认的视频数据收集方法在以下点收集数据：
 
    * 视频开始（播放）
-   * 区段开始
+   * 段开始
    * 视频结束（停止）
-   当访客开始观看时，Analytics 会在第一个区段开始时计数第一个区段查看次数。后续区段查看次数会在相应区段开始时进行计数。
+
+   Analytics会在视图开始观看时，在区段的访客计算第一个区段开始。 当分部开始时，后续分部视图。
 
    * 变量类型：eVar
    * 默认过期：页面查看
@@ -60,7 +64,7 @@ source-git-commit: 1c387b063eedb41a52e044dc824df6a51f173ad2
 
 * **a.contentType**
 
-   收集访客查看的内容类型相关数据。由视频测量发送的点击量将被分配内容类型 `video`。此变量不需要专门为视频跟踪而进行保留。通过使用此变量让其他内容报告内容类型，您可以分析访客在不同内容类型之间的分布。例如，您可以使用此变量通过“article”或“product page”之类的值标记其他内容类型。从视频测量的角度来看，内容类型使您能够识别视频访客，并计算视频转化率。
+   收集访客查看的内容类型相关数据。Hits sent by video measurement are assigned a content type of `video`. This variable does not need to be reserved exclusively for video tracking. 通过使用此相同变量生成其他内容报告内容类型，您可以分析不同类型内容中访客的分布。 例如，您可以使用此变量通过“article”或“product page”之类的值标记其他内容类型。从视频测量的角度来看，内容类型使您能够识别视频访客，并计算视频转化率。
 
    * 变量类型：eVar
    * 默认过期：页面查看
@@ -74,21 +78,21 @@ source-git-commit: 1c387b063eedb41a52e044dc824df6a51f173ad2
 
 * **a.media.view**
 
-   表明访客已查看了视频的某些部分。但是它并不提供有关访客查看了视频中的多少内容或哪一部分的信息。
+   表明访客已查看了视频的某些部分。但是，它并不提供有关访客查看了视频中的多少内容或哪一部分的信息。
 
    * 变量类型：事件
    * 类型：计数器
 
 * **a.media.segmentView**
 
-   表明访客已查看了视频区段的某些部分。但是它并不提供有关访客查看了视频中的多少内容或哪一部分的信息。
+   表明访客已查看了视频区段的某些部分。但是，它并不提供有关访客查看了视频中的多少内容或哪一部分的信息。
 
    * 变量类型：事件
    * 类型：计数器
 
 * **a.media.complete**
 
-   表明用户已查看了完整的视频。默认情况下，完整的事件会在视频结束前 1 秒进行测量。在实施过程中，您可以指定希望在距离视频结束有多少秒时被视为查看完成。对于直播视频和没有定义结尾的其他视频流，您可以指定一个自定义时间点来测量完成，例如，在查看了特定时间之后进行测量。
+   表明用户已查看了完整的视频。默认情况下，完整的事件会在视频结束前 1 秒进行测量。在实施过程中，您可以指定希望在距离视频结束有多少秒时被视为查看完成。对于实时视频和其他没有定义结尾的流，您可以指定一个自定义点来度量完成，例如，在查看特定时间后。
 
    * 变量类型：事件
    * 类型：计数器
