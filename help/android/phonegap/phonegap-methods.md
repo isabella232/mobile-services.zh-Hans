@@ -7,11 +7,11 @@ solution: Marketing Cloud,Analytics
 title: PhoneGap 插件方法
 topic: Developer and implementation
 uuid: bc3db9ce-81b7-45ec-88aa-6020c1db5d9c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c198ae57b05f8965a8e27191443ee2cd552d6c50
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1569'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -96,7 +96,7 @@ ht-degree: 97%
 
    返回自动生成的访客标识符。
 
-   这是应用程序特定的唯一访客ID，最初启动应用程序时生成，并从该点存储和使用。 此ID在应用程序升级期间保留，在卸载应用程序时删除。
+   这是在初始启动应用程序时生成的特定于应用程序的唯一访客 ID，并从那时起被保存和使用。这个 ID 在应用程序升级期间仍会保留，并在应用程序卸载后删除。
 
    >[!TIP]
    >
