@@ -7,11 +7,11 @@ solution: Marketing Cloud,Analytics
 title: Analytics 方法
 topic: Developer and implementation
 uuid: ac7c640e-9dcc-4724-b561-019cc025d5a7
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c198ae57b05f8965a8e27191443ee2cd552d6c50
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '740'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -66,7 +66,7 @@ SDK 当前支持多个 Adobe Experience Cloud 解决方案，包括 Analytics、
 * **getTrackingIdentifier**
 返回自动为 Analytics 生成的访客标识符。
 
-   这是特定于应用程序的唯一访客ID，在初始启动时生成，从该点开始存储和使用。 该ID将在应用程序升级期间保留，并在卸载应用程序时删除。
+   这是在初始启动时生成的特定于应用程序的唯一访客 ID，并从那时起被保存和使用。这个 ID 在应用程序升级期间仍会保留，并在应用程序卸载后删除。
 
    * 以下是此方法的语法：
 
@@ -266,7 +266,7 @@ SDK 当前支持多个 Adobe Experience Cloud 解决方案，包括 Analytics、
 
    如果 SDK 已收集反向链接数据，调用此方法将导致不执行任何操作。
 
-   有关如何检索反向链接 URL 的信息，请参阅 Google 文档：https://developer.android.com/google/play/installreferrer/library。
+   有关如何检索反向链接 URL 的信息，请参阅 Google 文档：https://developer.android.com/google/play/installreferrer/library
 
    * 以下是此方法的语法：
 
