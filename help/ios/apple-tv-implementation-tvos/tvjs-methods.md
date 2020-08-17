@@ -6,11 +6,11 @@ solution: Marketing Cloud,Analytics
 title: TVJS 方法
 topic: Developer and implementation
 uuid: a7bfa85a-0d6e-4f51-9a9e-70429c2a9806
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c198ae57b05f8965a8e27191443ee2cd552d6c50
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2013'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 84%
 
 * **privacyStatus**
 
-   返回当前用户隐私状态枚举的NSUInteger表示形式。
+   返回当前用户隐私状态枚举的 NSUInteger 表示形式。
 
    以下是选项：
 
@@ -222,7 +222,7 @@ ht-degree: 84%
          * 页面状态名称
       * 参数：`contextData`
          * 类型：对象
-         * 此点击的其他上下文数据。
+         * 这个点击的其他上下文数据。
    * 以下是此方法的代码示例：
 
       ```objective-c
@@ -248,7 +248,7 @@ ht-degree: 84%
          * 要跟踪的操作的名称。
       * 参数：`contextData`
          * 类型：对象
-         * 此点击的其他上下文数据。
+         * 这个点击的其他上下文数据。
    * 以下是此方法的代码示例：
 
       ```objective-c
@@ -271,14 +271,14 @@ ht-degree: 84%
 
       * 返回：不适用
       * 参数：`lat`
-         * 类型：数字
+         * 类型：数值
          * 位置的纬度。
       * 参数：`lon`
-         * 类型：数字
+         * 类型：数值
          * 位置的经度。
       * 参数：`contextData`
          * 类型：对象
-         * 此点击的其他上下文数据。
+         * 这个点击的其他上下文数据。
    * 以下是此方法的代码示例：
 
       ```objective-c
@@ -300,8 +300,8 @@ ht-degree: 84%
 
       * 返回：不适用
       * 参数：`increaseAmount`
-         * 类型：数字
-         * 添加到用户当前生存期值的金额。
+         * 类型：数值
+         * 添加到用户当前生命周期值中的数量。
    * 以下是此方法的代码示例：
 
       ```objective-c
@@ -326,10 +326,10 @@ ht-degree: 84%
       * 返回：不适用
       * 参数：`name`
          * 类型：字符串
-         * 正在启动的定时操作的名称。
+         * 将要启动的定时操作的名称。
       * 参数：`contextData`
          * 类型：对象
-         * 此点击的其他上下文数据。
+         * 这个点击的其他上下文数据。
    * 以下是此方法的代码示例：
 
       ```objective-c
@@ -339,9 +339,9 @@ ht-degree: 84%
 
 * **trackTimedActionUpdateData**
 
-   传入数据以更新与给定操作关联的上下文数据。
+   传入数据，以更新与给定操作关联的上下文数据。
 
-   传入的数据将附加到给定操作的现有数据中，如果同一密钥已经为操作定义，则数据将被覆盖。
+   传入的数据将附加到给定操作的现有数据中，如果已经为该操作定义了相同的键，则会覆盖此数据。
 
    >[!TIP]
    >
@@ -356,10 +356,10 @@ ht-degree: 84%
       * 返回：不适用
       * 参数：`name`
          * 类型：字符串
-         * 正在更新的定时操作的名称。
+         * 要更新的定时操作的名称。
       * 参数：`contextData`
          * 类型：对象
-         * 此点击的其他上下文数据。
+         * 这个点击的其他上下文数据。
    * 以下是此方法的代码示例：
 
       ```objective-c
@@ -372,7 +372,7 @@ ht-degree: 84%
 
    结束定时操作。
 
-   如果提供回调函数，则可以访问最终时间值。 如果未提供回调，或该回调返回true，则AdobeSDK会自动发送点击。 当从回调返回 false 时，将禁止定时操作点击。
+   如果提供回调函数，则可以访问最终的时间值。如果未提供回调，或者如果该回调返回 true，Adobe SDK 则会自动发送一个点击。当从回调返回 false 时，将禁止定时操作点击。
 
    * 以下是此方法的语法：
 
@@ -427,7 +427,7 @@ ht-degree: 84%
 
    返回自动生成的访客标识符。
 
-   这是由访客服务器生成的特定于应用程序的唯一AdobeID。 如果在生成时无法访问Adobe的服务器，则ID将使用Apple的CFUUID生成。 该值在初始启动时生成，并从该点存储和使用。 此ID在应用程序升级期间保留，在标准应用程序备份过程中保存并恢复，在卸载应用程序时删除。
+   这是由 Adobe 服务器生成的特定于应用程序的唯一访客 ID。如果生成期间无法访问 Adobe 服务器，则使用 Apple 的 CFUUID 来生成访客 ID。这个值是在初始启动时生成的，并从那时起被保存和使用。这个 ID 在应用程序升级期间仍会保留，在标准应用程序备份过程中保存并恢复，并在应用程序卸载后删除。
 
    >[!TIP]
    >
@@ -603,10 +603,10 @@ ht-degree: 84%
 
       * 参数：`traits`
          * 类型：对象
-         * 此用户的特征字典。
+         * 此用户的特征词典。
       * 参数：`callback`
-         * 类型：函数(用户档案)
-         * 从回调函数参数中的用户档案返回的Audience Manager。
+         * 类型：函数（用户资料）
+         * 在回调函数的参数中，从 Audience Manager 返回的用户资料。
    * 以下是此方法的代码示例：
 
       ```objective-c
@@ -660,7 +660,7 @@ ht-degree: 84%
 
 * **visitorSyncIdentifiers**
 
-   除了Experience CloudID之外，您还可以设置要与每个访客关联的其他客户ID。 访客 API 接受同一访客具有多个客户 ID，并且使用客户类型标识符区分不同客户 ID 的适用范围。此方法对应于 JavaScript 库中的 setCustomerIDs。
+   除了 Experience Cloud ID 之外，您还可以设置要与每个访客关联的其他客户 ID。访客 API 接受同一访客具有多个客户 ID，并且使用客户类型标识符区分不同客户 ID 的适用范围。此方法对应于 JavaScript 库中的 setCustomerIDs。
 
    * 以下是此方法的语法：
 
