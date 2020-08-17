@@ -7,11 +7,11 @@ solution: Marketing Cloud,Analytics
 title: 添加新应用程序
 topic: Metrics
 uuid: 706b5e4d-1318-4a9e-8c69-ffabf51fa02c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c198ae57b05f8965a8e27191443ee2cd552d6c50
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '710'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 95%
 
    指定将在 Adobe Analytics 中收集和存储报表数据的报表包。每个应用程序都与一个 Analytics 报表包相连接。如果您将应用程序数据发送到多个报表包，请为每个报表包添加一个新应用程序。每个应用程序都与一个 Analytics 报表包相连接。如果您将应用程序数据发送到多个报表包，请为每个报表包添加一个新应用程序。
 
-   如果您在 Adobe Mobile 中获得了 Analytics 管理员权限，则可以在 Adobe Mobile 中创建新的报表包。要创建新报表包，请选择&#x200B;**[!UICONTROL 新建报表包]**，然后在以下字段中键入相应信息：
+   如果您在 Adobe Mobile 中获得了 Analytics 管理员权限，则可以在 Adobe Mobile 中创建新的报表包。要新建报表包，请选择&#x200B;**[!UICONTROL 新建报表包]**，然后在以下字段中键入相应信息：
 
    * **[!UICONTROL 报表包 ID]**
 
@@ -72,13 +72,13 @@ ht-degree: 95%
 
    * **[!UICONTROL 类型]**
 
-      从下拉列表中选择类型。 左侧导航菜单中显示的可用报告因您选择的应用程序类型而异。
+      从下拉列表中选择一种类型。左侧导航菜单中显示的可用报表，因您选择的应用程序类型而异。
 
-      以下是可用类型：
+      下面显示了可用的类型：
 
-      * **[!UICONTROL 标准实施]**
+      * **[!UICONTROL 标准]**
 
-         您可以保留已为大多数应用程序选择的&#x200B;**[!UICONTROL 标准}**&#x200B;选项。
+         您可以保留已为大多数应用程序选择的 **[!UICONTROL 标准}** 选项。
 
       * **[!UICONTROL 出版物]**
 
