@@ -7,11 +7,11 @@ solution: Marketing Cloud,Analytics
 title: 移动量度和维度参考
 topic: Metrics
 uuid: 96170ae7-8553-4f3e-ae01-65e5b664adf4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c198ae57b05f8965a8e27191443ee2cd552d6c50
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '637'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -53,14 +53,14 @@ ht-degree: 94%
 
 * **启动次数**
 
-   在除安装或升级以外的任何情况下运行时触发。当应用程序移出后台时也会触发该事件。默认情况下，如果应用程序在后台的时间达到或超过五分钟，则会触发一个新的启动。可以在“管理应用程序设置”页面的 **[!UICONTROL SDK Analytics 选项]**&#x200B;中，配置触发新的启动之前应用程序在后台运行的时长。有关更多信息，请参阅[配置 SDK Analytics 选项](/help/using/c-manage-app-settings/c-mob-confg-app/t-config-analytics/t-config-analytics.md)中的“会话超时（秒）”**&#x200B;行。
+   在除安装或升级以外的任何情况下运行时触发。当应用程序移出后台时也会触发该事件。默认情况下，如果应用程序在后台的时间达到或超过五分钟，则会触发一个新的启动。可以在“管理应用程序设置”页面的 **[!UICONTROL SDK Analytics 选项]**&#x200B;中，配置触发新的启动之前应用程序在后台的时长。有关更多信息，请参阅[配置 SDK Analytics 选项](/help/using/c-manage-app-settings/c-mob-confg-app/t-config-analytics/t-config-analytics.md)中的“会话超时（秒）”**&#x200B;行。
 
    >[!IMPORTANT]
    >由于计算 [!UICONTROL Adobe Analytics] 中访问次数和 [!UICONTROL Adobe Mobile Services] 中移动设备应用程序启动次数的方式，您可能会在报表中看到不同的结果。有关更多信息，请参阅[比较查看次数和移动设备应用程序启动次数](https://helpx.adobe.com/cn/analytics/kb/compare-visits-and-mobile-app-launches.html)。
 
 * **崩溃**
 
-   当应用程序无法正确退出时触发。 应用程序在崩溃后开始时发送此事件。
+   当应用程序无法正确退出时触发。应用程序在崩溃后启动时会发送此事件。
 
    >[!TIP]
    >如果未调用退出，则视为应用程序发生崩溃。
@@ -75,7 +75,7 @@ ht-degree: 94%
 
 * **安装日期**
 
-   安装后首次启动的日期。 日期采用 *MM/DD/YYYY格式* 。
+   安装后首次启动的日期。日期采用 *YYYY/MM/DD* 格式。
 
 * **应用程序 ID**
 
