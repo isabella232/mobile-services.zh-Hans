@@ -7,11 +7,11 @@ solution: Marketing Cloud,Analytics
 title: PhoneGap 插件方法
 topic: Developer and implementation
 uuid: bd830fe5-804a-4d0a-bbb6-99a6d8da6a03
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c198ae57b05f8965a8e27191443ee2cd552d6c50
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1730'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -90,7 +90,7 @@ ht-degree: 96%
 
 * **trackingIdentifier**
 
-   返回自动生成的访客标识符。这是应用程序特定的唯一访客ID，最初启动应用程序时生成，从该点开始存储和使用。 此ID在应用程序升级期间保留，在卸载应用程序时删除。
+   返回自动生成的访客标识符。这是在初始启动应用程序时生成的特定于应用程序的唯一访客 ID，并从那时起被保存和使用。这个 ID 在应用程序升级期间仍会保留，并在应用程序卸载后删除。
 
    >[!TIP]
    >
@@ -325,7 +325,7 @@ ht-degree: 96%
 
 * **trackActionFromBackground**
 
-   跟踪在后台发生的操作。 这抑制了在某些情况下触发生命周期事件。
+   跟踪在后台发生的操作。在某些情况下，这会阻止触发生命周期事件。
 
    * 以下是此方法的语法：
 
