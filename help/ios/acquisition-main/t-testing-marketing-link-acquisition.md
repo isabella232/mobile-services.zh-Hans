@@ -7,11 +7,11 @@ solution: Marketing Cloud,Analytics
 title: 测试营销链接客户获取
 topic: Developer and implementation
 uuid: 69503e01-182d-44c6-b0fb-e1c012ffa3bd
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c64e2fa7cee3cd35c4574e5007406b7604c99499
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '562'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -85,7 +85,7 @@ ht-degree: 94%
 
    * `Analytics - Acquisition referrer timed out`
 
-      无法在 `referrerTimeout` 定义的时间内获取响应。请增加值，然后重试。您还应确保在安装应用程序之前已打开客户获取链接，并且在单击URL并打开应用程序时，您使用的网络相同。
+      无法在 `referrerTimeout` 定义的时间内获取响应。请增加值，然后重试。您还应该确保：先打开客户获取链接，然后再安装应用程序；以及在单击 URL 和打开应用程序时，使用的是同一网络。
 
 请牢记以下信息：
 
