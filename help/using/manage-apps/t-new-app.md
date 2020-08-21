@@ -7,11 +7,11 @@ solution: Marketing Cloud,Analytics
 title: 添加新应用程序
 topic: Metrics
 uuid: 706b5e4d-1318-4a9e-8c69-ffabf51fa02c
-translation-type: ht
-source-git-commit: c198ae57b05f8965a8e27191443ee2cd552d6c50
-workflow-type: ht
-source-wordcount: '710'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 7ae626be4d71641c6efb127cf5b1d3e18fccb907
+workflow-type: tm+mt
+source-wordcount: '709'
+ht-degree: 98%
 
 ---
 
@@ -78,7 +78,7 @@ ht-degree: 100%
 
       * **[!UICONTROL 标准]**
 
-         您可以保留已为大多数应用程序选择的 **[!UICONTROL 标准}** 选项。
+         You can leave the **[!UICONTROL Standard]** option selected for most apps.
 
       * **[!UICONTROL 出版物]**
 
