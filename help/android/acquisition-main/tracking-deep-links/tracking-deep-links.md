@@ -1,14 +1,17 @@
 ---
 description: 您可以使用此信息通过 Adobe Mobile Android SDK 在移动设备应用程序中跟踪深层链接和延期深层链接。
-keywords: Android;库;移动;SDK
+keywords: android;library;mobile;sdk
 seo-description: 您可以使用此信息通过 Adobe Mobile Android SDK 在移动设备应用程序中跟踪深层链接和延期深层链接。
 seo-title: 在 Adobe Mobile Services 中跟踪深层链接
 solution: Marketing Cloud,Analytics
 title: 跟踪深层链接
-topic: 开发人员和实施
+topic: Developer and implementation
 uuid: ebb1c08c-a246-40b3-9ac6-4606a14b4c5a
-translation-type: ht
-source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
+translation-type: tm+mt
+source-git-commit: 7ae626be4d71641c6efb127cf5b1d3e18fccb907
+workflow-type: tm+mt
+source-wordcount: '330'
+ht-degree: 88%
 
 ---
 
@@ -42,7 +45,7 @@ source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
    }
    ```
 
-Adobe Mobile SDK 可以解析附加到任何深层链接或通用链接的数据键值对，前提是这些链接包含带有 `a.deeplink.id` 标签的键，且其对应的值是用户生成的非空值。附加到链接的数据的所有键值对都将进行解析，附加到生命周期点击，然后发送到 Adobe Analytics，前提是该链接包含 `a.deeplink.id` 键和值。
+The Adobe Mobile SDK can parse key and value pairs of data that is appended to any Deep or Universal Link as long as the link contains a key with the `a.deeplink.id` label and a corresponding non-null and user-generated value. 附加到链接的数据的所有键值对都将进行解析，附加到生命周期点击，然后发送到 Adobe Analytics，前提是该链接包含 `a.deeplink.id` 键和值。
 
 此外，您还可以将以下一个或多个保留键（具有用户生成的值）附加到深层链接或通用链接：
 
@@ -56,7 +59,7 @@ Adobe Mobile SDK 可以解析附加到任何深层链接或通用链接的数据
 
 ## 跟踪延期深层链接（与营销链接一起使用）
 
-通过延期深层链接，Adobe SDK 将打开一个新意图并使用该深层链接作为意图数据。此过程将作为外部深层链接使用上述代码来处理。
+借助延期深层链接，Adobe SDK 将会打开一个新的“意图”，且深层链接作为意图数据。使用上述代码，将此进程作为外部深层链接处理。
 
 ## 深层链接公用信息 {#section_1815396353614DA8A63D8D92112217E7}
 
