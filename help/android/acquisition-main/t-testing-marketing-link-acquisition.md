@@ -1,14 +1,17 @@
 ---
 description: 以下说明可帮助您对 Android 设备上使用营销链接的客户获取促销活动进行往返测试。
-keywords: Android;库;移动;SDK
+keywords: android;library;mobile;sdk
 seo-description: 以下说明可帮助您对 Android 设备上使用营销链接的客户获取促销活动进行往返测试。
 seo-title: 测试营销链接客户获取
 solution: Marketing Cloud,Analytics
 title: 测试营销链接客户获取
-topic: 开发人员和实施
+topic: Developer and implementation
 uuid: d0933dcc-8fc3-4f60-987f-7a54559aacf5
-translation-type: ht
-source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
+translation-type: tm+mt
+source-git-commit: 7ae626be4d71641c6efb127cf5b1d3e18fccb907
+workflow-type: tm+mt
+source-wordcount: '763'
+ht-degree: 78%
 
 ---
 
@@ -17,12 +20,12 @@ source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
 
 以下说明可帮助您对 Android 设备上使用营销链接的客户获取促销活动进行往返测试。
 
-如果 Google Play 中尚未提供您的移动设备应用程序，则在创建营销链接时，可以选择任何移动设备应用程序作为目标。这只会影响在您单击客户获取链接后客户获取服务器将您重定向到的应用程序，而不会影响测试客户获取链接的功能。查询字符串参数将传递到 Google Play 商店，进而作为促销活动广播的一部分在安装时传递到应用程序。移动设备应用程序客户获取往返测试需要模拟此类型的广播。
+如果 Google Play 中尚未提供您的移动设备应用程序，则在创建营销链接时，可以选择任何移动设备应用程序作为目标。这仅影响在您单击客户获取链接后客户获取服务器将您重定向到的应用程序，而不影响测试客户获取链接的能力。 查询字符串参数将传递到Google Play商店，作为活动广播的一部分在安装时传递到应用程序。 往返移动应用程序客户获取测试需要此类广播的模拟。
 
 每次运行测试时，必须全新安装应用程序，或清除&#x200B;**[!UICONTROL 设置]**&#x200B;中的数据。这可以确保在首次启动应用程序时发送与促销活动查询字符串参数关联的初始生命周期量度。
 
 1. 完成[移动设备应用程序客户获取](/help/android/acquisition-main/acquisition.md)中的先决任务，并确保已正确实现了 `INSTALL_REFERRER` 的广播接收器。
-1. 在 Adobe Mobile Services 用户界面中，单击&#x200B;**[!UICONTROL 客户获取]** &gt; **[!UICONTROL 营销链接生成器]**，并生成一个客户获取营销链接 URL，以将 Google Play 设置为 Android 设备的目标。
+1. 在 Adobe Mobile Services 用户界面中，单击&#x200B;**[!UICONTROL 客户获取]** > **[!UICONTROL 营销链接生成器]**，并生成一个客户获取营销链接 URL，以将 Google Play 设置为 Android 设备的目标。
 
    有关更多信息，请参阅[营销链接生成器](/help/using/acquisition-main/c-marketing-links-builder/c-marketing-links-builder.md)。
 
@@ -70,7 +73,7 @@ source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
    | 设置 | 值 |
    |--- |--- |
    | acquisition | 服务器应为 `c00.adobe.com`，且 *`appid`* 应等于您的客户获取链接中的相应 `appid`。 |
-   | analytics | 出于测试目的，请设置反向链接超时以允许有足够的时间（60 秒或更多）手动发送广播。您可以在测试后恢复原始超时设置。 |
+   | analytics | 为了进行测试，请设置推荐人超时，以留出足够的时间（60秒或更长）来手动发送广播。 测试后，可以恢复原始超时设置。 |
 
 1. 将设备连接到计算机，然后卸载并重新安装应用程序。
 1. 启动 ADB Shell，然后在设备上启动应用程序。
@@ -105,9 +108,9 @@ source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
    "Analytics - Received Referrer Data(<A JSON Response>)"
    ```
 
-   如果您没有看到这些日志，请确认您已执行完步骤 6 到 10。
+   如果看不到这些日志，请验证您是否已完成执行步骤6到10。
 
-   下表包含其他可能出现的错误相关信息：
+   下表包含有关可能错误的其他信息：
 
    | 错误 | 描述 |
    |--- |--- |
@@ -115,11 +118,11 @@ source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
    | Analytics - Unable to parse response (`a JSON Response`). | JSON 字符串的格式错误。 |
    | Analytics - Unable to parse acquisition service response (no `contextData` parameter in response). | 响应中没有 `contextData` 参数。 |
    | Analytics - Acquisition referrer data was not complete (no `a.referrer.campaign.name` in context data), ignoring. | contextData 中未包含 `a.referrer.campaign.name`。 |
-   | Analytics - Acquisition referrer timed out. | 无法在 `referrerTimeout` 定义的时间内获取响应。请增加值，然后重试。您还应该确保在安装应用程序之前，已经打开客户获取链接。 |
+   | Analytics - Acquisition referrer timed out. | 无法在 `referrerTimeout` 定义的时间内获取响应。请增加值，然后重试。您还应确保在安装应用程序之前已打开客户获取链接。 |
 
 请牢记以下信息：
 
-* 可以使用 HTTP 监控工具监控从应用程序发送的点击，以验证客户获取归因。
+* 通过使用HTTP监视工具验证客户获取归因，可以监视从应用程序发送的点击。
 * 有关如何广播 `INSTALL_REFERRER` 的更多信息，请参阅《Google 开发人员指南》中的 [Testing Google Play Campaign Measurement](https://developers.google.com/analytics/solutions/testing-play-campaigns)（测试 Google Play 促销活动测量）。
 * 您可以使用提供的 `acquisitionTest.jar` Java 工具来帮助获取唯一 ID 和广播安装反向链接，这反过来也可以帮助您获取步骤 3 至 10 中的信息。
 
@@ -128,9 +131,9 @@ source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
 要安装 Java 工具，请执行以下操作：
 
 1. 下载 [`acquistionTester.zip`](../assets/acquisitionTester.zip) 文件。
-1. 提取 .jar 文件。
+1. 解压。jar文件。
 
-   您可以在命令行中运行该 .jar 文件。
+   可以在命令行运行。jar文件。
 
 例如：
 
