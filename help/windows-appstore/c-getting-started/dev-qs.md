@@ -1,149 +1,152 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: Developer quick start
+seo-title: 开发人员快速开始
 solution: Marketing Cloud,Analytics
-title: Developer quick start
-topic: 开发人员和实施
+title: 开发人员快速开始
+topic: Developer and implementation
 uuid: b368959b-d985-436e-8b3e-97e355a97951
 translation-type: tm+mt
-source-git-commit: 19264af3f4a675add6f61c27f4cdaf20033b9bb7
+source-git-commit: 7ae626be4d71641c6efb127cf5b1d3e18fccb907
+workflow-type: tm+mt
+source-wordcount: '919'
+ht-degree: 1%
 
 ---
 
 
-# Developer quick start {#developer-quick-start}
+# 开发人员快速开始 {#developer-quick-start}
 
-您将需要 Visual Studio 2013 或更高版本来实施 SDK。
+您需要Visual Studio 2013或更高版本来实施SDK。
 
-## 获取 SDK {#section_99FE1A17A36D4A2C943939023CF6265C}
+## 获取SDK {#section_99FE1A17A36D4A2C943939023CF6265C}
 
-在解压缩[下载的 SDK](https://github.com/Adobe-Marketing-Cloud/mobile-services/releases) 之后，对于每种支持的架构和平台组合，您都会有一个对应的单独文件夹。您还将具有 `ADBMobileConfig.json` 文件，该文件在本指南的后面部分进行了介绍。
+解压缩SDK下 [载后](https://github.com/Adobe-Marketing-Cloud/mobile-services/releases)，您将为每个受支持的架构和平台组合提供一个单独的文件夹。 您还将有一个 `ADBMobileConfig.json` 文件，将在本指南的后面进行说明。
 
-## Select the correct version {#section_E53C5AA7D5474824A89BB32C003865A1}
+## 选择正确的版本 {#section_E53C5AA7D5474824A89BB32C003865A1}
 
-Different `.dll`/ `.winmd` files are provided for each target platform (Windows 8.1, Windows Phone 8.1), and supported architecture (x86, x64, ARM). 这些文件按照以下条件划分到文件夹结构中：
+每个 `.dll`目标 `.winmd` 平台(Windows 8.1、Windows Phone 8.1)以及支持的架构(x86、x64、ARM)提供不同的／文件。 根据以下规定，将文件分为文件夹结构：
 
 ![](assets/folder-structure.png)
 
 >[!IMPORTANT]
 >
->The version of `ADBMobile.winmd` does not reflect the version of the library. The `.winmd` file contains metadata only, and as such will have a version number of `255.255.255.255` which is accepted behavior according to Microsoft (see [How do I add assembly information for a WinRT C++ / CX component dll?](https://social.msdn.microsoft.com/Forums/windowsapps/en-US/6bcccaee-aa53-4770-bd5b-1205977f1ca7/how-do-i-add-assembly-information-for-a-winrt-c-cx-component-dll?forum=winappswithnativecode)）。To check the version of the library you are using, check the version of the underlying `ADBMobile.dll` file.
+>版本不 `ADBMobile.winmd` 反映库的版本。 文 `.winmd` 件仅包含元数据，因此将具有根据Microsoft `255.255.255.255` 可接受的行为的版本号(请参阅 [如何为WinRT C++ / CX组件dll添加程序集信息？](https://social.msdn.microsoft.com/Forums/windowsapps/en-US/6bcccaee-aa53-4770-bd5b-1205977f1ca7/how-do-i-add-assembly-information-for-a-winrt-c-cx-component-dll?forum=winappswithnativecode))。要检查您所使用的库的版本，请检查基础文件的版 `ADBMobile.dll` 本。
 
-## Syntax differences {#section_A02DE120B6D240F5AFFE7509755C4F14}
+## 语法差异 {#section_A02DE120B6D240F5AFFE7509755C4F14}
 
-Windows 8.1 通用应用商店库可用于多种编程语言。本指南中的示例采用的是 WinJS (JavaScript)，如果您使用其他语言，则可能需要进行修改。请注意，在使用 winJS (JavaScript) 中的 winmd 方法时，所有方法均自动将其第一个字母小写。
+Windows 8.1 Universal App Store库可用于多种编程语言。 本指南中的示例在WinJS(JavaScript)中，如果您使用的是其他语言，则可能需要修改。 请注意，当您使用winJS(JavaScript)中的winmd方法时，所有方法都会自动将其第一个字母小写。
 
-不同实施之间的主要差别在于上下文数据所使用的数据结构。
+实现之间的主要区别是用于上下文数据的数据结构。
 
-Additionally, when using the SDK in a WinJS project, use an empty string ( `""` or `''`) instead of `null` for empty string values.
+此外，在WinJS项目中使用SDK时，请使用空字符串( `""` 或 `''`)而不 `null` 是空字符串值。
 
-## Add the library and config file to your project - C Sharp {#section_93C25D893B4A4CD3B996CF3C5590C8DC}
+## 将库和配置文件添加到项目- C Sharp {#section_93C25D893B4A4CD3B996CF3C5590C8DC}
 
-1. 启动 Visual Studio 并打开您的解决方案。
-1. In the **Solution Explorer**, right-click **[!UICONTROL References]** and select **[!UIUCONTROL Add Reference]**.
+1. 启动Visual Studio并打开您的解决方案。
+1. 在“解决 **方案浏览器**”中，右键单击“ **[!UICONTROL 引用]** ”，然后选 **[!UIUCONTROL 择“添加引用”]**。
 
-1. Select the correct version of the library and browse to the associated `ADBMobile.winmd` file.
+1. 选择库的正确版本并浏览至关联的 `ADBMobile.winmd` 文件。
 
-   有关详细信息，请参 *阅下面的选择正确版本* 。
+   有关详细信息，请参 *阅下面的选择正确的版* 本部分。
 
-1. Click **[!UICONTROL Add]**.
+1. 单击&#x200B;**[!UICONTROL 添加]**。
 
-1. Verify that `ADBMobile.winmd` is selected in the **[!UICONTROL Reference Manager]** window and click **[!UICONTROL OK]**.
+1. 验证是 `ADBMobile.winmd` 否在“Reference Manager(引用 **[!UICONTROL 管理器)”窗口中选]** 定，然后单 **[!UICONTROL 击“OK（确定）]**”。
 
    >[!NOTE]
    >
-   >在添加对Windows Phone应用程序的引用时，要进行选择， `ADBMobile.winmd`请将默认文件过滤器从“组件文件” **[!UICONTROL 更改为“]** 所有文件” ****。
+   >在添加对Windows Phone应用程序的引用时，要进行选择， `ADBMobile.winmd`请将默认文件过滤器从“组件文 **[!UICONTROL 件”]** 更改为“ **所有文件”**。
 
-1. In the **[!UICONTROL Solution Explorer]**, right-click **[!UICONTROL References]** and select **[!UICONTROL Add Reference]**.
+1. 在“解决 **[!UICONTROL 方案浏览器]**”中，右键单击“ **[!UICONTROL 引用]** ”，然后选 **[!UICONTROL 择“添加引用”]**。
 
-   如果您的解决方案中还有C++项目，请跳过此步骤。
+   如果您的解决方案中还包含C++项目，请跳过此步骤。
 
-1. 在左侧的 **Windows** 选项卡中，选择“扩展” ****，然后选择并添加“ **[!UICONTROL Microsoft Visual C++ 2013 Runtime Package for Windows]**”。
+1. 在左侧 **的** Windows选项卡中，选 **[!UICONTROL 择Extensions]**，然后选择并添 **[!UICONTROL 加“Microsoft Visual C++ 2013 Runtime Package for Windows]**”。
 
-1. 将以下行添加到您的类中：
+1. 将以下代码行添加到您的类中：
 
    ```
    using ADBMobile;
    ```
 
-1. Right-click you your project and select **[!UICONTROL Add]** &gt; **[!UICONTROL Existing Item]**.
+1. 右键单击您的项目，然后选择“添 **[!UICONTROL 加]** ”>“ **[!UICONTROL 现有项目]**”。
 
-1. 浏览到您的文 `ADBMobileConfig.json` 件，然后单击“ **[!UICONTROL 添加”]**。
+1. 浏览至您的 `ADBMobileConfig.json` 文件，然后单 **[!UICONTROL 击“添加]**”。
 
-1. Right-click the `ADBMobileConfig.json` file in your solution and select **[!UICONTROL Properties]**.
+1. 右键单击解决 `ADBMobileConfig.json` 方案中的文件，然后选择 **[!UICONTROL 属性]**。
 
-1. Change **[!UICONTROL Build Action]** to **[!UICONTROL Content]**.
+1. 将“ **[!UICONTROL 构建操作]** ”更 **[!UICONTROL 改为内容]**。
 
 ## Add the library and config file to your project - C++ {#section_A95C1D18F6144F37ADC8F51590F3983E}
 
-1. 启动 Visual Studio 并打开您的解决方案。
-1. In the **[!UICONTROL Solution Explorer]**, right-click your project and select **[!UICONTROL Add]** &gt; **[!UICONTROL References]**.
+1. 启动Visual Studio并打开您的解决方案。
+1. 在“解决 **[!UICONTROL 方案浏览器]**”中，右键单击项目并选 **[!UICONTROL 择“添加]** ” **[!UICONTROL >“]**&#x200B;引用”。
 
-1. Select the correct version of the library and then add a reference to the associated `ADBMobile.winmd` file.
+1. 选择库的正确版本，然后添加对关联文件的引 `ADBMobile.winmd` 用。
 
-   有关详细信息，请参阅 *下面的选择正确版本* 。
+   有关详细信息，请参 *阅下面的选择正确版* 本部分。
 
-1. Click **[!UICONTROL Add]**.
+1. 单击&#x200B;**[!UICONTROL 添加]**。
 
-1. 在“参 **[!UICONTROL 考管理器]** ”(Reference Manager `ADBMobile.winmd` )窗口中，验证是否已选 **[!UICONTROL 中，然后单击“]**&#x200B;确定”(OK)。
+1. 在“Reference Manager **[!UICONTROL (参考管理]** 器)”窗口中 `ADBMobile.winmd` ，验证是否已选 **[!UICONTROL 中，然后单]**&#x200B;击“OK”。
 
    >[!TIP]
    >
-   >在添加对Windows Phone应用程序的引用时，要进行选择， `ADBMobile.winmd`请将默认文件过滤器从“组件文件” **[!UICONTROL 更改为“]** 所有文件” ****。
+   >在添加对Windows Phone应用程序的引用时，要进行选择， `ADBMobile.winmd`请将默认文件过滤器从“组件文 **[!UICONTROL 件”]** 更改为“ **所有文件”**。
 
-1. 将以下行添加到您的类中：
+1. 将以下代码行添加到您的类中：
 
    ```
    using namespace ADMS::Measurement;
    ```
 
-1. Right-click you your project and select **[!UICONTROL Add]** &gt; **[!UICONTROL Existing Item]**.
+1. 右键单击您的项目，然后选择“添 **[!UICONTROL 加]** ”>“ **[!UICONTROL 现有项目]**”。
 
 1. 浏览至文件 `ADBMobileConfig.json` 并单击“添 **[!UICONTROL 加”]**。
 
-1. Right-click the `ADBMobileConfig.json` file in your solution and select **[!UICONTROL Properties]**.
+1. 右键单击解决 `ADBMobileConfig.json` 方案中的文件，然后选择 **[!UICONTROL 属性]**。
 
-1. On the **[!UICONTROL General]** tab, change **[!UICONTROL Content]** to **[!UICONTROL Yes]**, and click **[!UICONTROL OK]**.
+1. 在“常规 **[!UICONTROL ”]** 选项卡上，将“内 **[!UICONTROL 容]****[!UICONTROL ”更]**&#x200B;改为“是 **[!UICONTROL ”，然]**&#x200B;后单击“确定”。
 
 ## Add the library and config file to your project - WinJS {#section_FF83113EBF4742AFA929F4AC28F92DB5}
 
-1. 启动 Visual Studio 并打开您的解决方案。
-1. In the **Solution Explorer**, right-click **[!UICONTROL References]** and select **[!UICONTROL Add Reference**.
+1. 启动Visual Studio并打开您的解决方案。
+1. 在“解决 **方案浏览器**”中，右键单击“ **[!UICONTROL 引用]** ”，然后选 **[!UICONTROL 择“添加引用”]**。
 
-   有关详细信息，请参 *阅下面的选择正确版本* 。
+   有关详细信息，请参 *阅下面的选择正确* 版本部分。
 
-1. Select the correct version of the library and then browse to the associated `ADBMobile.winmd` file.
+1. 选择库的正确版本，然后浏览至关联的 `ADBMobile.winmd` 文件。
 
-1. Click **[!UICONTROL Add]**.
+1. 单击&#x200B;**[!UICONTROL 添加]**。
 
-1. Verify that `ADBMobile.winmd` is checked in the **[!UICONTROL Reference Manager]** window and click **[!UICONTROL OK]**.
+1. 验证是 `ADBMobile.winmd` 否在“Reference Manager(引用 **[!UICONTROL 管理器)”窗口中选中]** ，然后单 **[!UICONTROL 击“OK（确定）]**”。
 
    >[!TIP]
    >
-   >在添加对Windows Phone应用程序的引用时，要进行选择， `ADBMobile.winmd`请将默认文件过滤器从“组件文件” **[!UICONTROL 更改为“]** 所有文件” ****。
+   >在添加对Windows Phone应用程序的引用时，要进行选择， `ADBMobile.winmd`请将默认文件过滤器从“组件文 **[!UICONTROL 件”]** 更改为“ **所有文件”**。
 
-1. In the **[!UICONTROL Solution Explorer]**, right-click **[!UICONTROL References]** and select **[!UICONTROL Add Reference]**.
+1. 在“解决 **[!UICONTROL 方案浏览器]**”中，右键单击“ **[!UICONTROL 引用]** ”，然后选 **[!UICONTROL 择“添加引用”]**。
 
-   如果您的解决方案中还有C++项目，请跳过此步骤。
+   如果您的解决方案中还包含C++项目，请跳过此步骤。
 
-1. 在左侧的 **[!UICONTROL Windows]** 选项卡中，选择“扩展” **** ，然后选择并添加“ **[!UICONTROL Microsoft Visual C++ 2013 Runtime Package for Windows]**”。
+1. 在左侧 **[!UICONTROL 的]** “Windows”选项卡中，选 **[!UICONTROL 择“Extensions]** ” **[!UICONTROL ，然后选择并添]**&#x200B;加“Microsoft Visual C++ 2013 Runtime Package for Windows”。
 
-1. Right-click your project and select **[!UICONTROL Add]** &gt; **[!UICONTROL Existing Item]**.
+1. 右键单击您的项目，然后选择“ **[!UICONTROL 添加]** ”> **[!UICONTROL “现有项目]**”。
 
-1. Browse to the  file and click Add.`ADBMobileConfig.json`****
+1. 浏览至文件 `ADBMobileConfig.json` 并单击“添 **[!UICONTROL 加”]**。
 
-1. Right-click the `ADBMobileConfig.json]` file in your solution and select **[!UICONTROL Properties]**.
+1. 右键单击解决 `ADBMobileConfig.json]` 方案中的文件，然后选择 **[!UICONTROL 属性]**。
 
-1. 选择“ **[!UICONTROL 文件属性]** ”后，确保将“ **[!UICONTROL 包操作]** ”设置为“ **[!UICONTROL 内容”]**。
+1. 选择 **[!UICONTROL “文件属性]** ”，确保将“ **[!UICONTROL 包操作]** ”设置为“ **[!UICONTROL 内容”]**。
 
    对于JavaScript项目，默认情况下将文件设 **[!UICONTROL 置为]** “内容”。
 
-## Update the ADBMobileConfig.json config file {#section_0BC8CC0E4AAD4AC385FA0AEDC3C56AFE}
+## 更新ADBMobileConfig.json配置文件 {#section_0BC8CC0E4AAD4AC385FA0AEDC3C56AFE}
 
-The `ADBMobileConfig.json` file contains global SDK settings, and is located at your project root after you complete the steps in the *Add the Library and Config File to your Project* section. If your `ADBMobileConfig.json` file was not pre-configured by Adobe Mobile Services, you need to update a few values to get started.
+文 `ADBMobileConfig.json` 件包含全局SDK设置，在您完成“将库和配置文件添加到项目”部分中 *的步骤后，该文件位于项目根目录* 。 如果 `ADBMobileConfig.json` AdobeMobile Services未预配置文件，您需要更新一些值才能开始。
 
-以下是 `ADBMobileConfig.json` 文件的示例：
+The following is an example of an `ADBMobileConfig.json` file:
 
 ```js
 { 
@@ -171,26 +174,26 @@ The `ADBMobileConfig.json` file contains global SDK settings, and is located at 
 }
 ```
 
-至少应为您所使用的解决方案更新以下值：
+至少要更新您所使用的解决方案的以下值：
 
 * **分析**: `rsids` 和 `server`
 * **Target**: `clientCode`
 * **受众管理**: `server`
 
-For more details, see [ADBMobileConfig.json config](/help/windows-appstore/c-configuration/methods.md).
+有关详细信息，请 [参阅ADBMobileConfig.json配置](/help/windows-appstore/c-configuration/methods.md)。
 
 ## 调试 {#section_3A10376A60394A15BEE483323E0CD4AA}
 
-如果您要对 SDK 启用调试，则必须调用 `ADBMobile.Config.setDebugLogging(true);`。
+当您要启用SDK调试时，您必须致电 `ADBMobile.Config.setDebugLogging(true);`。
 
-对于C Sharp和JS应用程序，您必须完成以下步骤以启用本机代码调试（本机代码调试是C++应用程序的默认设置）:
+对于C Sharp和JS应用程序，您必须完成以下步骤（本机代码调试是C++应用程序的默认设置）以启用本机代码调试：
 
-### C锐化
+### C Sharp
 
-Right-click the project, select **[!UICONTROL Properties]** &gt; **[!UICONTROL Debug tab]**. 在调试器下拉框中，选择“仅 **[!UICONTROL 本机]**”。
+右键单击项目，选择“属性 **[!UICONTROL ”]** >“调 **[!UICONTROL 试”选项卡]**。 在调试器下拉框中，选择“仅 **[!UICONTROL 本机]**”。
 
 ### JS
 
-Right-click the project, select  **[!UICONTROL Properties]** &gt; **[!UICONTROL Configuration Properties]** &gt; **[!UICONTROL Debug tab]**. 将调试器类型下拉菜单更改为&#x200B;**仅本机**。
+右键单击项目，选择“属 **[!UICONTROL 性]** ”>“ **[!UICONTROL 配置属性]** ” **[!UICONTROL >“调]**&#x200B;试”选项卡。 将调试器类型下拉框更改为“仅 **限本机**”。
 
-就这么简单！您现在便可以在 Windows 8.1 通用应用商店应用程序中实施 Analytics、Target 和受众管理。
+操作完成！现在，您已准备好在Windows 8.1通用App Store应用程序中实施分析、目标和受众管理。
