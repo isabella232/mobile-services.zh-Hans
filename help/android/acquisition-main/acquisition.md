@@ -7,8 +7,11 @@ solution: Marketing Cloud,Analytics
 title: 移动设备应用程序客户获取
 topic: Developer and implementation
 uuid: 4d32eae9-e856-4e40-8a29-2b5bccd106e0
-translation-type: ht
-source-git-commit: 8a25259732a916f977f733cd22971b1d847aae5f
+translation-type: tm+mt
+source-git-commit: 7ae626be4d71641c6efb127cf5b1d3e18fccb907
+workflow-type: tm+mt
+source-wordcount: '876'
+ht-degree: 97%
 
 ---
 
@@ -19,7 +22,7 @@ source-git-commit: 8a25259732a916f977f733cd22971b1d847aae5f
 
 ## 新的 Adobe Experience Platform Mobile SDK 发行版本
 
-查找与 Adobe Experience Platform Mobile SDK 相关的信息和文档？单击[此处](https://aep-sdks.gitbook.io/docs/)可获取最新的文档。
+正在寻找与 Adobe Experience Platform Mobile SDK 相关的信息和文档？请单击[此处](https://aep-sdks.gitbook.io/docs/)获取我们的最新文档。
 
 在 2018 年 9 月，我们发布了一个新的 SDK 主要版本。这些新的 Adobe Experience Platform Mobile SDK 可通过 [Experience Platform Launch](https://www.adobe.com/cn/experience-platform/launch.html) 进行配置。
 
@@ -28,9 +31,9 @@ source-git-commit: 8a25259732a916f977f733cd22971b1d847aae5f
 
 >[!IMPORTANT]
 >
->要使用 Acquisition，您&#x200B;**必须**&#x200B;具有 SDK 版本 4.1 或更高版本。
+>To use Acquisition, you **must** have SDK version 4.1 or later.
 
-客户获取链接必须在 Adobe Mobile Services 中创建。有关更多信息，请参阅[客户获取](/help/using/acquisition-main/acquisition-main.md)。
+必须在Adobe移动服务中创建客户获取链接。 有关更多信息，请参阅[客户获取](/help/using/acquisition-main/acquisition-main.md)。
 
 **在 SDK 版本 4.18.0 及更高版本中**：
 
