@@ -1,20 +1,23 @@
 ---
-description: 生命周期值允许您测量和定位每个 Android 用户的生命周期值。该值可用于存储生命周期购买、广告查看、视频完成、社交分享、照片上载等。
-seo-description: 生命周期值允许您测量和定位每个 Android 用户的生命周期值。该值可用于存储生命周期购买、广告查看、视频完成、社交分享、照片上载等。
+description: 终身价值允许您衡量和目标每个Android用户的终身价值。 该值可用于存储终身购买、广告视图、视频完成、社交共享、照片上传等。
+seo-description: 终身价值允许您衡量和目标每个Android用户的终身价值。 该值可用于存储终身购买、广告视图、视频完成、社交共享、照片上传等。
 seo-title: 访客生命周期值
 solution: Marketing Cloud,Analytics
 title: 访客生命周期值
-topic: 开发人员和实施
+topic: Developer and implementation
 uuid: ba0308de-282e-46f9-a14c-19fb6d5c363e
-translation-type: ht
-source-git-commit: bf076aa8e59d5c3e634fc4ae21f0de0d4541a83f
+translation-type: tm+mt
+source-git-commit: 7ae626be4d71641c6efb127cf5b1d3e18fccb907
+workflow-type: tm+mt
+source-wordcount: '232'
+ht-degree: 52%
 
 ---
 
 
 # 访客生命周期值 {#visitor-lifetime-value}
 
-生命周期值允许您测量和定位每个 Android 用户的生命周期值。该值可用于存储生命周期购买、广告查看、视频完成、社交分享、照片上载等。
+终身价值允许您衡量和目标每个Android用户的终身价值。 该值可用于存储终身购买、广告视图、视频完成、社交共享、照片上传等。
 
 每当您通过 `trackLifetimeValueIncrease` 发送值时，该值都会添加到现有值。生命周期值存储在设备上，并可随时通过调用 `lifetimeValue` 进行检索。
 
