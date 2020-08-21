@@ -1,32 +1,35 @@
 ---
-description: 您可以为推送消息和富推送消息配置体验选项，包括名称、消息文本和目标选项。您还可以配置高级选项，包括适用于 iOS 设备的负载选项和自定义选项。
+description: 您可以为推送消息和富推送消息配置体验选项，包括名称、消息文本和目标选项。 您还可以配置高级选项，包括iOS设备的有效负荷选项和自定义选项。
 keywords: mobile
-seo-description: 您可以为推送消息和富推送消息配置体验选项，包括名称、消息文本和目标选项。您还可以配置高级选项，包括适用于 iOS 设备的负载选项和自定义选项。
+seo-description: 您可以为推送消息和富推送消息配置体验选项，包括名称、消息文本和目标选项。 您还可以配置高级选项，包括iOS设备的有效负荷选项和自定义选项。
 seo-title: 体验：推送消息
 solution: Marketing Cloud,Analytics
 title: 体验：推送消息
-topic: 量度
+topic: Metrics
 uuid: 1a8baf3e-9fea-452c-b0fc-4ba8ac270861
-translation-type: ht
-source-git-commit: e9691f9cbeadd171948aa752b27a014c3ab254d6
+translation-type: tm+mt
+source-git-commit: 7ae626be4d71641c6efb127cf5b1d3e18fccb907
+workflow-type: tm+mt
+source-wordcount: '799'
+ht-degree: 74%
 
 ---
 
 
 # 体验：推送消息 {#experience-push-message}
 
-您可以为推送消息和富推送消息配置体验选项，包括名称、消息文本和目标选项。您还可以配置高级选项，包括适用于 iOS 设备的负载选项和自定义选项。
+您可以为推送消息和富推送消息配置体验选项，包括名称、消息文本和目标选项。 您还可以配置高级选项，包括iOS设备的有效负荷选项和自定义选项。
 
 1. 在新推送消息的“受众”页面上，单击&#x200B;**[!UICONTROL 体验]**。
 
    ![体验：推送消息屏幕](assets/experience-push-message.png)
 
 1. 为此消息键入一个名称。
-1. 在&#x200B;**[!UICONTROL 消息]部分的以下字段中键入相应信息：**
+1. 在&#x200B;**[!UICONTROL 消息]**&#x200B;部分的以下字段中键入相应信息：
 
    * **[!UICONTROL 内容]**
 
-      指定消息的文本。您最多可以指定 140 个字符。
+      指定消息的文本。 最多可指定140个字符。
 
    * **[!UICONTROL 媒体 URL]**
 
@@ -54,25 +57,25 @@ source-git-commit: e9691f9cbeadd171948aa752b27a014c3ab254d6
 * **支持的版本**
 
    以下版本支持富推送通知：
-   * Android 4.1.0 或更高版本
-   * iOS 10 或更高版本
+   * Android 4.1.0或更高版本
+   * iOS 10或更高版本
 
       >[!IMPORTANT]
       >
       >请牢记以下信息：
       >* 发送到早期版本的富推送消息仍将被发送，但只会显示文本。
-      >* 当前不支持手表。
+      >* 目前没有观察支持。
 
 
 * **文件格式**
 
    以下是支持的文件格式：
-   * 图像：JPG 和 PNG
-   * 动画（仅限 iOS）：GIF
-   * 视频（仅限 iOS）：MP4
+   * 图像：JPG和PNG
+   * 动画（仅限iOS）:GIF
+   * 视频（仅限iOS）:MP4
 
 * **URL 格式**
-   * 仅限 HTTPS
+   * 仅HTTPS
 
 * **大小调整**
    * 图像必须是 2:1 格式，否则将会被裁剪。
@@ -104,7 +107,7 @@ source-git-commit: e9691f9cbeadd171948aa752b27a014c3ab254d6
 
 1. （可选）单击以下图标，预览消息的布局：
 
-   * **[!UICONTROL x 摘要}**
+   * **[!UICONTROL x摘要]**
 
       隐藏预览窗格。单击 ![预览](assets/icon_preview.png) 以再次显示预览窗格。
 
@@ -126,9 +129,9 @@ source-git-commit: e9691f9cbeadd171948aa752b27a014c3ab254d6
    在预览窗格的底部，您可以查看上一步所选受众的描述。
 
 1. （**可选**）单击&#x200B;**[!UICONTROL 测试]**，以将消息推送至指定的设备来进行测试。
-1. 选择服务并至少为一个要接收推送消息的设备键入推送令牌。
+1. 选择服务，并键入要将消息推送到的至少一个设备的推送令牌。
 
-   以逗号分隔的列表形式指定令牌，以将消息推送到多个设备。
+   在以逗号分隔的列表中指定令牌以将消息推送到多个设备。
 
 1. 配置消息的计划选项。
 
