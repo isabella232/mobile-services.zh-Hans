@@ -7,7 +7,7 @@ title: 开发人员快速开始
 topic: Developer and implementation
 uuid: b368959b-d985-436e-8b3e-97e355a97951
 translation-type: tm+mt
-source-git-commit: 7ae626be4d71641c6efb127cf5b1d3e18fccb907
+source-git-commit: 97e6d24b75e770685d440d31aa5ee8924a079501
 workflow-type: tm+mt
 source-wordcount: '919'
 ht-degree: 1%
@@ -21,7 +21,7 @@ ht-degree: 1%
 
 ## 获取SDK {#section_99FE1A17A36D4A2C943939023CF6265C}
 
-解压缩SDK下 [载后](https://github.com/Adobe-Marketing-Cloud/mobile-services/releases)，您将为每个受支持的架构和平台组合提供一个单独的文件夹。 您还将有一个 `ADBMobileConfig.json` 文件，将在本指南的后面进行说明。
+解压SDK下 [载后](https://github.com/Adobe-Marketing-Cloud/mobile-services/releases)，您将为每个受支持的架构和平台组合提供一个单独的文件夹。 您还将有一个 `ADBMobileConfig.json` 文件，将在本指南的后面进行说明。
 
 ## 选择正确的版本 {#section_E53C5AA7D5474824A89BB32C003865A1}
 
@@ -44,7 +44,7 @@ Windows 8.1 Universal App Store库可用于多种编程语言。 本指南中的
 ## 将库和配置文件添加到项目- C Sharp {#section_93C25D893B4A4CD3B996CF3C5590C8DC}
 
 1. 启动Visual Studio并打开您的解决方案。
-1. 在“解决 **方案浏览器**”中，右键单击“ **[!UICONTROL 引用]** ”，然后选 **[!UIUCONTROL 择“添加引用”]**。
+1. 在“解决 **方案浏览器**”中，右键单击“ **[!UICONTROL 引用]** ”，然后选 **[!UICONTROL 择“添加引用”]**。
 
 1. 选择库的正确版本并浏览至关联的 `ADBMobile.winmd` 文件。
 
@@ -74,7 +74,7 @@ Windows 8.1 Universal App Store库可用于多种编程语言。 本指南中的
 
 1. 浏览至您的 `ADBMobileConfig.json` 文件，然后单 **[!UICONTROL 击“添加]**”。
 
-1. 右键单击解决 `ADBMobileConfig.json` 方案中的文件，然后选择 **[!UICONTROL 属性]**。
+1. 右键单击解决方案 `ADBMobileConfig.json` 中的文件，然后选择“ **[!UICONTROL 属性”]**。
 
 1. 将“ **[!UICONTROL 构建操作]** ”更 **[!UICONTROL 改为内容]**。
 
@@ -105,7 +105,7 @@ Windows 8.1 Universal App Store库可用于多种编程语言。 本指南中的
 
 1. 浏览至文件 `ADBMobileConfig.json` 并单击“添 **[!UICONTROL 加”]**。
 
-1. 右键单击解决 `ADBMobileConfig.json` 方案中的文件，然后选择 **[!UICONTROL 属性]**。
+1. 右键单击解决方案 `ADBMobileConfig.json` 中的文件，然后选择“ **[!UICONTROL 属性”]**。
 
 1. 在“常规 **[!UICONTROL ”]** 选项卡上，将“内 **[!UICONTROL 容]****[!UICONTROL ”更]**&#x200B;改为“是 **[!UICONTROL ”，然]**&#x200B;后单击“确定”。
 
@@ -136,7 +136,7 @@ Windows 8.1 Universal App Store库可用于多种编程语言。 本指南中的
 
 1. 浏览至文件 `ADBMobileConfig.json` 并单击“添 **[!UICONTROL 加”]**。
 
-1. 右键单击解决 `ADBMobileConfig.json]` 方案中的文件，然后选择 **[!UICONTROL 属性]**。
+1. 右键单击解决方案 `ADBMobileConfig.json]` 中的文件，然后选择“ **[!UICONTROL 属性”]**。
 
 1. 选择 **[!UICONTROL “文件属性]** ”，确保将“ **[!UICONTROL 包操作]** ”设置为“ **[!UICONTROL 内容”]**。
 
