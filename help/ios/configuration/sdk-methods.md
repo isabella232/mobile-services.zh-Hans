@@ -6,8 +6,11 @@ solution: Marketing Cloud,Analytics
 title: 配置方法
 topic: Developer and implementation
 uuid: 623c7b07-fbb3-4d39-a5c4-e64faec4ca29
-translation-type: ht
-source-git-commit: ea4b054fbeea3967c28ee938aed5997a4c287a0d
+translation-type: tm+mt
+source-git-commit: 527f93ae4ec910d1d1ea3637eb3a62d749a14397
+workflow-type: tm+mt
+source-wordcount: '1198'
+ht-degree: 86%
 
 ---
 
@@ -20,11 +23,12 @@ SDK 当前支持多个 Adobe Experience Cloud 解决方案，包括 Analytics、
 
 * **setAppExtensionType**
 
-   配置 Adobe Mobile SDK 设置以确定当前正在执行的扩展类型。
+   配置AdobeMobile SDK设置以确定当前正在执行的扩展类型。
 
    设置为以下值之一：
    * `ADBMobileAppExtensionTypeRegular` - 扩展与容器应用程序捆绑在一起.
    * `ADBMobileAppExtensionTypeStandAlone` - 扩展未与容器应用程序捆绑在一起.
+
    >[!TIP]
    >
    >**仅**&#x200B;当您的应用程序具有扩展或本身是独立扩展时，才应使用此方法。有关更多信息，请参阅下面的“ADBMobileAppExtensionType”**。
@@ -119,7 +123,7 @@ SDK 当前支持多个 Adobe Experience Cloud 解决方案，包括 Analytics、
 
 * **trackingIdentifier**
 
-   返回自动生成的访客标识符。这是由 Adobe 服务器生成的特定于应用程序的独特访客 ID。如果在生成时无法访问 Adobe 服务器，则会使用 Apple 的 CFUUID 生成该 ID。该值在首次启动时生成，之后会存储并使用该值。在应用程序升级期间，会保留该 ID；在标准应用程序备份过程中，会保存并恢复该 ID；而在应用程序卸载时，则会删除该 ID。
+   返回自动生成的访客标识符。这是由 Adobe 服务器生成的特定于应用程序的唯一访客 ID。如果在生成时无法访问Adobe的服务器，则使用Apple的CFUUID生成ID。 该值在初始启动时生成，并从该点向前存储和使用。 此ID在应用程序升级期间保留，在标准应用程序备份过程中保存并恢复，并在卸载时删除。
 
    >[!TIP]
    >
@@ -305,7 +309,7 @@ SDK 当前支持多个 Adobe Experience Cloud 解决方案，包括 Analytics、
 
 * **overrideConfigPath**
 
-   允许您在应用程序启动时加载其他 ADBMobile JSON 配置文件。在应用程序关闭之前，将一直使用该配置。
+   允许您在应用程序开始时加载其他ADBMobile JSON配置文件。 在应用程序关闭之前，将一直使用该配置。
 
    >[!IMPORTANT]
    >
@@ -348,12 +352,15 @@ SDK 当前支持多个 Adobe Experience Cloud 解决方案，包括 Analytics、
 
 * **setAdvertisingIdentifier**
 
-   在 SDK 中设置 IDFA。如果已在 SDK 中设置 IDFA，则将在生命周期中发送 IDFA。此外，也可以在信号（回发）中访问 IDFA。
+   在 SDK 中设置 IDFA。如果IDFA已在SDK中设置，则IDFA将在生命周期中发送。 也可在信号（回传）中访问。
 
    >[!TIP]
    >
    >**仅**&#x200B;当使用广告服务时，才应从 Apple API 检索 IDFA。如果您检索 IDFA 但并未正确使用它，则您的应用程序可能会被拒绝。
-
+   >
+   >如果应用程序需要IDFA，请查 [看Apple的文档](https://developer.apple.com/documentation/adsupport) ，了解用户在广告跟踪和检索IDFA值时的偏好。
+   >
+   >对于iOS 14+，需要实 [现新的应用程序跟踪](https://developer.apple.com/documentation/apptrackingtransparency) 透明度框架，以成功检索IDFA值。
    * 以下是此方法的语法：
 
       ```objective-c
@@ -363,7 +370,7 @@ SDK 当前支持多个 Adobe Experience Cloud 解决方案，包括 Analytics、
    * 以下是此方法的代码示例：
 
       ```objective-c
-      NSString *idfa = [[[ASIdentifierManager sharedManager]advertisingIdentifier] UUIDString]; 
+      NSString *idfa = // retrieve IDFA using AdSupport (before iOS 14.0) and/or AppTrackingTransparency (iOS 14.0+)
       [ADBMobile setAdvertisingIdentifier:idfa]; 
       ```
 
