@@ -1,21 +1,21 @@
 ---
-description: 回传可让您将AdobeMobile收集的数据发送到单独的第三方服务器。 通过利用用于显示应用程序内消息的相同触发器和特征，您可以配置Mobile Services将自定义数据发送到第三方目标。
-seo-description: 回传可让您将AdobeMobile收集的数据发送到单独的第三方服务器。 通过利用用于显示应用程序内消息的相同触发器和特征，您可以配置Mobile Services将自定义数据发送到第三方目标。
+description: 回传允许您将 Adobe Mobile 收集的数据发送至单独的第三方服务器。利用您用来显示应用程序内消息的相同触发器和特征，可以将 Mobile Services 配置为将自定义数据发送至第三方目标。
+seo-description: 回传允许您将 Adobe Mobile 收集的数据发送至单独的第三方服务器。利用您用来显示应用程序内消息的相同触发器和特征，可以将 Mobile Services 配置为将自定义数据发送至第三方目标。
 seo-title: 配置回发
 title: 配置回发
 uuid: a026575c-057b-4868-b6c8-9514cbc32b4d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7ae626be4d71641c6efb127cf5b1d3e18fccb907
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '474'
-ht-degree: 71%
+ht-degree: 100%
 
 ---
 
 
 # 配置回发 {#configure-postbacks}
 
-回传可让您将AdobeMobile收集的数据发送到单独的第三方服务器。 通过利用用于显示应用程序内消息的相同触发器和特征，您可以配置Mobile Services将自定义数据发送到第三方目标。
+回传允许您将 Adobe Mobile 收集的数据发送至单独的第三方服务器。利用您用来显示应用程序内消息的相同触发器和特征，可以将 Mobile Services 配置为将自定义数据发送至第三方目标。
 
 >[!IMPORTANT]
 >
@@ -54,7 +54,7 @@ ht-degree: 71%
       指定一个或多个数据标记和触发回发的条件。例如，您可以选择&#x200B;**[!UICONTROL 已崩溃]**&#x200B;作为触发器，选择&#x200B;**[!UICONTROL 存在]**&#x200B;作为条件，以便在应用程序崩溃时触发回发。您还可以指定激活回发的量度。例如，您可以选择&#x200B;**[!UICONTROL 设备名称]**&#x200B;作为触发器，选择&#x200B;**[!UICONTROL 等于]**&#x200B;以及 **[!UICONTROL iPhone 6 Plus]** 作为条件，以便当应用程序在 iPhone 6 Plus 设备上崩溃时激活回发。
 
    * **[!UICONTROL 特征]**
-   指定可在消息触发后查看消息的对象。Options include **[!UICONTROL Session Length]**, **[!UICONTROL First Launch Date]**, and **[!UICONTROL App ID]**.
+   指定可在消息触发后查看消息的对象。选项包括&#x200B;**[!UICONTROL 会话时长]**、**[!UICONTROL 首次启动日期]**&#x200B;和&#x200B;**[!UICONTROL 应用程序 ID]**。
 
 1. 单击&#x200B;**[!UICONTROL 保存]**&#x200B;以创建回发，并将其添加到&#x200B;**[!UICONTROL 管理回发]**&#x200B;列表。
 
