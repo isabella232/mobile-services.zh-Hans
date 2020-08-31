@@ -7,11 +7,11 @@ solution: Marketing Cloud,Analytics
 title: 跟踪深层链接
 topic: Developer and implementation
 uuid: ebb1c08c-a246-40b3-9ac6-4606a14b4c5a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7ae626be4d71641c6efb127cf5b1d3e18fccb907
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '330'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 88%
    }
    ```
 
-The Adobe Mobile SDK can parse key and value pairs of data that is appended to any Deep or Universal Link as long as the link contains a key with the `a.deeplink.id` label and a corresponding non-null and user-generated value. 附加到链接的数据的所有键值对都将进行解析，附加到生命周期点击，然后发送到 Adobe Analytics，前提是该链接包含 `a.deeplink.id` 键和值。
+Adobe Mobile SDK 可以解析附加到任何深层链接或通用链接的数据键值对，前提是这些链接包含带有 `a.deeplink.id` 标签的键，且其对应的值是用户生成的非空值。附加到链接的数据的所有键值对都将进行解析，附加到生命周期点击，然后发送到 Adobe Analytics，前提是该链接包含 `a.deeplink.id` 键和值。
 
 此外，您还可以将以下一个或多个保留键（具有用户生成的值）附加到深层链接或通用链接：
 
