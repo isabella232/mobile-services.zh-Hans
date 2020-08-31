@@ -7,11 +7,11 @@ solution: Marketing Cloud,Analytics
 title: 移动设备应用程序客户获取
 topic: Developer and implementation
 uuid: 4d32eae9-e856-4e40-8a29-2b5bccd106e0
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7ae626be4d71641c6efb127cf5b1d3e18fccb907
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '876'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -31,9 +31,9 @@ ht-degree: 97%
 
 >[!IMPORTANT]
 >
->To use Acquisition, you **must** have SDK version 4.1 or later.
+>要使用“客户获取”功能，您&#x200B;**必须**&#x200B;具有 SDK 版本 4.1 或更高版本。
 
-必须在Adobe移动服务中创建客户获取链接。 有关更多信息，请参阅[客户获取](/help/using/acquisition-main/acquisition-main.md)。
+必须在 Adobe Mobile Services 中创建客户获取链接。有关更多信息，请参阅[客户获取](/help/using/acquisition-main/acquisition-main.md)。
 
 **在 SDK 版本 4.18.0 及更高版本中**：
 
