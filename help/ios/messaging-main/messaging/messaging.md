@@ -111,4 +111,4 @@ iOS Mobile SDK 可跟踪应用内消息的以下量度：
 
 在 Adobe Mobile Services 中配置消息时，会指定替代图像资源名称。
 
->[!IMPORTA
+>[!IMPORTANT]
