@@ -1,27 +1,30 @@
 ---
-description: 此信息可帮助您在 iOS 应用程序中使用应用程序内消息传送功能。
-seo-description: 此信息可帮助您在 iOS 应用程序中使用应用程序内消息传送功能。
+description: 此信息可帮助您在iOS应用程序中使用应用程序内消息传递。
+seo-description: 此信息可帮助您在iOS应用程序中使用应用程序内消息传递。
 seo-title: 应用程序内消息传送
 solution: Marketing Cloud,Analytics
 title: 应用程序内消息传送
-topic: 开发人员和实施
+topic: Developer and implementation
 uuid: 21fa6a94-bb7f-4c78-843b-a50f1974db22
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
+workflow-type: tm+mt
+source-wordcount: '420'
+ht-degree: 55%
 
 ---
 
 
 # 应用程序内消息传送 {#in-app-messaging}
 
-此信息可帮助您在 iOS 应用程序中使用应用程序内消息传送功能。
+此信息可帮助您在iOS应用程序中使用应用程序内消息传递。
 
-要使用应用程序内消息传送，您&#x200B;**必须**&#x200B;具有 SDK 版本 4.2 或更高版本。
+To use in-app messaging, you **must** have SDK version 4.2 or later.
 
 请牢记以下信息：
 
-* 消息以及定义消息何时显示的规则在 Adobe Mobile Services 中创建。有关更多信息，请参阅[创建应用程序内消息](/help/using/in-app-messaging/t-in-app-message/t-in-app-message.md)。
-* 必须对 SDK 进行此部分中所述的更新，才能显示应用程序内消息。
+* 消息和定义何时显示消息的规则是在AdobeMobile服务中创建的。 For more information, see [Create an in-app message](/help/using/in-app-messaging/t-in-app-message/t-in-app-message.md).
+* 必须对SDK进行本节描述的更新才能显示应用程序内消息。
 
    >[!TIP]
    >
@@ -73,9 +76,9 @@ source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
 
 ## 跟踪应用程序内消息 {#section_B85CDF6929564AAEA79338B55E5CB1E8}
 
-iOS Mobile SDK 可跟踪应用内消息的以下量度：
+iOS Mobile Services SDK跟踪应用程序内消息的以下指标：
 
-* 对于全屏和警告样式的应用程序内消息：
+* 对于全屏和警报样式应用程序内消息：
 
    * **[!UICONTROL 展示次数]**：用户触发应用程序内消息时。
    * **[!UICONTROL 点进次数]**：用户按下&#x200B;**[!UICONTROL 点进]**&#x200B;按钮时。
@@ -83,13 +86,14 @@ iOS Mobile SDK 可跟踪应用内消息的以下量度：
 
 * 对于自定义的全屏应用程序内消息，消息中的 HTML 内容需要包含正确的代码以通知 SDK 跟踪以下按钮：
 
-   * **[!UICONTROL 点进]**（重定向）示例跟踪：`adbinapp://confirm/?url=https://www.yoursite.com`
+   * **[!UICONTROL 点进]**（重定向）示例跟踪： `adbinapp://confirm/?url=https://www.yoursite.com`
    * **[!UICONTROL 取消]**（关闭）示例跟踪：`adbinapp://cancel`
 
 * 对于本地（远程）通知：
 
    * **[!UICONTROL 展示次数]**：用户触发通知时。
    * **[!UICONTROL 打开次数]**：用户从通知中打开应用程序时。
+
    以下是有关如何包含“打开次数”跟踪的示例：
 
    ```objective-c
@@ -107,8 +111,11 @@ iOS Mobile SDK 可跟踪应用内消息的以下量度：
 
 ## 本地替代图像 {#section_DEACC1CE549B4573B556A44A52409941}
 
-在 Adobe Mobile Services 中创建全屏消息时，您可以选择指定替代图像。如果您的消息无法从 Web 中检索其预定图像，SDK 会尝试从应用程序包中加载具有相同名称的图像。这允许您显示原始格式的消息，即使用户处于离线状态或预定图像不可访问也是如此。
+在AdobeMobile服务中创建全屏消息时，您可以选择指定备用图像。 如果邮件无法从Web检索其预期图像，SDK将尝试从应用程序包中加载同名图像。 这样，即使用户处于脱机状态或预定图像不可到达，您也可以以其原始形式显示消息。
 
-在 Adobe Mobile Services 中配置消息时，会指定替代图像资源名称。
+在AdobeMobile服务中配置消息时，将指定回退图像资产名称。
 
 >[!IMPORTANT]
+>
+>您需要确保指定的资源可用。
+
