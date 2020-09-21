@@ -1,18 +1,22 @@
 ---
-product: 移动服务
-audience: 最终用户
-user-guide-title: Mobile Services blackBerry帮助
+product: mobile-services
+audience: end-user
+user-guide-title: Mobile Services BlackBerry指南
+breadcrumb-title: BlackBerry Guide
 translation-type: tm+mt
-source-git-commit: 7aff336586058302046a728a0b1b0ce12660c1ba
+source-git-commit: 18ef20df0a32741685e35cee98a1adf4a1b823a1
+workflow-type: tm+mt
+source-wordcount: '29'
+ht-degree: 41%
 
 ---
 
 
-# Mobile Services blackBerry帮助 {#blackberry}
+# Mobile Services BlackBerry指南 {#blackberry}
 
 + [适用于 Experience Cloud 解决方案的 BlackBerry 10 SDK 4.x](overview.md)
-+ [开发人员快速入门](dev-qs.md)
-+ [Adobe Mobile类和方法参考](methods.md)
++ [开发人员快速开始](dev-qs.md)
++ [Adobe移动类和方法参考](methods.md)
 + [Analytics](analytics.md)
 + [Video Analytics](video-qs.md)
-+ [Lifecycle metrics](metrics.md)
++ [生命周期量度](metrics.md)
