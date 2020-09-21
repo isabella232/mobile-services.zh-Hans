@@ -1,14 +1,18 @@
 ---
-product: Mobile Services
-audience: 最终用户
-user-guide-title: Mobile Services Android 帮助
-translation-type: ht
-source-git-commit: e3bbde6c27d583ff3ee8b7e86c8e6e73595f5067
+product: mobile-services
+audience: end-user
+user-guide-title: Mobile Services Android指南
+breadcrumb-title: Android Guide
+translation-type: tm+mt
+source-git-commit: 18ef20df0a32741685e35cee98a1adf4a1b823a1
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# Mobile Services Android 帮助{#android}
+# Mobile Services Android Guide{#android}
 
 + [适用于 Experience Cloud 解决方案的 Android SDK 4.x](overview.md)
 + [发行说明](rel-notes.md)
