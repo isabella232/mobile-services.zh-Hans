@@ -3,12 +3,15 @@ description: 您可以创建一个新的链接目标，将用户引导至您应�
 keywords: mobile
 seo-description: 您可以创建一个新的链接目标，将用户引导至您应用程序中的 Web 链接或深层链接。
 seo-title: 新建链接目标
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: 新建链接目标
-topic: 量度
+topic: Metrics
 uuid: 390e3dea-0221-4f97-980d-a90ca9f162fa
-translation-type: ht
-source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '417'
+ht-degree: 85%
 
 ---
 
@@ -32,11 +35,11 @@ source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
 
       * **[!UICONTROL 应用程序深层链接]**
 
-         提供一个 URI 模式深层链接（例如，`yourapp://section`）。应用程序深层链接目标是 URI 模式深层链接，可将用户指引到您的应用程序内的深层链接。例如，您可以将用户指引到某个在线零售商移动设备应用程序中的特定产品线。
+         提供一个 URI 模式深层链接（例如，`yourapp://section`）。应用程序深层链接目标是URI模式深层链接，可将用户引导到应用程序中的深层链接。 例如，您可以将用户定向到在线零售商的移动应用程序中的特定产品系列。
 
       * **[!UICONTROL Web 链接]**
 
-         键入一个 Web HTTP 或 HTTPS URL，例如 `https://adobe.com`。Web 链接目标可将用户指引到 URL。例如，您可以将用户引导至在线零售商网站上的产品线。
+         键入一个 Web HTTP 或 HTTPS URL，例如 `https://adobe.com`。Web链接目标可将用户引导到URL。 例如，您可以将用户引导到在线零售商网站上的产品系列。
 
       * **[!UICONTROL 混合链接]**
 
