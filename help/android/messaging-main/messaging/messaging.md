@@ -2,12 +2,12 @@
 description: 您可以提供从任何分析数据或事件触发的应用程序内消息。 实施后，消息将动态传递到应用程序，无需代码更新。
 seo-description: 您可以提供从任何分析数据或事件触发的应用程序内消息。 实施后，消息将动态传递到应用程序，无需代码更新。
 seo-title: 应用程序内消息传送
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: 应用程序内消息传送
 topic: Developer and implementation
 uuid: 351ee3d2-80b9-4f2d-9696-21f274d89f5a
 translation-type: tm+mt
-source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
 workflow-type: tm+mt
 source-wordcount: '803'
 ht-degree: 61%
@@ -38,7 +38,7 @@ ht-degree: 61%
 >
 >To use in-app messaging, you **must** have SDK version 4.2 or later.
 
-您可以在Adobe Mobile Services中创建消息和规则，定义何时显示消息。 For more information, see [Create an in-app message](/help/using/in-app-messaging/t-in-app-message/t-in-app-message.md). 要显示应用程序内消息，必须对SDK进行更新。 即使尚未定义任何消息，您也可以完成这些步骤。 在您定义消息后，这些消息将动态传递到您的应用程序，并且不用更新应用商店即可显示。
+您可以在AdobeMobile服务中创建消息和规则，定义何时显示消息。 For more information, see [Create an in-app message](/help/using/in-app-messaging/t-in-app-message/t-in-app-message.md). 要显示应用程序内消息，必须对SDK进行更新。 即使尚未定义任何消息，您也可以完成这些步骤。 在您定义消息后，这些消息将动态传递到您的应用程序，并且不用更新应用商店即可显示。
 
 ## 启用应用程序内消息传送 {#section_380DF56C4EE4432A823940E4AE4C9E91}
 
@@ -125,7 +125,7 @@ Android Mobile SDK跟踪应用程序内消息的以下指标：
 
 * 对于全屏和警报样式应用程序内消息：
 
-   * **展示**: 用户触发应用程序内消息时。
+   * **展示**:用户触发应用程序内消息时。
    * **点进次数**：用户按下&#x200B;**[!UICONTROL 点进]**&#x200B;时。
    * **取消次数**：用户按下&#x200B;**[!UICONTROL 取消]**&#x200B;时。
 
