@@ -2,13 +2,13 @@
 description: 此信息可帮助您使用 ADBMobile.json 配置文件。
 seo-description: 此信息可帮助您使用 ADBMobile.json 配置文件。
 seo-title: ADBMobile JSON 配置
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: ADBMobile JSON 配置
 topic: Developer and implementation
 uuid: d9708d59-e30a-4f6c-ab1b-d9499855d0c2
-translation-type: ht
-source-git-commit: 86ba045b44bf6553e80727c0d61ccdd9a552d16c
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
 source-wordcount: '1715'
 ht-degree: 100%
 
