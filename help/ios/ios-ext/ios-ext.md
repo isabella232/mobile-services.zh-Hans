@@ -2,12 +2,15 @@
 description: 您可以使用 iOS 扩展帮助从 Apple Watch 应用程序 (WatchOS 1)、“今天”小组件、照片编辑小组件以及其他 iOS 扩展应用程序中收集使用情况数据。
 seo-description: 您可以使用 iOS 扩展帮助从 Apple Watch 应用程序 (WatchOS 1)、“今天”小组件、照片编辑小组件以及其他 iOS 扩展应用程序中收集使用情况数据。
 seo-title: iOS 扩展实施
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: iOS 扩展实施
-topic: 开发人员和实施
+topic: Developer and implementation
 uuid: 8afc03fe-403e-4643-ada1-30e403ede238
-translation-type: ht
-source-git-commit: 718e336b9002fe3d5282697d4302d12a89297181
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '721'
+ht-degree: 80%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: 718e336b9002fe3d5282697d4302d12a89297181
 
 ## 新的 Adobe Experience Platform Mobile SDK 发行版本
 
-查找与 Adobe Experience Platform Mobile SDK 相关的信息和文档？单击[此处](https://aep-sdks.gitbook.io/docs/)可获取最新的文档。
+正在寻找与 Adobe Experience Platform Mobile SDK 相关的信息和文档？请单击[此处](https://aep-sdks.gitbook.io/docs/)获取我们的最新文档。
 
 在 2018 年 9 月，我们发布了一个新的 SDK 主要版本。这些新的 Adobe Experience Platform Mobile SDK 可通过 [Experience Platform Launch](https://www.adobe.com/cn/experience-platform/launch.html) 进行配置。
 
@@ -31,7 +34,7 @@ source-git-commit: 718e336b9002fe3d5282697d4302d12a89297181
 >
 >我们强烈建议您使用 iOS SDK，而不要使用包装器。
 
-Apple 提供了一组允许 Watch 应用程序与容器应用程序进行通信（方法是向容器应用程序发送请求，然后接收响应）的 API。尽管您可以将跟踪数据作为词典从 Watch 应用程序发送到容器应用程序，然后在容器应用程序中调用任何跟踪方法来发送数据，但是这种解决方案存在局限性。
+Apple提供一组API，通过向包含的应用程序发送请求并接收响应，Watch应用程序可与包含的应用程序通信。 尽管您可以将跟踪数据作为词典从 Watch 应用程序发送到容器应用程序，然后在容器应用程序中调用任何跟踪方法来发送数据，但是这种解决方案存在局限性。
 
 大多数情况下，当用户使用 Watch 应用程序时，容器应用程序将在后台运行，只有调用 `TrackActionInBackground`、`TrackLocation` 和 `TrackBeacon` 才是安全的。调用其他跟踪方法会干扰生命周期数据，因此您应该专门使用这三种方法，从 Watch 应用程序中发送数据。
 
@@ -43,13 +46,14 @@ Apple 提供了一组允许 Watch 应用程序与容器应用程序进行通信�
 >
 >确保您的项目至少具有以下目标：
 >
->* 一个用于包含应用程序的目标。
->* 一个用于扩展的目标。
+>* 一个目标，用于包含应用程序。
+>* 一个目标用于扩展。
+
 >
 
 
 
-如果您正在使用 WatchKit 应用程序，则还应具有第三个目标。有关为 Apple Watch 开发的更多信息，请参阅[为 Apple Watch 开发](https://developer.apple.com/library/ios/documentation/General/Conceptual/WatchKitProgrammingGuide/index.html#//apple_ref/doc/uid/TP40014969-CH8-SW1)。
+如果您正在使用WatchKit应用程序，您应该有第三个目标。 有关为 Apple Watch 开发的更多信息，请参阅[为 Apple Watch 开发](https://developer.apple.com/library/ios/documentation/General/Conceptual/WatchKitProgrammingGuide/index.html#//apple_ref/doc/uid/TP40014969-CH8-SW1)。
 
 ## 配置容器应用程序 {#section_0BAB0842E4C04A62B5E03DFC4BA77851}
 
@@ -107,8 +111,8 @@ Apple 提供了一组允许 Watch 应用程序与容器应用程序进行通信�
 
       此值表示点击来自扩展。
 
-* 如果您从早期版本的 SDK 升级，则在容器应用程序启动后，Adobe 会自动将容器应用程序文件夹中的所有用户默认设置和缓存文件迁移到应用程序组的共享文件夹。
-* 如果容器应用程序从未启动过，则会丢弃扩展中的点击量。
-* 您的容器应用程序和扩展应用程序的版本号和内部版本号必须相同。
-* 在 iOS 扩展应用程序中不会触发生命周期调用。
+* 如果您从旧版SDK升级，则在启动包含的应用程序时，Adobe会自动将所有用户默认值和缓存的文件从包含的应用程序的文件夹迁移到应用程序组的共享文件夹。
+* 如果从未启动包含的应用程序，则会放弃扩展的点击。
+* 版本号和内部版本号必须在包含的应用程序和扩展应用程序之间相同。
+* iOS扩展应用程序上不会触发生命周期调用。
 
