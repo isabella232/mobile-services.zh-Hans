@@ -1,22 +1,25 @@
 ---
-description: 无法使用处理规则设置产品变量。在 Mobile SDK 中，您必须在上下文数据参数内使用专门的语法，直接在服务器调用中设置产品。
-seo-description: 无法使用处理规则设置产品变量。在 Mobile SDK 中，您必须在上下文数据参数内使用专门的语法，直接在服务器调用中设置产品。
+description: 无法使用处理规则设置产品变量。 在移动SDK中，必须在上下文数据参数中使用特殊语法直接在服务器调用中设置产品。
+seo-description: 无法使用处理规则设置产品变量。 在移动SDK中，必须在上下文数据参数中使用特殊语法直接在服务器调用中设置产品。
 seo-title: 产品变量
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: 产品变量
-topic: 开发人员和实施
+topic: Developer and implementation
 uuid: 2057a564-06ae-4171-bbe7-0baffa71608b
 translation-type: tm+mt
-source-git-commit: 7aff336586058302046a728a0b1b0ce12660c1ba
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '173'
+ht-degree: 13%
 
 ---
 
 
-# Products variable{#products-variable}
+# 产品变量{#products-variable}
 
-无法使用处理规则设置产品变量。在 Mobile SDK 中，您必须在上下文数据参数内使用专门的语法，直接在服务器调用中设置产品。
+无法使用处理规则设置产品变量。 在移动SDK中，必须在上下文数据参数中使用特殊语法直接在服务器调用中设置产品。
 
-To set the  variable, set a context data key to , and set the value using the syntax defined for the :*`products`*`"&&products"`*`products`*
+To set the *`products`* variable, set a context data key to `"&&products"`, and set the value using the syntax defined for the *`products`*:
 
 ```js
 cdata["&&products"] = "Category;Product;Quantity;Price[,Category;Product;Quantity;Price]";
@@ -42,8 +45,8 @@ ADB.Analytics.trackAction("purchase", cdata);
 ADB.Analytics.trackState("Order Confirmation", cdata);
 ```
 
-*`products`* 直接在图像请求上设置，其他变量则设置为上下文数据。 必须使用处理规则映射所有上下文数据变量：
+*`products`* 直接在图像请求中设置，而其他变量则设置为上下文数据：必须使用处理规则映射所有上下文数据变量：
 
 ![](assets/products-procrules.png)
 
-You do not need to map the  variable using processing rules since it is set directly on the image request by the SDK.*`products`*
+您无需使用处理规则 *`products`* 映射变量，因为该变量是SDK直接在图像请求上设置的。
