@@ -1,14 +1,17 @@
 ---
 description: 使用该插件，您可以从 PhoneGap 项目发送 iOS AppMeasurement 调用。
-keywords: PhoneGap
+keywords: phonegap
 seo-description: 使用该插件，您可以从 PhoneGap 项目发送 iOS AppMeasurement 调用。
 seo-title: PhoneGap 插件
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: PhoneGap 插件
-topic: 开发人员和实施
+topic: Developer and implementation
 uuid: f88bcf10-1f9e-4c97-b348-40db797c9923
-translation-type: ht
-source-git-commit: 517ae533864aebe9c6a20d877a9638d5d3e2a071
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '327'
+ht-degree: 95%
 
 ---
 
@@ -19,7 +22,7 @@ source-git-commit: 517ae533864aebe9c6a20d877a9638d5d3e2a071
 
 ## 新的 Adobe Experience Platform Mobile SDK 发行版本
 
-查找与 Adobe Experience Platform Mobile SDK 相关的信息和文档？单击[此处](https://aep-sdks.gitbook.io/docs/)可获取最新的文档。
+正在寻找与 Adobe Experience Platform Mobile SDK 相关的信息和文档？请单击[此处](https://aep-sdks.gitbook.io/docs/)获取我们的最新文档。
 
 在 2018 年 9 月，我们发布了一个新的 SDK 主要版本。这些新的 Adobe Experience Platform Mobile SDK 可通过 [Experience Platform Launch](https://www.adobe.com/cn/experience-platform/launch.html) 进行配置。
 
@@ -62,7 +65,7 @@ source-git-commit: 517ae533864aebe9c6a20d877a9638d5d3e2a071
 
 ### 添加应用程序权限
 
-AppMeasurement 库需要执行以下操作：
+AppMeasurement库需要：
 
 1. 启动 Xcode IDE 并打开您的应用程序。
 1. 将 **[!UICONTROL AdobeMobile]** 文件夹拖到您的 Xcode 项目中，并完成以下设置：
@@ -70,7 +73,8 @@ AppMeasurement 库需要执行以下操作：
    1. 选择&#x200B;**[!UICONTROL 将项目复制到目标组的文件夹（如有必要）]**。
    1. 选择&#x200B;**[!UICONTROL 为添加的任何文件夹创建群组]**。
    1. 选择您要在其中使用 AppMeasurement 代码的目标并单击&#x200B;**[!UICONTROL 完成]**。
-   ![](assets/xcode-settings.png){width="672"}
+
+   ![](assets/xcode-settings.png){width=&quot;672&quot;}
 
 1. 在您的项目目标的&#x200B;**[!UICONTROL 生成阶段]**&#x200B;选项卡中，展开&#x200B;**[!UICONTROL 将二进制文件与库关联]**&#x200B;部分，然后添加以下库：
 
