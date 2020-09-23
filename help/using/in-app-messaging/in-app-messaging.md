@@ -3,12 +3,15 @@ description: 创建、管理和报告应用程序内消息和推送消息。
 keywords: mobile
 seo-description: 创建、管理和报告应用程序内消息和推送消息。
 seo-title: 消息传送
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: 消息传送
-topic: 量度
+topic: Metrics
 uuid: e32d3e35-2d09-4ddf-8919-75dc895abcb3
-translation-type: ht
-source-git-commit: 3b744229b3fc288363be74c3c4adcd71ecc4fad4
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '468'
+ht-degree: 77%
 
 ---
 
@@ -17,13 +20,13 @@ source-git-commit: 3b744229b3fc288363be74c3c4adcd71ecc4fad4
 
 您可以创建、管理和报告应用程序内消息和推送消息。
 
-## 新的 Adobe Experience Cloud SDK 发行版本
+## 新的 Adobe Experience Cloud SDK 版本
 
-查找与 Adobe Experience Platform Mobile SDK 相关的信息和文档？单击[此处](https://aep-sdks.gitbook.io/docs/)可获取最新的文档。
+正在寻找与 Adobe Experience Platform Mobile SDK 相关的信息和文档？请单击[此处](https://aep-sdks.gitbook.io/docs/)获取我们的最新文档。
 
 在 2018 年 9 月，我们发布了一个新的 SDK 主要版本。这些新的 Adobe Experience Platform Mobile SDK 可通过 [Experience Platform Launch](https://www.adobe.com/cn/experience-platform/launch.html) 进行配置。
 
-* 要开始配置，请转到 [Launch](https://launch.adobe.com/)。
+* To get started, go to [Launch](https://launch.adobe.com/).
 * 要查看 Experience Platform SDK 存储库中的内容，请转到 [Github：Adobe Experience Platform SDK](https://github.com/Adobe-Marketing-Cloud/acp-sdks)。
 
 >[!IMPORTANT]
@@ -36,9 +39,9 @@ source-git-commit: 3b744229b3fc288363be74c3c4adcd71ecc4fad4
 
 支持以下消息类型：
 
-* 自定义消息和具有特定主题的消息
-* 全屏消息
-* 本机警报消息
+* 自定义和主题
+* 全屏
+* 本机警报
 * 本地通知消息
 
 为帮助您了解应用程序内消息的工作方式，下面提供了一些其他信息：
@@ -47,11 +50,11 @@ source-git-commit: 3b744229b3fc288363be74c3c4adcd71ecc4fad4
 * 您必须指定谁拥有移动设备应用程序管理员权限。
 
    这些权限允许访问客户获取链接和应用程序内消息。有关更多信息，请参阅[角色和权限](/help/using/gs/c-mob-roles-and-permissions.md)。
-* 在消息获得批准后，便会自动将消息发布到应用程序。
-* 如果消息参数（例如特征、触发器和时间安排）满足相应要求，则 SDK 会向用户呈现消息。
-* 消息可以包含使用在线 URL 的自定义 HTML 或图像。
+* 消息获得批准后，该消息将自动发布到应用程序。
+* SDK在满足消息参数(如特征、触发器和计划)时向用户显示消息。
+* 消息可以包含自定义HTML或图像，使用在线URL。
 
-   还可指定应用程序包中的备份图像或备用图像，以供离线状态下触发的消息使用。
+   还可以为脱机时触发的消息指定应用程序包中的备份或备用映像。
 * 消息激活并完成后会提供总查看次数、点进率等报表。
 * 有些模板可用于自定义消息，您可以使用这些模板轻松地创建自己的应用程序内消息。
 
@@ -59,4 +62,4 @@ source-git-commit: 3b744229b3fc288363be74c3c4adcd71ecc4fad4
 
 推送消息将发送给选择接收通知的用户。您可以将这些推送消息定位到 Analytics 区段或自定义区段中的用户。推送消息可以在应用程序之外的其他许多地方显示，因此可用于重新吸引消极用户或传达特定于时间的和位置的信息。
 
-在配置推送消息之前，请参阅[启用推送消息的先决条件](/help/using/c-manage-app-settings/c-mob-confg-app/configure-push-messaging/prerequisites-push-messaging.md)。在执行这些任务之后，您必须在应用程序的设置中配置推送消息。有关详细信息，请参阅[配置推送消息](/help/using/c-manage-app-settings/c-mob-confg-app/configure-push-messaging/configure-push-messaging.md)
+在配置推送消息之前，请参阅[启用推送消息的先决条件](/help/using/c-manage-app-settings/c-mob-confg-app/configure-push-messaging/prerequisites-push-messaging.md)。执行这些任务后，必须在应用程序设置中配置推送消息。 For more information, see [Configure push messaging](/help/using/c-manage-app-settings/c-mob-confg-app/configure-push-messaging/configure-push-messaging.md).
