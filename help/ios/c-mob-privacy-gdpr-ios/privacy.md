@@ -2,12 +2,15 @@
 description: 此信息可以帮助您处理 GDPR 数据删除请求。
 seo-description: 此信息可以帮助您处理 GDPR 数据删除请求。
 seo-title: 设置用户的选择状态
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: 设置用户的选择状态
-topic: 开发人员和实施
+topic: Developer and implementation
 uuid: 44a09a25-93c6-4e1a-b69e-710018e8b6c3
-translation-type: ht
-source-git-commit: 06144a1695ac40ce984656491456968888f9e96e
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '270'
+ht-degree: 84%
 
 ---
 
@@ -28,9 +31,9 @@ source-git-commit: 06144a1695ac40ce984656491456968888f9e96e
 
 * `setPrivacyStatus` 方法。
 
-   使用此方法更改隐私设置后，所做的更改会一直保持有效，直到使用此方法再次进行更改或者您卸载并重新安装应用程序为止。
+   使用此方法更改隐私设置后，更改将永久存在，直到再次使用此方法更改设置，或在您卸载并再次安装应用程序时更改。
 
-   有关这些方法的更多信息，请参阅[配置方法](/help/ios/configuration/json-config/json-config.md)。
+   有关这些方法的详细信息，请参 [阅配置方法](/help/ios/configuration/json-config/json-config.md)。
 
 以下是关于每种隐私状态的信息：
 
