@@ -3,12 +3,15 @@ description: 为应用程序内消息配置体验选项，包括类型（全屏�
 keywords: mobile
 seo-description: 为应用程序内消息配置体验选项，包括类型（全屏、警报或通知）和显示、文本与按钮选项。
 seo-title: 体验：应用程序内消息
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: 体验：应用程序内消息
-topic: 量度
+topic: Metrics
 uuid: 4c6d6756-47fb-4f1b-8338-0b0c9b0fceb0
-translation-type: ht
-source-git-commit: e9691f9cbeadd171948aa752b27a014c3ab254d6
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '686'
+ht-degree: 92%
 
 ---
 
@@ -17,7 +20,7 @@ source-git-commit: e9691f9cbeadd171948aa752b27a014c3ab254d6
 
 为应用程序内消息配置体验选项，包括类型（全屏、警报或通知）和显示、文本与按钮选项。
 
-1. 在应用程序中，单击&#x200B;**[!UICONTROL 消息传送]** &gt; **[!UICONTROL 管理消息]** &gt; **[!UICONTROL 创建消息]** &gt; **[!UICONTROL 创建应用程序内消息]**。
+1. In your app, click **[!UICONTROL Messaging]** > **[!UICONTROL Manage Messages]** > **[!UICONTROL Create Message]** > **[!UICONTROL Create In-App]**.
 1. 在体验页面上，键入消息的名称。
 1. 填写&#x200B;**[!UICONTROL 类型]**&#x200B;部分中的字段：
 
@@ -37,10 +40,11 @@ source-git-commit: e9691f9cbeadd171948aa752b27a014c3ab254d6
 
    * **[!UICONTROL 自定义]**
 
-      加载您的自定义 HTML 内容（仅全屏幕）。您必须提供点进链接和取消链接。
+      加载自定义HTML内容（仅全屏）。 您必须提供点进链接和取消链接。
 
       1. 单击&#x200B;**[!UICONTROL 浏览]**&#x200B;并下载 HTML 文件或将 HTML 文档拖到窗口中。
       1. 单击&#x200B;**[!UICONTROL 下载示例]**&#x200B;以查看示例自定义 HTML 内容。
+
       >[!TIP]
       >
       >仅当您选择&#x200B;**[!F全屏]**&#x200B;消息类型时，才会显示此选项。
@@ -50,6 +54,7 @@ source-git-commit: e9691f9cbeadd171948aa752b27a014c3ab254d6
 1. 填写&#x200B;**[!UICONTROL 显示]**&#x200B;部分中的字段：
 
    * **[!UICONTROL 主题]**
+
    选择一个消息主题。
 
    * **[!UICONTROL 版式]**
@@ -62,7 +67,7 @@ source-git-commit: e9691f9cbeadd171948aa752b27a014c3ab254d6
 
    * **[!UICONTROL 捆绑图像]**
 
-      应用程序代码包中图像的路径。此选项在图像不存在或图像不可用时使用。例如，如果设备处于离线状态，则图像可能不可用。如果您在使用全屏模板时遇到大小调整问题，请参阅[排查应用程序内消息传送问题](/help/using/in-app-messaging/t-in-app-message/in-apps-ts.md)中的“我的图像不完全适合模板提供的空间”**。
+      应用程序代码包中图像的路径。 当没有图像时，将使用此选项。 或图像不可用。 例如，如果设备处于离线状态，则图像可能不可用。如果您在使用全屏模板时遇到大小调整问题，请参阅[排查应用程序内消息传送问题](/help/using/in-app-messaging/t-in-app-message/in-apps-ts.md)中的“我的图像不完全适合模板提供的空间”**。
 
 
 1. 填写&#x200B;**[!UICONTROL 文本]**&#x200B;部分中的字段：
@@ -91,6 +96,7 @@ source-git-commit: e9691f9cbeadd171948aa752b27a014c3ab254d6
       * `{trackingId}`，以相应的 ID（与 *s_vi* Cookie 相关）替换。
       * `{messageId}`，以应用程序内消息的唯一 ID 替换。
       * `{lifetimeValue}`，以生命周期值替换；或者如果不存在生命周期值，则使用 0。
+
       以下是用户 ID 跟踪示例：`https://www.mysite.com?uid={userId}`。
 
       如果点进 URL 使用 `https://` 或 `https://`，则该 URL 将在应用程序外的设备浏览器中打开。否则，每个平台都支持允许您打开或引用您的应用程序的方案，但前提是开发的应用程序支持自定义方案。
