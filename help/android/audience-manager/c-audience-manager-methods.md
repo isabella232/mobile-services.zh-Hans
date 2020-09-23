@@ -1,14 +1,17 @@
 ---
 description: 以下是 Android 库提供的 Audience Manager 方法列表。
-keywords: Android;库;移动;SDK
+keywords: android;library;mobile;sdk
 seo-description: 以下是 Android 库提供的 Audience Manager 方法列表。
 seo-title: Audience Manager 方法
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: Audience Manager 方法
-topic: 开发人员和实施
+topic: Developer and implementation
 uuid: 2f6e4664-1306-41d4-9fa7-e3a99f1df4ab
-translation-type: ht
-source-git-commit: df4ea2c4002611c72009cf69598cbbb74b5c15c4
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '292'
+ht-degree: 100%
 
 ---
 
