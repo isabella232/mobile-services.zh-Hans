@@ -2,11 +2,14 @@
 description: 'iOS 库提供了以下客户获取方法 '
 seo-description: 'iOS 库提供了以下客户获取方法 '
 seo-title: 客户获取方法
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: 客户获取方法
 uuid: 6f88de57-793d-4d33-9a54-f6714289fd2c
-translation-type: ht
-source-git-commit: 06144a1695ac40ce984656491456968888f9e96e
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '93'
+ht-degree: 100%
 
 ---
 
