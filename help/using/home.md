@@ -2,11 +2,14 @@
 description: Adobe Mobile Services 的技术文档
 seo-description: 本指南概述了 Adobe Mobile Services 的技术文档和自助帮助，其中整合了 Adobe Experience Cloud 中移动设备应用程序的移动营销功能，从而使您能够了解并提高用户对移动设备应用程序的参与度。
 seo-title: Adobe Mobile Services
-solution: Marketing Cloud, Analytics, Experience Cloud
+solution: Experience Cloud, Analytics, Experience Cloud
 title: Adobe Mobile Services
 uuid: e86a77c9-4ff1-403f-a5a1-4afbdc4e6f68
-translation-type: ht
-source-git-commit: 9e3f199582351165d0a76ce5042b5eaeec2cc981
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '622'
+ht-degree: 100%
 
 ---
 
