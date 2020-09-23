@@ -1,14 +1,17 @@
 ---
-description: 您可以创建并管理目标点，通过目标点，您可以定义可用于关联目的的地理位置，还可以使用应用程序内消息确定目标，等等。在目标点中发送一个点击之后，该目标点会附加到该点击上。
+description: 您可以创建和管理兴趣点，从而定义可用于关联目的的地理位置、目标应用程序内消息等。 当某个点被发送到某个点时，该点附加到该点。
 keywords: mobile
-seo-description: 您可以创建并管理目标点，通过目标点，您可以定义可用于关联目的的地理位置，还可以使用应用程序内消息确定目标，等等。在目标点中发送一个点击之后，该目标点会附加到该点击上。
+seo-description: 您可以创建和管理兴趣点，从而定义可用于关联目的的地理位置、目标应用程序内消息等。 当某个点被发送到某个点时，该点附加到该点。
 seo-title: 管理目标点
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: 管理目标点
-topic: 量度
+topic: Metrics
 uuid: 7b362534-54fb-43a3-b6b2-dfc8f45ff7c6
-translation-type: ht
-source-git-commit: d028fe0f9477bc011aa8fda21a0a389808df0fce
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '580'
+ht-degree: 82%
 
 ---
 
@@ -30,7 +33,7 @@ source-git-commit: d028fe0f9477bc011aa8fda21a0a389808df0fce
 要使用“位置”，请完成以下任务：
 
 1. 单击应用程序的名称，以转到其“管理应用程序设置”页面。
-1. 单击&#x200B;**[!UICONTROL 位置]** &gt; **[!UICONTROL 管理目标点]**。
+1. Click **[!UICONTROL Location]** > **[!UICONTROL Manage Points of Interest]**.
 
    ![步骤结果](assets/poi.png)
 
@@ -66,4 +69,4 @@ source-git-commit: d028fe0f9477bc011aa8fda21a0a389808df0fce
 
 要删除一个或多个目标点，请选中所需的复选框，然后单击&#x200B;**[!UICONTROL 删除选定项]**。
 
-要使用 `.csv` 文件而不使用 Adobe Mobile 用户界面来处理数据，请单击&#x200B;**[!UICONTROL 导入]**&#x200B;或&#x200B;**[!UICONTROL 导出]**。
+要使用 **[!UICONTROL 文件而不使用 Adobe Mobile 用户界面来处理数据，请单击]**&#x200B;导入&#x200B;**[!UICONTROL 或]**&#x200B;导出`.csv`。
