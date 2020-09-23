@@ -3,13 +3,13 @@ description: 在应用程序中配置推送消息之前，您必须先完成这�
 keywords: mobile
 seo-description: 在应用程序中配置推送消息之前，您必须先完成这些任务。
 seo-title: 启用推送消息的先决条件
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: 启用推送消息的先决条件
 topic: Metrics
 uuid: 194e6e07-b794-4152-a838-a4125c3292d4
-translation-type: ht
-source-git-commit: c198ae57b05f8965a8e27191443ee2cd552d6c50
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
 source-wordcount: '646'
 ht-degree: 100%
 
