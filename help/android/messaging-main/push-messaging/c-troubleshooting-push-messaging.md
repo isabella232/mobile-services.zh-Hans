@@ -3,12 +3,15 @@ description: 此信息可帮助您排查推送消息问题。
 keywords: mobile
 seo-description: 此信息可帮助您排查推送消息问题。
 seo-title: 排查推送消息问题
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: 排查推送消息问题
-topic: 量度
+topic: Metrics
 uuid: 9c4a9371-6691-4a2c-a6c1-b9f901a41599
-translation-type: ht
-source-git-commit: 12e01e112debffd877dd62f1fd2505724b2aae7d
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '305'
+ht-degree: 90%
 
 ---
 
@@ -23,7 +26,7 @@ source-git-commit: 12e01e112debffd877dd62f1fd2505724b2aae7d
 
 * 等待 Analytics 点击
 
-   每个报表包都有一个设置来确定何时处理传入的 Analytics 点击。默认为小时，即 1 小时。对 Analytics 点击的实际处理可能最多需要 30 分钟，但通常为 15 到 20 分钟。例如，一个报表包每小时处理一次点击。如果将最多 30 分钟的处理时间包括在内，那么一个传入点击可能最多需要 90 分钟才可用于推送消息。如果用户在上午 9:01 启动应用程序，则该点击将在上午 10:15 到 10:30 期间在 Mobile Services 用户界面中显示为新的独特用户。
+   每个报表包都有一个设置来确定何时处理传入的 Analytics 点击。默认为小时，即 1 小时。对 Analytics 点击的实际处理可能最多需要 30 分钟，但通常为 15 到 20 分钟。例如，报表包会每小时处理一次点击。如果将处理时间最长考虑为30分钟，则传入点击最长可能需要90分钟才能用于推送消息。 如果用户在上午 9:01 启动应用程序，则该点击将在上午 10:15 到 10:30 期间在 Mobile Services 用户界面中显示为新的独特用户。
 
 * 等待推送服务
 
