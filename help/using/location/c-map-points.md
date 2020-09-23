@@ -3,12 +3,15 @@ description: 您可以查看交互式地图，它会显示您的目标点和其�
 keywords: mobile
 seo-description: 您可以查看交互式地图，它会显示您的目标点和其他数据标记。
 seo-title: 地图
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: 地图
-topic: 量度
+topic: Metrics
 uuid: 3c271738-eb8d-4c26-baaf-54b247bfc4da
-translation-type: ht
-source-git-commit: e9691f9cbeadd171948aa752b27a014c3ab254d6
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '313'
+ht-degree: 74%
 
 ---
 
@@ -23,10 +26,10 @@ source-git-commit: e9691f9cbeadd171948aa752b27a014c3ab254d6
 
 * 您可以放大或缩小地图尺寸。
 
-   在有两个非常靠近的目标点时，此功能非常有用。通过放大地图，可以更详细地查看地图。
-* 您的目标点显示为蓝色。
+   此功能非常有用，例如，如果您有两个感兴趣的点，它们很接近。 放大地图可以更详细地视图它。
+* 您的兴趣点以蓝色显示。
 
-   其他数据标记（如“启动”）显示为黑色。单击标记可查看更多信息。
+   其他数据标记（如启动项）以黑色显示。 单击标记以视图更多信息。
 
 单击 ![层次](assets/map_layers.png) 选择以下选项：
 
@@ -43,11 +46,11 @@ source-git-commit: e9691f9cbeadd171948aa752b27a014c3ab254d6
 
 * **[!UICONTROL 热图]**
 
-   选择是否显示热图标记。颜色越深，表示满足条件的次数频繁（例如“启动次数”）。
+   选择是否显示热图标记。 颜色的强度越大，满足条件（例如启动项）的频率就越高。
 
 * **[!UICONTROL 目标点]**
 
-   选择是否显示您的目标点。
+   选择是否显示您的兴趣点。
 
 您可以为此报表配置以下选项：
 
