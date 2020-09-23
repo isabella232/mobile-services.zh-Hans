@@ -1,21 +1,24 @@
 ---
-description: 此信息可帮助您在 Windows 8.1 通用应用商店应用程序内发送目标内容。
-seo-description: 此信息可帮助您在 Windows 8.1 通用应用商店应用程序内发送目标内容。
+description: 帮助您在Windows 8.1通用App Store应用程序内提供目标内容的信息。
+seo-description: 帮助您在Windows 8.1通用App Store应用程序内提供目标内容的信息。
 seo-title: Target
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: Target
-topic: 开发人员和实施
+topic: Developer and implementation
 uuid: c57bdf85-c1a9-446d-9ec9-4a483b189522
 translation-type: tm+mt
-source-git-commit: 398299575a32d4fee4dcea22788839afa13a1a0f
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '46'
+ht-degree: 15%
 
 ---
 
 
 # Target{#target}
 
-此信息可帮助您在 Windows 8.1 通用应用商店应用程序内发送目标内容。
+帮助您在Windows 8.1通用App Store应用程序内提供目标内容的信息。
 
 ## 其他信息
 
-+ [目标方法](/help/windows-appstore/target/target-methods.md)
++ [Target 方法](/help/windows-appstore/target/target-methods.md)
