@@ -2,12 +2,15 @@
 description: 完成这些步骤可将报表包配置为收集 iOS 应用程序数据。
 seo-description: 完成这些步骤可将报表包配置为收集 iOS 应用程序数据。
 seo-title: 开始之前
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: 开始之前
-topic: 开发人员和实施
+topic: Developer and implementation
 uuid: 04133f68-3618-41fd-8a13-aec5b6f04df6
-translation-type: ht
-source-git-commit: 06144a1695ac40ce984656491456968888f9e96e
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '595'
+ht-degree: 95%
 
 ---
 
@@ -24,10 +27,10 @@ Analytics 管理员和应用程序开发人员必须完成以下任务：
 
 要配置报表包并收集移动设备应用程序数据，请执行以下操作：
 
-1. 完成[登录到 Adobe Mobile Services 用户界面](/help/ios/getting-started/getting-started.md)中的某一部分。
+1. 完成[登录 Adobe Mobile Services UI](/help/ios/getting-started/getting-started.md) 中的任一部分。
 1. 为每个应用程序开发人员创建一个 Analytics 帐户。
 
-此时应用程序开发人员便拥有查看您创建的报表包的权限。
+应用程序开发人员现在将有权查看您创建的报表包。
 
 >[!IMPORTANT]
 >
@@ -42,11 +45,11 @@ Analytics 管理员和应用程序开发人员必须完成以下任务：
 
 有关角色和权限的更多信息，请参阅[角色和权限](/help/using/gs/c-mob-roles-and-permissions.md)。
 
-## 登录到 Adobe Mobile Services 用户界面 {#section_690A2EC4572E47869F183974E932A6A8}
+## 登录 Adobe Mobile Services UI {#section_690A2EC4572E47869F183974E932A6A8}
 
-Adobe Mobile Services 是用于移动设备应用程序分析和定位的主要报表界面。完成这些步骤后，您可以下载预先配置了数据收集服务器、报表包及许多其他设置的配置文件。
+Adobe Mobile Services 是用于移动设备应用程序分析和定位的主要报告界面。完成这些步骤后，您可以下载一个配置文件，该文件已与您的数据收集服务器、报告套件和许多其他设置一起预配置。
 
-您可以使用以下任一方法登录到 Adobe Mobile Services：
+您可以通过以下某种方式登录 Adobe Mobile Services ：
 
 * **Experience Cloud**
 
@@ -68,14 +71,14 @@ Adobe Mobile Services 是用于移动设备应用程序分析和定位的主要�
 
 1. 单击&#x200B;**[!UICONTROL 新建应用程序]**。
 
-   如果未看到此按钮，请单击&#x200B;**[!UICONTROL 管理应用程序]** &gt; **[!UICONTROL 添加]**。
+   如果未看到此按钮，请单击&#x200B;**[!UICONTROL 管理应用程序]** > **[!UICONTROL 添加]**。
 
 1. 在&#x200B;**[!UICONTROL 报表包]**&#x200B;下拉列表中，选择&#x200B;**[!UICONTROL 新的报表包]**。
 
 1. 输入应用程序的名称并选择一个唯一的报表包 ID。
 
    例如，报表包 ID 为 `mycomobileappdev`。您需要为开发版本和生产版本分别设置单独的报表包和应用程序。在您准备好设置生产版本后，请重复这些步骤。
-1. 保留选中&#x200B;**[!UICONTROL 移动设备应用程序模板]。**
+1. 保留选中&#x200B;**[!UICONTROL 移动设备应用程序模板]**。
 
    此模板将启用时间戳以收集离线数据，并激活移动设备解决方案变量以捕获生命周期量度。
 
@@ -87,11 +90,11 @@ Adobe Mobile Services 是用于移动设备应用程序分析和定位的主要�
 
 1. 登录到 Mobile Services，然后通过以下方式之一打开应用程序：
 
-   * 在&#x200B;**[!UICONTROL 所有应用程序]下拉列表中，选择您的应用程序。**
+   * 在&#x200B;**[!UICONTROL 所有应用程序]**&#x200B;下拉列表中，选择您的应用程序。
    * 在右侧窗格中，找到您的应用程序并将其打开。
 
 1. 单击&#x200B;**[!UICONTROL 管理应用程序设置]**。
-1. 在&#x200B;**[!UICONTROL 应用程序 SDK 下载]**&#x200B;部分中，滚动到&#x200B;**应用程序 SDK 下载]部分。[!UICONTROL **
+1. 在&#x200B;**[!UICONTROL 应用程序 SDK 下载]**&#x200B;部分中，滚动到&#x200B;**[!UICONTROL 应用程序 SDK 下载]**&#x200B;部分。
 
 1. 下载适用于您的平台的 SDK 和示例应用程序。
 
