@@ -1,14 +1,17 @@
 ---
 description: 使用该插件，您可以从 PhoneGap 项目发送 Android AppMeasurement 调用。
-keywords: Android;库;移动;SDK
+keywords: android;library;mobile;sdk
 seo-description: 使用该插件，您可以从 PhoneGap 项目发送 Android AppMeasurement 调用。
 seo-title: PhoneGap 插件概述
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: PhoneGap 插件概述
-topic: 开发人员和实施
+topic: Developer and implementation
 uuid: c5c32357-d8df-458a-b0e8-e0c56040241d
-translation-type: ht
-source-git-commit: 1c387b063eedb41a52e044dc824df6a51f173ad2
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '395'
+ht-degree: 97%
 
 ---
 
@@ -19,7 +22,7 @@ source-git-commit: 1c387b063eedb41a52e044dc824df6a51f173ad2
 
 ## 新的 Adobe Experience Platform Mobile SDK 发行版本
 
-查找与 Adobe Experience Platform Mobile SDK 相关的信息和文档？单击[此处](https://aep-sdks.gitbook.io/docs/)可获取最新的文档。
+正在寻找与 Adobe Experience Platform Mobile SDK 相关的信息和文档？请单击[此处](https://aep-sdks.gitbook.io/docs/)获取我们的最新文档。
 
 在 2018 年 9 月，我们发布了一个新的 SDK 主要版本。这些新的 Adobe Experience Platform Mobile SDK 可通过 [Experience Platform Launch](https://www.adobe.com/cn/experience-platform/launch.html) 进行配置。
 
