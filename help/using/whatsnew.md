@@ -3,13 +3,13 @@ description: Adobe Mobile Services 的最新发行信息。
 keywords: mobile;release notes;whats new
 seo-description: Adobe Mobile Services 的最新发行信息。
 seo-title: Adobe Mobile Services 的发行说明
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: 发行说明
 topic: Metrics
 uuid: 522b0589-d61f-4a9f-952e-ba7ce11af2f9
-translation-type: ht
-source-git-commit: 82b3dc38a0325b3aa733b491ddad9b59dbe84eaa
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
 source-wordcount: '80'
 ht-degree: 100%
 
