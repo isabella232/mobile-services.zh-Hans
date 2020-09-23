@@ -1,14 +1,17 @@
 ---
 description: 帮助您进行 Mobile Services 实施的 Mobile Services SDK 及工具的下载信息。
-keywords: 移动设备;Android;iOS;SDK
+keywords: mobile;android;ios;sdk
 seo-description: 帮助您进行 Mobile Services 实施的 Mobile Services SDK 及工具的下载信息。
 seo-title: 下载 Mobile SDK 和工具
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: 下载 Mobile SDK 和工具
-topic: 开发人员和实施,量度
+topic: Developer and implementation,Metrics
 uuid: 4af757f7-4e4d-4939-9b6a-49a29c220192
-translation-type: ht
-source-git-commit: 814c99695f538160ae28484ca8e2a92f5b24bb1a
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '176'
+ht-degree: 100%
 
 ---
 
