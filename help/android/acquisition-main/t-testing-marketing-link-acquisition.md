@@ -3,13 +3,13 @@ description: 以下说明可帮助您对 Android 设备上使用营销链接的�
 keywords: android;library;mobile;sdk
 seo-description: 以下说明可帮助您对 Android 设备上使用营销链接的客户获取促销活动进行往返测试。
 seo-title: 测试营销链接客户获取
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: 测试营销链接客户获取
 topic: Developer and implementation
 uuid: d0933dcc-8fc3-4f60-987f-7a54559aacf5
-translation-type: ht
-source-git-commit: 7ae626be4d71641c6efb127cf5b1d3e18fccb907
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
 source-wordcount: '763'
 ht-degree: 100%
 
