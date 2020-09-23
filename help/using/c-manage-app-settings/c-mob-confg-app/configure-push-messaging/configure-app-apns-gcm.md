@@ -3,12 +3,15 @@ description: 您可以将应用程序配置为使用 Apple 推送通知服务 (A
 keywords: mobile
 seo-description: 您可以将应用程序配置为使用 Apple 推送通知服务 (APNS) 或 Firebase Cloud Messaging (FCM)。
 seo-title: 配置应用程序以使用 APNS 或 FCM
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: 配置应用程序以使用 APNS 或 FCM
-topic: 量度
+topic: Metrics
 uuid: fa411f2a-ba47-4499-bbe5-1aedef6b49ad
-translation-type: ht
-source-git-commit: 608384f1fee2a05699ff13fbd51c3cc43aeb693c
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '652'
+ht-degree: 90%
 
 ---
 
@@ -83,12 +86,12 @@ source-git-commit: 608384f1fee2a05699ff13fbd51c3cc43aeb693c
 
 要将您的 iOS 应用程序配置为使用 APNS，请执行以下操作：
 
-1. 转到 [https://developer.apple.com/account](https://developer.apple.com/account) 并登录到您的 [Apple Developer 帐户](https://developer.apple.com/account)。
+1. Go to [https://developer.apple.com/account](https://developer.apple.com/account) and log in to your [Apple Developer account](https://developer.apple.com/account).
 1. 在 **[!UICONTROL iOS 应用程序]**&#x200B;下，选择&#x200B;**[!UICONTROL 标识符]**。
 1. 如果已设置用于推送的应用程序 ID，请转到步骤 11。
-1. 按 **[!UICONTROL +]** 按钮以创建新的应用程序 ID。
-1. 键入“应用程序 ID 描述”。
-1. 键入“应用程序 ID 后缀”。
+1. Press the **[!UICONTROL +]** button to create a new App ID.
+1. 键入应用程序ID说明。
+1. 键入App ID后缀。
 
    >[!IMPORTANT]
    >
@@ -114,9 +117,9 @@ source-git-commit: 608384f1fee2a05699ff13fbd51c3cc43aeb693c
 1. 打开&#x200B;**[!UICONTROL 密钥链访问]**。
 1. 单击&#x200B;**[!UICONTROL 我的证书]**，找到适用于您的应用程序和环境的 **[!UICONTROL iOS 推送服务证书]**。
 
-   您可以通过匹配捆绑 ID 以及它是开发用证书还是生产用证书来识别正确的证书。
+   通过匹配捆绑ID以及它是开发还是生产，可以识别正确的证书。
 
-1. 展开证书，确认其中包含私钥。
+1. 展开证书并验证其是否包含私钥。
 1. 右键单击私钥并选择&#x200B;**[!UICONTROL 导出&#x200B;*`<name of key>`*]**。
 1. 在对话框中键入必需的信息，然后保存新的 `.p12` 文件。
 
