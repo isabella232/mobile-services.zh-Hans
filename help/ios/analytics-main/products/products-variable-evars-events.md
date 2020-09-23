@@ -2,12 +2,15 @@
 description: 以下是一个具有促销 eVar 和产品特定事件的产品变量示例。
 seo-description: 以下是一个具有促销 eVar 和产品特定事件的产品变量示例。
 seo-title: 具有促销 eVar 和产品特定事件的产品变量
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: 具有促销 eVar 和产品特定事件的产品变量
-topic: 开发人员和实施
+topic: Developer and implementation
 uuid: f913211e-97ad-4237-bfe4-7ded01295caf
-translation-type: ht
-source-git-commit: 06144a1695ac40ce984656491456968888f9e96e
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '98'
+ht-degree: 100%
 
 ---
 
