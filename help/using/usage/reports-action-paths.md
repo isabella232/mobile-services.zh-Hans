@@ -3,12 +3,15 @@ description: “操作路径”报表以路径分析为基础，可显示一个�
 keywords: mobile
 seo-description: “操作路径”报表以路径分析为基础，可显示一个路径图表，以表示在应用程序中从一种状态变为另一种状态的路径。
 seo-title: 操作路径报告
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: 操作路径报告
-topic: 报表,量度
+topic: Reports,Metrics
 uuid: a21e5d9e-fd57-4178-9d64-87181b7f988b
-translation-type: ht
-source-git-commit: e9691f9cbeadd171948aa752b27a014c3ab254d6
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '556'
+ht-degree: 69%
 
 ---
 
@@ -25,31 +28,31 @@ source-git-commit: e9691f9cbeadd171948aa752b27a014c3ab254d6
 
 ![](assets/action_paths.png)
 
-每个形状类似于框的节点都表示用户路径通过应用程序时的一种状态。例如，在上图中，顶级节点表示启动应用程序然后从图库中选择照片的用户数量。
+每个形状类似于框的节点都表示用户路径通过应用程序时的一种状态。例如，在上图中，顶部节点表示启动应用程序并从画廊选取照片的用户数。
 
 要显示用于修改此图表的选项，请单击某个节点，然后单击&#x200B;**[!UICONTROL 集中]**&#x200B;或&#x200B;**[!UICONTROL 展开]**。例如，如果您单击顶级节点中的 **[!UICONTROL PhotoPicked]** 状态，即会显示&#x200B;**[!UICONTROL 集中]**&#x200B;和&#x200B;**[!UICONTROL 展开]**&#x200B;图标。
 
 ![](assets/action_paths_icons.png)
 
-要展开节点，请单击 **[!UICONTROL +]** 图标。此选项会显示进入节点或退出节点的其他路径。在下图中，状态 1 表示启动应用程序，状态 2 表示选取照片（您之前展开的项目），而状态 3 包含用户采取的不同路径：
+To expand, click the **[!UICONTROL +]** icon. 此选项显示进入或退出节点的其他路径。 在下图中，状态1启动应用程序，状态2选择照片（您之前展开的项目），状态3包括用户采用的不同路径：
 
 * 选择项目
 * 添加项目
 * 拖动项目
 * 缩放项目
 
-展开状态类似于展开漏斗。
+扩展状态类似于漏斗。
 
 ![操作路径展开](assets/action_paths_expand.png)
 
-要隔离选定的节点，以仅显示进入或退出该节点的路径，请单击 ![集中图标](assets/icon_focus.png) 图标。在下图中，用户选择照片&#x200B;**之前**&#x200B;完成了以下路径：
+要隔离选定的节点，以仅显示进入或退出该节点的路径，请单击 ![集中图标](assets/icon_focus.png) 图标。在下图中，用户选择照片前 **已完** 成以下路径：
 
 * 旋转项目
 * 缩放项目
 * 拖动项目
 * 删除项目
 
-对于已选择照片的用户，在选择照片&#x200B;**之后**&#x200B;完成了以下路径：
+在选择照片的用户中，选择照片后完 **成** 了以下路径：
 
 * 选择项目
 * 添加项目
@@ -58,7 +61,7 @@ source-git-commit: e9691f9cbeadd171948aa752b27a014c3ab254d6
 
 ![操作路径集中](assets/action_paths_focus.png)
 
-您可以集中或展开多个节点，以详细了解用户在您的应用程序内所采用的路径。例如：
+您可以集中或展开多个节点，以详细视图用户在您的应用程序中所采用的路径。 例如：
 
 ![操作路径多个](assets/action_paths_mult.png)
 
