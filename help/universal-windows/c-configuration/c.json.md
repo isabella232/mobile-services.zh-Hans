@@ -2,12 +2,15 @@
 description: 帮助您使用ADBMobile JSON配置文件的信息。
 seo-description: 帮助您使用ADBMobile JSON配置文件的信息。
 seo-title: ADBMobileConfig.json配置
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: ADBMobileConfig.json配置
 topic: Developer and implementation
 uuid: cbcb54a3-4b8f-4651-8ce9-2731ac988545
 translation-type: tm+mt
-source-git-commit: 82b3dc38a0325b3aa733b491ddad9b59dbe84eaa
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '620'
+ht-degree: 40%
 
 ---
 
@@ -16,11 +19,11 @@ source-git-commit: 82b3dc38a0325b3aa733b491ddad9b59dbe84eaa
 
 帮助您使用ADBMobile JSON配置文件的信息。
 
-SDK目前支持多个Adobe Experience Cloud解决方案，包括分析、目标和受众管理器。 方法将根据解决方案来添加前缀。配置方法前缀为“配置”。
+SDK目前支持多个Adobe Experience Cloud解决方案，包括分析、目标和Audience Manager。 方法将根据解决方案来添加前缀。配置方法前缀为“配置”。
 
 * **rsids**
 
-   (**Analytics要求**)一个或多个报表包，用于接收Analytics数据。 多个报表包ID应以逗号分隔，中间不应有空格。
+   (**Analytics要求**)一个或多个报表包，用于接收Analytics数据。 多个报表包 ID 应以逗号分隔，且中间不应有空格。
 
    * 以下是此方法的语法：
 
@@ -40,7 +43,7 @@ SDK目前支持多个Adobe Experience Cloud解决方案，包括分析、目标�
 
 * **charset**
 
-   定义您用于发送到Analytics的数据的字符集。 charset 用于将传入的数据转换为 UTF-8 以便进行存储和报告。有关更多信息，请参阅 [s.charSet](https://docs.adobe.com/content/help/en/analytics/implementation/vars/config-vars/charset.html)。
+   定义您用于发送到Analytics的数据的字符集。 charset 用于将传入的数据转换为 UTF-8 以便进行存储和报告。有关更多信息，请参阅 [s.charSet](https://docs.adobe.com/content/help/zh-Hans/analytics/implementation/vars/config-vars/charset.html)。
 
 * **ssl**
 
@@ -52,13 +55,13 @@ SDK目前支持多个Adobe Experience Cloud解决方案，包括分析、目标�
 
    If time stamps are enabled on your report suite, your `offlineEnabled` configuration property *must* be `true`. 如果报表包未启用时间戳，则 `offlineEnabled` 配置属性&#x200B;*必须*&#x200B;为 `false`.
 
-   如果未正确配置，则数据将丢失。 如果不确定报表包是否启用时间戳，请与客户关怀联系。 If you are currently reporting AppMeasurement data to a report suite that also collects data from JavaScript, you might need to set up a separate report suite for mobile data or include a custom timestamp on all JavaScript hits using the `s.timestamp` variable.
+   如果未正确配置，数据将丢失。如果不确定报表包是否启用时间戳，请与客户关怀联系。 If you are currently reporting AppMeasurement data to a report suite that also collects data from JavaScript, you might need to set up a separate report suite for mobile data or include a custom timestamp on all JavaScript hits using the `s.timestamp` variable.
 
    默认值为 `false`。
 
 * **lifecycleTimeout**
 
-   指定在启动被视为新会话之前，应用程序启动之间必须经历的时长（以秒为单位）。 此超时也适用于应用程序被发送到后台后又重新启用的情况。应用程序在后台所花费的时间不包括在会话长度中。
+   指定在启动被视为新会话之前，应用程序启动之间必须经历的时长（以秒为单位）。 此超时也适用于应用程序被发送到后台后又重新启用的情况。应用程序在后台所用的时间不包括在会话时长中。
 
    默认值为300秒。
 
