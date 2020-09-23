@@ -3,14 +3,14 @@ description: 'null'
 keywords: Unity
 seo-description: 'null'
 seo-title: ADBMobile.cs方法
-solution: Marketing Cloud,Developer
+solution: Experience Cloud
 title: ADBMobile.cs方法
 uuid: af504934-febd-45d9-81e2-2a310f4c65dc
 translation-type: tm+mt
-source-git-commit: c198ae57b05f8965a8e27191443ee2cd552d6c50
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
 workflow-type: tm+mt
 source-wordcount: '1324'
-ht-degree: 65%
+ht-degree: 66%
 
 ---
 
@@ -304,7 +304,7 @@ ht-degree: 65%
 
 * **TrackActionFromBackground（仅限iOS）**
 
-   跟踪在后台发生的操作。 这抑制了在某些情况下触发生命周期事件。
+   跟踪在后台发生的操作。在某些情况下，这会阻止触发生命周期事件。
 
    >[!TIP]
    >
