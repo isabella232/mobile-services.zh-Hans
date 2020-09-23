@@ -3,12 +3,15 @@ description: 此信息可帮助您实施 Android 库并收集生命周期量度�
 keywords: android;library;mobile;sdk
 seo-description: 此信息可帮助您实施 Android 库并收集生命周期量度，例如启动次数、升级次数、会话数、参与用户数等。
 seo-title: 核心实施和生命周期
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: 核心实施和生命周期
 topic: Developer and implementation
 uuid: af4d11ac-8245-46a0-9b3a-4a0a29cfbbb2
-translation-type: ht
-source-git-commit: dae60a21286edc28c84b7638da214b824abf0cd3
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '560'
+ht-degree: 100%
 
 ---
 
