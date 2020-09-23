@@ -3,12 +3,15 @@ description: 您可以为应用程序内消息配置计划选项，包括持续�
 keywords: mobile
 seo-description: 您可以为应用程序内消息配置计划选项，包括持续时间、每周日期和时刻选项。
 seo-title: 计划：应用程序内消息
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: 计划：应用程序内消息
-topic: 量度
+topic: Metrics
 uuid: d10e691b-105a-4165-a49d-d046ce250acd
-translation-type: ht
-source-git-commit: d028fe0f9477bc011aa8fda21a0a389808df0fce
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '223'
+ht-degree: 95%
 
 ---
 
@@ -21,7 +24,7 @@ source-git-commit: d028fe0f9477bc011aa8fda21a0a389808df0fce
 >
 >日期范围由您所在的时区来定义。具体的日期和时间范围与用户的设备有关。
 
-1. 在应用程序中，单击&#x200B;**[!UICONTROL 消息传送]** &gt; **[!UICONTROL 管理消息]** &gt; **[!UICONTROL 创建消息]** &gt; **[!UICONTROL 创建应用程序内消息]**。
+1. In your app, click **[!UICONTROL Messaging]** > **[!UICONTROL Manage Messages]** > **[!UICONTROL Create Message]** > **[!UICONTROL Create In-App]**.
 1. 单击&#x200B;**[!UICONTROL 计划]**。
 1. 完成&#x200B;**[!UICONTROL 持续时间]**&#x200B;部分中的以下字段：
 
