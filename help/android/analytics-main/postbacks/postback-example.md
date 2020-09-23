@@ -1,14 +1,17 @@
 ---
 description: 您可以使用此信息帮助了解回发的含义及其工作方式。
-keywords: Android;库;移动;SDK
+keywords: android;library;mobile;sdk
 seo-description: 您可以使用此信息帮助了解回发的含义及其工作方式。
 seo-title: 回发示例
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: 回发示例
-topic: 开发人员和实施
+topic: Developer and implementation
 uuid: 8010cd00-d42b-4e16-8403-692fab2550f1
-translation-type: ht
-source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '141'
+ht-degree: 100%
 
 ---
 
