@@ -3,12 +3,15 @@ description: 您可以使用“链接目标”页面来编辑、存档、取消�
 keywords: mobile
 seo-description: 您可以使用“链接目标”页面来编辑、存档、取消存档或删除现有目标。
 seo-title: 管理链接目标
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: 管理链接目标
-topic: 量度
+topic: Metrics
 uuid: 3a38d40d-b4c7-4f9f-aa6e-979613faaba2
-translation-type: ht
-source-git-commit: e9691f9cbeadd171948aa752b27a014c3ab254d6
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '296'
+ht-degree: 94%
 
 ---
 
@@ -28,7 +31,7 @@ source-git-commit: e9691f9cbeadd171948aa752b27a014c3ab254d6
 
    * **编辑**
 
-      要编辑某个现有的链接目标，请在列表中单击其名称，然后编辑相关字段。有关更多信息，请参阅[创建新链接目标](/help/using/acquisition-main/c-manage-link-destinations/t-create-new-app-deep-link-destination.md)。
+      要编辑现有链接目标，请在列表中单击其名称，然后编辑相关字段。 有关更多信息，请参阅[创建新链接目标](/help/using/acquisition-main/c-manage-link-destinations/t-create-new-app-deep-link-destination.md)。
 
       >[!IMPORTANT]
       >
@@ -49,6 +52,7 @@ source-git-commit: e9691f9cbeadd171948aa752b27a014c3ab254d6
       1. 单击&#x200B;**[!UICONTROL 查看存档]**。
       1. 选中要取消存档的链接名称旁边的一个或多个复选框。
       1. 单击&#x200B;**[!UICONTROL 取消存档选定项]**。
+
       仅当您之前存档过链接目标，**[!UICONTROL 查看存档]**&#x200B;选项才会显示。
 
    * **删除**
