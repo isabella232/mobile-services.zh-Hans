@@ -2,13 +2,13 @@
 description: 适用于 Experience Cloud 解决方案的 Android SDK 4.x 的发行说明和已知问题。
 seo-description: 适用于 Experience Cloud 解决方案的 Android SDK 4.x 的发行说明和已知问题。
 seo-title: 发行说明
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: 发行说明
 topic: Developer and implementation
 uuid: 16bb4de8-a216-47a8-928c-0b1e1421adcf
-translation-type: ht
-source-git-commit: a2a2ea4bd3826b061b198e684dd31d9328137d7e
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
 source-wordcount: '297'
 ht-degree: 100%
 
