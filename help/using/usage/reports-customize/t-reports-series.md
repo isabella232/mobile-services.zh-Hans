@@ -3,12 +3,15 @@ description: 此信息可帮助您通过添加其他系列（量度）或不同�
 keywords: mobile
 seo-description: 此信息可帮助您通过添加其他系列（量度）或不同报表包内的应用程序来比较数据，从而帮助您自定义内置报表。
 seo-title: 将系列（量度）添加到报表
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: 将系列（量度）添加到报表
-topic: 报表,量度
+topic: Reports,Metrics
 uuid: 84fdfb1f-70e6-4c02-9b3b-526e9c924f74
-translation-type: ht
-source-git-commit: 814c99695f538160ae28484ca8e2a92f5b24bb1a
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '311'
+ht-degree: 90%
 
 ---
 
@@ -23,11 +26,11 @@ source-git-commit: 814c99695f538160ae28484ca8e2a92f5b24bb1a
 
 在本示例中，我们将自定义&#x200B;**[!UICONTROL 用户和会话]**&#x200B;报表，但相关说明适用于任何报表。
 
-1. 打开您的应用程序，然后单击&#x200B;**[!UICONTROL 使用情况]** &gt; **[!UICONTROL 用户和会话]**。
+1. Open your app and click **[!UICONTROL Usage]** > **[!UICONTROL Users &amp; Sessions]**.
 
    ![步骤结果](assets/customize1.png)
 
-   此报表提供了我们的应用程序用户在特定时段内的完整概况。但是，我们希望在应用程序发生崩溃时将系列添加到报表。
+   此报告为我们的应用程序用户提供完整的超时视图。 但是，我们希望添加一个系列来报告应用程序崩溃情况。
 
 1. 单击&#x200B;**[!UICONTROL 自定义]**。
 
