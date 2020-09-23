@@ -3,14 +3,14 @@ description: 用于Experience Cloud解决方案4.x SDK的Xamarin组件的Android
 keywords: Xamarin
 seo-description: 用于Experience Cloud解决方案4.x SDK的Xamarin组件的Android方法。
 seo-title: Android方法
-solution: Marketing Cloud,Developer
+solution: Experience Cloud
 title: Android方法
 uuid: 860af1c4-f57e-4bcb-8308-4e316da9a27b
 translation-type: tm+mt
-source-git-commit: c198ae57b05f8965a8e27191443ee2cd552d6c50
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
 workflow-type: tm+mt
 source-wordcount: '1767'
-ht-degree: 66%
+ht-degree: 67%
 
 ---
 
@@ -163,7 +163,7 @@ ht-degree: 66%
 
 * **OverrideConfigStream**
 
-   （4.2或更高版本）允许您在应用程序开始 `ADBMobile JSON` 时加载其他配置文件。 在应用程序关闭之前，将一直使用该配置。
+   (4.2 or later) Lets you load a different `ADBMobile JSON` config file when the application starts. 在应用程序关闭之前，将一直使用该配置。
 
    * 以下是此方法的语法：
 
@@ -214,7 +214,7 @@ ht-degree: 66%
 
 * **跟踪标识符**
 
-   返回自动生成的Analytics ID。 这是在初始启动时生成的、从该点开始存储和使用的特定于应用程序的唯一ID。 此ID在应用程序升级期间保留，并在卸载时删除。
+   返回自动生成的Analytics ID。 这是在初始启动时生成、从该点开始存储和使用的特定于应用程序的唯一ID。 此ID在应用程序升级期间保留，并在卸载时删除。
 
    * 以下是此方法的语法：
 
@@ -366,7 +366,7 @@ ht-degree: 66%
 
 * **TrackTimedActionUpdate**
 
-   传入数据以更新与给定操作关联的上下文数据。 传入的数据将附加到给定操作的现有数据中，并覆盖数据（如果已为操作定义相同的密钥）。
+   传入数据，以更新与给定操作关联的上下文数据。传入的数据将附加到给定操作的现有数据中，并覆盖数据（如果已为操作定义相同的密钥）。
 
    >[!TIP]
    >
