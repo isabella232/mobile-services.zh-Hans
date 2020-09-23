@@ -2,12 +2,15 @@
 description: 从 Android SDK 版本 4.5 开始，新增了一个 Android 扩展，此扩展允许您从 Android 可穿戴应用程序中收集数据。
 seo-description: 从 Android SDK 版本 4.5 开始，新增了一个 Android 扩展，此扩展允许您从 Android 可穿戴应用程序中收集数据。
 seo-title: Android 可穿戴应用程序：快速入门
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: Android 可穿戴应用程序：快速入门
-topic: 开发人员和实施
+topic: Developer and implementation
 uuid: bfe5d41e-b17c-4634-80ac-7a38671ecb81
-translation-type: ht
-source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '291'
+ht-degree: 100%
 
 ---
 
