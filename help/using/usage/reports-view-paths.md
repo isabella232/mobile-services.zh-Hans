@@ -3,12 +3,15 @@ description: “查看路径”报表以路径分析为基础，可显示一个�
 keywords: mobile
 seo-description: “查看路径”报表以路径分析为基础，可显示一个路径图表，以表示应用程序中不同状态之间的路径。
 seo-title: “查看路径”报表
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: “查看路径”报表
-topic: 报表,量度
+topic: Reports,Metrics
 uuid: bc73edce-0cc0-4349-9a48-e0a40cbe1b67
-translation-type: ht
-source-git-commit: e9691f9cbeadd171948aa752b27a014c3ab254d6
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '522'
+ht-degree: 73%
 
 ---
 
@@ -23,11 +26,11 @@ source-git-commit: e9691f9cbeadd171948aa752b27a014c3ab254d6
 
 ![查看路径](assets/view_paths.png)
 
-每个形状类似于框的节点都表示用户路径通过应用程序时的一种状态。例如，在以上插图中，顶级节点表示启动应用程序然后导航至主视图的用户数量。
+每个形状类似于框的节点都表示用户路径通过应用程序时的一种状态。例如，在上图中，顶部节点表示启动应用程序并导航到主视图的用户数。
 
-在单击某个节点以提供更多用于修改图表的选项后，即会显示诸如&#x200B;**[!UICONTROL 集中]**&#x200B;或&#x200B;**]展开[!UICONTROL **&#x200B;等更多选项。例如，在您单击顶级节点中的 **[!UICONTROL MainView]** 状态之后，即会显示&#x200B;**[!UICONTROL 集中]**&#x200B;和&#x200B;**[!UICONTROL 展开]**&#x200B;图标。
+在单击某个节点以提供更多用于修改图表的选项后，即会显示诸如&#x200B;**[!UICONTROL 集中]**&#x200B;或&#x200B;****&#x200B;展开等更多选项。例如，在您单击顶级节点中的 **[!UICONTROL MainView]** 状态之后，即会显示&#x200B;**[!UICONTROL 集中]**&#x200B;和&#x200B;**[!UICONTROL 展开]**&#x200B;图标。
 
-要展开视图，请单击 **[!UICONTROL +]** 图标以显示进入或退出节点的更多路径。在下面的插图中，状态 1 表示启动应用程序，状态 2 表示查看应用程序的主页，而状态 3 包含用户采用的以下路径：
+To expand the view, click the **[!UICONTROL +]** icon to display the additional paths that come in to or go from the node. 在下图中，状态1正在启动应用程序，状态2正在查看应用程序的主页，状态3包括用户采用的以下路径：
 
 * 导航到相机胶卷
 * 导航到项目选择器
@@ -36,16 +39,16 @@ source-git-commit: e9691f9cbeadd171948aa752b27a014c3ab254d6
 
 ![](assets/view_paths_expand.png)
 
-单击 ![集中图标](assets/icon_focus.png) 可隔离选定节点，从而仅显示进入或退出该节点的路径。在下面的插图中，以下路径是在用户查看应用程序主视图之前完成的：
+单击 ![集中图标](assets/icon_focus.png) 可隔离选定节点，从而仅显示进入或退出该节点的路径。在下图中，在查看应用程序主视图的用户之前有以下路径：
 
-* 项目信息
+* 项信息
 * 项目选择器
-* 相机胶卷
+* 相机卷
 * 相机
 
 ![查看路径集中](assets/view_paths_focus.png)
 
-您可以集中或展开多个节点，以详细了解用户在您的应用程序内所采用的路径。例如：
+您可以集中或展开多个节点，以详细视图用户在您的应用程序中所采用的路径。 例如：
 
 ![查看路径多个](assets/view_paths_mult.png)
 
