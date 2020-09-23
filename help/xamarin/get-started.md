@@ -3,12 +3,12 @@ description: 本主题介绍了如何开始使用面向移动设备解决方案 
 keywords: Xamarin
 seo-description: 本主题介绍了如何开始使用面向移动设备解决方案 4.x SDK 的 Xamarin 组件。
 seo-title: 面向 Experience Cloud 解决方案 4.x SDK 的 Xamarin 组件
-solution: Marketing Cloud,Developer
+solution: Experience Cloud
 title: 面向 Experience Cloud 解决方案 4.x SDK 的 Xamarin 组件
 uuid: e7a48107-bd0e-47d6-b49c-dfdae189ac37
-translation-type: ht
-source-git-commit: c198ae57b05f8965a8e27191443ee2cd552d6c50
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
 source-wordcount: '199'
 ht-degree: 100%
 
