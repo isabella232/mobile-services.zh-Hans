@@ -2,12 +2,15 @@
 description: 地理位置可通过在 Android 应用程序中使用纬度和经度以及预定义的目标点，来帮助您测量位置数据。
 seo-description: 地理位置可通过在 Android 应用程序中使用纬度和经度以及预定义的目标点，来帮助您测量位置数据。
 seo-title: 地理位置和目标点
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: 地理位置和目标点
-topic: 开发人员和实施
+topic: Developer and implementation
 uuid: b8209370-cbc4-40f9-97d8-017e2d74a377
-translation-type: ht
-source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '596'
+ht-degree: 83%
 
 ---
 
@@ -20,9 +23,9 @@ source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
 
 * 纬度、经度以及在 Adobe Mobile Services 用户界面中定义的目标点 (POI) 中的位置。
 
-   此信息将传递到移动设备解决方案变量，以便自动进行报告。
+   此信息将传递给移动解决方案变量以实现自动报告。
 
-* 作为上下文数据传递的到中心的距离以及精确度。
+* 中心距离和作为上下文数据传递的准确性。
 
    系统不会自动捕获这些变量。您必须按照以下“发送其他数据”**&#x200B;部分中的说明来映射这些上下文数据变量。
 
@@ -81,9 +84,9 @@ Analytics.trackLocation(currentLocation, locationContextData);
 
 ## 位置上下文数据 {#section_FFB71E6653F9410A89CC6ACC0C9164A9}
 
-纬度和经度均使用三个不同的上下文数据参数进行发送，其中每个参数表示不同的精度级别，总共有六个上下文数据参数。
+通过使用三个不同的上下文数据参数发送经度和纬度，每个参数代表不同的精度级别，共6个上下文数据参数。
 
-例如，坐标纬度为 40.93231、经度为 -111.93152 表示精度达 1 米的位置。此位置将根据精度级别在以下变量中进行拆分：
+例如，坐标纬度= 40.93231，长度= -111.93152表示精度为1m的位置。 此位置根据精确度级别在以下变量中进行拆分：
 
 `a.loc.lat.a` = 040.9
 
@@ -116,5 +119,5 @@ Analytics.trackLocation(currentLocation, locationContextData);
 
 * 如果有两个 POI 的直径重叠，则使用包含当前位置的第一个 POI。
 
-   如果您的 POI 重叠，您应当按照从最大粒度到最小粒度的顺序列出 POI，以确保报告最大粒度的 POI。
+   如果POI重叠，您应按最细到最细的顺序列表POI，以确保报告最细的POI。
 
