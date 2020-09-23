@@ -1,23 +1,26 @@
 ---
-description: 您可以创建应用商店链接，以便能够直接从 Apple App Store 和 Google Play 下载应用程序。通过您创建的这些链接，可以将成功事件归因为下载。
+description: 您可以创建应用商店链接，这些链接允许您直接从Apple App Store和Google Play下载应用程序。 您创建的链接可将成功事件归因于下载。
 keywords: mobile
-seo-description: 您可以创建应用商店链接，以便能够直接从 Apple App Store 和 Google Play 下载应用程序。通过您创建的这些链接，可以将成功事件归因为下载。
+seo-description: 您可以创建应用商店链接，这些链接允许您直接从Apple App Store和Google Play下载应用程序。 您创建的链接可将成功事件归因于下载。
 seo-title: 创建客户获取链接
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: 创建客户获取链接
-topic: 量度
+topic: Metrics
 uuid: bb603013-fca9-44a2-820a-59e1c85d9444
-translation-type: ht
-source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '506'
+ht-degree: 74%
 
 ---
 
 
 # 创建客户获取链接{#create-an-acquisition-link}
 
-您可以创建应用商店链接，以便能够直接从 Apple App Store 和 Google Play 下载应用程序。通过您创建的这些链接，可以将成功事件归因为下载。
+您可以创建应用商店链接，这些链接允许您直接从Apple App Store和Google Play下载应用程序。 您创建的链接可将成功事件归因于下载。
 
-1. 单击&#x200B;**[!UICONTROL 客户获取]** &gt; **[!UICONTROL 管理客户获取链接]** &gt; **[!UICONTROL 新建]**。
+1. Click **[!UICONTROL Acquisition]** > **[!UICONTROL Manage Acquisition Links]** > **[!UICONTROL Create New]**.
 1. 在&#x200B;**[!UICONTROL 链接信息]**&#x200B;部分键入以下信息：
 
    * （**必需**）**[!UICONTROL 名称]**
@@ -43,7 +46,8 @@ source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
       选择一个应用商店：
       * Apple App Store
       * Google Play
-      每个应用商店的对应选项可能有所不同，如下所示：
+
+      每个应用商店的选项会有所不同，如下所述。
 
    * **[!UICONTROL 浏览器地区（仅 Apple App Store）]**
 
@@ -74,7 +78,7 @@ source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
 
 
 
-1. 要保存您的配置并生成链接，请单击&#x200B;**[!UICONTROL 添加]** &gt; **[!UICONTROL 保存]**。
+1. To save your configuration and to generate the link, click **[!UICONTROL Add]** > **[!UICONTROL Save]**.
 
    新创建的链接会显示在&#x200B;**[!UICONTROL 应用商店链接]**&#x200B;部分中。
 
