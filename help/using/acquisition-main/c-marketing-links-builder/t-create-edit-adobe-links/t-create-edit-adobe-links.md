@@ -3,12 +3,15 @@ description: 您可以创建或编辑营销链接，以提供到移动设备应�
 keywords: mobile
 seo-description: 您可以创建或编辑营销链接，以提供到移动设备应用程序或网站的深层链接。
 seo-title: 创建或编辑营销链接
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: 创建或编辑营销链接
-topic: 量度
+topic: Metrics
 uuid: 305a8265-38de-4d19-8c79-b3912f5aae7c
-translation-type: ht
-source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '633'
+ht-degree: 94%
 
 ---
 
@@ -35,7 +38,7 @@ source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
 
    * **[!UICONTROL 添加跟踪上下文数据]**：
 
-      （**可选**）单击 **[!UICONTROL +]** 图标，然后键入相关信息以使用上下文数据跟踪您的促销活动。在&#x200B;**[!UICONTROL 自定义上下文数据]**&#x200B;下拉列表中，选择一个预设标记或一个您自己的标记。上下文数据用于报告营销链接在何时部署。
+      (**Optional**) Click the **[!UICONTROL +]** icon and type the relevant information to track your campaign using context data. 在&#x200B;**[!UICONTROL 自定义上下文数据]**&#x200B;下拉列表中，选择一个预设标记或一个您自己的标记。上下文数据用于报告营销链接在何时部署。
 
       可用的预设标记如下：
 
@@ -65,9 +68,9 @@ source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
 
 1. 单击&#x200B;**[!UICONTROL 编辑深层链接插播式广告]**，然后配置此链接。
 
-   （**可选**）如果存在多个目标，可以根据用户是否已安装移动设备应用程序将其路由到相应目标。如果已安装应用程序，则会显示一个插播式广告的登录页面。
+   （**可选**）如果存在多个目标，可以根据用户是否已安装移动设备应用程序将其路由到相应目标。如果安装了应用程序，则显示插播式登陆页。
 
-   有关更多信息，请参阅[插播式广告](/help/using/acquisition-main/c-marketing-links-builder/t-create-edit-adobe-links/t-interstitials.md)。
+   For more information, see [Interstitials](/help/using/acquisition-main/c-marketing-links-builder/t-create-edit-adobe-links/t-interstitials.md).
 
 1. 单击&#x200B;**[!UICONTROL 保存]**，然后单击&#x200B;**[!UICONTROL 下一步]**。
 1. 在“目标”页面中，配置链接。
@@ -91,6 +94,7 @@ source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
       * **[!UICONTROL Web 链接]**
       * **[!UICONTROL 应用程序深层链接]**
       * **[!UICONTROL 混合链接]**
+
       >[!TIP]
       >
       >如果您使用 **[!UICONTROL Web 链接]**&#x200B;目标类型，并将链接指向应用商店，则不会跟踪客户获取。要跟踪客户获取，请使用&#x200B;**[!UICONTROL 应用商店]**&#x200B;目标类型。
