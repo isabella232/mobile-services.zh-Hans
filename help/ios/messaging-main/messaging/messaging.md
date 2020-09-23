@@ -2,12 +2,12 @@
 description: 此信息可帮助您在iOS应用程序中使用应用程序内消息传递。
 seo-description: 此信息可帮助您在iOS应用程序中使用应用程序内消息传递。
 seo-title: 应用程序内消息传送
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: 应用程序内消息传送
 topic: Developer and implementation
 uuid: 21fa6a94-bb7f-4c78-843b-a50f1974db22
 translation-type: tm+mt
-source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
 workflow-type: tm+mt
 source-wordcount: '420'
 ht-degree: 55%
