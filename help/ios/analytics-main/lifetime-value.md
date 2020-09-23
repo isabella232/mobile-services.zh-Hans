@@ -2,12 +2,15 @@
 description: 您可以使用生命周期值测量和定位每个用户的生命周期值。
 seo-description: 您可以使用生命周期值测量和定位每个用户的生命周期值。
 seo-title: 访客生命周期值
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: 访客生命周期值
-topic: 开发人员和实施
+topic: Developer and implementation
 uuid: d830d18b-4313-43bb-8d75-3789869d0f1d
-translation-type: ht
-source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '173'
+ht-degree: 100%
 
 ---
 
