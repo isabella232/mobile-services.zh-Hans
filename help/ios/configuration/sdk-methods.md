@@ -2,13 +2,13 @@
 description: 以下是 iOS 库提供的方法列表。
 seo-description: 以下是 iOS 库提供的方法列表。
 seo-title: 配置方法
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: 配置方法
 topic: Developer and implementation
 uuid: 623c7b07-fbb3-4d39-a5c4-e64faec4ca29
-translation-type: ht
-source-git-commit: 527f93ae4ec910d1d1ea3637eb3a62d749a14397
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
 source-wordcount: '1198'
 ht-degree: 100%
 
