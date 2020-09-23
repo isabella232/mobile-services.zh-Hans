@@ -2,12 +2,15 @@
 description: 此信息可帮助您实施 iOS 库并收集生命周期量度，例如启动次数、升级次数、会话数、参与用户数等。
 seo-description: 此信息可帮助您实施 iOS 库并收集生命周期量度，例如启动次数、升级次数、会话数、参与用户数等。
 seo-title: 核心实施和生命周期
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: 核心实施和生命周期
 topic: Developer and implementation
 uuid: 96d06325-e424-4770-8659-4b5431318ee3
-translation-type: ht
-source-git-commit: bd8aa0c7ff58e4cf28a67b8a107db52fb30cd3dc
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '656'
+ht-degree: 100%
 
 ---
 
@@ -61,6 +64,7 @@ source-git-commit: bd8aa0c7ff58e4cf28a67b8a107db52fb30cd3dc
    * 已选中&#x200B;**[!UICONTROL 根据需要复制项目]**&#x200B;复选框。
    * 已选中&#x200B;**[!UICONTROL 创建群组]**。
    * 未选中&#x200B;**[!UICONTROL 添加到目标]**&#x200B;部分中的任何复选框。
+
    ![](assets/step_3.png)
 
 1. 单击&#x200B;**[!UICONTROL 完成]**。
@@ -93,6 +97,7 @@ source-git-commit: bd8aa0c7ff58e4cf28a67b8a107db52fb30cd3dc
       * `SystemConfiguration.framework`
       * `libsqlite3.0.tbd`
       * `AdobeMobileLibrary\_TV.a`
+
    >[!CAUTION]
    >
    > 在同一目标中关联多个 `AdobeMobileLibrary*.a` 文件将导致意外行为或无法执行生成操作。
