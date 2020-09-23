@@ -1,12 +1,15 @@
 ---
 description: 以下信息可帮助您排查客户获取测试问题。
-keywords: Android;客户获取;测试
+keywords: android;Acquisition;testing
 seo-description: 以下信息可帮助您排查客户获取测试问题。
 seo-title: 排查客户获取测试问题
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: 排查客户获取测试问题
-translation-type: ht
-source-git-commit: 1c387b063eedb41a52e044dc824df6a51f173ad2
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '251'
+ht-degree: 100%
 
 ---
 
