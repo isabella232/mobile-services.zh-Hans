@@ -2,12 +2,15 @@
 description: 此信息可帮助您了解如何跟踪崩溃，以及处理假崩溃的最佳做法。
 seo-description: 此信息可帮助您了解如何跟踪崩溃，以及处理假崩溃的最佳做法。
 seo-title: 跟踪应用程序的崩溃情况
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: 跟踪应用程序的崩溃情况
-topic: 开发人员和实施
+topic: Developer and implementation
 uuid: 4f81988b-198a-4ba9-ad53-78af90e43856
-translation-type: ht
-source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '529'
+ht-degree: 79%
 
 ---
 
@@ -28,7 +31,7 @@ source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
 
 iOS 使用系统通知，凭借这些通知，开发人员可以跟踪应用程序生命周期中的不同状态和事件并做出响应。
 
-Adobe Mobile iOS SDK 具有响应 `UIApplicationDidEnterBackgroundNotification` 通知的通知处理程序。在此代码中，设置了一个指示用户已将应用程序转入后台的值。在后续启动时，如果找不到该值，则会报告崩溃。
+Adobe Mobile iOS SDK 具有响应 `UIApplicationDidEnterBackgroundNotification` 通知的通知处理程序。在此代码中，设置一个值，指示用户已对应用程序进行后台处理。 在随后的启动中，如果找不到该值，则会报告崩溃。
 
 ## Adobe 为何以这种方式测量崩溃？
 
@@ -38,9 +41,9 @@ Adobe Mobile iOS SDK 具有响应 `UIApplicationDidEnterBackgroundNotification` 
 
 ## 导致报告假崩溃的原因是什么？
 
-以下情况已知会错误地导致 SDK 报告崩溃：
+以下情形已知会错误地导致SDK报告崩溃：
 
-* 如果您使用 Xcode 进行调试，则在应用程序处于前台时再次启动应用程序会导致崩溃。
+* 如果您使用Xcode进行调试，则在应用程序处于前台时再次启动该应用程序会导致崩溃。
 
    >[!TIP]
    >
@@ -59,11 +62,11 @@ Adobe Mobile iOS SDK 具有响应 `UIApplicationDidEnterBackgroundNotification` 
 
 以下做法可帮助您防止报告假崩溃：
 
-* 在 iOS SDK 4.8.6 中，添加了相应的代码以更好地确定新的生命周期会话是否为实际所需。
+* 在iOS SDK 4.8.6中，添加了代码以更好地确定是否确实需要新的生命周期会话。
 
-   此代码可修复上一部分中的第 2 种和第 3 种假崩溃。
+   此代码修复了上一节中#2和#3的错误崩溃。
 
-* 确保您针对非生产性报表包执行开发，这样应当可防止发生第 1 种假崩溃。
+* 确保对非生产报表包执行开发，这应防止发生虚假崩溃#1。
 * 不要删除或修改 Adobe Mobile SDK 在 `NSUserDefaults` 中放置的任何值。
 
    如果这些值在 SDK 之外发生修改，则报告的数据将无效。
