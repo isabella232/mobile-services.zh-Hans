@@ -1,44 +1,47 @@
 ---
-description: 此信息可帮助您将通用 Windows 平台 SDK 与 Adobe Analytics 配合使用。
-seo-description: 此信息可帮助您将通用 Windows 平台 SDK 与 Adobe Analytics 配合使用。
-seo-title: 分析方法
-solution: Marketing Cloud,Analytics
-title: Analytics methods
-topic: 开发人员和实施
+description: 帮助您将Universal Windows Platform SDK与Adobe Analytics一起使用的信息。
+seo-description: 帮助您将Universal Windows Platform SDK与Adobe Analytics一起使用的信息。
+seo-title: Analytics 方法
+solution: Experience Cloud,Analytics
+title: Analytics 方法
+topic: Developer and implementation
 uuid: cc299bb5-ec61-49bf-869a-f3c3bc83359f
 translation-type: tm+mt
-source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '632'
+ht-degree: 57%
 
 ---
 
 
-# Analytics methods {#analytics-methods}
+# Analytics 方法 {#analytics-methods}
 
-此信息可帮助您将通用 Windows 平台 SDK 与 Adobe Analytics 配合使用。
+帮助您将Universal Windows Platform SDK与Adobe Analytics一起使用的信息。
 
-SDK 当前支持多种 Adobe Experience Cloud 解决方案，其中包括 Analytics、Target 和 Audience Manager。方法将根据解决方案来添加前缀。Analytics 方法具有“Analytics”前缀。
+SDK目前支持多个Adobe Experience Cloud解决方案，包括分析、目标和Audience Manager。 方法将根据解决方案来添加前缀。分析方法前缀为“Analytics”。
 
 下面每个方法均可用来将数据发送至 Adobe Analytics 报表包。
 
 >[!TIP]
 >
->When you consume `winmd` methods from winJS (JavaScript), all methods automatically have their first letter lowercased.
+>当您使用 `winmd` winJS(JavaScript)中的方法时，所有方法都自动将其第一个字母小写。
 
 * **TrackState(winJS:trackState)**
 
-   通过可选的上下文数据跟踪应用程序状态。状态是指您的应用程序中提供的各种视图，例如“主页功能板”、“应用程序设置”、“购物车”等。这些状态与网站中的页面类似，而且 `TrackState` 调用会使页面查看次数递增。如果 `state` 为空，它会在报表中显示为“应用程序名称 应用程序版本 (内部版本)”。如果您在报表中看到该值，请确保在每个 `state` 调用中设置 `TrackState`。
+   通过可选的上下文数据跟踪应用程序状态。状态是您的应用程序中可用的视图，如“主仪表板”、“应用程序设置”、“购物车”等。 这些状态与网站中的页面类似，而且 `TrackState` 调用会使页面查看次数递增。If `state` is empty, it displays as &quot;app name app version (build)&quot; in reports. If you see this value in reports, make sure you are setting `state` in each `TrackState` call.
 
    >[!TIP]
    >
-   >这是唯一可增加页面查看次数的跟踪调用。
+   >只有此跟踪调用会递增页面查看次数。
 
-   * 下面是这种方法对应的语法：
+   * 以下是此方法的语法：
 
       ```csharp
       static void TrackState(Platform::String ^state, Windows::Foundation::Collections::IMap<Platform::String^, Platform::Object> ^contextData); 
       ```
 
-   * 以下是这种方法的代码示例：
+   * 以下是此方法的代码示例：
 
       ```js
       var ADB = ADBMobile
@@ -47,32 +50,32 @@ SDK 当前支持多种 Adobe Experience Cloud 解决方案，其中包括 Analyt
 
 * **TrackAction(winJS:trackAction)**
 
-   跟踪您的应用程序中的操作。操作是指您的应用程序中发生的要测量的事件，例如“登录”、“横幅点按”、“信息源订阅”及其他量度。
+   跟踪您的应用程序中的操作。操作是您要衡量的应用程序中发生的事情，如“登录”、“横幅点击”、“源订阅”和其他指标。
 
-   * 下面是这种方法对应的语法：
+   * 以下是此方法的语法：
 
       ```csharp
       static void TrackAction(Platform::String ^action, Windows::Foundation::Collections::IMap<Platform::String^, Platform::Object> ^contextData); 
       ```
 
-   * 以下是这种方法的代码示例：
+   * 以下是此方法的代码示例：
 
       ```js
       varADB=ADBMobile; 
       ADB.Analytics.trackAction("ButtonClick",null); 
       ```
 
-* **GetTrackingIdentifierAsync (winJS: getTrackingIdentifierAsync)**
+* **GetTrackingIdentifierAsync(winJS:getTrackingIdentifierAsync)**
 
-   返回自动生成的 Analytics 访客 ID。这是一个应用程序特定的唯一访客 ID，在初次启动时生成，随后进行存储并一直使用下去。此 ID 会在应用程序升级期间保留，并在应用程序卸载后删除。
+   返回自动生成的Analytics访客ID。 这是特定于应用程序的唯一访客ID，在初始启动时生成，然后从该点向前存储和使用。 此ID在应用程序升级期间保留，并在卸载时删除。
 
-   * 下面是这种方法对应的语法：
+   * 以下是此方法的语法：
 
       ```csharp
       static Windows::Foundation::IAsyncOperation<Platform::String> ^GetTrackingIdentifierAsync(); 
       ```
 
-   * 以下是这种方法的代码示例：
+   * 以下是此方法的代码示例：
 
       ```js
       vartrackingIdentifier; 
@@ -81,41 +84,41 @@ SDK 当前支持多种 Adobe Experience Cloud 解决方案，其中包括 Analyt
       });
       ```
 
-* **TrackLocation (winJS: trackLocation)**
+* **TrackLocation(winJS:trackLocation)**
 
    发送当前的 x y 坐标。此方法还使用 `ADBMobileConfig.json` 文件中定义的目标点来确定作为参数提供的位置是否位于您的任何 POI 内。如果当前坐标位于定义的 POI 内，则会填充上下文数据变量，并随 `trackLocation` 调用发送该变量。
 
-   * 下面是这种方法对应的语法：
+   * 以下是此方法的语法：
 
       ```csharp
       static void TrackLocation(double lat, double lon, double accuracy, Windows::Foundation::Collections::IMap<Platform::String^, Platform::Object> ^contextData);
       ```
 
-   * 以下是这种方法的代码示例：
+   * 以下是此方法的代码示例：
 
       ```js
       varADB=ADBMobile; 
       ADB.Analytics.trackLocation(47.60621,-122.33207,null);
       ```
 
-* **TrackLifetime&#x200B;ValueIncrease (winJS: trackLifetime&#x200B;ValueIncrease)**
+* **TrackLifetime &#x200B; ValueIncrease(winJS:trackLifetime &#x200B; ValueImcrease)**
 
    向用户的生命周期值中添加 `amount`。
 
-   * 下面是这种方法对应的语法：
+   * 以下是此方法的语法：
 
       ```csharp
       static void TrackLifetimeValueIncrease(float amount, Windows::Foundation::Collections::IMap<Platform::String^, Platform::Object> ^contextData); 
       ```
 
-   * 以下是这种方法的代码示例：
+   * 以下是此方法的代码示例：
 
       ```js
       varADB=ADBMobile;
       ADB.Analytics.trackLifetimeValueIncrease(10,null);
       ```
 
-* **TrackTimed&#x200B;ActionStart (winJS: trackTimed&#x200B;ActionStart)**
+* **TrackTimed &#x200B; ActionStart(winJS:trackTimed &#x200B; ActionStart)**
 
    启动名为 `action` 的定时操作。如果对已启动的操作调用此方法，则将覆盖上一个定时操作。
 
@@ -123,20 +126,20 @@ SDK 当前支持多种 Adobe Experience Cloud 解决方案，其中包括 Analyt
    >
    >这个调用不发送点击。
 
-   * 下面是这种方法对应的语法：
+   * 以下是此方法的语法：
 
       ```csharp
       static void TrackTimedActionStart(Platform::String ^action, Windows::Foundation::Collections::IMap<Platform::String^, Platform::Object^> ^contextData); 
       ```
 
-   * 以下是这种方法的代码示例：
+   * 以下是此方法的代码示例：
 
       ```js
       varADB=ADBMobile;
       ADB.Analytics.trackTimedActionStart("cartToCheckout",null); 
       ```
 
-* **TrackTimed&#x200B;ActionUpdate (winJS: trackTimed&#x200B;ActionUpdate)**
+* **TrackTimed &#x200B; ActionUpdate(winJS:trackTimed &#x200B; ActionUpdate)**
 
    传入 `contextData`，以更新与给定 `action` 关联的上下文数据。传入的 `data` 会附加到给定操作的现有数据中，如果已经为 `action` 定义了相同的键，则会覆盖数据。
 
@@ -144,13 +147,13 @@ SDK 当前支持多种 Adobe Experience Cloud 解决方案，其中包括 Analyt
    >
    >这个调用不发送点击。
 
-   * 下面是这种方法对应的语法：
+   * 以下是此方法的语法：
 
       ```csharp
       static void TrackTimedActionUpdate(Platform::String ^action, Windows::Foundation::Collections::IMap<Platform::String^, Platform::Object> ^contextData); 
       ```
 
-   * 以下是这种方法的代码示例：
+   * 以下是此方法的代码示例：
 
       ```js
       varADB = ADBMobile;
@@ -163,13 +166,13 @@ SDK 当前支持多种 Adobe Experience Cloud 解决方案，其中包括 Analyt
 
    如果给定的定时操作存在，则返回true；如果给定的定时操作不存在，则返回false。
 
-   * 下面是这种方法对应的语法：
+   * 以下是此方法的语法：
 
       ```csharp
       static Windows::Foundation::IAsyncOperation<bool> ^TrackTimedActionExistsAsync(Platform::String ^action); 
       ```
 
-   * 以下是这种方法的代码示例：
+   * 以下是此方法的代码示例：
 
       ```js
       ADBMobile.Analytics.trackTimedActionExistsAsync("signUp").then(function(exists){ 
@@ -181,13 +184,13 @@ SDK 当前支持多种 Adobe Experience Cloud 解决方案，其中包括 Analyt
 
    结束定时操作。
 
-   * 下面是这种方法对应的语法：
+   * 以下是此方法的语法：
 
       ```csharp
       static void TrackTimedActionEnd(Platform::String ^action);
       ```
 
-   * 以下是这种方法的代码示例：
+   * 以下是此方法的代码示例：
 
       ```js
       varADB = ADBMobile; 
@@ -196,15 +199,15 @@ SDK 当前支持多种 Adobe Experience Cloud 解决方案，其中包括 Analyt
 
 * **ClearTrackingQueue(winJS:clearTrackingQueue)**
 
-   清除 Analytics 跟踪队列中所有存储的点击。
+   清除Analytics跟踪队列中所有存储的点击。
 
-   * 下面是这种方法对应的语法：
+   * 以下是此方法的语法：
 
       ```csharp
       static void ClearTrackingQueue();
       ```
 
-   * 以下是这种方法的代码示例：
+   * 以下是此方法的代码示例：
 
       ```js
       ADBMobile.Analytics.clearTrackingQueue();
@@ -212,15 +215,15 @@ SDK 当前支持多种 Adobe Experience Cloud 解决方案，其中包括 Analyt
 
 * **GetQueueSizeAsync(winJS:getQueueSizeAsync)**
 
-   返回 Analytics 队列中当前存储的点击量。
+   返回Analytics队列中当前存储的点击数。
 
-   * 下面是这种方法对应的语法：
+   * 以下是此方法的语法：
 
       ```csharp
       static Windows::Foundation::IAsyncOperation<int> ^GetQueueSizeAsync();
       ```
 
-   * 以下是这种方法的代码示例：
+   * 以下是此方法的代码示例：
 
       ```js
       varqueueSize;
