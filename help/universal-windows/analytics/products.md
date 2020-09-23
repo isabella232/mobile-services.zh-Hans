@@ -1,20 +1,23 @@
 ---
-description: 无法使用处理规则设置产品变量。在 Mobile SDK 中，您必须在上下文数据参数内使用专门的语法，直接在服务器调用中设置产品。
-seo-description: 无法使用处理规则设置产品变量。在 Mobile SDK 中，您必须在上下文数据参数内使用专门的语法，直接在服务器调用中设置产品。
+description: 无法使用处理规则设置产品变量。 在移动SDK中，必须在上下文数据参数中使用特殊语法直接在服务器调用中设置产品。
+seo-description: 无法使用处理规则设置产品变量。 在移动SDK中，必须在上下文数据参数中使用特殊语法直接在服务器调用中设置产品。
 seo-title: 产品变量
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: 产品变量
-topic: 开发人员和实施
+topic: Developer and implementation
 uuid: 607983d6-48ac-4274-bfc8-b1ca4e5dad1b
 translation-type: tm+mt
-source-git-commit: 7aff336586058302046a728a0b1b0ce12660c1ba
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '220'
+ht-degree: 7%
 
 ---
 
 
-# Products variable {#products-variable}
+# 产品变量 {#products-variable}
 
-无法使用处理规则设置产品变量。在 Mobile SDK 中，您必须在上下文数据参数内使用专门的语法，直接在服务器调用中设置产品。
+无法使用处理规则设置产品变量。 在移动SDK中，必须在上下文数据参数中使用特殊语法直接在服务器调用中设置产品。
 
 To set the *`products`* variable, set a context data key to `"&&products"`, and set the value using the syntax defined for the *`products` variable:
 
@@ -46,9 +49,9 @@ The *`products`* is set directly on the image request, and the other variables a
 
 ![](assets/products-procrules.png)
 
-您无需使用处理规 *`products`* 则映射变量，因为该变量是SDK在图像请求上直接设置的。
+您无需使用处理规则 *`products`* 映射变量，因为该变量是SDK直接在图像请求上设置的。
 
-## Products variable with merchandising eVars and product-specific events {#section_685D53AD3D064F9A8E225F995A9BA545}
+## 具有促销 eVar 和产品特定事件的产品变量 {#section_685D53AD3D064F9A8E225F995A9BA545}
 
 An example of the *`products`* variable with Merchandising eVars and product-specific events.
 
@@ -73,5 +76,5 @@ ADB.Analytics.trackState("Order Confirmation", cdata);
 
 >[!TIP]
 >
->如果您使用变量触发产品特定事件，则 *`&&products`* 还必须在变量中设置该事件，否则，该事件在处理过程中 *`&&events`* 会被过滤掉。
+>如果您使用变量触发特定于产品的事件 *`&&products`* ，则还必须在变量中设置该事件，否 *`&&events`* 则在处理过程中会过滤掉事件。
 
