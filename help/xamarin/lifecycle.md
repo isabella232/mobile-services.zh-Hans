@@ -1,26 +1,29 @@
 ---
-description: 有关帮助实施适用于 Android 的生命周期量度的信息。对于 iOS，将自动收集生命周期量度。
+description: 帮助您实施Android生命周期指标的信息。 为iOS自动收集生命周期指标。
 keywords: Xamarin
-seo-description: 有关帮助实施适用于 Android 的生命周期量度的信息。对于 iOS，将自动收集生命周期量度。
+seo-description: 帮助您实施Android生命周期指标的信息。 为iOS自动收集生命周期指标。
 seo-title: 实施生命周期
-solution: Marketing Cloud,Developer
+solution: Experience Cloud
 title: 实施生命周期
 uuid: 6dccc12e-8b57-4231-9c74-d47bc0ac93ba
 translation-type: tm+mt
-source-git-commit: df4ea2c4002611c72009cf69598cbbb74b5c15c4
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '102'
+ht-degree: 1%
 
 ---
 
 
-# Implement lifecycle {#implement-lifecycle}
+# 实施生命周期 {#implement-lifecycle}
 
-This information helps you implement Lifecycle metrics for Android.
+此信息可帮助您实施Android的生命周期指标。
 
 >[!TIP]
 >
->对于 iOS，将自动收集生命周期量度。
+>为iOS自动收集生命周期指标。
 
-For the metrics and dimensions that can be measured automatically by the mobile library after lifecycle is implemented, see [Lifecycle Metrics](/help/ios/metrics.md).
+有关在实施生命周期后移动库可以自动衡量的指标和维度，请参 [阅生命周期](/help/ios/metrics.md)。
 
 ## iOS
 
@@ -39,7 +42,7 @@ protected override void OnCreate (Bundle bundle)
 }
 ```
 
-In every activity, implement lifecycle calls.
+在每个活动实施生命周期调用。
 
 ```java
 protected override void OnResume()
