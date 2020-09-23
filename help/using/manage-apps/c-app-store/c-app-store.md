@@ -3,13 +3,13 @@ description: appFigures Data Connector 集成将集成 appFigures 的强大移�
 keywords: mobile
 seo-description: appFigures Data Connector 集成将集成 appFigures 的强大移动应用商店分析与 Adobe Analytics 的直接应用程序跟踪功能整合在一起，为您的组织提供了强有力的分析和优化机会。
 seo-title: 应用商店
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: 应用商店
 topic: Metrics
 uuid: a194364d-faaf-4995-befd-cf48f9c1f11b
-translation-type: ht
-source-git-commit: 82b3dc38a0325b3aa733b491ddad9b59dbe84eaa
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
 source-wordcount: '199'
 ht-degree: 100%
 
