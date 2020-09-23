@@ -1,26 +1,29 @@
 ---
-description: Adobe Mobile 和 Adobe Mobile SDK 允许您将推送消息发送给用户。该 SDK 还允许您轻松报告在点进推送消息后打开您的应用程序的用户。
-seo-description: Adobe Mobile 和 Adobe Mobile SDK 允许您将推送消息发送给用户。该 SDK 还允许您轻松报告在点进推送消息后打开您的应用程序的用户。
+description: Adobe移动和Adobe移动SDK允许您向用户发送推送消息。 SDK还允许您轻松报告在点击推送消息后已打开您的应用程序的用户。
+seo-description: Adobe移动和Adobe移动SDK允许您向用户发送推送消息。 SDK还允许您轻松报告在点击推送消息后已打开您的应用程序的用户。
 seo-title: 推送消息
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: 推送消息
-topic: 开发人员和实施
+topic: Developer and implementation
 uuid: 729d4010-3733-4dff-b188-ad45bd3e7cc4
-translation-type: ht
-source-git-commit: 17cb91a28966cf32f955a2cb724e89ab228de5b8
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '439'
+ht-degree: 61%
 
 ---
 
 
 # 推送消息 {#push-messaging}
 
-Adobe Mobile 和 Adobe Mobile SDK 允许您将推送消息发送给用户。该 SDK 还允许您轻松报告在点进推送消息后打开您的应用程序的用户。
+Adobe移动和Adobe移动SDK允许您向用户发送推送消息。 SDK还允许您轻松报告在点击推送消息后已打开您的应用程序的用户。
 
 要使用推送消息，您&#x200B;**必须**&#x200B;具有 SDK 版本 4.6 或更高版本。
 
 >[!IMPORTANT]
 >
->请不要在您的应用程序中手动设置 Experience Cloud ID。这会导致创建一个新的独特用户，该用户将由于其选择启用状态而不接受推送消息。例如，某个已选择接收推送消息的用户登录到您的应用程序。登录后，如果您在应用程序中手动设置 ID，则会创建一个未选择接收推送消息的新独特用户。该新用户将不会接收您的推送消息。
+>请不要在您的应用程序中手动设置 Experience Cloud ID。这会导致创建一个新的唯一用户，该用户由于选择加入状态而无法接收推送消息。 例如，用户已选择接收登录到您的应用程序的推送消息。 登录后，如果您在应用程序中手动设置ID，则会创建一个未选择接收推送消息的新唯一用户。 该新用户将不会接收您的推送消息。
 >
 >不支持将应用程序移动到新的报表包。如果迁移到新报表包，则推送配置可能会中断，并且可能无法发送消息。
 
@@ -58,7 +61,7 @@ Adobe Mobile 和 Adobe Mobile SDK 允许您将推送消息发送给用户。该 
 
    以下是启用推送点进报表的要求：
 
-   * 在 `FireBaseMessageService` 的实现中，必须将包含消息数据（将与 RemoteMessage 对象一起被传递到 `onMessageReceived` 方法中）的包对象添加到用于在点进时打开目标活动的意图中。可以使用 `putExtras` 方法来完成此操作。有关更多信息，请参阅 [putExtras](https://developer.android.com/reference/android/content/Intent.html#putExtras(android.os.Bundle))。
+   * 在 `FireBaseMessageService` 的实现中，必须将包含消息数据（将与 RemoteMessage 对象一起被传递到 `onMessageReceived` 方法中）的包对象添加到用于在点进时打开目标活动的意图中。可以使用 `putExtras` 方法来完成此操作。有关更多信息，请参阅 [putExtras](https://developer.android.com/reference/android/content/Intent.html#putExtras(android.os.Bundle))）。
 
    ```java
    Intent intent = new Intent(this, MainActivity.class);
