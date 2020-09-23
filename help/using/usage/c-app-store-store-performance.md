@@ -3,12 +3,15 @@ description: 应用商店“概述”报表会为您提供应用商店的量度�
 keywords: mobile
 seo-description: 应用商店“概述”报表会为您提供应用商店的量度信息，包括下载次数、应用程序内购买次数、应用商店平均评分、下载收入、应用程序内收入、按国家/地区划分的下载次数、按应用商店划分的下载次数，以及按名称划分的应用程序内购买次数。
 seo-title: 应用商店“概述”报表
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: 应用商店“概述”报表
-topic: 量度
+topic: Metrics
 uuid: ac066f31-ec4b-4b67-b839-780c2cd1574e
-translation-type: ht
-source-git-commit: 3b744229b3fc288363be74c3c4adcd71ecc4fad4
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '517'
+ht-degree: 84%
 
 ---
 
@@ -25,7 +28,7 @@ source-git-commit: 3b744229b3fc288363be74c3c4adcd71ecc4fad4
 
 ![](assets/app_store_metrics.png)
 
-您可以单击任何量度来隐藏或显示其相应的行。要查看某一天的数据，请将鼠标悬停在当天上。
+您可以单击任何度量来隐藏或显示其相应行。 要查看某一天的数据，请将鼠标悬停在当天上。
 
 >[!IMPORTANT]
 >
@@ -47,32 +50,32 @@ source-git-commit: 3b744229b3fc288363be74c3c4adcd71ecc4fad4
 
 ## 下载收入 {#section_34F05998E8444544A1B507C1B852C4EE}
 
-此报表可显示通过下载您的应用程序所产生的收入金额。
+此报告显示通过下载应用程序生成的收入额。
 
 ## 应用程序内收入 {#section_58792ED9C4B54B7D836E30CF09E8E204}
 
-此报表可显示使用您的应用程序进行应用程序内购买所产生的收入金额。
+此报告显示使用您的应用程序进行应用程序内购买所产生的收入额。
 
-## 按国家/地区划分的下载次数 {#section_10373CD28CA94BA5859DFDEED7D548C6}
+## 各国下载 {#section_10373CD28CA94BA5859DFDEED7D548C6}
 
 此报表可显示按国家/地区划分的应用程序下载次数。
 
 ![](assets/country.png)
 
-要显示按日期划分每个国家/地区下载次数的图表，请单击&#x200B;**[!UICONTROL 按国家/地区划分的下载次数]**。将鼠标悬停在某个日期上即可查看当天的数据。
+要显示按日期划分每个国家/地区下载次数的图表，请单击&#x200B;**[!UICONTROL 按国家/地区划分的下载次数]**。您可以将鼠标悬停在某个日期上以视图某一天的数据。
 
 ![](assets/downloads_by_country.png)
 
-## 按应用商店划分的下载次数 {#section_F1CD1A3F0105469D879E4F280CE32484}
+## 按App Store下载 {#section_F1CD1A3F0105469D879E4F280CE32484}
 
 此报表可显示按应用商店划分的应用程序下载次数。
 
 ![](assets/app_store.png)
 
-要显示按日期划分每个应用商店下载次数的图表，请单击&#x200B;**[!UICONTROL 按应用商店划分的下载次数]**。将鼠标悬停在某个日期上即可查看当天的数据。
+要显示按日期划分每个应用商店下载次数的图表，请单击&#x200B;**[!UICONTROL 按应用商店划分的下载次数]**。您可以将鼠标悬停在某个日期上以视图该日的数据。
 
 ![](assets/app_store_downloads_detail.png)
 
-## 按名称划分的应用程序内购买次数 {#section_D747A64F9F6449E0A02EF31D56C92F83}
+## 按名称进行应用程序内购买 {#section_D747A64F9F6449E0A02EF31D56C92F83}
 
 此报表可显示按名称划分的所有应用程序内购买次数。
