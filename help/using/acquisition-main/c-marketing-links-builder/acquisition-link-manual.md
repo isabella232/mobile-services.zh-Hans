@@ -3,12 +3,15 @@ description: 您可以通过手动配置 URL 参数来创建营销链接，以�
 keywords: mobile
 seo-description: 您可以通过手动配置 URL 参数来创建营销链接，以便即时获取新的移动设备应用程序用户。
 seo-title: 手动创建客户获取链接
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: 手动创建客户获取链接
-topic: 量度
+topic: Metrics
 uuid: d7709203-f793-4982-adaa-9c3c914aca2b
-translation-type: ht
-source-git-commit: 54e3b2d673356a616987537d20758bef8b044db4
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '496'
+ht-degree: 91%
 
 ---
 
@@ -25,7 +28,7 @@ source-git-commit: 54e3b2d673356a616987537d20758bef8b044db4
 
 ![](assets/acquisition_url.png)
 
-此链接被配置为执行特定于平台的重定向至 Google Play 商店或 Apple App Store，以获取移动设备应用程序。如果无法确定目标，则前往默认的商店 Apple App Store。安装应用程序后，`my.custom.key:test` 自定义上下文键会附加到“Analytics 安装点击”。
+此链接配置为针对移动应用程序执行特定于平台的重定向到Google Play商店或Apple App Store。 如果无法确定目标，则默认存储已设置为Apple App Store。 安装应用程序后，`my.custom.key:test` 自定义上下文键会附加到“Analytics 安装点击”。
 
 要手动创建链接，请使用下面的 URL 格式：
 
@@ -38,7 +41,7 @@ source-git-commit: 54e3b2d673356a616987537d20758bef8b044db4
 对于 iOS，请确保使用正确的协议：
 
 * 如果您使用的是 iOS SDK 4.7.0 之前的版本，或者如果您使用的是 iOS SDK 4.7.0 或更高版本并且&#x200B;**未**&#x200B;在“管理应用程序设置”页面中选中&#x200B;**[!UICONTROL 使用 HTTPS]**，则使用 **HTTP**。
-* 如果您使用的是 iOS SDK 4.7.0 或更高版本并且&#x200B;**已**&#x200B;在“管理应用程序设置”页面中选中&#x200B;**[!UICONTROL 使用 HTTPS]**，则使用 **HTTPS**。
+* 如果您使用的是 iOS SDK 4.7.0 或更高版本并且已&#x200B;**在“管理应用程序设置”页面中选中**&#x200B;使用 HTTPS ****，则使用 **HTTPS**。
 
 在满足下列条件的情况下：
 
