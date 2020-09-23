@@ -3,12 +3,15 @@ description: “用户和会话”报表可显示独特访客在选定时间段�
 keywords: mobile
 seo-description: “用户和会话”报表可显示独特访客在选定时间段的量度。
 seo-title: “用户和会话”报表
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: “用户和会话”报表
-topic: 报表,量度
+topic: Reports,Metrics
 uuid: 6d70d7f6-de81-4307-a4f3-14f18fc3c9b3
-translation-type: ht
-source-git-commit: e9691f9cbeadd171948aa752b27a014c3ab254d6
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '193'
+ht-degree: 100%
 
 ---
 
