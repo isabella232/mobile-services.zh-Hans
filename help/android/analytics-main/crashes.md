@@ -2,13 +2,13 @@
 description: 此信息可帮助您了解如何跟踪崩溃，以及处理假崩溃的最佳做法。
 seo-description: 此信息可帮助您了解如何跟踪崩溃，以及处理假崩溃的最佳做法。
 seo-title: 跟踪应用程序的崩溃情况
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: 跟踪应用程序的崩溃情况
 topic: Developer and implementation
 uuid: 3ab98c14-ccdf-4060-ad88-ec07c1c6bf07
-translation-type: ht
-source-git-commit: 161212216565d56e346abc664197fedbea83d6a0
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
 source-wordcount: '487'
 ht-degree: 100%
 
