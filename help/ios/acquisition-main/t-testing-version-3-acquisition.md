@@ -2,11 +2,14 @@
 description: 此信息可帮助您对基于设备指纹的 V3 客户获取促销活动链接进行往返测试。
 seo-description: 此信息可帮助您对基于设备指纹的 V3 客户获取促销活动链接进行往返测试。
 seo-title: 测试 V3 客户获取
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: 测试 V3 客户获取
 uuid: 89137ccf-4839-4b37-926e-303cf8e511a5
-translation-type: ht
-source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '620'
+ht-degree: 97%
 
 ---
 
@@ -17,9 +20,9 @@ source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
 
 >[!IMPORTANT]
 >
->V3 客户获取是指您在 Adobe Mobile Services 用户界面中通过客户获取生成器创建的客户获取链接。要使用此功能，您必须升级到 iOS SDK 版本 4.6.0 或更高版本。
+>V3 客户获取是指您在 Adobe Mobile Services 用户界面中通过客户获取生成器创建的客户获取链接。要使用此功能，您必须升级到 iOS SDK 4.6.0 或更高版本。
 
-如果应用商店中尚未提供相应的移动设备应用程序，则在创建促销活动链接时，可以选择任何移动设备应用程序作为目标。这只会影响在您单击客户获取链接后客户获取服务器将您重定向到的应用程序，而不会影响测试链接的功能。
+如果 Apple Store 中尚未提供相应的移动设备应用程序，则在创建促销活动链接时，请选择任何移动设备应用程序作为目标。这仅会影响在您单击客户获取链接后，客户获取服务器将您重定向到的应用程序，但不会影响测试链接的功能。
 
 1. 完成[移动设备应用程序客户获取](/help/ios/acquisition-main/acquisition.md)中的先决任务。
 1. 导航至 Adobe Mobile Services 用户界面中的&#x200B;**[!UICONTROL 客户获取生成器]**，并生成客户获取促销活动 URL。
@@ -63,7 +66,7 @@ source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
    `"Analytics - Trying to fetch referrer data from <acquisition end url>"`
    `"Analytics - Received Referrer Data(<Json Object>)"`
 
-   如果您没有看到以上日志，请确保您完成了步骤 4 和 5。
+   如果看不到上述日志，请确保您已完成步骤4和5。
 
    以下是关于可能出现的错误的一些信息：
 
@@ -84,7 +87,7 @@ source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
 
    * `Analytics - Acquisition referrer timed out`
 
-      无法在 `referrerTimeout` 定义的时间内获取响应。请增加值，然后重试。您还应确保在安装应用程序之前打开客户获取链接，并且在单击 URL 和打开应用程序时，使用的是同一个网络。
+      无法在 `referrerTimeout` 定义的时间内获取响应。请增加值，然后重试。您还应该确保：先打开客户获取链接，然后再安装应用程序；以及在单击 URL 和打开应用程序时，使用的是同一网络。
 
       请牢记以下信息：
 
