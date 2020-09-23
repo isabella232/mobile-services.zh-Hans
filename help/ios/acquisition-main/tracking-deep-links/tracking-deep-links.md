@@ -2,11 +2,14 @@
 description: 您可以使用此信息通过 Adobe Mobile iOS SDK 在移动设备应用程序中跟踪深层链接和延期深层链接。
 seo-description: 您可以使用此信息通过 Adobe Mobile iOS SDK 在移动设备应用程序中跟踪深层链接和延期深层链接。
 seo-title: 跟踪深层链接
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: 跟踪深层链接
 uuid: 08dc2820-7fd3-419f-ac2d-dcf12532578a
-translation-type: ht
-source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '321'
+ht-degree: 98%
 
 ---
 
@@ -26,7 +29,7 @@ source-git-commit: 54150c39325070f37f8e1612204a745d81551ea7
 
    有关更多信息，请参阅[应用程序间通信](https://developer.apple.com/library/ios/documentation/iPhone/Conceptual/iPhoneOSProgrammingGuide/Inter-AppCommunication/Inter-AppCommunication.html#//apple_ref/doc/uid/TP40007072-CH6-SW10)或[支持通用链接](https://developer.apple.com/library/ios/documentation/General/Conceptual/AppSearch/UniversalLinks.html)
 
-1. 跟踪 openURL 中的深层链接。
+1. 在openURL中跟踪深层链接。
 
    以下是跟踪深层链接的一个示例：
 
