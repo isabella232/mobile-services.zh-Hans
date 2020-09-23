@@ -3,13 +3,13 @@ description: 以下是关于默认 Mobile 量度和维度的参考信息。
 keywords: mobile
 seo-description: 以下是关于默认 Mobile 量度和维度的参考信息。
 seo-title: 移动量度和维度参考
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: 移动量度和维度参考
 topic: Metrics
 uuid: 96170ae7-8553-4f3e-ae01-65e5b664adf4
-translation-type: ht
-source-git-commit: c198ae57b05f8965a8e27191443ee2cd552d6c50
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
 source-wordcount: '637'
 ht-degree: 100%
 
