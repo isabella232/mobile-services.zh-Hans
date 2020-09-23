@@ -1,21 +1,24 @@
 ---
-description: 此信息可帮助您发送信号，并从 Audience Manager 中检索访客区段。
-seo-description: 此信息可帮助您发送信号，并从 Audience Manager 中检索访客区段。
+description: 帮助您发送信号并从访客中检索Audience Manager段的信息。
+seo-description: 帮助您发送信号并从访客中检索Audience Manager段的信息。
 seo-title: Audience Manager
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: Audience Manager
-topic: 开发人员和实施
+topic: Developer and implementation
 uuid: fadc3296-c17c-4732-9b75-a6fb4d33a282
 translation-type: tm+mt
-source-git-commit: 398299575a32d4fee4dcea22788839afa13a1a0f
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '50'
+ht-degree: 22%
 
 ---
 
 
 # Audience Manager{#audience-manager}
 
-此信息可帮助您发送信号，并从 Audience Manager 中检索访客区段。
+帮助您发送信号并从访客中检索Audience Manager段的信息。
 
 ## 其他信息
 
-+ [Audience Manager methods](/help/windows-appstore/audiencemgmt/audience-manager-methods.md)
++ [Audience Manager 方法](/help/windows-appstore/audiencemgmt/audience-manager-methods.md)
