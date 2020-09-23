@@ -3,12 +3,15 @@ description: “社交共享”报表会针对您的现有数据显示一个环�
 keywords: mobile
 seo-description: “社交共享”报表会针对您的现有数据显示一个环状层次视图。此报表仅供 Digital Publishing Suite (DPS) 客户使用。
 seo-title: 社交共享
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: 社交共享
-topic: 量度
+topic: Metrics
 uuid: 900e58aa-c1d3-4590-af44-df67575214a4
-translation-type: ht
-source-git-commit: b11a03226ff6100554d072b4ef523d703b80a6e5
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '142'
+ht-degree: 100%
 
 ---
 
