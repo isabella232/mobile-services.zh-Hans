@@ -1,31 +1,34 @@
 ---
-description: 您可以通过回发将 SDK 收集的数据发送至第三方服务器。利用您用来显示应用程序内消息的相同触发器和特征，可以配置 SDK 以将自定义数据发送至第三方目标。
-seo-description: 您可以通过回发将 SDK 收集的数据发送至第三方服务器。利用您用来显示应用程序内消息的相同触发器和特征，可以配置 SDK 以将自定义数据发送至第三方目标。
+description: 回传允许您将SDK收集的数据发送到第三方服务器。 通过利用用于显示应用程序内消息的相同触发器和特征，您可以配置SDK以将自定义数据发送到第三方目标。
+seo-description: 回传允许您将SDK收集的数据发送到第三方服务器。 通过利用用于显示应用程序内消息的相同触发器和特征，您可以配置SDK以将自定义数据发送到第三方目标。
 seo-title: 回发
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: 回发概述
 uuid: 25e2a5fb-1203-40dd-96cd-b23e0f23376d
-translation-type: ht
-source-git-commit: 83e6968efb0ed1b4ef504286c6cb2e8e4d2eaf94
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '336'
+ht-degree: 24%
 
 ---
 
 
 # 回发概述 {#postbacks}
 
-您可以通过回发将 SDK 收集的数据发送至第三方服务器。利用您用来显示应用程序内消息的相同触发器和特征，可以配置 SDK 以将自定义数据发送至第三方目标。
+回传允许您将SDK收集的数据发送到第三方服务器。 通过利用用于显示应用程序内消息的相同触发器和特征，您可以配置SDK以将自定义数据发送到第三方目标。
 
 >[!IMPORTANT]
 >
 >此功能需要 SDK 版本 4.6.0 或更高版本。
 
-回发消息会排入队列，并遵循控制 Analytics 数据收集的所有现有在线/离线规则。当某个消息匹配时（与显示的消息一样），回发消息不会取消其余的消息。这允许对同一次 Analytics 点击发生多个回发。有关定义，请参阅&#x200B;** [ADBMobile JSON 配置](/help/ios/configuration/json-config/json-config.md)中的“postbacks”行。
+回传消息将排队，并遵循控制分析数据收集的所有现有在线／离线规则。 当消息匹配时（如显示消息），回传消息不会取消其余消息。 这允许在同一分析点击中发生多个回传。 有关定义，请参阅 *ADBMobile* JSON配 [置中的回发行](/help/ios/configuration/json-config/json-config.md)。
 
 ## 模板扩展 {#section_6758AD05A24C4E9E965F5253294C164A}
 
-模板扩展可在 `templateurl` 和 `templatebody` 属性中使用。模板项目采用 `{key}` 形式，其中 `key` 是上下文数据键或传统数据键。可用于模板扩展的值仅限于[标准生命周期变量列表](/help/ios/metrics.md)，以及在触发消息的点击中附加的任何自定义数据。基于历史记录的数据或基于区段的数据当前不可用。
+模板扩展可在 `templateurl` 和 `templatebody` 属性中使用。模板项目采用 `{key}` 形式，其中 `key` 是上下文数据键或传统数据键。The values available for template expansion are limited to the [standard Lifecycle variables list](/help/ios/metrics.md), in addition to any custom data attached to the hit that triggers the message. 目前没有基于历史或基于细分的数据可用。
 
-还有一些特定的保留模板，SDK 会自动将其替换为 SDK 已知的内部数据。
+SDK还会用SDK已知的内部数据自动替换特定的保留模板。
 
 此列表包括：
 
