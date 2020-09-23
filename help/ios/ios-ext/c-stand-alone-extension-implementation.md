@@ -1,20 +1,23 @@
 ---
-description: 从 iOS 10 开始，Apple 允许您创建独立扩展，此类扩展可在没有容器应用程序的情况下进行分发。使用此类扩展时，您不需要应用程序组，因为不存在要与其共享数据的容器应用程序。
-seo-description: 从 iOS 10 开始，Apple 允许您创建独立扩展，此类扩展可在没有容器应用程序的情况下进行分发。使用此类扩展时，您不需要应用程序组，因为不存在要与其共享数据的容器应用程序。
+description: 从iOS 10开始，Apple允许您创建称为独立扩展的扩展，该扩展无需包含应用程序即可分发。 使用此扩展时，您不需要应用程序组，因为没有包含要与其共享数据的应用程序。
+seo-description: 从iOS 10开始，Apple允许您创建称为独立扩展的扩展，该扩展无需包含应用程序即可分发。 使用此扩展时，您不需要应用程序组，因为没有包含要与其共享数据的应用程序。
 seo-title: 独立扩展实施
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: 独立扩展实施
-topic: 开发人员和实施
+topic: Developer and implementation
 uuid: 9b47f082-b78f-4611-968d-014c32ede6bc
-translation-type: ht
-source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '268'
+ht-degree: 44%
 
 ---
 
 
 # 独立扩展实施 {#stand-alone-extension-implementation}
 
-从 iOS 10 开始，Apple 允许您创建独立扩展，此类扩展可在没有容器应用程序的情况下进行分发。使用此类扩展时，您不需要应用程序组，因为不存在要与其共享数据的容器应用程序。
+从iOS 10开始，Apple允许您创建称为独立扩展的扩展，该扩展无需包含应用程序即可分发。 使用此扩展时，您不需要应用程序组，因为没有包含要与其共享数据的应用程序。
 
 >[!IMPORTANT]
 >
@@ -52,5 +55,5 @@ source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
 
       此值表示点击来自扩展。
 
-* 在 iOS 扩展应用程序中不会触发生命周期调用。
+* iOS扩展应用程序上不会触发生命周期调用。
 
