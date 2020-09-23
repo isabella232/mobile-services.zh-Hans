@@ -1,20 +1,23 @@
 ---
-description: 处理规则不支持事件序列化。在 Mobile SDK 中，您必须在上下文数据参数内使用专门的语法，直接在服务器调用中设置序列化事件。
-seo-description: 处理规则不支持事件序列化。在 Mobile SDK 中，您必须在上下文数据参数内使用专门的语法，直接在服务器调用中设置序列化事件。
+description: 处理规则不支持事件序列化。 在移动SDK中，必须在上下文数据参数中使用特殊语法直接在服务器调用中设置序列化事件。
+seo-description: 处理规则不支持事件序列化。 在移动SDK中，必须在上下文数据参数中使用特殊语法直接在服务器调用中设置序列化事件。
 seo-title: 事件序列化
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: 事件序列化
-topic: 开发人员和实施
+topic: Developer and implementation
 uuid: 7220a001-1174-4013-91ff-e8603d8ab265
 translation-type: tm+mt
-source-git-commit: f5ba33fe805c502b8ae91ddafcaa0b57e68704b8
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '104'
+ht-degree: 7%
 
 ---
 
 
 # 事件序列化 {#event-serialization}
 
-处理规则不支持事件序列化。在移动SDK中，您必须在上下文数据参数中使用特殊语法直接在服务器调用中设置序列化事件。
+处理规则不支持事件序列化。 在移动SDK中，您必须在上下文数据参数中使用特殊语法，在服务器调用中直接设置序列化事件。
 
 ```js
 cdata["&&events"] = "event1:12341234";
