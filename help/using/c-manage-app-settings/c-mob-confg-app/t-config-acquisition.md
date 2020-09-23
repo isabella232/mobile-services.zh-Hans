@@ -3,12 +3,15 @@ description: 创建新应用程序或编辑现有应用程序时，您可以在�
 keywords: mobile
 seo-description: 创建新应用程序或编辑现有应用程序时，您可以在“管理应用程序设置”页面上配置“SDK 客户获取”选项。
 seo-title: 配置 SDK 客户获取选项
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: 配置 SDK 客户获取选项
-topic: 量度
+topic: Metrics
 uuid: 50ce51ad-39bf-4ac7-bd94-757443d11ca7
-translation-type: ht
-source-git-commit: 74b3597ce849aa114e6638e89741da3f6e1bee19
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '174'
+ht-degree: 100%
 
 ---
 
