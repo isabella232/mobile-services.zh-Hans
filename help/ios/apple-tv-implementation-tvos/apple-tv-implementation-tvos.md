@@ -2,12 +2,15 @@
 description: 此信息可帮助您使用 tvOS 实施 Apple TV。
 seo-description: 此信息可帮助您使用 tvOS 实施 Apple TV。
 seo-title: 使用 tvOS 实施 Apple TV
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: 使用 tvOS 实施 Apple TV
-topic: 开发人员和实施
+topic: Developer and implementation
 uuid: d1571ea2-a5de-4b96-a527-72abbf51fab8
-translation-type: ht
-source-git-commit: 718e336b9002fe3d5282697d4302d12a89297181
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '402'
+ht-degree: 90%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: 718e336b9002fe3d5282697d4302d12a89297181
 
 ## 新的 Adobe Experience Platform Mobile SDK 发行版本
 
-查找与 Adobe Experience Platform Mobile SDK 相关的信息和文档？单击[此处](https://aep-sdks.gitbook.io/docs/)可获取最新的文档。
+正在寻找与 Adobe Experience Platform Mobile SDK 相关的信息和文档？请单击[此处](https://aep-sdks.gitbook.io/docs/)获取我们的最新文档。
 
 在 2018 年 9 月，我们发布了一个新的 SDK 主要版本。这些新的 Adobe Experience Platform Mobile SDK 可通过 [Experience Platform Launch](https://www.adobe.com/cn/experience-platform/launch.html) 进行配置。
 
@@ -27,7 +30,7 @@ source-git-commit: 718e336b9002fe3d5282697d4302d12a89297181
 
 ## 概述
 
-通过 Apple TV，您现在能够创建可在本机 tvOS 环境中运行的应用程序。您可以使用 iOS 中的几种框架创建本机应用程序，也可以使用 XML 模板和 JavaScript 创建应用程序。
+现在，使用Apple TV，您可以创建要在本机tvOS环境中运行的应用程序。 您可以在iOS中使用多个框架创建本机应用程序，也可以使用XML模板和JavaScript创建应用程序。
 
 >[!TIP]
 >
