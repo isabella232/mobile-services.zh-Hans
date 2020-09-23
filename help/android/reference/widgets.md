@@ -1,23 +1,26 @@
 ---
-description: 可以使用与应用程序相同的方法来跟踪 Android 小组件。小组件会与您的应用程序共享应用程序上下文，从而保留点击顺序和访客标识。
-keywords: Android;库;移动;SDK
-seo-description: 可以使用与应用程序相同的方法来跟踪 Android 小组件。小组件会与您的应用程序共享应用程序上下文，从而保留点击顺序和访客标识。
+description: 可以使用与应用程序相同的方法跟踪Android构件。 构件与您的应用程序共享应用程序上下文，因此会保留点击顺序和访客标识。
+keywords: android;library;mobile;sdk
+seo-description: 可以使用与应用程序相同的方法跟踪Android构件。 构件与您的应用程序共享应用程序上下文，因此会保留点击顺序和访客标识。
 seo-title: Android 小组件
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: Android 小组件
-topic: 开发人员和实施
+topic: Developer and implementation
 uuid: 1a3718ff-967b-4c8e-ae0b-ba15bddbda0a
-translation-type: ht
-source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '179'
+ht-degree: 46%
 
 ---
 
 
 # Android 小组件 {#android-widgets}
 
-可以使用与应用程序相同的方法来跟踪 Android 小组件。小组件会与您的应用程序共享应用程序上下文，从而保留点击顺序和访客标识。
+可以使用与应用程序相同的方法跟踪Android构件。 构件与您的应用程序共享应用程序上下文，因此会保留点击顺序和访客标识。
 
-以下准则将帮助您跟踪 Android 小组件：
+以下准则将帮助您跟踪Android构件：
 
 * 不要在小组件中实施生命周期量度 (`startActivity`/`stopActivity`) 调用。
 
