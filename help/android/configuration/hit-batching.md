@@ -1,14 +1,17 @@
 ---
 description: 点击批量处理允许应用程序在队列中的点击量超过可配置限制后才发送点击。
-keywords: Android;库;移动;SDK
+keywords: android;library;mobile;sdk
 seo-description: 点击批量处理允许应用程序在队列中的点击量超过可配置限制后才发送点击。
 seo-title: 点击批量处理
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: 点击批量处理
-topic: 开发人员和实施
+topic: Developer and implementation
 uuid: ada35be3-242b-4b2b-a828-9bf998dd58b5
-translation-type: ht
-source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '183'
+ht-degree: 89%
 
 ---
 
@@ -30,9 +33,9 @@ source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
 }
 ```
 
-如果将该值设置为大于 0 的数值，SDK 会将数量等于 *`batchLimit`* 值的点击量排入队列。超过此阈值后，将会发送队列中的所有点击。
+如果将该值设置为大于 0 的数值，SDK 会将数量等于 *`batchLimit`* 值的点击量排入队列。通过此阈值后，将发送队列中的所有点击。
 
-以下方法可与点击批量处理结合使用：
+以下方法用于命中批处理：
 
 * `Analytics.getQueueSize` 返回 `long`，其中包含点击批量处理队列中的当前点击量。
 
