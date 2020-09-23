@@ -3,12 +3,15 @@ description: “位置概述”报表允许您查看正在使用您的应用程�
 keywords: mobile
 seo-description: “位置概述”报表允许您查看正在使用您的应用程序的不同国家、地区和目标点。
 seo-title: 概述（位置）
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: 概述（位置）
-topic: 报表,量度
+topic: Reports,Metrics
 uuid: a701abc3-001b-4015-843f-5fb2c6c80d17
-translation-type: ht
-source-git-commit: 814c99695f538160ae28484ca8e2a92f5b24bb1a
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '578'
+ht-degree: 75%
 
 ---
 
@@ -23,7 +26,7 @@ source-git-commit: 814c99695f538160ae28484ca8e2a92f5b24bb1a
 
 ## 导航和使用情况 {#section_4A88C3849B5847BF8CF433CCFD99FDC3}
 
-例如，该视图提供了带有细目的基础报表。该视图使用高度来显示所关注的量度，以及量度之间的性能差异。每个环均表示此环所属类别中的一个受众区段。您可以对受众执行操作，例如应用置顶过滤器、隐藏量度和查看量度。
+例如，此可视化提供了具有细分的基本报表。 可视化使用高度来显示焦点中的度量，以及度量之间的性能差异。 每个环代表环的类别中的受众段。 您可以对受众执行操作，如应用粘滞过滤器、隐藏度量和查看度量。
 
 >[!TIP]
 >
@@ -31,7 +34,7 @@ source-git-commit: 814c99695f538160ae28484ca8e2a92f5b24bb1a
 
 ![](assets/location.png)
 
-这是一个可交互式环状层次图。您可以单击右上角的&#x200B;**[!UICONTROL 日历]**&#x200B;图标来更改时间段。将鼠标移动到图表的任何部分可显示更多信息。例如，在以下插图中，您可以查看美国地区正在使用您的应用程序的用户总数和百分比。
+这是一个可交互式环状层次图。您可以单击右上角的&#x200B;**[!UICONTROL 日历]**&#x200B;图标来更改时间段。将鼠标悬停在图表的任何部分上可显示更多信息。 例如，在下图中，您可以看到在美国使用您的应用程序的总数和用户百分比。
 
 ![](assets/location_mouse.png)
 
@@ -45,7 +48,7 @@ source-git-commit: 814c99695f538160ae28484ca8e2a92f5b24bb1a
 
 ![](assets/location_poi.png)
 
-您可以单击环中的一段以选择受众并对其执行操作，例如放大、隐藏受众、创建应用程序内消息或置顶过滤器。
+您可以单击环中的片段以选择可对其执行操作的受众，如放大、隐藏受众、创建应用程序内消息或粘滞过滤器。
 
 ![](assets/location_aud.png)
 
@@ -69,9 +72,9 @@ source-git-commit: 814c99695f538160ae28484ca8e2a92f5b24bb1a
 
 ## 创建置顶过滤器 {#section_365999D49FC744ECBF9273132497E06C}
 
-单击环中的一段选择要创建置顶过滤器的受众，然后单击&#x200B;**[!UICONTROL 置顶过滤器]**。此置顶过滤器允许您应用当前过滤器，并基于这些过滤器运行新报表。
+单击环中的一段选择要创建置顶过滤器的受众，然后单击&#x200B;**[!UICONTROL 置顶过滤器]**。此粘滞过滤器允许您应用当前过滤器并根据过滤器运行新报表。
 
-## 共享报表 {#section_F8AF2AA73D4C4C008976D45847F82D0B}
+## 共享报告 {#section_F8AF2AA73D4C4C008976D45847F82D0B}
 
 在您创建报表之后，系统会使用您的设置创建一个可供复制和共享的自定义 URL。
 
