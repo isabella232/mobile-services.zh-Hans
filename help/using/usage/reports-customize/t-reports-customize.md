@@ -3,12 +3,15 @@ description: 此信息可帮助您通过添加其他过滤器（区段）来自�
 keywords: mobile
 seo-description: 此信息可帮助您通过添加其他过滤器（区段）来自定义内置报表。
 seo-title: 将过滤器添加到报表
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: 将过滤器添加到报表
-topic: 报表,量度
+topic: Reports,Metrics
 uuid: 19c395cc-2e07-4588-825b-f2f8b10a87c1
-translation-type: ht
-source-git-commit: d028fe0f9477bc011aa8fda21a0a389808df0fce
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '384'
+ht-degree: 70%
 
 ---
 
@@ -23,11 +26,11 @@ source-git-commit: d028fe0f9477bc011aa8fda21a0a389808df0fce
 
 在本示例中，我们将自定义&#x200B;**[!UICONTROL 用户和会话]**&#x200B;报表，但相关说明适用于任何报表。
 
-1. 打开您的应用程序，然后单击&#x200B;**[!UICONTROL 使用情况]** &gt; **[!UICONTROL 用户和会话]**。
+1. Open your app and click **[!UICONTROL Usage]** > **[!UICONTROL Users &amp; Sessions]**.
 
    ![](assets/customize1.png)
 
-   此报表提供了我们的应用程序用户在特定时段内的完整概况。但是，此应用程序的 iOS 和 Android 版本的量度都是在同一报表包中收集的。通过将自定义过滤器添加到用户量度，我们便可以按移动设备操作系统来划分用户。
+   此报告为我们的应用程序用户提供完整的超时视图。 但是，此应用程序的iOS和Android版本的指标都收集在同一报告套件中。 我们可以通过向“用户”量度添加自定义过滤器，按移动操作系统对用户进行细分。
 
 1. 单击&#x200B;**[!UICONTROL 自定义]**。
 
@@ -50,7 +53,7 @@ source-git-commit: d028fe0f9477bc011aa8fda21a0a389808df0fce
 1. 单击&#x200B;**[!UICONTROL 更新]**。
 1. 要生成报表，请单击&#x200B;**[!UICONTROL 运行]**。
 
-   现在，报表会显示按操作系统划分的用户。我们对报表标题进行了更改，以匹配应用于此报表的过滤器。
+   此报告现在显示按操作系统划分的用户。 报表标题已更改为与应用于报表的过滤器匹配。
 
    ![](assets/customize5.png)
 
@@ -64,8 +67,8 @@ source-git-commit: d028fe0f9477bc011aa8fda21a0a389808df0fce
 
 1. 单击&#x200B;**[!UICONTROL 更新]**，然后单击&#x200B;**[!UICONTROL 运行]**。
 
-   此报表当前会显示首次启动该应用程序的 iOS 8.3 用户数。
+   此报告现在显示首次启动应用程序的iOS 8.3用户。
 
    ![](assets/customize7.png)
 
-   请花些时间对报表自定义菜单中的各个选项进行测试，并确保为您最喜爱的项目添加书签。Adobe Mobile 中的报表 URL 具有功能性，可以通过电子邮件发送它们或将其添加到收藏夹。
+   在报表自定义菜单上测试不同的选项需要一些时间，并确保将您喜爱的内容加入书签。 Adobe Mobile 中的报表 URL 具有功能性，可以通过电子邮件发送它们或将其添加到收藏夹。
