@@ -1,20 +1,23 @@
 ---
-description: 状态是指您的应用程序中的不同屏幕或视图。每当应用程序中显示了新状态（例如，用户从主页导航到新闻源）时，都应发送一个跟踪状态调用。在 iOS 中，通常会在每个视图的 viewDidLoad 方法中跟踪状态。
-seo-description: 状态是指您的应用程序中的不同屏幕或视图。每当应用程序中显示了新状态（例如，用户从主页导航到新闻源）时，都应发送一个跟踪状态调用。在 iOS 中，通常会在每个视图的 viewDidLoad 方法中跟踪状态。
+description: 状态是指您的应用程序中的不同屏幕或视图。每次在应用程序中显示新状态时，例如，当用户从主页导航到新闻源时，应发送跟踪状态调用。 在iOS中，通常在每个视图的viewDidLoad方法中跟踪状态。
+seo-description: 状态是指您的应用程序中的不同屏幕或视图。每次在应用程序中显示新状态时，例如，当用户从主页导航到新闻源时，应发送跟踪状态调用。 在iOS中，通常在每个视图的viewDidLoad方法中跟踪状态。
 seo-title: 跟踪应用程序状态
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: 跟踪应用程序状态
-topic: 开发人员和实施
+topic: Developer and implementation
 uuid: 12cca4eb-1f15-4cec-a58f-76b69eaff99d
-translation-type: ht
-source-git-commit: df4ea2c4002611c72009cf69598cbbb74b5c15c4
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '397'
+ht-degree: 58%
 
 ---
 
 
 # 跟踪应用程序状态 {#track-app-states}
 
-状态是指您的应用程序中的不同屏幕或视图。每当应用程序中显示了新状态（例如，用户从主页导航到新闻源）时，都应发送一个跟踪状态调用。在 iOS 中，通常会在每个视图的 viewDidLoad 方法中跟踪状态。
+状态是指您的应用程序中的不同屏幕或视图。每次在应用程序中显示新状态时，例如，当用户从主页导航到新闻源时，应发送跟踪状态调用。 在iOS中，通常在每个视图的viewDidLoad方法中跟踪状态。
 
 >[!TIP]
 >
@@ -56,10 +59,10 @@ NSMutableDictionary *contextData = [NSMutableDictionary dictionary];
 
 ## 应用程序状态报告 {#section_0F6A54AB7A3F42C9BB042D86A0FC4630}
 
-状态通常使用路径报表来查看，以便您能够查看用户在应用程序中导航的方式以及最常查看的状态。
+状态通常通过使用路径报告来查看，这样您就可以了解用户如何导航您的应用程序以及查看最多的状态。
 
 |  |  |
 |--- |--- |
-| Adobe Mobile Services | **[!UICONTROL 视图状态]**&#x200B;报表。此报表基于用户在您的应用程序中浏览的路径。示例路径为&#x200B;**[!UICONTROL 主页]** &gt; **[!UICONTROL 设置]** &gt; **[!UICONTROL 信息源]**。 |
+| Adobe Mobile Services | **[!UICONTROL 视图状态]**&#x200B;报表。此报表基于用户在您的应用程序中浏览的路径。A sample path is  **[!UICONTROL Home]**  >  **[!UICONTROL Settings]**  > **[!UICONTROL Feed]**. |
 | Adobe Analytics | 可以从任何能够查看页面的位置查看状态，如&#x200B;**[!UICONTROL 页面]**&#x200B;报表、**[!UICONTROL 页面查看次数]**&#x200B;报表和&#x200B;**[!UICONTROL 路径]**&#x200B;报表。 |
 | Ad Hoc Analytics | 可以使用&#x200B;**[!UICONTROL 页面]**&#x200B;维度、**[!UICONTROL 页面查看次数]**&#x200B;量度和&#x200B;**[!UICONTROL 路径]**&#x200B;报表从任何能够查看页面的位置查看状态。 |
