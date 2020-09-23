@@ -2,27 +2,30 @@
 description: 'null'
 keywords: Unity
 seo-description: 'null'
-seo-title: 实现生命周期
-solution: Marketing Cloud，开发人员
-title: 实现生命周期
+seo-title: 实施生命周期
+solution: Experience Cloud
+title: 实施生命周期
 uuid: 7ff2c194-569c-42a6-922d-dccd2aa9eb8d
 translation-type: tm+mt
-source-git-commit: df4ea2c4002611c72009cf69598cbbb74b5c15c4
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '85'
+ht-degree: 4%
 
 ---
 
 
-# 实现生命周期{#implement-lifecycle}
+# 实施生命周期{#implement-lifecycle}
 
-有关在实施生命周期后由移动库自动测量的指标和维度的详细信息，请参阅Android中的生命周期指标 [或iOS中](/help/android/metrics.md) 的生命周期 [](/help/ios/metrics.md)。
+有关在实施生命周期后移动库可以自动测量的指标和维度的更多信息，请参 [阅Android中的生命周期](/help/android/metrics.md)[指标或iOS中的生命周期](/help/ios/metrics.md)。
 
 ## iOS
 
-Lifecycle metrics are automatically collected in iOS.
+生命周期指标会在iOS中自动收集。
 
 ## Android
 
-在您的 Unity 脚本中，您可以设置适用于 Android SDK 的应用程序上下文。Add the following code to the `Awake()` function of your FIRST scene:
+在Unity脚本中，您为Android SDK设置应用程序上下文。 将以下代码添加 `Awake()` 到FIRST场景的函数：
 
 ```java
 void Awake()
@@ -33,7 +36,7 @@ void Awake()
  }
 ```
 
-要收集生命周期量度，请将下列代码添加到您的所有场景脚本中：
+要收集生命周期指标，请将以下代码添加到您的所有场景脚本中：
 
 ```java
 void OnEnable()
