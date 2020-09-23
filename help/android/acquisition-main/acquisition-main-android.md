@@ -1,13 +1,16 @@
 ---
-description: 此信息可帮助您在 iOS 应用程序中使用客户获取跟踪链接。
-seo-description: 此信息可帮助您在 iOS 应用程序中使用客户获取跟踪链接。
+description: 此信息可帮助您在iOS应用程序中使用客户获取跟踪链接。
+seo-description: 此信息可帮助您在iOS应用程序中使用客户获取跟踪链接。
 seo-title: 客户获取概述
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: 客户获取概述
-topic: 开发人员和实施
+topic: Developer and implementation
 uuid: e22d2785-58f1-4841-9163-912c5e0f5d61
-translation-type: ht
-source-git-commit: 718e336b9002fe3d5282697d4302d12a89297181
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '136'
+ht-degree: 79%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: 718e336b9002fe3d5282697d4302d12a89297181
 
 ## 新的 Adobe Experience Platform Mobile SDK 发行版本
 
-查找与 Adobe Experience Platform Mobile SDK 相关的信息和文档？单击[此处](https://aep-sdks.gitbook.io/docs/)可获取最新的文档。
+正在寻找与 Adobe Experience Platform Mobile SDK 相关的信息和文档？请单击[此处](https://aep-sdks.gitbook.io/docs/)获取我们的最新文档。
 
 在 2018 年 9 月，我们发布了一个新的 SDK 主要版本。这些新的 Adobe Experience Platform Mobile SDK 可通过 [Experience Platform Launch](https://www.adobe.com/cn/experience-platform/launch.html) 进行配置。
 
