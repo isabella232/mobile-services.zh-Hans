@@ -2,13 +2,13 @@
 description: '在配置报表包并收集 Android 应用程序数据之前，请完成以下先决任务 '
 seo-description: '在配置报表包并收集 Android 应用程序数据之前，请完成以下先决任务 '
 seo-title: 开始之前
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: 开始之前
 topic: Developer and implementation
 uuid: 0ca9e937-8d40-4570-9dbf-9aecc6ecedf6
-translation-type: ht
-source-git-commit: 82b3dc38a0325b3aa733b491ddad9b59dbe84eaa
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
 source-wordcount: '760'
 ht-degree: 100%
 
