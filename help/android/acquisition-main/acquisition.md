@@ -3,13 +3,13 @@ description: 带有唯一跟踪码的客户获取链接可以在 Adobe Mobile Se
 keywords: android;library;mobile;sdk
 seo-description: 带有唯一跟踪码的客户获取链接可以在 Adobe Mobile Services 中生成。当用户单击生成的链接后从应用商店下载并运行应用程序时，SDK 会自动收集客户获取数据并将这些数据发送至 Adobe Mobile Services。
 seo-title: 移动设备应用程序客户获取
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: 移动设备应用程序客户获取
 topic: Developer and implementation
 uuid: 4d32eae9-e856-4e40-8a29-2b5bccd106e0
-translation-type: ht
-source-git-commit: 7ae626be4d71641c6efb127cf5b1d3e18fccb907
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
 source-wordcount: '876'
 ht-degree: 100%
 
