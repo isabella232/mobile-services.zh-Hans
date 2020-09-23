@@ -1,14 +1,17 @@
 ---
 description: 通过信标跟踪，您可以使用 iBeacon 和低功耗蓝牙测量并定位微位置。
-keywords: Android;库;移动;SDK
+keywords: android;library;mobile;sdk
 seo-description: 通过信标跟踪，您可以使用 iBeacon 和低功耗蓝牙测量并定位微位置。
 seo-title: 信标跟踪
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: 信标跟踪
-topic: 开发人员和实施
+topic: Developer and implementation
 uuid: 16c1d267-85f4-4a6a-a6d3-d6ffb0f80b29
-translation-type: ht
-source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '240'
+ht-degree: 81%
 
 ---
 
@@ -24,12 +27,12 @@ source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
 * `a.beacon.minor` - 信标的次编号（如存储内的唯一编号）
 * `a.beacon.prox` - 值 0 至 3 表示用户与信标的接近度。
 
-下面介绍了这些值的含义：
+以下是这些价值的含义：
 
-* 0 = 未知
-* 1 = 非常近
-* 2 = 近
-* 3 = 远
+* 0 =未知
+* 1 =立即
+* 2 =近
+* 3 =远
 
 此信标数据是在移动设备解决方案变量中捕获的。
 
@@ -47,8 +50,8 @@ source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
 
 1. 收集信标位置。
 
-   许多第三方库可用来扫描低功耗蓝牙信标，具体使用哪个库取决于信标的制造商。
-1. 获取信标信息后，使用以下调用跟踪位置：
+   根据信标的制造商，可以使用多个第三方库扫描蓝牙LE信标。
+1. 获取信标信息后，使用以下呼叫跟踪位置：
 
    ```java
    // assumed that the following variables will have been retrieved by the 3rd party beacon library 
