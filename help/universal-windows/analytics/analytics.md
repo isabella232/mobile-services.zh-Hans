@@ -2,12 +2,15 @@
 description: 'null'
 seo-description: 'null'
 seo-title: Analytics
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: Analytics
-topic: 开发人员和实施
+topic: Developer and implementation
 uuid: c2cef3d3-77a7-4a8e-bbe4-3db10a77996a
 translation-type: tm+mt
-source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '940'
+ht-degree: 11%
 
 ---
 
@@ -18,33 +21,33 @@ source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
 
 >[!TIP]
 >
->确保导入 `ADBMobile.h` 到类。
+>确保导入 `ADBMobile.h` 到您的类。
 
-## Enable mobile application reports in Analytics {#section_F2F9234009184F20BA36B5CDE872B424}
+## 在Analytics中启用移动应用程序报告 {#section_F2F9234009184F20BA36B5CDE872B424}
 
-在添加代码之前，请让您的 Analytics 管理员完成以下步骤来启用移动设备应用程序生命周期跟踪。这可确保您的报表包已做好准备，可以在您开始开发时捕获量度。
+在添加代码之前，请让Analytics管理员完成以下操作以启用移动应用程序生命周期跟踪。 这可确保您的报表包在您开始开发时能够捕获指标。
 
-1. Open **[!UICONTROL Admin Tools]** &gt; **[!UICONTROL Report Suites]** and select your mobile report suite(s).
+1. 打 **[!UICONTROL 开“管理]** 工具” **[!UICONTROL >“报表包]** ”，然后选择移动报表包。
 
-1. Click **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Mobile Management]** &gt; **[!UICONTROL Mobile Application Reporting]**.
+1. 单击 **[!UICONTROL “编辑设置]** ”>“ **[!UICONTROL 移动管理]** ”>“移 **[!UICONTROL 动应用程序报告]**”。
 
    ![](assets/mobile-settings.png)
 
-1. Click **[!UICONTROL Enable Latest App Reports]**.
+1. 单击“ **[!UICONTROL 启用最新的应用程序报告]**”。
 
-   Optionally, you can also click **[!UICONTROL Enable Mobile Location Tracking]** or **[!UICONTROL Enable Legacy Reporting and Attribution for background hits]**.
+   或者，您也可以单击“启 **[!UICONTROL 用移动位置跟踪]** ” **[!UICONTROL 或“启用旧版报告和归因”获取后台点击]**。
 
    ![](assets/enable-lifecycle.png)
 
-现在便可以捕获生命周期量度，“移动设备应用程序报表”会出现在市场营销报告界面的“**报表**”菜单中。
+生命周期指标现在可以捕获，移动应用程序报表显示在营销 **[!UICONTROL 报表界]** 面的“报表”菜单中。
 
 ### 新版本
 
-移动设备应用程序报表的新版本将会定期发布。新版本不会自动应用于您的报表包，您必须重复这些步骤以执行升级。在您每次向应用程序中添加新的 Experience Cloud 功能时，我们建议您重复这些步骤以确保您具有最新的配置。
+定期发布新版本的移动应用程序报告。 新版本不会自动应用到报表包，您必须重复这些步骤才能执行升级。 每次您向应用程序添加新的Experience Cloud功能时，我们建议您重复这些步骤，以确保您具有最新配置。
 
-## Lifecycle metrics {#section_532702562A7A43809407C9A2CBA80E1E}
+## 生命周期量度 {#section_532702562A7A43809407C9A2CBA80E1E}
 
-要在您的应用程序中收集生命周期量度，请添加应用程序被激活时的调用，如以下示例中所示。
+要在应用程序中收集生命周期指标，请在激活应用程序时添加调用，如以下示例所示。
 
 ### default.js中的WinJS
 
@@ -61,7 +64,7 @@ app.oncheckpoint = function (args) {
 }
 ```
 
-### C# in App.xaml.cs
+### App.xaml.cs中的C#
 
 ```js
 public App() 
@@ -118,31 +121,31 @@ void App::OnLaunched(Windows::ApplicationModel::Activation::LaunchActivatedEvent
 }
 ```
 
-If `CollectLifecycleData()` is called twice in the same session, your application reports a crash on every call after the first. SDK 会在应用程序关闭时设置一个标记，以指示成功退出。If this flag is not set, `CollectLifecyleData()` reports a crash.
+如果 `CollectLifecycleData()` 在同一会话中调用两次，则应用程序在第一次呼叫后的每次呼叫中都报告崩溃。 SDK在应用程序关闭时设置一个标志，指示成功退出。 如果未设置此标志，则 `CollectLifecyleData()` 报告崩溃。
 
-## Events, props, and eVars {#section_76EA6F5611184C5CAE6E62956D84D7B6}
+## Event、Prop 和 eVar {#section_76EA6F5611184C5CAE6E62956D84D7B6}
 
-If you've looked at [SDK methods](/help/universal-windows/c-configuration/methods.md), you are probably wondering where to set events, eVars, props, heirs, and lists. 在版本 4 中，您不能再在应用程序中直接分配这些类型的变量。SDK 而是会使用上下文数据和处理规则将您的应用程序数据映射到 Analytics 变量以供报告。
+如果您已经研究过 [SDK方法](/help/universal-windows/c-configuration/methods.md)，您可能会想知道在哪里设置事件、eVar、prop、继承人和列表。 在版本4中，您无法再直接在应用程序中分配这些类型的变量。 相反，SDK使用上下文数据和处理规则将应用程序数据映射到Analytics变量以进行报告。
 
-处理规则具有以下几个好处：
+处理规则为您提供了几个优势：
 
-* 您无需向应用商店提交更新即可更改数据映射。
+* 您无需向App Store提交更新即可更改数据映射。
 * 您可以对数据使用有意义的名称，而不是设置特定于报表包的变量。
-* 对发送额外数据的影响甚微。这些值在使用处理规则映射后才会显示在报表中。
+* 发送额外数据几乎没有影响。 这些值只有在使用处理规则映射后才会显示在报告中。
 
-您直接分配到变量的任何值都应当添加到上下文数据中。
+您直接分配给变量的任何值都应添加到上下文数据中。
 
 ## 处理规则 {#section_66EE762EEA5E4728864166201617DEBF}
 
-处理规则用于将您在上下文数据变量中发送的数据复制到 eVar、prop 及其他变量以供报告。
+处理规则用于将您在上下文数据变量中发送的数据复制到evar、prop和其他变量以进行报告。
 
-2013 年峰会上的[处理规则培训](https://tv.adobe.com/embed/1181/16506/)
+[2013年峰会上的处理规则](https://tv.adobe.com/embed/1181/16506/) 培训
 
-[处理规则帮助](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/processing-rules/processing-rules.html)
+[处理规则帮助](https://docs.adobe.com/content/help/zh-Hans/analytics/admin/admin-tools/processing-rules/processing-rules.html)
 
 [获得使用处理规则的授权](https://helpx.adobe.com/analytics/kb/processing-rules-authorization.html)
 
-我们建议使用“命名空间”对您的上下文数据变量进行分组，因为它能帮助您保持逻辑顺序。例如，如果您要收集有关某个产品的信息，则可以定义以下变量：
+我们建议使用“命名空间”对上下文数据变量进行分组，因为这有助于您保持逻辑顺序。 例如，如果要收集有关产品的信息，您可以定义以下变量：
 
 ```javascript
 "product.type":"hat" 
@@ -150,27 +153,27 @@ If you've looked at [SDK methods](/help/universal-windows/c-configuration/method
 "product.color":"blue"
 ```
 
-上下文数据变量在处理规则界面中按字母顺序进行排序，这样命名空间便能使您快速查看哪些变量位于同一命名空间。
+上下文数据变量在处理规则界面中按字母顺序排序，因此命名空间允许您快速查看处于同一命名空间的变量。
 
-此外，我们还听说有些人使用 eVar 或 prop 编号命名上下文数据键：
+此外，我们听说有些人使用evar或prop编号命名上下文数据键：
 
 ```js
 "eVar1":"jimbo"
 ```
 
-在处理规则中执行一次性映射时，这或许会&#x200B;*稍微*&#x200B;提供一些便利，但在调试期间，您将会失去可读性，并且日后也更难以进行代码更新。我们强烈建议为键和值使用描述性名称：
+这可能会使处 *理规则* 中执行一次映射时的操作略为简单，但调试过程中会失去可读性，将来的代码更新可能更困难。 我们强烈建议对键和值使用描述性名称：
 
 ```js
 "username":"jimbo"
 ```
 
-将定义计数器事件的上下文变量设置为值“1”：
+将定义计数器事件的上下文变量设置为值“1”:
 
 ```js
 "logon":"1"
 ```
 
-定义增量器事件的上下文数据变量可以使用以下递增值：
+定义增量事件的上下文数据变量可以具有要增量的值：
 
 ```js
 "levels completed":"6"
@@ -178,36 +181,36 @@ If you've looked at [SDK methods](/help/universal-windows/c-configuration/method
 
 >[!TIP]
 >
->Adobe保留命名空间 `a.`。 除此限制外，上下文数据变量只需要在登录公司中具有唯一性，以避免冲突。
+>Adobe 会保留命名空间 `a.`。除此限制外，上下文数据变量在登录公司中只需是唯一的，即可避免冲突。
 
-## Products variable {#section_AFBA36F3718C44D29AF81B9E1056A1B4}
+## 产品变量 {#section_AFBA36F3718C44D29AF81B9E1056A1B4}
 
-要在移 *`products`* 动SDK中设置，必须使用特殊语法。 有关详细信息，请参阅 [产品变量](/help/universal-windows/analytics/products.md)。
+要在移 *`products`* 动SDK中进行设置，必须使用特殊语法。 有关详细信息，请参阅 [产品变量](/help/universal-windows/analytics/products.md)。
 
-## (Optional) Enable offline tracking {#section_955B2A03EB854742BDFC4A0A3C287009}
+## （可选）启用脱机跟踪 {#section_955B2A03EB854742BDFC4A0A3C287009}
 
-To store hits when the device is offline, you can enable offline tracking in the [SDK methods](/help/universal-windows/c-configuration/methods.md) file. 在启用脱机跟踪之前，请仔细注意配置文件引用中描述的时间戳要求。
+要在设备脱机时存储点击，可在SDK方法文件中启 [用脱机跟踪](/help/universal-windows/c-configuration/methods.md) 。 在启用脱机跟踪之前，请仔细注意配置文件引用中描述的时间戳要求。
 
-## Geo-location and points of interest {#section_BAD34A8DD013454DB355121316BD7FD4}
+## 地理位置和目标点 {#section_BAD34A8DD013454DB355121316BD7FD4}
 
-地理位置允许您测量位置数据（纬度/经度）和预定义的目标点。Each `TrackLocation` call sends:
+地理位置允许您测量位置数据（经纬度）和预定义的兴趣点。 每次 `TrackLocation` 呼叫均发送：
 
-* 纬度/经度，以及 POI（如果位于在 `ADBMobileConfig.json` 配置文件中定义的 POI 内）。
+* 纬度／经度和POI(如果在配置文件中定义的POI `ADBMobileConfig.json` 中)。
 
-   这些信息将被传递到移动设备解决方案变量以便自动进行报告。
+   这些变量将传递给移动解决方案变量以实现自动报告。
 
-* 作为上下文数据传递的到中心的距离以及精确度。
+* 中心距离和作为上下文数据传递的准确性。
 
-   使用处理规则捕获。
+   使用处理规则进行捕获。
 
-要跟踪位置，请执行以下操作：
+跟踪位置：
 
 ```js
 var ADB = ADBMobile; 
 ADB.Analytics.trackLocation(37.75345, -122.33207, null);
 ```
 
-如果在 `ADBMobileConfig.json` 配置文件中定义了以下 POI：
+如果在配置文件中定义了以 `ADBMobileConfig.json` 下POI:
 
 ```js
 "poi" : [ 
@@ -215,7 +218,7 @@ ADB.Analytics.trackLocation(37.75345, -122.33207, null);
         ]
 ```
 
-When the device location is determined to be within a 7000 meter radius of the defined point, an `a.loc.poi` context data variable with the value `San Francisco` is sent in with the `TrackLocation` hit. 另外，还将发送 `a.loc.dist` 上下文变量，其中包含到定义坐标的距离（以米为单位）。
+当设备位置被确定为在定义点的7000米半径内时，具有该值的上下文 `a.loc.poi` 数据变量随 `San Francisco` 点击一起发送 `TrackLocation` 。 An `a.loc.dist` context variable is sent with the distance in meters from the defined coordinates.
 
 ## Lifetime value {#section_D2C6971545BA4D639FBE07F13EF08895}
 
@@ -232,11 +235,11 @@ cdata["PurchasePrice"] = purchasePrice;
 ADB.Analytics.trackLifetimeValueIncrease(purchasePrice, cdata);
 ```
 
-## Timed actions {#section_7FF8B6A913A0460EAA4CAE835E32D8C1}
+## 定时操作 {#section_7FF8B6A913A0460EAA4CAE835E32D8C1}
 
-定时操作允许您测量某个操作从开始到结束之间的应用程序内时间和总时间。SDK 将计算完成该操作所用的会话内时间量以及总时间（跨会话）。这可用于定义区段以按时比较购买、通过水平、结帐流程等。
+定时操作允许您衡量操作开始和结束之间的应用程序内时间和总时间。 SDK计算会话中的时间量以及完成操作所花费的总时间（跨会话）。 这可用于定义区段，以按时进行购买、通过级别、结帐流程等比较。
 
-* 在应用程序内开始和结束之间的总秒数 - 跨会话
+* 应用程序中开始和结束——跨会话的总秒数
 * 开始和结束之间的总秒数（时钟时间）
 
 ```js
