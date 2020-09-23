@@ -1,13 +1,16 @@
 ---
 description: 本主题提供了有关如何排查客户获取测试过程中可能遇到的问题的信息。
-keywords: Android;库;移动;SDK
+keywords: android;library;mobile;sdk
 seo-description: 本主题提供了有关如何排查客户获取测试过程中可能遇到的问题的信息。
 seo-title: 排查客户获取测试问题
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: 排查客户获取测试问题
-topic: 开发人员和实施
-translation-type: ht
-source-git-commit: 1c387b063eedb41a52e044dc824df6a51f173ad2
+topic: Developer and implementation
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '248'
+ht-degree: 100%
 
 ---
 
