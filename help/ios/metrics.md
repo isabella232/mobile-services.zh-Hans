@@ -1,13 +1,16 @@
 ---
-description: 下表列出了实施生命周期后可由移动设备库自动测量的量度和维度。
-seo-description: 下表列出了实施生命周期后可由移动设备库自动测量的量度和维度。
+description: 下表列表了在实施生命周期后移动库可以自动测量的指标和维度。
+seo-description: 下表列表了在实施生命周期后移动库可以自动测量的指标和维度。
 seo-title: 生命周期量度
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: 生命周期量度
-topic: 开发人员和实施
+topic: Developer and implementation
 uuid: b795e383-d59b-4a3c-9e14-ffe8fb58412c
-translation-type: ht
-source-git-commit: a6608bf4d36a6fb6aca00f50cc058c09dbd931b1
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '1108'
+ht-degree: 85%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: a6608bf4d36a6fb6aca00f50cc058c09dbd931b1
 
 ## 新的 Adobe Experience Platform Mobile SDK 发行版本
 
-查找与 Adobe Experience Platform Mobile SDK 相关的信息和文档？单击[此处](https://aep-sdks.gitbook.io/docs/)可获取最新的文档。
+正在寻找与 Adobe Experience Platform Mobile SDK 相关的信息和文档？请单击[此处](https://aep-sdks.gitbook.io/docs/)获取我们的最新文档。
 
 在 2018 年 9 月，我们发布了一个新的 SDK 主要版本。这些新的 Adobe Experience Platform Mobile SDK 可通过 [Experience Platform Launch](https://www.adobe.com/cn/experience-platform/launch.html) 进行配置。
 
@@ -68,7 +71,7 @@ source-git-commit: a6608bf4d36a6fb6aca00f50cc058c09dbd931b1
 
 * **启动次数**
 
-   在每次运行时触发，包括崩溃次数和安装次数。当应用程序在超过生命周期会话超时后从后台恢复时也会触发。
+   在每次运行时触发，包括崩溃次数和安装次数。在超出生命周期会话超时后从后台恢复应用程序时也会触发。
 
    * Analytics 上下文数据/Target 参数：`a.LaunchEvent`
    * Audience Manager 信号：`c_a_LaunchEvent`
@@ -130,7 +133,7 @@ source-git-commit: a6608bf4d36a6fb6aca00f50cc058c09dbd931b1
 
 * **每天时间**
 
-   测量应用程序启动的小时，采用 24 小时制数字格式。用于时间分片以确定峰值使用时间。
+   衡量应用程序启动的时间，并使用24小时数字格式。 用于时间分片以确定峰值使用时间。
 
    * Analytics 上下文数据/Target：`a.HourOfDay`
    * 受众管理：`c_a_HourOfDay`
@@ -165,7 +168,7 @@ source-git-commit: a6608bf4d36a6fb6aca00f50cc058c09dbd931b1
 
 * **设备名称**
 
-   存储设备名称。以逗号分隔的两位数字字符串，用于标识 iOS 设备。第一个数字通常代表第几代设备，第二个数字通常表示设备系列的不同成员。有关常用设备名称的列表，请参阅“iOS 设备版本”。
+   存储设备名称。以逗号分隔的两位数字字符串，用于标识iOS设备。 第一个数字通常表示设备生成，第二个数字通常是不同版本的设备系列成员。 有关常用设备名称的列表，请参阅iOS设备版本。
 
    * Analytics 上下文数据/Target：`a.DeviceName`
    * 受众管理：`c_a_DeviceName`
@@ -283,7 +286,7 @@ source-git-commit: a6608bf4d36a6fb6aca00f50cc058c09dbd931b1
 
 * **跟踪代码**
 
-   由移动设备应用程序客户获取填充。由 Adobe Mobile Services 自动生成。
+   由移动设备应用程序客户获取填充。由Adobe移动服务自动生成。
 
    * Analytics 上下文数据/Target 参数：`a.referrer.campaign.trackingcode`
    * 受众管理特征：`c_a_referrer_campaign_trackingcode`
@@ -297,28 +300,28 @@ source-git-commit: a6608bf4d36a6fb6aca00f50cc058c09dbd931b1
 
 * **促销活动内容**
 
-   显示链接的内容名称或内容 ID。由移动设备应用程序客户获取填充。
+   显示链接的内容的名称或ID。 由移动设备应用程序客户获取填充。
 
    * Analytics 上下文数据/Target 参数：`a.referrer.campaign.content`
    * 受众管理特征：`c_a_referrer_campaign_content`
 
 * **促销活动媒介**
 
-   营销媒介，如横幅或电子邮件。由移动设备应用程序客户获取填充。
+   营销媒介，如横幅或电子邮件。 由移动设备应用程序客户获取填充。
 
    * Analytics 上下文数据/Target 参数：`a.referrer.campaign.medium`
    * 受众管理特征：`c_a_referrer_campaign_medium`
 
 * **促销活动来源**
 
-   原始反向链接，如新闻稿或社交媒体网络。由移动设备应用程序客户获取填充。
+   原始推荐人，如新闻稿或社交媒体网络。 由移动设备应用程序客户获取填充。
 
    * Analytics 上下文数据/Target 参数：`a.referrer.campaign.source`
    * 受众管理特征：`c_a_referrer_campaign_source`
 
 * **促销活动搜索词**
 
-   要通过此客户获取跟踪的付费关键词或其他搜索词。由移动设备应用程序客户获取填充。
+   要跟踪此客户赢取情况的付费关键字或其他条款。 由移动设备应用程序客户获取填充。
 
    * Analytics 上下文数据/Target 参数：`a.referrer.campaign.term`
    * 受众管理特征：`c_a_referrer_campaign_term`
