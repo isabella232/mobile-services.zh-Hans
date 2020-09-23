@@ -2,17 +2,20 @@
 description: 'null'
 keywords: Unity
 seo-description: 'null'
-seo-title: 枚举
-solution: Marketing Cloud，开发人员
-title: 枚举
+seo-title: 明细列表
+solution: Experience Cloud
+title: 明细列表
 uuid: 7109cd0b-554f-4c4a-9acc-4b60812fb747
 translation-type: tm+mt
-source-git-commit: 04a55b2f73a5ed7fe629ff8ab06217fafd3a2c71
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '7'
+ht-degree: 28%
 
 ---
 
 
-# 枚举 {#enumerations}
+# 明细列表 {#enumerations}
 
 ## ADBPrivacyStatus
 
