@@ -3,12 +3,15 @@ description: “前 50 篇文章”报表显示一个条形图形式的排名报
 keywords: mobile
 seo-description: “前 50 篇文章”报表显示一个条形图形式的排名报表，其中显示了通过应用程序阅读的次数最多的文章。此报表仅供 Digital Publishing Suite (DPS) 客户使用。
 seo-title: 前 50 篇文章
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: 前 50 篇文章
-topic: 量度
+topic: Metrics
 uuid: 341370d1-fa87-43ca-8135-425b3bba272f
-translation-type: ht
-source-git-commit: b11a03226ff6100554d072b4ef523d703b80a6e5
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '256'
+ht-degree: 95%
 
 ---
 
@@ -21,7 +24,7 @@ source-git-commit: b11a03226ff6100554d072b4ef523d703b80a6e5
 
 ![](assets/dps_top_50.png)
 
-默认情况下，此报表显示文章标题和读者数。
+默认情况下，此报告显示文章标题和读者人数。
 
 您可以为此报表配置以下选项：
 
