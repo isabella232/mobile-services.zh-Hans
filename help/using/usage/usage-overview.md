@@ -3,12 +3,15 @@ description: “概述”报表可为您提供关键量度的基本信息。
 keywords: mobile
 seo-description: “概述”报表可为您提供关键量度的基本信息。
 seo-title: “概述”报表
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: “概述”报表
-topic: 报表,量度
+topic: Reports,Metrics
 uuid: 5f7088af-4b25-4fe5-afda-4844597c78f9
-translation-type: ht
-source-git-commit: e9691f9cbeadd171948aa752b27a014c3ab254d6
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '115'
+ht-degree: 83%
 
 ---
 
@@ -21,7 +24,7 @@ source-git-commit: e9691f9cbeadd171948aa752b27a014c3ab254d6
 
 ![](assets/report_usage_overview.png)
 
-您可以通过单击右上方的日历图标来更改此报表的日期范围。您还可以创建一个跨不同报表的置顶过滤器，以便查看区段在所有移动设备报表中的执行情况。有关创建置顶过滤器的更多信息，请参阅[添加置顶过滤器](/help/using/usage/reports-customize/t-sticky-filter.md)。
+您可以单击右上方的日历图标来更改报表的日期范围。 您还可以创建一个跨不同报表的置顶过滤器，以便查看区段在所有移动设备报表中的执行情况。有关创建置顶过滤器的更多信息，请参阅[添加置顶过滤器](/help/using/usage/reports-customize/t-sticky-filter.md)。
 
 >[!TIP]
 >
