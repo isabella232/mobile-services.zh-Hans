@@ -2,12 +2,15 @@
 description: '以下信息可帮助您配置 Android SDK，包括 JSON 配置、点击批量处理和 SDK 方法 '
 seo-description: '以下信息可帮助您配置 Android SDK，包括 JSON 配置、点击批量处理和 SDK 方法 '
 seo-title: 配置概述
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: 配置概述
-topic: 开发人员和实施
+topic: Developer and implementation
 uuid: 207d6eae-7fc5-449d-b92b-c2d83e8e82b4
-translation-type: ht
-source-git-commit: b690ec677cf5aedfb2673b707f82716af1851124
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '152'
+ht-degree: 100%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: b690ec677cf5aedfb2673b707f82716af1851124
 
 ## 新的 Adobe Experience Platform Mobile SDK 发行版本
 
-查找与 Adobe Experience Platform Mobile SDK 相关的信息和文档？单击[此处](https://aep-sdks.gitbook.io/docs/)可获取最新的文档。
+正在寻找与 Adobe Experience Platform Mobile SDK 相关的信息和文档？请单击[此处](https://aep-sdks.gitbook.io/docs/)获取我们的最新文档。
 
 在 2018 年 9 月，我们发布了一个新的 SDK 主要版本。这些新的 Adobe Experience Platform Mobile SDK 可通过 [Experience Platform Launch](https://www.adobe.com/cn/experience-platform/launch.html) 进行配置。
 
