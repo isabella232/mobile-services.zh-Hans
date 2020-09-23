@@ -1,14 +1,17 @@
 ---
 description: 您可以在 Android 应用程序中提供目标内容。
-keywords: Android;库;移动;SDK
+keywords: android;library;mobile;sdk
 seo-description: 您可以在 Android 应用程序中提供目标内容。
 seo-title: Target 配置
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: Target 配置
-topic: 开发人员和实施
+topic: Developer and implementation
 uuid: 09fe2c9c-7b60-49c3-bb9d-36a30ce7c350
-translation-type: ht
-source-git-commit: 3cc97443fabcb9ae9e09b998801bbb57785960e0
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '72'
+ht-degree: 100%
 
 ---
 
