@@ -2,12 +2,12 @@
 description: 帮助您将Windows 8.1 Universal App Store SDK与Adobe Analytics一起使用的信息。
 seo-description: 帮助您将Windows 8.1 Universal App Store SDK与Adobe Analytics一起使用的信息。
 seo-title: Analytics 方法
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: Analytics 方法
 topic: Developer and implementation
 uuid: 79db105c-216c-4061-97f3-a55954995e67
 translation-type: tm+mt
-source-git-commit: 7ae626be4d71641c6efb127cf5b1d3e18fccb907
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
 workflow-type: tm+mt
 source-wordcount: '630'
 ht-degree: 52%
@@ -200,7 +200,7 @@ SDK目前支持多个Adobe Experience Cloud解决方案，包括分析、目标�
 
 * **ClearTrackingQueue(winJS:clearTrackingQueue)**
 
-   清除Analytics跟踪队列中存储的所有点击。
+   清除Analytics跟踪队列中所有存储的点击。
 
    * 以下是此消息的语法：
 
