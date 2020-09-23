@@ -2,12 +2,15 @@
 description: 如果您的应用程序打开移动 Web 内容，您需要确保访客在本机和移动 Web 之间切换时不会单独进行识别。
 seo-description: 如果您的应用程序打开移动 Web 内容，您需要确保访客在本机和移动 Web 之间切换时不会单独进行识别。
 seo-title: 应用程序和移动 Web 之间的访客跟踪
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: 应用程序和移动 Web 之间的访客跟踪
-topic: 开发人员和实施
+topic: Developer and implementation
 uuid: 2d951de6-3954-4379-a4ff-99b9695b9869
-translation-type: ht
-source-git-commit: 9257d6b6c2c14d0422cda65fcc9c677ac5ac47a9
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '528'
+ht-degree: 89%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: 9257d6b6c2c14d0422cda65fcc9c677ac5ac47a9
 
 ## 应用程序中的访客 ID
 
-在安装应用程序时，iOS SDK 会生成一个独特访客 ID。此 ID 将存储在移动设备上的永久内存中，并会随每次点击一起发送。此 ID 仅在用户卸载应用程序时才被删除。
+安装应用程序时，iOS SDK会生成唯一的访客ID。 此ID存储在移动设备上的永久内存中，每次点击都会发送。 此 ID 仅在用户卸载应用程序时才被删除。
 
 >[!TIP]
 >
@@ -56,7 +59,7 @@ source-git-commit: 9257d6b6c2c14d0422cda65fcc9c677ac5ac47a9
    }];
    ```
 
-目标域上的 ID 服务代码从 URL 提取 MID，而不是向 Adobe 发送获取新 ID 的请求。目标页面上的 ID 服务代码使用传入的 MID 跟踪访客。
+目标域上的ID服务代码从URL中提取MID，而不是向Adobe发送请求以获取新ID。 目标页面上的 ID 服务代码使用传入的 MID 跟踪访客。
 
 对于来自移动 Web 内容的点击，确认 `mid` 参数存在于每次点击中，并且该值匹配由应用程序代码发送的 `mid`。
 
