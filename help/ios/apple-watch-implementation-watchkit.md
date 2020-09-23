@@ -1,13 +1,16 @@
 ---
-description: 从 WatchOS 2 开始，WatchKit 扩展可在 Apple Watch 设备上运行。在此环境中运行的应用程序需要 WatchConnectivity 框架才能与它们的 iOS 容器应用程序共享数据。
-seo-description: 从 WatchOS 2 开始，WatchKit 扩展可在 Apple Watch 设备上运行。在此环境中运行的应用程序需要 WatchConnectivity 框架才能与它们的 iOS 容器应用程序共享数据。
+description: 从WatchOS 2开始，您的WatchKit扩展将在Apple Watch设备上运行。 在此环境下运行的应用程序需要WatchConnectivity框架与其包含的iOS应用程序共享数据。
+seo-description: 从WatchOS 2开始，您的WatchKit扩展将在Apple Watch设备上运行。 在此环境下运行的应用程序需要WatchConnectivity框架与其包含的iOS应用程序共享数据。
 seo-title: 使用 WatchOS 2 实施 Apple Watch
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: 使用 WatchOS 2 实施 Apple Watch
-topic: 开发人员和实施
+topic: Developer and implementation
 uuid: 9498467e-db5e-411e-a00e-d19841f485de
-translation-type: ht
-source-git-commit: 718e336b9002fe3d5282697d4302d12a89297181
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '542'
+ht-degree: 84%
 
 ---
 
@@ -22,7 +25,7 @@ source-git-commit: 718e336b9002fe3d5282697d4302d12a89297181
 
 ## 新的 Adobe Experience Platform Mobile SDK 发行版本
 
-查找与 Adobe Experience Platform Mobile SDK 相关的信息和文档？单击[此处](https://aep-sdks.gitbook.io/docs/)可获取最新的文档。
+正在寻找与 Adobe Experience Platform Mobile SDK 相关的信息和文档？请单击[此处](https://aep-sdks.gitbook.io/docs/)获取我们的最新文档。
 
 在 2018 年 9 月，我们发布了一个新的 SDK 主要版本。这些新的 Adobe Experience Platform Mobile SDK 可通过 [Experience Platform Launch](https://www.adobe.com/cn/experience-platform/launch.html) 进行配置。
 
@@ -35,14 +38,15 @@ source-git-commit: 718e336b9002fe3d5282697d4302d12a89297181
 >
 >确保您的项目至少具有以下目标：
 >
->* 容器应用程序
->* WatchKit 应用程序
->* WatchKit 扩展
+>* 包含的应用程序
+>* WatchKit应用程序
+>* WatchKit扩展
+
 >
 
 
 
-有关开发 WatchKit 应用程序的更多信息，请参阅 [The Watch App Architecture](https://developer.apple.com/library/ios/documentation/General/Conceptual/WatchKitProgrammingGuide/DesigningaWatchKitApp.html#//apple_ref/doc/uid/TP40014969-CH3-SW1)（Watch 应用程序架构）。
+有关开发WatchKit应用程序的更多信息，请 [参阅The Watch App Architecture](https://developer.apple.com/library/ios/documentation/General/Conceptual/WatchKitProgrammingGuide/DesigningaWatchKitApp.html#//apple_ref/doc/uid/TP40014969-CH3-SW1)。
 
 ## 配置容器应用程序 {#section_0A2A3995575B4E2ABD12E426BA06AEFF}
 
