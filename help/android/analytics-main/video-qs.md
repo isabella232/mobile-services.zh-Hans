@@ -1,14 +1,17 @@
 ---
 description: 以下是有关在 Android 上使用视频测量解决方案测量视频的一些信息。
-keywords: Android;库;移动;SDK
+keywords: android;library;mobile;sdk
 seo-description: 以下是有关在 Android 上使用视频测量解决方案测量视频的一些信息。
 seo-title: Video Analytics
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: Video Analytics
-topic: 开发人员和实施
+topic: Developer and implementation
 uuid: a137cc27-dc28-48c0-b08e-2ca17d2c7e1d
-translation-type: ht
-source-git-commit: bf076aa8e59d5c3e634fc4ae21f0de0d4541a83f
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '881'
+ht-degree: 85%
 
 ---
 
@@ -28,9 +31,9 @@ source-git-commit: bf076aa8e59d5c3e634fc4ae21f0de0d4541a83f
 * **a.media.name**
    * 变量类型：eVar
       * 默认过期：访问
-      * 自定义分析（s.prop，用于视频路径）
-   * （**必需**）当访客以某种方式查看视频时，此上下文数据变量会收集在实施中指定的视频名称。您可以为此变量添加分类。
-   * （**可选**）自定义分析变量提供视频路径信息。
+      * 自定义分析（s.prop，用于确定视频路径）
+   * (**必需**)当访客以某种方式视图视频时，此上下文数据变量将收集视频的名称，如实现中所指定。 您可以为此变量添加分类。
+   * (**Optional**) The Custom Insight variable provides video pathing information.
 
 * **a.media.name**
    * 变量类型：自定义分析 (s.prop)
@@ -44,16 +47,17 @@ source-git-commit: bf076aa8e59d5c3e634fc4ae21f0de0d4541a83f
 * **a.media.segment**
    * 变量类型：eVar
    * 默认过期：页面查看
-   * （**必需**）收集视频区段数据，包括区段名称以及区段在视频中出现的顺序。
+   * (**Required**) Collects video segment data, including the segment name and the order in which the segment occurs in the video.
 
       此变量在自动跟踪播放器事件时通过启用 `segmentByMilestones` 变量来填充，或在手动跟踪播放器事件时通过设置自定义区段名称来填充。例如，当访客查看视频中的第一个区段时，SiteCatalyst 可能会在区段 eVar 中收集以下信息：`1:M:0-25`。
 
-      默认视频数据收集方法在以下时间点收集数据：
+      默认的视频数据收集方法会在以下节点收集数据：
 
       * 视频开始（播放）
       * 区段开始
       * 视频结束（停止）
-      当访客开始观看时，Analytics 会在第一个区段开始时计数第一个区段查看次数。后续区段查看次数会在相应区段开始时进行计数。
+
+      Analytics 会在访客开始观看时，将区段的开始计为第一个区段视图。在区段开始播放后，则计为后续区段视图。
 
 
 * **a.contentType**
@@ -66,7 +70,7 @@ source-git-commit: bf076aa8e59d5c3e634fc4ae21f0de0d4541a83f
 * **a.media.timePlayed**
    * 变量类型：事件
    * 类型：计数器
-   * 计算自上次数据收集流程（图像请求）以来，观看视频所花费的时间（以秒为单位）。
+   * 计算自上次数据收集过程（图像请求）以来观看视频所花费的时间（以秒为单位）。
 
 * **a.media.view**
    * 变量类型：事件
@@ -87,7 +91,7 @@ source-git-commit: bf076aa8e59d5c3e634fc4ae21f0de0d4541a83f
    * 类型：计数器
    * 表明用户已查看了完整的视频。
 
-      默认情况下，完整的事件会在视频结束前 1 秒进行测量。在实施过程中，您可以指定希望在距离视频结束有多少秒时被视为查看完成。对于直播视频和没有定义结尾的其他视频流，您可以指定一个自定义时间点来测量完成（例如，查看了特定时间之后）。
+      默认情况下，完整的事件会在视频结束前 1 秒进行测量。在实施过程中，您可以指定在视频结束后要将视图视为完成的秒数。 对于实时视频和其他没有定义结尾的流，您可以指定一个测量完成的自定义点（例如，在查看特定时间后）。
 
 
 ## 配置媒体设置 {#section_929945D4183C428AAF3B983EFD3E2500}
@@ -203,6 +207,7 @@ public boolean eventFirstTime;
       关闭名为“name”**&#x200B;的媒体项目。
 
       * 以下是此方法的语法：
+
       ```java
       public static void close(String name);
       ```
