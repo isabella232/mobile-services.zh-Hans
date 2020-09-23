@@ -1,36 +1,39 @@
 ---
-description: Windows 8.1 通用应用商店库提供的类和方法。
-seo-description: Windows 8.1 通用应用商店库提供的类和方法。
+description: Windows 8.1 Universal App Store库提供的类和方法。
+seo-description: Windows 8.1 Universal App Store库提供的类和方法。
 seo-title: SDK方法
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: SDK方法
-topic: 开发人员和实施
+topic: Developer and implementation
 uuid: 0f558ff4-73d3-4439-9d51-62fbd74d2cea
 translation-type: tm+mt
-source-git-commit: e481b046769c3010c41e1e17c235af22fc762b7e
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '655'
+ht-degree: 49%
 
 ---
 
 
-# SDK methods {#sdk-methods}
+# SDK方法 {#sdk-methods}
 
-Windows 8.1 通用应用商店库提供的类和方法。
+Windows 8.1 Universal App Store库提供的类和方法。
 
 >[!TIP]
 >
->When you consume `winmd` methods from winJS (JavaScript), all methods automatically have their first letter lowercased.
+>当您使用 `winmd` winJS(JavaScript)中的方法时，所有方法都自动将其第一个字母小写。
 
-* **GetVersion (winJS: getVersion)**
+* **GetVersion(winJS:getVersion)**
 
    返回 Adobe Mobile 库的当前版本。
 
-   * 下面是这种方法对应的语法：
+   * 以下是此方法的语法：
 
       ```csharp
       static Platform::String ^GetVersion();
       ```
 
-   * 以下是这种方法的代码示例：
+   * 以下是此方法的代码示例：
 
       ```js
       varADB = ADBMobile;var libVersion = ADB.Config.getVersion(); 
@@ -40,13 +43,13 @@ Windows 8.1 通用应用商店库提供的类和方法。
 
    返回当前用户隐私状态的枚举表示形式。
 
-   * `ADBMobilePrivacyStatusOptIn` -立即发送点击。
-   * `ADBMobilePrivacyStatusOptOut` -丢弃点击。
-   * `ADBMobilePrivacyStatusUnknown` - 如果您的报表包启用了时间戳，将会保存点击，直到隐私状态更改为选择启用（随后将发送点击）或选择禁用（随后将丢弃点击）。如果您的报表包未启用时间戳，则将丢弃点击，直到隐私状态更改为选择启用。
+   * `ADBMobilePrivacyStatusOptIn` - 立即发送点击。
+   * `ADBMobilePrivacyStatusOptOut` - 丢弃点击。
+   * `ADBMobilePrivacyStatusUnknown` -如果报表包启用时间戳，则会保存点击，直到隐私状态更改为选择加入（然后发送点击）或选择退出（然后丢弃点击）。 如果您的报表包未启用时间戳，则将丢弃点击，直到隐私状态更改为选择启用。
 
       The default value is set in the [ADBMobileConfig.json config](/help/windows-appstore/c-configuration/c.json.md) file.
 
-   * 下面是这种方法对应的语法：
+   * 以下是此方法的语法：
 
       ```csharp
       static Windows::Foundation::IAsyncOperation<ADBMobilePrivacyStatus> ^getPrivacyStatusAsync(); 
@@ -74,17 +77,17 @@ Windows 8.1 通用应用商店库提供的类和方法。
 
    将当前用户的隐私状态设置为 `status`。设置为以下值之一：
 
-   * `ADBMobilePrivacyStatusOptIn` -立即发送点击。
-   * `ADBMobilePrivacyStatusOptOut` -丢弃点击。
-   * `ADBMobilePrivacyStatusUnknown` - 如果您的报表包启用了时间戳，将会保存点击，直到隐私状态更改为选择启用（随后将发送点击）或选择禁用（随后将丢弃点击）。如果您的报表包未启用时间戳，则将丢弃点击，直到隐私状态更改为选择启用。
+   * `ADBMobilePrivacyStatusOptIn` - 立即发送点击。
+   * `ADBMobilePrivacyStatusOptOut` - 丢弃点击。
+   * `ADBMobilePrivacyStatusUnknown` -如果报表包启用时间戳，则会保存点击，直到隐私状态更改为选择加入（然后发送点击）或选择退出（然后丢弃点击）。 如果您的报表包未启用时间戳，则将丢弃点击，直到隐私状态更改为选择启用。
 
-   * 下面是这种方法对应的语法：
+   * 以下是此方法的语法：
 
       ```csharp
       static void SetPrivacyStatus(ADBMobilePrivacyStatus status);
       ```
 
-   * 以下是这种方法的代码示例：
+   * 以下是此方法的代码示例：
 
       ```csharp
       public enum class ADBMobilePrivacyStatus : int {
@@ -101,15 +104,15 @@ Windows 8.1 通用应用商店库提供的类和方法。
 
 * **GetLifetimeValue(winJS:getLifetimeValue)**
 
-   返回当前用户的生命周期值。默认值为 0。
+   返回当前用户的生命周期值。默认值为0。
 
-   * 下面是这种方法对应的语法：
+   * 以下是此方法的语法：
 
       ```csharp
       static float GetLifetimeValue();
       ```
 
-   * 以下是这种方法的代码示例：
+   * 以下是此方法的代码示例：
 
       ```js
        var ADB = ADBMobile;
@@ -118,19 +121,19 @@ Windows 8.1 通用应用商店库提供的类和方法。
 
 * **GetUserIdentifier(winJS:getUserIdentifier)**
 
-   如果设置了自定义标识符，则返回自定义用户标识符。如果未设置自定义标识符，则返回 null。默认值为 `null`.
+   如果已设置自定义标识符，则返回自定义用户标识符。 如果未设置自定义标识符，则返回null。 默认值为 `null`。
 
    >[!TIP]
    >
-   >If your app upgrades from the Experience Cloud 3.x to 4.x SDK, the previous ID (either custom or automatically generated) is retrieved and stored as the custom user identifier. 这样可在 SDK 升级期间保留访客数据。对于 4.x SDK 上的新安装，用户标识符在设置之前为 `null`。
+   >如果您的应用程序从Experience Cloud3.x升级到4.x SDK，则将检索之前的ID（自定义或自动生成）并将其存储为自定义用户标识符。 这样可在 SDK 升级期间保留访客数据。For new installations on the 4.x SDK, user identifier is `null` until set.
 
-   * 下面是这种方法对应的语法：
+   * 以下是此方法的语法：
 
       ```csharp
       static Platform::String^GetUserIdentifier();
       ```
 
-   * 以下是这种方法的代码示例：
+   * 以下是此方法的代码示例：
 
       ```js
       var ADB = ADBMobile;
@@ -141,13 +144,13 @@ Windows 8.1 通用应用商店库提供的类和方法。
 
    将用户标识符设置为 `identifier`。
 
-   * 下面是这种方法对应的语法：
+   * 以下是此方法的语法：
 
       ```csharp
       static void SetUserIdentifier(Platform::String ^userIdentifier);
       ```
 
-   * 以下是这种方法的代码示例：
+   * 以下是此方法的代码示例：
 
       ```js
       var ADB = ADBMobile;
@@ -156,15 +159,15 @@ Windows 8.1 通用应用商店库提供的类和方法。
 
 * **GetDebugLogging(winJS:getDebugLogging)**
 
-   返回当前的调试日志记录首选项。默认值为 `false`.
+   返回当前的调试日志记录首选项。默认值为 `false`。
 
-   * 下面是这种方法对应的语法：
+   * 以下是此方法的语法：
 
       ```csharp
       static bool GetDebugLogging(); 
       ```
 
-   * 以下是这种方法的代码示例：
+   * 以下是此方法的代码示例：
 
       ```js
       var ADB = ADBMobile;
@@ -173,15 +176,15 @@ Windows 8.1 通用应用商店库提供的类和方法。
 
 * **SetDebugLogging(winJS:setDebugLogging)**
 
-   将调试日志记录首选项设置为 `debugLogging`。调试日志记录功能仅在使用库的调试版本时才可用，发行版本将忽略此设置。
+   将调试日志记录首选项设置为 `debugLogging`。仅当使用库的调试版本时，调试日志记录才起作用，发行版忽略此设置。
 
-   * 下面是这种方法对应的语法：
+   * 以下是此方法的语法：
 
       ```csharp
       static void SetDebugLogging(bool debugLogging); 
       ```
 
-   * 以下是这种方法的代码示例：
+   * 以下是此方法的代码示例：
 
       ```js
       var ADB = ADBMobile;
@@ -194,36 +197,36 @@ Windows 8.1 通用应用商店库提供的类和方法。
 
    >[!TIP]
    >
-   >Invoke this method in the `onResume()` method in each Activity inside of your application, as shown in the following example. 我们还建议将 Activity 或 Service 作为上下文对象（而非全局应用程序上下文）传递。
+   >在应用程序内 `onResume()` 的每个活动中调用此方法，如以下示例所示。 我们还建议将活动或服务作为上下文对象而不是全局应用程序上下文进行传递。
 
-   * 下面是这种方法对应的语法：
+   * 以下是此方法的语法：
 
       ```csharp
       static void CollectLifecycleData();
       ```
 
-   * 以下是这种方法的代码示例：
+   * 以下是此方法的代码示例：
 
       ```js
       var ADB = ADBMobile;
       ADB.Config.collectLifecycleData(); 
       ```
 
-* **暂停收&#x200B;集生命周期数据(winJS:pauseCollecting &#x200B; LifecycleData)**
+* **暂停收&#x200B;集生命周期数据(winJS:暂停收集&#x200B;生命周期数据)**
 
-   指示 SDK 您的应用程序已暂停，以便正确计算生命周期量度。例如，暂停时收集时间戳以确定上一个会话时长。此方法还会设置一个标记，以便生命周期准确知道应用程序并没有崩溃。有关更多信息，请参阅[生命周期量度](/help/windows-appstore/metrics.md)。
+   指示 SDK 您的应用程序已暂停，以便正确计算生命周期量度。例如，在暂停时会收集时间戳以确定上一个会话长度。 这还会设置一个标志，使生命周期能够正确地知道应用程序未崩溃。 有关更多信息，请参阅[生命周期量度](/help/windows-appstore/metrics.md)。
 
    >[!TIP]
    >
-   >Invoke this method in the `onPause()` methods in each Activity inside Your application, as shown in the example. 我们还建议将 Activity 或 Service 作为上下文对象（而非全局应用程序上下文）传递。
+   >在应用程序内 `onPause()` 每个活动中的方法中调用此方法，如示例所示。 我们还建议将活动或服务作为上下文对象而不是全局应用程序上下文进行传递。
 
-   * 下面是这种方法对应的语法：
+   * 以下是此方法的语法：
 
       ```csharp
       static void PauseCollectingLifecycleData();
       ```
 
-   * 以下是这种方法的代码示例：
+   * 以下是此方法的代码示例：
 
       ```js
       var ADB = ADBMobile;
