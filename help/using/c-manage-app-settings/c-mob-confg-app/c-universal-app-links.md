@@ -3,12 +3,15 @@ description: 通用链接 (iOS) 和应用程序链接 (Android) 允许您连接�
 keywords: mobile
 seo-description: 通用链接 (iOS) 和应用程序链接 (Android) 允许您连接到 iOS 或 Android 应用程序中的深层链接。
 seo-title: Apple 通用链接和 Android 应用程序链接
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: Apple 通用链接和 Android 应用程序链接
-topic: 量度
+topic: Metrics
 uuid: 8d6441dc-4307-4454-95ea-d77ec796f918
-translation-type: ht
-source-git-commit: e65add089499f728827321e96e439f04ebb19a73
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '1142'
+ht-degree: 92%
 
 ---
 
@@ -63,7 +66,7 @@ source-git-commit: e65add089499f728827321e96e439f04ebb19a73
 
 1. 在 Adobe Mobile Services 中，创建一个使用通用链接的营销链接：
 
-   a. 从 Mobile Services 主页中选择应用程序，单击&#x200B;**[!UICONTROL 客户获取]** &gt; **[!UICONTROL 营销链接生成器]**。
+   a. Select the app from the Mobile Services home page, click **[!UICONTROL Acquisition]** > **[!UICONTROL Marketing Link Builder]**.
 
    b. 单击&#x200B;**[!UICONTROL 新建]**。
 
@@ -75,7 +78,7 @@ source-git-commit: e65add089499f728827321e96e439f04ebb19a73
 
    e. 如果已选中&#x200B;**[!UICONTROL 使用通用链接或应用程序链接]**&#x200B;选项，则会显示&#x200B;**[!UICONTROL 自定义路径]**&#x200B;字段。
 
-   它允许用户依据域以及任意查询参数来定义 URL 路径。例如，如果您键入 `my/universal/link?os=9.2`，则完整的营销链接 URL 会变为 `https://[marketing link domain]/my/universal/link?[AMS default query parameters]&os=9.2`。
+   这允许用户使用任何查询参数定义域之后的URL路径。 例如，如果您键入， `my/universal/link?os=9.2`则您的完整营销链接URL将变 `https://[marketing link domain]/my/universal/link?[AMS default query parameters]&os=9.2`为。
 
    f. 单击&#x200B;**[!UICONTROL 决策]**&#x200B;选项卡并配置决策树。
 
@@ -122,7 +125,7 @@ source-git-commit: e65add089499f728827321e96e439f04ebb19a73
 
 1. 在 Adobe Mobile Services 中，创建一个使用应用程序链接的营销链接：
 
-   a. 从 Mobile Services 主页中选择应用程序，单击&#x200B;**[!UICONTROL 客户获取]** &gt; **[!UICONTROL 营销链接生成器]**。
+   a. Select the app from the Mobile Services home page, click **[!UICONTROL Acquisition]** > **[!UICONTROL Marketing Link Builder]**.
 
    b. 单击&#x200B;**[!UICONTROL 新建]**。
 
@@ -134,7 +137,7 @@ source-git-commit: e65add089499f728827321e96e439f04ebb19a73
 
    e. 如果已选中&#x200B;**[!UICONTROL 使用通用链接或应用程序链接]**，则会显示&#x200B;**[!UICONTROL 自定义路径]**&#x200B;字段。
 
-   它允许用户依据域以及任意查询参数来定义 URL 路径。例如，如果您键入 `my/app/link?os=6.0`，则完整的营销链接 URL 会变为 `https://[marketing link domain]/my/app/link?[AMS default query parameters]&os=6.0`。
+   这允许用户使用任何查询参数定义域之后的URL路径。 例如，如果您键入， `my/app/link?os=6.0`则您的完整营销链接URL将变 `https://[marketing link domain]/my/app/link?[AMS default query parameters]&os=6.0`为。
 
    f. 单击&#x200B;**[!UICONTROL 决策]**&#x200B;选项卡并配置决策树。
 
