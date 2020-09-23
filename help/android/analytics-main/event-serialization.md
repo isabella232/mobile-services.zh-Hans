@@ -1,21 +1,24 @@
 ---
-description: 处理规则不支持事件序列化。在 Mobile SDK 中，您必须在上下文数据参数中使用专门的语法，以直接在服务器调用中设置序列化事件。
-keywords: Android;库;移动;SDK
-seo-description: 处理规则不支持事件序列化。在 Mobile SDK 中，您必须在上下文数据参数中使用专门的语法，以直接在服务器调用中设置序列化事件。
+description: 处理规则不支持事件序列化。 在Mobile SDK中，您必须在上下文数据参数中使用特殊语法直接在服务器调用中设置序列化事件。
+keywords: android;library;mobile;sdk
+seo-description: 处理规则不支持事件序列化。 在Mobile SDK中，您必须在上下文数据参数中使用特殊语法直接在服务器调用中设置序列化事件。
 seo-title: 事件序列化
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: 事件序列化
-topic: 开发人员和实施
+topic: Developer and implementation
 uuid: acdeda16-ab83-4cfc-907d-33448b801b31
-translation-type: ht
-source-git-commit: bf076aa8e59d5c3e634fc4ae21f0de0d4541a83f
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '104'
+ht-degree: 7%
 
 ---
 
 
 # 事件序列化 {#event-serialization}
 
-处理规则不支持事件序列化。在 Mobile SDK 中，您必须在上下文数据参数中使用专门的语法，以直接在服务器调用中设置序列化事件。
+处理规则不支持事件序列化。 在Mobile SDK中，您必须在上下文数据参数中使用特殊语法直接在服务器调用中设置序列化事件。
 
 ```java
 cdata.put("&&events", "event1:12341234");
