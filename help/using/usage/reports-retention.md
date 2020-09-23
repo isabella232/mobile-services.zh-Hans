@@ -3,12 +3,15 @@ description: “维系”报表（前称“首次启动同期群”）是一种�
 keywords: mobile
 seo-description: “维系”报表（前称“首次启动同期群”）是一种同期群报表，可显示有多少位独特用户在首次启动您的应用程序后，又在随后几个月里至少再次启动了一次。
 seo-title: “维系”报表
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: “维系”报表
-topic: 报表,量度
+topic: Reports,Metrics
 uuid: e7639e7f-c9ed-4b19-9ac5-b36774ea9dd6
-translation-type: ht
-source-git-commit: e9691f9cbeadd171948aa752b27a014c3ab254d6
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '309'
+ht-degree: 77%
 
 ---
 
@@ -17,9 +20,9 @@ source-git-commit: e9691f9cbeadd171948aa752b27a014c3ab254d6
 
 **[!UICONTROL 维系]**&#x200B;报表（前称“首次启动同期群”）是一种同期群报表，可显示有多少位独特用户在首次启动您的应用程序后，又在随后几个月里至少再次启动了一次。
 
-默认情况下，此报表会根据群组用户首次启动应用程序的时间来显示他们的维系情况。您也可以自定义此报表，以使用除首次启动之外的其他量度，并添加更多其他操作。
+默认情况下，此报告根据用户首次启动应用程序时显示用户组的保留情况。 您还可以自定义此报告以使用“首次启动”以外的指标并添加其他操作。
 
-同期群是指在定义的时间段内拥有共同特点或体验的一组用户。**[!UICONTROL 维系]**&#x200B;报表会利用在特定时间（天、周或月）安装该应用程序的用户的共同特点，并绘制图表以显示其中有多少用户在接下来的 X 天、周或月中启动了该应用程序。该报表可显示将访客保持为活跃访客或参与访客的效果如何。
+同期群是指在定义的时间段内具有共同特征或经验的人群。 **[!UICONTROL 维系]**&#x200B;报表会利用在特定时间（天、周或月）安装该应用程序的用户的共同特点，并绘制图表以显示其中有多少用户在接下来的 X 天、周或月中启动了该应用程序。报告显示访客在有效或参与时的保留情况。
 
 以下是此报表的示例：
 
