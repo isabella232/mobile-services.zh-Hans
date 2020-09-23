@@ -2,12 +2,15 @@
 description: 以下是 iOS 库提供的 Audience Manager 方法列表。
 seo-description: 以下是 iOS 库提供的 Audience Manager 方法列表。
 seo-title: Audience Manager 方法
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: Audience Manager 方法
-topic: 开发人员和实施
+topic: Developer and implementation
 uuid: 97658bd6-4c4f-4875-abe9-36dad4ec8bae
-translation-type: ht
-source-git-commit: df4ea2c4002611c72009cf69598cbbb74b5c15c4
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
+source-wordcount: '363'
+ht-degree: 80%
 
 ---
 
@@ -70,14 +73,14 @@ SDK 当前支持多个 Adobe Experience Cloud 解决方案，包括 Analytics、
 
 * **audienceSetDpid:&#x200B;dpuuid:**
 
-   设置 DPID 和 DPUUID。设置后，二者会同时附加到每个信号。
+   设置 DPID 和 DPUUID。设置后，两者都将附加到每个信号。
 
-   * **数据提供程序 ID (DPID)** 是指由 Audience Manager 分配的数据合作伙伴 ID。
-   * **数据提供程序唯一用户 ID (DPUUID)** 是指数据提供程序的唯一用户 ID。
+   * 数 **据提供者ID** (DPID)是Audience Manager分配的数据合作伙伴ID。
+   * 数 **据提供程序唯一用户ID** (DPUUID)是数据提供程序的唯一用户ID。
 
       >[!IMPORTANT]
       >
-      >在版本 4.13.x 之前，DPUUID 并不自动进行编码。从版本 4.13.x 开始，SDK 将首先对传入的值进行解码，然后再对该值重新编码。此过程可确保 SDK 不会破坏向后兼容性。
+      >在版本 4.13.x 之前，DPUUID 并不自动进行编码。从4.13.x版开始，SDK首先对传入的值进行解码，然后对此值重新编码。 此过程确保SDK不会中断向后兼容性。
 
    * 以下是此方法的语法：
 
