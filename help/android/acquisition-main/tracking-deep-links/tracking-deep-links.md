@@ -3,13 +3,13 @@ description: 您可以使用此信息通过 Adobe Mobile Android SDK 在移动�
 keywords: android;library;mobile;sdk
 seo-description: 您可以使用此信息通过 Adobe Mobile Android SDK 在移动设备应用程序中跟踪深层链接和延期深层链接。
 seo-title: 在 Adobe Mobile Services 中跟踪深层链接
-solution: Marketing Cloud,Analytics
+solution: Experience Cloud,Analytics
 title: 跟踪深层链接
 topic: Developer and implementation
 uuid: ebb1c08c-a246-40b3-9ac6-4606a14b4c5a
-translation-type: ht
-source-git-commit: 7ae626be4d71641c6efb127cf5b1d3e18fccb907
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+workflow-type: tm+mt
 source-wordcount: '330'
 ht-degree: 100%
 
