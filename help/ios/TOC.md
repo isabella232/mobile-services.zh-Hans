@@ -1,18 +1,18 @@
 ---
 product: mobile-services
 audience: end-user
-user-guide-title: Mobile Services iOS指南
+user-guide-title: Mobile Services iOS 指南
 breadcrumb-title: iOS Guide
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 18ef20df0a32741685e35cee98a1adf4a1b823a1
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '286'
+ht-degree: 100%
 
 ---
 
 
-# Mobile Services iOS Guide {#ios}
+# Mobile Services iOS 指南{#ios}
 
 + [适用于 Experience Cloud 解决方案的 iOS SDK 4.x](overview.md)
 + [发行说明](rel-notes.md)
@@ -38,9 +38,9 @@ ht-degree: 0%
    + [跟踪应用程序的崩溃情况](analytics-main/crashes.md)
    + [定时操作](analytics-main/timed-actions.md)
    + [访客生命周期值](analytics-main/lifetime-value.md)
-   + 产品变量 {#products-variable}
-      + [产品变量](analytics-main/products/products.md)
-      + [具有促销 eVar 和产品特定事件的产品变量](analytics-main/products/products-variable-evars-events.md)
+   + Products 变量 {#products-variable}
+      + [Products 变量](analytics-main/products/products.md)
+      + [具有促销 eVar 和产品特定事件的 Products 变量](analytics-main/products/products-variable-evars-events.md)
    + [事件序列化](analytics-main/event-serialization.md)
    + [Video Analytics](analytics-main/video-qs.md)
    + 回发 {#postbacks}
