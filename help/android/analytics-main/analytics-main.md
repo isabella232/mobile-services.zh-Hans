@@ -8,7 +8,7 @@ title: Analytics 概述
 topic: Developer and implementation
 uuid: cc9fa1d9-bc48-4d03-854a-f7b263580a91
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: bc11c1e7a4a11657ee89c40ddcbd37377ce50bb5
 workflow-type: tm+mt
 source-wordcount: '323'
 ht-degree: 73%
@@ -34,8 +34,8 @@ ht-degree: 73%
 在SDK中，标识符用于跟踪用户，下面是标识符的层次结构：
 
 1. 自定义访客标识符(VID)
-2. 分析跟踪标识符(AID)
-3. Experience Cloud标识符(MID)
+1. 分析跟踪标识符(AID)
+1. Experience Cloud标识符(MID)
 
 >[!TIP]
 >
