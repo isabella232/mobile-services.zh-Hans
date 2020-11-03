@@ -1,23 +1,23 @@
 ---
-description: Windows 8.1 Universal App Store SDK 4.x的发行说明和已知问题，用于Experience Cloud解决方案。
-seo-description: Windows 8.1 Universal App Store SDK 4.x的发行说明和已知问题，用于Experience Cloud解决方案。
+description: 适用于 Experience Cloud 解决方案的 Windows 8.1 跨平台通用应用商店 SDK 4.x 的发行说明和已知问题。
+seo-description: 适用于 Experience Cloud 解决方案的 Windows 8.1 跨平台通用应用商店 SDK 4.x 的发行说明和已知问题。
 seo-title: 发行说明
 solution: Experience Cloud,Analytics
 title: 发行说明
 topic: Developer and implementation
 uuid: 45634319-7949-4e24-b193-4f876af97a69
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '248'
-ht-degree: 22%
+ht-degree: 100%
 
 ---
 
 
 # 发行说明{#release-notes}
 
-Windows 8.1 Universal App Store SDK 4.x的发行说明和已知问题，用于Experience Cloud解决方案。
+适用于 Experience Cloud 解决方案的 Windows 8.1 跨平台通用应用商店 SDK 4.x 的发行说明和已知问题。
 
 ## 最新发行说明 {#section_DC697A291F0A4CB7B669B24488E07DC1}
 
@@ -25,9 +25,9 @@ Windows 8.1 Universal App Store SDK 4.x的发行说明和已知问题，用于Ex
 
 | 功能 | 描述 |
 |--- |--- |
-| 地理位置——目标点 | 兴趣点允许您设置纬度／经度中心点并确定半径。 然后，库确定为该呼叫提供的位置是否属于您感兴趣的任何点。 有关详细信息， *请参阅Analytics中的地理位置* 和目 [标点](/help/windows-appstore/analytics/analytics.md)。 |
-| 生命周期值 | 终身价值是衡量用户在应用程序中的贡献和使用情况的一种方式。 每次您发送一个值时，该值都会添加到该用户的现有值中。  有关详细信息，请参 *阅Analytics中的* “终身 [价值”](/help/windows-appstore/analytics/analytics.md)。 |
-| 定时操作 | 定时操作是一种简单的方法，让您能够轻松了解用户在应用程序内端到端完成过程需要多长时间。 计时操作允许您计算会话中的时间量以及完成操作所花费的总时间（跨会话）。 有关详细信息，请参 *阅Analytics中* 的定 [时操作](/help/windows-appstore/analytics/analytics.md)。 |
+| 地理位置 - 目标点 | 目标点允许您设置纬度/经度中心点并确定半径。然后，库会确定为该调用提供的位置是否在您的目标点范围之内。有关更多信息，请参阅 [Analytics](/help/windows-appstore/analytics/analytics.md) 中的&#x200B;*地理位置和目标点*。 |
+| 生命周期值 | 生命周期值是衡量用户在应用程序中的贡献和使用情况的一种方式。每次发送一个值后，该值都会添加到用户的现有值中。有关更多信息，请参阅 [Analytics](/help/windows-appstore/analytics/analytics.md) 中的&#x200B;*生命周期值*。 |
+| 定时操作 | 定时操作是一种让您能够轻松了解用户在应用程序内完成端到端流程所需时间的简单方法。定时操作允许您计算会话时长以及完成操作所花费的总时间（跨会话）。有关更多信息，请参阅 [Analytics](/help/windows-appstore/analytics/analytics.md) 中的&#x200B;*计时操作*。 |
 | 选择启用/选择禁用 | 快速启用和禁用 Analytics。 |
 
 
