@@ -11,7 +11,7 @@ translation-type: tm+mt
 source-git-commit: bc11c1e7a4a11657ee89c40ddcbd37377ce50bb5
 workflow-type: tm+mt
 source-wordcount: '323'
-ht-degree: 73%
+ht-degree: 100%
 
 ---
 
@@ -31,16 +31,16 @@ ht-degree: 73%
 
 ## 生成 Analytics 跟踪标识符
 
-在SDK中，标识符用于跟踪用户，下面是标识符的层次结构：
+在 SDK 中，使用标识符来跟踪用户，下面是标识符的层次结构：
 
-1. 自定义访客标识符(VID)
-1. 分析跟踪标识符(AID)
-1. Experience Cloud标识符(MID)
+1. 自定义访客标识符 (VID)
+1. Analytics 跟踪标识符 (AID)
+1. Experience Cloud 标识符 (MID)
 
 >[!TIP]
 >
 >Experience Cloud 标识符的正确首字母缩略词是 ECID。尽管 SDK 仍然使用 MID，但它用的是旧名称。
 
-AID 有时候也被称为“跟踪标识符”，当应用程序未配置为使用 MID 时，SDK 会生成 AID。在应用程序启动和升级过程中，该值会保留在 `SharedPreferences` 中。如果用户从其设备中删除应用程序，然后重新安装该应用程序，或者如果应用程序开发人员清除 SharedPreferences，则 SDK 会生成一个新的标识符。此过程会导致Analytics报告有新用户。
+AID 有时候也被称为“跟踪标识符”，当应用程序未配置为使用 MID 时，SDK 会生成 AID。在应用程序启动和升级过程中，该值会保留在 `SharedPreferences` 中。如果用户从其设备中删除应用程序，然后重新安装该应用程序，或者如果应用程序开发人员清除 SharedPreferences，则 SDK 会生成一个新的标识符。此流程会导致在 Analytics 报表中创建新用户。
 
-对于应用程序中引入身份服务支持(MID)的用户，现有AID值会随Analytics点击一起发送，而Analytics点击包含AID和MID。 对于具有Identity Service支持的应用程序中的新用户，Analytics请求仅包含MID。 有关识别访客的更多信息，请参阅[识别访客](https://docs.adobe.com/content/help/zh-Hans/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-visid.html)。
+对于引入了 Identity 服务支持 (MID) 的应用程序中的用户，现有 AID 值会随 Analytics 点击一起发送，并且 Analytics 点击包含 AID 和 MID。对于具有 Identity 服务支持的应用程序中的新用户，Analytics 请求仅包含 MID。有关识别访客的更多信息，请参阅[识别访客](https://docs.adobe.com/content/help/zh-Hans/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-visid.html)。
