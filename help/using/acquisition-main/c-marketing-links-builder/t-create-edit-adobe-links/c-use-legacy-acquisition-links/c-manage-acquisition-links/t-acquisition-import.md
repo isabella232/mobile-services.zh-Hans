@@ -7,11 +7,11 @@ solution: Experience Cloud,Analytics
 title: 导入或导出客户获取链接
 topic: Metrics
 uuid: 94ea008a-473a-40c3-9fa8-a94eb0208c8f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '131'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 96%
 
 如果您希望使用 .csv 文件，而不是 Adobe Mobile Services 用户界面来处理链接，则可以导入或导出客户获取链接。
 
-1. Click **[!UICONTROL Acquisition]** > **[!UICONTROL Manage Acquisition Links]**.
+1. 单击&#x200B;**[!UICONTROL 客户获取]** > **[!UICONTROL 管理客户获取链接]**。
 1. 单击&#x200B;**[!UICONTROL 导入]**，然后完成以下任务之一：
 
    * 浏览并选择要上传到 Mobile Services 的文件。
