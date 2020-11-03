@@ -5,11 +5,11 @@ seo-title: 测试 V3 客户获取
 solution: Experience Cloud,Analytics
 title: 测试 V3 客户获取
 uuid: 89137ccf-4839-4b37-926e-303cf8e511a5
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '620'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -66,7 +66,7 @@ ht-degree: 97%
    `"Analytics - Trying to fetch referrer data from <acquisition end url>"`
    `"Analytics - Received Referrer Data(<Json Object>)"`
 
-   如果看不到上述日志，请确保您已完成步骤4和5。
+   如果没有看到上述日志，请确保您已完成步骤 4 和 5。
 
    以下是关于可能出现的错误的一些信息：
 
