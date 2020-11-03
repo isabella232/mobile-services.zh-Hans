@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: bc11c1e7a4a11657ee89c40ddcbd37377ce50bb5
 workflow-type: tm+mt
 source-wordcount: '454'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 97%
 
 * 支持 iOS 8 或更高版本
 
-   对于iOS 11或更高版本， **您必** 须具有SDK版本4.13.8或更高版本。
+   对于 iOS 11 或更高版本，您&#x200B;**必须**&#x200B;具有 SDK 版本 4.13.8 或更高版本。
 
 * 在此 SDK 的版本 4.2 及更高版本中，现在使用 HTTP POST 发送所有点击。
 
