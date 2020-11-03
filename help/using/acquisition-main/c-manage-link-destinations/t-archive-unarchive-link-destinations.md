@@ -7,11 +7,11 @@ solution: Experience Cloud,Analytics
 title: 管理链接目标
 topic: Metrics
 uuid: 3a38d40d-b4c7-4f9f-aa6e-979613faaba2
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '296'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 94%
 
    * **编辑**
 
-      要编辑现有链接目标，请在列表中单击其名称，然后编辑相关字段。 有关更多信息，请参阅[创建新链接目标](/help/using/acquisition-main/c-manage-link-destinations/t-create-new-app-deep-link-destination.md)。
+      要编辑现有链接目标，请在列表中单击链接目标名称，然后编辑相关字段。有关更多信息，请参阅[创建新链接目标](/help/using/acquisition-main/c-manage-link-destinations/t-create-new-app-deep-link-destination.md)。
 
       >[!IMPORTANT]
       >
