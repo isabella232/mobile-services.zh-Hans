@@ -7,11 +7,11 @@ solution: Experience Cloud,Analytics
 title: 信标跟踪
 topic: Developer and implementation
 uuid: 16c1d267-85f4-4a6a-a6d3-d6ffb0f80b29
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '240'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -27,12 +27,12 @@ ht-degree: 81%
 * `a.beacon.minor` - 信标的次编号（如存储内的唯一编号）
 * `a.beacon.prox` - 值 0 至 3 表示用户与信标的接近度。
 
-以下是这些价值的含义：
+以下是这些值代表的含义：
 
-* 0 =未知
-* 1 =立即
-* 2 =近
-* 3 =远
+* 0 = 未知
+* 1 = 立即
+* 2 = 近
+* 3 = 远
 
 此信标数据是在移动设备解决方案变量中捕获的。
 
@@ -50,8 +50,8 @@ ht-degree: 81%
 
 1. 收集信标位置。
 
-   根据信标的制造商，可以使用多个第三方库扫描蓝牙LE信标。
-1. 获取信标信息后，使用以下呼叫跟踪位置：
+   可以使用多种第三方库来扫描蓝牙 LE 信标，具体取决于信标制造商。
+1. 获取信标信息后，使用以下调用来跟踪位置：
 
    ```java
    // assumed that the following variables will have been retrieved by the 3rd party beacon library 
