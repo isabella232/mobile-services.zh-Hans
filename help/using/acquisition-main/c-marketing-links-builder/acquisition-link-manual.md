@@ -7,11 +7,11 @@ solution: Experience Cloud,Analytics
 title: 手动创建客户获取链接
 topic: Metrics
 uuid: d7709203-f793-4982-adaa-9c3c914aca2b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '496'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 91%
 
 ![](assets/acquisition_url.png)
 
-此链接配置为针对移动应用程序执行特定于平台的重定向到Google Play商店或Apple App Store。 如果无法确定目标，则默认存储已设置为Apple App Store。 安装应用程序后，`my.custom.key:test` 自定义上下文键会附加到“Analytics 安装点击”。
+此链接配置为针对移动设备应用程序，执行到 Google Play 应用商店或 Apple App Store 的特定于平台的重定向。如果无法确定目标，则默认存储设置为 Apple App Store。安装应用程序后，`my.custom.key:test` 自定义上下文键会附加到“Analytics 安装点击”。
 
 要手动创建链接，请使用下面的 URL 格式：
 
