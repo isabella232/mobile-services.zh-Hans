@@ -7,11 +7,11 @@ solution: Experience Cloud,Analytics
 title: 登录
 topic: Metrics
 uuid: d6ea0ca1-3511-4133-9d41-21ea2d2f7b3a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '361'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 93%
 
 要使用您的 Adobe ID 登录到 Adobe Mobile Services UI，请执行以下操作：
 
-1. 在浏览器中，键入 [https://mobilemarketing.adobe.com](https://mobilemarketing.adobe.com).
+1. 在浏览器中，键入 [https://mobilemarketing.adobe.com](https://mobilemarketing.adobe.com)。
 1. 单击&#x200B;**[!UICONTROL 使用您的 Adobe ID 登录]**。
 1. 键入您的电子邮件地址。
 1. 在&#x200B;**[!UICONTROL 选择帐户]**&#x200B;中，单击 **[!UICONTROL Adobe ID]**。
@@ -56,7 +56,7 @@ ht-degree: 93%
 
 要使用您的 Analytics ID 登录到 Adobe Mobile Services UI，请执行以下操作：
 
-1. 在浏览器中，键入 [https://mobilemarketing.adobe.com/](https://mobilemarketing.adobe.com/).
+1. 在浏览器中，键入 [https://mobilemarketing.adobe.com/](https://mobilemarketing.adobe.com/)。
 1. 单击&#x200B;**[!UICONTROL 使用您的 Analytics 帐户登录]**。
 1. 键入公司名称、用户名和密码。
 1. 单击&#x200B;**[!UICONTROL 登录]**。
@@ -71,7 +71,7 @@ ht-degree: 93%
    1. 键入与您的 Adobe ID 关联的电子邮件帐户，然后单击&#x200B;**[!UICONTROL 发送]**。
    1. 按照收到的电子邮件中的说明重置密码。
 
-* **Adobe Analytics** ：如果您使用公司、用户名和密码：
+* **Adobe Analytics** 如果使用的是公司名称、用户名和密码，请执行以下操作：
 
    1. 单击&#x200B;**[!UICONTROL 忘记密码？]**&#x200B;链接。
    1. 键入公司名称和用户名，然后单击&#x200B;**[!UICONTROL 继续]**。
