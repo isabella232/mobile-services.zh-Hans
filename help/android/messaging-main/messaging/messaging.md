@@ -1,23 +1,23 @@
 ---
-description: 您可以提供从任何分析数据或事件触发的应用程序内消息。 实施后，消息将动态传递到应用程序，无需代码更新。
-seo-description: 您可以提供从任何分析数据或事件触发的应用程序内消息。 实施后，消息将动态传递到应用程序，无需代码更新。
+description: 您可以发送从任何 Analytics 数据或事件触发的应用程序内消息。实施后，消息将动态传送到应用程序，无需代码更新。
+seo-description: 您可以发送从任何 Analytics 数据或事件触发的应用程序内消息。实施后，消息将动态传送到应用程序，无需代码更新。
 seo-title: 应用程序内消息传送
 solution: Experience Cloud,Analytics
 title: 应用程序内消息传送
 topic: Developer and implementation
 uuid: 351ee3d2-80b9-4f2d-9696-21f274d89f5a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '803'
-ht-degree: 61%
+ht-degree: 100%
 
 ---
 
 
 # 应用程序内消息传送 {#in-app-messaging}
 
-您可以提供从任何分析数据或事件触发的应用程序内消息。 实施后，消息将动态传递到应用程序，无需代码更新。
+您可以发送从任何 Analytics 数据或事件触发的应用程序内消息。实施后，消息将动态传送到应用程序，无需代码更新。
 
 ## 新的 Adobe Experience Cloud SDK 版本
 
@@ -27,7 +27,7 @@ ht-degree: 61%
 >
 >在 2018 年 9 月，我们发布了一个新的 SDK 主要版本。这些新的 Adobe Experience Platform Mobile SDK 可通过 [Experience Platform Launch](https://www.adobe.com/cn/experience-platform/launch.html) 进行配置。
 
-* To get started, go to [Launch](https://launch.adobe.com/).
+* 要开始配置，请转到 [Launch](https://launch.adobe.com/)。
 * 要查看 Experience Platform SDK 存储库中的内容，请转到 [Github：Adobe Experience Platform SDK](https://github.com/Adobe-Marketing-Cloud/acp-sdks)。
 
 >[!IMPORTANT]
@@ -36,9 +36,9 @@ ht-degree: 61%
 
 >[!IMPORTANT]
 >
->To use in-app messaging, you **must** have SDK version 4.2 or later.
+>要使用应用程序内消息传送，您&#x200B;**必须**&#x200B;具有 SDK 版本 4.2 或更高版本。
 
-您可以在AdobeMobile服务中创建消息和规则，定义何时显示消息。 For more information, see [Create an in-app message](/help/using/in-app-messaging/t-in-app-message/t-in-app-message.md). 要显示应用程序内消息，必须对SDK进行更新。 即使尚未定义任何消息，您也可以完成这些步骤。 在您定义消息后，这些消息将动态传递到您的应用程序，并且不用更新应用商店即可显示。
+您可以在 Adobe Mobile Services 中创建消息，以及定义何时显示消息的规则。有关更多信息，请参阅[创建应用程序内消息](/help/using/in-app-messaging/t-in-app-message/t-in-app-message.md)。要显示应用程序内消息，必须对 SDK 进行更新。即使尚未定义任何消息，您也可以完成这些步骤。在定义消息后，这些消息将被动态发送到您的应用程序，并且无需应用商店更新即可显示出来。
 
 ## 启用应用程序内消息传送 {#section_380DF56C4EE4432A823940E4AE4C9E91}
 
@@ -121,11 +121,11 @@ ht-degree: 61%
 
 ## 跟踪应用程序内消息 {#section_B85CDF6929564AAEA79338B55E5CB1E8}
 
-Android Mobile SDK跟踪应用程序内消息的以下指标：
+Adobe Mobile SDK 会跟踪应用程序内消息的以下量度：
 
-* 对于全屏和警报样式应用程序内消息：
+* 对于全屏和警报样式的应用程序内消息：
 
-   * **展示**:用户触发应用程序内消息时。
+   * **展示次数**：用户触发应用程序内消息时。
    * **点进次数**：用户按下&#x200B;**[!UICONTROL 点进]**&#x200B;时。
    * **取消次数**：用户按下&#x200B;**[!UICONTROL 取消]**&#x200B;时。
 
@@ -140,7 +140,7 @@ Android Mobile SDK跟踪应用程序内消息的以下指标：
 
 ## 本地替代图像 {#section_DEACC1CE549B4573B556A44A52409941}
 
-创建全屏消息时，您可以选择指定备用图像。 如果邮件无法从Web检索其预期图像，SDK会尝试从应用程序的assets文件夹加载同名图像。 这样，即使用户处于脱机状态或预定图像不可到达，您也可以以其原始形式显示消息。
+创建全屏消息时，您可以选择指定一个替代图像。如果信息无法从 Web 检索其预期图像，SDK 会尝试从应用程序的 assets 文件夹加载同名图像。这样，即使用户处于脱机状态或预定义的图像不可访问，您也可以以原始形式显示消息。
 
 >[!IMPORTANT]
 >
@@ -152,7 +152,7 @@ Android Mobile SDK跟踪应用程序内消息的以下指标：
 
 * **Config.setSmallIconResourceId(int resourceId)**
 
-   设置将用于SDK创建的通知的小图标。 此图标显示在状态栏中，是当用户在通知中心看到完整通知时显示的次映像。
+   设置将用于 SDK 创建的通知的小图标。此图标将显示在状态栏中，并且是用户在通知中心查看完整通知时显示的辅助图像。
 
    * 以下是此方法的语法：
 
