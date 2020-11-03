@@ -7,11 +7,11 @@ solution: Experience Cloud,Analytics
 title: 测试版本 3 客户获取
 topic: Developer and implementation
 uuid: 5e38b43d-389e-4412-99e5-3e6223b6ad28
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '820'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -22,9 +22,9 @@ ht-degree: 85%
 
 >[!IMPORTANT]
 >
->V3 中的客户获取是指您在 Adobe Mobile Services 用户界面中通过客户获取生成器创建的客户获取链接。要使用此功能，您必须升级到Android SDK 4.x，以便Experience Cloud解决方案4.6.0或更高版本。
+>V3 中的客户获取是指您在 Adobe Mobile Services 用户界面中通过客户获取生成器创建的客户获取链接。要使用此项功能，您必须升级到适用于 Experience Cloud 解决方案 4.6.0 或更高版本的 Android SDK 4.x。
 
-如果移动应用程序尚未在Google Play中，则在创建活动链接时，您可以选择任何移动应用程序作为目标。 这仅会影响在您单击客户获取链接后，客户获取服务器将您重定向到的应用程序，但不会影响测试链接的功能。查询字符串参数将传递到 Google Play 应用商店，并作为促销活动广播的一部分传递到正在安装的应用程序。往返移动设备应用程序客户获取测试需要模拟此类广播。
+如果 Google Play 中尚未提供移动设备应用程序，则在创建促销活动链接时，您可以选择任意移动设备应用程序作为目标。这仅会影响在您单击客户获取链接后，客户获取服务器将您重定向到的应用程序，但不会影响测试链接的功能。查询字符串参数将传递到 Google Play 应用商店，并作为促销活动广播的一部分传递到正在安装的应用程序。往返移动设备应用程序客户获取测试需要模拟此类广播。
 
 >[!IMPORTANT]
 >
@@ -97,7 +97,7 @@ Broadcast completed: result=0`
 
 `"Analytics - Received referrer information(<referrer content>)"   "Analytics - Trying to fetch referrer data from (acquisition end url)"; "Analytics - Received Referrer Data(<A JSON Response>)"`
 
-如果看不到上述日志，请验证您是否已完成步骤6到12。
+如果您没有看到上述日志，请确认您已完成步骤 6 至 12。
 
 下表包含有关可能出现的错误的更多信息：
 
@@ -107,20 +107,20 @@ Broadcast completed: result=0`
 | Analytics - Unable to parse response (*a JSON Response*). | JSON 字符串的格式错误。 |
 | Analytics - Unable to parse acquisition service response (no contextData parameter in response). | 响应中没有 contextData 参数。 |
 | Analytics - Acquisition referrer data was not complete (no `a.referrer.campaign.name` in context data), ignoring. | contextData 中未包含 `a.referrer.campaign.name`。 |
-| Analytics - Acquisition referrer timed out. | 无法在 `referrerTimeout` 定义的时间内获取响应。请增加值，然后重试。您还应确保在安装应用程序之前已打开客户获取链接。 |
+| Analytics - Acquisition referrer timed out. | 无法在 `referrerTimeout` 定义的时间内获取响应。请增加值，然后重试。您还应确保已在安装应用程序之前打开客户获取链接。 |
 
 请牢记以下信息：
 
-* 通过使用HTTP监视工具验证客户获取归因，可以监视从应用程序发送的点击。
+* 可通过使用 HTTP 监控工具监控从相应应用程序发送出的点击，进而确认客户获取归因。
 * 有关如何广播 `INSTALL_REFERRER` 的更多信息，请参阅《Google 开发人员指南》中的 [Testing Google Play Campaign Measurement](https://developers.google.com/analytics/solutions/testing-play-campaigns)（测试 Google Play 促销活动测量）。
 
-* 针对Android 4.8.2上的客户获取发布了错误修复。
+* 针对 Android 4.8.2 上的客户获取发布了错误修复。
 
-   在测试之前，请将SDK升级到最新版本。
+   在测试之前，请将 SDK 升级到最新版本。
 
 * 您可以使用提供的 `acquisitionTest.jar` Java 工具来帮助获取唯一 ID 和广播安装反向链接，这反过来也可以帮助您获取步骤 3 至 12 中的信息。
 
-   **安装Java工具**
+   **安装 Java 工具**
 
 要安装 Java 工具，请执行以下操作：
 
@@ -128,7 +128,7 @@ Broadcast completed: result=0`
 
 1. 解压缩该 .jar 文件。
 
-   可以在命令行上运行文件。
+   您可以通过命令行运行该文件。
 
    例如：
 
