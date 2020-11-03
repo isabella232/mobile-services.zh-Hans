@@ -7,11 +7,11 @@ solution: Experience Cloud,Analytics
 title: Apple 通用链接和 Android 应用程序链接
 topic: Metrics
 uuid: 8d6441dc-4307-4454-95ea-d77ec796f918
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1142'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -66,7 +66,7 @@ ht-degree: 92%
 
 1. 在 Adobe Mobile Services 中，创建一个使用通用链接的营销链接：
 
-   a. Select the app from the Mobile Services home page, click **[!UICONTROL Acquisition]** > **[!UICONTROL Marketing Link Builder]**.
+   a. 从 Mobile Services 主页中选择应用程序，单击&#x200B;**[!UICONTROL 客户获取]** > **[!UICONTROL 营销链接生成器]**。
 
    b. 单击&#x200B;**[!UICONTROL 新建]**。
 
@@ -78,7 +78,7 @@ ht-degree: 92%
 
    e. 如果已选中&#x200B;**[!UICONTROL 使用通用链接或应用程序链接]**&#x200B;选项，则会显示&#x200B;**[!UICONTROL 自定义路径]**&#x200B;字段。
 
-   这允许用户使用任何查询参数定义域之后的URL路径。 例如，如果您键入， `my/universal/link?os=9.2`则您的完整营销链接URL将变 `https://[marketing link domain]/my/universal/link?[AMS default query parameters]&os=9.2`为。
+   这允许用户使用任意查询参数来定义域之后的 URL 路径。例如，如果您键入 `my/universal/link?os=9.2`，则完整营销链接 URL 将变为 `https://[marketing link domain]/my/universal/link?[AMS default query parameters]&os=9.2`。
 
    f. 单击&#x200B;**[!UICONTROL 决策]**&#x200B;选项卡并配置决策树。
 
@@ -125,7 +125,7 @@ ht-degree: 92%
 
 1. 在 Adobe Mobile Services 中，创建一个使用应用程序链接的营销链接：
 
-   a. Select the app from the Mobile Services home page, click **[!UICONTROL Acquisition]** > **[!UICONTROL Marketing Link Builder]**.
+   a. 从 Mobile Services 主页中选择应用程序，单击&#x200B;**[!UICONTROL 客户获取]** > **[!UICONTROL 营销链接生成器]**。
 
    b. 单击&#x200B;**[!UICONTROL 新建]**。
 
@@ -137,7 +137,7 @@ ht-degree: 92%
 
    e. 如果已选中&#x200B;**[!UICONTROL 使用通用链接或应用程序链接]**，则会显示&#x200B;**[!UICONTROL 自定义路径]**&#x200B;字段。
 
-   这允许用户使用任何查询参数定义域之后的URL路径。 例如，如果您键入， `my/app/link?os=6.0`则您的完整营销链接URL将变 `https://[marketing link domain]/my/app/link?[AMS default query parameters]&os=6.0`为。
+   这允许用户使用任意查询参数来定义域之后的 URL 路径。例如，如果您键入 `my/app/link?os=6.0`，则完整营销链接 URL 将变为 `https://[marketing link domain]/my/app/link?[AMS default query parameters]&os=6.0`。
 
    f. 单击&#x200B;**[!UICONTROL 决策]**&#x200B;选项卡并配置决策树。
 
