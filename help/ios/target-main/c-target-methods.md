@@ -56,9 +56,8 @@ NSString *const ADBTargetParameterMboxHost;
 >[!IMPORTANT]
 >
 >* 如果您使用的是&#x200B;**低于** 4.14.0 版本的 SDK，请参阅[输入参数](https://developers.adobetarget.com/api/#input-parameters)以了解参数限制。
-   >
-   >
-* 如果您使用的是 4.14.0 版本&#x200B;**或更高版本**&#x200B;的 SDK，请参阅[批量输入参数](https://developers.adobetarget.com/api/#batch-input-parameters)以了解参数限制。
+>
+>* 如果您使用的是 4.14.0 版本&#x200B;**或更高版本**&#x200B;的 SDK，请参阅[批量输入参数](https://developers.adobetarget.com/api/#batch-input-parameters)以了解参数限制。
 
 
 ### 方法
