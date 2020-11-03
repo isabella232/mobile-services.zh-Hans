@@ -6,11 +6,11 @@ solution: Experience Cloud,Analytics
 title: 跟踪应用程序状态
 topic: Developer and implementation
 uuid: 69c99d05-5816-4c86-97c5-d218dc26c129
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '291'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -71,11 +71,11 @@ public void onCreate(Bundle savedInstanceState) {
 
 ## 应用程序状态报告 {#section_0F6A54AB7A3F42C9BB042D86A0FC4630}
 
-状态通常通过使用路径报告来查看，该报告允许您查看用户如何导航您的应用程序以及最频繁查看的状态。
+状态通常使用路径报表来查看，这让您能够了解用户在应用程序中的导航方式以及最常查看的状态。
 
 |  |  |
 |--- |--- |
-| Adobe Mobile Services | **[!UICONTROL 视图状态]**&#x200B;报表。此报表基于用户在您的应用程序中浏览的路径。A sample path is  **[!UICONTROL Home]**  >  **[!UICONTROL Settings]**  > **[!UICONTROL Feed]**. |
+| Adobe Mobile Services | **[!UICONTROL 视图状态]**&#x200B;报表。此报表基于用户在您的应用程序中浏览的路径。示例路径为&#x200B;**[!UICONTROL 主页]** > **[!UICONTROL 设置]** > **[!UICONTROL 信息源]**。 |
 | Adobe Analytics | 可以从任何能够查看页面的位置查看状态，如&#x200B;**[!UICONTROL 页面]**&#x200B;报表、**[!UICONTROL 页面查看次数]**&#x200B;报表和&#x200B;**[!UICONTROL 路径]**&#x200B;报表。 |
 | Ad Hoc Analytics | 可以使用&#x200B;**[!UICONTROL 页面]**&#x200B;维度、**[!UICONTROL 页面查看次数]**&#x200B;量度和&#x200B;**[!UICONTROL 路径]**&#x200B;报表从任何能够查看页面的位置查看状态。 |
 
