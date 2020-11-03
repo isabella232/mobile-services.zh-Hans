@@ -7,11 +7,11 @@ solution: Experience Cloud,Analytics
 title: 管理营销链接
 topic: Metrics
 uuid: 98ac3520-89ed-4513-83f6-120dda9d0157
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '201'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 91%
 
 * **显示营销链接**
 
-   To display the list of Marketing Links, in the Mobile Services home page, click **[!UICONTROL Acquisition]** > **[!UICONTROL Marketing Links Builder]**.
+   要显示营销链接列表，请在 Mobile Services 主页中单击&#x200B;**[!UICONTROL 客户获取]** > **[!UICONTROL 营销链接生成器]**。
 
    **[!UICONTROL 点击量]**&#x200B;列会显示单击营销链接的用户数量。**[!UICONTROL 首次启动]**&#x200B;列会显示该应用程序的首次启动次数。此值反映了选择安装应用程序并在单击营销链接后启动该应用程序的用户数量。
 
