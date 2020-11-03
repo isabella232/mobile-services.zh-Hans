@@ -7,11 +7,11 @@ solution: Experience Cloud,Analytics
 title: PhoneGap 插件概述
 topic: Developer and implementation
 uuid: c5c32357-d8df-458a-b0e8-e0c56040241d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '395'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
