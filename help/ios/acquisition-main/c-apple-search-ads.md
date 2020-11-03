@@ -6,11 +6,11 @@ solution: Experience Cloud,Analytics
 title: Apple 搜索广告
 topic: Developer and implementation
 uuid: 790080e8-067e-4bfd-a169-0027db4fdff3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '280'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -34,9 +34,9 @@ Adobe SDK 利用 Apple 的搜索广告应用程序归因 API，让开发人员�
 
 要对您的应用程序启用搜索广告归因，请执行以下操作：
 
-1. 实施AdobeSDK版本4.13.2或更高版本。
+1. 实施 Adobe SDK 版本 4.13.2 或更高版本。
 
-   For more information, see [Core implementation and lifecycle](/help/ios/getting-started/dev-qs.md).
+   有关更多信息，请参阅[核心实施和生命周期](/help/ios/getting-started/dev-qs.md)。
 
 1. 将 iAd 框架添加到应用程序的 Xcode 项目文件中。
 
