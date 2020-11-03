@@ -6,11 +6,11 @@ solution: Experience Cloud,Analytics
 title: Swift 集成
 topic: Developer and implementation
 uuid: 5fb77b57-cbf9-4bcf-8b41-65a933bf9336
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '129'
-ht-degree: 71%
+ht-degree: 100%
 
 ---
 
@@ -21,13 +21,13 @@ ht-degree: 71%
 
 有关更多信息，请参阅[语言互操作性](https://developer.apple.com/documentation/swift#2984801.html)。
 
-例如，通过使用文档中所述的桥接头方法，可以导入AdobeMobile iOS SDK头文件：
+例如，使用文档中所述的桥接头方法，可以导入 Adobe Mobile iOS SDK 头文件：
 
 ```
 #import “ADBMobile.h”
 ```
 
-要从Swift文件中的SDK访问方法，请使用以下格式：
+要从 Swift 文件中的 SDK 访问方法，请使用以下格式：
 
 ```
 ADBMobile.{methodname}
