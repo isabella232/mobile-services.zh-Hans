@@ -6,9 +6,9 @@ solution: Experience Cloud,Analytics
 title: 跟踪应用程序的崩溃情况
 topic: Developer and implementation
 uuid: 3ab98c14-ccdf-4060-ad88-ec07c1c6bf07
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '487'
 ht-degree: 100%
 
@@ -33,7 +33,7 @@ ht-degree: 100%
 
 有关 Android 活动生命周期的更多信息，请参阅[活动](https://developer.android.com/guide/components/activities.html)。
 
-*此 Android 生命周期插图由[Android 开源项目制作和共享](https://source.android.com/)，并依据[创作共用署名 2.5 许可证](https://creativecommons.org/licenses/by/2.5/)中的条款使用。*
+*此 Android 生命周期插图由 [Android 开源项目制作和共享](https://source.android.com/)，并依据[创作共用署名 2.5 许可证](https://creativecommons.org/licenses/by/2.5/)中的条款使用。*
 
 ## 导致报告假崩溃的原因是什么？
 
