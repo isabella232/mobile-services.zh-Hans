@@ -6,11 +6,11 @@ solution: Experience Cloud,Analytics
 title: 迁移至 4.x iOS 库
 topic: Developer and implementation
 uuid: 5668972b-f355-4e03-9df0-8c82ddf6809b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '895'
-ht-degree: 61%
+ht-degree: 100%
 
 ---
 
@@ -27,15 +27,15 @@ ht-degree: 61%
 
 ## Event、Prop 和 eVar {#section_76EA6F5611184C5CAE6E62956D84D7B6}
 
-在版本4中，您无法再直接在应用程序中分配变量，如事件、eVar、prop、继承人和列表。 相反，SDK使用上下文数据和处理规则将应用程序数据映射到Analytics变量以进行报告。
+在版本 4 中，您无法再在应用程序中直接分配变量，例如事件、eVar、prop、继承人和列表。反而，SDK 使用上下文数据和处理规则将应用程序数据映射到 Analytics 变量以便进行报告。
 
 处理规则具有以下优势：
 
-* 您无需向App Store提交更新即可更改数据映射。
+* 您无需向应用商店提交更新即可更改数据映射。
 * 您可以对数据使用有意义的名称，而不是设置特定于报表包的变量。
-* 发送额外数据几乎没有影响。
+* 对发送额外数据的影响很小。
 
-   这些值只有在使用处理规则映射后才会显示在报告中。
+   直到在使用处理规则映射后这些值才会显示在报表中。
 
 >[!TIP]
 >
@@ -74,7 +74,7 @@ ht-degree: 61%
 
 ### 移动配置文件
 
-移动配置文件：
+要移动配置文件，请执行以下操作：
 
 1. 将为第一列中的变量设置的值移动到第二列中的变量。
 1. 从代码中删除旧配置变量。
@@ -91,10 +91,10 @@ ht-degree: 61%
 |--- |--- |
 | offlineTrackingEnabled | &quot;offlineEnabled&quot; |
 | offlineHitLimit | &quot;batchLimit&quot; |
-| reportSuiteID | &quot;rsids&quot; |
+| reportSuiteIDs | &quot;rsids&quot; |
 | trackingServer | &quot;server&quot; |
 | charSet | &quot;charset&quot; |
-| currencyCode | “货币” |
+| currencyCode | &quot;currency&quot; |
 | ssl | &quot;ssl&quot; |
 | linkTrackVars | 删除，不再使用。 |
 | linkTrackEvents | 删除，不再使用。 |
@@ -109,10 +109,10 @@ ht-degree: 61%
 | trackOffline | &quot;offlineEnabled&quot; |
 | offlineLimit | &quot;batchLimit&quot; |
 | account | &quot;rsids&quot; |
-| trackingServer | &quot;server&quot;, remove the `"https://"` prefix. 协议前缀会根据“ssl”设置自动添加。 |
-| trackingServerSecure | 删除. 要实现安全连接，请定义“服务器”，然后启用“ssl”。 |
+| trackingServer | &quot;server&quot;，删除 `"https://"` 前缀。会根据 &quot;ssl&quot; 设置自动添加协议前缀。 |
+| trackingServerSecure | 删除。 要实现安全连接，请定义 &quot;server&quot;，然后启用 &quot;ssl&quot;。 |
 | charSet | &quot;charset&quot; |
-| currencyCode | “货币” |
+| currencyCode | &quot;currency&quot; |
 | ssl | &quot;ssl&quot; |
 | linkTrackVars | 删除，不再使用。 |
 | linkTrackEvents | 删除，不再使用。 |
@@ -122,7 +122,7 @@ ht-degree: 61%
 | dynamicVariablePrefix | 删除，不再使用。 |
 | visitorNamespace | 删除，不再使用。 |
 | usePlugins | 删除，不再使用。 |
-| useBestPractices所有对客户流失度量的调用(getChurnInstance) | 删除，替换为生命周期量度。有关更多信息，请参阅[生命周期量度](//help/ios/metrics.md)。 |
+| useBestPractices 所有对流失测量 (getChurnInstance) 的调用 | 删除，替换为生命周期量度。有关更多信息，请参阅[生命周期量度](//help/ios/metrics.md)。 |
 
 
 ## 更新跟踪调用和跟踪变量 {#section_96E7D9B3CDAC444789503B7E7F139AB9}
@@ -139,15 +139,15 @@ SDK 版本 4 不使用以 Web 为主的 `track` 和 `trackLink` 调用，而是�
 
 ### Event、Prop、eVar
 
-在版本4中，您无法再直接在应用程序中分配变量，如事件、eVar、prop、继承人和列表。 SDK现在使用上下文数据和处理规则将您的应用程序数据映射到Analytics变量以进行报告。
+在版本 4 中，您无法再在应用程序中直接分配变量，例如事件、eVar、prop、继承人和列表。现在，SDK 使用上下文数据和处理规则将应用程序数据映射到 Analytics 变量以便进行报告。
 
 处理规则具有以下优势：
 
-* 您无需向App Store提交更新即可更改数据映射。
+* 您无需向应用商店提交更新即可更改数据映射。
 * 您可以对数据使用有意义的名称，而不是设置特定于报表包的变量。
-* 发送额外数据几乎没有影响。
+* 对发送额外数据的影响很小。
 
-   使用处理规则映射这些值后，这些值才会显示在报告中。 有关详细信息，请参 [阅处理规则和上下文数据](/help/ios/getting-started/proc-rules.md)。
+   直到在使用处理规则映射后这些值才会显示在报表中。有关更多信息，请参阅[处理规则和上下文数据](/help/ios/getting-started/proc-rules.md)。
 
 您直接分配到变量的值应当添加到 `data` `NSDictionary` 中。这意味着应全部删除对 `setProp`、`setEvar` 的调用和对永久性上下文数据的分配，并将值添加到 `data` 参数中。
 
