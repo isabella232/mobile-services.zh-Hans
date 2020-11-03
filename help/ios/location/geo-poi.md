@@ -6,11 +6,11 @@ solution: Experience Cloud,Analytics
 title: 地理位置和目标点
 topic: Developer and implementation
 uuid: c800ec85-a33f-425d-b28f-bfe8bf229ae8
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '591'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -23,9 +23,9 @@ ht-degree: 82%
 
 * 纬度、经度以及在 Adobe Mobile Services 中定义的目标点 (POI) 中的位置。
 
-   此信息将传递给移动解决方案变量以实现自动报告。
+   此信息将传送给移动设备解决方案变量以实现自动报告。
 
-* 中心距离和作为上下文数据传递的准确性。
+* 距中心的距离以及作为上下文数据传递的精度。
 
    系统不会自动捕获这些变量。您必须按照以下“发送其他数据”**&#x200B;部分中的说明来映射这些上下文数据变量。
 
@@ -83,9 +83,9 @@ NSMutableDictionary *contextData = [NSMutableDictionary dictionary];
 
 ## 位置上下文数据 {#section_FFB71E6653F9410A89CC6ACC0C9164A9}
 
-纬度和经度分别使用三个不同的上下文数据参数发送，每个参数代表不同的精度级别，共有六个上下文数据参数。
+分别使用三个不同的上下文数据参数发送纬度和经度，其中每个参数代表不同的精度级别，因此一共有六个上下文数据参数。
 
-例如，坐标纬度= 40.93231，纬度= -111.93152表示精度为1m的位置。 此位置根据精确度级别在以下变量中进行拆分：
+例如，坐标（纬度 = 40.93231，经度 = -111.93152）代表某个位置，精度为 1 m。根据以下变量的精度级别拆分此位置：
 
 * `a.loc.lat.a` = 040.9
 * `a.loc.lat.b` = 32
@@ -115,5 +115,5 @@ NSMutableDictionary *contextData = [NSMutableDictionary dictionary];
 
 * 如果有两个 POI 的直径重叠，则使用包含当前位置的第一个 POI。
 
-   如果POI重叠，您应按最细到最细的顺序列表POI，以确保报告最细的POI。
+   如果 POI 重叠，则应按最精细到最不精细的顺序列出 POI，以确保报告最精细的 POI。
 
