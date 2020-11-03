@@ -7,11 +7,11 @@ solution: Experience Cloud,Analytics
 title: 受众：应用程序内消息
 topic: Metrics
 uuid: 6c815d4c-7626-4cf4-9158-3f059c79317a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '583'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 79%
 
 您可以为应用程序内消息配置受众选项，包括查看、触发器和特征选项。
 
-1. In your app, click **[!UICONTROL Messaging]** > **[!UICONTROL Manage Messages]** > **[!UICONTROL Create Message]** > **[!UICONTROL Create In-App]**.
+1. 在应用程序中，单击&#x200B;**[!UICONTROL 消息传送]** > **[!UICONTROL 管理消息]** > **[!UICONTROL 创建消息]** > **[!UICONTROL 创建应用程序内消息]**。
 1. 在“受众”页面上的以下字段中键入相应信息：
 
    * **[!UICONTROL 查看]**
@@ -47,7 +47,7 @@ ht-degree: 79%
       >如果您选择多个触发器，则要显示消息，所有触发器都必须在同一个点击中发生。
 
    * **[!UICONTROL 特征]**
-您可以确定在触发时应该看到应用程序内消息的人员，并过滤（划分）已指定数据的点击受众。例如，您可以定义一个规则，其中“兴趣点”包含“丹佛”。 此过滤器允许您在触发时向名为Denver的客户显示您感兴趣的点之一的消息。
+您可以确定在触发时应该看到应用程序内消息的人员，并过滤（划分）已指定数据的点击受众。例如，您可以定义一个规则，其中“目标点”包含“丹佛”。此过滤器允许您在触发规则时，向位于目标点丹佛的客户显示消息。
 
 
 
@@ -55,9 +55,9 @@ ht-degree: 79%
 
 >[!IMPORTANT]
 >
->触发器和特征使用的是从您的应用程序传递到 Analytics 的数据。这些值作为上下文数据、映射的变量和度量传递。 变量是基于文本的值，度量是数值。
+>触发器和特征使用的是从您的应用程序传递到 Analytics 的数据。这些值作为上下文数据、映射的变量和量度传入。变量是一个基于文本的值，而量度则是一个数值。
 
-To see the mapping of these key value pairs in the Mobile Services UI and validate the value for your trigger, click **[!UICONTROL Manage App Settings]** >  **[!UICONTROL Manage Variables &amp; Metrics]** >, which displays the following tabs:
+要在 Mobile Services UI 中查看这些键值对的映射，并验证触发器的值，请单击&#x200B;**[!UICONTROL 管理应用程序设置]** > **[!UICONTROL 管理变量与量度]**，接下来则会显示以下选项卡：
 
 * **[!UICONTROL 标准变量和量度]**
 * **[!UICONTROL 自定义变量]**
@@ -75,7 +75,7 @@ To see the mapping of these key value pairs in the Mobile Services UI and valida
 
 量度是数字，例如购买数量便是一个量度。
 
-1. Click **[!UICONTROL Manage Messages]** > **[!UICONTROL Create Message]**.
+1. 单击&#x200B;**[!UICONTROL 管理消息]** > **[!UICONTROL 创建消息]**。
 1. 在&#x200B;**[!UICONTROL 受众]**&#x200B;选项卡的&#x200B;**[!UICONTROL 触发器]**&#x200B;部分，完成以下步骤：
 
    1. 选择一个标准事件（例如&#x200B;**[!UICONTROL 已启动]**），然后选择&#x200B;**[!UICONTROL 存在]**。
@@ -86,7 +86,7 @@ To see the mapping of these key value pairs in the Mobile Services UI and valida
 
 变量是用作唯一标识符的文本字符串，例如国家/地区、机场等都属于变量。
 
-1. Click **[!UICONTROL Manage Messages]** > **[!UICONTROL Create Message]**.
+1. 单击&#x200B;**[!UICONTROL 管理消息]** > **[!UICONTROL 创建消息]**。
 1. 在&#x200B;**[!UICONTROL 受众]**&#x200B;选项卡的&#x200B;**[!UICONTROL 触发器]**&#x200B;部分，完成以下步骤：
 
    1. 选择一个标准事件（例如&#x200B;**[!UICONTROL 已启动]**），然后选择&#x200B;**[!UICONTROL 存在]**。
