@@ -7,11 +7,11 @@ solution: Experience Cloud,Analytics
 title: 新建链接目标
 topic: Metrics
 uuid: 390e3dea-0221-4f97-980d-a90ca9f162fa
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '417'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -35,11 +35,11 @@ ht-degree: 85%
 
       * **[!UICONTROL 应用程序深层链接]**
 
-         提供一个 URI 模式深层链接（例如，`yourapp://section`）。应用程序深层链接目标是URI模式深层链接，可将用户引导到应用程序中的深层链接。 例如，您可以将用户定向到在线零售商的移动应用程序中的特定产品系列。
+         提供一个 URI 模式深层链接（例如，`yourapp://section`）。应用程序深层链接目标是 URI 模式深层链接，可将用户指引到您的应用程序内的深层链接。例如，您可以将用户引导至在线零售商移动设备应用程序中的特定产品线。
 
       * **[!UICONTROL Web 链接]**
 
-         键入一个 Web HTTP 或 HTTPS URL，例如 `https://adobe.com`。Web链接目标可将用户引导到URL。 例如，您可以将用户引导到在线零售商网站上的产品系列。
+         键入一个 Web HTTP 或 HTTPS URL，例如 `https://adobe.com`。Web 链接目标可将用户指引到 URL。例如，您可以将用户引导至在线零售商网站上的某个产品线。
 
       * **[!UICONTROL 混合链接]**
 
