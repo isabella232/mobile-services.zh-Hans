@@ -6,11 +6,11 @@ solution: Experience Cloud,Analytics
 title: 开始之前
 topic: Developer and implementation
 uuid: 04133f68-3618-41fd-8a13-aec5b6f04df6
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '595'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -47,7 +47,7 @@ Analytics 管理员和应用程序开发人员必须完成以下任务：
 
 ## 登录 Adobe Mobile Services UI {#section_690A2EC4572E47869F183974E932A6A8}
 
-Adobe Mobile Services 是用于移动设备应用程序分析和定位的主要报告界面。完成这些步骤后，您可以下载一个配置文件，该文件已与您的数据收集服务器、报告套件和许多其他设置一起预配置。
+Adobe Mobile Services 是用于移动设备应用程序分析和定位的主要报告界面。完成这些步骤后，您可以下载一个配置文件，该文件已预先配置了数据收集服务器、报表包和许多其他设置。
 
 您可以通过以下某种方式登录 Adobe Mobile Services ：
 
