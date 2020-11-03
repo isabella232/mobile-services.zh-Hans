@@ -1,23 +1,23 @@
 ---
-description: 操作是您要衡量的Android应用程序中发生的事件。
-seo-description: 操作是您要衡量的Android应用程序中发生的事件。
+description: 操作是指在您要测量的 Android 应用程序中发生的事件。
+seo-description: 操作是指在您要测量的 Android 应用程序中发生的事件。
 seo-title: 跟踪应用程序操作
 solution: Experience Cloud,Analytics
 title: 跟踪应用程序操作
 topic: Developer and implementation
 uuid: fe01c1df-f6bb-4b32-b3ef-959d2c724af6
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '379'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
 
 # 跟踪应用程序操作 {#track-app-actions}
 
-操作是您要衡量的Android应用程序中发生的事件。
+操作是指在您要测量的 Android 应用程序中发生的事件。
 
 每个操作均具有一个或多个对应的量度，每当发生事件时，这些量度的数量都会递增。例如，对于每个新订阅，每当查看文章时，或每当完成某个级别时，您都可以发送一个 `trackAction` 调用。系统不会自动跟踪操作，因此您必须在发生要跟踪的事件时调用 `trackAction`，并将操作映射到一个自定义事件。
 
