@@ -6,9 +6,9 @@ solution: Experience Cloud,Analytics
 title: Adobe Experience Platform Identity Service 方法
 topic: Developer and implementation
 uuid: cdd307bc-8b7d-47a8-b77e-00902b9e2968
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '461'
 ht-degree: 100%
 
@@ -23,7 +23,7 @@ SDK 当前支持多个 Adobe Experience Cloud 解决方案，包括 Analytics、
 
 方法将根据解决方案来添加前缀，Experience Cloud ID 方法的前缀为 `visitor`。有关更多信息，请参阅[启用 Experience Cloud ID](/help/ios/marketing-cloud/mcvid.md)。
 
-* **`+`(nullable NSURL`*`)visitorAppendToURL:(nullable NSURL`*`)url;**
+* **`+`(nullable NSURL `*`)visitorAppendToURL:(nullable NSURL `*`)url;**
 
    将 Adobe 访客数据附加到 URL 字符串以用于 Adobe JavaScript 库。要使用此方法，您必须具有 Mobile SDK 版本 4.12 或更高版本。有关更多信息，请参阅[附加访客 ID 辅助函数](https://docs.adobe.com/content/help/zh-Hans/id-service/using/id-service-api/methods/appendvisitorid.html)。
 
