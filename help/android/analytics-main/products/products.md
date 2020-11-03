@@ -1,24 +1,24 @@
 ---
-description: 无法使用处理规则设置产品变量。 在Mobile SDK中，必须在上下文数据参数中使用特殊语法来设置服务器调用中的产品。
+description: 无法使用处理规则来设置产品变量。在 Mobile SDK 中，必须在上下文数据参数中使用特殊语法来设置服务器调用中的产品。
 keywords: android;library;mobile;sdk
-seo-description: 无法使用处理规则设置产品变量。 在Mobile SDK中，必须在上下文数据参数中使用特殊语法来设置服务器调用中的产品。
+seo-description: 无法使用处理规则来设置产品变量。在 Mobile SDK 中，必须在上下文数据参数中使用特殊语法来设置服务器调用中的产品。
 seo-title: 产品变量
 solution: Experience Cloud,Analytics
 title: 产品变量
 topic: Developer and implementation
 uuid: f4484022-cb8b-4dea-9209-5a110ba607df
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '185'
-ht-degree: 28%
+ht-degree: 100%
 
 ---
 
 
 # 产品变量 {#products-variable}
 
-无法使用处理规则设置产品变量。 在Mobile SDK中，必须在上下文数据参数中使用特殊语法来设置服务器调用中的产品。
+无法使用处理规则来设置产品变量。在 Mobile SDK 中，必须在上下文数据参数中使用特殊语法来设置服务器调用中的产品。
 
 要设置“产品”**&#x200B;变量，请将上下文数据键设置为 `"&&products"`，然后使用为“产品”**&#x200B;变量定义的语法来设置值：
 
@@ -45,8 +45,8 @@ Analytics.trackAction("purchase", cdata);
 Analytics.trackState("Order Confirmation", cdata);
 ```
 
-“产品”**&#x200B;变量在图像请求中设置，而其他变量则设置为上下文数据。必须使用处理规则映射所有上下文数据变量：
+“产品”**&#x200B;变量在图像请求中设置，而其他变量则设置为上下文数据。必须使用处理规则来映射所有上下文数据变量：
 
 ![](assets/map-products.png)
 
-您无需使用处理规 *则映射* products变量，因为SDK直接在图像请求中设置此变量。
+您无需使用处理规则来映射&#x200B;*产品*&#x200B;变量，因为 SDK 会直接在图像请求中设置此变量。
