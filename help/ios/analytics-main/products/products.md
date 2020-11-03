@@ -1,23 +1,23 @@
 ---
-description: 无法使用处理规则设置产品变量。 在iOS 4.x SDK中，必须在上下文数据参数中使用特殊语法直接在服务器调用中设置产品。
-seo-description: 无法使用处理规则设置产品变量。 在iOS 4.x SDK中，必须在上下文数据参数中使用特殊语法直接在服务器调用中设置产品。
+description: 无法使用处理规则来设置产品变量。在 iOS 4.x SDK 中，必须在上下文数据参数中使用特殊语法来直接设置服务器调用中的产品。
+seo-description: 无法使用处理规则来设置产品变量。在 iOS 4.x SDK 中，必须在上下文数据参数中使用特殊语法来直接设置服务器调用中的产品。
 seo-title: 产品变量
 solution: Experience Cloud,Analytics
 title: 产品变量
 topic: Developer and implementation
 uuid: 6ece4d27-ef86-435c-a6f7-bd76be1c95ca
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '184'
-ht-degree: 26%
+ht-degree: 100%
 
 ---
 
 
 # 产品变量 {#products-variable}
 
-无法使用处理规则设置产品变量。 在iOS 4.x SDK中，必须在上下文数据参数中使用特殊语法直接在服务器调用中设置产品。
+无法使用处理规则来设置产品变量。在 iOS 4.x SDK 中，必须在上下文数据参数中使用特殊语法来直接设置服务器调用中的产品。
 
 要设置 *`products`* 变量，请将上下文数据键设置为 `"&&products"`，然后使用为 *`products`* 变量定义的语法来设置值：
 
@@ -44,8 +44,8 @@ NSMutableDictionary *contextData = [NSMutableDictionary dictionary];
 [ADBMobile trackState:@"Order Confirmation" data:contextData]; 
 ```
 
-*`products`* 直接在图像请求中设置，而其他变量则设置为上下文数据：必须使用处理规则映射所有上下文数据变量：
+*`products`* 直接在图像请求中设置，而其他变量则设置为上下文数据：必须使用处理规则来映射所有上下文数据变量：
 
 ![](assets/map-products.png)
 
-您无需使用处理规则 *`products`* 映射变量，因为SDK直接在图像请求中设置变量。
+您无需使用处理规则来映射 *`products`* 变量，因为 SDK 会直接在图像请求中设置此变量。
