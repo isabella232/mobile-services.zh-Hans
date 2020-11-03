@@ -7,9 +7,9 @@ solution: Experience Cloud,Analytics
 title: 营销链接生成器
 topic: Metrics
 uuid: 94906393-ffa5-47a6-89f6-1c812bad34af
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '149'
 ht-degree: 100%
 
