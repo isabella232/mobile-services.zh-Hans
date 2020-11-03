@@ -1,16 +1,16 @@
 ---
-description: 此信息可帮助您在iOS应用程序中使用客户获取跟踪链接。
-seo-description: 此信息可帮助您在iOS应用程序中使用客户获取跟踪链接。
+description: 此信息可帮助您在 iOS 应用程序中使用客户获取跟踪链接。
+seo-description: 此信息可帮助您在 iOS 应用程序中使用客户获取跟踪链接。
 seo-title: 客户获取
 solution: Experience Cloud,Analytics
 title: 客户获取
 topic: Developer and implementation
 uuid: e22d2785-58f1-4841-9163-912c5e0f5d61
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '137'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
