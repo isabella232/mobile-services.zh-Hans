@@ -7,11 +7,11 @@ solution: Experience Cloud,Analytics
 title: 生命周期量度
 topic: Developer and implementation
 uuid: a8f3ebac-be3b-4948-82bb-105d46cfff6d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1240'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 91%
 
 ## 生命周期量度和维度 {#section_78F036C4296F4BA3A47C2044F79C86C1}
 
-配置后，生命周期指标将以上下文数据参数的形式发送到Analytics，以参数形式发送到每个mbox调用的目标，并作为受众管理的信号。 分析和目标使用相同的格式，而受众管理对每个指标使用不同的前缀。
+配置后，生命周期量度会在上下文数据参数中发送到 Analytics，随每个 mbox 调用在参数中发送到 Target，并作为信号发送到受众管理。Analytics 和 Target 使用相同的格式，而受众管理则对每个量度使用不同的前缀。
 
 对于 Analytics，系统将使用量度或维度，自动捕获并报告随每个生命周期跟踪调用发送的上下文数据，并记录例外情况。
 
@@ -62,7 +62,7 @@ ht-degree: 91%
    * Analytics 上下文数据/Target 参数：`a.DailyEngUserEvent`
    * Audience Manager 信号：`c_a_DailyEngUserEvent`
 
-* **每月参与的用户**
+* **每月参与的用户数**
 
    当特定的某月使用应用程序时触发。
 
@@ -75,7 +75,7 @@ ht-degree: 91%
 
 * **启动次数**
 
-   每次运行时触发，包括崩溃和安装。 当超出生命周期会话超时时，从后台在恢复上触发。
+   在每次运行时触发，包括崩溃次数和安装次数。在超出生命周期会话超时后，当从后台恢复应用程序时也会触发。
 
    >[!IMPORTANT]
    >
@@ -312,28 +312,28 @@ ht-degree: 91%
 
 * **促销活动内容**
 
-   显示链接的内容的名称或ID。 由移动设备应用程序客户获取填充。
+   显示链接的内容名称或 ID。由移动设备应用程序客户获取填充。
 
    * Analytics 上下文数据/Target 参数：`a.referrer.campaign.content`
    * Audience Manager 特征：`c_a_referrer_campaign_content`
 
 * **促销活动媒介**
 
-   营销媒介，如横幅或电子邮件。 由移动设备应用程序客户获取填充。
+   营销媒介，例如横幅或电子邮件。由移动设备应用程序客户获取填充。
 
    * Analytics 上下文数据/Target 参数：`a.referrer.campaign.medium`
    * Audience Manager 特征：`c_a_referrer_campaign_medium`
 
 * **促销活动来源**
 
-   原始推荐人，如新闻稿或社交媒体网络。 由移动设备应用程序客户获取填充。
+   原始反向链接，例如商务通讯或社交媒体网络。由移动设备应用程序客户获取填充。
 
    * Analytics 上下文数据/Target 参数：`a.referrer.campaign.source`
    * Audience Manager 特征：`c_a_referrer_campaign_source`
 
 * **促销活动搜索词**
 
-   要跟踪此次赢取的付费关键字或其他条款。 由移动设备应用程序客户获取填充。
+   要在此客户获取中跟踪的付费关键字或其他搜索词。由移动设备应用程序客户获取填充。
 
    * Analytics 上下文数据/Target 参数：`a.referrer.campaign.term`
    * Audience Manager 特征：`c_a_referrer_campaign_term`
