@@ -7,11 +7,11 @@ solution: Experience Cloud,Analytics
 title: 客户获取先决条件
 topic: Metrics
 uuid: a224499a-5a51-4ca5-a37b-06792b774671
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '197'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -34,9 +34,9 @@ ht-degree: 85%
 
    | SDK 版本 | [旧版客户获取生成器](/help/using/acquisition-main/c-marketing-links-builder/t-create-edit-adobe-links/c-use-legacy-acquisition-links/c-use-legacy-acquisition-links.md) | [手动链接生成](/help/using/acquisition-main/c-marketing-links-builder/acquisition-link-manual.md) | [营销链接生成器](/help/using/acquisition-main/c-marketing-links-builder/c-marketing-links-builder.md) |
    |--- |--- |--- |--- |
-   | 4.1至4.5 | 是 | 否 | 否 |
-   | 4.6至4.9 | 是 | 是 | 否 |
-   | 4.9或更高版本 | 是 | 是 | 是 |
+   | 4.1 至 4.5 | 是 | 否 | 否 |
+   | 4.6 至 4.9 | 是 | 是 | 否 |
+   | 4.9 或更高版本 | 是 | 是 | 是 |
 
 1. 启用 SDK 客户获取选项
 
@@ -44,4 +44,4 @@ ht-degree: 85%
 
 1. 添加应用商店应用程序
 
-   您必须从Apple App Store或Google Play添加应用程序。 有关详细信息，请参 [阅从应用程序商店添加应用程序](/help/using/manage-apps/c-app-store/t-app-store-app.md)。
+   您必须从 Apple App Store 或 Google Play 添加应用程序。有关更多信息，请参阅[从应用商店添加应用程序](/help/using/manage-apps/c-app-store/t-app-store-app.md)。
