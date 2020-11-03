@@ -6,9 +6,9 @@ solution: Experience Cloud,Analytics
 title: 覆盖 ADBMobile JSON 配置路径
 topic: Developer and implementation
 uuid: 0d1be674-c634-4a48-aa31-5701681911b9
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '120'
 ht-degree: 100%
 
