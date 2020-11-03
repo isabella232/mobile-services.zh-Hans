@@ -7,11 +7,11 @@ solution: Experience Cloud,Analytics
 title: 配置应用程序以使用 APNS 或 FCM
 topic: Metrics
 uuid: fa411f2a-ba47-4499-bbe5-1aedef6b49ad
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '652'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -86,12 +86,12 @@ ht-degree: 90%
 
 要将您的 iOS 应用程序配置为使用 APNS，请执行以下操作：
 
-1. Go to [https://developer.apple.com/account](https://developer.apple.com/account) and log in to your [Apple Developer account](https://developer.apple.com/account).
+1. 转到 [https://developer.apple.com/account](https://developer.apple.com/account)，然后登录到您的 [Apple Developer 帐户](https://developer.apple.com/account)。
 1. 在 **[!UICONTROL iOS 应用程序]**&#x200B;下，选择&#x200B;**[!UICONTROL 标识符]**。
 1. 如果已设置用于推送的应用程序 ID，请转到步骤 11。
-1. Press the **[!UICONTROL +]** button to create a new App ID.
-1. 键入应用程序ID说明。
-1. 键入App ID后缀。
+1. 按 **[!UICONTROL +]** 按钮以创建新的应用程序 ID。
+1. 键入应用程序 ID 说明。
+1. 键入应用程序 ID 后缀。
 
    >[!IMPORTANT]
    >
@@ -117,7 +117,7 @@ ht-degree: 90%
 1. 打开&#x200B;**[!UICONTROL 密钥链访问]**。
 1. 单击&#x200B;**[!UICONTROL 我的证书]**，找到适用于您的应用程序和环境的 **[!UICONTROL iOS 推送服务证书]**。
 
-   通过匹配捆绑ID以及它是开发还是生产，可以识别正确的证书。
+   您可以通过匹配捆绑 ID 来识别正确的证书，并确定它是处于“开发”还是“生产”状态。
 
 1. 展开证书并验证其是否包含私钥。
 1. 右键单击私钥并选择&#x200B;**[!UICONTROL 导出&#x200B;*`<name of key>`*]**。
