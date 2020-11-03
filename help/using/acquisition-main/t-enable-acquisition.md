@@ -7,9 +7,9 @@ solution: Experience Cloud,Analytics
 title: 配置客户获取
 topic: Metrics
 uuid: e996e43e-8a77-47a3-a6fb-53f676f92bef
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '214'
 ht-degree: 100%
 
