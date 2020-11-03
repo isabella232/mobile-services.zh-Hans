@@ -6,9 +6,9 @@ solution: Experience Cloud,Analytics
 title: ADBMobile JSON 配置
 topic: Developer and implementation
 uuid: 1decf605-7bc3-4e73-ad52-1ecd5821599e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1678'
 ht-degree: 100%
 
@@ -159,7 +159,7 @@ ht-degree: 100%
       …/yourfile.json”`,
       ```
 
-      如果未配置此设置，必须更新 `ADBMobile.json` 文件以包含此行。要下载更新后的配置文件，请参阅[开始之前](/help/android/getting-started/requirements.md)。
+      如果未配置此设置，必须更新 `ADBMobile.json` 文件以包含此行。要下载更新的配置文件，请参阅[开始之前](/help/android/getting-started/requirements.md)。
 
 * **postback**
    * 最低 SDK 版本：4.6
