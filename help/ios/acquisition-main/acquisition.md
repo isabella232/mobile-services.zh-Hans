@@ -1,23 +1,23 @@
 ---
-description: 带有唯一跟踪码的客户获取链接可以在 Adobe Mobile Services 中生成。当用户在单击生成的链接后从Apple App Store下载并运行应用程序时，SDK会自动收集客户获取数据并将其发送到AdobeMobile服务。
-seo-description: 带有唯一跟踪码的客户获取链接可以在 Adobe Mobile Services 中生成。当用户在单击生成的链接后从Apple App Store下载并运行应用程序时，SDK会自动收集客户获取数据并将其发送到AdobeMobile服务。
+description: 带有唯一跟踪码的客户获取链接可以在 Adobe Mobile Services 中生成。当用户在单击生成的链接后从 Apple App Store 下载并运行应用程序时，SDK 会自动收集客户获取数据并将这些数据发送至 Adobe Mobile Services。
+seo-description: 带有唯一跟踪码的客户获取链接可以在 Adobe Mobile Services 中生成。当用户在单击生成的链接后从 Apple App Store 下载并运行应用程序时，SDK 会自动收集客户获取数据并将这些数据发送至 Adobe Mobile Services。
 seo-title: 移动设备应用程序客户获取
 solution: Experience Cloud,Analytics
 title: 移动设备应用程序客户获取
 topic: Developer and implementation
 uuid: 5fece619-e4b8-4d06-9250-dcb66fa32ce0
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '414'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
 
 # 移动设备应用程序客户获取 {#mobile-app-acquisition}
 
-带有唯一跟踪码的客户获取链接可以在 Adobe Mobile Services 中生成。当用户在单击生成的链接后从Apple App Store下载并运行应用程序时，SDK会自动收集客户获取数据并将其发送到AdobeMobile服务。
+带有唯一跟踪码的客户获取链接可以在 Adobe Mobile Services 中生成。当用户在单击生成的链接后从 Apple App Store 下载并运行应用程序时，SDK 会自动收集客户获取数据并将这些数据发送至 Adobe Mobile Services。
 
 要使用“客户获取”功能，您&#x200B;**必须**&#x200B;具有 SDK 版本 4.1 或更高版本。
 
