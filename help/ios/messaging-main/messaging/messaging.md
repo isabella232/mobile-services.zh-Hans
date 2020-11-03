@@ -1,30 +1,30 @@
 ---
-description: 此信息可帮助您在iOS应用程序中使用应用程序内消息传递。
-seo-description: 此信息可帮助您在iOS应用程序中使用应用程序内消息传递。
+description: 此信息可帮助您在 iOS 应用程序中使用应用程序内消息传送功能。
+seo-description: 此信息可帮助您在 iOS 应用程序中使用应用程序内消息传送功能。
 seo-title: 应用程序内消息传送
 solution: Experience Cloud,Analytics
 title: 应用程序内消息传送
 topic: Developer and implementation
 uuid: 21fa6a94-bb7f-4c78-843b-a50f1974db22
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '420'
-ht-degree: 55%
+ht-degree: 100%
 
 ---
 
 
 # 应用程序内消息传送 {#in-app-messaging}
 
-此信息可帮助您在iOS应用程序中使用应用程序内消息传递。
+此信息可帮助您在 iOS 应用程序中使用应用程序内消息传送功能。
 
-To use in-app messaging, you **must** have SDK version 4.2 or later.
+要使用应用程序内消息传送，您&#x200B;**必须**&#x200B;具有 SDK 版本 4.2 或更高版本。
 
 请牢记以下信息：
 
-* 消息和定义何时显示消息的规则是在AdobeMobile服务中创建的。 For more information, see [Create an in-app message](/help/using/in-app-messaging/t-in-app-message/t-in-app-message.md).
-* 必须对SDK进行本节描述的更新才能显示应用程序内消息。
+* 在 Adobe Mobile Services 中创建消息用于定义消息显示时间的规则。有关更多信息，请参阅[创建应用程序内消息](/help/using/in-app-messaging/t-in-app-message/t-in-app-message.md)。
+* 必须对 SDK 进行本节所述的更新才能显示应用程序内消息。
 
    >[!TIP]
    >
@@ -76,9 +76,9 @@ To use in-app messaging, you **must** have SDK version 4.2 or later.
 
 ## 跟踪应用程序内消息 {#section_B85CDF6929564AAEA79338B55E5CB1E8}
 
-iOS Mobile Services SDK跟踪应用程序内消息的以下指标：
+iOS Mobile Services SDK 会跟踪应用程序内消息的以下量度：
 
-* 对于全屏和警报样式应用程序内消息：
+* 对于全屏和警报样式的应用程序内消息：
 
    * **[!UICONTROL 展示次数]**：用户触发应用程序内消息时。
    * **[!UICONTROL 点进次数]**：用户按下&#x200B;**[!UICONTROL 点进]**&#x200B;按钮时。
@@ -111,9 +111,9 @@ iOS Mobile Services SDK跟踪应用程序内消息的以下指标：
 
 ## 本地替代图像 {#section_DEACC1CE549B4573B556A44A52409941}
 
-在AdobeMobile服务中创建全屏消息时，您可以选择指定备用图像。 如果邮件无法从Web检索其预期图像，SDK将尝试从应用程序包中加载同名图像。 这样，即使用户处于脱机状态或预定图像不可到达，您也可以以其原始形式显示消息。
+在 Adobe Mobile Services 中创建全屏消息时，您可以选择指定替代图像。如果消息无法从 Web 检索其预期图像，SDK 将尝试从应用程序包中加载同名图像。这样，即使用户处于脱机状态或预定义的图像不可访问，您也可以以原始形式显示消息。
 
-在AdobeMobile服务中配置消息时，将指定回退图像资产名称。
+在 Adobe Mobile Services 中配置消息时，指定替代图像资产名称。
 
 >[!IMPORTANT]
 >
