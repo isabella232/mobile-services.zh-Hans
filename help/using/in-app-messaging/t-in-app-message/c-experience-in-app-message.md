@@ -7,11 +7,11 @@ solution: Experience Cloud,Analytics
 title: 体验：应用程序内消息
 topic: Metrics
 uuid: 4c6d6756-47fb-4f1b-8338-0b0c9b0fceb0
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '686'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -20,14 +20,14 @@ ht-degree: 92%
 
 为应用程序内消息配置体验选项，包括类型（全屏、警报或通知）和显示、文本与按钮选项。
 
-1. In your app, click **[!UICONTROL Messaging]** > **[!UICONTROL Manage Messages]** > **[!UICONTROL Create Message]** > **[!UICONTROL Create In-App]**.
+1. 在应用程序中，单击&#x200B;**[!UICONTROL 消息传送]** > **[!UICONTROL 管理消息]** > **[!UICONTROL 创建消息]** > **[!UICONTROL 创建应用程序内消息]**。
 1. 在体验页面上，键入消息的名称。
 1. 填写&#x200B;**[!UICONTROL 类型]**&#x200B;部分中的字段：
 
    * **[!UICONTROL 类型]**
 为您的应用程序内消息促销活动选择消息类型：
 
-      * **[!UICONTROL 全屏幕]**
+      * **[!UICONTROL 全屏]**
       * **[!UICONTROL 警报]**
       * **[!UICONTROL 本地通知]**
    * **[!UICONTROL 模板]**
@@ -40,7 +40,7 @@ ht-degree: 92%
 
    * **[!UICONTROL 自定义]**
 
-      加载自定义HTML内容（仅全屏）。 您必须提供点进链接和取消链接。
+      加载自定义 HTML 内容（仅限全屏）。您必须提供点进链接和取消链接。
 
       1. 单击&#x200B;**[!UICONTROL 浏览]**&#x200B;并下载 HTML 文件或将 HTML 文档拖到窗口中。
       1. 单击&#x200B;**[!UICONTROL 下载示例]**&#x200B;以查看示例自定义 HTML 内容。
@@ -67,7 +67,7 @@ ht-degree: 92%
 
    * **[!UICONTROL 捆绑图像]**
 
-      应用程序代码包中图像的路径。 当没有图像时，将使用此选项。 或图像不可用。 例如，如果设备处于离线状态，则图像可能不可用。如果您在使用全屏模板时遇到大小调整问题，请参阅[排查应用程序内消息传送问题](/help/using/in-app-messaging/t-in-app-message/in-apps-ts.md)中的“我的图像不完全适合模板提供的空间”**。
+      应用程序代码包中图像的路径。当没有图像或图像不可用时使用此选项。例如，如果设备处于离线状态，则图像可能不可用。如果您在使用全屏模板时遇到大小调整问题，请参阅[排查应用程序内消息传送问题](/help/using/in-app-messaging/t-in-app-message/in-apps-ts.md)中的“我的图像不完全适合模板提供的空间”**。
 
 
 1. 填写&#x200B;**[!UICONTROL 文本]**&#x200B;部分中的字段：
