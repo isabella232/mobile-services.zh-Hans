@@ -7,11 +7,11 @@ solution: Experience Cloud,Analytics
 title: 排查应用程序内消息传送问题
 topic: Metrics
 uuid: 39c3a21d-92c2-4004-b00f-99b6f91d3696
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '528'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 94%
 
 此信息可帮助您排查应用程序内消息传送问题。
 
-如果已完成应用程序内消息传递的所有要求，但消息不显示，请检查以下项目：
+如果您已完成应用程序内消息传送服务的所有要求，但却没有显示消息，请检查以下条目：
 
 ## 应用程序中是否纳入了新配置和新 SDK？
 
@@ -30,7 +30,7 @@ ht-degree: 94%
 
 是否更新清单文件以定义全屏活动？
 
-## Android中的本地通知消息无效。
+## Android 中的本地通知消息不起作用。
 
 确保在清单中声明了本地通知广播接收器。有关更多信息，请参阅[应用程序内消息传送](/help/android/messaging-main/messaging/messaging.md)中“启用应用程序内消息传送”**&#x200B;的步骤 2。
 
