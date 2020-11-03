@@ -6,9 +6,9 @@ solution: Experience Cloud,Analytics
 title: 适用于 iOS 的 Target 方法
 topic: Developer and implementation
 uuid: 692bcda1-02ba-4902-bd65-15888adf1952
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '656'
 ht-degree: 100%
 
@@ -56,8 +56,9 @@ NSString *const ADBTargetParameterMboxHost;
 >[!IMPORTANT]
 >
 >* 如果您使用的是&#x200B;**低于** 4.14.0 版本的 SDK，请参阅[输入参数](https://developers.adobetarget.com/api/#input-parameters)以了解参数限制。
->
->* 如果您使用的是 4.14.0 版本&#x200B;**或更高版本**&#x200B;的 SDK，请参阅[批量输入参数](https://developers.adobetarget.com/api/#batch-input-parameters)以了解参数限制。
+   >
+   >
+* 如果您使用的是 4.14.0 版本&#x200B;**或更高版本**&#x200B;的 SDK，请参阅[批量输入参数](https://developers.adobetarget.com/api/#batch-input-parameters)以了解参数限制。
 
 
 ### 方法
@@ -162,7 +163,7 @@ NSString *const ADBTargetParameterMboxHost;
 
 
 
-* **targetLoadRequestWithName:defaultContent:profileParameters:orderParameters:mboxParameters:requestLocationParameters:callback**
+* **targetLoadRequestWithName:defaultContent:profileParameters:orderParameters:mboxParameters:callback**
 
    向您配置的 Target 服务器发送 request，并返回在块 callback 中生成的选件的字符串值。
 
@@ -191,7 +192,7 @@ NSString *const ADBTargetParameterMboxHost;
                                }];
       ```
 
-* **targetCreateOrder&#x200B;ConfirmRequestWithName:&#x200B;orderId:&#x200B;orderTotal:&#x200B;productPurchasedId:&#x200B;parameters**
+* **targetCreateOrderConfirmRequestWithName:orderId:orderTotal:productPurchasedId:parameters**
 
    创建 `ADBTargetLocationRequest`。
 
@@ -206,7 +207,7 @@ NSString *const ADBTargetParameterMboxHost;
                               parameters:(NSDictionary *)parameters;
       ```
 
-* **targetCreateRequestWithName:&#x200B;&#x200B;defaultContent:&#x200B;parameters**
+* **targetCreateRequestWithName:defaultContent:parameters**
 
    一个方便使用的构造函数，用于使用给定参数创建 ADBTargetLocationRequest 对象。
 
