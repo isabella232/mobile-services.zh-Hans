@@ -6,11 +6,11 @@ solution: Experience Cloud,Analytics
 title: 设置用户的选择状态
 topic: Developer and implementation
 uuid: 44a09a25-93c6-4e1a-b69e-710018e8b6c3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '270'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -31,9 +31,9 @@ ht-degree: 84%
 
 * `setPrivacyStatus` 方法。
 
-   使用此方法更改隐私设置后，更改将永久存在，直到再次使用此方法更改设置，或在您卸载并再次安装应用程序时更改。
+   使用此方法更改隐私设置后，更改将永久存在，直到您再次使用此方法更改设置，或卸载并再次安装应用程序为止。
 
-   有关这些方法的详细信息，请参 [阅配置方法](/help/ios/configuration/json-config/json-config.md)。
+   有关这些方法的更多信息，请参阅[配置方法](/help/ios/configuration/json-config/json-config.md)。
 
 以下是关于每种隐私状态的信息：
 
