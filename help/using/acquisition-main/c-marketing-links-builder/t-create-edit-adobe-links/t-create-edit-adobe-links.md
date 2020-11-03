@@ -7,11 +7,11 @@ solution: Experience Cloud,Analytics
 title: 创建或编辑营销链接
 topic: Metrics
 uuid: 305a8265-38de-4d19-8c79-b3912f5aae7c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '633'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 94%
 
    * **[!UICONTROL 添加跟踪上下文数据]**：
 
-      (**Optional**) Click the **[!UICONTROL +]** icon and type the relevant information to track your campaign using context data. 在&#x200B;**[!UICONTROL 自定义上下文数据]**&#x200B;下拉列表中，选择一个预设标记或一个您自己的标记。上下文数据用于报告营销链接在何时部署。
+      （**可选**）单击 **[!UICONTROL +]** 图标，然后键入相关信息以使用上下文数据跟踪您的促销活动。在&#x200B;**[!UICONTROL 自定义上下文数据]**&#x200B;下拉列表中，选择一个预设标记或一个您自己的标记。上下文数据用于报告营销链接在何时部署。
 
       可用的预设标记如下：
 
@@ -68,9 +68,9 @@ ht-degree: 94%
 
 1. 单击&#x200B;**[!UICONTROL 编辑深层链接插播式广告]**，然后配置此链接。
 
-   （**可选**）如果存在多个目标，可以根据用户是否已安装移动设备应用程序将其路由到相应目标。如果安装了应用程序，则显示插播式登陆页。
+   （**可选**）如果存在多个目标，可以根据用户是否已安装移动设备应用程序将其路由到相应目标。如果安装了应用程序，则会显示插播式广告登陆页面。
 
-   For more information, see [Interstitials](/help/using/acquisition-main/c-marketing-links-builder/t-create-edit-adobe-links/t-interstitials.md).
+   有关更多信息，请参阅[插播式广告](/help/using/acquisition-main/c-marketing-links-builder/t-create-edit-adobe-links/t-interstitials.md)。
 
 1. 单击&#x200B;**[!UICONTROL 保存]**，然后单击&#x200B;**[!UICONTROL 下一步]**。
 1. 在“目标”页面中，配置链接。
