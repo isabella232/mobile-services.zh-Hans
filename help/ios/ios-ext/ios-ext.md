@@ -6,11 +6,11 @@ solution: Experience Cloud,Analytics
 title: iOS 扩展实施
 topic: Developer and implementation
 uuid: 8afc03fe-403e-4643-ada1-30e403ede238
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '721'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 80%
 >
 >我们强烈建议您使用 iOS SDK，而不要使用包装器。
 
-Apple提供一组API，通过向包含的应用程序发送请求并接收响应，Watch应用程序可与包含的应用程序通信。 尽管您可以将跟踪数据作为词典从 Watch 应用程序发送到容器应用程序，然后在容器应用程序中调用任何跟踪方法来发送数据，但是这种解决方案存在局限性。
+Apple 提供一组 API，允许 Watch 应用程序通过向容器应用程序发送请求并接收响应来与之通信。尽管您可以将跟踪数据作为词典从 Watch 应用程序发送到容器应用程序，然后在容器应用程序中调用任何跟踪方法来发送数据，但是这种解决方案存在局限性。
 
 大多数情况下，当用户使用 Watch 应用程序时，容器应用程序将在后台运行，只有调用 `TrackActionInBackground`、`TrackLocation` 和 `TrackBeacon` 才是安全的。调用其他跟踪方法会干扰生命周期数据，因此您应该专门使用这三种方法，从 Watch 应用程序中发送数据。
 
@@ -46,14 +46,14 @@ Apple提供一组API，通过向包含的应用程序发送请求并接收响应
 >
 >确保您的项目至少具有以下目标：
 >
->* 一个目标，用于包含应用程序。
->* 一个目标用于扩展。
+>* 一个包含应用程序的目标。
+>* 一个扩展目标。
 
 >
 
 
 
-如果您正在使用WatchKit应用程序，您应该有第三个目标。 有关为 Apple Watch 开发的更多信息，请参阅[为 Apple Watch 开发](https://developer.apple.com/library/ios/documentation/General/Conceptual/WatchKitProgrammingGuide/index.html#//apple_ref/doc/uid/TP40014969-CH8-SW1)。
+如果您正在使用 WatchKit 应用程序，您应该具备第三个目标。有关为 Apple Watch 开发的更多信息，请参阅[为 Apple Watch 开发](https://developer.apple.com/library/ios/documentation/General/Conceptual/WatchKitProgrammingGuide/index.html#//apple_ref/doc/uid/TP40014969-CH8-SW1)。
 
 ## 配置容器应用程序 {#section_0BAB0842E4C04A62B5E03DFC4BA77851}
 
@@ -111,8 +111,8 @@ Apple提供一组API，通过向包含的应用程序发送请求并接收响应
 
       此值表示点击来自扩展。
 
-* 如果您从旧版SDK升级，则在启动包含的应用程序时，Adobe会自动将所有用户默认值和缓存的文件从包含的应用程序的文件夹迁移到应用程序组的共享文件夹。
-* 如果从未启动包含的应用程序，则会放弃扩展的点击。
-* 版本号和内部版本号必须在包含的应用程序和扩展应用程序之间相同。
-* iOS扩展应用程序上不会触发生命周期调用。
+* 如果您从旧版 SDK 升级，则在启动容器应用程序后，Adobe 会将所有用户默认值和缓存的文件从容器应用程序的文件夹自动迁移到应用程序组的共享文件夹。
+* 如果容器应用程序从未启动过，将会丢弃来自扩展的点击。
+* 容器应用程序与扩展应用程序之间的版本号和内部版本号必须相同。
+* 在 iOS 扩展应用程序中不会触发生命周期调用。
 
