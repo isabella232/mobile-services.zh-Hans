@@ -6,9 +6,9 @@ solution: Experience Cloud,Analytics
 title: 配置概述
 topic: Developer and implementation
 uuid: 207d6eae-7fc5-449d-b92b-c2d83e8e82b4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '152'
 ht-degree: 100%
 
