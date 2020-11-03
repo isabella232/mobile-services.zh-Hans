@@ -1,17 +1,17 @@
 ---
-description: 您可以创建和管理兴趣点，从而定义可用于关联目的的地理位置、目标应用程序内消息等。 当某个点被发送到某个点时，该点附加到该点。
+description: 您可以创建并管理目标点，通过目标点，您可以定义用于关联的地理位置，还可以使用应用程序内消息确定目标，等等。当在某个目标点中发送点击时，该目标点会附加到该点击。
 keywords: mobile
-seo-description: 您可以创建和管理兴趣点，从而定义可用于关联目的的地理位置、目标应用程序内消息等。 当某个点被发送到某个点时，该点附加到该点。
+seo-description: 您可以创建并管理目标点，通过目标点，您可以定义用于关联的地理位置，还可以使用应用程序内消息确定目标，等等。当在某个目标点中发送点击时，该目标点会附加到该点击。
 seo-title: 管理目标点
 solution: Experience Cloud,Analytics
 title: 管理目标点
 topic: Metrics
 uuid: 7b362534-54fb-43a3-b6b2-dfc8f45ff7c6
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '580'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 82%
 要使用“位置”，请完成以下任务：
 
 1. 单击应用程序的名称，以转到其“管理应用程序设置”页面。
-1. Click **[!UICONTROL Location]** > **[!UICONTROL Manage Points of Interest]**.
+1. 单击&#x200B;**[!UICONTROL 位置]** > **[!UICONTROL 管理目标点]**。
 
    ![步骤结果](assets/poi.png)
 
