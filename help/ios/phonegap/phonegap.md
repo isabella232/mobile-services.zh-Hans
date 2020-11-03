@@ -7,11 +7,11 @@ solution: Experience Cloud,Analytics
 title: PhoneGap 插件
 topic: Developer and implementation
 uuid: f88bcf10-1f9e-4c97-b348-40db797c9923
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '327'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -65,7 +65,7 @@ ht-degree: 95%
 
 ### 添加应用程序权限
 
-AppMeasurement库需要：
+AppMeasurement 库需要执行以下操作：
 
 1. 启动 Xcode IDE 并打开您的应用程序。
 1. 将 **[!UICONTROL AdobeMobile]** 文件夹拖到您的 Xcode 项目中，并完成以下设置：
