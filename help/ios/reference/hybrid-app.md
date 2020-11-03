@@ -6,11 +6,11 @@ solution: Experience Cloud,Analytics
 title: 应用程序和移动 Web 之间的访客跟踪
 topic: Developer and implementation
 uuid: 2d951de6-3954-4379-a4ff-99b9695b9869
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '528'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 89%
 
 ## 应用程序中的访客 ID
 
-安装应用程序时，iOS SDK会生成唯一的访客ID。 此ID存储在移动设备上的永久内存中，每次点击都会发送。 此 ID 仅在用户卸载应用程序时才被删除。
+安装应用程序后，iOS SDK 会生成一个独特访客 ID。此 ID 存储在移动设备上的永久内存中，随每次点击一起发送。此 ID 仅在用户卸载应用程序时才被删除。
 
 >[!TIP]
 >
@@ -59,7 +59,7 @@ ht-degree: 89%
    }];
    ```
 
-目标域上的ID服务代码从URL中提取MID，而不是向Adobe发送请求以获取新ID。 目标页面上的 ID 服务代码使用传入的 MID 跟踪访客。
+目标域上的 ID 服务代码会从 URL 中提取 MID，而不是向 Adobe 发送请求以获取一个新 ID。目标页面上的 ID 服务代码使用传入的 MID 跟踪访客。
 
 对于来自移动 Web 内容的点击，确认 `mid` 参数存在于每次点击中，并且该值匹配由应用程序代码发送的 `mid`。
 
