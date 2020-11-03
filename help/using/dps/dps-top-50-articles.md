@@ -7,11 +7,11 @@ solution: Experience Cloud,Analytics
 title: 前 50 篇文章
 topic: Metrics
 uuid: 341370d1-fa87-43ca-8135-425b3bba272f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '256'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 95%
 
 ![](assets/dps_top_50.png)
 
-默认情况下，此报告显示文章标题和读者人数。
+默认情况下，此报表会显示文章标题和读者数量。
 
 您可以为此报表配置以下选项：
 
