@@ -5,11 +5,11 @@ seo-title: 测试旧版客户获取
 solution: Experience Cloud,Analytics
 title: 测试旧版客户获取
 uuid: e0591f4a-e26b-4fe4-97c1-a6831a926fa5
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '272'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 91%
 
 以下信息可帮助您对基于设备指纹的旧版客户获取促销活动链接进行往返测试。
 
-如果移动应用程序尚未在Google Play中，则可在创建活动链接时选择任何移动应用程序作为目标。 这只会影响在您单击客户获取链接后客户获取服务器将您重定向到的应用程序，而不会影响测试客户获取链接的功能。
+如果 Google Play 中尚未提供移动设备应用程序，则在创建促销活动链接时，您可以选择任意移动设备应用程序作为目标。这只会影响在您单击客户获取链接后客户获取服务器将您重定向到的应用程序，而不会影响测试客户获取链接的功能。
 
 1. 导航至 Adobe Mobile Services 中的&#x200B;**[!UICONTROL 使用旧版客户获取链接]**，并生成客户获取促销活动 URL。
 
