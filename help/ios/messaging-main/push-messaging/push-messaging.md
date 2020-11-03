@@ -1,23 +1,23 @@
 ---
-description: Adobe移动和Adobe移动SDK允许您向用户发送推送消息。 SDK还允许您轻松报告通过点击推送消息打开您的应用程序的用户。
-seo-description: Adobe移动和Adobe移动SDK允许您向用户发送推送消息。 SDK还允许您轻松报告通过点击推送消息打开您的应用程序的用户。
+description: Adobe Mobile 和 Adobe Mobile SDK 允许您向用户发送推送消息。此 SDK 还允许您轻松报告哪些用户是通过点击推送消息而打开了您的应用程序。
+seo-description: Adobe Mobile 和 Adobe Mobile SDK 允许您向用户发送推送消息。此 SDK 还允许您轻松报告哪些用户是通过点击推送消息而打开了您的应用程序。
 seo-title: 推送消息
 solution: Experience Cloud,Analytics
 title: 推送消息
 topic: Developer and implementation
 uuid: 2e2d8175-d7d0-4b6b-a14e-d419da1f9615
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '526'
-ht-degree: 65%
+ht-degree: 100%
 
 ---
 
 
 # 推送消息 {#push-messaging}
 
-Adobe移动和Adobe移动SDK允许您向用户发送推送消息。 SDK还允许您轻松报告通过点击推送消息打开您的应用程序的用户。
+Adobe Mobile 和 Adobe Mobile SDK 允许您向用户发送推送消息。此 SDK 还允许您轻松报告哪些用户是通过点击推送消息而打开了您的应用程序。
 
 >[!IMPORTANT]
 >
@@ -27,7 +27,7 @@ Adobe移动和Adobe移动SDK允许您向用户发送推送消息。 SDK还允许
 
 >[!IMPORTANT]
 >
->请不要在您的应用程序中手动设置 Experience Cloud ID。这会导致创建一个新的唯一用户，该用户由于选择加入状态而无法接收推送消息。 例如，假定已选择接收推送消息的用户登录到您的应用程序。 登录后，如果您在应用程序中手动设置ID，则会创建一个未选择接收推送消息的新唯一用户。 该新用户将不会接收您的推送消息。
+>请不要在您的应用程序中手动设置 Experience Cloud ID。这会导致新建一个唯一用户，该用户将因其选择加入状态而无法接收推送消息。例如，假设某位已选择接收推送消息的用户登录到您的应用程序。登录后，如果您在应用程序中手动设置 ID，则会新建一个唯一用户，且该用户未选择接收推送消息。该新用户将不会接收您的推送消息。
 
 ## 先决条件 {#section_06655ABE973743DC965897B229A2118D}
 
