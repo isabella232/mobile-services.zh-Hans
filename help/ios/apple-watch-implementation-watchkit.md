@@ -1,16 +1,16 @@
 ---
-description: 从WatchOS 2开始，您的WatchKit扩展将在Apple Watch设备上运行。 在此环境下运行的应用程序需要WatchConnectivity框架与其包含的iOS应用程序共享数据。
-seo-description: 从WatchOS 2开始，您的WatchKit扩展将在Apple Watch设备上运行。 在此环境下运行的应用程序需要WatchConnectivity框架与其包含的iOS应用程序共享数据。
+description: 从 WatchOS 2 开始，WatchKit 扩展将在 Apple Watch 设备上运行。在此环境中运行的应用程序需要具备 WatchConnectivity 框架才能与它们的 iOS 容器应用程序共享数据。
+seo-description: 从 WatchOS 2 开始，WatchKit 扩展将在 Apple Watch 设备上运行。在此环境中运行的应用程序需要具备 WatchConnectivity 框架才能与它们的 iOS 容器应用程序共享数据。
 seo-title: 使用 WatchOS 2 实施 Apple Watch
 solution: Experience Cloud,Analytics
 title: 使用 WatchOS 2 实施 Apple Watch
 topic: Developer and implementation
 uuid: 9498467e-db5e-411e-a00e-d19841f485de
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '542'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -38,15 +38,15 @@ ht-degree: 84%
 >
 >确保您的项目至少具有以下目标：
 >
->* 包含的应用程序
->* WatchKit应用程序
->* WatchKit扩展
+>* 容器应用程序
+>* WatchKit 应用程序
+>* WatchKit 扩展
 
 >
 
 
 
-有关开发WatchKit应用程序的更多信息，请 [参阅The Watch App Architecture](https://developer.apple.com/library/ios/documentation/General/Conceptual/WatchKitProgrammingGuide/DesigningaWatchKitApp.html#//apple_ref/doc/uid/TP40014969-CH3-SW1)。
+有关开发 WatchKit 应用程序的更多信息，请参阅 [Watch 应用程序架构](https://developer.apple.com/library/ios/documentation/General/Conceptual/WatchKitProgrammingGuide/DesigningaWatchKitApp.html#//apple_ref/doc/uid/TP40014969-CH3-SW1)。
 
 ## 配置容器应用程序 {#section_0A2A3995575B4E2ABD12E426BA06AEFF}
 
