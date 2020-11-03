@@ -7,11 +7,11 @@ solution: Experience Cloud,Analytics
 title: 消息传送
 topic: Metrics
 uuid: e32d3e35-2d09-4ddf-8919-75dc895abcb3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '468'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 77%
 
 在 2018 年 9 月，我们发布了一个新的 SDK 主要版本。这些新的 Adobe Experience Platform Mobile SDK 可通过 [Experience Platform Launch](https://www.adobe.com/cn/experience-platform/launch.html) 进行配置。
 
-* To get started, go to [Launch](https://launch.adobe.com/).
+* 要开始配置，请转到 [Launch](https://launch.adobe.com/)。
 * 要查看 Experience Platform SDK 存储库中的内容，请转到 [Github：Adobe Experience Platform SDK](https://github.com/Adobe-Marketing-Cloud/acp-sdks)。
 
 >[!IMPORTANT]
@@ -51,10 +51,10 @@ ht-degree: 77%
 
    这些权限允许访问客户获取链接和应用程序内消息。有关更多信息，请参阅[角色和权限](/help/using/gs/c-mob-roles-and-permissions.md)。
 * 消息获得批准后，该消息将自动发布到应用程序。
-* SDK在满足消息参数(如特征、触发器和计划)时向用户显示消息。
-* 消息可以包含自定义HTML或图像，使用在线URL。
+* 如果满足消息参数（例如特征、触发器和计划），SDK 会向用户显示消息。
+* 消息可能包含自定义 HTML 或使用在线 URL 的图像。
 
-   还可以为脱机时触发的消息指定应用程序包中的备份或备用映像。
+   此外，还可以在应用程序包中为脱机时触发的消息指定备用或替代图像。
 * 消息激活并完成后会提供总查看次数、点进率等报表。
 * 有些模板可用于自定义消息，您可以使用这些模板轻松地创建自己的应用程序内消息。
 
@@ -62,4 +62,4 @@ ht-degree: 77%
 
 推送消息将发送给选择接收通知的用户。您可以将这些推送消息定位到 Analytics 区段或自定义区段中的用户。推送消息可以在应用程序之外的其他许多地方显示，因此可用于重新吸引消极用户或传达特定于时间的和位置的信息。
 
-在配置推送消息之前，请参阅[启用推送消息的先决条件](/help/using/c-manage-app-settings/c-mob-confg-app/configure-push-messaging/prerequisites-push-messaging.md)。执行这些任务后，必须在应用程序设置中配置推送消息。 For more information, see [Configure push messaging](/help/using/c-manage-app-settings/c-mob-confg-app/configure-push-messaging/configure-push-messaging.md).
+在配置推送消息之前，请参阅[启用推送消息的先决条件](/help/using/c-manage-app-settings/c-mob-confg-app/configure-push-messaging/prerequisites-push-messaging.md)。执行这些任务后，必须在应用程序设置中配置推送消息。有关更多信息，请参阅[配置推送消息](/help/using/c-manage-app-settings/c-mob-confg-app/configure-push-messaging/configure-push-messaging.md)。
