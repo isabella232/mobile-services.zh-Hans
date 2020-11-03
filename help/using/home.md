@@ -5,9 +5,9 @@ seo-title: Adobe Mobile Services
 solution: Experience Cloud, Analytics, Experience Cloud
 title: Adobe Mobile Services
 uuid: e86a77c9-4ff1-403f-a5a1-4afbdc4e6f68
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '622'
 ht-degree: 100%
 
