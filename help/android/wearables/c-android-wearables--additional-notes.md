@@ -1,25 +1,25 @@
 ---
-description: 以下是一些信息，可帮助您配置Android扩展，以便从Android可穿戴应用程序收集数据。
-seo-description: 以下是一些信息，可帮助您配置Android扩展，以便从Android可穿戴应用程序收集数据。
+description: 以下这些信息可帮助您配置 Android 扩展，以便能够从 Android 可穿戴应用程序收集数据。
+seo-description: 以下这些信息可帮助您配置 Android 扩展，以便能够从 Android 可穿戴应用程序收集数据。
 seo-title: Android 可穿戴应用程序：其他说明
 solution: Experience Cloud,Analytics
 title: Android 可穿戴应用程序：其他说明
 topic: Developer and implementation
 uuid: 3bcf352b-4d46-4ab3-81ec-c27e86fe9be3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '161'
-ht-degree: 51%
+ht-degree: 100%
 
 ---
 
 
 # Android 可穿戴应用程序：其他说明{#android-wearables-additional-notes}
 
-以下是一些信息，可帮助您配置Android扩展，以便从Android可穿戴应用程序收集数据。
+以下这些信息可帮助您配置 Android 扩展，以便能够从 Android 可穿戴应用程序收集数据。
 
-* Adobe移动Android可穿戴设备扩展需要Android版本4.4(KitKat)或更高版本。
+* Adobe Mobile Android 可穿戴设备扩展需要具备 Android 版本 4.4 (KitKat) 或更高版本。
 * 还添加了一个额外的上下文值 `A.RunMode`，以指示数据是来自容器应用程序还是扩展。
 
    * `RunMode` = `Application`
