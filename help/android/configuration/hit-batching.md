@@ -7,11 +7,11 @@ solution: Experience Cloud,Analytics
 title: 点击批量处理
 topic: Developer and implementation
 uuid: ada35be3-242b-4b2b-a828-9bf998dd58b5
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '183'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -33,9 +33,9 @@ ht-degree: 89%
 }
 ```
 
-如果将该值设置为大于 0 的数值，SDK 会将数量等于 *`batchLimit`* 值的点击量排入队列。通过此阈值后，将发送队列中的所有点击。
+如果将该值设置为大于 0 的数值，SDK 会将数量等于 *`batchLimit`* 值的点击量排入队列。达到此阈值后，将发送队列中的所有点击。
 
-以下方法用于命中批处理：
+采用以下方法进行点击批量处理：
 
 * `Analytics.getQueueSize` 返回 `long`，其中包含点击批量处理队列中的当前点击量。
 
