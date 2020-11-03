@@ -6,11 +6,11 @@ solution: Experience Cloud,Analytics
 title: 应用程序和移动 Web 之间的访客跟踪
 topic: Developer and implementation
 uuid: 073572e4-4c55-4b27-b4a7-e4349ccde7bf
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '508'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 85%
 
 ## 应用程序中的访客 ID
 
-安装应用程序时，Android SDK会生成唯一的访客ID。 此ID存储在移动设备上的永久内存中，每次点击都会发送，并且仅在用户卸载应用程序时删除。
+安装应用程序后，Android SDK 会生成一个独特访客 ID。此 ID 会存储在移动设备上的永久内存中，随每次点击一起发送，并且仅在用户卸载应用程序时才会被删除。
 
 >[!TIP]
 >
@@ -62,7 +62,7 @@ ht-degree: 85%
    });
    ```
 
-目标域上的ID服务代码从URL中提取MID，而不是向Adobe发送请求以获取新ID。 代码使用MID中传递的访客。
+目标域上的 ID 服务代码会从 URL 中提取 MID，而不是向 Adobe 发送请求以获取一个新 ID。此代码会使用传入的 MID 来跟踪访客。
 
 对于来自移动 Web 内容的点击，确认 `mid` 参数存在于每次点击中，并且该值匹配由应用程序代码发送的 `mid` 参数。
 
