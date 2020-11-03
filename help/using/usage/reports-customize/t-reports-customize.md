@@ -7,11 +7,11 @@ solution: Experience Cloud,Analytics
 title: 将过滤器添加到报表
 topic: Reports,Metrics
 uuid: 19c395cc-2e07-4588-825b-f2f8b10a87c1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '384'
-ht-degree: 70%
+ht-degree: 100%
 
 ---
 
@@ -26,11 +26,11 @@ ht-degree: 70%
 
 在本示例中，我们将自定义&#x200B;**[!UICONTROL 用户和会话]**&#x200B;报表，但相关说明适用于任何报表。
 
-1. Open your app and click **[!UICONTROL Usage]** > **[!UICONTROL Users &amp; Sessions]**.
+1. 打开您的应用程序，然后单击&#x200B;**[!UICONTROL 使用情况]** > **[!UICONTROL 用户和会话]**。
 
    ![](assets/customize1.png)
 
-   此报告为我们的应用程序用户提供完整的超时视图。 但是，此应用程序的iOS和Android版本的指标都收集在同一报告套件中。 我们可以通过向“用户”量度添加自定义过滤器，按移动操作系统对用户进行细分。
+   此报表可提供关于应用程序用户的完整历时视图。但是，会在同一报表包中收集此应用程序的 iOS 版本和 Android 版本的量度。我们可以通过向“用户”量度添加自定义过滤器，按移动设备操作系统来划分用户。
 
 1. 单击&#x200B;**[!UICONTROL 自定义]**。
 
@@ -53,7 +53,7 @@ ht-degree: 70%
 1. 单击&#x200B;**[!UICONTROL 更新]**。
 1. 要生成报表，请单击&#x200B;**[!UICONTROL 运行]**。
 
-   此报告现在显示按操作系统划分的用户。 报表标题已更改为与应用于报表的过滤器匹配。
+   现在，此报表会显示按操作系统划分的用户。已更改报表标题，以便匹配应用于报表的过滤器。
 
    ![](assets/customize5.png)
 
@@ -67,8 +67,8 @@ ht-degree: 70%
 
 1. 单击&#x200B;**[!UICONTROL 更新]**，然后单击&#x200B;**[!UICONTROL 运行]**。
 
-   此报告现在显示首次启动应用程序的iOS 8.3用户。
+   现在，此报表会显示首次启动应用程序的 iOS 8.3 用户。
 
    ![](assets/customize7.png)
 
-   在报表自定义菜单上测试不同的选项需要一些时间，并确保将您喜爱的内容加入书签。 Adobe Mobile 中的报表 URL 具有功能性，可以通过电子邮件发送它们或将其添加到收藏夹。
+   请花些时间测试报表自定义菜单上的各种不同选项，并确保将您喜爱的内容加入书签。Adobe Mobile 中的报表 URL 具有功能性，可以通过电子邮件发送它们或将其添加到收藏夹。
