@@ -7,11 +7,11 @@ solution: Experience Cloud,Analytics
 title: 应用商店“概述”报表
 topic: Metrics
 uuid: ac066f31-ec4b-4b67-b839-780c2cd1574e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '517'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 84%
 
 ![](assets/app_store_metrics.png)
 
-您可以单击任何度量来隐藏或显示其相应行。 要查看某一天的数据，请将鼠标悬停在当天上。
+您可以单击任何量度以隐藏或显示其相应行。要查看某一天的数据，请将鼠标悬停在当天上。
 
 >[!IMPORTANT]
 >
@@ -50,32 +50,32 @@ ht-degree: 84%
 
 ## 下载收入 {#section_34F05998E8444544A1B507C1B852C4EE}
 
-此报告显示通过下载应用程序生成的收入额。
+此报表可显示通过下载应用程序产生的收入额。
 
 ## 应用程序内收入 {#section_58792ED9C4B54B7D836E30CF09E8E204}
 
-此报告显示使用您的应用程序进行应用程序内购买所产生的收入额。
+此报表可显示使用应用程序进行应用程序内购买所产生的收入额。
 
-## 各国下载 {#section_10373CD28CA94BA5859DFDEED7D548C6}
+## 按国家/地区划分的下载次数 {#section_10373CD28CA94BA5859DFDEED7D548C6}
 
 此报表可显示按国家/地区划分的应用程序下载次数。
 
 ![](assets/country.png)
 
-要显示按日期划分每个国家/地区下载次数的图表，请单击&#x200B;**[!UICONTROL 按国家/地区划分的下载次数]**。您可以将鼠标悬停在某个日期上以视图某一天的数据。
+要显示按日期划分每个国家/地区下载次数的图表，请单击&#x200B;**[!UICONTROL 按国家/地区划分的下载次数]**。您可以将鼠标悬停在某个日期上以查看当天的数据。
 
 ![](assets/downloads_by_country.png)
 
-## 按App Store下载 {#section_F1CD1A3F0105469D879E4F280CE32484}
+## 按应用商店划分的下载次数 {#section_F1CD1A3F0105469D879E4F280CE32484}
 
 此报表可显示按应用商店划分的应用程序下载次数。
 
 ![](assets/app_store.png)
 
-要显示按日期划分每个应用商店下载次数的图表，请单击&#x200B;**[!UICONTROL 按应用商店划分的下载次数]**。您可以将鼠标悬停在某个日期上以视图该日的数据。
+要显示按日期划分每个应用商店下载次数的图表，请单击&#x200B;**[!UICONTROL 按应用商店划分的下载次数]**。您可以将鼠标悬停在某个日期上以查看当天的数据。
 
 ![](assets/app_store_downloads_detail.png)
 
-## 按名称进行应用程序内购买 {#section_D747A64F9F6449E0A02EF31D56C92F83}
+## 按名称划分的应用程序内购买次数 {#section_D747A64F9F6449E0A02EF31D56C92F83}
 
 此报表可显示按名称划分的所有应用程序内购买次数。
