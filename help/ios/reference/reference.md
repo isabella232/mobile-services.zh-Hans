@@ -1,16 +1,16 @@
 ---
-description: 此参考材料可帮助您将iOS SDK用于Experience Cloud解决方案。
-seo-description: 此参考材料可帮助您将iOS SDK用于Experience Cloud解决方案。
+description: 此参考资料可帮助您使用适用于 Experience Cloud 解决方案的 iOS SDK。
+seo-description: 此参考资料可帮助您使用适用于 Experience Cloud 解决方案的 iOS SDK。
 seo-title: iOS SDK 参考
 solution: Experience Cloud,Analytics
 title: iOS SDK 参考
 topic: Developer and implementation
 uuid: 4e80b0ce-d36e-440e-96ff-de5df6804e3e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '138'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
