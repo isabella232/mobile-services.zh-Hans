@@ -1,16 +1,16 @@
 ---
-description: 此参考资料可帮助您将Android SDK用于Experience Cloud解决方案。
-seo-description: 此参考资料可帮助您将Android SDK用于Experience Cloud解决方案。
+description: 此参考资料可帮助您使用适用于 Experience Cloud 解决方案的 Android SDK。
+seo-description: 此参考资料可帮助您使用适用于 Experience Cloud 解决方案的 Android SDK。
 seo-title: Android SDK 参考概述
 solution: Experience Cloud,Analytics
 title: Android SDK 参考概述
 topic: Developer and implementation
 uuid: ce8f6dcb-0e2b-47eb-99f2-fbdb97079161
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '141'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
