@@ -1,24 +1,24 @@
 ---
-description: 营销人员可创建跟踪链接以将更多流量引入到应用程序。这些跟踪链接可以驱使用户进入应用商店、应用程序深层链接和插播式广告，从而与应用程序内行为相关联。营销人员可以创建一个链接，根据需要将用户引导到iOS、Android或其他平台。
+description: 营销人员可创建跟踪链接以将更多流量引入到应用程序。这些跟踪链接可以驱使用户进入应用商店、应用程序深层链接和插播式广告，从而与应用程序内行为相关联。营销人员可以创建一个链接，以将用户路由到适合的 iOS、Android 或其他平台。
 keywords: mobile
-seo-description: 营销人员可创建跟踪链接以将更多流量引入到应用程序。这些跟踪链接可以驱使用户进入应用商店、应用程序深层链接和插播式广告，从而与应用程序内行为相关联。营销人员可以创建一个链接，根据需要将用户引导到iOS、Android或其他平台。
+seo-description: 营销人员可创建跟踪链接以将更多流量引入到应用程序。这些跟踪链接可以驱使用户进入应用商店、应用程序深层链接和插播式广告，从而与应用程序内行为相关联。营销人员可以创建一个链接，以将用户路由到适合的 iOS、Android 或其他平台。
 seo-title: 客户获取
 solution: Experience Cloud,Analytics
 title: 客户获取
 topic: Metrics
 uuid: 987146e4-2cca-46e7-88aa-74b62d9f1dc5
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '499'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
 
 # 客户获取 {#acquisition}
 
-营销人员可创建跟踪链接以将更多流量引入到应用程序。这些跟踪链接可以驱使用户进入应用商店、应用程序深层链接和插播式广告，从而与应用程序内行为相关联。营销人员可以创建一个链接，根据需要将用户引导到iOS、Android或其他平台。
+营销人员可创建跟踪链接以将更多流量引入到应用程序。这些跟踪链接可以驱使用户进入应用商店、应用程序深层链接和插播式广告，从而与应用程序内行为相关联。营销人员可以创建一个链接，以将用户路由到适合的 iOS、Android 或其他平台。
 
 ## 新的 Adobe Experience Cloud SDK 版本
 
@@ -26,7 +26,7 @@ ht-degree: 84%
 
 在 2018 年 9 月，我们发布了一个新的 SDK 主要版本。这些新的 Adobe Experience Platform Mobile SDK 可通过 [Experience Platform Launch](https://www.adobe.com/cn/experience-platform/launch.html) 进行配置。
 
-* To get started, go to [Launch](https://launch.adobe.com/).
+* 要开始配置，请转到 [Launch](https://launch.adobe.com/)。
 * 要查看 Experience Platform SDK 存储库中的内容，请转到 [Github：Adobe Experience Platform SDK](https://github.com/Adobe-Marketing-Cloud/acp-sdks)。
 
 >[!IMPORTANT]
@@ -57,6 +57,6 @@ ht-degree: 84%
 
    请牢记以下信息：
 
-   * 您可以单击列标题中的箭头图标以按升序或降序对数据进行排序。
+   * 您可以单击列标题中的箭头图标，以按升序或降序对数据进行排序。
    * 要将数据导出到 PDF 文档，您可以单击&#x200B;**[!UICONTROL 下载]**。
    ![](assets/acquisition_name.png)
