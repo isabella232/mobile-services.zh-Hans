@@ -6,9 +6,9 @@ solution: Experience Cloud,Analytics
 title: Analytics 概述
 topic: Developer and implementation
 uuid: 8c7fb76a-be0b-4465-8151-ece7bad11b55
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: bc11c1e7a4a11657ee89c40ddcbd37377ce50bb5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '322'
 ht-degree: 100%
 
