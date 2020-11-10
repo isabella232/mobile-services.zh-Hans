@@ -6,11 +6,11 @@ solution: Experience Cloud,Analytics
 title: 发行说明
 topic: Developer and implementation
 uuid: e1613dc5-02a4-43a7-997a-29b4de98b4d1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6c8020b88d22489f86853274d29dbceee504aa06
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '469'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -19,10 +19,10 @@ ht-degree: 89%
 
 以下是适用于 Experience Cloud 解决方案的 iOS SDK 4.x 的发行说明、已知问题和热修复信息：
 
-**2020年11月4日：版本4.20.0**
+**2020 年 11 月 4 日：版本 4.20.0**
 
-* 访客ID服务——在启用／禁用广告跟踪后调用setAdvertisingIdentifier时，添加了device_convenion状态参数。
-* 分析——修复了在链接iAd.framework且设备启用“有限广告跟踪”时，导致Analytics点击在安装中延迟的错误。
+* 访客 ID 服务 - 添加了 device_convenion 状态参数，在启用/禁用广告跟踪后调用 setAdvertisingIdentifier 时使用。
+* Analytics - 修复了在链接 iAd.framework 且设备启用“有限广告跟踪”后，导致 Analytics 点击在安装过程中发送延迟的错误。
 
 **2020 年 7 月 16 日：版本 4.19.3**
 
