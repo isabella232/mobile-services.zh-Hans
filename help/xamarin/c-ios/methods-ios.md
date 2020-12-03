@@ -2,9 +2,9 @@
 description: 用于Experience Cloud解决方案4.x SDK的Xamarin组件的iOS方法。
 keywords: Xamarin
 seo-description: 用于Experience Cloud解决方案4.x SDK的Xamarin组件的iOS方法。
-seo-title: iOS方法
+seo-title: iOS 方法
 solution: Experience Cloud
-title: iOS方法
+title: iOS 方法
 uuid: d6a056db-80c1-44d0-970f-c961ad01b0bc
 translation-type: tm+mt
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
@@ -15,7 +15,7 @@ ht-degree: 70%
 ---
 
 
-# iOS方法{#ios-methods}
+# iOS 方法{#ios-methods}
 
 用于Experience Cloud解决方案4.x SDK的Xamarin组件的iOS方法。
 
