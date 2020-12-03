@@ -6,9 +6,9 @@ solution: Experience Cloud,Analytics
 title: 适用于 Experience Cloud 解决方案的 Windows 8.1 跨平台通用应用商店 SDK 4.x
 topic: Developer and implementation
 uuid: a06d8cf2-5d2d-49a8-86ac-102e2934ea59
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: bc11c1e7a4a11657ee89c40ddcbd37377ce50bb5
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '234'
 ht-degree: 100%
 
