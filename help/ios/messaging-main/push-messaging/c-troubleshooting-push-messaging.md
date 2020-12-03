@@ -7,9 +7,9 @@ solution: Experience Cloud,Analytics
 title: 排查推送消息问题
 topic: Metrics
 uuid: 87d7dcb6-82a8-46e3-a6ed-7f895a22f2af
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '363'
 ht-degree: 100%
 
@@ -39,8 +39,9 @@ ht-degree: 100%
    >推送服务不保证消息将被发送。有关服务可靠性的更多信息，请参阅相应的文档：
    >
    >* **APNS**：[服务的质量](https://developer.apple.com/documentation/usernotifications)
-   >
-   >* **GCM**：[消息的生命周期](https://developers.google.com/cloud-messaging/concept-options)
+      >
+      >
+   * **GCM**：[消息的生命周期](https://developers.google.com/cloud-messaging/concept-options)
 
 
 ## 如何续订 Apple 推送服务证书？
