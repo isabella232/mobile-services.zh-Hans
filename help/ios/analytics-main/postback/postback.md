@@ -5,9 +5,9 @@ seo-title: 回发
 solution: Experience Cloud,Analytics
 title: 回发概述
 uuid: 25e2a5fb-1203-40dd-96cd-b23e0f23376d
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '336'
 ht-degree: 100%
 
