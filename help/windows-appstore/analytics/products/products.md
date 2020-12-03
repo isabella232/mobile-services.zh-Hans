@@ -1,9 +1,9 @@
 ---
 description: 无法使用处理规则设置产品变量。 在移动SDK中，必须在上下文数据参数中使用特殊语法直接在服务器调用中设置产品。
 seo-description: 无法使用处理规则设置产品变量。 在移动SDK中，必须在上下文数据参数中使用特殊语法直接在服务器调用中设置产品。
-seo-title: 产品变量
+seo-title: Products 变量
 solution: Experience Cloud,Analytics
-title: 产品变量
+title: Products 变量
 topic: Developer and implementation
 uuid: 2057a564-06ae-4171-bbe7-0baffa71608b
 translation-type: tm+mt
@@ -15,7 +15,7 @@ ht-degree: 13%
 ---
 
 
-# 产品变量{#products-variable}
+# Products 变量{#products-variable}
 
 无法使用处理规则设置产品变量。 在移动SDK中，必须在上下文数据参数中使用特殊语法直接在服务器调用中设置产品。
 
@@ -49,4 +49,4 @@ ADB.Analytics.trackState("Order Confirmation", cdata);
 
 ![](assets/products-procrules.png)
 
-您无需使用处理规则 *`products`* 映射变量，因为该变量是SDK直接在图像请求上设置的。
+You do not need to map the *`products`* variable using processing rules since it is set directly on the image request by the SDK.
