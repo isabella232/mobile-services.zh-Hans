@@ -6,9 +6,9 @@ solution: Experience Cloud,Analytics
 title: Apple 搜索广告
 topic: Developer and implementation
 uuid: 790080e8-067e-4bfd-a169-0027db4fdff3
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '280'
 ht-degree: 100%
 
