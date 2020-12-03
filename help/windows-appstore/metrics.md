@@ -11,7 +11,7 @@ translation-type: tm+mt
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
 workflow-type: tm+mt
 source-wordcount: '888'
-ht-degree: 61%
+ht-degree: 63%
 
 ---
 
@@ -68,7 +68,7 @@ ht-degree: 61%
 
 * **启动次数**
 
-   每次运行时触发，包括崩溃和安装。 当超出生命周期会话超时时，从后台在恢复上触发。
+   在每次运行时触发，包括崩溃次数和安装次数。在超出生命周期会话超时后，当从后台恢复应用程序时也会触发。
 
    * Analytics context data/Target parameter: `a.LaunchEvent`
    * Audience Manager 信号：`c_a_LaunchEvent`
