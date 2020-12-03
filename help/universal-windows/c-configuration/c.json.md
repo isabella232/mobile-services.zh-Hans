@@ -1,16 +1,16 @@
 ---
 description: 帮助您使用ADBMobile JSON配置文件的信息。
 seo-description: 帮助您使用ADBMobile JSON配置文件的信息。
-seo-title: ADBMobileConfig.json配置
+seo-title: ADBMobileConfig.json 配置
 solution: Experience Cloud,Analytics
-title: ADBMobileConfig.json配置
+title: ADBMobileConfig.json 配置
 topic: Developer and implementation
 uuid: cbcb54a3-4b8f-4651-8ce9-2731ac988545
 translation-type: tm+mt
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
 workflow-type: tm+mt
 source-wordcount: '620'
-ht-degree: 40%
+ht-degree: 44%
 
 ---
 
@@ -61,7 +61,7 @@ SDK目前支持多个Adobe Experience Cloud解决方案，包括分析、目标�
 
 * **lifecycleTimeout**
 
-   指定在启动被视为新会话之前，应用程序启动之间必须经历的时长（以秒为单位）。 此超时也适用于应用程序被发送到后台后又重新启用的情况。应用程序在后台所用的时间不包括在会话时长中。
+   指定从应用程序启动到将该启动视为新会话之前必须经过的时长（以秒为单位）。此超时也适用于应用程序被发送到后台后又重新启用的情况。应用程序在后台所用的时间不包括在会话时长中。
 
    默认值为300秒。
 
