@@ -1,16 +1,16 @@
 ---
 description: 本节介绍如何从先前的Windows移动SDK的3.x版本迁移到通用型Windows平台4.x SDK forExperience Cloud解决方案。
 seo-description: 本节介绍如何从先前的Windows移动SDK的3.x版本迁移到通用型Windows平台4.x SDK forExperience Cloud解决方案。
-seo-title: 迁移到4.x
+seo-title: 迁移至 4.x
 solution: Experience Cloud,Analytics
-title: 迁移到4.x
+title: 迁移至 4.x
 topic: Developer and implementation
 uuid: bdd6c5cd-3892-4e99-b69e-77105ad66e25
 translation-type: tm+mt
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
 workflow-type: tm+mt
 source-wordcount: '705'
-ht-degree: 14%
+ht-degree: 26%
 
 ---
 
@@ -64,10 +64,10 @@ ht-degree: 14%
 | 配置变量／方法 | Variable in the `ADBMobileConfig.json` file. |
 |--- |--- |
 | offlineTrackingEnabled | &quot;offlineEnabled&quot; |
-| reportSuiteID | &quot;rsids&quot; |
+| reportSuiteIDs | &quot;rsids&quot; |
 | trackingServer | &quot;server&quot; |
 | charSet | &quot;charset&quot; |
-| currencyCode | “货币” |
+| currencyCode | &quot;currency&quot; |
 | ssl | &quot;ssl&quot; |
 | setOfflineHitLimit | 删除，不再使用。 |
 | linkTrackVars | 删除，不再使用。 |
@@ -85,13 +85,13 @@ The `contextData` parameter for both of these methods contains name-value pairs 
 
 ### Event、Prop、eVar
 
-如果您已经研究过SDK [方法](/help/universal-windows/c-configuration/methods.md)，您可能会想知道在哪里设置事件、eVar、prop、继承人和列表。 在版本4中，您无法再直接在应用程序中分配这些类型的变量。 相反，SDK使用上下文数据和处理规则将应用程序数据映射到Analytics变量以进行报告。
+如果您已经研究过SDK [方法](/help/universal-windows/c-configuration/methods.md)，您可能会想知道在哪里设置事件、eVar、prop、继承人和列表。 在版本4中，您无法再直接在应用程序中分配这些类型的变量。 反而，SDK 使用上下文数据和处理规则将应用程序数据映射到 Analytics 变量以便进行报告。
 
 处理规则具有以下优势：
 
-* 您无需向App Store提交更新即可更改数据映射。
+* 您无需向应用商店提交更新即可更改数据映射。
 * 您可以对数据使用有意义的名称，而不是设置特定于报表包的变量。
-* 发送额外数据几乎没有影响。 这些值只有在使用处理规则映射后才会显示在报告中。
+* 对发送额外数据的影响很小。这些值只有在使用处理规则映射后才会显示在报告中。
 
 有关详细信息，请参阅 *Analytics概述* 中的处理 [规则部分](/help/universal-windows/analytics/analytics.md)。
 
