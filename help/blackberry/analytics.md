@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 7ae626be4d71641c6efb127cf5b1d3e18fccb907
 workflow-type: tm+mt
 source-wordcount: '684'
-ht-degree: 5%
+ht-degree: 14%
 
 ---
 
@@ -53,13 +53,13 @@ ht-degree: 5%
 ## Event、Prop 和 eVar {#concept_B885D5A71A5D45129CE7C1C3426A7D28}
 
 
-如果您查看过ADBMobile类 [和方法参考](/help/blackberry/methods.md)，您可能会想知道在哪里设置事件、eVar、prop、继承者和列表。 在版本4中，您无法再直接在应用程序中分配这些类型的变量。 相反，SDK使用上下文数据和处理规则将应用程序数据映射到Analytics变量以进行报告。
+如果您查看过ADBMobile类 [和方法参考](/help/blackberry/methods.md)，您可能会想知道在哪里设置事件、eVar、prop、继承者和列表。 在版本4中，您无法再直接在应用程序中分配这些类型的变量。 反而，SDK 使用上下文数据和处理规则将应用程序数据映射到 Analytics 变量以便进行报告。
 
 处理规则为您提供了几个优势：
 
-* 您无需将更新提交到App Store即可更改数据映射。
+* 您无需向应用商店提交更新即可更改数据映射。
 * 您可以对数据使用有意义的名称，而不是设置特定于报表包的变量。
-* 发送额外数据几乎没有影响。 这些值只有在使用处理规则映射后才会显示在报告中。
+* 对发送额外数据的影响很小。这些值只有在使用处理规则映射后才会显示在报告中。
 
 Any values that you were assigning directly to variables should be added to the `data` HashMap instead.
 
@@ -67,7 +67,7 @@ Any values that you were assigning directly to variables should be added to the 
 
 处理规则用于将您在上下文数据变量中发送的数据复制到evar、prop和其他变量以进行报告。
 
-[2013年峰会上的处理规则](https://tv.adobe.com/embed/1181/16506/) 培训
+2013 年峰会上的[处理规则培训](https://tv.adobe.com/embed/1181/16506/)
 
 [处理规则](https://docs.adobe.com/content/help/zh-Hans/analytics/admin/admin-tools/processing-rules/processing-rules.html)
 
@@ -89,7 +89,7 @@ Any values that you were assigning directly to variables should be added to the 
 "eVar1":"jimbo"
 ```
 
-这可能会使处 *理规则* 中执行一次映射时的操作略为简单，但调试过程中会失去可读性，将来的代码更新可能更困难。 我们强烈建议对键和值使用描述性名称：
+This might make it *slightly* easier when you perform the one time mapping in processing rules, but you lose readability during debugging and future code updates can be more difficult. 我们强烈建议对键和值使用描述性名称：
 
 ```js
 "username":"jimbo"
@@ -119,4 +119,4 @@ Any values that you were assigning directly to variables should be added to the 
 
 ## Analytics 方法
 
-有关BlackBerry可用的Analytics方法的列表，请参阅 *AdobeMobile类和* 方法 [](/help/blackberry/methods.md)参考中的Analytics方法。
+有关BlackBerry可用的Analytics方法的列表，请参阅 *AdobeMobile类和方* 法参考 [](/help/blackberry/methods.md)中的Analytics方法。
