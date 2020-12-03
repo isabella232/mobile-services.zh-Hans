@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
 workflow-type: tm+mt
 source-wordcount: '683'
-ht-degree: 13%
+ht-degree: 24%
 
 ---
 
@@ -60,10 +60,10 @@ ht-degree: 13%
 | 配置变量／方法 | Variable in the `ADBMobileConfig.json` file. |
 |--- |--- |
 | offlineTrackingEnabled | &quot;offlineEnabled&quot; |
-| reportSuiteID | &quot;rsids&quot; |
+| reportSuiteIDs | &quot;rsids&quot; |
 | trackingServer | &quot;server&quot; |
 | charSet | &quot;charset&quot; |
-| currencyCode | “货币” |
+| currencyCode | &quot;currency&quot; |
 | ssl | &quot;ssl&quot; |
 | setOfflineHitLimit | 删除，不再使用。 |
 | linkTrackVars | 删除，不再使用。 |
@@ -81,13 +81,13 @@ The `contextData` parameter for both of these methods contains name-value pairs 
 
 ## 事件、Prop、eVar
 
-如果您已经研究过SDK [方法](/help/windows-appstore/c-configuration/methods.md)，您可能会想知道在哪里设置事件、eVar、prop、继承人和列表。 在版本4中，您无法再直接在应用程序中分配这些类型的变量。 相反，SDK使用上下文数据和处理规则将应用程序数据映射到Analytics变量以进行报告。
+如果您已经研究过SDK [方法](/help/windows-appstore/c-configuration/methods.md)，您可能会想知道在哪里设置事件、eVar、prop、继承人和列表。 在版本4中，您无法再直接在应用程序中分配这些类型的变量。 反而，SDK 使用上下文数据和处理规则将应用程序数据映射到 Analytics 变量以便进行报告。
 
 处理规则为您提供了几个优势：
 
-* 您无需向App Store提交更新即可更改数据映射。
+* 您无需向应用商店提交更新即可更改数据映射。
 * 您可以对数据使用有意义的名称，而不是设置特定于报表包的变量。
-* 发送额外数据几乎没有影响。 这些值只有在使用处理规则映射后才会显示在报告中。
+* 对发送额外数据的影响很小。这些值只有在使用处理规则映射后才会显示在报告中。
 
 For more information, see *Processing Rules* in [Analytics](/help/windows-appstore/analytics/analytics.md).
 
