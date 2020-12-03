@@ -1,18 +1,21 @@
 ---
-description: 用于 Xamarin 应用程序的类和枚举列表。
-seo-description: 用于 Xamarin 应用程序的类和枚举列表。
-seo-title: 类和边界
-title: 类和边界
+description: 类和明细列表的列表，用于Xamarin应用程序。
+seo-description: 类和明细列表的列表，用于Xamarin应用程序。
+seo-title: 类和枚举
+title: 类和枚举
 uuid: 410d27ee-ce2b-4183-971e-39a7031d1bd5
 translation-type: tm+mt
 source-git-commit: df4ea2c4002611c72009cf69598cbbb74b5c15c4
+workflow-type: tm+mt
+source-wordcount: '50'
+ht-degree: 24%
 
 ---
 
 
-# Classes and enums{#classes-and-enums}
+# 类和枚举{#classes-and-enums}
 
-用于 Xamarin 应用程序的类和枚举列表。
+类和明细列表的列表，用于Xamarin应用程序。
 
 ## 类 {#section_E28D6156EB0F4A84AAA7749DF7D3E193}
 
