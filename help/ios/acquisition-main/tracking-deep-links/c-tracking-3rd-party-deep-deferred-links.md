@@ -1,11 +1,14 @@
 ---
 description: 使用 iOS SDK 实施第三方延期深层链接跟踪。
 seo-description: 使用 iOS SDK 实施第三方延期深层链接跟踪。
-seo-title: 跟踪第三方延期深层链接
-title: 跟踪第三方延期深层链接
+seo-title: 跟踪第三方延迟深层链接
+title: 跟踪第三方延迟深层链接
 uuid: 5525b609-e926-44b9-b0f5-38e9dd7c9761
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 4b5be6c51c716114e597a80d475f838e23abb1b1
+workflow-type: tm+mt
+source-wordcount: '413'
+ht-degree: 90%
 
 ---
 
@@ -20,7 +23,7 @@ Adobe Mobile SDK 当前支持深层链接，应用程序开发人员应在该链
 
 ## Facebook 深层链接 {#section_6A9DACB54A2F4CDEBE9C744DEFADFDED}
 
-广告创建者可在 Facebook 上创建一个广告作为深层链接。当用户点击 Facebook 上的广告时，将直接转到应用程序中他们感兴趣的信息。深层链接&#x200B;**不是**&#x200B;指纹 URL。但是，在广告配置期间，有一个选项可提供第三方深层链接 URL。使用 Experience Cloud Mobile SDK 和服务的应用程序开发人员应在此字段中输入 Mobile Service 配置的指纹 URL。如果一切设置正确，在安装或启动应用程序时，Facebook SDK 便会将此 URL 传递到应用程序。
+广告创建者可在 Facebook 上创建一个广告作为深层链接。当用户在 Facebook 上单击该广告时，将会直接转到应用程序中他们感兴趣的信息。深层链接&#x200B;**不是**&#x200B;指纹 URL。但是，在广告配置期间，有一个选项可提供第三方深层链接 URL。使用Experience CloudMobile SDK和服务的应用程序开发人员应在此字段中输入已配置的Mobile Services指纹URL。 如果一切设置正确，在安装或启动应用程序时，Facebook SDK 便会将此 URL 传递到应用程序。
 
 ## 设置 SDK {#section_834CD3109175432B8173ECB6EA7DE315}
 
@@ -29,7 +32,7 @@ Adobe Mobile SDK 当前支持深层链接，应用程序开发人员应在该链
    有关更多信息，请参阅以下内容：
 
    * [适用于 iOS 的 Facebook SDK 快速入门](https://developers.facebook.com/docs/ios/getting-started)
-   * [深层链接设置](https://developers.facebook.com/docs/app-ads/deep-linking#os)
+   * [脱机设置](https://developers.facebook.com/docs/app-ads/deep-linking#os)
 
 1. 要设置 SDK，请调用 `trackAdobeDeepLink` 并将 URL 传递到 SDK：
 
@@ -51,7 +54,7 @@ Adobe Mobile SDK 当前支持深层链接，应用程序开发人员应在该链
 
 1. 注册 URL 方案。
 
-   确保您注册了与深层链接 URL 相同的 URL 方案。
+   确保您已注册与深层链接 URL 相同的 URL 方案。
 
    ```objective-c
    <key>CFBundleURLTypes</key> 
