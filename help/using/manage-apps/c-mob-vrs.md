@@ -4,8 +4,11 @@ seo-description: 虚拟报表包 (VRS) 是指通过将一个或多个区段定�
 seo-title: 虚拟报表包
 title: 虚拟报表包
 uuid: 3f467cad-43e7-4cd0-889b-89f8c61febbd
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 814c99695f538160ae28484ca8e2a92f5b24bb1a
+workflow-type: tm+mt
+source-wordcount: '1055'
+ht-degree: 77%
 
 ---
 
@@ -17,12 +20,12 @@ source-git-commit: 814c99695f538160ae28484ca8e2a92f5b24bb1a
 使用 VRS 的应用程序与使用常规报表包的应用程序具有相同的功能，但是使用 VRS 的应用程序可管理以下功能：
 
 * 处理规则
-* evar/prop/listvar/event
+* evars/props/listvars/事件
 * 启用时间戳的选项
-* 维度标志（生命周期、位置等）
-* 分类
+* Dimension标志（生命周期、位置等）
+* Classifications
 
-这些值在可父报表包中进行管理，并与属于同一父报表包的 VRS 共享。
+这些值在父报表包中进行管理，并与属于同一父报表包的VRS共享。
 
 以下区域独立于父报表包，可以在 Adobe Mobile Services UI 中进行访问：
 
@@ -37,7 +40,7 @@ VRS 可帮助您完成以下任务：
 
 * 限制数据访问
 
-   某跨国公司拥有一个应用程序，可以将数据发送到所有地理位置的报表包。但是，该公司想要限制一个地区的业务用户查看另一个地区的数据。此时，该公司的管理员可以创建一个按地区划分用户的 VRS，并将对该 VRS 的权限仅授予管理该地区的业务用户。
+   多国家公司有一个应用程序，可向所有地理位置的报表包发送数据。 但是，该公司想要限制一个地区的业务用户查看另一个地区的数据。此时，该公司的管理员可以创建一个按地区划分用户的 VRS，并将对该 VRS 的权限仅授予管理该地区的业务用户。
 
    此限制可阻止业务用户查看与其地区无关的数据。例如，欧洲、中东和非洲地区的业务用户不需要查看亚太地区的数据。
 
@@ -55,13 +58,13 @@ VRS 可帮助您完成以下任务：
 
 每个 VRS 都具有一个唯一的 ID。要在 Adobe Mobile Services UI 中查看父报表包 ID，请在“管理应用程序设置”页面的&#x200B;**[!UICONTROL 应用程序信息]**&#x200B;部分中，单击&#x200B;**[!UICONTROL 更多详细信息]**。
 
-在 Adobe Mobile Services UI 中，您可以使用 VRS 创建应用程序并将数据划分到贵组织中的特定组。例如，在这种情况下，西班牙的业务用户就无法查看日本业务用户的相关数据。
+在AdobeMobile Services UI中，您可以使用VRS创建应用程序并将数据细分到组织中的特定组。 例如，这样，西班牙的企业用户就看不到与日本企业用户相关的数据。
 
 >[!TIP]
 >
 >您无法修改从父报表包继承的值。
 
-VRS 是附加到父报表包的服务器端区段定义。因此，您无法收集 VRS 数据，因为 SDK 只会将点击发送到父报表包，然后父报表包会记录点击。
+VRS是附加到父报表包的服务器端段定义。 因此，您无法向VRS执行数据收集，因为SDK只向父报表包发送点击，而父报表包则记录点击。
 
 ## Adobe Mobile Services 中的虚拟报表包和数据收集 {#section_8ED8FBA5B44044D9ABC2151A39C577D4}
 
@@ -71,7 +74,7 @@ VRS 是附加到父报表包的服务器端区段定义。因此，您无法收�
 >
 >推送证书附加在 Mobile Services UI 的应用程序级别。
 
-为确保能够正常发送您的推送消息，您必须正确定义受众区段。有关更多信息，请参阅[受众：为推送消息定义和配置受众区段](/help/using/in-app-messaging/t-create-push-message/c-audience-push-message.md)。
+要确保推送消息发送正确，必须正确定义受众段。 For more information, see [Audience: Define and Configure Audience Segments for Push Messages](/help/using/in-app-messaging/t-create-push-message/c-audience-push-message.md).
 
 ## 了解时区 {#section_498E1EED22D741C3BDED44F01FACA72A}
 
@@ -83,7 +86,7 @@ VRS 是附加到父报表包的服务器端区段定义。因此，您无法收�
 
 >[!IMPORTANT]
 >
->要从该列表中选择 VRS，请找到带有蓝色圆点以及使用 `vrs_` *`<company_name>`* `_` *`<unique name>`* 命名约定的选项。
+>要从该列表中选择 VRS，请找到带有蓝色圆点以及使用 `vrs_` *`<company_name>`*`_`*`<unique name>`*   命名约定的选项。
 
 ## 虚拟报表包属性 {#section_20ECE6243F664C4FB4347ADB4FF0458A}
 
@@ -93,7 +96,7 @@ VRS 是附加到父报表包的服务器端区段定义。因此，您无法收�
 >
 >只读属性继承自父报表包。
 
-| 属性 | 是否继承自父报表包 | 是否可编辑？ | 注释 |
+| 属性 | 从父报告套件继承 | 可编辑？ | 注释 |
 |--- |--- |--- |--- |
 | `target.clientCode` | 否 | 是 |  |
 | `target.timeout` | 否 | 是 |  |
@@ -107,10 +110,10 @@ VRS 是附加到父报表包的服务器端区段定义。因此，您无法收�
 | `analytics.ssl` | 否 | 是 |  |
 | `analytics.offlineEnabled` | 是 |  |  |
 | `analytics.charset` | 是 | 否 |  |
-| `analytics.lifecycleTimeout` | 否 | 是 | 如果用户希望他们的数据一致，则应该继承自父报表包。 |
+| `analytics.lifecycleTimeout` | 否 | 是 | 如果用户不希望其报告不一致，则应为父套件。 |
 | `analytics.privacyDefault` | 否 | 是 |  |
 | `analytics.batchLimit` | 否 | 是 |  |
-| `analytics.timezone` | 是 | 是，当您首次创建应用程序时。 | 此时区属性用于将数据发送到 Adobe Analytics，与创建 VRS 时设置的时区属性不同。 |
+| `analytics.timezone` | 是 | 是，当您首次创建应用程序时。 | 此时区属性用于向Adobe Analytics发送数据，它不同于创建VRS时设置的时区属性。 |
 | `analytics.timezoneOffset` | 是 | 否 |  |
 | `analytics.referrerTimeout` | 否 | 是 |  |
 | `analytics.backdateSessionInfo` | 是 | 是 |  |
