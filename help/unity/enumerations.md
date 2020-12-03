@@ -2,20 +2,20 @@
 description: 'null'
 keywords: Unity
 seo-description: 'null'
-seo-title: 明细列表
+seo-title: 枚举
 solution: Experience Cloud
-title: 明细列表
+title: 枚举
 uuid: 7109cd0b-554f-4c4a-9acc-4b60812fb747
 translation-type: tm+mt
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
 workflow-type: tm+mt
 source-wordcount: '7'
-ht-degree: 28%
+ht-degree: 71%
 
 ---
 
 
-# 明细列表 {#enumerations}
+# 枚举 {#enumerations}
 
 ## ADBPrivacyStatus
 
