@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: c198ae57b05f8965a8e27191443ee2cd552d6c50
 workflow-type: tm+mt
 source-wordcount: '866'
-ht-degree: 63%
+ht-degree: 69%
 
 ---
 
@@ -29,7 +29,7 @@ For more information about Video measurement, see the [Measuring audio and video
 
    * 变量名称：eVar
       * 默认过期：访问
-      * Custom Insight（s.prop，用于视频寻路）
+      * 自定义分析（s.prop，用于确定视频路径）
 
 * **a.media.name**
 
@@ -40,11 +40,11 @@ For more information about Video measurement, see the [Measuring audio and video
 
 * **a.media.segment**
 
-   (**Required**) Collects video segment data, including the segment name and the order in which the segment occurs in the video. 此变量在自动跟踪播放器事件时通过启用 `segmentByMilestones` 变量来填充，或在手动跟踪播放器事件时通过设置自定义区段名称来填充。
+   （**必需**）收集视频区段数据，包括区段名称以及区段在视频中出现的顺序。此变量在自动跟踪播放器事件时通过启用 `segmentByMilestones` 变量来填充，或在手动跟踪播放器事件时通过设置自定义区段名称来填充。
 
    For example, when a visitor views the first segment in a video, SiteCatalyst might collect `1:M:0-25` in the Segments eVar. 默认的视频数据收集方法在视频开始（播放）、段开始和视频结束（停止）点收集数据。
 
-   Analytics会在视图开始观看时，在区段的访客计算第一个区段开始。 当分部开始时，后续分部视图。
+   Analytics 会在访客开始观看时，将区段的开始计为第一个区段视图。在区段开始播放后，则计为后续区段视图。
 
    * 变量类型：eVar
    * 默认过期：页面查看
