@@ -4,9 +4,9 @@ seo-description: 要开始使用 Experience Cloud 设备协作，请联系您的
 seo-title: Experience Cloud 设备协作
 title: Experience Cloud 设备协作
 uuid: 7bb8a19c-4b80-4911-879d-f9941baa3b62
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 86ba045b44bf6553e80727c0d61ccdd9a552d16c
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 100%
 
