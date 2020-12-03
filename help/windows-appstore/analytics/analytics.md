@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
 workflow-type: tm+mt
 source-wordcount: '943'
-ht-degree: 11%
+ht-degree: 20%
 
 ---
 
@@ -67,7 +67,7 @@ app.oncheckpoint = function (args) {
 }
 ```
 
-### App.xaml.cs中的C&#35;
+### App.xaml.cs中的C#
 
 ```js
 public App() 
@@ -131,13 +131,13 @@ void App::OnLaunched(Windows::ApplicationModel::Activation::LaunchActivatedEvent
 ## Event、Prop 和 eVar {#section_76EA6F5611184C5CAE6E62956D84D7B6}
 
 
-如果您查看过ADBMobile类 [和方法参考](/help/windows-appstore/c-configuration/methods.md)，您可能会想知道在哪里设置事件、eVar、prop、继承者和列表。 在版本4中，您无法再直接在应用程序中分配这些类型的变量。 相反，SDK使用上下文数据和处理规则将应用程序数据映射到Analytics变量以进行报告。
+如果您查看过ADBMobile类 [和方法参考](/help/windows-appstore/c-configuration/methods.md)，您可能会想知道在哪里设置事件、eVar、prop、继承者和列表。 在版本4中，您无法再直接在应用程序中分配这些类型的变量。 反而，SDK 使用上下文数据和处理规则将应用程序数据映射到 Analytics 变量以便进行报告。
 
 处理规则为您提供了几个优势：
 
-* 您无需向App Store提交更新即可更改数据映射。
+* 您无需向应用商店提交更新即可更改数据映射。
 * 您可以对数据使用有意义的名称，而不是设置特定于报表包的变量。
-* 发送额外数据几乎没有影响。 这些值只有在使用处理规则映射后才会显示在报告中。
+* 对发送额外数据的影响很小。这些值只有在使用处理规则映射后才会显示在报告中。
 
 您直接分配给变量的任何值都应添加到上下文数据中。
 
@@ -146,7 +146,7 @@ void App::OnLaunched(Windows::ApplicationModel::Activation::LaunchActivatedEvent
 
 处理规则用于将您在上下文数据变量中发送的数据复制到evar、prop和其他变量以进行报告。
 
-[2013年峰会上的处理规则](https://tv.adobe.com/embed/1181/16506/) 培训
+2013 年峰会上的[处理规则培训](https://tv.adobe.com/embed/1181/16506/)
 
 [处理规则概述](https://docs.adobe.com/content/help/zh-Hans/analytics/admin/admin-tools/processing-rules/processing-rules.html)
 
@@ -168,7 +168,7 @@ void App::OnLaunched(Windows::ApplicationModel::Activation::LaunchActivatedEvent
 "eVar1":"jimbo"
 ```
 
-这可能会使处 *理规则* 中执行一次映射时的操作略为简单，但调试过程中会失去可读性，将来的代码更新可能更困难。 我们强烈建议对键和值使用描述性名称：
+This might make it *slightly* easier when you perform the one time mapping in processing rules, but you lose readability during debugging and future code updates can be more difficult. 我们强烈建议对键和值使用描述性名称：
 
 ```js
 "username":"jimbo"
@@ -190,7 +190,7 @@ void App::OnLaunched(Windows::ApplicationModel::Activation::LaunchActivatedEvent
 >
 >Adobe 会保留命名空间 `a.`。除了这一小的限制，上下文数据变量在登录公司中只需是唯一的，即可避免冲突。
 
-## 产品变量 {#section_AFBA36F3718C44D29AF81B9E1056A1B4}
+## Products 变量 {#section_AFBA36F3718C44D29AF81B9E1056A1B4}
 
 要在移 *`products`* 动SDK中进行设置，必须使用特殊语法。 请参 [阅产品变量](/help/windows-appstore/analytics/products/products.md)。
 
@@ -241,7 +241,7 @@ ADB.Analytics.trackLifetimeValueIncrease(purchasePrice, cdata);
 
 定时操作允许您衡量操作开始和结束之间的应用程序内时间和总时间。 SDK计算会话中的时间量以及完成操作所花费的总时间（跨会话）。 这可用于定义区段，以按时进行购买、通过级别、结帐流程等比较。
 
-* 应用程序中开始和结束——跨会话的总秒数
+* 应用程序开始和结束之间的总秒数 - 跨会话
 * 开始和结束之间的总秒数（时钟时间）
 
 ```js
