@@ -1,21 +1,21 @@
 ---
 description: Windows 8.1 Universal App Store库提供的类和方法。
 seo-description: Windows 8.1 Universal App Store库提供的类和方法。
-seo-title: SDK方法
+seo-title: SDK 方法
 solution: Experience Cloud,Analytics
-title: SDK方法
+title: SDK 方法
 topic: Developer and implementation
 uuid: 0f558ff4-73d3-4439-9d51-62fbd74d2cea
 translation-type: tm+mt
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
 workflow-type: tm+mt
 source-wordcount: '655'
-ht-degree: 49%
+ht-degree: 50%
 
 ---
 
 
-# SDK方法 {#sdk-methods}
+# SDK 方法 {#sdk-methods}
 
 Windows 8.1 Universal App Store库提供的类和方法。
 
