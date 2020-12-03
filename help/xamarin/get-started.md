@@ -6,9 +6,9 @@ seo-title: 面向 Experience Cloud 解决方案 4.x SDK 的 Xamarin 组件
 solution: Experience Cloud
 title: 面向 Experience Cloud 解决方案 4.x SDK 的 Xamarin 组件
 uuid: e7a48107-bd0e-47d6-b49c-dfdae189ac37
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '199'
 ht-degree: 100%
 
