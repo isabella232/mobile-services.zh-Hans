@@ -1,18 +1,21 @@
 ---
-description: 通过直接替换 .xml 文件，可以在 TVML/TVJS 应用程序中利用 Adobe Target。可使用自定义 ADBTarget XML 元素指定要被 Target 内容替换的页面区域。
-seo-description: 通过直接替换 .xml 文件，可以在 TVML/TVJS 应用程序中利用 Adobe Target。可使用自定义 ADBTarget XML 元素指定要被 Target 内容替换的页面区域。
+description: 您可以通过直接替换。xml文件，在TVML/TVJS应用程序中利用Adobe Target。 使用自定义ADBTarget XML元素指定要由目标内容替换的页面区域。
+seo-description: 您可以通过直接替换。xml文件，在TVML/TVJS应用程序中利用Adobe Target。 使用自定义ADBTarget XML元素指定要由目标内容替换的页面区域。
 seo-title: 适用于 TVML/TVJS 的 Adobe Target
 title: 适用于 TVML/TVJS 的 Adobe Target
 uuid: afd5a583-5266-43f2-8cb0-0ace89c53a57
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
+workflow-type: tm+mt
+source-wordcount: '502'
+ht-degree: 70%
 
 ---
 
 
 # 适用于 TVML/TVJS 的 Adobe Target{#adobe-target-for-tvml-tvjs}
 
-通过直接替换 .xml 文件，可以在 TVML/TVJS 应用程序中利用 Adobe Target。可使用自定义 ADBTarget XML 元素指定要被 Target 内容替换的页面区域。
+您可以通过直接替换。xml文件，在TVML/TVJS应用程序中利用Adobe Target。 使用自定义ADBTarget XML元素指定要由目标内容替换的页面区域。
 
 >[!IMPORTANT]
 >
@@ -111,7 +114,7 @@ source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
 
 #### 配置 landingPage.xml.js
 
-* 以下是 landingPage.xml.js 的配置：
+* 以下是landingPage.xml.js的配置：
 
    ```js
    <alertTemplate> 
@@ -122,7 +125,7 @@ source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
    </alertTemplate> 
    ```
 
-* 如果对 Target 的请求成功，并且返回了您的选件内容，则您的页面将最终为：
+* 如果目标请求成功，并返回了优惠内容，则您的页面将生成：
 
    ```objective-c
    <alertTemplate> 
@@ -131,7 +134,7 @@ source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
    </alertTemplate>
    ```
 
-* 如果 Target 服务器无法访问或请求超时，则您的页面将最终为：
+* 如果无法访问目标服务器或请求超时，则您的页面将生成：
 
    ```objective-c
    <alertTemplate> 
