@@ -1,20 +1,23 @@
 ---
-description: 您可以使用 Adobe SDK 收集个人识别信息 (PII) 并将其发送至第三方端点。
-seo-description: 您可以使用 Adobe SDK 收集个人识别信息 (PII) 并将其发送至第三方端点。
+description: 您可以使用 Adobe SDK 收集个人身份信息 (PII) 并将其发送至第三方端点。
+seo-description: 您可以使用 Adobe SDK 收集个人身份信息 (PII) 并将其发送至第三方端点。
 seo-title: PII 回发
 title: PII 回发
 uuid: 08f76a52-75dd-4fc1-b4cc-4f5eef93d0f7
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 06144a1695ac40ce984656491456968888f9e96e
+workflow-type: tm+mt
+source-wordcount: '178'
+ht-degree: 88%
 
 ---
 
 
 # PII 回发 {#pii-postbacks}
 
-您可以使用 Adobe SDK 收集个人识别信息 (PII) 并将其发送至第三方端点。
+您可以使用 Adobe SDK 收集个人身份信息 (PII) 并将其发送至第三方端点。
 
-如果要使用 Adobe SDK 收集 PII，您应当发送一个跟踪 PII 调用。尽管使用此调用能够收集 PII 数据，但 SDK 不会自动将该数据发送到任何 Adobe 端点。需要对 PII 类型回发配置相应的端点。
+如果要使用 Adobe SDK 收集 PII，应发送一个 PII 跟踪调用。尽管使用此调用可以收集PII数据，但SDK不会自动将数据发送到任何Adobe端点。 需要对 PII 类型回发配置相应的端点。
 
 >[!TIP]
 >
