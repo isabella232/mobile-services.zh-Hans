@@ -6,9 +6,9 @@ solution: Experience Cloud,Analytics
 title: 地理位置和目标点
 topic: Developer and implementation
 uuid: b8209370-cbc4-40f9-97d8-017e2d74a377
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '596'
 ht-degree: 100%
 
