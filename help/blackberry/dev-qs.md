@@ -1,23 +1,26 @@
 ---
-title: 开发人员快速入门
-seo-title: BlackBerry Developer Quick Start for Adobe Mobile Services
-description: The BlackBerry Developer Quick Start Guide helps you understand the process to implement the BlackBerry library for Adobe Mobile Services.
-seo-description: The BlackBerry Developer Quick Start Guide helps you understand the process to implement the BlackBerry library for Adobe Mobile Services.
+title: 开发人员快速开始
+seo-title: 针对Adobe移动服务的BlackBerry开发人员快速开始
+description: BlackBerry开发人员快速开始指南可以帮助您了解为Adobe移动服务实施BlackBerry库的过程。
+seo-description: BlackBerry开发人员快速开始指南可以帮助您了解为Adobe移动服务实施BlackBerry库的过程。
 translation-type: tm+mt
 source-git-commit: 19264af3f4a675add6f61c27f4cdaf20033b9bb7
+workflow-type: tm+mt
+source-wordcount: '371'
+ht-degree: 1%
 
 ---
 
 
-# Developer quick start
+# 开发人员快速入门
 
-此信息可帮助您了解 BlackBerry 库的实施过程。
+此信息有助于您了解实施BlackBerry库的过程。
 
-## 获取 SDK
+## 获取SDK
 
-**SDK 需要 BlackBerry 10 或更高版本。**
+**SDK需要BlackBerry 10或更高版本。**
 
-在解压缩下载的 SDK 之后，请确认以下文件存在于 `AdobeMobile` 文件夹中：
+解压下载的SDK后，验证文件夹中是否存在以下文 `AdobeMobile` 件：
 
 * `Device-Coverage/libADBMobileShared.so`
 * `Device-Debug/libADBMobileShared.so`
@@ -31,46 +34,46 @@ source-git-commit: 19264af3f4a675add6f61c27f4cdaf20033b9bb7
 * `Simulator-Debug/libADBMobileShared.so`
 * `Simulator-Profile/libADBMobileShared.so`
 
-## 将 SDK 添加到您的项目
+## 将SDK添加到您的项目
 
-1. Right-click on your project and select **[!UICONTROL Configure]** &gt; **[!UICONTROL Add Library]**.
-1. Select **[!UICONTROL External library]** and click **[!UICONTROL Next]**.
-1. 单击&#x200B;**[!UICONTROL 设备库]**&#x200B;字段旁边的&#x200B;**浏览[!UICONTROL 。]**
+1. 右键单击您的项目，然后选择“ **[!UICONTROL 配置]** ”> **[!UICONTROL “添加库]**”。
+1. 选择“ **[!UICONTROL 外部库]** ”，然后单 **[!UICONTROL 击“下一步]**”。
+1. 单击 **[!UICONTROL 设备]** “库”字 **[!UICONTROL 段旁边的“]** 浏览”。
 1. Navigate to the `ADBMobile-4.0.0BETA-BlackBerry` folder.
-1. In the `Device-Debug` folder, select `libADBMobileShared.so` and click **[!UICONTROL Open]**.
-1. 单击&#x200B;**[!UICONTROL 模拟器库]**&#x200B;字段旁边的&#x200B;**浏览[!UICONTROL 。]**
+1. 在文件 `Device-Debug` 夹中，选 `libADBMobileShared.so` 择并单 **[!UICONTROL 击打开]**。
+1. 单击 **[!UICONTROL Simulator库]** 字段旁 **[!UICONTROL 边的“浏览]** ”。
 1. Navigate to the `ADBMobile-4.0.0BETA-BlackBerry` folder.
-1. In the `Device-Debug` folder, select `libADBMobileShared.so` and click **[!UICONTROL Open]**.
-1. 单击&#x200B;**[!UICONTROL 包含文件夹]**&#x200B;字段旁边的&#x200B;**添加[!UICONTROL 。]**
+1. 在文件 `Device-Debug` 夹中，选 `libADBMobileShared.so` 择并单 **[!UICONTROL 击打开]**。
+1. 单击 **[!UICONTROL “包括]** ”文件夹字段 **[!UICONTROL 旁边的“]** 添加”。
 1. Navigate to the `ADBMobile-4.0.0BETA-BlackBerry` folder.
-1. 将 `public` 文件夹添加到包含项中。
-1. In the `ADBMobile-4.0.0BETA-BlackBerry` folder, there is a `.json` config file named `ADBMobileConfig.json`.
+1. 将文件夹 `public` 添加到您的包含中。
+1. 在文 `ADBMobile-4.0.0BETA-BlackBerry` 件夹中，有一个名 `.json` 为的配置文件 `ADBMobileConfig.json`。
 
-   将该文件复制到项目的根目录。
-1. Right-click on your project and select **[!UICONTROL Refresh]**.
+   将该文件复制到项目的根目录中。
+1. 右键单击您的项目，然后选择“ **[!UICONTROL 刷新]**”。
 
-   The `.json` file should now be visible in your **[!UICONTROL Project Explorer]**.
-1. 打开项目的 `bar-descriptor.xml` 文件。
-1. 在窗口底部选择&#x200B;**[!UICONTROL 资产]选项卡。**
-1. 确认已选择&#x200B;**[!UICONTROL （所有配置）]**，然后单击窗口的&#x200B;**[!UICONTROL 资产]部分中的**&#x200B;添加文件&#x200B;**。**
+   文 `.json` 件现在应在项目资源管理器 **[!UICONTROL 中可见]**。
+1. 打开 `bar-descriptor.xml` 项目的文件。
+1. 在窗口底部，选择“资产” **[!UICONTROL 选项卡]** 。
+1. 确认已 **[!UICONTROL 选择(所有配置]** )，然后单击窗 **[!UICONTROL 口的“资]** 产”部 **[!UICONTROL 分中的]** “添加文件”。
    >[!TIP]
    >
-   >There is a bug in the QNX Momentics IDE that sometimes prevents those buttons from being visible. If you can't see the buttons, resize the windows until they appear.
+   >QNX Momentics IDE中存在一个错误，它有时会阻止这些按钮可见。 如果看不到按钮，请调整窗口大小，直到它们出现。
 
-1. Click Workspace.****
-1. Find the `ADBMobileConfig.json` file in your project and click **[!UICONTROL OK]**.
+1. 单击“ **[!UICONTROL 工作区]**”。
+1. 在项目 `ADBMobileConfig.json` 中查找文件，然后单 **[!UICONTROL 击确定]**。
 
-Your application can import the classes/interfaces from the `adobeMobileLibrary.jar` library by using `#include <ADBMobile.hpp>`.
+您的应用程序可以使用从库导入类 `adobeMobileLibrary.jar` /接口 `#include <ADBMobile.hpp>`。
 
 ## 添加应用程序权限
 
-In `bar-descriptor.xml` in the project directory, add the line `<permission>access_internet</permission>`, or in the QNX Momentics IDE, select the **[!UICONTROL Internet]** box on the permissions section of the **[!UICONTROL Application]** tab.
+在 `bar-descriptor.xml` 项目目录中，添加一行 `<permission>access_internet</permission>`，或在QNX Momentics IDE中，选择“应用程序”选项卡的“ **[!UICONTROL 权限]** ”部分上的“Internet **[!UICONTROL ”框]** 。
 
-## Update the `ADBMobileConfig.json` config file
+## 更新配 `ADBMobileConfig.json` 置文件
 
-`ADBMobileConfig.json` 文件包含全局 SDK 设置。您需要更新几个值才能开始使用它。
+文件 `ADBMobileConfig.json` 包含全局SDK设置。 您需要更新一些值才能开始。
 
-以下是 `ADBMobileConfig.json` 文件的示例：
+The following is an example of an `ADBMobileConfig.json` file:
 
 ```json
 {
@@ -87,6 +90,6 @@ In `bar-descriptor.xml` in the project directory, add the line `<permission>acce
 }
 ```
 
-You must at least update the `rsids` and `server` parameters. For more details, see Adobe Mobile class and method reference.[](/help/blackberry/methods.md)
+您必须至少更新 `rsids` 和 `server` 参数。 有关详细信息，请参 [阅Adobe移动类和方法参考](/help/blackberry/methods.md)。
 
-现在，您可以在 BlackBerry 10 应用程序中实施 Analytics。
+您现在可以在BlackBerry 10应用程序中实施Analytics。
