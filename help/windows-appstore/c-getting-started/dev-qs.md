@@ -1,21 +1,21 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: 开发人员快速开始
+seo-title: 开发人员快速入门
 solution: Experience Cloud,Analytics
-title: 开发人员快速开始
+title: 开发人员快速入门
 topic: Developer and implementation
 uuid: b368959b-d985-436e-8b3e-97e355a97951
 translation-type: tm+mt
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
 workflow-type: tm+mt
 source-wordcount: '919'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
 
-# 开发人员快速开始 {#developer-quick-start}
+# 开发人员快速入门 {#developer-quick-start}
 
 您需要Visual Studio 2013或更高版本来实施SDK。
 
