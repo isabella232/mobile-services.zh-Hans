@@ -1,35 +1,38 @@
 ---
-description: 您可以将图像文件附加到 Apple 通知。添加可视组件能够显著提高推送通知带来的用户参与度。
-seo-description: 您可以将图像文件附加到 Apple 通知。添加可视组件能够显著提高推送通知带来的用户参与度。
+description: 可以将图像文件附加到Apple通知。 添加可视组件可以显着提高用户对推送通知的参与度。
+seo-description: 可以将图像文件附加到Apple通知。 添加可视组件可以显着提高用户对推送通知的参与度。
 seo-title: 接收富推送通知
 title: 接收富推送通知
 uuid: 0dbda409-cf49-4eb8-90ee-baf27911dc07
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: d028fe0f9477bc011aa8fda21a0a389808df0fce
+workflow-type: tm+mt
+source-wordcount: '228'
+ht-degree: 29%
 
 ---
 
 
 # 接收富推送通知 {#receive-rich-push-notifications}
 
-您可以将图像文件附加到 Apple 通知。添加可视组件能够显著提高推送通知带来的用户参与度。
+可以将图像文件附加到Apple通知。 添加可视组件可以显着提高用户对推送通知的参与度。
 
-要在 iOS 应用程序中接收富推送通知，请执行以下操作：
+要在iOS应用程序中接收富推送通知，请执行以下操作：
 
-1. 完成[推送消息](/help/ios/messaging-main/push-messaging/push-messaging.md)中的步骤，为应用程序实施推送消息。
-1. 确认您可以向应用程序发送文本推送消息。
-1. 完成以下步骤来添加通知服务扩展：
+1. 通过完成推送消息中的步骤，为应用程序实 [施推送消息](/help/ios/messaging-main/push-messaging/push-messaging.md)。
+1. 验证是否可以向应用程序发送文本推送消息。
+1. 通过完成以下步骤添加通知服务扩展：
 
-   1. 在您的 Xcode 项目中，选择&#x200B;**[!UICONTROL 文件]** &gt; **[!UICONTROL 新建]** &gt; **[!UICONTROL 目标]**。
+   1. In your Xcode project, select  **[!UICONTROL File]** > **[!UICONTROL New]** > **[!UICONTROL Target]**.
    1. 选择&#x200B;**[!UICONTROL 通知服务扩展]**。
    1. 确认存在 `NotificationService.m` 文件。
 
 1. 打开 `NotificationService.m` 文件，并确认存在以下委托方法：
 
-   * 一个用于接收通知请求的方法。
-   * 一个用于处理服务扩展过期的方法。
+   * 一种接收通知请求的方法。
+   * 一种处理服务扩展到期的方法。
 
-      要接收富推送通知，请使用第一个方法：
+      要接收富推送通知，请使用第一种方法：
 
       ```objective-c
       (void)didReceiveNotificationRequest:(UNNotificationRequest *)request withContentHandler:(void (^)(UNNotificationContent *contentToDeliver))contentHandler;
@@ -72,4 +75,4 @@ source-git-commit: d028fe0f9477bc011aa8fda21a0a389808df0fce
       ```
 
 
-有关 iOS 富推送通知的更多信息，请参阅 [UNNotificationAttachment](https://developer.apple.com/documentation/usernotifications/unnotificationattachment)。
+For more information about rich push notifications with iOS, see [UNNotificationAttachment](https://developer.apple.com/documentation/usernotifications/unnotificationattachment).
