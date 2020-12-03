@@ -1,19 +1,19 @@
 ---
 description: BlackBerry库提供的类和方法。
 seo-description: BlackBerry库提供的类和方法。
-seo-title: Adobe移动类和方法参考
-title: Adobe移动类和方法参考
+seo-title: Adobe Mobile 类和方法参考
+title: Adobe Mobile 类和方法参考
 uuid: 1e42d759-be43-4bb3-ac1a-c7d64133d61c
 translation-type: tm+mt
 source-git-commit: c198ae57b05f8965a8e27191443ee2cd552d6c50
 workflow-type: tm+mt
 source-wordcount: '988'
-ht-degree: 55%
+ht-degree: 59%
 
 ---
 
 
-# Adobe移动类和方法参考 {#adobe-mobile-class-and-method-reference}
+# Adobe Mobile 类和方法参考 {#adobe-mobile-class-and-method-reference}
 
 BlackBerry库提供的类和方法。
 
@@ -246,7 +246,7 @@ The `ADBMobileConfig.json` file must be placed in the *assets* folder.
 
 * **lifecycleTimeout**
 
-   指定在启动被视为新会话之前，应用程序启动之间必须经历的时长（以秒为单位）。 此超时也适用于应用程序被发送到后台后又重新启用的情况。应用程序在后台所用的时间不包括在会话时长中。
+   指定从应用程序启动到将该启动视为新会话之前必须经过的时长（以秒为单位）。此超时也适用于应用程序被发送到后台后又重新启用的情况。应用程序在后台所用的时间不包括在会话时长中。
 
    默认值为300秒。
 
