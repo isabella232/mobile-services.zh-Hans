@@ -2,9 +2,9 @@
 description: 'null'
 keywords: Unity
 seo-description: 'null'
-seo-title: ADBMobile.cs方法
+seo-title: ADBMobile.cs 方法
 solution: Experience Cloud
-title: ADBMobile.cs方法
+title: ADBMobile.cs 方法
 uuid: af504934-febd-45d9-81e2-2a310f4c65dc
 translation-type: tm+mt
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
@@ -15,7 +15,7 @@ ht-degree: 66%
 ---
 
 
-# ADBMobile.cs方法 {#adbmobile-cs-methods}
+# ADBMobile.cs 方法 {#adbmobile-cs-methods}
 
 ## 配置方法
 
