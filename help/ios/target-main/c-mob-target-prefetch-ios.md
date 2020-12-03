@@ -4,8 +4,11 @@ seo-description: Adobe Target 预取功能使用 iOS Mobile SDK 获取选件内�
 seo-title: 在 iOS 中预取选件内容
 title: 在 iOS 中预取选件内容
 uuid: fef58042-65e2-4579-b8f1-d21554d2af57
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: fa7375ac8a1345d81748bcf635791c46d3943fed
+workflow-type: tm+mt
+source-wordcount: '760'
+ht-degree: 86%
 
 ---
 
@@ -18,7 +21,7 @@ Adobe Target 预取功能使用 iOS Mobile SDK 获取选件内容，并通过缓
 >
 >Adobe Target 中的“自动定位”、“自动分配”和“自动个性化”活动类型不支持 iOS Mobile SDK 中的预取功能。
 
-此过程可缩短加载时间，阻止多个网络调用，并允许 Adobe Target 接收有关移动设备应用程序用户访问了哪个 mbox 的通知。在预取调用期间将检索和缓存所有内容，对于以后所有包含指定 mbox 名称的缓存内容的调用，都将从缓存中检索该内容。
+此过程可缩短加载时间、阻止多个网络调用，并允许Adobe Target通知移动应用用户访问了哪个mbox。 在预回迁调用期间，将检索和缓存所有内容，并从缓存中检索此内容，以备将来所有调用（包含指定mbox名称的缓存内容）。
 
 在启动时，预取内容不会持久保留。只要应用程序处于活动状态，或者在调用 `clearPrefetchCache()` 方法之前，都会一直缓存预取内容。
 
@@ -154,13 +157,13 @@ if (MobileConfig.getInstance().mobileUsingTarget()){
 
 * **`orderParameters`**
 
-   包含订单参数键值对的词典。
+   包含顺序参数的键值对的字典。
 
    * **类型**：NSDictionary*
 
 * **`productParameters`**
 
-   包含产品参数键值对的词典。
+   包含产品参数键值对的字典。
 
    * **类型**：NSDictionary*
 
@@ -176,13 +179,13 @@ if (MobileConfig.getInstance().mobileUsingTarget()){
 
 * **`mboxParameters`**
 
-   NSString 值，表示要检索的位置/mbox 的名称。
+   表示要检索的位置/mbox的名称的NSString值。
 
    * **类型**：NSString*
 
 * **`defaultContent`**
 
-   Target 服务器无法访问时将返回的默认内容。
+   如果目标服务器不可到达，将返回的默认内容。
 
    * **类型**：NSString*
 
