@@ -1,21 +1,21 @@
 ---
 description: 此扩展为您提供了一种更轻松的方式，在您的项目中添加Experience Cloud解决方案4.x Windows SDK的参考。
 seo-description: 此扩展为您提供了一种更轻松的方式，在您的项目中添加Experience Cloud解决方案4.x Windows SDK的参考。
-seo-title: 针对Experience Cloud解决方案4.x SDK的Windows Visual Studio扩展
+seo-title: 适用于 Experience Cloud 解决方案 4.x SDK 的 Windows Visual Studio 扩展
 solution: Experience Cloud,Analytics
-title: 针对Experience Cloud解决方案4.x SDK的Windows Visual Studio扩展
+title: 适用于 Experience Cloud 解决方案 4.x SDK 的 Windows Visual Studio 扩展
 topic: Developer and implementation
 uuid: e48faf54-8b08-4224-9d80-e553a983129e
 translation-type: tm+mt
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
 workflow-type: tm+mt
 source-wordcount: '208'
-ht-degree: 2%
+ht-degree: 16%
 
 ---
 
 
-# Windows Visual Studio extensions for Experience Cloud Solutions 4.x SDK {#windows-visual-studio-extensions-for-experience-cloud-solutions-x-sdk}
+# 适用于 Experience Cloud 解决方案 4.x SDK 的 Windows Visual Studio 扩展 {#windows-visual-studio-extensions-for-experience-cloud-solutions-x-sdk}
 
 此扩展提供了一种更轻松的方式，在您的项目中添加Experience Cloud解决方案4.x Windows SDK的引用。
 
