@@ -7,9 +7,9 @@ solution: Experience Cloud,Analytics
 title: 入门指南
 topic: Metrics
 uuid: a7ae7c5a-dab8-4603-b4cd-af73a2f09f71
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1373'
 ht-degree: 100%
 
