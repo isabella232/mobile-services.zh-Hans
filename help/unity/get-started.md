@@ -6,9 +6,9 @@ seo-title: 适用于 iOS 和 Android 4.x SDK 的 Unity 插件
 solution: Experience Cloud
 title: 适用于 iOS 和 Android 4.x SDK 的 Unity 插件
 uuid: 83289a73-982d-4472-a8c8-00b562dc80f5
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '141'
 ht-degree: 100%
 
