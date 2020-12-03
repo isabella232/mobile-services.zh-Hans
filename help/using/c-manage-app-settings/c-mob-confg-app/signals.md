@@ -4,9 +4,9 @@ seo-description: 回传允许您将 Adobe Mobile 收集的数据发送至单独�
 seo-title: 配置回发
 title: 配置回发
 uuid: a026575c-057b-4868-b6c8-9514cbc32b4d
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 7ae626be4d71641c6efb127cf5b1d3e18fccb907
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '474'
 ht-degree: 100%
 
