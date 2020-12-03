@@ -6,9 +6,9 @@ solution: Experience Cloud,Analytics
 title: 适用于 iOS 的 Target 方法
 topic: Developer and implementation
 uuid: 692bcda1-02ba-4902-bd65-15888adf1952
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '656'
 ht-degree: 100%
 
@@ -56,8 +56,9 @@ NSString *const ADBTargetParameterMboxHost;
 >[!IMPORTANT]
 >
 >* 如果您使用的是&#x200B;**低于** 4.14.0 版本的 SDK，请参阅[输入参数](https://developers.adobetarget.com/api/#input-parameters)以了解参数限制。
->
->* 如果您使用的是 4.14.0 版本&#x200B;**或更高版本**&#x200B;的 SDK，请参阅[批量输入参数](https://developers.adobetarget.com/api/#batch-input-parameters)以了解参数限制。
+   >
+   >
+* 如果您使用的是 4.14.0 版本&#x200B;**或更高版本**&#x200B;的 SDK，请参阅[批量输入参数](https://developers.adobetarget.com/api/#batch-input-parameters)以了解参数限制。
 
 
 ### 方法
