@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
 workflow-type: tm+mt
 source-wordcount: '898'
-ht-degree: 71%
+ht-degree: 72%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 71%
 
    （必需）当访客以某种方式视图视频时，收集视频的名称（如实施中指定）。您可以为此变量添加分类。
 
-   (**Optional**) The Custom Insight variable provides video pathing information.
+   （**可选**）自定义分析变量可提供视频路径信息。
 
    * 变量类型：eVar
    * 默认过期：访问
