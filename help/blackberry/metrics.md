@@ -11,7 +11,7 @@ translation-type: tm+mt
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
 workflow-type: tm+mt
 source-wordcount: '888'
-ht-degree: 70%
+ht-degree: 77%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 70%
 
 ## 生命周期量度和维度 {#section_78F036C4296F4BA3A47C2044F79C86C1}
 
-配置后，生命周期指标将以上下文数据参数的形式发送到Analytics，以参数形式发送到每个mbox调用的目标，并作为受众管理的信号。 分析和目标使用相同的格式，而受众管理对每个指标使用不同的前缀。
+配置后，生命周期量度会在上下文数据参数中发送到 Analytics，随每个 mbox 调用在参数中发送到 Target，并作为信号发送到受众管理。Analytics 和 Target 使用相同的格式，而受众管理则对每个量度使用不同的前缀。
 
 对于Analytics，每次生命周期跟踪调用时发送的上下文数据都会使用度量或维度自动捕获并报告。
 
@@ -68,7 +68,7 @@ ht-degree: 70%
 
 * **启动次数**
 
-   每次运行时触发，包括崩溃和安装。 当超出生命周期会话超时时，从后台在恢复上触发。
+   在每次运行时触发，包括崩溃次数和安装次数。在超出生命周期会话超时后，当从后台恢复应用程序时也会触发。
 
    * Analytics context data/Target parameter: `a.LaunchEvent`
    * Audience Manager 信号：`c_a_LaunchEvent`
