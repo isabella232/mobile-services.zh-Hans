@@ -1,21 +1,21 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: 开发人员快速开始
+seo-title: 开发人员快速入门
 solution: Experience Cloud,Analytics
-title: 开发人员快速开始
+title: 开发人员快速入门
 topic: Developer and implementation
 uuid: 11c06fcf-d5e4-4858-9a4e-3bf66cdd2a48
 translation-type: tm+mt
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
 workflow-type: tm+mt
 source-wordcount: '842'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
 
-# 开发人员快速开始{#developer-quick-start}
+# 开发人员快速入门{#developer-quick-start}
 
 以下是关于如何实施通用Windows平台库的一些信息。
 
