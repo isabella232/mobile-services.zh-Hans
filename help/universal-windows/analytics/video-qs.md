@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
 workflow-type: tm+mt
 source-wordcount: '899'
-ht-degree: 68%
+ht-degree: 72%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 68%
 
    (**必需**)当访客以某种方式视图视频时，收集视频的名称（如实施中指定）。您可以为此变量添加分类。
 
-   (**Optional**) The Custom Insight variable provides video pathing information.
+   （**可选**）自定义分析变量可提供视频路径信息。
 
    * 变量类型：eVar
    * 默认过期：访问
@@ -42,7 +42,7 @@ ht-degree: 68%
 
 * **a.media.segment**
 
-   (**Required**) Collects video segment data, including the segment name and the order in which the segment occurs in the video.
+   （**必需**）收集视频区段数据，包括区段名称以及区段在视频中出现的顺序。
 
    此变量在自动跟踪播放器事件时通过启用 `segmentByMilestones` 变量来填充，或在手动跟踪播放器事件时通过设置自定义区段名称来填充。For example, when a visitor views the first segment in a video, SiteCatalyst might collect the following in the `1:M:0-25` segments eVar.
 
