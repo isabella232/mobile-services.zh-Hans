@@ -2,20 +2,20 @@
 description: 帮助您从脚本调用插件的信息。
 keywords: Xamarin
 seo-description: 帮助您从脚本调用插件的信息。
-seo-title: 拨打图书馆
+seo-title: 调用库
 solution: Experience Cloud
-title: 拨打图书馆
+title: 调用库
 uuid: a480201a-4090-4662-8dd8-56f62144cd93
 translation-type: tm+mt
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
 workflow-type: tm+mt
 source-wordcount: '108'
-ht-degree: 0%
+ht-degree: 13%
 
 ---
 
 
-# 拨打图书馆{#making-calls-to-the-library}
+# 调用库{#making-calls-to-the-library}
 
 此信息可帮助您从脚本中调用插件。
 
