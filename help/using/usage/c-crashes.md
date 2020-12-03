@@ -4,8 +4,11 @@ seo-description: 崩溃次数报表可提供应用程序的崩溃信息。您既
 seo-title: “崩溃次数”报表
 title: “崩溃次数”报表
 uuid: 0c96190f-e16b-49d5-aaa5-b651780a7266
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 3b744229b3fc288363be74c3c4adcd71ecc4fad4
+workflow-type: tm+mt
+source-wordcount: '256'
+ht-degree: 100%
 
 ---
 
