@@ -2,9 +2,9 @@
 description: 用于Experience Cloud解决方案4.x SDK的Xamarin组件的Android方法。
 keywords: Xamarin
 seo-description: 用于Experience Cloud解决方案4.x SDK的Xamarin组件的Android方法。
-seo-title: Android方法
+seo-title: Android 方法
 solution: Experience Cloud
-title: Android方法
+title: Android 方法
 uuid: 860af1c4-f57e-4bcb-8308-4e316da9a27b
 translation-type: tm+mt
 source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
@@ -15,7 +15,7 @@ ht-degree: 67%
 ---
 
 
-# Android方法{#android-methods}
+# Android 方法{#android-methods}
 
 用于Experience Cloud解决方案4.x SDK的Xamarin组件的Android方法。
 
