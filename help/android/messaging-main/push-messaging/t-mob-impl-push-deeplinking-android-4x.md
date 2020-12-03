@@ -1,11 +1,14 @@
 ---
 description: 在 Adobe Mobile Services 用户界面中配置深层链接 URL 后，该 URL 将通过 adb_deeplink 键包含在推送有效负荷中。
 seo-description: 在 Adobe Mobile Services 用户界面中配置深层链接 URL 后，该 URL 将通过 adb_deeplink 键包含在推送有效负荷中。
-seo-title: 实施包含深层链接的推送消息
-title: 实施包含深层链接的推送消息
+seo-title: 通过深层链接实现推送消息
+title: 通过深层链接实现推送消息
 uuid: e24f9248-8d48-4e57-84af-3a05b72e2a09
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 13ff2cb549c4b82a4e0285e1c7c6b3f9c1a5bd4b
+workflow-type: tm+mt
+source-wordcount: '186'
+ht-degree: 75%
 
 ---
 
@@ -26,7 +29,7 @@ source-git-commit: 13ff2cb549c4b82a4e0285e1c7c6b3f9c1a5bd4b
 
       当用户单击推送消息时，将触发深层链接。
 
-   * 如果深层链接 URL **不在**&#x200B;推送有效负荷中，则创建一个将打开您的某个活动的意图。
+   * 如果深层链接 **URL不在** 推送有效负荷中，请创建打开您的某个活动的意图。
 
 ## 示例
 
