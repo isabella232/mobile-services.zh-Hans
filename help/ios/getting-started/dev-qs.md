@@ -7,10 +7,10 @@ title: 核心实施和生命周期
 topic: Developer and implementation
 uuid: 96d06325-e424-4770-8659-4b5431318ee3
 translation-type: tm+mt
-source-git-commit: b2fce063a2c97eecb2abc1a21ad8e8ab56fc151b
+source-git-commit: c7400359bc19150926a67b991ba219a7fa187442
 workflow-type: tm+mt
-source-wordcount: '885'
-ht-degree: 72%
+source-wordcount: '861'
+ht-degree: 75%
 
 ---
 
@@ -39,20 +39,21 @@ ht-degree: 72%
 
 1. 下载，解压缩`[Your_App_Name_]AdobeMobileLibrary-4.*-iOS.zip`文件，并验证您在`AdobeMobileLibrary`目录下是否有以下软件组件：
 
+   * `ADBMobile.h` -用于iOS SDK的Objective-C头文件。
    * `ADBMobileConfig.json` -为您的应用程序自定义的SDK配置文件。
-   * `AdobeMobile.xcframework` -包含两个胖二进制文件，每个二进制文件用于iOS设备(armv7、armv7s、arm64)和模拟器(i386、x86_64、arm64)。还包含SDK的`ADBMobile.h`头文件。
+   * `AdobeMobile.xcframework` -包含两个胖二进制文件，每个二进制文件用于iOS设备(armv7、armv7s、arm64)和模拟器(i386、x86_64、arm64)。
 
       定位iOS应用程序时应链接此XCFramework。
 
-   * `AdobeMobileExtension.xcframework` -包含两个胖二进制文件，每个二进制文件用于iOS设备(armv7、armv7s、arm64)和模拟器(i386、x86_64、arm64)。还包含SDK的`ADBMobile.h`头文件。
+   * `AdobeMobileExtension.xcframework` -包含两个胖二进制文件，每个二进制文件用于iOS设备(armv7、armv7s、arm64)和模拟器(i386、x86_64、arm64)。
 
       定位iOS扩展时应链接此XCFramework。
 
-   * `AdobeMobileWatch.xcframework` -包含两个胖二进制文件，每个二进制文件用于watchOS设备(arm64_32、armv7k)和模拟器(i386、x86_64、arm64)。还包含SDK的`ADBMobile.h`头文件。
+   * `AdobeMobileWatch.xcframework` -包含两个胖二进制文件，每个二进制文件用于watchOS设备(arm64_32、armv7k)和模拟器(i386、x86_64、arm64)。
 
       定位Apple Watch(watchOS)应用程序时，应链接此XCFramework。
 
-   * `AdobeMobileTV.xcframework` -包含两个胖二进制文件，每个二进制文件用于tvOS设备(arm64)和模拟器(x86_64、arm64)。还包含SDK的`ADBMobile.h`头文件。
+   * `AdobeMobileTV.xcframework` -包含两个胖二进制文件，每个二进制文件用于tvOS设备(arm64)和模拟器(x86_64、arm64)。
 
       定位Apple TV(tvOS)应用程序时应链接此XCFramework。
 
