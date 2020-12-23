@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: c7400359bc19150926a67b991ba219a7fa187442
 workflow-type: tm+mt
 source-wordcount: '861'
-ht-degree: 75%
+ht-degree: 99%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 75%
 
 >[!IMPORTANT]
 >
->SDK需要iOS 8或更高版本。
+>SDK 需要 iOS 8 或更高版本。
 
 **先决条件**
 
@@ -33,33 +33,33 @@ ht-degree: 75%
 
 >[!IMPORTANT]
 >
->从4.21.0版开始，SDK通过XCFrameworks分发。 如果使用4.21.0或更高版本，请按照以下步骤操作。
+>从版本 4.21.0 开始，SDK 通过 XCFramework 进行分发。如果使用 4.21.0 或更高版本，请按照以下步骤操作。
 >
->SDK的4.21.0版要求Xcode 12.0或更高版本，如果适用，还要求Cocoapods 1.10.0或更高版本。
+>SDK 版本 4.21.0 需要 Xcode 12.0 或更高版本以及（如果适用）Cocoapods 1.10.0 或更高版本。
 
-1. 下载，解压缩`[Your_App_Name_]AdobeMobileLibrary-4.*-iOS.zip`文件，并验证您在`AdobeMobileLibrary`目录下是否有以下软件组件：
+1. 下载并解压缩 `[Your_App_Name_]AdobeMobileLibrary-4.*-iOS.zip` 文件，同时确认 `AdobeMobileLibrary` 目录中具有以下软件组件：
 
    * `ADBMobile.h` -用于iOS SDK的Objective-C头文件。
-   * `ADBMobileConfig.json` -为您的应用程序自定义的SDK配置文件。
-   * `AdobeMobile.xcframework` -包含两个胖二进制文件，每个二进制文件用于iOS设备(armv7、armv7s、arm64)和模拟器(i386、x86_64、arm64)。
+   * `ADBMobileConfig.json` - 为您的应用程序自定义的 SDK 配置文件。
+   * `AdobeMobile.xcframework` - 包含两个胖二进制文件，分别用于 iOS 设备（armv7、armv7s、arm64）和模拟器（i386、x86_64、arm64）。
 
-      定位iOS应用程序时应链接此XCFramework。
+      定位 iOS 应用程序时应链接此 XCFramework。
 
-   * `AdobeMobileExtension.xcframework` -包含两个胖二进制文件，每个二进制文件用于iOS设备(armv7、armv7s、arm64)和模拟器(i386、x86_64、arm64)。
+   * `AdobeMobileExtension.xcframework` - 包含两个胖二进制文件，分别用于 iOS 设备（armv7、armv7s、arm64）和模拟器（i386、x86_64、arm64）。
 
-      定位iOS扩展时应链接此XCFramework。
+      定位 iOS 扩展时应链接此 XCFramework。
 
-   * `AdobeMobileWatch.xcframework` -包含两个胖二进制文件，每个二进制文件用于watchOS设备(arm64_32、armv7k)和模拟器(i386、x86_64、arm64)。
+   * `AdobeMobileWatch.xcframework` - 包含两个胖二进制文件，分别用于 watchOS 设备（arm64_32、armv7k）和模拟器（i386、x86_64、arm64）。
 
-      定位Apple Watch(watchOS)应用程序时，应链接此XCFramework。
+      定位 Apple Watch (watchOS) 应用程序时应链接此 XCFramework。
 
-   * `AdobeMobileTV.xcframework` -包含两个胖二进制文件，每个二进制文件用于tvOS设备(arm64)和模拟器(x86_64、arm64)。
+   * `AdobeMobileTV.xcframework` - 包含两个胖二进制文件，分别用于 tvOS 设备 (arm64) 和模拟器（x86_64、arm64）。
 
-      定位Apple TV(tvOS)应用程序时应链接此XCFramework。
+      定位 Apple TV (tvOS) 应用程序时应链接此 XCFramework。
 
 >[!IMPORTANT]
 >
->在4.21.0以前的版本中，SDK通过二进制文件分发。 如果使用的版本早于4.21.0，请按照以下步骤操作。
+>在低于 4.21.0 的版本中，SDK 通过二进制文件进行分发。如果使用的版本低于 4.21.0，请按照以下步骤操作。
 
 1. 下载并解压缩 `[Your_App_Name_]AdobeMobileLibrary-4.*-iOS.zip` 文件，同时确认具有以下软件组件：
 
@@ -134,7 +134,7 @@ ht-degree: 75%
 
    >[!IMPORTANT]
    >
-   > 如果使用版本4.21.0或更高版本，请确保AdobeXCFrameworks未嵌入。
+   > 如果使用版本 4.21.0 或更高版本，请确保未嵌入 Adobe XCFramework。
 
    ![](assets/no-embed.png)
 
