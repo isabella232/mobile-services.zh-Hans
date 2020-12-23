@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: c7400359bc19150926a67b991ba219a7fa187442
 workflow-type: tm+mt
 source-wordcount: '530'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -21,16 +21,16 @@ ht-degree: 85%
 
 >[!IMPORTANT]
 >
->从4.21.0版开始，iOS SDK的Xcode 12版本是最低要求的。 如果您使用Cocoapods管理应用程序中的依赖项，AdobeSDK需要版本1.10.0或更高版本的Cocoapod。
+>从版本 4.21.0 开始，iOS SDK 的最低要求版本为 Xcode 12。如果您使用 Cocoapods 管理应用程序中的依赖项，Adobe SDK 需要版本为 1.10.0 或更高版本的 Cocoapods。
 
-如果使用4.21.0或更高版本，请在阅读文档时记住以下更改：
+如果使用 4.21.0 或更高版本，请在阅读文档时记住以下更改：
 
-* 每当提到二进制库文件时，应改用其XCFramework替换：
+* 每当提到二进制库文件时，应改用其 XCFramework 替换：
    * `AdobeMobileLibrary.a` > `AdobeMobile.xcframework`
    * `AdobeMobileLibrary_Extension.a` >  `AdobeMobileExtension.xcframework`
    * `AdobeMobileLibrary_Watch.a` >  `AdobeMobileWatch.xcframework`
    * `AdobeMobileLibrary_TV.a` >  `AdobeMobileTV.xcframework`
-* 如果手动将AdobeXCFrameworks添加到您的项目，请确保未嵌入它们。
+* 如果手动将 Adobe XCFramework 添加到您的项目，请确保未嵌入它们。
 
 >[!IMPORTANT]
 >
