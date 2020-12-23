@@ -6,11 +6,11 @@ solution: Experience Cloud,Analytics
 title: 发行说明
 topic: Developer and implementation
 uuid: e1613dc5-02a4-43a7-997a-29b4de98b4d1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b6c9154e925ce0a0530d4c8f0871a97198ecd840
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '518'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -19,11 +19,11 @@ ht-degree: 90%
 
 以下是适用于 Experience Cloud 解决方案的 iOS SDK 4.x 的发行说明、已知问题和热修复信息：
 
-**2020年12月15日：版本4.21.0**
+**2020 年 12 月 15 日：版本 4.21.0**
 
-* 常规- SDK现在使用XCFrameworks进行分发，以支持采用新Apple M1架构的硬件，同时保持对现有Intel架构的支持。
-   * 重要：升级到AdobeMobile XCFrameworks需要Xcode 12.0或更高版本
-   * 重要：如果使用Cocoapods，则升级到AdobeMobile XCFrameworks需要Cocoapods 1.10.0或更高版本
+* 常规 - SDK 现在使用 XCFramework 进行分发，以支持采用新 Apple M1 架构的硬件，同时保持对现有 Intel 架构的支持。
+   * 重要：升级到 AdobeMobile XCFramework 需要 Xcode 12.0 或更高版本
+   * 重要：如果使用 Cocoapods，则升级到 AdobeMobile XCFramework 需要 Cocoapods 1.10.0 或更高版本
 
 **2020 年 11 月 4 日：版本 4.20.0**
 
