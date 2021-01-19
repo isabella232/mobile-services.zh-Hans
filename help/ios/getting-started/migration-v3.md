@@ -7,7 +7,7 @@ title: 迁移至 4.x iOS 库
 topic: Developer and implementation
 uuid: 5668972b-f355-4e03-9df0-8c82ddf6809b
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: aab04abeb5edb6be886002e27ef1c5340b0a8f0d
 workflow-type: tm+mt
 source-wordcount: '895'
 ht-degree: 100%
@@ -112,7 +112,7 @@ ht-degree: 100%
 | trackingServer | &quot;server&quot;，删除 `"https://"` 前缀。会根据 &quot;ssl&quot; 设置自动添加协议前缀。 |
 | trackingServerSecure | 删除。 要实现安全连接，请定义 &quot;server&quot;，然后启用 &quot;ssl&quot;。 |
 | charSet | &quot;charset&quot; |
-| currencyCode | &quot;currency&quot; |
+| currencyCode | “货币” |
 | ssl | &quot;ssl&quot; |
 | linkTrackVars | 删除，不再使用。 |
 | linkTrackEvents | 删除，不再使用。 |
@@ -122,7 +122,7 @@ ht-degree: 100%
 | dynamicVariablePrefix | 删除，不再使用。 |
 | visitorNamespace | 删除，不再使用。 |
 | usePlugins | 删除，不再使用。 |
-| useBestPractices 所有对流失测量 (getChurnInstance) 的调用 | 删除，替换为生命周期量度。有关更多信息，请参阅[生命周期量度](//help/ios/metrics.md)。 |
+| useBestPractices 所有对流失测量 (getChurnInstance) 的调用 | 删除，替换为生命周期量度。有关更多信息，请参阅[生命周期量度](/help/ios/metrics.md)。 |
 
 
 ## 更新跟踪调用和跟踪变量 {#section_96E7D9B3CDAC444789503B7E7F139AB9}
