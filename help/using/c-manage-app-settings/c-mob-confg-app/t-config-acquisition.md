@@ -8,7 +8,7 @@ title: 配置 SDK 客户获取选项
 topic: Metrics
 uuid: 50ce51ad-39bf-4ac7-bd94-757443d11ca7
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: aab04abeb5edb6be886002e27ef1c5340b0a8f0d
 workflow-type: tm+mt
 source-wordcount: '174'
 ht-degree: 100%
@@ -24,7 +24,7 @@ ht-degree: 100%
 
    * **[!UICONTROL 启用]**
 
-      创建应用商店链接，以便您能够直接从 Apple App Store 和 Google Play 下载应用程序。通过所创建的这些链接，您可以将成功事件归因于下载。有关更多信息，请参阅[客户获取](//help/using/acquisition-main/acquisition-main.md)。
+      创建应用商店链接，以便您能够直接从 Apple App Store 和 Google Play 下载应用程序。通过所创建的这些链接，您可以将成功事件归因于下载。有关更多信息，请参阅[客户获取](/help/using/acquisition-main/acquisition-main.md)。
 
    * **[!UICONTROL 反向链接超时（秒）]**
 
