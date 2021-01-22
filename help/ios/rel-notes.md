@@ -6,11 +6,11 @@ solution: Experience Cloud,Analytics
 title: 发行说明
 topic: Developer and implementation
 uuid: e1613dc5-02a4-43a7-997a-29b4de98b4d1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 53d407056dd89dcf32d1895231999b2d92e879ec
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '533'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 97%
 
 以下是适用于 Experience Cloud 解决方案的 iOS SDK 4.x 的发行说明、已知问题和热修复信息：
 
-**2021年1月13日：版本4.21.1**
+**2021 年 1 月 13 日：版本 4.21.1**
 
-* 常规——修复了在应用程序关闭期间可能导致SQLite异常的问题。
+* 常规 - 修复了在应用程序关闭期间可能导致 SQLite 异常的问题。
 
 **2020 年 12 月 15 日：版本 4.21.0**
 
