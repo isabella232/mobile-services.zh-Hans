@@ -6,9 +6,9 @@ solution: Experience Cloud,Analytics
 title: 迁移至 4.x iOS 库
 topic: Developer and implementation
 uuid: 5668972b-f355-4e03-9df0-8c82ddf6809b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: aab04abeb5edb6be886002e27ef1c5340b0a8f0d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '895'
 ht-degree: 100%
 
@@ -112,7 +112,7 @@ ht-degree: 100%
 | trackingServer | &quot;server&quot;，删除 `"https://"` 前缀。会根据 &quot;ssl&quot; 设置自动添加协议前缀。 |
 | trackingServerSecure | 删除。 要实现安全连接，请定义 &quot;server&quot;，然后启用 &quot;ssl&quot;。 |
 | charSet | &quot;charset&quot; |
-| currencyCode | “货币” |
+| currencyCode | &quot;currency&quot; |
 | ssl | &quot;ssl&quot; |
 | linkTrackVars | 删除，不再使用。 |
 | linkTrackEvents | 删除，不再使用。 |
