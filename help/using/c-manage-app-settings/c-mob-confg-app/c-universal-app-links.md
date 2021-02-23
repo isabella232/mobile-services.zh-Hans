@@ -1,22 +1,21 @@
 ---
-description: 通用链接 (iOS) 和应用程序链接 (Android) 允许您连接到 iOS 或 Android 应用程序中的深层链接。
-keywords: mobile
+description: 在应用程序和网站中链接对于保持用户体验至关重要。 了解通用链接和应用程序链接的工作原理及其区别。
 seo-description: 通用链接 (iOS) 和应用程序链接 (Android) 允许您连接到 iOS 或 Android 应用程序中的深层链接。
 seo-title: Apple 通用链接和 Android 应用程序链接
 solution: Experience Cloud,Analytics
-title: Apple 通用链接和 Android 应用程序链接
-topic: Metrics
+title: 通用链接和应用程序链接指南
+topic: 量度
 uuid: 8d6441dc-4307-4454-95ea-d77ec796f918
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: bb41caaecaefe8168d9b19e151d43ec792e24db8
 workflow-type: tm+mt
-source-wordcount: '1142'
-ht-degree: 100%
+source-wordcount: '1146'
+ht-degree: 96%
 
 ---
 
 
-# Apple 通用链接和 Android 应用程序链接{#universal-links-and-app-links}
+# 通用链接与应用程序链接：它们如何工作？{#universal-links-and-app-links}
 
 通用链接 (iOS) 和应用程序链接 (Android) 允许您连接到 iOS 或 Android 应用程序中的深层链接。
 
