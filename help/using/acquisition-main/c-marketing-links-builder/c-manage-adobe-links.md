@@ -5,16 +5,16 @@ seo-description: 您可以使用“营销链接”页面创建、使用和存档
 seo-title: 管理营销链接
 solution: Experience Cloud,Analytics
 title: 管理营销链接
-topic: Metrics
+topic-fix: Metrics
 uuid: 98ac3520-89ed-4513-83f6-120dda9d0157
+exl-id: 678c18fe-b282-4eab-a248-e00dfd53cecd
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
-source-wordcount: '201'
+source-wordcount: '202'
 ht-degree: 100%
 
 ---
-
 
 # 管理营销链接{#manage-marketing-links}
 
@@ -38,4 +38,3 @@ ht-degree: 100%
    * 要取消存档营销链接，请单击&#x200B;**[!UICONTROL 查看存档]**，选择一个链接，然后单击&#x200B;**[!UICONTROL 取消存档选定项]**。
 
       只有以前存档过的营销链接才会显示在“查看存档”页面。
-
