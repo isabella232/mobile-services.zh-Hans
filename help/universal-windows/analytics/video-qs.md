@@ -3,29 +3,29 @@ description: 帮助您使用视频分析的信息。
 seo-description: 帮助您使用视频分析的信息。
 seo-title: Video Analytics
 solution: Experience Cloud,Analytics
-title: Video Analytics
-topic: Developer and implementation
+title: 视频分析
+topic-fix: Developer and implementation
 uuid: f45dac3b-cd2e-4fba-a3b2-c243640ecfa4
+exl-id: bf7a2936-4a90-4630-8a0c-df41baa1d6a8
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
 source-wordcount: '899'
 ht-degree: 72%
 
 ---
 
-
 # Video Analytics {#video-analytics}
 
 帮助您使用视频分析的信息。
 
-在《Adobe Analytics视频和音频测量指南》中 [详细介绍了视频测量](https://docs.adobe.com/content/help/zh-Hans/media-analytics/using/media-overview.html) 。 在所有AppMeasurement平台上，衡量视频的一般过程都非常相似。 此快速开始部分提供开发人员任务的基本概述以及代码示例。
+在《在Adobe Analytics](https://docs.adobe.com/content/help/zh-Hans/media-analytics/using/media-overview.html)中测量视频和音频》指南中详细介绍了视频测量。 [在所有AppMeasurement平台上，衡量视频的一般过程非常相似。 此快速开始部分提供了开发人员任务的基本概述以及代码示例。
 
 下表列出了发送到 Analytics 的媒体数据。使用处理规则将上下文数据映射到 Analytics 变量。
 
 * **a.media.name**
 
-   (**必需**)当访客以某种方式视图视频时，收集视频的名称（如实施中指定）。您可以为此变量添加分类。
+   (**Required**)当访客以某种方式视图视频时，按实施中指定的方式收集视频的名称。您可以为此变量添加分类。
 
    （**可选**）自定义分析变量可提供视频路径信息。
 
@@ -44,7 +44,7 @@ ht-degree: 72%
 
    （**必需**）收集视频区段数据，包括区段名称以及区段在视频中出现的顺序。
 
-   此变量在自动跟踪播放器事件时通过启用 `segmentByMilestones` 变量来填充，或在手动跟踪播放器事件时通过设置自定义区段名称来填充。For example, when a visitor views the first segment in a video, SiteCatalyst might collect the following in the `1:M:0-25` segments eVar.
+   此变量在自动跟踪播放器事件时通过启用 `segmentByMilestones` 变量来填充，或在手动跟踪播放器事件时通过设置自定义区段名称来填充。例如，当访客视图视频中的第一个区段时，SiteCatalyst可能会在`1:M:0-25`区段eVar中收集以下内容。
 
    默认的视频数据收集方法在以下点收集数据：视频开始（播放）、区段开始和视频结束（停止）。 Analytics 会在访客开始观看时，将区段的开始计为第一个区段视图。在区段开始播放后，则计为后续区段视图。
 
@@ -53,7 +53,7 @@ ht-degree: 72%
 
 * **a.contentType**
 
-   收集由访客查看的内容类型相关数据。由视频测量发送的点击将被分配“视频”的内容类型。 无需为视频跟踪专门保留此变量。 使用相同的变量让其他内容报告内容类型使您能够分析不同类型内容中的访客分布。 例如，您可以使用此变量通过“article”或“product page”之类的值标记其他内容类型。
+   收集由访客查看的内容类型相关数据。由视频测量发送的点击将分配“视频”的内容类型。 此变量不需要专门为视频跟踪保留。 如果使用同一变量创建其他内容报告内容类型，则可以分析不同内容类型中的访客分布。 例如，您可以使用此变量通过“article”或“product page”之类的值标记其他内容类型。
 
    从视频测量的角度来看，“内容类型”允许您识别视频访客，从而计算视频转化率。
 
@@ -127,7 +127,7 @@ property bool isMediaAd;
 
 ### 媒体测量类和方法引用 {#section_50DF9359A7B14DF092634C8E913C77FE}
 
-* **设置使用(winJS:设置（使用）**
+* **设置(winJS:settingsWith)**
 
    通过指定的参数返回 `MediaSettings` 对象。
 
@@ -161,7 +161,7 @@ property bool isMediaAd;
 
 * **打开(winJS:打开)**
 
-   使用中定义的设置跟踪打开的媒体 `settings`。
+   使用`settings`中定义的设置跟踪打开的媒体。
 
    * 以下是此方法的语法：
 
@@ -177,7 +177,7 @@ property bool isMediaAd;
 
 * **关闭(winJS:关闭)**
 
-   跟踪名为的媒体项的媒体关闭情 *`name`*&#x200B;况。
+   跟踪名为&#x200B;*`name`*&#x200B;的媒体项的媒体关闭。
 
    * 以下是此方法的语法：
 
@@ -193,7 +193,7 @@ property bool isMediaAd;
 
 * **播放(winJS:播放)**
 
-   跟踪以给定偏移量命名的媒 *`name`* 体项的媒 *体播* 放（以秒为单位）。
+   在给定的&#x200B;*offset*&#x200B;处跟踪名为&#x200B;*`name`*&#x200B;的媒体项的媒体播放（以秒为单位）。
 
    * 以下是此方法的语法：
 
@@ -207,7 +207,7 @@ property bool isMediaAd;
       ADB.Media.play("mediaName",  0);
       ```
 
-* **完整计划(winJS:完成)**
+* **完成(winJS:完成)**
 
    在提供的“offset”**&#x200B;时间（以秒为单位）将媒体项目手动标记为完成。
 
@@ -255,7 +255,7 @@ property bool isMediaAd;
       ADB.Media.click("mediaName",  3); 
       ```
 
-* **跟踪(winJS:跟踪)**
+* **跟踪(winJS:)**
 
    发送用于获取当前媒体状态的跟踪操作调用（无页面查看）。
 
