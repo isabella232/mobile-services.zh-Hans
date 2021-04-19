@@ -4,16 +4,16 @@ seo-description: 此参考资料可帮助您使用适用于 Experience Cloud 解
 seo-title: Android SDK 参考概述
 solution: Experience Cloud,Analytics
 title: Android SDK 参考概述
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: ce8f6dcb-0e2b-47eb-99f2-fbdb97079161
+exl-id: 3a4299c7-e0a0-486c-869f-0c915498ca86
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
 source-wordcount: '141'
 ht-degree: 100%
 
 ---
-
 
 # Android SDK 参考概述 {#android-sdk-reference}
 
