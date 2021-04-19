@@ -5,16 +5,16 @@ seo-description: Adobe Mobile Services 的常见问题和解答及各项功能�
 seo-title: 常见问题解答
 solution: Experience Cloud,Analytics
 title: 常见问题解答
-topic: Metrics
+topic-fix: Metrics
 uuid: 62a9241c-2ada-483a-a594-b023916cb0b6
+exl-id: d7dfc36e-56f0-498a-ad50-93fee90cb6ff
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
-source-wordcount: '1118'
+source-wordcount: '1119'
 ht-degree: 100%
 
 ---
-
 
 # 常见问题解答 {#frequently-asked-questions}
 
@@ -28,7 +28,7 @@ ht-degree: 100%
 
 ### 我应当采用哪个 SDK 版本？
 
-我们当前的 SDK 版本为 4.11。有关更多信息，请参阅我们的[发行说明](https://docs.adobe.com/content/help/zh-Hans/release-notes/experience-cloud/current.html)。
+我们当前的 SDK 版本为 4.11。有关更多信息，请参阅我们的[发行说明](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html)。
 
 ### 我可从那里下载 SDK？
 
