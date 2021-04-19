@@ -4,16 +4,16 @@ seo-description: 地理位置可通过在 Android 应用程序中使用纬度和
 seo-title: 地理位置和目标点
 solution: Experience Cloud,Analytics
 title: 地理位置和目标点
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: b8209370-cbc4-40f9-97d8-017e2d74a377
+exl-id: e1fed35b-5ce9-48ee-ade0-b1701cf2a3a9
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
 source-wordcount: '596'
 ht-degree: 100%
 
 ---
-
 
 # 地理位置和目标点 {#geo-location-and-points-of-interest}
 
@@ -120,4 +120,3 @@ Analytics.trackLocation(currentLocation, locationContextData);
 * 如果有两个 POI 的直径重叠，则使用包含当前位置的第一个 POI。
 
    如果 POI 重叠，则应按最精细到最不精细的顺序列出 POI，以确保报告最精细的 POI。
-
