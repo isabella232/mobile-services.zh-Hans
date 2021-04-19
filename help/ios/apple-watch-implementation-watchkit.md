@@ -4,16 +4,16 @@ seo-description: 从 WatchOS 2 开始，WatchKit 扩展将在 Apple Watch 设备
 seo-title: 使用 WatchOS 2 实施 Apple Watch
 solution: Experience Cloud,Analytics
 title: 使用 WatchOS 2 实施 Apple Watch
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: 9498467e-db5e-411e-a00e-d19841f485de
+exl-id: 9fc9b799-1081-42e4-acf3-569fdeb07aff
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
 source-wordcount: '542'
 ht-degree: 100%
 
 ---
-
 
 # 使用 WatchOS 2 实施 Apple Watch{#apple-watch-implementation-with-watchos}
 
@@ -41,6 +41,7 @@ ht-degree: 100%
 >* 容器应用程序
 >* WatchKit 应用程序
 >* WatchKit 扩展
+
 >
 
 
@@ -166,4 +167,3 @@ ht-degree: 100%
 * 对于 WatchKit 应用程序，`a.RunMode` 将设置为 `Extension`。
 * 由于 WatchKit 应用程序在 Watch 上运行，因此应用程序将在 `a.AppID` 中正确报告它们的名称。
 * 在 WatchOS2 应用程序中不会触发生命周期调用。
-
