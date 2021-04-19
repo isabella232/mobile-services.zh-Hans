@@ -1,20 +1,20 @@
 ---
 description: 以下是 Android 库提供的 Experience Cloud ID 方法。
-keywords: android;library;mobile;sdk
+keywords: Android;库;移动;SDK
 seo-description: 以下是 Android 库提供的 Experience Cloud ID 方法。
 seo-title: Adobe Experience Platform Identity Service 方法
 solution: Experience Cloud,Analytics
 title: Adobe Experience Platform Identity Service 方法
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: c5107a7e-273b-4f71-8738-4c603479b24c
+exl-id: 8eb98c3f-c6ef-4593-ad3a-f566f4d4b6a2
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
-source-wordcount: '449'
+source-wordcount: '453'
 ht-degree: 100%
 
 ---
-
 
 # Adobe Experience Platform Identity Service 方法 {#experience-cloud-id-service-methods}
 
