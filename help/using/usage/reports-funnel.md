@@ -5,16 +5,16 @@ seo-description: 漏斗报表可帮助确定客户在与您的移动设备应用
 seo-title: “漏斗”报表
 solution: Experience Cloud,Analytics
 title: “漏斗”报表
-topic: Reports,Metrics
+topic-fix: Reports,Metrics
 uuid: 268b4ab9-2e29-4423-9f79-ad93f5231ede
+exl-id: 43f9d0aa-0651-42c6-85ea-307ed253cf8d
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
-source-wordcount: '522'
+source-wordcount: '523'
 ht-degree: 100%
 
 ---
-
 
 # “漏斗”报表{#funnel}
 
