@@ -4,16 +4,16 @@ seo-description: 适用于 Experience Cloud 解决方案的 iOS SDK 4.x 允许�
 seo-title: 适用于 Experience Cloud 解决方案的 iOS SDK 4.x
 solution: Experience Cloud,Analytics
 title: 适用于 Experience Cloud 解决方案的 iOS SDK 4.x
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: 8b374cee-1432-460b-aac2-70623dd80a04
-translation-type: ht
-source-git-commit: c7400359bc19150926a67b991ba219a7fa187442
-workflow-type: ht
+exl-id: d4dbddf7-c8be-4936-adfb-2f7aa07a0dd4
+translation-type: tm+mt
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+workflow-type: tm+mt
 source-wordcount: '530'
 ht-degree: 100%
 
 ---
-
 
 # 适用于 Experience Cloud 解决方案的 iOS SDK 4.x{#ios-sdk-x-for-experience-cloud-solutions}
 
@@ -27,9 +27,9 @@ ht-degree: 100%
 
 * 每当提到二进制库文件时，应改用其 XCFramework 替换：
    * `AdobeMobileLibrary.a` > `AdobeMobile.xcframework`
-   * `AdobeMobileLibrary_Extension.a` > `AdobeMobileExtension.xcframework`
-   * `AdobeMobileLibrary_Watch.a` > `AdobeMobileWatch.xcframework`
-   * `AdobeMobileLibrary_TV.a` > `AdobeMobileTV.xcframework`
+   * `AdobeMobileLibrary_Extension.a` >  `AdobeMobileExtension.xcframework`
+   * `AdobeMobileLibrary_Watch.a` >  `AdobeMobileWatch.xcframework`
+   * `AdobeMobileLibrary_TV.a` >  `AdobeMobileTV.xcframework`
 * 如果手动将 Adobe XCFramework 添加到您的项目，请确保未嵌入它们。
 
 >[!IMPORTANT]
