@@ -5,16 +5,16 @@ seo-description: 您可以显示最近查看的应用程序的关键性能量度
 seo-title: 显示移动量度
 solution: Experience Cloud,Analytics
 title: 显示移动量度
-topic: Metrics
+topic-fix: Metrics
 uuid: 57db0b77-6b0a-4a0c-9aad-0731275233fd
+exl-id: aab6448d-4362-4c75-949a-7a519da76606
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '487'
 ht-degree: 100%
 
 ---
-
 
 # 显示移动量度 {#display-mobile-metrics}
 
