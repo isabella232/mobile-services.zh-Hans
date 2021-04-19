@@ -5,16 +5,16 @@ seo-description: 在“管理链接目标”页面中，您可以创建、编辑
 seo-title: 创建和管理链接目标
 solution: Experience Cloud,Analytics
 title: 创建和管理链接目标
-topic: Metrics
+topic-fix: Metrics
 uuid: 43930e3a-6a11-40c6-8a61-6732a673dac7
+exl-id: 53e9f970-e53c-4c0d-9214-abb01a9b144b
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
-source-wordcount: '166'
+source-wordcount: '167'
 ht-degree: 100%
 
 ---
-
 
 # 创建和管理链接目标{#create-and-manage-link-destinations}
 
@@ -31,4 +31,3 @@ ht-degree: 100%
 例如：
 
 ![](assets/link_destinations_list.png)
-
