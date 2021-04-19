@@ -4,16 +4,16 @@ seo-description: 以下是 tvOS 库提供的 TVJS 方法列表。
 seo-title: TVJS 方法
 solution: Experience Cloud,Analytics
 title: TVJS 方法
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: a7bfa85a-0d6e-4f51-9a9e-70429c2a9806
+exl-id: 4e0c6a29-953d-49fc-b44f-533dd393ffb1
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
 source-wordcount: '2013'
 ht-degree: 100%
 
 ---
-
 
 # TVJS 方法 {#tvjs-methods}
 
