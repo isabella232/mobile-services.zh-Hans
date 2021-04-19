@@ -5,16 +5,16 @@ seo-description: 此信息可帮助您排查应用程序内消息传送问题。
 seo-title: 排查应用程序内消息传送问题
 solution: Experience Cloud,Analytics
 title: 排查应用程序内消息传送问题
-topic: Metrics
+topic-fix: Metrics
 uuid: 8813e8d8-bb1e-46ad-83cd-98ae68f73ce6
+exl-id: 6be5beef-3bde-49f8-9ec0-c5d32bd43045
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
-source-wordcount: '637'
+source-wordcount: '638'
 ht-degree: 100%
 
 ---
-
 
 # 排查应用程序内消息传送问题{#troubleshooting-in-app-messaging}
 
