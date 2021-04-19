@@ -4,16 +4,16 @@ seo-description: 带有唯一跟踪码的客户获取链接可以在 Adobe Mobil
 seo-title: 移动设备应用程序客户获取
 solution: Experience Cloud,Analytics
 title: 移动设备应用程序客户获取
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: 5fece619-e4b8-4d06-9250-dcb66fa32ce0
+exl-id: a90dcb2f-babb-4c97-b67a-8468925ee5c8
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
 source-wordcount: '414'
 ht-degree: 100%
 
 ---
-
 
 # 移动设备应用程序客户获取 {#mobile-app-acquisition}
 
