@@ -5,16 +5,16 @@ seo-description: 创建新应用程序或编辑现有应用程序时，您可以
 seo-title: 配置 Audience Manager 选项
 solution: Experience Cloud,Analytics
 title: 配置 Audience Manager 选项
-topic: Metrics
+topic-fix: Metrics
 uuid: 471270ca-cee5-401e-aac1-e48146ee8399
+exl-id: a81e5ea9-faa1-45c2-a312-e80f49c87b59
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
-source-wordcount: '129'
+source-wordcount: '130'
 ht-degree: 100%
 
 ---
-
 
 # 配置 Audience Manager 选项{#configure-audience-manager-options}
 
