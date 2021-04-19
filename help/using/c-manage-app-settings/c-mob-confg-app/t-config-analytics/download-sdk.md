@@ -1,20 +1,20 @@
 ---
 description: 帮助您进行 Mobile Services 实施的 Mobile Services SDK 及工具的下载信息。
-keywords: mobile;android;ios;sdk
+keywords: 移动设备;Android;iOS;SDK
 seo-description: 帮助您进行 Mobile Services 实施的 Mobile Services SDK 及工具的下载信息。
 seo-title: 下载 Mobile SDK 和工具
 solution: Experience Cloud,Analytics
 title: 下载 Mobile SDK 和工具
-topic: Developer and implementation,Metrics
+topic-fix: Developer and implementation,Metrics
 uuid: 4af757f7-4e4d-4939-9b6a-49a29c220192
+exl-id: 34ec76fa-3bcb-4b77-9d1e-7160941deb44
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
-source-wordcount: '176'
+source-wordcount: '180'
 ht-degree: 100%
 
 ---
-
 
 # 下载 Mobile SDK 和工具{#download-mobile-sdks-and-tools}
 
@@ -36,4 +36,3 @@ ht-degree: 100%
 * [Android 说明](/help/android/getting-started/requirements.md)
 
 要查看本地库的文档，包括 Windows Phone 8、Blackberry、Xamarin 和其他库，请参阅 [Adobe Mobile Services](/help/using/home.md) 中的 *SDK 文档*&#x200B;部分。
-
