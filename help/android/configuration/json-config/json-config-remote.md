@@ -4,16 +4,16 @@ seo-description: 您可以在应用程序启动时加载其他 ADBMobile JSON �
 seo-title: 覆盖 ADBMobile JSON 配置路径
 solution: Experience Cloud,Analytics
 title: 覆盖 ADBMobile JSON 配置路径
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: 6872a5d7-0c5a-4fdc-b7bf-ad1534763a6a
+exl-id: 6ca8e264-af79-4734-aeb9-824582980953
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
 source-wordcount: '116'
 ht-degree: 100%
 
 ---
-
 
 # 覆盖 ADBMobile JSON 配置路径 {#override-the-adbmobile-json-config-path}
 
@@ -31,4 +31,3 @@ ht-degree: 100%
    // do something with the exception if needed 
 }
 ```
-
