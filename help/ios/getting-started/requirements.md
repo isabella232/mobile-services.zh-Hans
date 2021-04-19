@@ -4,16 +4,16 @@ seo-description: 完成这些步骤可将报表包配置为收集 iOS 应用程�
 seo-title: 开始之前
 solution: Experience Cloud,Analytics
 title: 开始之前
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: 04133f68-3618-41fd-8a13-aec5b6f04df6
+exl-id: 83da7cf5-3211-484d-bfe8-7b3b4999eea2
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
 source-wordcount: '595'
 ht-degree: 100%
 
 ---
-
 
 # 开始之前 {#before-you-start}
 
@@ -101,4 +101,3 @@ Adobe Mobile Services 是用于移动设备应用程序分析和定位的主要�
 >[!TIP]
 >
 >您应用程序的配置文件会自动包含在 SDK 下载中，因此无需单独下载该文件。但是，如果您已经下载了 SDK，并且想要获取更新的设置，则需要再次下载配置文件。
-
