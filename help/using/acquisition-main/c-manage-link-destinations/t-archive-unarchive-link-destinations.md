@@ -5,16 +5,16 @@ seo-description: 您可以使用“链接目标”页面来编辑、存档、取
 seo-title: 管理链接目标
 solution: Experience Cloud,Analytics
 title: 管理链接目标
-topic: Metrics
+topic-fix: Metrics
 uuid: 3a38d40d-b4c7-4f9f-aa6e-979613faaba2
+exl-id: 5d2ab0db-6371-434e-bf92-6013e78c8d8f
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
-source-wordcount: '296'
+source-wordcount: '297'
 ht-degree: 100%
 
 ---
-
 
 # 管理链接目标{#manage-link-destinations}
 
@@ -62,6 +62,3 @@ ht-degree: 100%
       >[!IMPORTANT]
       >
       >删除链接目标是&#x200B;**永久性的**。如果您不确定是否确实要删除某个链接目标，请使用存档选项。
-
-
-
