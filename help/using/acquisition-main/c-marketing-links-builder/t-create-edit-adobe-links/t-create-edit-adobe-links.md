@@ -5,16 +5,16 @@ seo-description: 您可以创建或编辑营销链接，以提供到移动设备
 seo-title: 创建或编辑营销链接
 solution: Experience Cloud,Analytics
 title: 创建或编辑营销链接
-topic: Metrics
+topic-fix: Metrics
 uuid: 305a8265-38de-4d19-8c79-b3912f5aae7c
+exl-id: a9b5c98d-77c1-4a40-96e5-f9e234d55ec5
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
-source-wordcount: '633'
+source-wordcount: '634'
 ht-degree: 100%
 
 ---
-
 
 # 创建或编辑营销链接{#create-or-edit-marketing-links}
 
