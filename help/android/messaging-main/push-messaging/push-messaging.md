@@ -4,16 +4,16 @@ seo-description: Adobe Mobile 和 Adobe Mobile SDK 允许您向用户发送推�
 seo-title: 推送消息
 solution: Experience Cloud,Analytics
 title: 推送消息
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: 729d4010-3733-4dff-b188-ad45bd3e7cc4
+exl-id: 4472e0b9-1d00-4e1a-8653-f3976b74c078
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
 source-wordcount: '439'
 ht-degree: 100%
 
 ---
-
 
 # 推送消息 {#push-messaging}
 
@@ -77,6 +77,3 @@ Adobe Mobile 和 Adobe Mobile SDK 允许您向用户发送推送消息。此 SDK
       * 使用 `Config.collectLifecycleData(this)` 或 `Config.collectLifecycleData(this, contextData)`。
 
       * **不要**&#x200B;使用 `Config.collectLifecycleData()`。
-
-
-
