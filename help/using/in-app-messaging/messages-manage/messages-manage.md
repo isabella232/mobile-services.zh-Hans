@@ -5,16 +5,16 @@ seo-description: 查看应用程序内消息和推送消息列表，以及有关
 seo-title: 管理消息
 solution: Experience Cloud,Analytics
 title: 管理消息
-topic: Metrics
+topic-fix: Metrics
 uuid: 4d934ede-0c68-4dd5-ba37-9caf727cc717
+exl-id: 96436104-fe5d-4f50-80a9-9b6ad7401de2
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '470'
 ht-degree: 100%
 
 ---
-
 
 # 管理消息{#manage-messages}
 
@@ -66,4 +66,3 @@ ht-degree: 100%
 
    1. 单击&#x200B;**[!UICONTROL 查看存档]**。
    1. 至少选中一条已存档消息旁边的复选框，然后单击&#x200B;**[!UICONTROL 取消存档选定项]**。
-
