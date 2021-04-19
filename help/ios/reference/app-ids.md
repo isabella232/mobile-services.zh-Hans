@@ -4,16 +4,16 @@ seo-description: 下表描述了 iOS SDK 与 Adobe Mobile Services 使用的不�
 seo-title: 应用程序 ID
 solution: Experience Cloud,Analytics
 title: 应用程序 ID
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: 24ebc716-23c7-4ee8-8256-b534210367e0
+exl-id: 82f0a097-b2eb-4313-8624-dd442e3da039
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
 source-wordcount: '219'
 ht-degree: 100%
 
 ---
-
 
 # 应用程序 ID {#app-ids}
 
@@ -24,4 +24,3 @@ ht-degree: 100%
 | 使用生命周期量度发送的 ID | 这是提交到应用商店的应用程序名称和包版本的组合。此值用于 Adobe Mobile Services 中的版本报表，您可以使用此值按应用程序的特定发行版本过滤结果。 |
 | 应用商店 ID | 此 ID 由应用商店分配给您的应用程序，并在您创建客户获取链接时提供在 Adobe Mobile Services 中。 |
 | ADBMobile JSON 配置中的应用程序 ID | 这是由 Adobe Mobile Services 分配给应用程序实例的唯一 ID，用于系统中的所有关联元数据。此 ID 用于创建客户获取跟踪或跟踪链接的唯一 URL；在从用户界面下载 ADBMobile JSON 配置文件时，此 ID 会自动添加到该文件中，可在应用程序的客户获取设置下方的“管理应用程序设置”中找到此 ID。 |
-
