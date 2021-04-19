@@ -1,31 +1,31 @@
 ---
-description: 本节介绍如何从先前的Windows移动SDK的3.x版本迁移到通用型Windows平台4.x SDK forExperience Cloud解决方案。
-seo-description: 本节介绍如何从先前的Windows移动SDK的3.x版本迁移到通用型Windows平台4.x SDK forExperience Cloud解决方案。
+description: 本节介绍如何从先前Windows移动SDK的3.x版本迁移到通用Windows平台4.x SDK for Experience Cloud解决方案。
+seo-description: 本节介绍如何从先前Windows移动SDK的3.x版本迁移到通用Windows平台4.x SDK for Experience Cloud解决方案。
 seo-title: 迁移至 4.x
 solution: Experience Cloud,Analytics
 title: 迁移至 4.x
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: bdd6c5cd-3892-4e99-b69e-77105ad66e25
+exl-id: 68de505b-dcff-4a78-9f01-b1d103846281
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
 source-wordcount: '705'
 ht-degree: 26%
 
 ---
 
-
 # 迁移到4.x SDK{#migrate-to-x}
 
-本节介绍如何从3.x版Windows移动SDK迁移到通用型Windows平台4.x SDK forExperience Cloud解决方案。
+本节介绍如何从3.x版Windows移动SDK迁移到通用Windows平台4.x SDK for Experience Cloud解决方案。
 
-移动到4.x版后，现在可通过静态方法访问所有功能。 您不再需要跟踪自己的对象。
+迁移到4.x版后，现在可通过静态方法访问所有功能。 您不再需要跟踪自己的对象。
 
 以下部分将指导您从3.x版迁移到4.x版。
 
 ## 删除未使用的属性 {#section_145222EAA20F4CC2977DD883FDDBBFC5}
 
-您可能注意到下载 `ADBMobileConfig.json` 中包含一个新文件。 此文件包含特定于应用程序的全局设置，并替换先前版本中使用的大多数配置变量。
+您可能注意到下载中包含一个新的`ADBMobileConfig.json`文件。 此文件包含特定于应用程序的全局设置，并替换在先前版本中使用的大多数配置变量。
 
 以下是 `ADBMobileConfig.json` 文件的示例：
 
@@ -61,7 +61,7 @@ ht-degree: 26%
 
 下表提供3.x SDK中的变量列表和4.x SDK中的新名称：
 
-| 配置变量／方法 | Variable in the `ADBMobileConfig.json` file. |
+| 配置变量/方法 | `ADBMobileConfig.json`文件中的变量。 |
 |--- |--- |
 | offlineTrackingEnabled | &quot;offlineEnabled&quot; |
 | reportSuiteIDs | &quot;rsids&quot; |
@@ -75,50 +75,50 @@ ht-degree: 26%
 
 ## 更新跟踪调用和跟踪变量 {#section_96E7D9B3CDAC444789503B7E7F139AB9}
 
-版本4 SDK不使用 `Track` 以 `TrackLink` Web为中心的调用，而是使用两种在移动世界中更有意义的方法：
+版本4 SDK没有使用以Web为焦点的`Track`和`TrackLink`调用，而是使用两种在移动世界中意义更大的方法：
 
-* `TrackState` 状态是您的应用程序中可用的视图，如“主仪表板”、“应用程序设置”、“购物车”等。 这些状态与网站中的页面类似，而且 `trackState` 调用会使页面查看次数递增。
+* `TrackState` 状态是您的应用程序中提供的视图，如“主仪表板”、“应用程序设置”、“购物车”等。这些状态与网站中的页面类似，而且 `trackState` 调用会使页面查看次数递增。
 
-* `TrackAction` 操作是您要衡量的应用程序中发生的事情，如“登录”、“横幅点击”、“源订阅”和其他指标。 这些调用不会增加页面视图。
+* `TrackAction` 操作是您要衡量的应用程序中发生的事情，如“登录”、“横幅点击”、“源订阅”和其他量度。这些调用不会增加页面视图。
 
-The `contextData` parameter for both of these methods contains name-value pairs that are sent as context data.
+这两种方法的`contextData`参数都包含作为上下文数据发送的名称 — 值对。
 
 ### Event、Prop、eVar
 
-如果您已经研究过SDK [方法](/help/universal-windows/c-configuration/methods.md)，您可能会想知道在哪里设置事件、eVar、prop、继承人和列表。 在版本4中，您无法再直接在应用程序中分配这些类型的变量。 反而，SDK 使用上下文数据和处理规则将应用程序数据映射到 Analytics 变量以便进行报告。
+如果您已查看[SDK方法](/help/universal-windows/c-configuration/methods.md)，您可能会想知道在哪里设置事件、eVar、prop、继承和列表。 在版本4中，您无法再直接在应用程序中分配这些类型的变量。 反而，SDK 使用上下文数据和处理规则将应用程序数据映射到 Analytics 变量以便进行报告。
 
 处理规则具有以下优势：
 
 * 您无需向应用商店提交更新即可更改数据映射。
 * 您可以对数据使用有意义的名称，而不是设置特定于报表包的变量。
-* 对发送额外数据的影响很小。这些值只有在使用处理规则映射后才会显示在报告中。
+* 对发送额外数据的影响很小。使用处理规则映射这些值之前，这些值不会显示在报表中。
 
-有关详细信息，请参阅 *Analytics概述* 中的处理 [规则部分](/help/universal-windows/analytics/analytics.md)。
+有关详细信息，请参阅[Analytics概述](/help/universal-windows/analytics/analytics.md)中的&#x200B;*处理规则*&#x200B;部分。
 
-您直接分配给变量的任何值都应添加到上下文数据中。 This means that calls to `SetProp`, `SetEvar`, and assignments to persistent context data should all be removed and the values added to context data.
+您直接分配给变量的任何值都应添加到上下文数据中。 这意味着应全部删除对`SetProp`、`SetEvar`的调用以及对永久上下文数据的分配以及添加到上下文数据的值。
 
 ### AppSection/服务器、GeoZip、交易 ID、促销活动和其他标准变量
 
-您在测量对象上设置的任何其他数据（包括上面列出的变量）应改为添加到上下文数据。 即，随或调用发送的唯一数 `TrackState` 据 `TrackAction` 是参数中的有效负 `data` 荷。
+您在测量对象上设置的任何其他数据（包括上面列出的变量）应该添加到上下文数据中。 即，随`TrackState`或`TrackAction`调用发送的唯一数据是`data`参数中的有效负荷。
 
 **替换跟踪调用**
 
-Throughout your code, replace the following methods with a call to `trackState` or `trackAction`:
+在整个代码中，将以下方法替换为对`trackState`或`trackAction`的调用：
 
 **从3.x迁移：**
 
 * TrackAppState(TrackState)
 * TrackEvents(TrackAction)
-* 跟踪（跟踪操作）
+* Track(TrackAction)
 * TrackLinkURL(TrackAction)
 
-## 自定义ID服务 {#section_2CF930C13BA64F04959846E578B608F3}
+## 自定义ID服务{#section_2CF930C13BA64F04959846E578B608F3}
 
 将 `visitorID` 变量替换为对 `setUserIdentifier` 的调用。
 
 ## 离线跟踪 {#section_5D4CD8CD1BE041A79A8657E31C0D24C6}
 
-Offline tracking is enabled in the `ADBMobileConfig.json` file. All other offline configuration is done automatically.
+在`ADBMobileConfig.json`文件中启用脱机跟踪。所有其他脱机配置都会自动完成。
 
 在整个代码中，删除对以下方法的调用：
 
@@ -141,4 +141,4 @@ ADB.Analytics.trackAction("product view", cdata);
 
 ![](assets/prod-view.png)
 
-值(在 `"&&products"` 本示例中，该值为 `";Cool Shoe`“)应遵循您所跟踪的事件类型的产品字符串语法。
+`"&&products"`的值（在本例中，值为`";Cool Shoe`”）应遵循您所跟踪的事件类型的产品字符串语法。
