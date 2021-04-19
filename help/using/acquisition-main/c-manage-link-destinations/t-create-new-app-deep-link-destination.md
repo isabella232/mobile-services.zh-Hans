@@ -5,16 +5,16 @@ seo-description: 您可以创建一个新的链接目标，将用户引导至您
 seo-title: 新建链接目标
 solution: Experience Cloud,Analytics
 title: 新建链接目标
-topic: Metrics
+topic-fix: Metrics
 uuid: 390e3dea-0221-4f97-980d-a90ca9f162fa
+exl-id: 2d2f5938-1461-43e2-a375-45c18afc9d5a
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
-source-wordcount: '417'
+source-wordcount: '418'
 ht-degree: 100%
 
 ---
-
 
 # 创建新链接目标 {#create-new-link-destination}
 
