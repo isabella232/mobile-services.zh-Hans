@@ -5,16 +5,16 @@ seo-description: 在 Adobe Mobile Services UI 中，您可以将推送消息安�
 seo-title: 计划：推送消息
 solution: Experience Cloud,Analytics
 title: 计划：推送消息
-topic: Metrics
+topic-fix: Metrics
 uuid: 6810e27a-016f-4286-8fe2-9972d85fa326
+exl-id: 36f263a0-4aad-423e-bb78-9c532c98df19
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
-source-wordcount: '723'
+source-wordcount: '724'
 ht-degree: 100%
 
 ---
-
 
 # 计划：推送消息{#schedule-push-message}
 
