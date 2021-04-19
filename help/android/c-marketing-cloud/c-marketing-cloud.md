@@ -1,20 +1,20 @@
 ---
 description: 此信息可帮助您将 Android SDK 与 Adobe Experience Cloud 结合使用。
-keywords: android;library;mobile;sdk
+keywords: Android;库;移动;SDK
 seo-description: 此信息可帮助您将 Android SDK 与 Adobe Experience Cloud 结合使用。
 seo-title: Experience Cloud 概述
 solution: Experience Cloud,Analytics
 title: Experience Cloud 概述
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: dbf6e019-8707-42e7-97b8-e18a8a7d5e2c
+exl-id: 660187ab-c744-4aef-aea1-ede61d08897c
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
-source-wordcount: '138'
+source-wordcount: '142'
 ht-degree: 100%
 
 ---
-
 
 # Experience Cloud 概述 {#experience-cloud}
 
@@ -28,4 +28,3 @@ ht-degree: 100%
 
 * 要开始配置，请转到 Adobe Experience Platform Launch。
 * 要查看 Experience Platform SDK 存储库中的内容，请转到 [Github：Adobe Experience Platform SDK](https://github.com/Adobe-Marketing-Cloud/acp-sdks)。
-
