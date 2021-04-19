@@ -4,16 +4,16 @@ seo-description: 状态是指您的应用程序中的不同屏幕或视图。
 seo-title: 跟踪应用程序状态
 solution: Experience Cloud,Analytics
 title: 跟踪应用程序状态
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: 69c99d05-5816-4c86-97c5-d218dc26c129
+exl-id: ee1ea716-ee72-4c28-92cb-26df1327f5c6
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
 source-wordcount: '291'
 ht-degree: 100%
 
 ---
-
 
 # 跟踪应用程序状态 {#track-app-states}
 
@@ -78,5 +78,3 @@ public void onCreate(Bundle savedInstanceState) {
 | Adobe Mobile Services | **[!UICONTROL 视图状态]**&#x200B;报表。此报表基于用户在您的应用程序中浏览的路径。示例路径为&#x200B;**[!UICONTROL 主页]** > **[!UICONTROL 设置]** > **[!UICONTROL 信息源]**。 |
 | Adobe Analytics | 可以从任何能够查看页面的位置查看状态，如&#x200B;**[!UICONTROL 页面]**&#x200B;报表、**[!UICONTROL 页面查看次数]**&#x200B;报表和&#x200B;**[!UICONTROL 路径]**&#x200B;报表。 |
 | Ad Hoc Analytics | 可以使用&#x200B;**[!UICONTROL 页面]**&#x200B;维度、**[!UICONTROL 页面查看次数]**&#x200B;量度和&#x200B;**[!UICONTROL 路径]**&#x200B;报表从任何能够查看页面的位置查看状态。 |
-
-
