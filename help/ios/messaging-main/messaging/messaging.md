@@ -4,16 +4,16 @@ seo-description: 此信息可帮助您在 iOS 应用程序中使用应用程序�
 seo-title: 应用程序内消息传送
 solution: Experience Cloud,Analytics
 title: 应用程序内消息传送
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: 21fa6a94-bb7f-4c78-843b-a50f1974db22
+exl-id: 70b0ade4-dcd1-4e00-9800-352f11c4001d
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
 source-wordcount: '420'
 ht-degree: 100%
 
 ---
-
 
 # 应用程序内消息传送 {#in-app-messaging}
 
@@ -86,7 +86,7 @@ iOS Mobile Services SDK 会跟踪应用程序内消息的以下量度：
 
 * 对于自定义的全屏应用程序内消息，消息中的 HTML 内容需要包含正确的代码以通知 SDK 跟踪以下按钮：
 
-   * **[!UICONTROL 点进]**（重定向）示例跟踪： `adbinapp://confirm/?url=https://www.yoursite.com`
+   * **[!UICONTROL 点进]**（重定向）示例跟踪：  `adbinapp://confirm/?url=https://www.yoursite.com`
    * **[!UICONTROL 取消]**（关闭）示例跟踪：`adbinapp://cancel`
 
 * 对于本地（远程）通知：
@@ -118,4 +118,3 @@ iOS Mobile Services SDK 会跟踪应用程序内消息的以下量度：
 >[!IMPORTANT]
 >
 >您需要确保指定的资源可用。
-
