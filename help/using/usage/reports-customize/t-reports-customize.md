@@ -5,16 +5,16 @@ seo-description: 此信息可帮助您通过添加其他过滤器（区段）来
 seo-title: 将过滤器添加到报表
 solution: Experience Cloud,Analytics
 title: 将过滤器添加到报表
-topic: Reports,Metrics
+topic-fix: Reports,Metrics
 uuid: 19c395cc-2e07-4588-825b-f2f8b10a87c1
+exl-id: eb0589e9-668e-42d7-8f7a-00d7f0a2e3ff
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '385'
 ht-degree: 100%
 
 ---
-
 
 # 将过滤器添加到报表{#add-filters-to-reports}
 
