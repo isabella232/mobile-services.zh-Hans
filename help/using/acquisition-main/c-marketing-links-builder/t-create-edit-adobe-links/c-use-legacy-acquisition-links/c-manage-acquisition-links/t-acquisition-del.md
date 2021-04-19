@@ -5,16 +5,16 @@ seo-description: 您可以删除一个或多个不再需要的客户获取链接
 seo-title: 删除客户获取链接
 solution: Experience Cloud,Analytics
 title: 删除客户获取链接
-topic: Metrics
+topic-fix: Metrics
 uuid: e7362348-ca24-4f1c-b37f-eca6d2b0da6d
+exl-id: 4c007ec6-40ba-468f-8bfc-0930a04c59c1
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
-source-wordcount: '106'
+source-wordcount: '107'
 ht-degree: 100%
 
 ---
-
 
 # 删除客户获取链接{#delete-acquisition-links}
 
@@ -31,4 +31,3 @@ ht-degree: 100%
    >[!TIP]
    >
    >只有在您选择了一个或多个客户获取链接之后，才会显示&#x200B;**[!UICONTROL 删除选定项]**&#x200B;选项。
-
