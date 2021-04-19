@@ -5,16 +5,16 @@ seo-description: 您可以为推送消息定义和配置受众选项，包括日
 seo-title: 受众：为推送消息定义和配置受众区段
 solution: Experience Cloud,Analytics
 title: 受众：为推送消息定义和配置受众区段
-topic: Metrics
+topic-fix: Metrics
 uuid: efd410e7-3b6c-4cf4-a26f-b11688adc491
+exl-id: d1062a76-2e72-4649-8497-58617a7a47cb
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
-source-wordcount: '1021'
+source-wordcount: '1022'
 ht-degree: 100%
 
 ---
-
 
 # 受众：推送消息{#audience-define-and-configure-audience-segments-for-push-messages}
 
