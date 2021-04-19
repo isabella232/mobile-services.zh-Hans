@@ -1,20 +1,20 @@
 ---
 description: 以下是 Android 库提供的 Adobe Target 方法列表。
-keywords: android;library;mobile;sdk
+keywords: Android;库;移动;SDK
 seo-description: 以下是 Android 库提供的 Adobe Target 方法列表。
 seo-title: 适用于 Android 的 Target 方法
 solution: Experience Cloud,Analytics
 title: 适用于 Android 的 Target 方法
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: 8e9808b2-ba80-4646-ba05-8e62d4fde065
+exl-id: 0c7a6718-d078-4a2b-a2c9-d5cd50263939
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
-source-wordcount: '603'
+source-wordcount: '607'
 ht-degree: 100%
 
 ---
-
 
 # 适用于 Android 的 Target 方法{#target-methods}
 
@@ -57,8 +57,9 @@ public static final String TARGET_PARAMETER_MBOX_HOST           = "mboxHost";
 >[!IMPORTANT]
 >
 >* 如果您使用的是&#x200B;**低于** 4.14.0 版本的 SDK，请访问 [https://developers.adobetarget.com/api/#input-parameters](https://developers.adobetarget.com/api/#input-parameters) 以了解参数限制。
->
->* 如果您使用的是 4.14.0 版本&#x200B;**或更高版本**&#x200B;的 SDK，请访问 [https://developers.adobetarget.com/api/#batch-input-parameters](https://developers.adobetarget.com/api/#batch-input-parameters) 以了解参数限制。
+   >
+   >
+* 如果您使用的是 4.14.0 版本&#x200B;**或更高版本**&#x200B;的 SDK，请访问 [https://developers.adobetarget.com/api/#batch-input-parameters](https://developers.adobetarget.com/api/#batch-input-parameters) 以了解参数限制。
 
 
 * **loadRequest**
