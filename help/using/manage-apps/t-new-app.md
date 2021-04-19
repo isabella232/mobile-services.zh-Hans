@@ -5,16 +5,16 @@ seo-description: 您可以使用此信息完成以下操作：创建新应用程
 seo-title: 添加新应用程序
 solution: Experience Cloud,Analytics
 title: 添加新应用程序
-topic: Metrics
+topic-fix: Metrics
 uuid: 706b5e4d-1318-4a9e-8c69-ffabf51fa02c
+exl-id: 30dca517-61ac-495b-aa91-3febd1cb8639
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
-source-wordcount: '709'
+source-wordcount: '710'
 ht-degree: 100%
 
 ---
-
 
 # 添加新应用程序{#add-a-new-app}
 
