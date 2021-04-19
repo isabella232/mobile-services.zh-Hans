@@ -5,16 +5,16 @@ seo-description: 您可以为应用程序内消息配置受众选项，包括查
 seo-title: 受众：应用程序内消息
 solution: Experience Cloud,Analytics
 title: 受众：应用程序内消息
-topic: Metrics
+topic-fix: Metrics
 uuid: 6c815d4c-7626-4cf4-9158-3f059c79317a
+exl-id: c85f2c0d-9c88-4d5a-8247-d8a101195d3a
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
-source-wordcount: '583'
+source-wordcount: '584'
 ht-degree: 100%
 
 ---
-
 
 # 受众：应用程序内消息 {#audience-in-app-message}
 
