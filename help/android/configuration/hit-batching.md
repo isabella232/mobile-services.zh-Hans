@@ -1,20 +1,20 @@
 ---
 description: 点击批量处理允许应用程序在队列中的点击量超过可配置限制后才发送点击。
-keywords: android;library;mobile;sdk
+keywords: Android;库;移动;SDK
 seo-description: 点击批量处理允许应用程序在队列中的点击量超过可配置限制后才发送点击。
 seo-title: 点击批量处理
 solution: Experience Cloud,Analytics
 title: 点击批量处理
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: ada35be3-242b-4b2b-a828-9bf998dd58b5
+exl-id: 74147f09-52fc-46dc-b4dd-2bf60b039f6e
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
-source-wordcount: '183'
+source-wordcount: '187'
 ht-degree: 100%
 
 ---
-
 
 # 点击批量处理 {#hit-batching}
 
