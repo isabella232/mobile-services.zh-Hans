@@ -4,16 +4,16 @@ seo-description: 此信息可帮助您使用 tvOS 实施 Apple TV。
 seo-title: 使用 tvOS 实施 Apple TV
 solution: Experience Cloud,Analytics
 title: 使用 tvOS 实施 Apple TV
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: d1571ea2-a5de-4b96-a527-72abbf51fab8
+exl-id: 35b7f02d-ae48-4c6f-9a3a-6d106a1026ad
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
 source-wordcount: '402'
 ht-degree: 100%
 
 ---
-
 
 # 使用 tvOS 实施 Apple TV {#apple-tv-implementation-with-tvos}
 
@@ -83,4 +83,3 @@ ht-degree: 100%
 1. 在 JavaScript 文件中，使用 `ADBMobile` 对象访问 Adobe SDK 的本机方法。
 
    有关可用方法的完整列表，请参阅 [TVJS 方法](/help/ios/apple-tv-implementation-tvos/tvjs-methods.md)。
-
