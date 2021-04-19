@@ -4,16 +4,16 @@ seo-description: 此信息可以帮助您处理 GDPR 数据删除请求。
 seo-title: 设置用户的选择状态
 solution: Experience Cloud,Analytics
 title: 设置用户的选择状态
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: f8a3e6be-44dd-494e-9cda-dbbac86d6772
+exl-id: ef5160ac-5a73-4433-b217-1bd990f8456b
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
 source-wordcount: '266'
 ht-degree: 100%
 
 ---
-
 
 # 设置用户的选择状态{#setting-the-user-s-opt-status}
 
@@ -77,4 +77,3 @@ public void setOptUnknown(View view) {
  currentStatus = Config.getPrivacyStatus(); 
 }
 ```
-
