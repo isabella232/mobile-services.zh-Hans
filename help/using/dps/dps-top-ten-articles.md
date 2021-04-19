@@ -5,16 +5,16 @@ seo-description: “前 10 篇文章”报表会针对您的数据显示一个�
 seo-title: 前 10 篇文章
 solution: Experience Cloud,Analytics
 title: 前 10 篇文章
-topic: Metrics
+topic-fix: Metrics
 uuid: cf53cc0b-7c84-41c8-97d5-d9ee833a916b
+exl-id: 93b3d0aa-83a3-4ee8-bc7f-fa30736a7749
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
-source-wordcount: '137'
+source-wordcount: '138'
 ht-degree: 100%
 
 ---
-
 
 # “前 10 篇文章”报表{#top-articles}
 
