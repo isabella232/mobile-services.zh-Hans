@@ -1,19 +1,19 @@
 ---
 description: 本主题提供了有关如何排查客户获取测试过程中可能遇到的问题的信息。
-keywords: android;library;mobile;sdk
+keywords: Android;库;移动;SDK
 seo-description: 本主题提供了有关如何排查客户获取测试过程中可能遇到的问题的信息。
 seo-title: 排查客户获取测试问题
 solution: Experience Cloud,Analytics
 title: 排查客户获取测试问题
-topic: Developer and implementation
+topic-fix: Developer and implementation
+exl-id: 1ed2ad89-4e89-43da-aa21-f688b4d1c0d1
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '252'
 ht-degree: 100%
 
 ---
-
 
 # 排查客户获取测试问题 {#troubleshoot-acquisition-testing}
 
@@ -50,4 +50,3 @@ ht-degree: 100%
 >[!IMPORTANT]
 >
 >要正确处理反向链接意图，必须独立运行这两个命令。否则，`adb` 将双重转义反向链接信息，并且广播接收器收到的数据将不完整。
-
