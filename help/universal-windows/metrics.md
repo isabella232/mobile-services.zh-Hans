@@ -1,33 +1,33 @@
 ---
-description: 列表可由移动库自动测量的指标和维度。
-keywords: android;library;mobile;sdk
-seo-description: 列表可由移动库自动测量的指标和维度。
+description: 列表可由移动库自动测量的量度和维度。
+keywords: Android;库;移动;SDK
+seo-description: 列表可由移动库自动测量的量度和维度。
 seo-title: 生命周期量度
 solution: Experience Cloud,Analytics
 title: 生命周期量度
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: f958c3ef-1d79-4b30-8966-ef74bd48a5d6
+exl-id: 19572f15-c5df-40fe-9979-3a5bdd581f2b
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
-source-wordcount: '917'
+source-wordcount: '921'
 ht-degree: 83%
 
 ---
 
-
 # 生命周期量度 {#lifecycle-metrics}
 
-列表可由移动库自动测量的指标和维度。
+列表可由移动库自动测量的量度和维度。
 
-有关详细信息，请参 [阅生命周期数据疑难解答](https://helpx.adobe.com/cn/analytics/kb/troubleshoot-lifecycle-data.html)。
+有关详细信息，请参阅[生命周期数据疑难解答](https://helpx.adobe.com/cn/analytics/kb/troubleshoot-lifecycle-data.html)。
 
 
 ## 生命周期量度和维度 {#section_78F036C4296F4BA3A47C2044F79C86C1}
 
 配置后，生命周期量度会在上下文数据参数中发送到 Analytics，随每个 mbox 调用在参数中发送到 Target，并作为信号发送到受众管理。Analytics 和 Target 使用相同的格式，而受众管理则对每个量度使用不同的前缀。
 
-对于Analytics，每次生命周期跟踪调用时发送的上下文数据都会使用度量或维度自动捕获并报告。 内容中会记录异常。
+对于Analytics，使用量度或维度自动捕获和报告每次生命周期跟踪调用时发送的上下文数据。 内容中会记明例外情况。
 
 ## 量度
 
@@ -197,7 +197,7 @@ ht-degree: 83%
 
 ## 其他移动量度和维度 {#section_0B32BBF9CA734103BEDB5E755FFE5B31}
 
-通过以下方法在移动解决方案变量中捕获以下指标和维度：
+通过以下方法在移动解决方案变量中捕获以下量度和维度：
 
 ### 量度
 
@@ -267,21 +267,21 @@ ht-degree: 83%
 
 * **目标点名称**
 
-   Populated by `trackLocation` methods when device is in a defined POI.
+   当设备位于定义的POI中时，由`trackLocation`方法填充。
 
    * Analytics 上下文数据/Target 参数：`a.loc.poi`
-   * Audience Manager trait: `c_a_loc_poi`
+   * Audience Manager特征：`c_a_loc_poi`
 
 * **与目标点中心的距离**
 
-   Populated by `trackLocation` methods when device is within a defined POI.
+   当设备位于定义的POI中时，由`trackLocation`方法填充。
 
    * Analytics 上下文数据/Target 参数：`a.loc.dist`
-   * Audience Manager trait: `c_a_loc_dist`
+   * Audience Manager特征：`c_a_loc_dist`
 
 * **生命周期值（转化变量）**
 
    由 `trackLifetimeValue` 方法填充。
 
-   * Analytics 上下文数据/Target 参数： `a.ltv.amount`
-   * Audience Manager trait: `c_a_ltv_amount`
+   * Analytics 上下文数据/Target 参数：  `a.ltv.amount`
+   * Audience Manager特征：`c_a_ltv_amount`
