@@ -4,16 +4,16 @@ seo-description: 此信息可帮助您了解如何跟踪崩溃，以及处理假
 seo-title: 跟踪应用程序的崩溃情况
 solution: Experience Cloud,Analytics
 title: 跟踪应用程序的崩溃情况
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: 4f81988b-198a-4ba9-ad53-78af90e43856
+exl-id: d6b4c763-7e02-42d0-aaf2-cda8640e5b9f
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
 source-wordcount: '529'
 ht-degree: 100%
 
 ---
-
 
 # 跟踪应用程序的崩溃情况 {#track-app-crashes}
 
@@ -70,4 +70,3 @@ Adobe Mobile iOS SDK 具有响应 `UIApplicationDidEnterBackgroundNotification` 
 * 不要删除或修改 Adobe Mobile SDK 在 `NSUserDefaults` 中放置的任何值。
 
    如果这些值在 SDK 之外发生修改，则报告的数据将无效。
-
