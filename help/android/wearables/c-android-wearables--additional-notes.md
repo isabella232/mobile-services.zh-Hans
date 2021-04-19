@@ -4,16 +4,16 @@ seo-description: 以下这些信息可帮助您配置 Android 扩展，以便能
 seo-title: Android 可穿戴应用程序：其他说明
 solution: Experience Cloud,Analytics
 title: Android 可穿戴应用程序：其他说明
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: 3bcf352b-4d46-4ab3-81ec-c27e86fe9be3
+exl-id: ae8cf2d1-d2b0-456b-bbd3-3980e00bbc84
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
 source-wordcount: '161'
 ht-degree: 100%
 
 ---
-
 
 # Android 可穿戴应用程序：其他说明{#android-wearables-additional-notes}
 
@@ -26,10 +26,9 @@ ht-degree: 100%
 
       点击来自便携式应用程序。
 
-   * `RunMode` = `Extension`
+   * `RunMode` =  `Extension`
 
       点击来自可穿戴应用程序。
 
 * SDK 会自动将 `aid`/`vid`/`visitor` `service id`/`privacy` 状态从便携式应用程序同步到可穿戴应用程序，因此请不要从可穿戴应用程序调用 `setPrivacyStatus`/`setUserIdentifier`/`idSync`。
 * 对于可穿戴应用程序，[应用程序内消息](/help/android/messaging-main/messaging/messaging.md)、[Target](/help/android/target-main/target.md) 和 [Audience Manager](/help/android/audience-manager/audiencemgmt.md) 处于禁用状态。
-
