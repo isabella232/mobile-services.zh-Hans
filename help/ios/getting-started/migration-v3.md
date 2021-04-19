@@ -4,16 +4,16 @@ seo-description: 此信息可帮助您从 3.x 或 2.x 版本的 iOS 库迁移至
 seo-title: 迁移至 4.x iOS 库
 solution: Experience Cloud,Analytics
 title: 迁移至 4.x iOS 库
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: 5668972b-f355-4e03-9df0-8c82ddf6809b
-translation-type: ht
-source-git-commit: aab04abeb5edb6be886002e27ef1c5340b0a8f0d
-workflow-type: ht
+exl-id: a58067e0-b6f4-4900-ba3f-7256d9259420
+translation-type: tm+mt
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+workflow-type: tm+mt
 source-wordcount: '895'
 ht-degree: 100%
 
 ---
-
 
 # 迁移至 4.x iOS 库{#migrating-to-the-x-ios-library}
 
@@ -112,7 +112,7 @@ ht-degree: 100%
 | trackingServer | &quot;server&quot;，删除 `"https://"` 前缀。会根据 &quot;ssl&quot; 设置自动添加协议前缀。 |
 | trackingServerSecure | 删除。 要实现安全连接，请定义 &quot;server&quot;，然后启用 &quot;ssl&quot;。 |
 | charSet | &quot;charset&quot; |
-| currencyCode | &quot;currency&quot; |
+| currencyCode | &quot;货币&quot; |
 | ssl | &quot;ssl&quot; |
 | linkTrackVars | 删除，不再使用。 |
 | linkTrackEvents | 删除，不再使用。 |
