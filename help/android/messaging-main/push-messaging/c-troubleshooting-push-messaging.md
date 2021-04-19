@@ -5,16 +5,16 @@ seo-description: 此信息可帮助您排查推送消息问题。
 seo-title: 排查推送消息问题
 solution: Experience Cloud,Analytics
 title: 排查推送消息问题
-topic: Metrics
+topic-fix: Metrics
 uuid: 9c4a9371-6691-4a2c-a6c1-b9f901a41599
+exl-id: 82b89f56-f43e-4b0d-80c5-5bff4013e5f7
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
-source-wordcount: '305'
+source-wordcount: '306'
 ht-degree: 100%
 
 ---
-
 
 # 排查推送消息问题 {#troubleshooting-push-messaging}
 
