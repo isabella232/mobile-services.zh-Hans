@@ -5,16 +5,16 @@ seo-description: “前 50 篇文章”报表显示一个条形图形式的排�
 seo-title: 前 50 篇文章
 solution: Experience Cloud,Analytics
 title: 前 50 篇文章
-topic: Metrics
+topic-fix: Metrics
 uuid: 341370d1-fa87-43ca-8135-425b3bba272f
+exl-id: 8d5d6ab4-fcbb-42b2-b9bc-5ccb4f73522f
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
-source-wordcount: '256'
+source-wordcount: '257'
 ht-degree: 100%
 
 ---
-
 
 # “前 50 篇文章”报表{#top-articles}
 
