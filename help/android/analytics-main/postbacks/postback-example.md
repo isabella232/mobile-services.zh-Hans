@@ -1,20 +1,20 @@
 ---
 description: 您可以使用此信息帮助了解回发的含义及其工作方式。
-keywords: android;library;mobile;sdk
+keywords: Android;库;移动;SDK
 seo-description: 您可以使用此信息帮助了解回发的含义及其工作方式。
 seo-title: 回发示例
 solution: Experience Cloud,Analytics
 title: 回发示例
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: 8010cd00-d42b-4e16-8403-692fab2550f1
+exl-id: 2ff41066-e2ee-425f-8aff-e5e3f3e5f0f5
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
-source-wordcount: '141'
+source-wordcount: '145'
 ht-degree: 100%
 
 ---
-
 
 # 回发示例 {#postbacks-example}
 
