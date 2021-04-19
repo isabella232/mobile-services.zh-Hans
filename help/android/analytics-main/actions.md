@@ -4,16 +4,16 @@ seo-description: 操作是指在您要测量的 Android 应用程序中发生的
 seo-title: 跟踪应用程序操作
 solution: Experience Cloud,Analytics
 title: 跟踪应用程序操作
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: fe01c1df-f6bb-4b32-b3ef-959d2c724af6
+exl-id: 495a6aa8-781d-4499-ad46-e19d57cccf40
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
 source-wordcount: '379'
 ht-degree: 100%
 
 ---
-
 
 # 跟踪应用程序操作 {#track-app-actions}
 
@@ -71,4 +71,3 @@ Analytics.trackAction("myapp.SocialShare", exampleContextData);
 | Adobe Mobile Services | **[!UICONTROL 操作路径]**&#x200B;报表。查看操作在应用程序中发生的顺序。您还可以单击任何报表中的&#x200B;**[!UICONTROL 自定义]**，以查看操作排名、趋势或在划分报表中查看操作，也可以应用过滤器以查看特定区段的操作。 |
 | Marketing Reports &amp; Analytics | **[!UICONTROL 自定义事件]**&#x200B;报表。在将操作映射到自定义事件后，您可以查看与所有其他 Analytics 事件类似的移动设备事件。 |
 | Ad Hoc Analytics | **[!UICONTROL 自定义事件]**&#x200B;报表。在将操作映射到自定义事件后，您可以查看与所有其他 Analytics 事件类似的移动设备事件。 |
-
