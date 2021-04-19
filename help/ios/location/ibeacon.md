@@ -4,16 +4,16 @@ seo-description: 通过 iBeacon 跟踪，您可以使用 iBeacon 和低功耗蓝
 seo-title: iBeacon 跟踪
 solution: Experience Cloud,Analytics
 title: iBeacon 跟踪
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: 390883db-027e-4d12-8a16-86d514579db1
+exl-id: 7232e51d-5695-43ad-8d67-fb3cad70e8f2
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
 source-wordcount: '200'
 ht-degree: 100%
 
 ---
-
 
 # iBeacon 跟踪 {#ibeacon-tracking}
 
@@ -80,4 +80,3 @@ ht-degree: 100%
 // When the user leaves the proximity of the beacon, clear the current beacon 
 [ADBMobile trackingClearCurrentBeacon];
 ```
-
