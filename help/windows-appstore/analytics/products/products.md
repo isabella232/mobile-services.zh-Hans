@@ -4,22 +4,22 @@ seo-description: 无法使用处理规则设置产品变量。 在移动SDK中�
 seo-title: Products 变量
 solution: Experience Cloud,Analytics
 title: Products 变量
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: 2057a564-06ae-4171-bbe7-0baffa71608b
+exl-id: b731e794-7134-4c6d-a41b-09ac9b84763d
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
 source-wordcount: '173'
 ht-degree: 13%
 
 ---
 
-
 # Products 变量{#products-variable}
 
 无法使用处理规则设置产品变量。 在移动SDK中，必须在上下文数据参数中使用特殊语法直接在服务器调用中设置产品。
 
-To set the *`products`* variable, set a context data key to `"&&products"`, and set the value using the syntax defined for the *`products`*:
+要设置&#x200B;*`products`*&#x200B;变量，请将上下文数据键设置为`"&&products"`，并使用为&#x200B;*`products`*&#x200B;定义的语法设置值：
 
 ```js
 cdata["&&products"] = "Category;Product;Quantity;Price[,Category;Product;Quantity;Price]";
@@ -49,4 +49,4 @@ ADB.Analytics.trackState("Order Confirmation", cdata);
 
 ![](assets/products-procrules.png)
 
-You do not need to map the *`products`* variable using processing rules since it is set directly on the image request by the SDK.
+您无需使用处理规则映射&#x200B;*`products`*&#x200B;变量，因为它是SDK在图像请求上直接设置的。
