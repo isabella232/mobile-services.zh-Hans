@@ -1,20 +1,20 @@
 ---
 description: 此信息可帮助您发送信号，并从 Audience Manager 中检索访客区段。
-keywords: android;library;mobile;sdk
+keywords: Android;库;移动;SDK
 seo-description: 此信息可帮助您发送信号，并从 Audience Manager 中检索访客区段。
 seo-title: Audience Manager 概述
 solution: Experience Cloud,Analytics
 title: Audience Manager 概述
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: cfa4106d-13c1-45ba-bee6-6f992aaf9919
+exl-id: b6cbe410-3ee4-44d4-a4e6-74291f45be81
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
-source-wordcount: '139'
+source-wordcount: '143'
 ht-degree: 100%
 
 ---
-
 
 # Audience Manager 概述 {#audience-manager}
 
