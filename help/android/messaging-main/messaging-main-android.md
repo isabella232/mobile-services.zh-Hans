@@ -4,16 +4,16 @@ seo-description: 此信息可帮助您在 Android 应用程序中使用消息传
 seo-title: 消息传送概述
 solution: Experience Cloud,Analytics
 title: 消息传送概述
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: c6475ab4-015d-46b0-af28-5d0df3f4459e
+exl-id: 26142589-c14a-4818-a913-e03fe9c59c73
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
 source-wordcount: '127'
 ht-degree: 100%
 
 ---
-
 
 # 消息传送概述 {#messaging}
 
@@ -27,4 +27,3 @@ ht-degree: 100%
 
 * 要开始配置，请转到 Adobe Experience Platform Launch。
 * 要查看 Experience Platform SDK 存储库中的内容，请转到 [Github：Adobe Experience Platform SDK](https://github.com/Adobe-Marketing-Cloud/acp-sdks)。
-
