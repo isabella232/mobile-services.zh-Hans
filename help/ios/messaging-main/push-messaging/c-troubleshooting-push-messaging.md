@@ -5,16 +5,16 @@ seo-description: 此信息可帮助您排查推送消息问题。
 seo-title: 排查推送消息问题
 solution: Experience Cloud,Analytics
 title: 排查推送消息问题
-topic: Metrics
+topic-fix: Metrics
 uuid: 87d7dcb6-82a8-46e3-a6ed-7f895a22f2af
+exl-id: dda84d30-2a7b-496c-b8f3-3bd6b97076aa
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
-source-wordcount: '363'
+source-wordcount: '364'
 ht-degree: 100%
 
 ---
-
 
 # 排查推送消息问题 {#troubleshooting-push-messaging}
 
@@ -39,8 +39,9 @@ ht-degree: 100%
    >推送服务不保证消息将被发送。有关服务可靠性的更多信息，请参阅相应的文档：
    >
    >* **APNS**：[服务的质量](https://developer.apple.com/documentation/usernotifications)
-   >
-   >* **GCM**：[消息的生命周期](https://developers.google.com/cloud-messaging/concept-options)
+      >
+      >
+   * **GCM**：[消息的生命周期](https://developers.google.com/cloud-messaging/concept-options)
 
 
 ## 如何续订 Apple 推送服务证书？
