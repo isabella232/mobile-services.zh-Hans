@@ -4,16 +4,16 @@ seo-description: 适用于 Experience Cloud 解决方案的 iOS SDK 4.x 的发�
 seo-title: 发行说明
 solution: Experience Cloud,Analytics
 title: 发行说明
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: e1613dc5-02a4-43a7-997a-29b4de98b4d1
-translation-type: ht
-source-git-commit: 53d407056dd89dcf32d1895231999b2d92e879ec
-workflow-type: ht
+exl-id: dd1e6bab-65e7-4a68-b3ec-21fb1a08aca2
+translation-type: tm+mt
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+workflow-type: tm+mt
 source-wordcount: '533'
 ht-degree: 100%
 
 ---
-
 
 # 发行说明 {#release-notes}
 
