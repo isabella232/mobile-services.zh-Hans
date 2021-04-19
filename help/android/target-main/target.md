@@ -1,20 +1,20 @@
 ---
 description: 您可以在 Android 应用程序中提供目标内容。
-keywords: android;library;mobile;sdk
+keywords: Android;库;移动;SDK
 seo-description: 您可以在 Android 应用程序中提供目标内容。
 seo-title: Target 配置
 solution: Experience Cloud,Analytics
 title: Target 配置
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: 09fe2c9c-7b60-49c3-bb9d-36a30ce7c350
+exl-id: dbcc3114-e76b-4b18-a418-ac46a21a593e
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
-source-wordcount: '72'
+source-wordcount: '76'
 ht-degree: 100%
 
 ---
-
 
 # Target 配置 {#target-configuration}
 
