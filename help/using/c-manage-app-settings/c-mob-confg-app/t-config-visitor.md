@@ -5,16 +5,16 @@ seo-description: 创建新应用程序或编辑现有应用程序时，您可以
 seo-title: 配置 SDK ID 服务选项
 solution: Experience Cloud,Analytics
 title: 配置 SDK ID 服务选项
-topic: Metrics
+topic-fix: Metrics
 uuid: e69b57f7-153a-4a95-9c1e-c07fe29dea2d
+exl-id: e44ca332-9723-4ffc-ac24-52a620f32783
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
-source-wordcount: '206'
+source-wordcount: '207'
 ht-degree: 100%
 
 ---
-
 
 # 配置 SDK ID 服务选项 {#configure-sdk-id-service-options}
 
