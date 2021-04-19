@@ -5,16 +5,16 @@ seo-description: 此信息可帮助您排查应用程序内消息传送问题。
 seo-title: 排查应用程序内消息传送问题
 solution: Experience Cloud,Analytics
 title: 排查应用程序内消息传送问题
-topic: Metrics
+topic-fix: Metrics
 uuid: 39c3a21d-92c2-4004-b00f-99b6f91d3696
+exl-id: 6c7d97ed-3b0a-48ff-b761-1485aea5e96d
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
-source-wordcount: '528'
+source-wordcount: '529'
 ht-degree: 100%
 
 ---
-
 
 # 排查应用程序内消息传送问题{#troubleshooting-in-app-messaging}
 
@@ -70,6 +70,4 @@ ht-degree: 100%
 * **横向**
    * 图像缩放到与设备等高的效果。
    * 宽度是设备的 75%，右侧为淡出显示效果。
-
    如果全屏模板存在问题，您可以下载并使用自定义的 HTML 模板。这种模板为图像提供了更大的灵活性，并允许完全调控模板。
-
