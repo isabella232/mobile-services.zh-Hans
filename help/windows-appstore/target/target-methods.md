@@ -1,23 +1,23 @@
 ---
-description: 列表Windows 8.1通用应用商店库提供的目标方法。
-seo-description: 列表Windows 8.1通用应用商店库提供的目标方法。
+description: 列表Windows 8.1通用App Store库提供的目标方法。
+seo-description: 列表Windows 8.1通用App Store库提供的目标方法。
 seo-title: Target 方法
 solution: Experience Cloud,Analytics
 title: Target 方法
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: 8c35b31c-c70b-4dba-8759-173342a301e9
+exl-id: 2db9f594-01e7-4ca8-a90e-9d12278350d0
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
 source-wordcount: '281'
 ht-degree: 42%
 
 ---
 
-
 # Target 方法 {#target-methods}
 
-列表Windows 8.1通用应用商店库提供的目标方法。
+列表Windows 8.1通用App Store库提供的目标方法。
 
 SDK目前支持多个Adobe Experience Cloud解决方案，包括分析、目标和Audience Manager。 方法将根据解决方案来添加前缀。分析方法前缀为“目标”。
 
@@ -25,7 +25,7 @@ SDK目前支持多个Adobe Experience Cloud解决方案，包括分析、目标�
 
 >[!TIP]
 >
->当您使用 `winmd` winJS(JavaScript)中的方法时，所有方法都自动将其第一个字母小写。
+>当您从winJS(JavaScript)使用`winmd`方法时，所有方法都会自动将其第一个字母小写。
 
 ## 类引用：TargetLocationRequest
 
@@ -73,7 +73,7 @@ static property Platform::String ^TARGET_PARAMETER_MBOX_HOST {
 
 * **LoadRequest(winJS:loadRequest)**
 
-   Sends `request` to your configured Target server and returns the string value of the offer generated in a block `callback`.
+   将`request`发送到配置的目标服务器，并返回块`callback`中生成的优惠的字符串值。
 
    * 以下是此方法的语法：
 
@@ -92,7 +92,7 @@ static property Platform::String ^TARGET_PARAMETER_MBOX_HOST {
 
 * **CreateRequest(winJS:createRequest)**
 
-   Creates a `TargetLocationRequest` object with the given parameters.
+   使用给定参数创建`TargetLocationRequest`对象。
 
    * 以下是此方法的语法：
 
@@ -107,9 +107,9 @@ static property Platform::String ^TARGET_PARAMETER_MBOX_HOST {
       var heroBannerRequest = ADB.Target.createRequest("heroBanner", "default.png", null); 
       ```
 
-* **创建订&#x200B;单确认请求(winJS:createOrder &#x200B; ConfirmRequest)**
+* **CreateOrder &#x200B; ConfirmRequest(winJS:createOrder &#x200B; ConfirmRequest)**
 
-   Creates a `TargetLocationRequest` object with the given parameters.
+   使用给定参数创建`TargetLocationRequest`对象。
 
    * 以下是此方法的语法：
 
@@ -126,7 +126,7 @@ static property Platform::String ^TARGET_PARAMETER_MBOX_HOST {
 
 * **ClearCookies(winJS:clearCookies)**
 
-   清除当前设备上应用程序的目标cookie。
+   清除当前设备上目标的应用程序Cookie。
 
    * 以下是此方法的语法：
 
@@ -142,7 +142,7 @@ static property Platform::String ^TARGET_PARAMETER_MBOX_HOST {
 
 * **GetPcId(winJS:getPcId)**
 
-   返回当前设备的PC ID cookie。
+   返回当前设备的PC ID Cookie。
 
    * 以下是此方法的语法：
 
@@ -158,7 +158,7 @@ static property Platform::String ^TARGET_PARAMETER_MBOX_HOST {
 
 * **GetSessionId(winJS:getSessionId)**
 
-   返回当前设备的会话ID cookie。
+   返回当前设备的会话ID Cookie。
 
    * 以下是此方法的语法：
 
@@ -171,4 +171,3 @@ static property Platform::String ^TARGET_PARAMETER_MBOX_HOST {
       ```js
       auto sessionId = ADBMobile.Target.getSessionId(); 
       ```
-
