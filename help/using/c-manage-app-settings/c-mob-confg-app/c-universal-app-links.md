@@ -4,16 +4,16 @@ seo-description: 通用链接 (iOS) 和应用程序链接 (Android) 允许您连
 seo-title: Apple 通用链接和 Android 应用程序链接
 solution: Experience Cloud,Analytics
 title: 通用链接和应用程序链接指南
-topic: 量度
+topic-fix: Metrics
 uuid: 8d6441dc-4307-4454-95ea-d77ec796f918
+exl-id: 6613189f-7a14-4066-89e9-996d4fe7f128
 translation-type: tm+mt
-source-git-commit: bb41caaecaefe8168d9b19e151d43ec792e24db8
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
-source-wordcount: '1146'
+source-wordcount: '1145'
 ht-degree: 96%
 
 ---
-
 
 # 通用链接与应用程序链接：它们如何工作？{#universal-links-and-app-links}
 
@@ -157,4 +157,3 @@ ht-degree: 96%
 >[!IMPORTANT]
 >
 >您将看不到通用链接或应用程序链接的点击跟踪计数，也无法使用插播式广告。
-
