@@ -5,16 +5,16 @@ seo-description: 您可以从 Adobe Mobile 中删除应用程序。
 seo-title: 删除应用程序
 solution: Experience Cloud,Analytics
 title: 删除应用程序
-topic: Metrics
+topic-fix: Metrics
 uuid: 1721cce5-b368-4f05-a40b-e3f2348d96d8
+exl-id: 70b95aed-9e22-470b-b278-6c015334e92a
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
-source-wordcount: '104'
+source-wordcount: '105'
 ht-degree: 100%
 
 ---
-
 
 # 删除应用程序{#delete-an-app}
 
