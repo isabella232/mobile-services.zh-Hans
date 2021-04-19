@@ -3,17 +3,17 @@ description: 'null'
 seo-description: 'null'
 seo-title: Analytics
 solution: Experience Cloud,Analytics
-title: Analytics
-topic: Developer and implementation
+title: 分析
+topic-fix: Developer and implementation
 uuid: c2cef3d3-77a7-4a8e-bbe4-3db10a77996a
+exl-id: cc96a7dd-ccc4-4914-8243-f3f160b75c21
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
 source-wordcount: '940'
 ht-degree: 21%
 
 ---
-
 
 # Analytics {#analytics}
 
@@ -21,33 +21,33 @@ ht-degree: 21%
 
 >[!TIP]
 >
->确保导入 `ADBMobile.h` 到您的类。
+>确保将`ADBMobile.h`导入到您的类。
 
-## 在Analytics中启用移动应用程序报告 {#section_F2F9234009184F20BA36B5CDE872B424}
+## 在Analytics {#section_F2F9234009184F20BA36B5CDE872B424}中启用移动应用程序报告
 
-在添加代码之前，请让Analytics管理员完成以下操作以启用移动应用程序生命周期跟踪。 这可确保您的报表包在您开始开发时能够捕获指标。
+在添加代码之前，请让Analytics管理员完成以下操作以启用移动应用程序生命周期跟踪。 这可确保您的报表包在您开始开发时能够捕获量度。
 
-1. 打 **[!UICONTROL 开“管理]** 工具” **[!UICONTROL >“报表包]** ”，然后选择移动报表包。
+1. 打开&#x200B;**[!UICONTROL 管理工具]** > **[!UICONTROL 报表包]**&#x200B;并选择移动报表包。
 
-1. 单击 **[!UICONTROL “编辑设置]** ”>“ **[!UICONTROL 移动管理]** ”>“移 **[!UICONTROL 动应用程序报告]**”。
+1. 单击&#x200B;**[!UICONTROL 编辑设置]** > **[!UICONTROL 移动设备管理]** > **[!UICONTROL 移动应用报告]**。
 
    ![](assets/mobile-settings.png)
 
-1. 单击“ **[!UICONTROL 启用最新的应用程序报告]**”。
+1. 单击&#x200B;**[!UICONTROL 启用最新应用程序报告]**。
 
-   或者，您也可以单击“启 **[!UICONTROL 用移动位置跟踪]** ” **[!UICONTROL 或“启用旧版报告和归因”获取后台点击]**。
+   或者，您也可以单击&#x200B;**[!UICONTROL 启用移动位置跟踪]**&#x200B;或&#x200B;**[!UICONTROL 启用后台报告和归因以获取后台点击]**。
 
    ![](assets/enable-lifecycle.png)
 
-生命周期指标现在可以捕获，移动应用程序报表显示在营销 **[!UICONTROL 报表界]** 面的“报表”菜单中。
+生命周期量度现在已准备好捕获，移动应用程序报表显示在营销报表界面的&#x200B;**[!UICONTROL 报表]**&#x200B;菜单中。
 
 ### 新版本
 
-定期发布新版本的移动应用程序报告。 新版本不会自动应用到报表包，您必须重复这些步骤才能执行升级。 每次您向应用程序添加新的Experience Cloud功能时，我们建议您重复这些步骤，以确保您具有最新配置。
+会定期发布新版本的移动应用程序报告。 新版本不会自动应用到您的报表包，您必须重复这些步骤以执行升级。 每次您向应用程序添加新的Experience Cloud功能时，我们建议您重复这些步骤以确保您具有最新的配置。
 
 ## 生命周期量度 {#section_532702562A7A43809407C9A2CBA80E1E}
 
-要在应用程序中收集生命周期指标，请在激活应用程序时添加调用，如以下示例所示。
+要在应用程序中收集生命周期量度，请在激活应用程序时添加调用，如以下示例中所示。
 
 ### default.js中的WinJS
 
@@ -121,17 +121,17 @@ void App::OnLaunched(Windows::ApplicationModel::Activation::LaunchActivatedEvent
 }
 ```
 
-如果 `CollectLifecycleData()` 在同一会话中调用两次，则应用程序在第一次呼叫后的每次呼叫中都报告崩溃。 SDK在应用程序关闭时设置一个标志，指示成功退出。 如果未设置此标志，则 `CollectLifecyleData()` 报告崩溃。
+如果在同一会话中调用了两次`CollectLifecycleData()`，则应用程序在第一次调用后的每次调用中都报告崩溃。 SDK在应用程序关闭时设置一个标志，指示成功退出。 如果未设置此标志，`CollectLifecyleData()`将报告崩溃。
 
 ## Event、Prop 和 eVar {#section_76EA6F5611184C5CAE6E62956D84D7B6}
 
-如果您已经研究过 [SDK方法](/help/universal-windows/c-configuration/methods.md)，您可能会想知道在哪里设置事件、eVar、prop、继承人和列表。 在版本4中，您无法再直接在应用程序中分配这些类型的变量。 反而，SDK 使用上下文数据和处理规则将应用程序数据映射到 Analytics 变量以便进行报告。
+如果您已查看[SDK方法](/help/universal-windows/c-configuration/methods.md)，您可能会想知道在哪里设置事件、eVar、prop、继承和列表。 在版本4中，您无法再直接在应用程序中分配这些类型的变量。 反而，SDK 使用上下文数据和处理规则将应用程序数据映射到 Analytics 变量以便进行报告。
 
 处理规则为您提供了几个优势：
 
 * 您无需向应用商店提交更新即可更改数据映射。
 * 您可以对数据使用有意义的名称，而不是设置特定于报表包的变量。
-* 对发送额外数据的影响很小。这些值只有在使用处理规则映射后才会显示在报告中。
+* 对发送额外数据的影响很小。使用处理规则映射这些值之前，这些值不会显示在报表中。
 
 您直接分配给变量的任何值都应添加到上下文数据中。
 
@@ -153,21 +153,21 @@ void App::OnLaunched(Windows::ApplicationModel::Activation::LaunchActivatedEvent
 "product.color":"blue"
 ```
 
-上下文数据变量在处理规则界面中按字母顺序排序，因此命名空间允许您快速查看处于同一命名空间的变量。
+上下文数据变量在处理规则界面中按字母顺序排序，因此命名空间使您能够快速查看处于相同命名空间的变量。
 
-此外，我们听说有些人使用evar或prop编号命名上下文数据键：
+此外，我们听说有些人正在使用evar或prop号命名上下文数据键：
 
 ```js
 "eVar1":"jimbo"
 ```
 
-This might make it *slightly* easier when you perform the one time mapping in processing rules, but you lose readability during debugging and future code updates can be more difficult. 我们强烈建议对键和值使用描述性名称：
+这样，在处理规则中执行一次性映射时，它会&#x200B;*稍微*&#x200B;更简单，但在调试过程中会丢失可读性，而将来的代码更新可能会更困难。 我们强烈建议对键和值使用描述性名称：
 
 ```js
 "username":"jimbo"
 ```
 
-将定义计数器事件的上下文变量设置为值“1”:
+将定义计数器事件的上下文变量设置为值“1”：
 
 ```js
 "logon":"1"
@@ -181,21 +181,21 @@ This might make it *slightly* easier when you perform the one time mapping in pr
 
 >[!TIP]
 >
->Adobe 会保留命名空间 `a.`。除此限制外，上下文数据变量在登录公司中只需是唯一的，即可避免冲突。
+>Adobe 会保留命名空间 `a.`。除此限制外，上下文数据变量在登录公司中只需是唯一的即可避免冲突。
 
 ## Products 变量 {#section_AFBA36F3718C44D29AF81B9E1056A1B4}
 
-要在移 *`products`* 动SDK中进行设置，必须使用特殊语法。 有关详细信息，请参阅 [产品变量](/help/universal-windows/analytics/products.md)。
+要在移动SDK中设置&#x200B;*`products`*，必须使用特殊语法。 有关详细信息，请参阅[产品变量](/help/universal-windows/analytics/products.md)。
 
-## （可选）启用脱机跟踪 {#section_955B2A03EB854742BDFC4A0A3C287009}
+## （可选）启用脱机跟踪{#section_955B2A03EB854742BDFC4A0A3C287009}
 
-要在设备脱机时存储点击，可在SDK方法文件中启 [用脱机跟踪](/help/universal-windows/c-configuration/methods.md) 。 在启用脱机跟踪之前，请仔细注意配置文件引用中描述的时间戳要求。
+要在设备脱机时存储点击，可以在[SDK方法](/help/universal-windows/c-configuration/methods.md)文件中启用脱机跟踪。 在启用脱机跟踪之前，请仔细注意配置文件引用中描述的时间戳要求。
 
 ## 地理位置和目标点 {#section_BAD34A8DD013454DB355121316BD7FD4}
 
-地理位置允许您测量位置数据（经纬度）和预定义的兴趣点。 每次 `TrackLocation` 呼叫均发送：
+地理位置允许您测量位置数据（经纬度）和预定义的目标点。 每个`TrackLocation`调用发送：
 
-* 纬度／经度和POI(如果在配置文件中定义的POI `ADBMobileConfig.json` 中)。
+* 纬度/经度和POI（如果在`ADBMobileConfig.json`配置文件中定义的POI中）。
 
    这些变量将传递给移动解决方案变量以实现自动报告。
 
@@ -203,14 +203,14 @@ This might make it *slightly* easier when you perform the one time mapping in pr
 
    使用处理规则进行捕获。
 
-跟踪位置：
+要跟踪位置：
 
 ```js
 var ADB = ADBMobile; 
 ADB.Analytics.trackLocation(37.75345, -122.33207, null);
 ```
 
-如果在配置文件中定义了以 `ADBMobileConfig.json` 下POI:
+如果在`ADBMobileConfig.json`配置文件中定义了以下POI:
 
 ```js
 "poi" : [ 
@@ -218,9 +218,9 @@ ADB.Analytics.trackLocation(37.75345, -122.33207, null);
         ]
 ```
 
-当设备位置被确定为在定义点的7000米半径内时，具有该值的上下文 `a.loc.poi` 数据变量随 `San Francisco` 点击一起发送 `TrackLocation` 。 An `a.loc.dist` context variable is sent with the distance in meters from the defined coordinates.
+当设备位置被确定为在所定义点的7000米半径内时，将值`San Francisco`的`a.loc.poi`上下文数据变量与`TrackLocation`点击一起发送。 将发送`a.loc.dist`上下文变量，其距离定义的坐标以米为单位。
 
-## Lifetime value {#section_D2C6971545BA4D639FBE07F13EF08895}
+## 生存期值{#section_D2C6971545BA4D639FBE07F13EF08895}
 
 您可以使用生命周期值测量和定位每个用户的生命周期值。每当您通过 `TrackLifetimeValueIncrease` 发送值时，该值都会添加到现有值。生命周期值存储在设备上，并可随时通过调用 `GetLifetimeValue` 进行检索。此值可用于存储生命周期购买、广告查看、视频完成、社交分享、照片上载等。
 
@@ -237,7 +237,7 @@ ADB.Analytics.trackLifetimeValueIncrease(purchasePrice, cdata);
 
 ## 定时操作 {#section_7FF8B6A913A0460EAA4CAE835E32D8C1}
 
-定时操作允许您衡量操作开始和结束之间的应用程序内时间和总时间。 SDK计算会话中的时间量以及完成操作所花费的总时间（跨会话）。 这可用于定义区段，以按时进行购买、通过级别、结帐流程等比较。
+定时操作可让您衡量开始和操作结束之间的应用程序内时间和总时间。 SDK计算会话中的时间量以及完成操作所花费的总时间（跨会话）。 这可用于定义区段以按时进行购买、通过级别、结帐流等比较。
 
 * 应用程序开始和结束之间的总秒数 - 跨会话
 * 开始和结束之间的总秒数（时钟时间）
