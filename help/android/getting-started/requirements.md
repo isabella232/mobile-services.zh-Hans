@@ -4,16 +4,16 @@ seo-description: '在配置报表包并收集 Android 应用程序数据之前�
 seo-title: 开始之前
 solution: Experience Cloud,Analytics
 title: 开始之前
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: 0ca9e937-8d40-4570-9dbf-9aecc6ecedf6
+exl-id: e9c0fd94-b61d-4f56-97b8-f71aac096c93
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
 source-wordcount: '760'
 ht-degree: 100%
 
 ---
-
 
 # 开始之前 {#before-you-start}
 
