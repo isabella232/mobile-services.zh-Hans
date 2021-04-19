@@ -1,20 +1,20 @@
 ---
 description: 您可以使用 Web 浏览器登录到 Adobe Mobile Services。
-keywords: mobile;change password;log in;log out;login;logout;sign in;signin
+keywords: 移动设备;更改密码;登录;注销
 seo-description: 您可以使用 Web 浏览器登录到 Adobe Mobile Services。
 seo-title: 登录
 solution: Experience Cloud,Analytics
 title: 登录
-topic: Metrics
+topic-fix: Metrics
 uuid: d6ea0ca1-3511-4133-9d41-21ea2d2f7b3a
+exl-id: 12b447bd-f53b-43b4-b333-6b805f42fb75
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: '373'
 ht-degree: 100%
 
 ---
-
 
 # 登录 {#signing-in}
 
