@@ -4,16 +4,16 @@ seo-description: 此信息可帮助您在 iOS 应用程序中使用客户获取�
 seo-title: 客户获取概述
 solution: Experience Cloud,Analytics
 title: 客户获取概述
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: e22d2785-58f1-4841-9163-912c5e0f5d61
+exl-id: 0315f8ed-41cb-4a2c-bfe0-56bdebf1af52
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
 source-wordcount: '136'
 ht-degree: 100%
 
 ---
-
 
 # 客户获取概述 {#acquisition}
 
