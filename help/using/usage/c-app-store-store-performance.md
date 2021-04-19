@@ -5,16 +5,16 @@ seo-description: 应用商店“概述”报表会为您提供应用商店的量
 seo-title: 应用商店“概述”报表
 solution: Experience Cloud,Analytics
 title: 应用商店“概述”报表
-topic: Metrics
+topic-fix: Metrics
 uuid: ac066f31-ec4b-4b67-b839-780c2cd1574e
+exl-id: da8663d6-9da8-440b-b7b8-06ff11e74b9f
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
-source-wordcount: '517'
+source-wordcount: '518'
 ht-degree: 100%
 
 ---
-
 
 # 应用商店“概述”报表{#app-store-overview-report}
 
