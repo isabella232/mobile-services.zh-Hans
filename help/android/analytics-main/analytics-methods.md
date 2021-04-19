@@ -1,20 +1,20 @@
 ---
 description: 以下是 Android 库提供的 Adobe Analytics 方法列表。
-keywords: android;library;mobile;sdk
+keywords: Android;库;移动;SDK
 seo-description: 以下是 Android 库提供的 Adobe Analytics 方法列表。
 seo-title: Analytics 方法
 solution: Experience Cloud,Analytics
 title: Analytics 方法
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: ac7c640e-9dcc-4724-b561-019cc025d5a7
+exl-id: 7914d13e-40a2-4ae2-b759-2660817c2058
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
-source-wordcount: '740'
+source-wordcount: '744'
 ht-degree: 100%
 
 ---
-
 
 # Analytics 方法 {#analytics-methods}
 
