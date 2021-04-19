@@ -1,20 +1,20 @@
 ---
 description: 通过信标跟踪，您可以使用 iBeacon 和低功耗蓝牙测量并定位微位置。
-keywords: android;library;mobile;sdk
+keywords: Android;库;移动;SDK
 seo-description: 通过信标跟踪，您可以使用 iBeacon 和低功耗蓝牙测量并定位微位置。
 seo-title: 信标跟踪
 solution: Experience Cloud,Analytics
 title: 信标跟踪
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: 16c1d267-85f4-4a6a-a6d3-d6ffb0f80b29
+exl-id: b8493e9d-ed1c-4404-a218-47a18a9c8faa
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
-source-wordcount: '240'
+source-wordcount: '244'
 ht-degree: 100%
 
 ---
-
 
 # 信标跟踪 {#beacon-tracking}
 
@@ -83,4 +83,3 @@ Analytics.trackBeacon(beaconUUID, major, minor, proximity, cdata);
 上下文数据值必须映射到 Adobe Mobile Services 中的自定义变量：
 
 ![](assets/map-variable-context-ltv.png)
-
