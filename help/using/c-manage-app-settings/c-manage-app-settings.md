@@ -5,16 +5,16 @@ seo-description: 管理应用程序包括配置应用程序，以及管理各种
 seo-title: 管理应用程序设置
 solution: Experience Cloud,Analytics
 title: 管理应用程序设置
-topic: Metrics
+topic-fix: Metrics
 uuid: 2ca93f92-f812-434c-add0-5bdf1442eb20
+exl-id: ed7b955e-f1db-42e5-95b4-a4fb8f169097
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
-source-wordcount: '88'
+source-wordcount: '89'
 ht-degree: 100%
 
 ---
-
 
 # 管理应用程序设置{#manage-app-settings}
 
