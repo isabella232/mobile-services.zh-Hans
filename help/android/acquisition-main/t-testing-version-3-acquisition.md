@@ -1,20 +1,20 @@
 ---
 description: 此信息可帮助您对 Android 设备上的版本 3 客户获取促销活动链接进行往返测试。
-keywords: android;library;mobile;sdk
+keywords: Android;库;移动;SDK
 seo-description: 此信息可帮助您对 Android 设备上的版本 3 客户获取促销活动链接进行往返测试。
 seo-title: 测试版本 3 客户获取
 solution: Experience Cloud,Analytics
 title: 测试版本 3 客户获取
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: 5e38b43d-389e-4412-99e5-3e6223b6ad28
+exl-id: 2ce78e2e-da51-4af8-a461-ec6c642a7854
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
-source-wordcount: '820'
+source-wordcount: '824'
 ht-degree: 100%
 
 ---
-
 
 # 测试 V3 客户获取 {#testing-version-acquisition}
 
