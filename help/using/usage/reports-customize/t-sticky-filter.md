@@ -5,16 +5,16 @@ seo-description: 创建跨不同报表的过滤器，以便查看特定区段在
 seo-title: 添加置顶过滤器
 solution: Experience Cloud,Analytics
 title: 添加置顶过滤器
-topic: Reports,Metrics
+topic-fix: Reports,Metrics
 uuid: f3935c8a-811d-4080-8468-b8850202dd1e
+exl-id: 5f6f725a-a1ae-40c2-abe0-87ebabdc582a
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
-source-wordcount: '204'
+source-wordcount: '205'
 ht-degree: 100%
 
 ---
-
 
 # 添加置顶过滤器{#add-sticky-filter}
 
