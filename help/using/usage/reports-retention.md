@@ -5,16 +5,16 @@ seo-description: “维系”报表（前称“首次启动同期群”）是一
 seo-title: “维系”报表
 solution: Experience Cloud,Analytics
 title: “维系”报表
-topic: Reports,Metrics
+topic-fix: Reports,Metrics
 uuid: e7639e7f-c9ed-4b19-9ac5-b36774ea9dd6
+exl-id: de68f00a-5de0-4e9a-9255-207a1a44df6e
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
-source-wordcount: '309'
+source-wordcount: '310'
 ht-degree: 100%
 
 ---
-
 
 # “维系”报表{#retention}
 
