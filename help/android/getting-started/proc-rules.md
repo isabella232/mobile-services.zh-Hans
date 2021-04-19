@@ -4,16 +4,16 @@ seo-description: 处理规则用于将您在上下文数据变量中发送的数
 seo-title: 处理规则和上下文数据
 solution: Experience Cloud,Analytics
 title: 处理规则和上下文数据
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: ea892228-86f5-4980-acb8-45ae43c6996d
+exl-id: 543201fd-8118-485f-8235-26ec8f9bbb11
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
 source-wordcount: '272'
 ht-degree: 100%
 
 ---
-
 
 # 处理规则和上下文数据 {#processing-rules-and-context-data}
 
@@ -58,4 +58,3 @@ ht-degree: 100%
 >[!TIP]
 >
 >Adobe 会保留命名空间 `"a."`。为了避免发生冲突，还仅要求上下文数据变量在您的登录公司中是唯一的。
-
