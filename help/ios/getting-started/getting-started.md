@@ -4,16 +4,16 @@ seo-description: '以下信息可帮助您开始使用适用于 Experience Cloud
 seo-title: 入门指南概述
 solution: Experience Cloud,Analytics
 title: 入门指南概述
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: a2b9baad-b959-4b9a-893d-99c0f4072e8d
+exl-id: bf1c059d-3ca7-4d77-8acb-597350c03433
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
 source-wordcount: '183'
 ht-degree: 100%
 
 ---
-
 
 # 入门指南概述 {#getting-started}
 
