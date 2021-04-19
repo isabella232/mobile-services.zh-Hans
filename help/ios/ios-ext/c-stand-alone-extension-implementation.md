@@ -4,16 +4,16 @@ seo-description: 从 iOS 10 开始，Apple 允许您创建称为独立扩展的�
 seo-title: 独立扩展实施
 solution: Experience Cloud,Analytics
 title: 独立扩展实施
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: 9b47f082-b78f-4611-968d-014c32ede6bc
+exl-id: b51247b6-c4ba-4a00-9ba0-1824450ac067
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
 source-wordcount: '268'
 ht-degree: 100%
 
 ---
-
 
 # 独立扩展实施 {#stand-alone-extension-implementation}
 
@@ -56,4 +56,3 @@ ht-degree: 100%
       此值表示点击来自扩展。
 
 * 在 iOS 扩展应用程序中不会触发生命周期调用。
-
