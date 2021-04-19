@@ -5,16 +5,16 @@ seo-description: 此信息可帮助您了解和自定义内置报表。
 seo-title: 自定义报表
 solution: Experience Cloud,Analytics
 title: 自定义报表
-topic: Reports,Metrics
+topic-fix: Reports,Metrics
 uuid: 39ba9af3-eaee-44b9-bea4-c8f43a0d2a6c
+exl-id: 287b12fb-96f8-4fa9-a4f4-7325e30e1797
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '487'
 ht-degree: 100%
 
 ---
-
 
 # 自定义报表{#customize-reports}
 
@@ -45,4 +45,3 @@ ht-degree: 100%
 | 6 | 通过&#x200B;**[!UICONTROL 置顶过滤器]**，您可以创建跨不同报表的过滤器。例如，您可能希望了解某个特定区段是如何跨所有移动报表执行的。置顶过滤器可让您定义应用于所有非路径报表的过滤器。有关更多信息，请参阅[添加置顶过滤器](/help/using/usage/reports-customize/t-sticky-filter.md)。 |
 | 7 | **[!UICONTROL 数据图表]**&#x200B;在一个基于选定量度的相应图表中显示数据。图表类型包括折线图、条形图、圆环图等。 |
 | 8 | **[!UICONTROL 数据表格]**&#x200B;以表格形式显示数据。您可以单击某个列标题，以对数据进行升序或降序排序。 |
-
