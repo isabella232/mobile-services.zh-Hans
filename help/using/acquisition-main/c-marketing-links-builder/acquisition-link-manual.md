@@ -5,16 +5,16 @@ seo-description: 您可以通过手动配置 URL 参数来创建营销链接，�
 seo-title: 手动创建客户获取链接
 solution: Experience Cloud,Analytics
 title: 手动创建客户获取链接
-topic: Metrics
+topic-fix: Metrics
 uuid: d7709203-f793-4982-adaa-9c3c914aca2b
+exl-id: aef9fe3e-32dc-4ec0-9eda-f64cc5e486a3
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: '497'
 ht-degree: 100%
 
 ---
-
 
 # 手动创建客户获取链接 {#create-acquisition-link-manually}
 
@@ -146,4 +146,3 @@ ht-degree: 100%
    `a_g_id`/ `a_i_id` 是商店 ID 的一个示例。
 
 * 如果不能自动确定目标商店，并且没有提供默认值，则会返回 404 错误。
-
