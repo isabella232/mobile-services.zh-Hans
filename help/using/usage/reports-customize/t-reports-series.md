@@ -5,16 +5,16 @@ seo-description: 此信息可帮助您通过添加其他系列（量度）或不
 seo-title: 将系列（量度）添加到报表
 solution: Experience Cloud,Analytics
 title: 将系列（量度）添加到报表
-topic: Reports,Metrics
+topic-fix: Reports,Metrics
 uuid: 84fdfb1f-70e6-4c02-9b3b-526e9c924f74
+exl-id: 1b1356c6-7f62-4b88-996a-09ed33b19c9d
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
-source-wordcount: '311'
+source-wordcount: '312'
 ht-degree: 100%
 
 ---
-
 
 # 将系列（量度）添加到报表{#add-series-metrics-to-reports}
 
