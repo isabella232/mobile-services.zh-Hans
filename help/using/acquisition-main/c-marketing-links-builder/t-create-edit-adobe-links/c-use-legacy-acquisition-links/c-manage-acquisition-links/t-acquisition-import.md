@@ -5,16 +5,16 @@ seo-description: 如果您希望通过 .csv 文件，而不是 Adobe Mobile Serv
 seo-title: 导入或导出客户获取链接
 solution: Experience Cloud,Analytics
 title: 导入或导出客户获取链接
-topic: Metrics
+topic-fix: Metrics
 uuid: 94ea008a-473a-40c3-9fa8-a94eb0208c8f
+exl-id: 9be2377e-7f46-44f7-9c5e-1c20c617276d
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
-source-wordcount: '131'
+source-wordcount: '132'
 ht-degree: 100%
 
 ---
-
 
 # 导入或导出客户获取链接{#import-or-export-acquisition-links}
 
@@ -25,4 +25,3 @@ ht-degree: 100%
 
    * 浏览并选择要上传到 Mobile Services 的文件。
    * 单击&#x200B;**[!UICONTROL 导出]**，然后打开或保存该文件。
-
