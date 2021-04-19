@@ -5,16 +5,16 @@ seo-description: 为应用程序内消息配置体验选项，包括类型（全
 seo-title: 体验：应用程序内消息
 solution: Experience Cloud,Analytics
 title: 体验：应用程序内消息
-topic: Metrics
+topic-fix: Metrics
 uuid: 4c6d6756-47fb-4f1b-8338-0b0c9b0fceb0
+exl-id: eeb1527d-c546-4951-9947-db810fdb8eee
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
-source-wordcount: '686'
+source-wordcount: '687'
 ht-degree: 100%
 
 ---
-
 
 # 体验：应用程序内消息 {#experience-in-app-message}
 
