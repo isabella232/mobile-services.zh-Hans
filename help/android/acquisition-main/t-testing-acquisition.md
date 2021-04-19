@@ -1,20 +1,20 @@
 ---
 description: 以下信息可帮助您对 Android 设备上的旧版客户获取促销活动链接进行往返测试。
-keywords: android;library;mobile;sdk
+keywords: Android;库;移动;SDK
 seo-description: 以下信息可帮助您对 Android 设备上的旧版客户获取促销活动链接进行往返测试。
 seo-title: 测试旧版客户获取
 solution: Experience Cloud,Analytics
 title: 测试旧版客户获取
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: bb7ace96-68eb-4f43-b3cf-af80730b9cee
+exl-id: 43e3b24e-e8bc-407c-b788-5ab85e459a90
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: '324'
 ht-degree: 100%
 
 ---
-
 
 # 测试旧版客户获取 {#testing-legacy-acquisition}
 
