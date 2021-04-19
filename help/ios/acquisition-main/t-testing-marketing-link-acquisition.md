@@ -1,20 +1,20 @@
 ---
 description: 以下说明可帮助您对使用基于设备指纹的营销链接的客户获取促销活动进行往返测试。
-keywords: android;library;mobile;sdk
+keywords: Android;库;移动;SDK
 seo-description: 以下说明可帮助您对使用基于设备指纹的营销链接的客户获取促销活动进行往返测试。
 seo-title: 测试营销链接客户获取
 solution: Experience Cloud,Analytics
 title: 测试营销链接客户获取
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: 69503e01-182d-44c6-b0fb-e1c012ffa3bd
+exl-id: 2fb02b36-172e-4c16-9ef9-13f8288ab8a4
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
-source-wordcount: '562'
+source-wordcount: '566'
 ht-degree: 100%
 
 ---
-
 
 # 测试营销链接客户获取 {#testing-marketing-link-acquisition}
 
