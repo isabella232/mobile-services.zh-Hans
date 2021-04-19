@@ -1,14 +1,14 @@
 ---
 cloud: Experience Cloud
-product: mobile-services
+product: experience cloud
 solution: Experience Cloud Services
-type: 文档
+type: Documentation
 git-repo: https://git.corp.adobe.com/AdobeDocs/mobile-services.zh-Hans
 index: true
 translation-type: tm+mt
-source-git-commit: a8b02c717381421799c933c0ce4f3735284c7b3c
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
-source-wordcount: '158'
+source-wordcount: '157'
 ht-degree: 100%
 
 ---
