@@ -1,20 +1,20 @@
 ---
 description: 回发允许您将 SDK 收集的数据发送至第三方服务器。利用您用来显示应用程序内消息的相同触发器和特征，可以将 SDK 配置为将自定义数据发送至第三方目标。
-keywords: android;library;mobile;sdk
+keywords: Android;库;移动;SDK
 seo-description: 回发允许您将 SDK 收集的数据发送至第三方服务器。利用您用来显示应用程序内消息的相同触发器和特征，可以将 SDK 配置为将自定义数据发送至第三方目标。
 seo-title: 回发
 solution: Experience Cloud,Analytics
 title: 回发概述
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: 8bfd4374-2767-421d-891d-e1e9a99b6977
+exl-id: 318f6eab-ff71-4bfe-8eb7-51a35380b992
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
-source-wordcount: '349'
+source-wordcount: '353'
 ht-degree: 100%
 
 ---
-
 
 # 回发 {#postbacks}
 
