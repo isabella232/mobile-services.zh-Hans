@@ -4,16 +4,16 @@ seo-description: 地理位置可通过在 iOS 应用程序中使用纬度和经�
 seo-title: 地理位置和目标点
 solution: Experience Cloud,Analytics
 title: 地理位置和目标点
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: c800ec85-a33f-425d-b28f-bfe8bf229ae8
+exl-id: 732c3863-2010-4d04-a17b-a656e857f567
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
 source-wordcount: '591'
 ht-degree: 100%
 
 ---
-
 
 # 地理位置和目标点 {#geo-location-and-points-of-interest}
 
@@ -116,4 +116,3 @@ NSMutableDictionary *contextData = [NSMutableDictionary dictionary];
 * 如果有两个 POI 的直径重叠，则使用包含当前位置的第一个 POI。
 
    如果 POI 重叠，则应按最精细到最不精细的顺序列出 POI，以确保报告最精细的 POI。
-
