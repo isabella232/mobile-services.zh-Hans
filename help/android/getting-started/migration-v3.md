@@ -1,20 +1,20 @@
 ---
 description: 此信息可帮助您从 3.x 或 2.x 版本的 Android 库迁移至 4.x 版本的 Android 库。
-keywords: android;library;mobile;sdk
+keywords: Android;库;移动;SDK
 seo-description: 此信息可帮助您从 3.x 或 2.x 版本的 Android 库迁移至 4.x 版本的 Android 库。
 seo-title: 迁移至 Android 4.x 库
 solution: Experience Cloud,Analytics
 title: 迁移至 Android 4.x 库
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: 906e83bb-2faf-4aa2-ac9b-3fba6b833c7e
+exl-id: 8061c1ab-aaaf-4d4c-9bd5-b2f80b6b06a3
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
-source-wordcount: '880'
+source-wordcount: '884'
 ht-degree: 100%
 
 ---
-
 
 # 迁移至 Android 4.x 库 {#migrating-to-the-android-x-library}
 
@@ -109,7 +109,7 @@ ht-degree: 100%
 | trackingServer | &quot;server&quot;，删除 `"https://"` 前缀。会根据 &quot;ssl&quot; 设置自动添加协议前缀。 |
 | trackingServerSecure | 删除。 要实现安全连接，请定义 &quot;server&quot;，然后启用 &quot;ssl&quot;。 |
 | charSet | &quot;charset&quot; |
-| currencyCode | &quot;currency&quot; |
+| currencyCode | &quot;货币&quot; |
 | ssl | &quot;ssl&quot; |
 | linkTrackVars | 删除，不再使用。 |
 | linkTrackEvents | 删除，不再使用。 |
@@ -190,4 +190,3 @@ SDK 版本 4 不使用以 Web 为主的 `track` 和 `trackLink` 调用，而是�
 ## 产品变量 {#section_AFBA36F3718C44D29AF81B9E1056A1B4}
 
 有关产品变量的更多信息，请参阅[产品变量](/help/android/analytics-main/products/products.md)。
-
