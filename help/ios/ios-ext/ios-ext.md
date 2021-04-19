@@ -4,16 +4,16 @@ seo-description: 您可以使用 iOS 扩展帮助从 Apple Watch 应用程序 (W
 seo-title: iOS 扩展实施
 solution: Experience Cloud,Analytics
 title: iOS 扩展实施
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: 8afc03fe-403e-4643-ada1-30e403ede238
+exl-id: 741b0cd5-6245-480a-b5bf-a33a1f82a425
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
 source-wordcount: '721'
 ht-degree: 100%
 
 ---
-
 
 # iOS 扩展实施 {#ios-extension-implementation}
 
@@ -48,6 +48,7 @@ Apple 提供一组 API，允许 Watch 应用程序通过向容器应用程序发
 >
 >* 一个包含应用程序的目标。
 >* 一个扩展目标。
+
 >
 
 
@@ -114,4 +115,3 @@ Apple 提供一组 API，允许 Watch 应用程序通过向容器应用程序发
 * 如果容器应用程序从未启动过，将会丢弃来自扩展的点击。
 * 容器应用程序与扩展应用程序之间的版本号和内部版本号必须相同。
 * 在 iOS 扩展应用程序中不会触发生命周期调用。
-
