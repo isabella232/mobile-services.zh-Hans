@@ -1,20 +1,20 @@
 ---
 description: 可以使用与应用程序相同的方法跟踪 Android 小组件。小组件与应用程序共享应用程序上下文，因此会保留点击顺序和访客标识。
-keywords: android;library;mobile;sdk
+keywords: Android;库;移动;SDK
 seo-description: 可以使用与应用程序相同的方法跟踪 Android 小组件。小组件与应用程序共享应用程序上下文，因此会保留点击顺序和访客标识。
 seo-title: Android 小组件
 solution: Experience Cloud,Analytics
 title: Android 小组件
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: 1a3718ff-967b-4c8e-ae0b-ba15bddbda0a
+exl-id: 229ea987-256a-45f4-a5ca-afe17dd596b8
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
-source-wordcount: '179'
+source-wordcount: '183'
 ht-degree: 100%
 
 ---
-
 
 # Android 小组件 {#android-widgets}
 
@@ -29,4 +29,3 @@ ht-degree: 100%
 * 要在从小组件启动应用程序时进行跟踪，请在产生启动应用程序的意图之前，添加 `trackState` 或 `trackEvent` 调用。
 
 * 要跟踪操作的上下文，您可以定义一个 `ContextData` 变量，以便提供相应选项来单独对每个操作进行分段（例如，`AppExperienceType="widget"` 与 `app`）。
-
