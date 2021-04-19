@@ -5,16 +5,16 @@ seo-description: 您可以为推送消息和富推送消息配置体验选项，
 seo-title: 体验：推送消息
 solution: Experience Cloud,Analytics
 title: 体验：推送消息
-topic: Metrics
+topic-fix: Metrics
 uuid: 1a8baf3e-9fea-452c-b0fc-4ba8ac270861
+exl-id: 9158487e-6ac5-4f17-a8ff-15de0360ab60
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
-source-wordcount: '799'
+source-wordcount: '800'
 ht-degree: 100%
 
 ---
-
 
 # 体验：推送消息 {#experience-push-message}
 
