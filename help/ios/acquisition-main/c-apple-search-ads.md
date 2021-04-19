@@ -4,16 +4,16 @@ seo-description: Adobe SDK 利用 Apple 的搜索广告应用程序归因 API，
 seo-title: Apple 搜索广告
 solution: Experience Cloud,Analytics
 title: Apple 搜索广告
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: 790080e8-067e-4bfd-a169-0027db4fdff3
+exl-id: efcdd430-f08d-4ee2-85f3-2697c3bd72db
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
 source-wordcount: '280'
 ht-degree: 100%
 
 ---
-
 
 # Apple 搜索广告 {#apple-search-ads}
 
@@ -26,7 +26,7 @@ Adobe SDK 利用 Apple 的搜索广告应用程序归因 API，让开发人员�
 * 通过向应用程序添加几行代码，轻松衡量搜索广告应用程序下载促销活动的有效性。
 * 开发人员可以访问下载日期/时间和促进转化的竞价关键词。
 
-## 实施 Apple 广告 {#section_F1094676793540CFA1DBB540174EEB6A}
+## 实施 Apple 广告  {#section_F1094676793540CFA1DBB540174EEB6A}
 
 >[!TIP]
 >
@@ -40,7 +40,7 @@ Adobe SDK 利用 Apple 的搜索广告应用程序归因 API，让开发人员�
 
 1. 将 iAd 框架添加到应用程序的 Xcode 项目文件中。
 
-## 报告搜索广告归因 {#section_1AF4E0B4F8E94F36B38CA3D3E384D0A4}
+## 报告搜索广告归因  {#section_1AF4E0B4F8E94F36B38CA3D3E384D0A4}
 
 1. 客户获取名称、来源和搜索词值中提供了 Apple 搜索广告归因数据。
 
@@ -49,7 +49,7 @@ Adobe SDK 利用 Apple 的搜索广告应用程序归因 API，让开发人员�
    此外，以下值将从 `"iad"` 字典映射到我们典型的客户获取上下文数据字段：
 
    * `"iad-campaign-id"` --> `"a.referrer.campaign.trackingcode"`
-   * `"iad-campaign-name"` --> `"a.referrer.campaign.name"`
-   * `"iad-adgroup-id"` --> `"a.referrer.campaign.content"`
-   * `"iad-keyword"` --> `"a.referrer.campaign.term"`
+   * `"iad-campaign-name"` —>  `"a.referrer.campaign.name"`
+   * `"iad-adgroup-id"` —>  `"a.referrer.campaign.content"`
+   * `"iad-keyword"` —>  `"a.referrer.campaign.term"`
    此映射将确保这些值可用在我们的标准报表中。
