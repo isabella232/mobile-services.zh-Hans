@@ -4,16 +4,16 @@ seo-description: 下表描述了 Android SDK 与 Adobe Mobile Services 使用的
 seo-title: 应用程序 ID
 solution: Experience Cloud,Analytics
 title: 应用程序 ID
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: 3ac99489-6269-439e-a814-24102ef220b1
+exl-id: 28358dd6-50dd-4ba9-9fb0-5271eae69d28
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
 workflow-type: tm+mt
 source-wordcount: '222'
 ht-degree: 100%
 
 ---
-
 
 # 应用程序 ID{#app-ids}
 
