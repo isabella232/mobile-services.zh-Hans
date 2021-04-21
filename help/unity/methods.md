@@ -1,19 +1,17 @@
 ---
-description: 'null'
+description: ADBMobile.cs配置方法
 keywords: Unity
-seo-description: 'null'
-seo-title: ADBMobile.cs 方法
 solution: Experience Cloud
 title: ADBMobile.cs 方法
 uuid: af504934-febd-45d9-81e2-2a310f4c65dc
+exl-id: d12c16f1-c25c-4698-8943-a660d9c08faf
 translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+source-git-commit: b9ee49ba26d4726b1f97ef36f5c2e9923361b1ee
 workflow-type: tm+mt
 source-wordcount: '1324'
 ht-degree: 66%
 
 ---
-
 
 # ADBMobile.cs 方法 {#adbmobile-cs-methods}
 
@@ -88,9 +86,9 @@ ht-degree: 66%
    返回当前用户隐私状态的枚举表示形式。
    * `MOBILE_PRIVACY_STATUS_OPT_IN`：立即发送点击。
    * `MOBILE_PRIVACY_STATUS_OPT_OUT`：丢弃点击。
-   * `MOBILE_PRIVACY_STATUS_UNKNOWN`:如果启用了脱机跟踪，则会保存点击，直到隐私状态更改为选择加入（然后发送点击）或选择退出（然后丢弃点击）。
+   * `MOBILE_PRIVACY_STATUS_UNKNOWN`:如果启用了脱机跟踪，则会保存点击，直到隐私状态更改为选择加入（然后发送点击）或选择退出（然后丢弃点击）为止。
 
-      如果未启用离线跟踪，则将丢弃点击，直到隐私状态更改为选择启用。The default value is set in the [ADBMobileConfig.json](/help/ios/configuration/json-config/json-config.md) file.
+      如果未启用离线跟踪，则将丢弃点击，直到隐私状态更改为选择启用。默认值在[ADBMobileConfig.json](/help/ios/configuration/json-config/json-config.md)文件中设置。
 
    * 以下是此方法的语法：
 
@@ -142,7 +140,7 @@ ht-degree: 66%
 
    >[!TIP]
    >
-   >此方法适用于在后台注册通知的应用程序，并且只应从应用程序在后台运行时运行的代码中调用。
+   >此方法适用于在后台注册通知的应用程序，并且仅应从应用程序在后台运行时运行的代码调用。
 
    * 以下是此方法的语法：
 
@@ -158,7 +156,7 @@ ht-degree: 66%
 
 * **PauseCollectingLifecycleData（仅限Android）**
 
-   指示 SDK 您的应用程序已暂停，以便正确计算生命周期量度。例如，在暂停时会收集时间戳以确定上一个会话长度。 这还会设置一个标志，使生命周期能够正确地知道应用程序未崩溃。 有关更多信息，请参阅[生命周期量度](/help/android/metrics.md)。
+   指示 SDK 您的应用程序已暂停，以便正确计算生命周期量度。例如，在暂停时会收集一个时间戳以确定上一个会话长度。 这还会设置一个标志，使生命周期能够正确地知道应用程序没有崩溃。 有关更多信息，请参阅[生命周期量度](/help/android/metrics.md)。
 
    * 以下是此方法的语法：
 
@@ -174,7 +172,7 @@ ht-degree: 66%
 
 * **SetContext（仅限Android）**
 
-   向SDK指示它应根据UnityPlayer的当前活动设置其应用程序上下文。
+   向SDK指示它应从UnityPlayer的当前活动设置其应用程序上下文。
 
    * 以下是此方法的语法：
 
@@ -210,7 +208,7 @@ ht-degree: 66%
 
    * `MOBILE_PRIVACY_STATUS_OPT_IN`：立即发送点击。
    * `MOBILE_PRIVACY_STATUS_OPT_OUT`：丢弃点击。
-   * `MOBILE_PRIVACY_STATUS_UNKNOWN`:如果启用了脱机跟踪，则会保存点击，直到隐私状态更改为选择加入（然后发送点击）或选择退出（然后丢弃点击）。 如果未启用离线跟踪，则将丢弃点击，直到隐私状态更改为选择启用。
+   * `MOBILE_PRIVACY_STATUS_UNKNOWN`:如果启用了脱机跟踪，则会保存点击，直到隐私状态更改为选择加入（然后发送点击）或选择退出（然后丢弃点击）为止。如果未启用离线跟踪，则将丢弃点击，直到隐私状态更改为选择启用。
 
    * 以下是此方法的语法：
 
@@ -262,7 +260,7 @@ ht-degree: 66%
 
    通过可选的上下文数据跟踪应用程序状态。状态是您的应用程序中可用的视图，如“标题屏幕”、“级别1”、“暂停”等。 这些状态与网站中的页面类似，而且 `TrackState` 调用会使页面查看次数递增。
 
-   如果状态为空，则状态将显示 *`app name app version (build)`* 为报告。 If you see this value in reports, make sure you are setting state in each `TrackState` call.
+   如果状态为空，则在报表中显示为&#x200B;*`app name app version (build)`*。 如果在报告中看到此值，请确保在每个`TrackState`调用中设置状态。
 
    >[!TIP]
    >
@@ -284,7 +282,7 @@ ht-degree: 66%
 
 * **TrackAction**
 
-   跟踪您的应用程序中的操作。操作是您要衡量的应用程序中发生的事情，如“死亡”、“获得的级别”、“供给订阅”和其他指标。
+   跟踪您的应用程序中的操作。操作是您要衡量的应用程序中发生的事情，例如“死亡”、“获得的级别”、“供给订阅”和其他指标。
 
    >[!TIP]
    >
@@ -324,7 +322,7 @@ ht-degree: 66%
 
 * **TrackLocation**
 
-   发送当前纬度和经度坐标。此方法还使用 `ADBMobileConfig.json` 文件中定义的目标点来确定作为参数提供的位置是否位于您的任何 POI 内。如果当前坐标在定义的POI中，则填充上下文数据变量，并随TrackLocation调用发送。
+   发送当前纬度和经度坐标。此方法还使用 `ADBMobileConfig.json` 文件中定义的目标点来确定作为参数提供的位置是否位于您的任何 POI 内。如果当前坐标在定义的POI内，将填充上下文数据变量，并随TrackLocation调用发送。
 
    * 以下是此方法的语法：
 
@@ -366,7 +364,7 @@ ht-degree: 66%
 
 * **TrackLifetimeValueIncrease**
 
-   增加用户终身价值。
+   增加用户的生存期值。
 
    * 以下是此方法的语法：
 
@@ -402,7 +400,7 @@ ht-degree: 66%
 
 * **TrackTimedActionUpdate**
 
-   传入数据以更新与给定操作关联的上下文数据。 传入的数据将附加到给定操作的现有数据中，并覆盖数据（如果已为操作定义相同的密钥）。
+   传入数据以更新与给定操作关联的上下文数据。 传入的数据将附加到给定操作的现有数据中，并覆盖数据（如果已为操作定义相同的键）。
 
    >[!TIP]
    >
@@ -522,7 +520,7 @@ ht-degree: 66%
 
 * **VisitorSyncIdentifiers**
 
-   使用Experience CloudID，您可以设置其他客户ID以与每个访客关联。 访客API接受同一访客的多个客户ID以及客户类型标识符，以分隔不同客户ID的范围。 此方法对应于 JavaScript 库中的 setCustomerIDs。
+   使用Experience CloudID，您可以设置其他客户ID以与每个访客关联。 访客API接受同一访客的多个客户ID，并接受一个客户类型标识符以分隔不同客户ID的范围。 此方法对应于 JavaScript 库中的 setCustomerIDs。
 
    * 以下是此方法的语法：
 
@@ -540,9 +538,9 @@ ht-degree: 66%
 
 ## 客户获取方法
 
-* **ProcessGooglePlayInstallReferrerUrl** ( *仅限Android)*
+* **ProcessGooglePlayInstallReferrerUrl** *（仅限Android）*
 
-   将从调用返回的推荐人URL传递给此方法的Google Play安装推荐人API。
+   将调用Google Play安装推荐人API时返回的推荐人URL传递给此方法。
 
    * 以下是此方法的语法：
 
