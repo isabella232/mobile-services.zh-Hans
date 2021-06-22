@@ -8,11 +8,10 @@ title: PhoneGap 插件概述
 topic-fix: Developer and implementation
 uuid: c5c32357-d8df-458a-b0e8-e0c56040241d
 exl-id: ecd756ca-e333-4d28-bd1e-a75ffc6ebe22
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: bb2459e57274183e55c1facd1a510cf55a83ddb4
 workflow-type: tm+mt
-source-wordcount: '399'
-ht-degree: 100%
+source-wordcount: '398'
+ht-degree: 97%
 
 ---
 
@@ -71,7 +70,7 @@ cordova plugin add adobe-mobile-services
 
    要移动此文件，请单击&#x200B;**[!UICONTROL 确定]**。
 
-1. 右键单击 `adobeMobileLibrary.jar 文件并选择&#x200B;**[!UICONTROL 添加为库]**。
+1. 右键单击`adobeMobileLibrary.jar`文件，然后选择&#x200B;**[!UICONTROL 添加为库]**。
 1. 根据项目的要求，输入库的名称、级别和位置。
 1. 将 `ADBMobileConfig.json` 文件拖到应用程序根目录的 `assets` 文件夹中。
 1. 确认您选择的是根应用程序而&#x200B;**不是**&#x200B;应用程序中的应用程序。
