@@ -3,11 +3,10 @@ audience: end-user
 user-guide-title: Mobile Services 指南
 breadcrumb-title: Mobile Services 指南
 user-guide-description: Mobile Services 是一种端到端解决方案，可帮助您赢取和吸引移动应用程序用户并优化其体验。
-translation-type: tm+mt
-source-git-commit: b9ee49ba26d4726b1f97ef36f5c2e9923361b1ee
+source-git-commit: 8c74c479c357e008dbbaaee8eb11097582072470
 workflow-type: tm+mt
 source-wordcount: '343'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -15,9 +14,9 @@ ht-degree: 100%
 # Mobile Services 指南 {#using}
 
 + [Adobe Mobile Services](home.md)
-+ [发行说明](whatsnew.md)
++ [生命周期终止公告](eol.md)
 + 入门指南 {#get-started-ug}
-   + [入门指南](gs/gs.md)
+   + [快速入门](gs/gs.md)
    + [角色和权限](gs/c-mob-roles-and-permissions.md)
    + [登录](gs/gs-signin.md)
    + [报表类型](gs/reports-types.md)
@@ -55,7 +54,7 @@ ht-degree: 100%
    + [“维系”报表](usage/reports-retention.md)
    + [“漏斗”报表](usage/reports-funnel.md)
    + [“查看路径”报表](usage/reports-view-paths.md)
-   + [“操作路径”报表](usage/reports-action-paths.md)
+   + [操作路径报告](usage/reports-action-paths.md)
    + [“版本”报表](usage/c-reports-versions.md)
    + [“技术”报表](usage/reports-technology.md)
    + [“崩溃次数”报表](usage/c-crashes.md)
@@ -114,4 +113,4 @@ ht-degree: 100%
       + [计划：应用程序内消息](in-app-messaging/t-in-app-message/c-schedule-in-app-message.md)
       + [排查应用程序内消息传送问题](in-app-messaging/t-in-app-message/in-apps-ts.md)
       + [在从推送消息中打开应用程序时触发应用程序内消息](in-app-messaging/t-mob-trig-in-app-open-app-from-push.md)
-+ [常见问题解答](faq-mobile.md)
++ [常见问题](faq-mobile.md)
