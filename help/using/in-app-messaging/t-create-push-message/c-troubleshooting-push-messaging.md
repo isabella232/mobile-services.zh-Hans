@@ -1,17 +1,14 @@
 ---
 description: 此信息可帮助您排查推送消息问题。
 keywords: mobile
-seo-description: 此信息可帮助您排查推送消息问题。
-seo-title: 排查推送消息问题
 solution: Experience Cloud,Analytics
 title: 排查推送消息问题
 topic-fix: Metrics
 uuid: c7be4ab7-0cfe-4296-84a8-01412f4fd93f
 exl-id: 56feb8e1-e196-4b70-8240-6e41581ca602
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '736'
+source-wordcount: '725'
 ht-degree: 100%
 
 ---
@@ -94,13 +91,13 @@ ht-degree: 100%
 * 应用程序名称：PhotoShop_app_iOS
    * 父 RSID：AllAdobe PhotoShop_apps
    * VRSID：PhotoShop_iOS_app_SF
-   * VRSID 定义区段：`a.appid contains “PhotoShop_iOS_app_SF”`
+   * VRSID 定义区段：`a.appid contains "PhotoShop_iOS_app_SF"`
 * 应用程序名称：PhotoShop_app_iOS
    * 父 RSID：AllAdobe PhotoShop_apps
    * RSID：PhotoShop_iOS_app_LA
-   * VRSID 定义区段：`a.os contains “iOS”`
+   * VRSID 定义区段：`a.os contains "iOS"`
 
-在此示例中，如果 Photoshop 员工将推送消息发送到 *PhotoShop_iOS_app_SF* 应用程序，则所有 *PhotoShop_iOS_app_SF 应用程序*&#x200B;用户都将会按预期收到推送消息。但是，如果员工将消息发送到 *PhotoShop_iOS_app_LA* 应用程序，因为其 VRSID 定义区段有误（是 `iOS` 而不是 `a.os contains "PhotoShop_iOS_app_LA"`），则该消息会发送到 *AllAdobe PhotoShop_apps* 中的&#x200B;**所有** iOS 用户。虽然该消息仍会发送到 *PhotoShop_iOS_app_LA* 用户，但该消息也会将 *PhotoShop_iOS_app_SF* 用户的推送 ID 列入阻止列表，因为 *PhotoShop_iOS_app_SF* 应用程序具有不同的证书。如果该区段被定义为 `a.os contains “PhotoShop_iOS_app_LA”`，则推送消息将仅被发送到 *PhotoShop_iOS_app_LA* 用户。
+在此示例中，如果 Photoshop 员工将推送消息发送到 *PhotoShop_iOS_app_SF* 应用程序，则所有 *PhotoShop_iOS_app_SF 应用程序*&#x200B;用户都将会按预期收到推送消息。但是，如果员工将消息发送到 *PhotoShop_iOS_app_LA* 应用程序，因为其 VRSID 定义区段有误（是 `iOS` 而不是 `a.os contains "PhotoShop_iOS_app_LA"`），则该消息会发送到 *AllAdobe PhotoShop_apps* 中的&#x200B;**所有** iOS 用户。虽然该消息仍会发送到 *PhotoShop_iOS_app_LA* 用户，但该消息也会将 *PhotoShop_iOS_app_SF* 用户的推送 ID 列入阻止列表，因为 *PhotoShop_iOS_app_SF* 应用程序具有不同的证书。如果该区段被定义为 `a.os contains "PhotoShop_iOS_app_LA"`，则推送消息将仅被发送到 *PhotoShop_iOS_app_LA* 用户。
 
 如果通过 *PhotoShop_IOS_app_LA* 推送证书传递消息，则 *PhotoShop_iOS_app_SF* 的推送标识符将会返回为 `invalid`。
 

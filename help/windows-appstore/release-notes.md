@@ -1,16 +1,13 @@
 ---
 description: 适用于 Experience Cloud 解决方案的 Windows 8.1 跨平台通用应用商店 SDK 4.x 的发行说明和已知问题。
-seo-description: 适用于 Experience Cloud 解决方案的 Windows 8.1 跨平台通用应用商店 SDK 4.x 的发行说明和已知问题。
-seo-title: 发行说明
 solution: Experience Cloud,Analytics
 title: 发行说明
 topic-fix: Developer and implementation
 uuid: 45634319-7949-4e24-b193-4f876af97a69
 exl-id: 21bd2e72-cc9e-4fc0-940f-dfc560d7a536
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '228'
 ht-degree: 100%
 
 ---
@@ -30,5 +27,4 @@ ht-degree: 100%
 | 定时操作 | 定时操作是一种让您能够轻松了解用户在应用程序内完成端到端流程所需时间的简单方法。定时操作允许您计算会话时长以及完成操作所花费的总时间（跨会话）。有关更多信息，请参阅 [Analytics](/help/windows-appstore/analytics/analytics.md) 中的&#x200B;*计时操作*。 |
 | 选择启用/选择禁用 | 快速启用和禁用 Analytics。 |
 
-
-有关所有解决方案发行说明的更多信息，请参阅 [Adobe Experience Cloud 发行说明](https://docs.adobe.com/content/help/zh-Hans/release-notes/experience-cloud/current.html)。
+有关所有解决方案发行说明的更多信息，请参阅 [Adobe Experience Cloud 发行说明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=zh-Hans)。

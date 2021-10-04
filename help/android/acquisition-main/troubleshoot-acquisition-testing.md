@@ -1,16 +1,13 @@
 ---
 description: 本主题提供了有关如何排查客户获取测试过程中可能遇到的问题的信息。
 keywords: Android;库;移动;SDK
-seo-description: 本主题提供了有关如何排查客户获取测试过程中可能遇到的问题的信息。
-seo-title: 排查客户获取测试问题
 solution: Experience Cloud,Analytics
 title: 排查客户获取测试问题
 topic-fix: Developer and implementation
 exl-id: 1ed2ad89-4e89-43da-aa21-f688b4d1c0d1
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '252'
+source-wordcount: '216'
 ht-degree: 100%
 
 ---
@@ -25,7 +22,7 @@ ht-degree: 100%
 
 * 确保从主活动中调用 `Config.setContext(this.getApplicationContext())`。
 
-   有关更多信息，请参阅[配置方法](https://docs.adobe.com/content/help/zh-Hans/mobile-services/android/configuration-android/methods.html)。
+   有关更多信息，请参阅[配置方法](../configuration/methods.md)。
 
 * 确保 `AndroidManifest.xml` 文件中存在 Mobile SDK 所需的权限：
 
@@ -41,7 +38,7 @@ ht-degree: 100%
 
    对于手动测试，我们建议您将 `referrerTimeout` 增加到 10-15 秒，以便在处理安装点击之前有足够的时间发送反向链接信息。
 
-* 运行[测试营销链接客户获取](https://docs.adobe.com/content/help/zh-Hans/mobile-services/android/acquisition-android/t-testing-marketing-link-acquisition.html)中的所有步骤，并确保首先执行 `adb shell` 命令，然后完成以下步骤：
+* 运行[测试营销链接客户获取](t-testing-marketing-link-acquisition.md)中的所有步骤，并确保首先执行 `adb shell` 命令，然后完成以下步骤：
 
    ```java
    am broadcast -a com.android.vending.INSTALL_REFERRER -n nl.postnl.app/.tracking.AdobeAcquisitionLinkBroadcastReceiver --es "referrer" "utm_source=adb_acq_v3&utm_campaign=adb_acq_v3&utm_content=<the newly generated id at step #7>"

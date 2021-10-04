@@ -1,33 +1,30 @@
 ---
-description: 列表可由移动库自动测量的量度和维度。
+description: 列出可由移动设备库自动测量的量度和维度。
 keywords: Android;库;移动;SDK
-seo-description: 列表可由移动库自动测量的量度和维度。
-seo-title: 生命周期量度
 solution: Experience Cloud,Analytics
 title: 生命周期量度
 topic-fix: Developer and implementation
 uuid: f958c3ef-1d79-4b30-8966-ef74bd48a5d6
 exl-id: 19572f15-c5df-40fe-9979-3a5bdd581f2b
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '921'
-ht-degree: 83%
+source-wordcount: '905'
+ht-degree: 84%
 
 ---
 
 # 生命周期量度 {#lifecycle-metrics}
 
-列表可由移动库自动测量的量度和维度。
+列出可由移动设备库自动测量的量度和维度。
 
-有关详细信息，请参阅[生命周期数据疑难解答](https://helpx.adobe.com/cn/analytics/kb/troubleshoot-lifecycle-data.html)。
+有关更多信息，请参阅[生命周期数据疑难解答](https://helpx.adobe.com/cn/analytics/kb/troubleshoot-lifecycle-data.html)。
 
 
 ## 生命周期量度和维度 {#section_78F036C4296F4BA3A47C2044F79C86C1}
 
 配置后，生命周期量度会在上下文数据参数中发送到 Analytics，随每个 mbox 调用在参数中发送到 Target，并作为信号发送到受众管理。Analytics 和 Target 使用相同的格式，而受众管理则对每个量度使用不同的前缀。
 
-对于Analytics，使用量度或维度自动捕获和报告每次生命周期跟踪调用时发送的上下文数据。 内容中会记明例外情况。
+对于Analytics，将使用量度或维度自动捕获并报告随每个生命周期跟踪调用发送的上下文数据。 内容中记录了例外情况。
 
 ## 量度
 
@@ -197,7 +194,7 @@ ht-degree: 83%
 
 ## 其他移动量度和维度 {#section_0B32BBF9CA734103BEDB5E755FFE5B31}
 
-通过以下方法在移动解决方案变量中捕获以下量度和维度：
+以下量度和维度通过以下方法在移动设备解决方案变量中捕获：
 
 ### 量度
 
@@ -227,7 +224,7 @@ ht-degree: 83%
 
    由 `trackLocation` 方法填充。
 
-   * Analytics Context Data/目标参数：
+   * Analytics上下文数据/Target参数：
 
       * `a.loc.lat.a`
       * `a.loc.lon.a`
@@ -241,7 +238,7 @@ ht-degree: 83%
 
    由 `trackLocation` 方法填充。
 
-   * Analytics Context Data/目标参数：
+   * Analytics上下文数据/Target参数：
 
       * `a.loc.lat.b`
       * `a.loc.lon.b`
@@ -255,7 +252,7 @@ ht-degree: 83%
 
    由 `trackLocation` 方法填充。
 
-   * Analytics Context Data/目标参数：
+   * Analytics上下文数据/Target参数：
 
       * `a.loc.lat.c`
       * `a.loc.lon.c`
@@ -274,7 +271,7 @@ ht-degree: 83%
 
 * **与目标点中心的距离**
 
-   当设备位于定义的POI中时，由`trackLocation`方法填充。
+   当设备位于定义的POI内时，由`trackLocation`方法填充。
 
    * Analytics 上下文数据/Target 参数：`a.loc.dist`
    * Audience Manager特征：`c_a_loc_dist`

@@ -1,17 +1,14 @@
 ---
 description: 生成器可帮助您生成营销链接，以将用户路由到应用商店和应用程序或 Web 链接目标。营销人员可基于规则选择目标，如用户设备的设备类型或操作系统。
 keywords: mobile
-seo-description: 生成器可帮助您生成营销链接，以将用户路由到应用商店和应用程序或 Web 链接目标。营销人员可基于规则选择目标，如用户设备的设备类型或操作系统。
-seo-title: 营销链接生成器
 solution: Experience Cloud,Analytics
 title: 营销链接生成器
 topic-fix: Metrics
 uuid: 94906393-ffa5-47a6-89f6-1c812bad34af
 exl-id: f7cdaec3-e8a3-4782-bbb6-d5e011e4493b
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '150'
+source-wordcount: '109'
 ht-degree: 100%
 
 ---

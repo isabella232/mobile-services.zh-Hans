@@ -1,21 +1,18 @@
 ---
 description: 适用于 Experience Cloud 解决方案的通用 Windows Platform SDK 4.x 允许您测量本机 Windows 10 应用程序，在您的应用程序中提供目标内容，以及通过受众管理收集并利用受众数据。
-seo-description: 适用于 Experience Cloud 解决方案的通用 Windows Platform SDK 4.x 允许您测量本机 Windows 10 应用程序，在您的应用程序中提供目标内容，以及通过受众管理收集并利用受众数据。
-seo-title: 适用于 Experience Cloud 解决方案的通用 Windows Platform SDK 4.x
 solution: Experience Cloud,Analytics
 title: 适用于 Experience Cloud 解决方案的通用 Windows Platform SDK 4.x
 topic-fix: Developer and implementation
 uuid: 23a5bc0a-54f0-42a7-af1e-c8cbb509dfce
 exl-id: 3ae13dfc-a5ad-46d9-90e1-1e5e11b39f42
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '214'
+source-wordcount: '175'
 ht-degree: 100%
 
 ---
 
-# 适用于 Experience Cloud 解决方案的通用 Windows 平台 SDK 4.x {#universal-windows-platform-sdk-x-for-experience-cloud-solutions}
+# 适用于 Experience Cloud 解决方案的通用 Windows Platform SDK 4.x {#universal-windows-platform-sdk-x-for-experience-cloud-solutions}
 
 适用于 Experience Cloud 解决方案的通用 Windows Platform SDK 4.x 允许您测量本机 Windows 10 应用程序，在您的应用程序中提供目标内容，以及通过受众管理收集并利用受众数据。
 

@@ -1,17 +1,14 @@
 ---
 description: 回传允许您将 Adobe Mobile 收集的数据发送至单独的第三方服务器。利用您用来显示应用程序内消息的相同触发器和特征，可以将 Mobile Services 配置为将自定义数据发送至第三方目标。
-seo-description: 回传允许您将 Adobe Mobile 收集的数据发送至单独的第三方服务器。利用您用来显示应用程序内消息的相同触发器和特征，可以将 Mobile Services 配置为将自定义数据发送至第三方目标。
-seo-title: 配置回发
 title: 配置回发
 uuid: a026575c-057b-4868-b6c8-9514cbc32b4d
-translation-type: tm+mt
-source-git-commit: 7ae626be4d71641c6efb127cf5b1d3e18fccb907
+exl-id: 99b27f16-303a-4853-bfdb-2066a53867bf
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '474'
+source-wordcount: '430'
 ht-degree: 100%
 
 ---
-
 
 # 配置回发 {#configure-postbacks}
 

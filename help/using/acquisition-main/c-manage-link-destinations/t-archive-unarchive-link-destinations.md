@@ -1,17 +1,14 @@
 ---
 description: 您可以使用“链接目标”页面来编辑、存档、取消存档或删除现有目标。
 keywords: mobile
-seo-description: 您可以使用“链接目标”页面来编辑、存档、取消存档或删除现有目标。
-seo-title: 管理链接目标
 solution: Experience Cloud,Analytics
 title: 管理链接目标
 topic-fix: Metrics
 uuid: 3a38d40d-b4c7-4f9f-aa6e-979613faaba2
 exl-id: 5d2ab0db-6371-434e-bf92-6013e78c8d8f
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '279'
 ht-degree: 100%
 
 ---

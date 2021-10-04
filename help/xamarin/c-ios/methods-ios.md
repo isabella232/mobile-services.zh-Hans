@@ -1,23 +1,20 @@
 ---
-description: 用于Experience Cloud解决方案4.x SDK的Xamarin组件的iOS方法。
-keywords: Xamarin
-seo-description: 用于Experience Cloud解决方案4.x SDK的Xamarin组件的iOS方法。
-seo-title: iOS 方法
+description: 适用于Experience Cloud解决方案4.x SDK的Xamarin组件的iOS方法。
+keywords: 沙马林
 solution: Experience Cloud
 title: iOS 方法
 uuid: d6a056db-80c1-44d0-970f-c961ad01b0bc
-translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+exl-id: 92897d08-2b66-4688-9870-c877bea53cfc
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '1749'
+source-wordcount: '1737'
 ht-degree: 70%
 
 ---
 
-
 # iOS 方法{#ios-methods}
 
-用于Experience Cloud解决方案4.x SDK的Xamarin组件的iOS方法。
+适用于Experience Cloud解决方案4.x SDK的Xamarin组件的iOS方法。
 
 ## 配置方法 {#section_405AA09390E346E5BB7B1F4E0F65F51E}
 
@@ -37,7 +34,7 @@ ht-degree: 70%
       ADBMobile.CollectLifecycleData();
       ```
 
-* **调试日志记录**
+* **DebugLogging**
 
    返回当前的调试日志记录首选项。默认值为 `false`。
 
@@ -55,7 +52,7 @@ ht-degree: 70%
 
 * **SetDebugLogging**
 
-   将调试日志记录首选项设置为启用。
+   将调试日志记录首选项设置为已启用。
 
    * 以下是此方法的语法：
 
@@ -85,14 +82,14 @@ ht-degree: 70%
       var lifetimeValue = ADBMobile.LifetimeValue();
       ```
 
-* **隐私状态**
+* **PrivacyStatus**
 
    返回当前用户隐私状态的枚举表示形式。
    * `ADBMobilePrivacyStatus.OptIn` - 立即发送点击。
    * `ADBMobilePrivacyStatus.OptOut` - 丢弃点击。
-   * ADBMobilePrivacyStatus.Unknown —— 如果启用离线跟踪，则会保存点击，直到隐私状态更改为选择加入（然后发送点击）或选择退出（然后丢弃点击）。 如果禁用脱机跟踪，则会丢弃点击，直到隐私状态更改选择加入为。
+   * ADBMobilePrivacyStatus.Unknown — 如果启用了离线跟踪，将会保存点击，直到隐私状态更改为选择启用（发送点击）或选择禁用（丢弃点击）。 如果禁用了离线跟踪，则将丢弃点击，直到隐私状态更改为选择启用。
 
-   The default value is set in the [ADBMobileConfig.json](/help/ios/configuration/json-config/json-config.md).
+   默认值在[ADBMobileConfig.json](/help/ios/configuration/json-config/json-config.md)中设置。
 
    * 以下是此方法的语法：
 
@@ -155,7 +152,7 @@ ht-degree: 70%
    * 以下是此方法的代码示例：
 
       ```objective-c
-      ADBMobile.SetUserIdentifier ("customUserIdentifier”); 
+      ADBMobile.SetUserIdentifier ("customUserIdentifier"); 
       ```
 
 * **GetVersion**
@@ -180,7 +177,7 @@ ht-degree: 70%
 
    >[!TIP]
    >
-   >此方法适用于在后台注册通知的应用程序，并且只应从应用程序在后台运行时运行的代码中调用。
+   >此方法专门用于在后台注册通知的应用程序，并且只应从应用程序处于后台时运行的代码中调用。
 
    * 以下是此方法的语法：
 
@@ -196,7 +193,7 @@ ht-degree: 70%
 
 ## Analytics 方法 {#section_63CF636104EF41F790C3E4190D755BBA}
 
-* **跟踪标识符**
+* **TrackingIdentifier**
 
    检索分析跟踪标识符。
 
@@ -214,7 +211,7 @@ ht-degree: 70%
 
 * **TrackState**
 
-   通过可选的上下文数据跟踪应用程序状态。状态是您的应用程序中可用的视图，如“标题屏幕”、“级别1”、“暂停”等。 这些状态与网站上的页面类似，并调 `TrackState` 用增量页面视图。如果状态为空，则在报告中将显示为“应用程序名称应用程序版本（内部版本）”。 If you see this value in reports, make sure you are setting state in each `TrackState` call.
+   通过可选的上下文数据跟踪应用程序状态。状态是您的应用程序中可用的一些视图，例如“标题屏幕”、“级别1”、“暂停”等。 这些状态与网站上的页面类似，并且`TrackState`调用会使页面查看次数递增。如果状态为空，它会在报表中显示为“应用程序名称应用程序版本（内部版本）”。 如果在报表中看到此值，请确保在每个`TrackState`调用中设置状态。
 
    >[!TIP]
    >
@@ -236,7 +233,7 @@ ht-degree: 70%
 
 * **TrackAction**
 
-   跟踪您的应用程序中的操作。操作是您要衡量的应用程序中发生的事情，如“死亡”、“获得的级别”、“供给订阅”和其他指标。
+   跟踪您的应用程序中的操作。操作是指您的应用程序中发生的要测量的事件，例如“死亡”、“获得的级别”、“信息源订阅”及其他量度。
 
    >[!TIP]
    >
@@ -326,11 +323,11 @@ ht-degree: 70%
 
 * **TrackLifetimeValueIncrease**
 
-   增加用户终身价值。
+   向用户的生命周期值中添加金额。
 
    * 以下是此方法的语法：
 
-      公共nbsp；静态void voidTrackLifetimeValueIncrease(多次量，NSDictionary cdata);
+      public nbsp；静态voidTrackLifetimeValueIncrease(double amount， NSDictionary cdata);
 
    * 以下是此方法的代码示例：
 
@@ -360,7 +357,7 @@ ht-degree: 70%
 
 * **TrackTimedActionUpdate**
 
-   传入数据以更新与给定操作关联的上下文数据。 传入的数据将附加到给定操作的现有数据中，并覆盖数据（如果已为操作定义相同的密钥）。
+   传入数据，以更新与给定操作关联的上下文数据。 传入的数据将附加到给定操作的现有数据中，如果已经为操作定义了相同的键，则会覆盖数据。
 
    >[!TIP]
    >
@@ -399,7 +396,7 @@ ht-degree: 70%
 
 * **TrackingTimedActionExists**
 
-   返回定时操作是否正在进行。
+   返回定时操作是否正在进行中。
 
    * 以下是此方法的语法：
 
@@ -464,7 +461,7 @@ ht-degree: 70%
       var queueSize = ADBMobile.TrackingGetQueueSize(); 
       ```
 
-## Experience Cloud ID methods {#section_157919E46030443DBB5CED60D656AD9F}
+## Experience CloudID方法 {#section_157919E46030443DBB5CED60D656AD9F}
 
 * **GetMarketingCloudID**
 
@@ -484,7 +481,7 @@ ht-degree: 70%
 
 * **VisitorSyncIdentifiers**
 
-   使用Experience CloudID，您可以设置其他客户ID以与每个访客关联。 访客API接受同一访客的多个客户ID以及客户类型标识符，以分隔不同客户ID的范围。 此方法对应于 JavaScript 库中的 setCustomerIDs。
+   使用Experience CloudID，您可以设置其他客户ID以与每个访客关联。 访客API接受同一访客具有多个客户ID，并且还使用客户类型标识符区分不同客户ID的适用范围。 此方法对应于 JavaScript 库中的 setCustomerIDs。
 
    * 以下是此方法的语法：
 
@@ -503,7 +500,7 @@ ht-degree: 70%
 
 * **TargetLoadRequest**
 
-   Sends request to your configured Target server and returns the string value of the offer generated in a `Action<NSDictionary>` callback.
+   向您配置的Target服务器发送请求，并返回在`Action<NSDictionary>`回调中生成的选件的字符串值。
 
    * 以下是此方法的语法：
 
@@ -523,7 +520,7 @@ ht-degree: 70%
 
 * **TargetCreateRequest**
 
-   Convenience constructor to create an `ADBTargetLocationRequest` object with the given parameters.
+   一个方便使用的构造函数，用于使用给定参数创建`ADBTargetLocationRequest`对象。
 
    * 以下是此方法的语法：
 
@@ -574,7 +571,7 @@ ht-degree: 70%
 
 * **AudienceVisitorProfile**
 
-   返回最近获取的访客资料。如果尚未提交任何信号，则返回零。 Visitor profile is saved in `NSUserDefaults` for easy access across multiple launches of your app.
+   返回最近获取的访客资料。如果尚未提交任何信号，则返回nil。 访客配置文件保存在`NSUserDefaults`中，以便在多次启动应用程序时轻松访问。
 
    * 以下是此方法的语法：
 
@@ -622,7 +619,7 @@ ht-degree: 70%
 
 * **AudienceSetDpidAndDpuuid**
 
-   设置dpid和dpuuid。 如果设置了dpid和dpuuid，则会随每个信号一起发送它们。
+   设置dpid和dpuuid。 如果设置了dpid和dpuuid，则它们将随每个信号一起发送。
 
    * 以下是此方法的语法：
 
@@ -638,7 +635,7 @@ ht-degree: 70%
 
 * **AudienceSignalWithData**
 
-   Sends audience management a signal with traits and get the matching segments returned in a `Action<NSDictionary>`  callback.
+   向受众管理发送一个具有特征的信号，并获取`Action<NSDictionary>`回调中返回的匹配区段。
 
    * 以下是此方法的语法：
 
@@ -673,7 +670,7 @@ ht-degree: 70%
 
 ## 视频 {#section_CBCE1951CE204A108AD4CA7BB07C7F98}
 
-有关详细信息，请参阅 [视频分析](/help/ios/getting-started/dev-qs.md)。
+有关更多信息，请参阅[Video Analytics](/help/ios/getting-started/dev-qs.md)。
 
 * **MediaCreateSettings**
 

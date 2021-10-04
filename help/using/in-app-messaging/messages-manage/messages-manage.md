@@ -1,17 +1,14 @@
 ---
 description: 查看应用程序内消息和推送消息列表，以及有关每个消息的上一次更新时间和处于何种状态（实时或已停用）的详细信息。
 keywords: mobile
-seo-description: 查看应用程序内消息和推送消息列表，以及有关每个消息的上一次更新时间和处于何种状态（实时或已停用）的详细信息。
-seo-title: 管理消息
 solution: Experience Cloud,Analytics
 title: 管理消息
 topic-fix: Metrics
 uuid: 4d934ede-0c68-4dd5-ba37-9caf727cc717
 exl-id: 96436104-fe5d-4f50-80a9-9b6ad7401de2
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '470'
+source-wordcount: '442'
 ht-degree: 100%
 
 ---

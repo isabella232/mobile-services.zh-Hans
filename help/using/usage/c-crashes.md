@@ -1,17 +1,14 @@
 ---
 description: 崩溃次数报表可提供应用程序的崩溃信息。您既可以查看崩溃次数和崩溃率，也可以登录 Apteligent 用户界面。
-seo-description: 崩溃次数报表可提供应用程序的崩溃信息。您既可以查看崩溃次数和崩溃率，也可以登录 Apteligent 用户界面。
-seo-title: “崩溃次数”报表
 title: “崩溃次数”报表
 uuid: 0c96190f-e16b-49d5-aaa5-b651780a7266
-translation-type: tm+mt
-source-git-commit: 3b744229b3fc288363be74c3c4adcd71ecc4fad4
+exl-id: 38db5207-b3fd-49c8-98bd-d287d27738b7
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '256'
+source-wordcount: '225'
 ht-degree: 100%
 
 ---
-
 
 # “崩溃次数”报表 {#crashes}
 

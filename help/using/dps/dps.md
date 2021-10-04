@@ -1,17 +1,14 @@
 ---
 description: 您可以查看可供 Digital Publishing Suite (DPS) 客户使用的报表。
 keywords: mobile
-seo-description: 您可以查看可供 Digital Publishing Suite (DPS) 客户使用的报表。
-seo-title: Digital Publishing Suite 概述
 solution: Experience Cloud,Analytics
 title: Digital Publishing Suite 概述
 topic-fix: Metrics
 uuid: ca335891-5d73-47dc-811f-374a0844109f
 exl-id: 5f5e09a3-c634-480c-863d-f9a34cd01464
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '131'
+source-wordcount: '114'
 ht-degree: 100%
 
 ---

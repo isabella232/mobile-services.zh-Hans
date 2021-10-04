@@ -1,17 +1,14 @@
 ---
 description: 此信息可帮助您在 Android 应用程序中提供目标内容。
 keywords: Android;库;移动;SDK
-seo-description: 此信息可帮助您在 Android 应用程序中提供目标内容。
-seo-title: Target 概述
 solution: Experience Cloud,Analytics
 title: Target 概述
 topic-fix: Developer and implementation
 uuid: 3501b76d-f83f-45eb-b56d-39e64717772e
 exl-id: 6b75528c-b808-440e-8517-3dcea6204af8
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '131'
+source-wordcount: '119'
 ht-degree: 100%
 
 ---

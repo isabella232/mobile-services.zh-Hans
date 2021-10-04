@@ -1,17 +1,14 @@
 ---
 description: 漏斗报表可帮助确定客户在与您的移动设备应用程序进行交互时，在哪里放弃了营销活动或偏离了定义的转化路径。您还可以使用漏斗报表来比较不同区段的操作。
 keywords: mobile
-seo-description: 漏斗报表可帮助确定客户在与您的移动设备应用程序进行交互时，在哪里放弃了营销活动或偏离了定义的转化路径。您还可以使用漏斗报表来比较不同区段的操作。
-seo-title: “漏斗”报表
 solution: Experience Cloud,Analytics
 title: “漏斗”报表
 topic-fix: Reports,Metrics
 uuid: 268b4ab9-2e29-4423-9f79-ad93f5231ede
 exl-id: 43f9d0aa-0651-42c6-85ea-307ed253cf8d
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '523'
+source-wordcount: '484'
 ht-degree: 100%
 
 ---

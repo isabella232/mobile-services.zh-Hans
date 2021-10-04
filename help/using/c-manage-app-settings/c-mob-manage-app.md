@@ -1,18 +1,15 @@
 ---
 description: 您可以通过配置各种变量和量度来跟踪和管理从应用程序收到的数据。
 keywords: mobile
-seo-description: 您可以通过配置各种变量和量度来跟踪和管理从应用程序收到的数据。
-seo-title: 管理您的应用程序
 solution: Experience Cloud,Analytics
 title: 管理您的应用程序
 topic-fix: Metrics
 uuid: 0cc356c3-8457-40a7-8c97-7cbc68a5dc0c
 exl-id: 599fef94-c188-47f5-b9d6-25a7c8cb07bc
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: d1ebb2bbc4742f5288f90a90e977d252f3f30aa3
 workflow-type: tm+mt
-source-wordcount: '1040'
-ht-degree: 100%
+source-wordcount: '1020'
+ht-degree: 91%
 
 ---
 
@@ -39,7 +36,7 @@ ht-degree: 100%
 
 单击&#x200B;**[!UICONTROL 管理应用程序设置]** > **[!UICONTROL 管理变量与量度]** > **[!UICONTROL 自定义变量]**。
 
-这些映射将调用[处理规则](https://docs.adobe.com/content/help/zh-Hans/analytics/admin/admin-tools/processing-rules/processing-rules.html)中使用的相同 API。
+这些映射将调用[处理规则](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/processing-rules/processing-rules.html)在Adobe Analytics中使用的相同API。
 
 ![上下文数据映射](assets/custom_data_content.png)
 
@@ -49,8 +46,8 @@ ht-degree: 100%
 
    当在跟踪调用（或点击）中设置某个属性的值，该值仅适用于该调用。
 
-* **[!UICONTROL 自定义变量]**（或 evar）也回答了“哪一个”的问题。但是，evar 值不仅应用于发送该变量的点击，还会应用于于随后的点击中发送的变量和量度，直至该值到期或设置了新值为止。
-* **[!UICONTROL 自定义列表变量（或多值变量）]**&#x200B;执行的操作与变量相同，但是列表变量允许在一次点击中捕获多个值。有关更多信息，请参阅[列表变量](https://docs.adobe.com/content/help/zh-Hans/analytics/implementation/javascript-implementation/variables-analytics-reporting/page-variables.html)。
+* **[!UICONTROL 自定义变量]**（或eVar）也回答了“哪一个”的问题。 但是，eVar值不仅可应用于发送该数据的点击，还可应用于在后续点击中发送的变量和量度，直到该值过期或设置了新值为止。
+* **[!UICONTROL 自定义列表变量（或多值变量）]**&#x200B;执行的操作与变量相同，但是列表变量允许在一次点击中捕获多个值。有关更多信息，请参阅Adobe Analytics文档中的[list](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/list.html?lang=en)变量。
 
 以下映射在 Mobile Services 中创建后即会显示在 Analytics 中。
 

@@ -1,18 +1,15 @@
 ---
 description: appFigures Data Connector 集成将集成 appFigures 的强大移动应用商店分析与 Adobe Analytics 的直接应用程序跟踪功能整合在一起，为您的组织提供了强有力的分析和优化机会。
 keywords: mobile
-seo-description: appFigures Data Connector 集成将集成 appFigures 的强大移动应用商店分析与 Adobe Analytics 的直接应用程序跟踪功能整合在一起，为您的组织提供了强有力的分析和优化机会。
-seo-title: 应用商店
 solution: Experience Cloud,Analytics
 title: 应用商店
 topic-fix: Metrics
 uuid: a194364d-faaf-4995-befd-cf48f9c1f11b
 exl-id: 27c65823-49ca-4bd4-b929-ba3df86e0a13
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: d1ebb2bbc4742f5288f90a90e977d252f3f30aa3
 workflow-type: tm+mt
-source-wordcount: '200'
-ht-degree: 100%
+source-wordcount: '162'
+ht-degree: 95%
 
 ---
 
@@ -24,7 +21,7 @@ ht-degree: 100%
 >
 >在 Mobile Services UI 中，当您配置集成后，**[!UICONTROL 应用商店]**&#x200B;菜单项和关联的报表将显示在左侧导航窗格中。
 
-[适用于 Adobe Analytics 的 appFigures Data Connector](https://docs.adobe.com/content/help/zh-Hans/analytics/import/dataconnectors/appfigures/appfigures-overview.html) 包含以下信息：
+[适用于 Adobe Analytics 的 appFigures Data Connector](https://experienceleague.adobe.com/docs/analytics/import/dataconnectors/appfigures/appfigures-overview.html) 包含以下信息：
 
 * 该集成的主要优势和功能
 * 实施该集成，包括：

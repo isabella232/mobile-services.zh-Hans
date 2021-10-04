@@ -1,17 +1,14 @@
 ---
 description: 在 Adobe Mobile Services UI 中，您可以将推送消息安排为立即发送、稍后发送，以及循环事件。这些事件可以按每日、每周或每月定期执行。
 keywords: mobile
-seo-description: 在 Adobe Mobile Services UI 中，您可以将推送消息安排为立即发送、稍后发送，以及循环事件。这些事件可以按每日、每周或每月定期执行。
-seo-title: 计划：推送消息
 solution: Experience Cloud,Analytics
 title: 计划：推送消息
 topic-fix: Metrics
 uuid: 6810e27a-016f-4286-8fe2-9972d85fa326
 exl-id: 36f263a0-4aad-423e-bb78-9c532c98df19
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '724'
+source-wordcount: '684'
 ht-degree: 100%
 
 ---

@@ -1,16 +1,13 @@
 ---
 description: 从 WatchOS 2 开始，WatchKit 扩展将在 Apple Watch 设备上运行。在此环境中运行的应用程序需要具备 WatchConnectivity 框架才能与它们的 iOS 容器应用程序共享数据。
-seo-description: 从 WatchOS 2 开始，WatchKit 扩展将在 Apple Watch 设备上运行。在此环境中运行的应用程序需要具备 WatchConnectivity 框架才能与它们的 iOS 容器应用程序共享数据。
-seo-title: 使用 WatchOS 2 实施 Apple Watch
 solution: Experience Cloud,Analytics
 title: 使用 WatchOS 2 实施 Apple Watch
 topic-fix: Developer and implementation
 uuid: 9498467e-db5e-411e-a00e-d19841f485de
 exl-id: 9fc9b799-1081-42e4-acf3-569fdeb07aff
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '542'
+source-wordcount: '506'
 ht-degree: 100%
 
 ---
@@ -32,7 +29,7 @@ ht-degree: 100%
 * 要开始配置，请转到 Adobe Experience Platform Launch。
 * 要查看 Experience Platform SDK 存储库中的内容，请转到 [Github：Adobe Experience Platform SDK](https://github.com/Adobe-Marketing-Cloud/acp-sdks)。
 
-## 入门指南 {#section_70BC28BB69414F169196953D3D264BC1}
+## 快速入门 {#section_70BC28BB69414F169196953D3D264BC1}
 
 >[!IMPORTANT]
 >
@@ -41,8 +38,8 @@ ht-degree: 100%
 >* 容器应用程序
 >* WatchKit 应用程序
 >* WatchKit 扩展
->
 
+>
 
 
 有关开发 WatchKit 应用程序的更多信息，请参阅 [Watch 应用程序架构](https://developer.apple.com/library/ios/documentation/General/Conceptual/WatchKitProgrammingGuide/DesigningaWatchKitApp.html#//apple_ref/doc/uid/TP40014969-CH3-SW1)。
@@ -69,7 +66,7 @@ ht-degree: 100%
 1. 在应用程序委托类的实现文件中，导入 `AdobeMobileLibrary`。
 
    ```objective-c
-   #import “ADBMobile.h”
+   #import "ADBMobile.h"
    ```
 
 1. 在对 `ADBMobile` 库进行调用之前，在应用程序委托的 `application:didFinishLaunchingWithOptions:` 中配置 `WCSession`。
@@ -120,7 +117,7 @@ ht-degree: 100%
 1. 在扩展委托类的实现文件中，导入 `AdobeMobileLibrary`。
 
    ```objective-c
-   #import “ADBMobile.h”
+   #import "ADBMobile.h"
    ```
 
 1. 在对 `ADBMobile` 库进行任何调用之前，在扩展委托的 `applicationDidFinishLaunching` 中配置 `WCSession`。

@@ -1,22 +1,19 @@
 ---
 description: “维系”报表（前称“首次启动同期群”）是一种同期群报表，可显示有多少位独特用户在首次启动您的应用程序后，又在随后几个月里至少再次启动了一次。
 keywords: mobile
-seo-description: “维系”报表（前称“首次启动同期群”）是一种同期群报表，可显示有多少位独特用户在首次启动您的应用程序后，又在随后几个月里至少再次启动了一次。
-seo-title: “维系”报表
 solution: Experience Cloud,Analytics
 title: “维系”报表
 topic-fix: Reports,Metrics
 uuid: e7639e7f-c9ed-4b19-9ac5-b36774ea9dd6
 exl-id: de68f00a-5de0-4e9a-9255-207a1a44df6e
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '310'
+source-wordcount: '269'
 ht-degree: 100%
 
 ---
 
-# “维系”报表{#retention}
+# “维系”报表 {#retention}
 
 **[!UICONTROL 维系]**&#x200B;报表（前称“首次启动同期群”）是一种同期群报表，可显示有多少位独特用户在首次启动您的应用程序后，又在随后几个月里至少再次启动了一次。
 

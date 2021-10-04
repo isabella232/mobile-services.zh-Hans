@@ -1,21 +1,18 @@
 ---
-description: 类和明细列表的列表，用于Xamarin应用程序。
-seo-description: 类和明细列表的列表，用于Xamarin应用程序。
-seo-title: 类、枚举和接口
+description: 用于Xamarin应用程序的类和枚举列表。
 title: 类、枚举和接口
 uuid: 2527b3ae-a447-4b2e-9e90-b3b8ec8cb47a
-translation-type: tm+mt
-source-git-commit: df4ea2c4002611c72009cf69598cbbb74b5c15c4
+exl-id: 72bc40f6-005c-4fb4-b41d-761d48fe78da
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '56'
-ht-degree: 25%
+source-wordcount: '42'
+ht-degree: 23%
 
 ---
 
-
 # 类、枚举和接口{#classes-enums-and-interfaces}
 
-类和明细列表的列表，用于Xamarin应用程序。
+用于Xamarin应用程序的类和枚举列表。
 
 ## 类 {#section_30E9E14CF38843B5B9792BBEC07667DC}
 
@@ -64,7 +61,7 @@ public class TargetLocationRequest : Object
 }
 ```
 
-### 访客ID
+### VisitorID
 
 ```java
 public class VisitorID : Object {
@@ -144,7 +141,7 @@ public sealed class VisitorIDAuthenticationState : Enum {
 }
 ```
 
-## 接口 {#section_3316649422F74AF39EF2005EA81D6B11}
+## 界面 {#section_3316649422F74AF39EF2005EA81D6B11}
 
 ### IAdobeDataCallback
 

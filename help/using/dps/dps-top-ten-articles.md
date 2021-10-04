@@ -1,22 +1,19 @@
 ---
 description: “前 10 篇文章”报表会针对您的数据显示一个环状层次视图。此报表仅供 Digital Publishing Suite (DPS) 客户使用。
 keywords: mobile
-seo-description: “前 10 篇文章”报表会针对您的数据显示一个环状层次视图。此报表仅供 Digital Publishing Suite (DPS) 客户使用。
-seo-title: 前 10 篇文章
 solution: Experience Cloud,Analytics
 title: 前 10 篇文章
 topic-fix: Metrics
 uuid: cf53cc0b-7c84-41c8-97d5-d9ee833a916b
 exl-id: 93b3d0aa-83a3-4ee8-bc7f-fa30736a7749
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '138'
+source-wordcount: '114'
 ht-degree: 100%
 
 ---
 
-# “前 10 篇文章”报表{#top-articles}
+# 前 10 篇文章 报表{#top-articles}
 
 **[!UICONTROL 前 10 篇文章]**&#x200B;报表会针对您的数据显示一个环状层次视图。此报表仅供 DPS 客户使用。
 

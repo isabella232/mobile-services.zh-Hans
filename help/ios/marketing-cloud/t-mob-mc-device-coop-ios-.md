@@ -1,17 +1,14 @@
 ---
 description: 要开始使用 Experience Cloud 设备协作，请联系您的 Adobe 代表。
-seo-description: 要开始使用 Experience Cloud 设备协作，请联系您的 Adobe 代表。
-seo-title: Experience Cloud 设备协作
 title: Experience Cloud 设备协作
 uuid: 434a6f8f-ec24-439d-95f0-a246b384b3b5
-translation-type: tm+mt
-source-git-commit: 86ba045b44bf6553e80727c0d61ccdd9a552d16c
+exl-id: bf4f7a81-152c-4033-bcdf-22a939a3109e
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '292'
-ht-degree: 100%
+source-wordcount: '282'
+ht-degree: 90%
 
 ---
-
 
 # Experience Cloud 设备协作 {#experience-cloud-device-co-op}
 
@@ -23,7 +20,7 @@ ht-degree: 100%
 >
 >此功能需要 iOS SDK 版本 4.8.5 或更高版本。
 
-从 SDK 版本 4.16.1 开始，设备协作成员可以选择在 Experience Cloud 设备协作中禁用其移动设备数据。有关更多信息，请参阅 [ADBMobile JSON 配置](/help/ios/configuration/json-config/json-config.md)和用于 [isCoopSafe](https://docs.adobe.com/content/help/zh-Hans/id-service/using/id-service-api/configurations/coopsafe.html) 的 `visitorAPI.js` 方法。
+从 SDK 版本 4.16.1 开始，设备协作成员可以选择在 Experience Cloud 设备协作中禁用其移动设备数据。有关更多信息，请参阅Adobe Experience Cloud Identity Service文档中的[ADBMobile JSON配置](/help/ios/configuration/json-config/json-config.md)和`visitorAPI.js`方法，以及[isCoopSafe](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/configurations/coopsafe.html)。
 
 1. 实施 Adobe Mobile SDK。
 
@@ -50,5 +47,3 @@ ht-degree: 100%
 
 * 如果将 `coopUnsafe` 设置为 `true`，则会始终将 `coop_unsafe=1` 附加到 Audience Manager 和访客 ID 点击中。
 * 如果启用到 Audience Manager 的 Analytics 服务器端转发，则还将会在 Analytics 点击中看到 `coop_unsafe=1`。
-
-

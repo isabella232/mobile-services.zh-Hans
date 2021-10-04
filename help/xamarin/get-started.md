@@ -1,19 +1,16 @@
 ---
 description: 本主题介绍了如何开始使用面向移动设备解决方案 4.x SDK 的 Xamarin 组件。
-keywords: Xamarin
-seo-description: 本主题介绍了如何开始使用面向移动设备解决方案 4.x SDK 的 Xamarin 组件。
-seo-title: 面向 Experience Cloud 解决方案 4.x SDK 的 Xamarin 组件
+keywords: 沙马林
 solution: Experience Cloud
 title: 面向 Experience Cloud 解决方案 4.x SDK 的 Xamarin 组件
 uuid: e7a48107-bd0e-47d6-b49c-dfdae189ac37
-translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+exl-id: 39628548-5787-4022-8792-86b78214a1c0
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '199'
-ht-degree: 100%
+source-wordcount: '177'
+ht-degree: 99%
 
 ---
-
 
 # 面向 Experience Cloud 解决方案 4.x SDK 的 Xamarin 组件 {#xamarin-components-for-experience-cloud-solutions-x-sdk}
 
@@ -21,7 +18,7 @@ ht-degree: 100%
 
 上次更新日期：**2019 年 1 月 10 日**
 
-## 开始使用 {#section_59D434C30C8F4765A7DEFE877D5268D0}
+## 快速入门 {#section_59D434C30C8F4765A7DEFE877D5268D0}
 
 >[!IMPORTANT]
 >

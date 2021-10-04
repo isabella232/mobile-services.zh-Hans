@@ -1,17 +1,14 @@
 ---
 description: 使用情况报表会显示平均会话时长、每日和每月参与的用户数、升级次数和其他洞察信息，帮助您了解应用程序的使用方式和使用频率。“维系”报表可快速显示初始启动后 1 天、7 天和 28 天的用户维系级别。
 keywords: mobile
-seo-description: 使用情况报表会显示平均会话时长、每日和每月参与的用户数、升级次数和其他洞察信息，帮助您了解应用程序的使用方式和使用频率。“维系”报表可快速显示初始启动后 1 天、7 天和 28 天的用户维系级别。
-seo-title: 报表
 solution: Experience Cloud,Analytics
 title: 报表
 topic-fix: Reports,Metrics
 uuid: 2abc2bd1-dbae-4af1-9b8d-1df2f6d3a81f
 exl-id: a95dd9c9-49f3-41df-87bf-6a2ac0d46c5c
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '174'
+source-wordcount: '130'
 ht-degree: 100%
 
 ---

@@ -1,17 +1,14 @@
 ---
 description: 您可以使用此信息帮助了解回发的含义及其工作方式。
 keywords: Android;库;移动;SDK
-seo-description: 您可以使用此信息帮助了解回发的含义及其工作方式。
-seo-title: 回发示例
 solution: Experience Cloud,Analytics
 title: 回发示例
 topic-fix: Developer and implementation
 uuid: 8010cd00-d42b-4e16-8403-692fab2550f1
 exl-id: 2ff41066-e2ee-425f-8aff-e5e3f3e5f0f5
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '145'
+source-wordcount: '128'
 ht-degree: 100%
 
 ---
@@ -64,6 +61,6 @@ contextData.put("user.zip", "90210");
 Analytics.trackState("MainMenu", contextData);
 ```
 
-由于其状态为 `“MainMenu”`，因此该跟踪调用会触发上述回发消息。URL 会将所有的模板变量替换为来自点击的值。假定用户上一个会话的时长为 132 秒，并且该用户使用的是 Android SDK 版本 4.6.0，则生成的 URL 如下所示：
+由于其状态为 `"MainMenu"`，因此该跟踪调用会触发上述回发消息。URL 会将所有的模板变量替换为来自点击的值。假定用户上一个会话的时长为 132 秒，并且该用户使用的是 Android SDK 版本 4.6.0，则生成的 URL 如下所示：
 
 `https://my.server.com/?user=bob&zip=90210&c16=4.6.0-AN&c27=cln,132`

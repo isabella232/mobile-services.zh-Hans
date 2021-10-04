@@ -1,16 +1,13 @@
 ---
 description: Adobe Mobile 和 Adobe Mobile SDK 允许您向用户发送推送消息。此 SDK 还允许您轻松报告哪些用户是在点进推送消息后打开了您的应用程序。
-seo-description: Adobe Mobile 和 Adobe Mobile SDK 允许您向用户发送推送消息。此 SDK 还允许您轻松报告哪些用户是在点进推送消息后打开了您的应用程序。
-seo-title: 推送消息
 solution: Experience Cloud,Analytics
 title: 推送消息
 topic-fix: Developer and implementation
 uuid: 729d4010-3733-4dff-b188-ad45bd3e7cc4
 exl-id: 4472e0b9-1d00-4e1a-8653-f3976b74c078
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '439'
+source-wordcount: '401'
 ht-degree: 100%
 
 ---

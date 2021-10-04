@@ -1,22 +1,19 @@
 ---
 description: 无法使用处理规则来设置产品变量。在 Mobile SDK 中，必须在上下文数据参数中使用特殊语法来设置服务器调用中的产品。
 keywords: Android;库;移动;SDK
-seo-description: 无法使用处理规则来设置产品变量。在 Mobile SDK 中，必须在上下文数据参数中使用特殊语法来设置服务器调用中的产品。
-seo-title: 产品变量
 solution: Experience Cloud,Analytics
 title: 产品变量
 topic-fix: Developer and implementation
 uuid: f4484022-cb8b-4dea-9209-5a110ba607df
 exl-id: 1d850ce1-6fd4-463e-8949-8b8cf40d8467
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '189'
+source-wordcount: '155'
 ht-degree: 100%
 
 ---
 
-# 产品变量 {#products-variable}
+# Products 变量 {#products-variable}
 
 无法使用处理规则来设置产品变量。在 Mobile SDK 中，必须在上下文数据参数中使用特殊语法来设置服务器调用中的产品。
 

@@ -1,23 +1,20 @@
 ---
-description: 帮助您将扩展与Windows 8.1通用应用商店SDK结合使用以用于Experience Cloud解决方案的信息。
-seo-description: 帮助您将扩展与Windows 8.1通用应用商店SDK结合使用以用于Experience Cloud解决方案的信息。
-seo-title: 扩展
+description: 此信息可帮助您将扩展与适用于Experience Cloud解决方案的Windows 8.1跨平台通用应用商店SDK结合使用。
 solution: Experience Cloud,Analytics
 title: 扩展
 topic-fix: Developer and implementation
 uuid: 2823b22c-d9a1-4724-9020-dfc6614691be
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '66'
-ht-degree: 22%
+source-wordcount: '48'
+ht-degree: 29%
 
 ---
 
 
 # 扩展{#extensions}
 
-帮助您将扩展与Windows 8.1通用应用商店SDK结合使用以用于Experience Cloud解决方案的信息。
+此信息可帮助您将扩展与适用于Experience Cloud解决方案的Windows 8.1跨平台通用应用商店SDK结合使用。
 
 ## 其他信息
 

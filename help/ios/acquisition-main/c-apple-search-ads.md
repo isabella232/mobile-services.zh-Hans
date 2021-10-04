@@ -1,16 +1,13 @@
 ---
 description: Adobe SDK 利用 Apple 的搜索广告应用程序归因 API，让开发人员和营销人员能够跟踪源自 Apple App Store 中搜索广告促销活动的应用程序下载，并分析这些应用程序下载的归因。
-seo-description: Adobe SDK 利用 Apple 的搜索广告应用程序归因 API，让开发人员和营销人员能够跟踪源自 Apple App Store 中搜索广告促销活动的应用程序下载，并分析这些应用程序下载的归因。
-seo-title: Apple 搜索广告
 solution: Experience Cloud,Analytics
 title: Apple 搜索广告
 topic-fix: Developer and implementation
 uuid: 790080e8-067e-4bfd-a169-0027db4fdff3
 exl-id: efcdd430-f08d-4ee2-85f3-2697c3bd72db
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '245'
 ht-degree: 100%
 
 ---
@@ -26,7 +23,7 @@ Adobe SDK 利用 Apple 的搜索广告应用程序归因 API，让开发人员�
 * 通过向应用程序添加几行代码，轻松衡量搜索广告应用程序下载促销活动的有效性。
 * 开发人员可以访问下载日期/时间和促进转化的竞价关键词。
 
-## 实施 Apple 广告  {#section_F1094676793540CFA1DBB540174EEB6A}
+## 实施 Apple 广告 {#section_F1094676793540CFA1DBB540174EEB6A}
 
 >[!TIP]
 >
@@ -40,7 +37,7 @@ Adobe SDK 利用 Apple 的搜索广告应用程序归因 API，让开发人员�
 
 1. 将 iAd 框架添加到应用程序的 Xcode 项目文件中。
 
-## 报告搜索广告归因  {#section_1AF4E0B4F8E94F36B38CA3D3E384D0A4}
+## 报告搜索广告归因 {#section_1AF4E0B4F8E94F36B38CA3D3E384D0A4}
 
 1. 客户获取名称、来源和搜索词值中提供了 Apple 搜索广告归因数据。
 

@@ -1,17 +1,14 @@
 ---
 description: '在配置报表包并收集 Android 应用程序数据之前，请完成以下先决任务 '
-seo-description: '在配置报表包并收集 Android 应用程序数据之前，请完成以下先决任务 '
-seo-title: 开始之前
 solution: Experience Cloud,Analytics
 title: 开始之前
 topic-fix: Developer and implementation
 uuid: 0ca9e937-8d40-4570-9dbf-9aecc6ecedf6
 exl-id: e9c0fd94-b61d-4f56-97b8-f71aac096c93
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '760'
-ht-degree: 100%
+source-wordcount: '731'
+ht-degree: 95%
 
 ---
 
@@ -52,7 +49,7 @@ Adobe Mobile Services 是用于移动设备应用程序分析和定位的主要�
 
 ### Experience Cloud
 
-使用您的 Adobe ID 登录到 [Experience Cloud](https://experiencecloud.adobe.com)。此方法假定您的公司已在 Experience Cloud 中进行配置，并且您已经关联 Analytics 帐户。有关更多信息，请参阅[管理 Experience Cloud 用户和产品](https://docs.adobe.com/content/help/zh-Hans/core-services/interface/manage-users-and-products/admin-getting-started.html)。
+使用您的 Adobe ID 登录到 [Experience Cloud](https://experiencecloud.adobe.com)。此方法假定您的公司已在 Experience Cloud 中进行配置，并且您已经关联 Analytics 帐户。有关更多信息，请参阅《Experience Cloud中心界面组件指南》中的[管理Experience Cloud用户和产品](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html) 。
 
 >[!TIP]
 >
@@ -66,7 +63,7 @@ Adobe Mobile Services 是用于移动设备应用程序分析和定位的主要�
 
 要创建报表包以收集应用程序数据并定义应用程序，请执行以下操作：
 
-1. 在浏览器中键入 [https://mobilemarketing.adobe.com/](https://mobilemarketing.adobe.com/) 以登录 Mobile Services UI。
+1. 登录到[AdobeMobile Services](https://mobilemarketing.adobe.com)。
 1. 单击&#x200B;**[!UICONTROL 创建应用程序]**。
 
    如果未看到此按钮，请单击&#x200B;**[!UICONTROL 管理应用程序]** > **[!UICONTROL 添加]**。
@@ -92,7 +89,7 @@ Adobe Mobile Services 是用于移动设备应用程序分析和定位的主要�
 
    >[!IMPORTANT]
    >
-   >要在右侧窗格中显示您的应用程序，您必须先创建应用程序。有关创建应用程序的信息，请参阅[添加新应用程序](https://docs.adobe.com/content/help/zh-Hans/mobile-services/using/manage-apps-ug/t-new-app.html)。
+   >要在右侧窗格中显示您的应用程序，您必须先创建应用程序。有关创建应用程序的信息，请参阅[添加新应用程序](/help/using/manage-apps/t-new-app.md)。
 
 1. 在应用程序的左侧窗格中，单击&#x200B;**[!UICONTROL 管理应用程序设置]**。
 

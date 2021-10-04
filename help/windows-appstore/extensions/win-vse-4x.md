@@ -1,42 +1,39 @@
 ---
-description: 此扩展为您提供了一种更简单的方式，可在您的项目中添加Experience Cloud Solutions 4.x Windows SDK的参考。
-seo-description: 此扩展为您提供了一种更简单的方式，可在您的项目中添加Experience Cloud Solutions 4.x Windows SDK的参考。
-seo-title: 适用于 Experience Cloud 解决方案 4.x SDK 的 Windows Visual Studio 扩展
+description: 此扩展为您在项目中添加Experience Cloud解决方案4.x Windows SDK引用提供了一种更简单的方法。
 solution: Experience Cloud,Analytics
 title: 适用于 Experience Cloud 解决方案 4.x SDK 的 Windows Visual Studio 扩展
 topic-fix: Developer and implementation
 uuid: 7d0ea312-340b-46ea-a737-b70a6766a536
 exl-id: 63e9e5c7-2a12-47b3-a712-bf51e12821aa
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '213'
-ht-degree: 16%
+source-wordcount: '181'
+ht-degree: 13%
 
 ---
 
 # 适用于 Experience Cloud 解决方案 4.x SDK 的 Windows Visual Studio 扩展 {#windows-visual-studio-extensions-for-experience-cloud-solutions-x-sdk}
 
-此扩展为您提供了一种更简单的方式，可在您的项目中添加Experience Cloud Solutions 4.x Windows SDK的参考。
+此扩展为您在项目中添加Experience Cloud解决方案4.x Windows SDK引用提供了一种更简单的方法。
 
-## 从GitHub {#section_F55DB6241EF1475286C05FEAEBF996A3}安装库
+## 从GitHub安装库 {#section_F55DB6241EF1475286C05FEAEBF996A3}
 
-1. 从[GitHub](https://github.com/Adobe-Marketing-Cloud/mobile-services/releases)下载Windows Universal SDK。
-1. 将下载的文件解压缩到本地。
-1. 多次单击ADBMobileWindowsStoreVSIX.vsix或ADBMobileWindowsPhoneVSIX.vsix文件以打开安装程序。
+1. 从[GitHub](https://github.com/Adobe-Marketing-Cloud/mobile-services/releases)下载Windows通用SDK。
+1. 在本地解压缩下载的文件。
+1. 双击ADBMobileWindowsStoreVSIX.vsix或ADBMobileWindowsPhoneVSIX.vsix文件以打开安装程序。
 
 1. 选择&#x200B;**[!UICONTROL 全局位置]**&#x200B;并安装库。
 
-## 添加对项目{#section_00C14FE9243D4330BE1F4BB56FCF08B1}的引用
+## 向项目添加引用 {#section_00C14FE9243D4330BE1F4BB56FCF08B1}
 
-1. 打开Windows 8.1或Windows Phone 8.1项目。
+1. 打开您的Windows 8.1或Windows Phone 8.1项目。
 1. 打开“引用管理器”(Reference Manager)对话框。
 
    ![](assets/ref_manager.png)
 
-1. 在Windows 8.1或Windows Phone 8.1的&#x200B;**[!UICONTROL “扩展]**”选项卡上，找到并选择&#x200B;**[!UICONTROL Adobe Mobile SDK]**。
-1. 单击&#x200B;**[!UICONTROL 确定]**&#x200B;以保存它。
+1. 在Windows 8.1或Windows Phone 8.1的&#x200B;**[!UICONTROL Extensions]**&#x200B;选项卡上，找到并选择&#x200B;**[!UICONTROL AdobeMobile SDK]**。
+1. 单击&#x200B;**[!UICONTROL 确定]**&#x200B;以保存。
 
-   Adobe Mobile SDK将添加到您的项目中，如果尚未添加，则还会添加&#x200B;**[!UICONTROL Microsoft Visual C++ Runtime]**&#x200B;包。
+   AdobeMobile SDK将添加到您的项目中，如果尚未添加，则还会添加&#x200B;**[!UICONTROL Microsoft Visual C++ Runtime]**&#x200B;包。
 
-1. 在Configuration Manager中，选择一种平台类型，然后开始测试您的应用程序。
+1. 在配置管理器中，选择一个平台类型，然后开始测试您的应用程序。

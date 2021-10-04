@@ -1,22 +1,19 @@
 ---
 description: 此信息可帮助您了解和使用 Adobe Mobile Services。
 keywords: mobile
-seo-description: 此信息可帮助您了解和使用 Adobe Mobile Services。
-seo-title: 入门指南
 solution: Experience Cloud,Analytics
-title: 入门指南
+title: 快速入门
 topic-fix: Metrics
 uuid: a7ae7c5a-dab8-4603-b4cd-af73a2f09f71
 exl-id: 0c08e154-8747-45dc-9731-ab2a3e78bc5a
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '1374'
-ht-degree: 100%
+source-wordcount: '1344'
+ht-degree: 97%
 
 ---
 
-# 入门指南{#getting-started}
+# 快速入门{#getting-started}
 
 此信息可帮助您了解和使用 Adobe Mobile Services。
 
@@ -29,7 +26,7 @@ Adobe Mobile Services 由以下部分组成：
 
 如今，移动设备应用程序的格局与智能手机最初面世时截然不同。通过移动设备应用程序将客户与品牌连接起来远远不够；现如今，您必须跨渠道提供有凝聚力的绝佳客户体验，并将移动设备应用程序作为战略切入点来吸引最忠诚的高价值客户。但是，要让这些用户与您的应用程序持续互动，则必须提供引人入胜的内容、情境式通知、智能个性化推荐以及集成式应用程序分析功能等等。
 
-## Adobe Mobile Services UI {#mobile-services-ui}
+## AdobeMobile Services UI {#mobile-services-ui}
 
 以下浏览器支持 Mobile Services UI：
 
@@ -114,7 +111,7 @@ Adobe Mobile Services 提供了用于衡量渠道在获取应用程序用户方�
 
 在&#x200B;*优化*&#x200B;中，您可以优化转化（订阅、商务、广告收入等）并提升客户维系。优化应用程序中的用户体验可以帮助您提供个性化的内容，从而最大限度地提高 ROI 和促进转化。
 
-有关测试和 Adobe Target 的更多信息，请转到 [Adobe Target](https://docs.adobe.com/content/help/zh-Hans/target/using/target-home.html)。
+有关测试和Adobe Target的更多信息，请参阅[Adobe Target](https://experienceleague.adobe.com/docs/target/using/target-home.html)文档。
 
 ### 地域定向
 
@@ -125,10 +122,10 @@ Adobe Mobile Services 提供了用于衡量渠道在获取应用程序用户方�
 有关位置的更多信息，请参阅以下内容：
 
 * [Mobile Services 用户指南中的位置](/help/using/location/c-location-overview.md)
-* Android SDK 手册中的[位置](/help/android/location/location.md)
+* [Android SDK 手册中的位置](/help/android/location/location.md)
 * [iOS SDK 手册中的位置](/help/ios/location/location.md)
 
-## Adobe Mobile SDK {#mobile-services-sdk}
+## AdobeMobile SDK {#mobile-services-sdk}
 
 Adobe 提供了一个端到端的移动营销解决方案，可以提高所有这些领域的客户参与度。通过一个 SDK，您可以访问 Adobe Analytics、Adobe Campaign 和 Adobe Audience Manager 的功能，这可以降低管理多个不同 SDK 的技术成本。
 
@@ -153,7 +150,7 @@ Adobe Mobile SDK 提供以下功能：
 * 集成式
 
    * 适用于多个解决方案（Analytics、Campaign 和 Audience Manager）的一个 SDK，可缩短实施时间并减少开发人员的工作。
-   * 只需一行代码，即可收集“基础”应用程序生命周期量度。
+   * 只需一行代码，即可收集“基线”应用程序生命周期量度。
    * 在逐步完善移动设备策略的过程中，您可以轻松激活 Adobe Experience Cloud 的多项功能以获取、分析和吸引用户。
 
 * 快速和轻量
@@ -161,4 +158,4 @@ Adobe Mobile SDK 提供以下功能：
    * 最大限度地减少将数据发送到 Adobe 服务器和第三方系统的设备处理负载。
    * 占用空间小可以最大限度地缩小提交到应用商店的应用程序包大小。
 
-有关 Adobe Mobile SDK 的更多信息，请参阅[适用于 Experience Cloud 解决方案的 Android SDK 4.x ](https://docs.adobe.com/content/help/zh-Hans/mobile-services/android/overview.html)和[适用于 Experience Cloud 解决方案的 iOS SDK 4.x](https://docs.adobe.com/content/help/zh-Hans/mobile-services/ios/rel-notes.html)。
+有关 Adobe Mobile SDK 的更多信息，请参阅[适用于 Experience Cloud 解决方案的 Android SDK 4.x ](/help/android/overview.md)和[适用于 Experience Cloud 解决方案的 iOS SDK 4.x](/help/ios/overview.md)。

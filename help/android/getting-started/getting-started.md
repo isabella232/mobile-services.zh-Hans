@@ -1,21 +1,18 @@
 ---
 description: '以下信息可帮助您开始使用适用于 Experience Cloud 解决方案的 Android SDK '
-seo-description: '以下信息可帮助您开始使用适用于 Experience Cloud 解决方案的 Android SDK '
-seo-title: 入门指南
 solution: Experience Cloud,Analytics
 title: 入门指南
 topic-fix: Developer and implementation
 uuid: 39c642e2-60f0-4bbe-b0d1-2635ee2c6d01
 exl-id: 895f3986-5e6a-4bb1-b11f-a4dad0ba6bc7
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '141'
+source-wordcount: '124'
 ht-degree: 100%
 
 ---
 
-# 入门指南 {#getting-started}
+# 快速入门 {#getting-started}
 
 此部分中的信息可帮助您开始使用适用于 Experience Cloud 解决方案的 Android SDK。
 

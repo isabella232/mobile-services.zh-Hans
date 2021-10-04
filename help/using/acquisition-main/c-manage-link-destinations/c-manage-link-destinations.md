@@ -1,17 +1,14 @@
 ---
 description: 在“管理链接目标”页面中，您可以创建、编辑、存档/取消存档和删除链接目标。在生成营销链接、推送通知或应用程序内消息时，这些目标可以在内联调用。
 keywords: mobile
-seo-description: 在“管理链接目标”页面中，您可以创建、编辑、存档/取消存档和删除链接目标。在生成营销链接、推送通知或应用程序内消息时，这些目标可以在内联调用。
-seo-title: 创建和管理链接目标
 solution: Experience Cloud,Analytics
 title: 创建和管理链接目标
 topic-fix: Metrics
 uuid: 43930e3a-6a11-40c6-8a61-6732a673dac7
 exl-id: 53e9f970-e53c-4c0d-9214-abb01a9b144b
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '167'
+source-wordcount: '131'
 ht-degree: 100%
 
 ---

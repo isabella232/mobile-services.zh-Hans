@@ -1,16 +1,13 @@
 ---
 description: 地理位置可通过在 Android 应用程序中使用纬度和经度以及预定义的目标点，来帮助您测量位置数据。
-seo-description: 地理位置可通过在 Android 应用程序中使用纬度和经度以及预定义的目标点，来帮助您测量位置数据。
-seo-title: 地理位置和目标点
 solution: Experience Cloud,Analytics
 title: 地理位置和目标点
 topic-fix: Developer and implementation
 uuid: b8209370-cbc4-40f9-97d8-017e2d74a377
 exl-id: e1fed35b-5ce9-48ee-ade0-b1701cf2a3a9
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '596'
+source-wordcount: '571'
 ht-degree: 100%
 
 ---
@@ -34,7 +31,7 @@ ht-degree: 100%
 从版本 4.2 开始，POI 可在 Adobe Mobile 用户界面中定义并动态同步到应用程序配置文件。此同步需要 [ADBMobile JSON 配置](/help/android/configuration/json-config/json-config.md)中的 `analytics.poi` 设置：
 
 ```js
-“analytics.poi”: “https://assets.adobedtm.com/…/yourfile.json”,
+"analytics.poi": "https://assets.adobedtm.com/…/yourfile.json",
 ```
 
 如果未配置此设置，您必须下载更新版本的 `ADBMobile.json` 文件并将其添加到您的应用程序中。有关更多信息，请参阅[下载 SDK 和测试工具](/help/android/getting-started/requirements.md)。

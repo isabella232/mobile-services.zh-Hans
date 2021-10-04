@@ -1,16 +1,13 @@
 ---
 description: 此信息可帮助您使用 ADBMobile.json 配置文件。
-seo-description: 此信息可帮助您使用 ADBMobile.json 配置文件。
-seo-title: ADBMobile JSON 配置
 solution: Experience Cloud,Analytics
 title: ADBMobile JSON 配置
 topic-fix: Developer and implementation
 uuid: 1decf605-7bc3-4e73-ad52-1ecd5821599e
 exl-id: 652aeb05-b052-448d-98c8-d513d050a6f5
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '1678'
+source-wordcount: '1666'
 ht-degree: 100%
 
 ---
@@ -155,8 +152,8 @@ ht-degree: 100%
       从版本 4.2 开始，POI 可在 Adobe Mobile 界面中定义并动态同步到应用程序配置文件。此同步需要 `analytics.poi` 设置：
 
       ```javascript
-        “analytics.poi“: `https://assets.adobedtm.com/`
-      …/yourfile.json”`,
+        "analytics.poi": `https://assets.adobedtm.com/`
+      …/yourfile.json"`,
       ```
 
       如果未配置此设置，必须更新 `ADBMobile.json` 文件以包含此行。要下载更新的配置文件，请参阅[开始之前](/help/android/getting-started/requirements.md)。
@@ -242,7 +239,7 @@ ht-degree: 100%
    * 确定 Target 等待响应的时间。
 
 
-## `ADBMobileConfig.json` 示例文件 {#section_4655EF79744649E5A5AE19E3224C472C}
+## `ADBMobileConfig.json` 示例文件  {#section_4655EF79744649E5A5AE19E3224C472C}
 
 以下是一个 `ADBMobileConfig.json` 示例文件：
 
@@ -396,5 +393,5 @@ ht-degree: 100%
 * &quot;triggers&quot;
    * 与受众相同，不过，它是指操作而非受众
    * &quot;key&quot;
-   * &quot;匹配&quot;
-   * &quot;值&quot;
+   * &quot;matches&quot;
+   * &quot;values&quot;

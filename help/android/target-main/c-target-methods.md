@@ -1,18 +1,15 @@
 ---
 description: 以下是 Android 库提供的 Adobe Target 方法列表。
 keywords: Android;库;移动;SDK
-seo-description: 以下是 Android 库提供的 Adobe Target 方法列表。
-seo-title: 适用于 Android 的 Target 方法
 solution: Experience Cloud,Analytics
 title: 适用于 Android 的 Target 方法
 topic-fix: Developer and implementation
 uuid: 8e9808b2-ba80-4646-ba05-8e62d4fde065
 exl-id: 0c7a6718-d078-4a2b-a2c9-d5cd50263939
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '607'
-ht-degree: 100%
+source-wordcount: '590'
+ht-degree: 95%
 
 ---
 
@@ -91,15 +88,15 @@ public static final String TARGET_PARAMETER_MBOX_HOST           = "mboxHost";
    * 以下是此方法的代码示例：
 
       ```java
-      Map `<String, Object>` profileParameters = new HashMap `<String, Object>`(); profileParameters.put(“profile-parameter-key”, “profile-parameter-value”); 
-      Map `<String, Object>` orderParameters = new HashMap `<String, Object>`(); orderParameters.put(“order-parameter-key”, “order-parameter-value”);
+      Map `<String, Object>` profileParameters = new HashMap `<String, Object>`(); profileParameters.put("profile-parameter-key", "profile-parameter-value"); 
+      Map `<String, Object>` orderParameters = new HashMap `<String, Object>`(); orderParameters.put("order-parameter-key", "order-parameter-value");
       Map `<String, Object>` mboxParameters = new HashMap `<String, Object>`(); 
-      mboxParameters.put(“mbox-parameter-key”, “mbox-parameter-value”); 
-      Target.loadRequest(“mboxName”, “defaultContent”, profileParameters, orderParameters, mboxParameters
+      mboxParameters.put("mbox-parameter-key", "mbox-parameter-value"); 
+      Target.loadRequest("mboxName", "defaultContent", profileParameters, orderParameters, mboxParameters
       new TargetCallback<String>() {
           @Override
           public void call (String item) {
-             Log.d(“Target Content”, item); 
+             Log.d("Target Content", item); 
           }
       });
       ```
@@ -158,20 +155,20 @@ public static final String TARGET_PARAMETER_MBOX_HOST           = "mboxHost";
    * 以下是此方法的代码示例：
 
       ```java
-      Map `<String, Object>` profileParameters = new HashMap `<String, Object>`(); profileParameters.put(“profile-parameter-key”, “profile-parameter-value”); 
-      Map `<String, Object>` orderParameters = new HashMap `<String, Object>`(); orderParameters.put(“order-parameter-key”, “order-parameter-value”); 
-      Map `<String, Object>` mboxParameters = new HashMap `<String, Object>`(); mboxParameters.put(“mbox-parameter-key”, “mbox-parameter-value”); 
-      Map `<String, Object>` requestLocationParameters = new HashMap `<String, Object>`(); requestLocationParameters.put(“request-location-parameter-key”, “request-location-parameter-value”); 
+      Map `<String, Object>` profileParameters = new HashMap `<String, Object>`(); profileParameters.put("profile-parameter-key", "profile-parameter-value"); 
+      Map `<String, Object>` orderParameters = new HashMap `<String, Object>`(); orderParameters.put("order-parameter-key", "order-parameter-value"); 
+      Map `<String, Object>` mboxParameters = new HashMap `<String, Object>`(); mboxParameters.put("mbox-parameter-key", "mbox-parameter-value"); 
+      Map `<String, Object>` requestLocationParameters = new HashMap `<String, Object>`(); requestLocationParameters.put("request-location-parameter-key", "request-location-parameter-value"); 
       
-      Target.loadRequest(“mboxName”, “defaultContent”, profileParameters, orderParameters, mboxParameters, requestLocationParameters,new TargetCallback<String>() {
+      Target.loadRequest("mboxName", "defaultContent", profileParameters, orderParameters, mboxParameters, requestLocationParameters,new TargetCallback<String>() {
          @Override
          public void call (String item) { 
-            Log.d(“Target Content”, item);
+            Log.d("Target Content", item);
          } 
       });
       ```
 
-      有关基本 Target API 的更多信息，请参阅 Target 开发人员帮助中的[交付](https://docs.adobe.com/dev/products/target/reference/delivery.html)。
+      有关基础Target API的更多信息，请参阅Target API参考中的[加载Target请求](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-target/target-api-reference-deprecated#load-target-requests) 。
 
 
 
@@ -273,7 +270,7 @@ public static final String TARGET_PARAMETER_MBOX_HOST           = "mboxHost";
    * 以下是此方法的代码示例：
 
       ```java
-      Target.setThirdPartyID(“third-party-id”);
+      Target.setThirdPartyID("third-party-id");
       ```
 
 * **getThirdPartyID**

@@ -1,17 +1,14 @@
 ---
 description: 使用该插件，您可以从 PhoneGap 项目发送 iOS AppMeasurement 调用。
 keywords: PhoneGap
-seo-description: 使用该插件，您可以从 PhoneGap 项目发送 iOS AppMeasurement 调用。
-seo-title: PhoneGap 插件
 solution: Experience Cloud,Analytics
 title: PhoneGap 插件
 topic-fix: Developer and implementation
 uuid: f88bcf10-1f9e-4c97-b348-40db797c9923
 exl-id: c20b2f85-b8d4-47c7-8177-106c7ddfe083
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '328'
+source-wordcount: '314'
 ht-degree: 100%
 
 ---
@@ -34,7 +31,7 @@ ht-degree: 100%
 
 要创建 PhoneGap 项目，请参阅 [PhoneGap](https://helpx.adobe.com/cn/experience-manager/6-4/mobile/using/phonegap.html)。
 
-## 使用 npm 安装插件：{#section_43229E57C16944C0B51531CB92089189}
+## 使用 npm 安装插件： {#section_43229E57C16944C0B51531CB92089189}
 
 1. 运行以下命令：
 

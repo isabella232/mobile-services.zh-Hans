@@ -1,16 +1,13 @@
 ---
 description: 此信息可帮助您从 3.x 或 2.x 版本的 iOS 库迁移至 4.x 版本的 iOS 库。
-seo-description: 此信息可帮助您从 3.x 或 2.x 版本的 iOS 库迁移至 4.x 版本的 iOS 库。
-seo-title: 迁移至 4.x iOS 库
 solution: Experience Cloud,Analytics
 title: 迁移至 4.x iOS 库
 topic-fix: Developer and implementation
 uuid: 5668972b-f355-4e03-9df0-8c82ddf6809b
 exl-id: a58067e0-b6f4-4900-ba3f-7256d9259420
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '895'
+source-wordcount: '871'
 ht-degree: 100%
 
 ---
@@ -112,7 +109,7 @@ ht-degree: 100%
 | trackingServer | &quot;server&quot;，删除 `"https://"` 前缀。会根据 &quot;ssl&quot; 设置自动添加协议前缀。 |
 | trackingServerSecure | 删除。 要实现安全连接，请定义 &quot;server&quot;，然后启用 &quot;ssl&quot;。 |
 | charSet | &quot;charset&quot; |
-| currencyCode | &quot;货币&quot; |
+| currencyCode | &quot;currency&quot; |
 | ssl | &quot;ssl&quot; |
 | linkTrackVars | 删除，不再使用。 |
 | linkTrackEvents | 删除，不再使用。 |
@@ -192,7 +189,7 @@ SDK 版本 4 不使用以 Web 为主的 `track` 和 `trackLink` 调用，而是�
 * `forceOffline`
 * `forceOnline`
 
-## 产品变量 {#section_AFBA36F3718C44D29AF81B9E1056A1B4}
+## Products 变量 {#section_AFBA36F3718C44D29AF81B9E1056A1B4}
 
 由于产品变量在处理规则中不可用，因此可以使用以下语法设置 `products`：
 

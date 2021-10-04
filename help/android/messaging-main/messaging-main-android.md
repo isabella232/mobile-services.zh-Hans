@@ -1,16 +1,13 @@
 ---
 description: 此信息可帮助您在 Android 应用程序中使用消息传送功能。
-seo-description: 此信息可帮助您在 Android 应用程序中使用消息传送功能。
-seo-title: 消息传送概述
 solution: Experience Cloud,Analytics
 title: 消息传送概述
 topic-fix: Developer and implementation
 uuid: c6475ab4-015d-46b0-af28-5d0df3f4459e
 exl-id: 26142589-c14a-4818-a913-e03fe9c59c73
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '115'
 ht-degree: 100%
 
 ---

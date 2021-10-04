@@ -1,16 +1,13 @@
 ---
 description: Adobe Experience Platform Identity Service 可以跨多个 Experience Cloud 解决方案提供一个通用的访客 ID。Analytics 需要 ID 服务来实现 Target、视频心率和未来的 Experience Cloud 集成。
-seo-description: Adobe Experience Platform Identity Service 可以跨多个 Experience Cloud 解决方案提供一个通用的访客 ID。Analytics 需要 ID 服务来实现 Target、视频心率和未来的 Experience Cloud 集成。
-seo-title: Experience Cloud ID 配置
 solution: Experience Cloud,Analytics
 title: Experience Cloud ID 配置
 topic-fix: Developer and implementation
 uuid: 8ebdf2bf-c581-448f-9542-f99a19784fe7
 exl-id: 97dc6768-bf31-4a0d-a460-9caf9ecda5fb
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '270'
+source-wordcount: '233'
 ht-degree: 100%
 
 ---
@@ -21,7 +18,7 @@ Adobe Experience Platform Identity Service 可以跨多个 Experience Cloud 解�
 
 >[!TIP]
 >
->除非使用 Adobe Experience Platform Identity Service，否则无需填充此 ID。有关更多信息，请参阅 [Adobe Experience Platform Identity Service](https://docs.adobe.com/content/help/zh-Hans/id-service/using/home.html)。
+>除非使用 Adobe Experience Platform Identity Service，否则无需填充此 ID。有关更多信息，请参阅 [Adobe Experience Platform Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hans)。
 
 >[!IMPORTANT]
 >

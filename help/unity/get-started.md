@@ -1,19 +1,16 @@
 ---
 description: 此插件能够让您从 Unity 应用程序发送 Adobe Analytics 调用。
 keywords: Unity
-seo-description: 此插件能够让您从 Unity 应用程序发送 Adobe Analytics 调用。
-seo-title: 适用于 iOS 和 Android 4.x SDK 的 Unity 插件
 solution: Experience Cloud
 title: 适用于 iOS 和 Android 4.x SDK 的 Unity 插件
 uuid: 83289a73-982d-4472-a8c8-00b562dc80f5
-translation-type: tm+mt
-source-git-commit: ae16f224eeaeefa29b2e1479270a72694c79aaa0
+exl-id: fdb012d0-64f5-4c63-96d7-508fef01041f
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '141'
+source-wordcount: '121'
 ht-degree: 100%
 
 ---
-
 
 # 适用于 iOS 和 Android 4.x SDK 的 Unity 插件 {#unity-plug-in-for-the-ios-and-android-x-sdks}
 
@@ -22,7 +19,7 @@ ht-degree: 100%
 上次更新：**2020 年 3 月 10 日**
 * [Unity-v4.19.0](https://github.com/Adobe-Marketing-Cloud/mobile-services/releases/tag/v4.19.0-Unity)
 
-## 入门指南 {#section_246D1F9B32ED47EABC41BDA8D0BD0CC7}
+## 快速入门 {#section_246D1F9B32ED47EABC41BDA8D0BD0CC7}
 
 从 GitHub 下载 ADBMobile.unitypackage 文件。
 

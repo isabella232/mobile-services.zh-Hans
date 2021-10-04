@@ -1,16 +1,13 @@
 ---
 description: 操作是指在您要测量的 Android 应用程序中发生的事件。
-seo-description: 操作是指在您要测量的 Android 应用程序中发生的事件。
-seo-title: 跟踪应用程序操作
 solution: Experience Cloud,Analytics
 title: 跟踪应用程序操作
 topic-fix: Developer and implementation
 uuid: fe01c1df-f6bb-4b32-b3ef-959d2c724af6
 exl-id: 495a6aa8-781d-4499-ad46-e19d57cccf40
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '379'
+source-wordcount: '361'
 ht-degree: 100%
 
 ---

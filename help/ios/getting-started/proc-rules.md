@@ -1,30 +1,27 @@
 ---
-description: 处理规则用于将您在上下文数据变量中发送的数据复制到 eVar、prop 及其他变量以供报告。
-seo-description: 处理规则用于将您在上下文数据变量中发送的数据复制到 eVar、prop 及其他变量以供报告。
-seo-title: 处理规则和上下文数据
+description: 处理规则用于将您在上下文数据变量中发送的数据复制到eVar、prop和其他变量以供报告。
 solution: Experience Cloud,Analytics
 title: 处理规则和上下文数据
 topic-fix: Developer and implementation
 uuid: 51338ccd-fa52-4d9c-97c4-947a4100465d
 exl-id: a3968160-42c4-4671-b541-c14639b8a451
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: d1ebb2bbc4742f5288f90a90e977d252f3f30aa3
 workflow-type: tm+mt
-source-wordcount: '297'
-ht-degree: 100%
+source-wordcount: '272'
+ht-degree: 70%
 
 ---
 
 # 处理规则和上下文数据{#processing-rules-and-context-data}
 
-处理规则用于将您在上下文数据变量中发送的数据复制到 eVar、prop 及其他变量以供报告。
+处理规则用于将您在上下文数据变量中发送的数据复制到eVar、prop和其他变量以供报告。
 
 有关更多信息，请参阅以下内容：
 
 * 2013 年峰会上的[处理规则培训](https://tv.adobe.com/embed/1181/16506/)
 * 获得使用处理规则的授权
 
-   有关处理规则的更多信息，请参阅[处理规则概述](https://docs.adobe.com/content/help/zh-Hans/analytics/admin/admin-tools/processing-rules/processing-rules.html)。
+   有关处理规则的更多信息，请参阅Adobe Analytics文档中的[处理规则概述](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/processing-rules/processing-rules.html)。
 
 在使用处理规则时，请牢记以下信息：
 
@@ -40,7 +37,7 @@ ht-degree: 100%
 
 * 上下文数据变量在处理规则界面中按字母顺序排序，这使您能够快速查看哪些变量处于同一命名空间。
 
-   避免使用 evar 或 prop 编号来命名上下文数据键：
+   避免使用eVar或prop编号来命名上下文数据键：
 
    ```js
    "eVar1":"jimbo"

@@ -1,16 +1,13 @@
 ---
 description: 此信息可帮助您使用 App Transport Security (ATS)，这是 iOS 9 的一组新安全要求。
-seo-description: 此信息可帮助您使用 App Transport Security (ATS)，这是 iOS 9 的一组新安全要求。
-seo-title: App Transport Security
 solution: Experience Cloud,Analytics
-title: 应用程序传输安全性
+title: App Transport Security
 topic-fix: Developer and implementation
 uuid: e9ee13cf-9802-492e-8b11-95f028e34e61
 exl-id: 2fe94e76-06d6-4ad1-95ba-193ae3df4d58
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '463'
 ht-degree: 100%
 
 ---
@@ -31,7 +28,7 @@ ht-degree: 100%
 |--- |--- |
 | Analytics | 要允许 Analytics 服务器，请将您的跟踪服务器域作为 ATS 的例外域添加到 info.plist 文件中。可以在 `ADBMobileConfig.json` 文件的 Analytics 部分或“管理应用程序设置”页面的 Analytics 部分找到跟踪服务器域。 |
 | Audience Manager | 可以在 `ADBMobileConfig.json` 文件中 audienceManager 对象的服务器属性中找到 Audience Manager 域。如果您的应用程序中使用了 Audience Manager，但未启用 SSL，请将此服务器作为 ATS 的例外域添加到 `Info.plist` 文件中。 |
-| Target | 您可以将 Target 端点作为 ATS 的例外域添加到 Info.plist 文件中。要查找 Target 端点，请在 `ADBMobileConfig.json` 文件的目标对象中找到 `clientCodeproperty`。您的端点将为 `https://{clientCode}.tt.omtrdc.net`。例如，如果 `clientCodeproperty` 为 `“myCompany”`，则您的端点将为 `https://myCompany.tt.omtrdc.net`。 |
+| Target | 您可以将 Target 端点作为 ATS 的例外域添加到 Info.plist 文件中。要查找 Target 端点，请在 `ADBMobileConfig.json` 文件的目标对象中找到 `clientCodeproperty`。您的端点将为 `https://{clientCode}.tt.omtrdc.net`。例如，如果 `clientCodeproperty` 为 `"myCompany"`，则您的端点将为 `https://myCompany.tt.omtrdc.net`。 |
 | Adobe Experience Platform Identity Service | 您可以将 Experience Cloud 服务器作为 ATS 的例外域添加到 `Info.plist` 文件中。此域为 `dpm.demdex.net`。 |
 | Mobile Services：客户获取 | 在 `Info.plist` 文件中允许将客户获取服务器作为 ATS 的例外域。此域为 `c00.adobe.com`。 |
 | Mobile Services：应用程序内消息 | 如果您使用的是应用程序内消息，则可能需要将您使用的非 HTTPS 的每个 URL 条目添加到 ATS 的例外域中。此列表包含托管的图像以及嵌入到自定义全屏消息 HTML 中的任何 URL。有关在 `info.plist` 文件中设置例外域的更多详细信息，请参阅“表 2：App Transport Security 词典主键”**&#x200B;中的“NSExceptionDomains”**&#x200B;行。另请参阅[信息属性列表键参考](https://developer.apple.com/library/prerelease/ios/technotes/App-Transport-Security-Technote/)中的&#x200B;*表 3：例外域词典键*。 |

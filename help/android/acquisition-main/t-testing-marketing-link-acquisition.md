@@ -1,17 +1,14 @@
 ---
 description: 以下说明可帮助您对 Android 设备上使用营销链接的客户获取促销活动进行往返测试。
 keywords: Android;库;移动;SDK
-seo-description: 以下说明可帮助您对 Android 设备上使用营销链接的客户获取促销活动进行往返测试。
-seo-title: 测试营销链接客户获取
 solution: Experience Cloud,Analytics
 title: 测试营销链接客户获取
 topic-fix: Developer and implementation
 uuid: d0933dcc-8fc3-4f60-987f-7a54559aacf5
 exl-id: 86fdaef7-5b6c-4e9d-a470-df66c96f2e9d
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '767'
+source-wordcount: '746'
 ht-degree: 100%
 
 ---

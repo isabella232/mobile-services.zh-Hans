@@ -1,13 +1,10 @@
 ---
-description: 本节包含有关使用适用于Android的AdobeMobile SDK Xamarin组件的信息。
-seo-description: 本节包含有关使用适用于Android的AdobeMobile SDK Xamarin组件的信息。
-seo-title: Android
+description: 本节包含有关在Android中使用AdobeMobile SDK Xamarin组件的信息。
 title: Android
 uuid: 7ce20d9f-afbb-447c-a3bd-3e1f75421bb4
-translation-type: tm+mt
-source-git-commit: 04a55b2f73a5ed7fe629ff8ab06217fafd3a2c71
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '48'
+source-wordcount: '32'
 ht-degree: 6%
 
 ---
@@ -15,5 +12,5 @@ ht-degree: 6%
 
 # Android {#android}
 
-本节包含有关使用适用于Android的AdobeMobile SDK Xamarin组件的信息。
+本节包含有关在Android中使用AdobeMobile SDK Xamarin组件的信息。
 

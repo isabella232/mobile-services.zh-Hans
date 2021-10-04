@@ -1,35 +1,32 @@
 ---
-description: 帮助您将通用Windows平台SDK与Adobe Analytics一起使用的信息。
-seo-description: 帮助您将通用Windows平台SDK与Adobe Analytics一起使用的信息。
-seo-title: Analytics 方法
+description: 此信息可帮助您将通用Windows平台SDK与Adobe Analytics结合使用。
 solution: Experience Cloud,Analytics
 title: Analytics 方法
 topic-fix: Developer and implementation
 uuid: cc299bb5-ec61-49bf-869a-f3c3bc83359f
 exl-id: 3ceaedfa-274f-4dc7-9e4c-15233d09f935
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '632'
-ht-degree: 57%
+source-wordcount: '617'
+ht-degree: 58%
 
 ---
 
 # Analytics 方法 {#analytics-methods}
 
-帮助您将通用Windows平台SDK与Adobe Analytics一起使用的信息。
+此信息可帮助您将通用Windows平台SDK与Adobe Analytics结合使用。
 
-SDK目前支持多个Adobe Experience Cloud解决方案，包括分析、目标和Audience Manager。 方法将根据解决方案来添加前缀。分析方法前缀为“Analytics”。
+SDK当前支持多个Adobe Experience Cloud解决方案，包括Analytics、Target和Audience Manager。 方法将根据解决方案来添加前缀。Analytics方法的前缀为“Analytics”。
 
 下面每个方法均可用来将数据发送至 Adobe Analytics 报表包。
 
 >[!TIP]
 >
->当您从winJS(JavaScript)使用`winmd`方法时，所有方法都会自动将其第一个字母小写。
+>当您从winJS(JavaScript)中使用`winmd`方法时，所有方法都会自动将其第一个字母小写。
 
 * **TrackState(winJS:trackState)**
 
-   通过可选的上下文数据跟踪应用程序状态。状态是您的应用程序中提供的视图，如“主仪表板”、“应用程序设置”、“购物车”等。 这些状态与网站中的页面类似，而且 `TrackState` 调用会使页面查看次数递增。如果`state`为空，则报告中将显示为“应用程序名称应用程序版本（内部版本）”。 如果在报告中看到此值，请确保在每个`TrackState`调用中设置`state`。
+   通过可选的上下文数据跟踪应用程序状态。状态是指您的应用程序中提供的一些视图，例如“主页功能板”、“应用程序设置”、“购物车”等。 这些状态与网站中的页面类似，而且 `TrackState` 调用会使页面查看次数递增。如果`state`为空，它会在报表中显示为“应用程序名称应用程序版本（内部版本）”。 如果在报表中看到此值，请确保在每个`TrackState`调用中设置`state`。
 
    >[!TIP]
    >
@@ -50,7 +47,7 @@ SDK目前支持多个Adobe Experience Cloud解决方案，包括分析、目标�
 
 * **TrackAction(winJS:trackAction)**
 
-   跟踪您的应用程序中的操作。操作是您要衡量的应用程序中发生的事情，如“登录”、“横幅点击”、“源订阅”和其他量度。
+   跟踪您的应用程序中的操作。操作是指您的应用程序中发生的要测量的事件，例如“登录”、“横幅点按”、“信息源订阅”及其他量度。
 
    * 以下是此方法的语法：
 
@@ -67,7 +64,7 @@ SDK目前支持多个Adobe Experience Cloud解决方案，包括分析、目标�
 
 * **GetTrackingIdentifierAsync(winJS:getTrackingIdentifierAsync)**
 
-   返回自动生成的Analytics访客ID。 这是特定于应用程序的唯一访客ID，在初始启动时生成，然后从该点开始存储和使用。 此ID将在应用程序升级期间保留，并在卸载时删除。
+   返回自动为Analytics生成的访客ID。 这是特定于应用程序的唯一访客ID，在首次启动时生成，然后从那时起被存储和使用。 此ID在应用程序升级期间仍会保留，并在卸载时删除。
 
    * 以下是此方法的语法：
 
@@ -101,7 +98,7 @@ SDK目前支持多个Adobe Experience Cloud解决方案，包括分析、目标�
       ADB.Analytics.trackLocation(47.60621,-122.33207,null);
       ```
 
-* **TrackLifetime值&#x200B;增加(winJS:trackLifetime &#x200B; ValueIncrease)**
+* **TrackLifetime ValueIncrease&#x200B;(winJS:trackLifetime &#x200B; ValueIncrease)**
 
    向用户的生命周期值中添加 `amount`。
 
@@ -139,7 +136,7 @@ SDK目前支持多个Adobe Experience Cloud解决方案，包括分析、目标�
       ADB.Analytics.trackTimedActionStart("cartToCheckout",null); 
       ```
 
-* **TrackTimed &#x200B; ActionUpdate(winJS:trackTimed &#x200B; ActionUpdate)**
+* **TrackTimed ActionUpdate&#x200B;(winJS:trackTimed &#x200B; ActionUpdate)**
 
    传入 `contextData`，以更新与给定 `action` 关联的上下文数据。传入的 `data` 会附加到给定操作的现有数据中，如果已经为 `action` 定义了相同的键，则会覆盖数据。
 
@@ -199,7 +196,7 @@ SDK目前支持多个Adobe Experience Cloud解决方案，包括分析、目标�
 
 * **ClearTrackingQueue(winJS:clearTrackingQueue)**
 
-   清除Analytics跟踪队列中所有存储的点击。
+   清除Analytics跟踪队列中存储的所有点击。
 
    * 以下是此方法的语法：
 

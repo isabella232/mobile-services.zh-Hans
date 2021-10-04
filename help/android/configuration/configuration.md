@@ -1,16 +1,13 @@
 ---
 description: '以下信息可帮助您配置 Android SDK，包括 JSON 配置、点击批量处理和 SDK 方法 '
-seo-description: '以下信息可帮助您配置 Android SDK，包括 JSON 配置、点击批量处理和 SDK 方法 '
-seo-title: 配置概述
 solution: Experience Cloud,Analytics
 title: 配置概述
 topic-fix: Developer and implementation
 uuid: 207d6eae-7fc5-449d-b92b-c2d83e8e82b4
 exl-id: 6e16f15a-71c9-4f0d-ba45-f6c22e05b9c2
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '152'
+source-wordcount: '133'
 ht-degree: 100%
 
 ---

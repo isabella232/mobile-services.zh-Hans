@@ -1,24 +1,21 @@
 ---
-description: 帮助您将扩展与Universal Windows Platform SDK一起用于Experience Cloud解决方案的信息。
-seo-description: 帮助您将扩展与Universal Windows Platform SDK一起用于Experience Cloud解决方案的信息。
-seo-title: 扩展
+description: 此信息可帮助您将扩展与通用Windows平台SDK一起使用，以用于Experience Cloud解决方案。
 solution: Experience Cloud,Analytics
 title: 扩展
 topic-fix: Developer and implementation
 uuid: 94bde8cf-f9d5-4374-a9a1-c2c3509cdbb7
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '64'
-ht-degree: 7%
+source-wordcount: '47'
+ht-degree: 8%
 
 ---
 
 
 # 扩展 {#extensions}
 
-帮助您将扩展与Universal Windows Platform SDK一起用于Experience Cloud解决方案的信息。
+此信息可帮助您将扩展与通用Windows平台SDK一起使用，以用于Experience Cloud解决方案。
 
 ## 其他信息
 
-+ [适用于Experience /Users/Cloud Solutions 4.x SDK的Windows Visual Studio扩展](/help/universal-windows/extensions/win-vse-4x.md)
++ [适用于Experience /Users/Cloud解决方案4.x SDK的Windows Visual Studio扩展](/help/universal-windows/extensions/win-vse-4x.md)

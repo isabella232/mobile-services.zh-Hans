@@ -1,17 +1,14 @@
 ---
 description: 您可以使用 iOS PhoneGap 插件方法完成多种任务。
 keywords: PhoneGap
-seo-description: 您可以使用 iOS PhoneGap 插件方法完成多种任务。
-seo-title: PhoneGap 插件方法
 solution: Experience Cloud,Analytics
 title: PhoneGap 插件方法
 topic-fix: Developer and implementation
 uuid: bd830fe5-804a-4d0a-bbb6-99a6d8da6a03
 exl-id: 7ffdf008-1605-471f-93fb-f9c6b38a3bcb
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '1731'
+source-wordcount: '1715'
 ht-degree: 100%
 
 ---

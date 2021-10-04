@@ -1,17 +1,14 @@
 ---
 description: 此信息可帮助您使用 ADBMobile.json 配置文件。
-seo-description: 此信息可帮助您使用 ADBMobile.json 配置文件。
-seo-title: ADBMobile JSON 配置
 solution: Experience Cloud,Analytics
 title: ADBMobile JSON 配置
 topic-fix: Developer and implementation
 uuid: d9708d59-e30a-4f6c-ab1b-d9499855d0c2
 exl-id: e3515de3-3aec-4dd0-996d-9c561ad1b1de
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '1715'
-ht-degree: 100%
+source-wordcount: '1708'
+ht-degree: 98%
 
 ---
 
@@ -73,7 +70,7 @@ ht-degree: 100%
 
 * **charset**
 
-   定义将用于发送到 Analytics 的数据的字符集。charset 用于将传入的数据转换为 UTF-8 以便进行存储和报告。有关更多信息，请参阅 [s.charSet](https://docs.adobe.com/content/help/zh-Hans/analytics/implementation/vars/config-vars/charset.html)。
+   定义将用于发送到 Analytics 的数据的字符集。charset 用于将传入的数据转换为 UTF-8 以便进行存储和报告。有关更多信息，请参阅Adobe Analytics文档中的[charSet](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/charset.html)变量。
 
    * 最低 SDK 版本：4.0
 
@@ -162,7 +159,7 @@ ht-degree: 100%
    >从版本 4.2 开始，POI 可在 Adobe Mobile 界面中定义并动态同步到应用程序配置文件。此同步需要 `analytics.poi` 设置：
 
    ```js
-   “analytics.poi”: “`https://assets.adobedtm.com/…/yourfile.json`”,
+   "analytics.poi": "`https://assets.adobedtm.com/…/yourfile.json`",
    ```
 
    如果未配置此设置，必须更新 `ADBMobile.json` 文件以包含此行。要下载更新的配置文件，请参阅[开始之前](/help/ios/getting-started/requirements.md)。
@@ -275,8 +272,7 @@ ht-degree: 100%
 
    * 最低 SDK 版本：4.0
 
-
-## `ADBMobileConfig.json` 示例文件 {#section_52FA7C71A99147AFA9BE08D2177D8DA7}
+## `ADBMobileConfig.json` 示例文件  {#section_52FA7C71A99147AFA9BE08D2177D8DA7}
 
 以下是一个 `ADBMobileConfig.json` 示例文件：
 
@@ -464,5 +460,5 @@ ht-degree: 100%
    与受众相同，不过，这里是操作而非受众：
 
    * &quot;key&quot;
-   * &quot;匹配&quot;
-   * &quot;值&quot;
+   * &quot;matches&quot;
+   * &quot;values&quot;

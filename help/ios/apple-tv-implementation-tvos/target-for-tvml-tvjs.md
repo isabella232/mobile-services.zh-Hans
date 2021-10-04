@@ -1,27 +1,24 @@
 ---
-description: 您可以通过直接替换。xml文件，在TVML/TVJS应用程序中利用Adobe Target。 使用自定义ADBTarget XML元素指定要由目标内容替换的页面区域。
-seo-description: 您可以通过直接替换。xml文件，在TVML/TVJS应用程序中利用Adobe Target。 使用自定义ADBTarget XML元素指定要由目标内容替换的页面区域。
-seo-title: 适用于 TVML/TVJS 的 Adobe Target
+description: 您可以通过直接替换.xml文件，在TVML/TVJS应用程序中利用Adobe Target。 使用自定义ADBTarget XML元素指定要由Target内容替换的页面区域。
 title: 适用于 TVML/TVJS 的 Adobe Target
 uuid: afd5a583-5266-43f2-8cb0-0ace89c53a57
-translation-type: tm+mt
-source-git-commit: 46a0b8e0087c65880f46545a78f74d5985e36cdc
+exl-id: 9348d49c-2a5a-4ea0-b90d-99d446bd336a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '502'
-ht-degree: 70%
+source-wordcount: '461'
+ht-degree: 75%
 
 ---
 
-
 # 适用于 TVML/TVJS 的 Adobe Target{#adobe-target-for-tvml-tvjs}
 
-您可以通过直接替换。xml文件，在TVML/TVJS应用程序中利用Adobe Target。 使用自定义ADBTarget XML元素指定要由目标内容替换的页面区域。
+您可以通过直接替换.xml文件，在TVML/TVJS应用程序中利用Adobe Target。 使用自定义ADBTarget XML元素指定要由Target内容替换的页面区域。
 
 >[!IMPORTANT]
 >
 >在 TVML 页面中使用 `ADBTarget` 元素之前，必须将 TVML/TVJS 应用程序配置为使用 tvOS SDK。有关更多信息，请参阅[使用 tvOS 实施 Apple TV](/help/ios/apple-tv-implementation-tvos/apple-tv-implementation-tvos.md)。
 
-## 入门指南 {#section_88445645FD67416EAF6FDC3E3D3F5C33}
+## 快速入门 {#section_88445645FD67416EAF6FDC3E3D3F5C33}
 
 1. 找到要使用 Target 位置的 `.xml` 文件。
 1. 将 `ADBTarget` 元素作为 `<document>` 元素的子项添加到该文件中。
@@ -125,7 +122,7 @@ ht-degree: 70%
    </alertTemplate> 
    ```
 
-* 如果目标请求成功，并返回了优惠内容，则您的页面将生成：
+* 如果对Target的请求成功，并且返回了选件内容，则您的页面将生成：
 
    ```objective-c
    <alertTemplate> 
@@ -134,7 +131,7 @@ ht-degree: 70%
    </alertTemplate>
    ```
 
-* 如果无法访问目标服务器或请求超时，则您的页面将生成：
+* 如果无法访问Target服务器或请求超时，则页面将生成：
 
    ```objective-c
    <alertTemplate> 

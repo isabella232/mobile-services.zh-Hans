@@ -1,16 +1,13 @@
 ---
 description: 下表列出了实施生命周期后，可由移动设备库自动测量的量度和维度。
-seo-description: 下表列出了实施生命周期后，可由移动设备库自动测量的量度和维度。
-seo-title: 生命周期量度
 solution: Experience Cloud,Analytics
 title: 生命周期量度
 topic-fix: Developer and implementation
 uuid: b795e383-d59b-4a3c-9e14-ffe8fb58412c
 exl-id: b51b6c41-843f-499d-9cf2-7ce96ed82fc0
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '1108'
+source-wordcount: '1085'
 ht-degree: 100%
 
 ---

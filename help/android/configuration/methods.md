@@ -1,16 +1,13 @@
 ---
 description: 以下是 Android 库提供的方法列表。
 keywords: Android;库;移动;SDK
-seo-description: 以下是 Android 库提供的方法列表。
-seo-title: 配置方法
 solution: Experience Cloud,Analytics
 title: 配置方法
 topic-fix: Developer and implementation
 uuid: 663aeb6c-1b97-4a3a-8c0e-dd4c2ec28c01
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '989'
+source-wordcount: '974'
 ht-degree: 100%
 
 ---
@@ -36,7 +33,7 @@ ht-degree: 100%
     }
    ```
 
-## SDK 设置（配置类）{#section_C1EB977043C04D2B93E5A63DB72828B6}
+## SDK 设置（配置类） {#section_C1EB977043C04D2B93E5A63DB72828B6}
 
 * **registerAdobeDataCallback**
 

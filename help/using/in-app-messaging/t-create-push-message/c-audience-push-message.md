@@ -1,17 +1,15 @@
 ---
 description: 您可以为推送消息定义和配置受众选项，包括日期范围选项、Analytics 区段和自定义区段。
 keywords: mobile
-seo-description: 您可以为推送消息定义和配置受众选项，包括日期范围选项、Analytics 区段和自定义区段。
-seo-title: 受众：为推送消息定义和配置受众区段
 solution: Experience Cloud,Analytics
 title: 受众：为推送消息定义和配置受众区段
 topic-fix: Metrics
 uuid: efd410e7-3b6c-4cf4-a26f-b11688adc491
 exl-id: d1062a76-2e72-4649-8497-58617a7a47cb
-source-git-commit: af46d2ef6e8efaae32128384112fa5265d56de74
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '1020'
-ht-degree: 99%
+source-wordcount: '976'
+ht-degree: 98%
 
 ---
 
@@ -89,11 +87,10 @@ ht-degree: 99%
 
    * 有关排查推送消息问题的更多信息，请参阅以下内容：
 
-      * [iOS 中的推送消息](https://docs.adobe.com/content/help/zh-Hans/mobile-services/ios/messaging-ios/push-messaging/push-messaging.html)
+      * [iOS 中的推送消息](/help/ios/messaging-main/push-messaging/push-messaging.md)
+      * [Android 中的推送消息](/help/android/messaging-main/push-messaging/push-messaging.md)
 
-      * [Android 中的推送消息](https://docs.adobe.com/content/help/zh-Hans/mobile-services/android/messaging-android/push-messaging/push-messaging.html)
-
-1. 在以下字段中键入相应信息：
+2. 在以下字段中键入相应信息：
 
    * **[!UICONTROL 时段]**
 
@@ -109,7 +106,7 @@ ht-degree: 99%
 
    * **[!UICONTROL Analytics 区段]**
 
-      从下拉列表中选择一个现有的 Adobe Analytics 区段。有关更多信息，请参阅[构建区段](https://docs.adobe.com/content/help/zh-Hans/analytics/components/segmentation/segmentation-workflow/seg-build.html)。
+      从下拉列表中选择一个现有的 Adobe Analytics 区段。有关更多信息，请参阅Adobe Analytics文档中的[区段生成器](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html?lang=zh-Hans)。
 
    * **[!UICONTROL 自定义区段]**
 

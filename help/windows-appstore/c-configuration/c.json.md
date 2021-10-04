@@ -1,29 +1,26 @@
 ---
-description: 帮助您使用ADBMobile JSON配置文件的信息。
-seo-description: 帮助您使用ADBMobile JSON配置文件的信息。
-seo-title: ADBMobileConfig.json配置文件
+description: 此信息可帮助您使用ADBMobile JSON配置文件。
 solution: Experience Cloud,Analytics
 title: ADBMobileConfig.json配置文件
 topic-fix: Developer and implementation
 uuid: a45b91cc-982e-4d6c-a4e4-d2e4b4fa7556
 exl-id: 520dffb8-ca47-444f-bbc9-f18413ddeb05
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '617'
-ht-degree: 43%
+source-wordcount: '609'
+ht-degree: 41%
 
 ---
 
-# `ADBMobileConfig.json` config文件  {#adbmobileconfig-json-config}
+# `ADBMobileConfig.json` 配置文件 {#adbmobileconfig-json-config}
 
-帮助您使用`ADBMobile.json`配置文件的信息。
+可帮助您使用`ADBMobile.json`配置文件的信息。
 
-SDK目前支持多个Adobe Experience Cloud解决方案，包括分析、目标和Audience Manager。 方法将根据解决方案来添加前缀。配置方法的前缀为“配置”。
+SDK当前支持多个Adobe Experience Cloud解决方案，包括Analytics、Target和Audience Manager。 方法将根据解决方案来添加前缀。配置方法的前缀为“Config”。
 
 * **rsids**
 
-   （Analytics要求）一个或多个报表包，用于接收Analytics数据。 多个报表包 ID 应以逗号分隔，且中间不应有空格。
+   （Analytics需要）一个或多个用于接收Analytics数据的报表包。 多个报表包 ID 应以逗号分隔，且中间不应有空格。
 
    * 以下是此变量的代码示例：
 
@@ -37,13 +34,13 @@ SDK目前支持多个Adobe Experience Cloud解决方案，包括分析、目标�
 
 * **server**
 
-   (Analytics和受众管理要求)。 基于父节点的分析或受众管理服务器。 应当使用不含 `https://` 或 `https://` 协议前缀的服务器域填充此变量。协议前缀由库根据`ssl`变量自动处理。
+   （Analytics和受众管理需要）。 基于父节点的Analytics或受众管理服务器。 应当使用不含 `https://` 或 `https://` 协议前缀的服务器域填充此变量。协议前缀由库基于`ssl`变量自动处理。
 
    如果 `ssl` 为 `true`，则对此服务器进行安全连接。如果 `ssl` 为 `false`，则对此服务器进行非安全连接。
 
 * **charset**
 
-   定义您用于发送到Analytics的数据的字符集。 charset 用于将传入的数据转换为 UTF-8 以便进行存储和报告。有关更多信息，请参阅 [s.charSet](https://docs.adobe.com/content/help/zh-Hans/analytics/implementation/vars/config-vars/charset.html)。
+   定义您用于发送到Analytics的数据的字符集。 charset 用于将传入的数据转换为 UTF-8 以便进行存储和报告。有关更多信息，请参阅Adobe Analytics文档中的[charSet](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/charset.html)变量。
 
 * **ssl**
 
@@ -51,11 +48,11 @@ SDK目前支持多个Adobe Experience Cloud解决方案，包括分析、目标�
 
 * **offlineEnabled**
 
-   启用(true)后，点击将在设备脱机时排队，并在设备联机时稍后发送。 报表包必须启用时间戳才能使用离线跟踪。
+   启用后(true)，点击将在设备处于离线状态时排入队列，并在设备处于在线状态时稍后发送。 报表包必须启用时间戳才能使用离线跟踪。
 
    >[!IMPORTANT]
    >
-   >如果在报表包上启用时间戳，则`offlineEnabled`配置属性&#x200B;*必须*&#x200B;为true。 如果报表包未启用时间戳，则 `offlineEnabled` 配置属性&#x200B;*必须*&#x200B;为 false。如果未正确配置，数据将丢失。如果您不确定报表包是否已启用时间戳，请与客户关怀部门联系。 如果您当前正在将AppMeasurement数据报告到同时从JavaScript收集数据的报表包，则可能需要为移动数据设置单独的报表包，或使用`s.timestamp`变量对所有JavaScript点击加入自定义时间戳。
+   >如果报表包上启用了时间戳，则`offlineEnabled`配置属性&#x200B;*必须*&#x200B;为true。 如果报表包未启用时间戳，则 `offlineEnabled` 配置属性&#x200B;*必须*&#x200B;为 false。如果未正确配置，数据将丢失。如果您不确定报表包是否启用了时间戳，请联系客户关怀团队。 如果您当前向某个报表包报告AppMeasurement数据，而该报表包也从JavaScript收集数据，则您可能需要为移动数据设置一个单独的报表包，或使用`s.timestamp`变量在所有JavaScript点击中包含自定义时间戳。
 
 * **lifecycleTimeout**
 
@@ -63,19 +60,19 @@ SDK目前支持多个Adobe Experience Cloud解决方案，包括分析、目标�
 
 * **batchLimit**
 
-   批量发送点击量。 例如，如果设置为50，则在存储50之前对点击进行排队，然后发送所有排队的点击。 需要 `offlineEnabled=true`。默认值为`0`（无批处理）。
+   批量发送点击。 例如，如果设置为50，则点击将排入队列，直到存储50，然后发送所有已排队的点击。 需要 `offlineEnabled=true`。默认值为`0`（无批量处理）。
 
 * **privacyDefault**
 
    * `optedin` - 立即发送点击。
    * `optedout` - 丢弃点击。
-   * `optunknown`  — 如果您的报表包启用了时间戳，则会保存点击，直到隐私状态更改为选择加入（然后发送点击）或选择退出（然后丢弃点击）为止。如果您的报表包未启用时间戳，则将丢弃点击，直到隐私状态更改为选择启用。
+   * `optunknown`  — 如果您的报表包启用了时间戳，将会保存点击，直到隐私状态更改为选择启用（发送点击）或选择禁用（丢弃点击）。如果您的报表包未启用时间戳，则将丢弃点击，直到隐私状态更改为选择启用。
 
       默认值为 `optedin`。
 
       >[!TIP]
       >
-      >这仅设置默认值。 如果曾在代码中设置或更改过此值，则由代码设置的值将保存在本地存储中，并一直使用，直到它发生更改，或者卸载并重新安装应用程序。
+      >这仅设置默认值。 如果在代码中设置或更改了此值，则由代码设置的值会保存在本地存储中，并一直使用到进行更改或卸载并重新安装应用程序为止。
 
 * **poi**
 
@@ -92,7 +89,7 @@ SDK目前支持多个Adobe Experience Cloud解决方案，包括分析、目标�
 
 * **clientCode**
 
-   (**目标**&#x200B;要求)您分配的客户端代码。
+   （**Target**&#x200B;必需）您分配的客户端代码。
 
 * **timeout**
 

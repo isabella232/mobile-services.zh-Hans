@@ -1,16 +1,13 @@
 ---
 description: 从 iOS 10 开始，Apple 允许您创建称为独立扩展的扩展，此类扩展无需容器应用程序即可分发。使用此扩展，您无需应用程序组，因为没有要与之共享数据的容器应用程序。
-seo-description: 从 iOS 10 开始，Apple 允许您创建称为独立扩展的扩展，此类扩展无需容器应用程序即可分发。使用此扩展，您无需应用程序组，因为没有要与之共享数据的容器应用程序。
-seo-title: 独立扩展实施
 solution: Experience Cloud,Analytics
 title: 独立扩展实施
 topic-fix: Developer and implementation
 uuid: 9b47f082-b78f-4611-968d-014c32ede6bc
 exl-id: b51247b6-c4ba-4a00-9ba0-1824450ac067
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '268'
+source-wordcount: '222'
 ht-degree: 100%
 
 ---

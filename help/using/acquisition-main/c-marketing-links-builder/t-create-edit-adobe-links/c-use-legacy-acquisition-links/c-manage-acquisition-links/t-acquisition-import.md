@@ -1,17 +1,14 @@
 ---
 description: 如果您希望通过 .csv 文件，而不是 Adobe Mobile Services 用户界面来处理链接，则请导入或导出客户获取链接。
 keywords: mobile
-seo-description: 如果您希望通过 .csv 文件，而不是 Adobe Mobile Services 用户界面来处理链接，则请导入或导出客户获取链接。
-seo-title: 导入或导出客户获取链接
 solution: Experience Cloud,Analytics
 title: 导入或导出客户获取链接
 topic-fix: Metrics
 uuid: 94ea008a-473a-40c3-9fa8-a94eb0208c8f
 exl-id: 9be2377e-7f46-44f7-9c5e-1c20c617276d
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '132'
+source-wordcount: '101'
 ht-degree: 100%
 
 ---

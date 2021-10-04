@@ -1,16 +1,13 @@
 ---
 description: 回发功能的定义和源代码示例。
-seo-description: 回发功能的定义和源代码示例。
-seo-title: 回发示例
 solution: Experience Cloud,Analytics
 title: 回发示例
 topic-fix: Developer and implementation
 uuid: 809c5646-7a80-40df-984b-0af89d854259
 exl-id: 3ec5abf1-a406-48b6-91b1-fbcb0a9094ee
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '124'
+source-wordcount: '113'
 ht-degree: 100%
 
 ---
@@ -61,6 +58,6 @@ NSDictionary *contextData = @{@"user.name":@"bob", @"user.zip":@"90210"};
 [ADBMobile trackState:@"MainMenu" data:contextData];
 ```
 
-由于其状态为 `“MainMenu”`，因此该跟踪调用会触发上述回发消息。URL 会将所有的模板变量替换为来自点击的值。假定用户上一个会话的时长为 132 秒，并且该用户使用的是 iOS SDK 版本 4.6.0，则生成的 URL 如下所示：
+由于其状态为 `"MainMenu"`，因此该跟踪调用会触发上述回发消息。URL 会将所有的模板变量替换为来自点击的值。假定用户上一个会话的时长为 132 秒，并且该用户使用的是 iOS SDK 版本 4.6.0，则生成的 URL 如下所示：
 
 `https://my.server.com/?user=bob&zip=90210&c16=4.6.0-iOS&c27=cln,132`

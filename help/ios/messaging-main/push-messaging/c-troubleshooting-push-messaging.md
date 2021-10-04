@@ -1,17 +1,14 @@
 ---
 description: 此信息可帮助您排查推送消息问题。
 keywords: mobile
-seo-description: 此信息可帮助您排查推送消息问题。
-seo-title: 排查推送消息问题
 solution: Experience Cloud,Analytics
 title: 排查推送消息问题
 topic-fix: Metrics
 uuid: 87d7dcb6-82a8-46e3-a6ed-7f895a22f2af
 exl-id: dda84d30-2a7b-496c-b8f3-3bd6b97076aa
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '364'
+source-wordcount: '354'
 ht-degree: 100%
 
 ---

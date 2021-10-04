@@ -1,16 +1,13 @@
 ---
 description: 此信息可帮助您使用 tvOS 实施 Apple TV。
-seo-description: 此信息可帮助您使用 tvOS 实施 Apple TV。
-seo-title: 使用 tvOS 实施 Apple TV
 solution: Experience Cloud,Analytics
 title: 使用 tvOS 实施 Apple TV
 topic-fix: Developer and implementation
 uuid: d1571ea2-a5de-4b96-a527-72abbf51fab8
 exl-id: 35b7f02d-ae48-4c6f-9a3a-6d106a1026ad
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '402'
+source-wordcount: '388'
 ht-degree: 100%
 
 ---
@@ -36,7 +33,7 @@ ht-degree: 100%
 >
 >从 `AdobeMobileLibrary` 版本 4.7.0 开始，提供了 tvOS 支持。
 
-## 入门指南 {#section_CAB40A5B5FC745068C8A5DF8F9AB6199}
+## 快速入门 {#section_CAB40A5B5FC745068C8A5DF8F9AB6199}
 
 >[!TIP]
 >
@@ -69,7 +66,7 @@ ht-degree: 100%
 1. 在 `TVApplicationControllerDelegate` 类的实现文件中，导入 SDK。
 
    ```objective-c
-   #import “ADBMobile.h"
+   #import "ADBMobile.h"
    ```
 
 1. 在 `TVApplicationControllerDelegate` 类的 `application:didFinishLaunchWithOptions:` 方法中，使用 `installTVMLHooks:` 方法将您的 `TVApplicationController` 对象传递到 SDK。

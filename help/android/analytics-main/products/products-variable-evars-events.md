@@ -1,22 +1,19 @@
 ---
 description: 以下是一个具有促销 eVar 和产品特定事件的产品变量示例。
 keywords: Android;库;移动;SDK
-seo-description: 以下是一个具有促销 eVar 和产品特定事件的产品变量示例。
-seo-title: 具有促销 eVar 和产品特定事件的产品变量
 solution: Experience Cloud,Analytics
 title: 具有促销 eVar 和产品特定事件的产品变量
 topic-fix: Developer and implementation
 uuid: 64f822a0-6ccf-48e7-8886-31b93d8198a3
 exl-id: 2ede6341-3068-4423-a509-c0ec3a2db5e8
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '102'
+source-wordcount: '80'
 ht-degree: 100%
 
 ---
 
-# 具有促销 eVar 和产品特定事件的产品变量 {#products-variable-with-merchandising-evars-and-product-specific-events}
+# 具有促销 eVar 和产品特定事件的 Products 变量 {#products-variable-with-merchandising-evars-and-product-specific-events}
 
 以下是一个具有促销 eVar 和产品特定事件的产品变量示例。
 

@@ -1,23 +1,20 @@
 ---
 description: 通过“Target 预览”功能，您可以轻松地对 Target 活动执行端到端的 QA 操作，并在设备上预览这些活动。
-seo-description: 通过“Target 预览”功能，您可以轻松地对 Target 活动执行端到端的 QA 操作，并在设备上预览这些活动。
-seo-title: iOS 上的 Target 预览
 title: iOS 上的 Target 预览
 uuid: d92867a4-0569-4732-a928-28f9e2f8b21e
-translation-type: tm+mt
-source-git-commit: c198ae57b05f8965a8e27191443ee2cd552d6c50
+exl-id: d5695156-59cd-42c5-b9a3-d8e0ebbb89d0
+source-git-commit: d1ebb2bbc4742f5288f90a90e977d252f3f30aa3
 workflow-type: tm+mt
-source-wordcount: '141'
-ht-degree: 100%
+source-wordcount: '121'
+ht-degree: 76%
 
 ---
 
-
-# iOS 上的“Target 预览”功能{#target-preview-on-ios}
+# iOS 上的 Target 预览{#target-preview-on-ios}
 
 通过“Target 预览”功能，您可以轻松地对 Target 活动执行端到端的 QA 操作，并在设备上预览这些活动。
 
-有关如何设置并使用“Target 预览”功能的更多信息，请参阅 [Target 移动设备预览](https://docs.adobe.com/content/help/zh-Hans/target/using/implement-target/mobile-apps/target-mobile-preview.html)。
+有关如何设置和使用“Target预览”功能的更多信息，请参阅Adobe Target文档中的[Target移动设备预览](https://experienceleague.adobe.com/docs/target/using/implement-target/mobile-apps/target-mobile-preview.html) 。
 
 >[!IMPORTANT]
 >
@@ -38,5 +35,5 @@ ht-degree: 100%
    * 以下是此方法的代码示例：
 
       ```objective-c
-      [ADBMobile targetPreviewRestartDeepLink:@" myapp://myhost"]; 
+      [ADBMobile targetPreviewRestartDeepLink:@"myapp://myhost"]; 
       ```

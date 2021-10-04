@@ -1,17 +1,14 @@
 ---
 description: 在自定义报表时，广泛的灵活性可能会导致产生一些问题，从而难以确定哪种报表类型最适合获取您所需的数据。
 keywords: 移动设备
-seo-description: 在自定义报表时，广泛的灵活性可能会导致产生一些问题，从而难以确定哪种报表类型最适合获取您所需的数据。
-seo-title: 报表类型
 solution: Experience Cloud,Analytics
 title: 报表类型
 topic-fix: Reports,Metrics
 uuid: 8747b11e-31b1-47bc-ad55-db5ab4ef7078
 exl-id: ba7af2f5-8c84-4c49-a793-5fbaa8947566
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '772'
+source-wordcount: '743'
 ht-degree: 100%
 
 ---
@@ -85,7 +82,7 @@ ht-degree: 100%
 
 每个节点的形状像是一个框，都表示用户路径通过应用程序时的一种状态。例如，在上图中，顶级节点表示启动应用程序并从图片库选择照片的用户数量。
 
-### “漏斗”报表  {#section_AF3B0C899D844FC3AD1F91A2C452C92F}
+### “漏斗”报表 {#section_AF3B0C899D844FC3AD1F91A2C452C92F}
 
 漏斗报表让您能够识别在与移动设备应用程序交互时，客户在何处放弃促销活动或偏离定义的转化路径。您还可以使用漏斗报表来比较不同区段的操作。
 

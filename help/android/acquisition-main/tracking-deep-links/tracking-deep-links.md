@@ -1,18 +1,15 @@
 ---
 description: 您可以使用此信息通过 Adobe Mobile Android SDK 在移动设备应用程序中跟踪深层链接和延期深层链接。
 keywords: Android;库;移动;SDK
-seo-description: 您可以使用此信息通过 Adobe Mobile Android SDK 在移动设备应用程序中跟踪深层链接和延期深层链接。
-seo-title: 在 Adobe Mobile Services 中跟踪深层链接
 solution: Experience Cloud,Analytics
 title: 跟踪深层链接
 topic-fix: Developer and implementation
 uuid: ebb1c08c-a246-40b3-9ac6-4606a14b4c5a
 exl-id: 4f59b77d-3cac-4853-bb6b-50a403036771
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '334'
-ht-degree: 100%
+source-wordcount: '302'
+ht-degree: 97%
 
 ---
 
@@ -55,7 +52,7 @@ Adobe Mobile SDK 可以解析附加到任何深层链接或通用链接的数据
 * `a.launch.campaign.term`
 * `a.launch.campaign.content`
 
-这些键是用于在 Adobe Analytics 中进行报告的预映射变量。有关映射和处理规则的更多信息，请参阅[处理规则和上下文数据](https://docs.adobe.com/content/help/zh-Hans/analytics/admin/admin-tools/processing-rules/processing-rules.html)。
+这些键是用于在 Adobe Analytics 中进行报告的预映射变量。有关映射和处理规则的更多信息，请参阅[处理规则和上下文数据](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/processing-rules/processing-rules.html)。
 
 ## 跟踪延期深层链接（与营销链接一起使用）
 

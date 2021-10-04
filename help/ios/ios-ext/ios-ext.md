@@ -1,16 +1,13 @@
 ---
 description: 您可以使用 iOS 扩展帮助从 Apple Watch 应用程序 (WatchOS 1)、“今天”小组件、照片编辑小组件以及其他 iOS 扩展应用程序中收集使用情况数据。
-seo-description: 您可以使用 iOS 扩展帮助从 Apple Watch 应用程序 (WatchOS 1)、“今天”小组件、照片编辑小组件以及其他 iOS 扩展应用程序中收集使用情况数据。
-seo-title: iOS 扩展实施
 solution: Experience Cloud,Analytics
 title: iOS 扩展实施
 topic-fix: Developer and implementation
 uuid: 8afc03fe-403e-4643-ada1-30e403ede238
 exl-id: 741b0cd5-6245-480a-b5bf-a33a1f82a425
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '721'
+source-wordcount: '691'
 ht-degree: 100%
 
 ---
@@ -40,7 +37,7 @@ Apple 提供一组 API，允许 Watch 应用程序通过向容器应用程序发
 
 即使这三种跟踪方法符合您的要求，仍请使用 iOS SDK，因为该适用于 Watch 应用程序的 SDK 包含除应用程序内消息传送之外的所有移动功能。
 
-## 入门指南 {#section_D0BE4F780C9C4CD8ADD2AD4EE0BD5FD4}
+## 快速入门 {#section_D0BE4F780C9C4CD8ADD2AD4EE0BD5FD4}
 
 >[!IMPORTANT]
 >
@@ -48,8 +45,8 @@ Apple 提供一组 API，允许 Watch 应用程序通过向容器应用程序发
 >
 >* 一个包含应用程序的目标。
 >* 一个扩展目标。
->
 
+>
 
 
 如果您正在使用 WatchKit 应用程序，您应该具备第三个目标。有关为 Apple Watch 开发的更多信息，请参阅[为 Apple Watch 开发](https://developer.apple.com/library/ios/documentation/General/Conceptual/WatchKitProgrammingGuide/index.html#//apple_ref/doc/uid/TP40014969-CH8-SW1)。

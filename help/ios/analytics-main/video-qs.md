@@ -1,17 +1,14 @@
 ---
 description: 以下是有关使用里程碑视频测量在 iOS 中测量视频的一些信息。
-seo-description: 以下是有关使用里程碑视频测量在 iOS 中测量视频的一些信息。
-seo-title: Video Analytics
 solution: Experience Cloud,Analytics
-title: 视频分析
+title: Video Analytics
 topic-fix: Developer and implementation
 uuid: d75fa415-78f6-4f50-a563-76949f040138
 exl-id: d4d11ca0-1280-49db-8983-5b6d83856482
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '952'
-ht-degree: 100%
+source-wordcount: '933'
+ht-degree: 94%
 
 ---
 
@@ -21,7 +18,7 @@ ht-degree: 100%
 
 >[!TIP]
 >
->在视频播放过程中，会向此服务发送频繁的“心率”调用，以测量播放的时间。这些心率调用每 10 秒发送一次，从而生成精细的视频参与量度和更准确的视频流失报表。有关更多信息，请参阅[在 Adobe Analytics 中测量音频和视频](https://docs.adobe.com/content/help/zh-Hans/media-analytics/using/media-overview.html)。
+>在视频播放过程中，会向此服务发送频繁的“心率”调用，以测量播放的时间。这些心率调用每 10 秒发送一次，从而生成精细的视频参与量度和更准确的视频流失报表。有关更多信息，请参阅[在Adobe Analytics中测量流媒体](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=zh-Hans)。
 
 在所有平台中，测量视频的常规流程都非常相似。本文内容提供了开发人员任务的基本概述以及代码示例。
 
@@ -48,7 +45,7 @@ ht-degree: 100%
 
 * **a.media.segment**
 
-   （必需）收集视频区段数据，包括区段名称以及区段在视频中出现的顺序。此变量在自动跟踪播放器事件时通过启用 `segmentByMilestones` 变量来填充，或在手动跟踪播放器事件时通过设置自定义区段名称来填充。例如，当访客查看视频中的第一个区段时，SiteCatalyst 可能会在 `1:M:0-25` 区段 eVar 中收集以下信息。
+   （必需）收集视频区段数据，包括区段名称以及区段在视频中出现的顺序。此变量在自动跟踪播放器事件时通过启用 `segmentByMilestones` 变量来填充，或在手动跟踪播放器事件时通过设置自定义区段名称来填充。例如，当访客查看视频中的第一个区段时，SiteCatalyst可能会在`1:M:0-25`区段eVar中收集以下信息。
 
    默认的视频数据收集方法会在以下节点收集数据：
 
@@ -64,7 +61,7 @@ ht-degree: 100%
 
 * **a.contentType**
 
-   收集访客查看的内容类型相关数据。由视频测量发送的点击量会被分配给 `video` 内容类型。无需专门保留此变量来进行视频跟踪。通过使用此同一变量来提供其他内容报告内容类型，您可以分析不同内容类型之间的访客分布情况。例如，您可以使用此变量通过“article”或“product page”之类的值标记其他内容类型。从视频测量的角度来看，内容类型使您能够识别视频访客，并计算视频转化率。
+   收集访客查看的内容类型相关数据。由视频测量发送的点击量会被分配给 `video` 内容类型。无需专门保留此变量来进行视频跟踪。通过使用此同一变量来提供其他内容报告内容类型，您可以分析不同内容类型之间的访客分布情况。例如，您可以使用此变量通过“article”或“product page”之类的值标记其他内容类型。 从视频测量的角度来看，内容类型使您能够识别视频访客，并计算视频转化率。
 
    * 变量类型：eVar
    * 默认过期：页面查看

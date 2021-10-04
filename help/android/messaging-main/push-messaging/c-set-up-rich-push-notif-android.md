@@ -1,21 +1,18 @@
 ---
-description: 您可以将图像文件附加到Android通知。 添加可视组件可以显着提高用户对推送通知的参与度。
-seo-description: 您可以将图像文件附加到Android通知。 添加可视组件可以显着提高用户对推送通知的参与度。
-seo-title: 接收富推送通知
+description: 您可以将图像文件附加到Android通知。 添加可视化组件可以显着提高用户对推送通知的参与度。
 title: 接收富推送通知
 uuid: 4a0340a6-666b-49b6-907a-9afc966dfdba
-translation-type: tm+mt
-source-git-commit: dca3663986b3ecc6e9fb736cc99513279715225c
+exl-id: 5776411c-aa0e-4e67-83aa-e78f5d1ed4f7
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '216'
-ht-degree: 60%
+source-wordcount: '191'
+ht-degree: 68%
 
 ---
 
-
 # 接收富推送通知 {#receive-rich-push-notifications}
 
-您可以将图像文件附加到Android通知。 添加可视组件可以显着提高用户对推送通知的参与度。
+您可以将图像文件附加到Android通知。 添加可视化组件可以显着提高用户对推送通知的参与度。
 
 ## 处理传入富推送消息 (FCM) {#section_AF1A3BC2312C4E1DA517CC90296C11E2}
 
@@ -101,4 +98,4 @@ private void sendNotification(RemoteMessage message) {
 
 ![](assets/rich-push-notification_example.png)
 
-For more information about rich push notifications with Android, see [Engage with Rich Notifications](https://developer.android.com/distribute/best-practices/engage/rich-notifications.html).
+有关Android富推送通知的更多信息，请参阅[使用富通知](https://developer.android.com/distribute/best-practices/engage/rich-notifications.html)。

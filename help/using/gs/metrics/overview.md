@@ -1,17 +1,14 @@
 ---
 description: 您可以显示最近查看的应用程序的关键性能量度。默认情况下，您最多可查看 12 个应用程序。您可以在“概述”页面上更改日期范围并创建过滤器，以便划分数据并编辑任何应用程序。
 keywords: mobile
-seo-description: 您可以显示最近查看的应用程序的关键性能量度。默认情况下，您最多可查看 12 个应用程序。您可以在“概述”页面上更改日期范围并创建过滤器，以便划分数据并编辑任何应用程序。
-seo-title: 显示移动量度
 solution: Experience Cloud,Analytics
 title: 显示移动量度
 topic-fix: Metrics
 uuid: 57db0b77-6b0a-4a0c-9aad-0731275233fd
 exl-id: aab6448d-4362-4c75-949a-7a519da76606
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '487'
+source-wordcount: '440'
 ht-degree: 100%
 
 ---

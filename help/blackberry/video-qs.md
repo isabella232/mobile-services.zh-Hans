@@ -1,31 +1,28 @@
 ---
-description: 在所有AppMeasurement平台上，衡量视频的一般过程都非常相似。 本节提供开发人员任务的基本概述以及代码示例。
-seo-description: 在所有AppMeasurement平台上，衡量视频的一般过程都非常相似。 本节提供开发人员任务的基本概述以及代码示例。
-seo-title: Video Analytics
+description: 在所有AppMeasurement平台中，测量视频的一般过程都非常相似。 本节提供开发人员任务的基本概述以及代码示例。
 title: Video Analytics
 uuid: 0d2731f3-77a9-4db1-9a8c-1e56c212ecb4
-translation-type: tm+mt
-source-git-commit: c198ae57b05f8965a8e27191443ee2cd552d6c50
+exl-id: 90da1a9e-2faa-429c-969e-869ebedf08cc
+source-git-commit: d1ebb2bbc4742f5288f90a90e977d252f3f30aa3
 workflow-type: tm+mt
-source-wordcount: '866'
-ht-degree: 69%
+source-wordcount: '835'
+ht-degree: 70%
 
 ---
 
-
 # Video Analytics {#video-analytics}
 
-在所有AppMeasurement平台上，衡量视频的一般过程都非常相似。 本节提供开发人员任务的基本概述以及代码示例。
+在所有AppMeasurement平台中，测量视频的一般过程都非常相似。 本节提供开发人员任务的基本概述以及代码示例。
 
-For more information about Video measurement, see the [Measuring audio and video in Adobe Analytics](https://docs.adobe.com/content/help/zh-Hans/media-analytics/using/media-overview.html) guide.  下表列出了发送到 Analytics 的媒体数据。使用处理规则将上下文数据变量列中的上下文数据映射到分析变量，如变量类型列中所述。
+有关视频测量的更多信息，请参阅[在Adobe Analytics中测量流媒体](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=zh-Hans)指南。  下表列出了发送到 Analytics 的媒体数据。使用处理规则将上下文数据变量列中的上下文数据映射到Analytics变量，如变量类型列中所述。
 
 ## 将播放器事件映射到 Analytics 变量
 
 * **a.media.name**
 
-   （必需）当访客以某种方式视图视频时，收集视频的名称（如实施中指定）。您可以为此变量添加分类。
+   （必需）按照实施中指定的方式，当访客以某种方式查看视频时，收集视频的名称。您可以为此变量添加分类。
 
-   **（可选）Custom Insight** 变量提供视频路径信息。
+   **（可选）** Custom Insight变量提供视频路径信息。
 
    * 变量名称：eVar
       * 默认过期：访问
@@ -33,16 +30,16 @@ For more information about Video measurement, see the [Measuring audio and video
 
 * **a.media.name**
 
-   （**可选**）提供视频路径信息。必须由ClientCare为此变量启用路径。
+   （**可选**）提供视频路径信息。必须由客户关怀代表为此变量启用路径。
 
    * 事件类型：自定义分析 (s.prop)
-   * Custom Insight
+   * Custom Insight(s.prop)
 
 * **a.media.segment**
 
    （**必需**）收集视频区段数据，包括区段名称以及区段在视频中出现的顺序。此变量在自动跟踪播放器事件时通过启用 `segmentByMilestones` 变量来填充，或在手动跟踪播放器事件时通过设置自定义区段名称来填充。
 
-   For example, when a visitor views the first segment in a video, SiteCatalyst might collect `1:M:0-25` in the Segments eVar. 默认的视频数据收集方法在视频开始（播放）、段开始和视频结束（停止）点收集数据。
+   例如，当访客查看视频中的第一个区段时，SiteCatalyst可能会在区段eVar中收集`1:M:0-25`。 默认的视频数据收集方法在视频开始（播放）、区段开始和视频结束（停止）点收集数据。
 
    Analytics 会在访客开始观看时，将区段的开始计为第一个区段视图。在区段开始播放后，则计为后续区段视图。
 
@@ -51,7 +48,7 @@ For more information about Video measurement, see the [Measuring audio and video
 
 * **a.contentType**
 
-   收集由访客查看的内容类型相关数据。由视频测量发送的点击将被分配“视频”的内容类型。 无需为视频跟踪专门保留此变量。 使用相同的变量让其他内容报告内容类型使您能够分析不同类型内容中的访客分布。 例如，您可以使用此变量通过“article”或“product page”之类的值标记其他内容类型。从视频测量的角度来看，“内容类型”允许您识别视频访客，从而计算视频转化率。
+   收集由访客查看的内容类型相关数据。由视频测量发送的点击量会被分配内容类型“video”。 无需专门为视频跟踪保留此变量。 通过使用此相同变量让其他内容报告内容类型，您可以分析访客在不同内容类型之间的分布。 例如，您可以使用此变量通过“article”或“product page”之类的值标记其他内容类型。 从视频测量的角度来看，“内容类型”允许您识别视频访客，从而计算视频转化率。
 
    * 变量类型：eVar
    * 默认过期：页面查看
@@ -92,7 +89,7 @@ For more information about Video measurement, see the [Measuring audio and video
 
 * **open**
 
-   打开要跟踪的视频。
+   打开视频以进行跟踪。
 
    * 以下是此方法的语法：
 

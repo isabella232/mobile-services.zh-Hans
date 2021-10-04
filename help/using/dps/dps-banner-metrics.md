@@ -1,17 +1,14 @@
 ---
 description: “横幅量度”报表会针对您的现有数据显示一个环状层次视图。此报表仅供 Digital Publishing Suite (DPS) 客户使用。
 keywords: mobile
-seo-description: “横幅量度”报表会针对您的现有数据显示一个环状层次视图。此报表仅供 Digital Publishing Suite (DPS) 客户使用。
-seo-title: 横幅量度
 solution: Experience Cloud,Analytics
 title: 横幅量度
 topic-fix: Metrics
 uuid: 50638c55-f10d-43d7-8d12-e48908572766
 exl-id: 0383e23f-579e-4177-922d-71f193a3c606
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '196'
+source-wordcount: '171'
 ht-degree: 100%
 
 ---

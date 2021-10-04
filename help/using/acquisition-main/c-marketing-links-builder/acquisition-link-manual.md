@@ -1,17 +1,14 @@
 ---
 description: 您可以通过手动配置 URL 参数来创建营销链接，以便即时获取新的移动设备应用程序用户。
 keywords: mobile
-seo-description: 您可以通过手动配置 URL 参数来创建营销链接，以便即时获取新的移动设备应用程序用户。
-seo-title: 手动创建客户获取链接
 solution: Experience Cloud,Analytics
 title: 手动创建客户获取链接
 topic-fix: Metrics
 uuid: d7709203-f793-4982-adaa-9c3c914aca2b
 exl-id: aef9fe3e-32dc-4ec0-9eda-f64cc5e486a3
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '497'
+source-wordcount: '475'
 ht-degree: 100%
 
 ---

@@ -1,17 +1,14 @@
 ---
 description: 创建新应用程序或编辑现有应用程序时，您可以在“管理应用程序设置”页面上配置“SDK Audience Manager”选项。
 keywords: mobile
-seo-description: 创建新应用程序或编辑现有应用程序时，您可以在“管理应用程序设置”页面上配置“SDK Audience Manager”选项。
-seo-title: 配置 Audience Manager 选项
 solution: Experience Cloud,Analytics
 title: 配置 Audience Manager 选项
 topic-fix: Metrics
 uuid: 471270ca-cee5-401e-aac1-e48146ee8399
 exl-id: a81e5ea9-faa1-45c2-a312-e80f49c87b59
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '130'
+source-wordcount: '102'
 ht-degree: 100%
 
 ---

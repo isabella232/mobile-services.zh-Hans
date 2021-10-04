@@ -1,18 +1,15 @@
 ---
 description: 适用于 Experience Cloud 解决方案的 Android SDK 4.x 允许您测量本机 Android 应用程序，在您的应用程序中提供目标内容，以及通过受众管理收集并利用受众数据。
 keywords: Android;库;移动;SDK
-seo-description: 适用于 Experience Cloud 解决方案的 Android SDK 4.x 允许您测量本机 Android 应用程序，在您的应用程序中提供目标内容，以及通过受众管理收集并利用受众数据。
-seo-title: 适用于 Experience Cloud 解决方案的 Android SDK 4.x
 solution: Experience Cloud,Analytics
 title: 适用于 Experience Cloud 解决方案的 Android SDK 4.x
 topic-fix: Developer and implementation
 uuid: 56f1ff41-0365-41dd-bdde-245c823dff07
 exl-id: c2454e94-a9af-42f3-ab45-14f68531faab
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: d1ebb2bbc4742f5288f90a90e977d252f3f30aa3
 workflow-type: tm+mt
-source-wordcount: '451'
-ht-degree: 100%
+source-wordcount: '397'
+ht-degree: 93%
 
 ---
 
@@ -52,14 +49,14 @@ SDK 支持以下 Android 版本：
 
 ## Adobe Mobile 用户文档 {#section_7583FD5FDED143619048E9744A3F2D21}
 
-Adobe Mobile Services 提供了一个用户界面，以整合 Adobe Experience Cloud 中针对移动设备应用程序的移动营销功能。要了解有关 用户界面的更多信息并阅读用户文档，请参阅 [Adobe Mobile Services](https://docs.adobe.com/content/help/zh-Hans/mobile-services/using/home.html)。
+Adobe Mobile Services 提供了一个用户界面，以整合 Adobe Experience Cloud 中针对移动设备应用程序的移动营销功能。要了解有关 用户界面的更多信息并阅读用户文档，请参阅 [Adobe Mobile Services](/help/using/home.md)。
 
 ## 发行说明 {#section_F8181DC052D44DD2A99AB40A41F6792C}
 
-有关 Experience Cloud 发行版本的最新信息，请参阅 [Experience Cloud 发行说明](https://docs.adobe.com/content/help/zh-Hans/release-notes/experience-cloud/current.html)。
+有关 Experience Cloud 发行版本的最新信息，请参阅 [Experience Cloud 发行说明](/help/using/home.md)。
 
 ## 使用 Bloodhound
 
 >[!IMPORTANT]
 >
->从 **2017 年 4 月 30 日**&#x200B;起，Adobe Bloodhound 已废止。从 2017 年 5 月 1 日开始，将不再提供其他增强功能以及额外的工程部或 Adobe Expert Care 团队支持。
+>自2017年4月30日&#x200B;****&#x200B;起，BloodhoundAdobe已停用。 从2017年5月1日开始，不再提供其他增强功能，也不提供额外的工程或Adobe专家关怀支持。

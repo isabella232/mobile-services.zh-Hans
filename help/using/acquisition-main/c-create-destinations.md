@@ -1,17 +1,14 @@
 ---
 description: 营销人员可以创建、保存和编辑链接目标（如 Web 链接、深层链接或其他链接），以便在生成可跟踪的营销链接时使用这些链接目标。
 keywords: mobile
-seo-description: 营销人员可以创建、保存和编辑链接目标（如 Web 链接、深层链接或其他链接），以便在生成可跟踪的营销链接时使用这些链接目标。
-seo-title: 目标
 solution: Experience Cloud,Analytics
 title: 目标
 topic-fix: Metrics
 uuid: 0e0e7d22-067c-4a59-abcb-a4826800944d
 exl-id: e30128de-5b2d-4617-a871-44fe489ea6e7
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '196'
+source-wordcount: '171'
 ht-degree: 100%
 
 ---

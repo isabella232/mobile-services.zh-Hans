@@ -1,17 +1,14 @@
 ---
 description: Adobe Target 预取功能使用 iOS Mobile SDK 获取选件内容，并通过缓存服务器响应来尽量减少获取次数。
-seo-description: Adobe Target 预取功能使用 iOS Mobile SDK 获取选件内容，并通过缓存服务器响应来尽量减少获取次数。
-seo-title: 在 iOS 中预取选件内容
 title: 在 iOS 中预取选件内容
 uuid: fef58042-65e2-4579-b8f1-d21554d2af57
-translation-type: tm+mt
-source-git-commit: fa7375ac8a1345d81748bcf635791c46d3943fed
+exl-id: 64d43be7-6bd1-4657-8154-5b2c1cbbf42b
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '760'
-ht-degree: 86%
+source-wordcount: '731'
+ht-degree: 85%
 
 ---
-
 
 # 在 iOS 中预取选件内容 {#prefetch-offer-content-in-ios}
 
@@ -19,9 +16,9 @@ Adobe Target 预取功能使用 iOS Mobile SDK 获取选件内容，并通过缓
 
 >[!IMPORTANT]
 >
->Adobe Target 中的“自动定位”、“自动分配”和“自动个性化”活动类型不支持 iOS Mobile SDK 中的预取功能。
+>Adobe Target 中的 Auto Target、Auto Allocate 和 Automated Personalization 活动类型不支持 iOS Mobile SDK 中的预取功能。
 
-此过程可缩短加载时间、阻止多个网络调用，并允许Adobe Target通知移动应用用户访问了哪个mbox。 在预回迁调用期间，将检索和缓存所有内容，并从缓存中检索此内容，以备将来所有调用（包含指定mbox名称的缓存内容）。
+此过程可缩短加载时间，阻止多个网络调用，并允许Adobe Target接收有关移动设备应用程序用户访问了哪个mbox的通知。 在预取调用期间将检索和缓存所有内容，对于将来所有包含指定mbox名称的缓存内容的调用，都将从缓存中检索此内容。
 
 在启动时，预取内容不会持久保留。只要应用程序处于活动状态，或者在调用 `clearPrefetchCache()` 方法之前，都会一直缓存预取内容。
 
@@ -157,7 +154,7 @@ if (MobileConfig.getInstance().mobileUsingTarget()){
 
 * **`orderParameters`**
 
-   包含顺序参数的键值对的字典。
+   包含顺序参数键值对的字典。
 
    * **类型**：NSDictionary*
 
@@ -179,13 +176,13 @@ if (MobileConfig.getInstance().mobileUsingTarget()){
 
 * **`mboxParameters`**
 
-   表示要检索的位置/mbox的名称的NSString值。
+   表示要检索的位置/mbox名称的NSString值。
 
    * **类型**：NSString*
 
 * **`defaultContent`**
 
-   如果目标服务器不可到达，将返回的默认内容。
+   Target服务器不可访问时将返回的默认内容。
 
    * **类型**：NSString*
 

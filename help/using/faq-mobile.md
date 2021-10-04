@@ -1,18 +1,15 @@
 ---
 description: Adobe Mobile Services 的常见问题和解答及各项功能的一般性描述。
 keywords: mobile
-seo-description: Adobe Mobile Services 的常见问题和解答及各项功能的一般性描述。
-seo-title: 常见问题解答
 solution: Experience Cloud,Analytics
-title: 常见问题解答
+title: 常见问题
 topic-fix: Metrics
 uuid: 62a9241c-2ada-483a-a594-b023916cb0b6
 exl-id: d7dfc36e-56f0-498a-ad50-93fee90cb6ff
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '1119'
-ht-degree: 100%
+source-wordcount: '1031'
+ht-degree: 96%
 
 ---
 
@@ -22,13 +19,9 @@ ht-degree: 100%
 
 ## Adobe Mobile SDK {#section_9C2181F7B39A4BEB8EE6BCEFCF14C72F}
 
-### 您是否会对 SDK 进行频繁更新？
-
-是，我们会不断进行更新，以期为您提供功能最丰富、符合标准且安全的 SDK。通常情况下，我们每月会发布一个新版本。这些 SDK 更新采用插入式替换方式（适用于版本 4x）以便于实施。有关我们的更新的更多信息，请参阅我们的[发行说明](https://docs.adobe.com/content/help/zh-Hans/release-notes/experience-cloud/current.html)。
-
 ### 我应当采用哪个 SDK 版本？
 
-我们当前的 SDK 版本为 4.11。有关更多信息，请参阅我们的[发行说明](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html)。
+我们当前的SDK版本为4.11。有关更多信息，请参阅[发行说明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=zh-Hans)。
 
 ### 我可从那里下载 SDK？
 
@@ -44,7 +37,6 @@ Adobe Mobile SDK 使用标准的 iOS 和 Android 网络堆栈。对于 iOS，SDK
 
 *如果您正在使用 NSURLSession 和 CFNetwork 框架之类的高级别网络 API 编写客户端应用程序并且按名称进行连接，则您应当不需要更改应用程序的任何内容即可使用 IPv6 地址。*&#x200B;有关更多信息，请参阅[支持 IPv6 DNS64/NAT64 网络](https://developer.apple.com/library/content/documentation/NetworkingInternetWeb/Conceptual/NetworkingOverview/UnderstandingandPreparingfortheIPv6Transition/UnderstandingandPreparingfortheIPv6Transition.html#__/apple_ref/doc/uid/TP40010220-CH213-SW1)。
 
-
 ## Adobe Analytics {#section_78EC9D83791F477AAED678720CEBA9F6}
 
 ### 什么是生命周期量度？
@@ -53,7 +45,7 @@ Adobe Mobile SDK 使用标准的 iOS 和 Android 网络堆栈。对于 iOS，SDK
 
 ### 如何排解处理规则问题？
 
-有关更多信息，请参阅[处理规则提示和技巧](https://docs.adobe.com/content/help/zh-Hans/analytics/admin/admin-tools/processing-rules/processing-rules-tips.html)。
+请参阅Adobe Analytics文档中的[处理规则提示和技巧](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/processing-rules/processing-rules-tips.html)。
 
 ### 能否将分析数据发送到多个报表包？
 

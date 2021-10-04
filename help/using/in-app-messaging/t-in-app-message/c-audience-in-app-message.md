@@ -1,17 +1,14 @@
 ---
 description: 您可以为应用程序内消息配置受众选项，包括查看、触发器和特征选项。
 keywords: mobile
-seo-description: 您可以为应用程序内消息配置受众选项，包括查看、触发器和特征选项。
-seo-title: 受众：应用程序内消息
 solution: Experience Cloud,Analytics
 title: 受众：应用程序内消息
 topic-fix: Metrics
 uuid: 6c815d4c-7626-4cf4-9158-3f059c79317a
 exl-id: c85f2c0d-9c88-4d5a-8247-d8a101195d3a
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '584'
+source-wordcount: '567'
 ht-degree: 100%
 
 ---
@@ -48,7 +45,6 @@ ht-degree: 100%
 
    * **[!UICONTROL 特征]**
 您可以确定在触发时应该看到应用程序内消息的人员，并过滤（划分）已指定数据的点击受众。例如，您可以定义一个规则，其中“目标点”包含“丹佛”。此过滤器允许您在触发规则时，向位于目标点丹佛的客户显示消息。
-
 
 
 ## 有关特征与触发器的其他信息 {#section_48C39EFB8CAA4F62B994FCC91DF588E6}

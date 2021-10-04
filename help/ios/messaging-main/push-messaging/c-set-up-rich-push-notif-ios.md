@@ -1,35 +1,32 @@
 ---
-description: 可以将图像文件附加到Apple通知。 添加可视组件可以显着提高用户对推送通知的参与度。
-seo-description: 可以将图像文件附加到Apple通知。 添加可视组件可以显着提高用户对推送通知的参与度。
-seo-title: 接收富推送通知
+description: 您可以将图像文件附加到Apple通知。 添加可视化组件可以显着提高推送通知用户的参与度。
 title: 接收富推送通知
 uuid: 0dbda409-cf49-4eb8-90ee-baf27911dc07
-translation-type: tm+mt
-source-git-commit: d028fe0f9477bc011aa8fda21a0a389808df0fce
+exl-id: 1167ae4b-04ad-4c0d-a9db-67d30693f697
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '228'
-ht-degree: 29%
+source-wordcount: '203'
+ht-degree: 33%
 
 ---
 
-
 # 接收富推送通知 {#receive-rich-push-notifications}
 
-可以将图像文件附加到Apple通知。 添加可视组件可以显着提高用户对推送通知的参与度。
+您可以将图像文件附加到Apple通知。 添加可视化组件可以显着提高推送通知用户的参与度。
 
 要在iOS应用程序中接收富推送通知，请执行以下操作：
 
-1. 通过完成推送消息中的步骤，为应用程序实 [施推送消息](/help/ios/messaging-main/push-messaging/push-messaging.md)。
-1. 验证是否可以向应用程序发送文本推送消息。
+1. 通过完成[推送消息](/help/ios/messaging-main/push-messaging/push-messaging.md)中的步骤，为应用程序实施推送消息。
+1. 确认您可以向应用程序发送文本推送消息。
 1. 通过完成以下步骤添加通知服务扩展：
 
-   1. In your Xcode project, select  **[!UICONTROL File]** > **[!UICONTROL New]** > **[!UICONTROL Target]**.
+   1. 在您的Xcode项目中，选择&#x200B;**[!UICONTROL 文件]** > **[!UICONTROL 新建]** > **[!UICONTROL 目标]**。
    1. 选择&#x200B;**[!UICONTROL 通知服务扩展]**。
    1. 确认存在 `NotificationService.m` 文件。
 
 1. 打开 `NotificationService.m` 文件，并确认存在以下委托方法：
 
-   * 一种接收通知请求的方法。
+   * 接收通知请求的一种方法。
    * 一种处理服务扩展到期的方法。
 
       要接收富推送通知，请使用第一种方法：
@@ -75,4 +72,4 @@ ht-degree: 29%
       ```
 
 
-For more information about rich push notifications with iOS, see [UNNotificationAttachment](https://developer.apple.com/documentation/usernotifications/unnotificationattachment).
+有关iOS富推送通知的更多信息，请参阅[UNNotificationAttachment](https://developer.apple.com/documentation/usernotifications/unnotificationattachment)。

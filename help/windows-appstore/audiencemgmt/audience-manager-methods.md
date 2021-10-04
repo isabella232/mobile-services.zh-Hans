@@ -1,35 +1,32 @@
 ---
-description: 列表Windows 8.1通用App Store库提供的Audience Manager方法。
-seo-description: 列表Windows 8.1通用App Store库提供的Audience Manager方法。
-seo-title: Audience Manager 方法
+description: Windows 8.1通用应用商店库提供的Audience Manager方法列表。
 solution: Experience Cloud,Analytics
 title: Audience Manager 方法
 topic-fix: Developer and implementation
 uuid: e39c9c3e-fd53-4b46-8fff-88101a064a9c
 exl-id: b10d7274-0fc6-4822-a40b-1192b71592b9
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '280'
-ht-degree: 45%
+source-wordcount: '264'
+ht-degree: 46%
 
 ---
 
 # Audience Manager 方法 {#audience-manager-methods}
 
-列表Windows 8.1通用App Store库提供的Audience Manager方法。
+Windows 8.1通用应用商店库提供的Audience Manager方法列表。
 
-SDK目前支持多个Adobe Experience Cloud解决方案，包括分析、目标和Audience Manager。 方法将根据解决方案来添加前缀。Audience Manager方法前缀为“AudienceManager”。
+SDK当前支持多个Adobe Experience Cloud解决方案，包括Analytics、Target和Audience Manager。 方法将根据解决方案来添加前缀。Audience Manager方法的前缀为“AudienceManager”。
 
 >[!NOTE]
 >
 >当您使用winJS(JavaScript)中的winmd方法时，所有方法都会自动将其第一个字母小写。
 
-如果在JSON文件中配置了受众管理器，则包含生命周期量度的信号会随生命周期点击一起发送。
+如果在JSON文件中配置了audience manager，则会随生命周期点击发送一个包含生命周期量度的信号。
 
 * **GetVisitorProfile(winJS:getVisitorProfile)**
 
-   返回最近获取的访客资料。如果尚未提交任何信号，则返回`null`。 访客用户档案保存在`SharedPreferences`中，以便在多个应用程序启动时轻松访问。
+   返回最近获取的访客资料。如果尚未提交任何信号，则返回`null`。 访客配置文件保存在`SharedPreferences`中，以便在多次启动应用程序时轻松访问。
 
    * 以下是此方法的语法：
 
@@ -97,7 +94,7 @@ SDK目前支持多个Adobe Experience Cloud解决方案，包括分析、目标�
 
 * **SignalWithData(winJS:signalWithData)**
 
-   向Audience Manager发送具有特征的信号，并在块回调中获取返回的匹配段。
+   向Audience Manager发送一个具有特征的信号，并获取块回调中返回的匹配区段。
 
    * 以下是此方法的语法：
 

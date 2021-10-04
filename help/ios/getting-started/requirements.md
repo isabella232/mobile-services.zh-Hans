@@ -1,17 +1,14 @@
 ---
 description: 完成这些步骤可将报表包配置为收集 iOS 应用程序数据。
-seo-description: 完成这些步骤可将报表包配置为收集 iOS 应用程序数据。
-seo-title: 开始之前
 solution: Experience Cloud,Analytics
 title: 开始之前
 topic-fix: Developer and implementation
 uuid: 04133f68-3618-41fd-8a13-aec5b6f04df6
 exl-id: 83da7cf5-3211-484d-bfe8-7b3b4999eea2
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: d1ebb2bbc4742f5288f90a90e977d252f3f30aa3
 workflow-type: tm+mt
-source-wordcount: '595'
-ht-degree: 100%
+source-wordcount: '584'
+ht-degree: 91%
 
 ---
 
@@ -53,9 +50,9 @@ Adobe Mobile Services 是用于移动设备应用程序分析和定位的主要�
 
 * **Experience Cloud**
 
-   使用您的 Adobe ID 登录到 [Experience Cloud](https://marketing.adobe.com)。
+   使用您的 Adobe ID 登录到 [Experience Cloud](https://experience.adobe.com)。
 
-   此方法假定您的公司已配置，并且您已经关联 Analytics 帐户。有关配置的更多信息，请参阅[管理 Experience Cloud 用户和产品](https://docs.adobe.com/content/help/zh-Hans/core-services/interface/manage-users-and-products/admin-getting-started.html)。有关关联帐户的更多信息，请参阅[组织和帐户关联](https://docs.adobe.com/content/help/zh-Hans/core-services/interface/manage-users-and-products/organizations.html)。
+   此方法假定您的公司已配置，并且您已经关联 Analytics 帐户。有关配置的更多信息，请参阅《Experience Cloud中心界面组件指南》中的[管理Experience Cloud用户和产品](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html) 。 有关关联帐户的更多信息，请参阅Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html)中的[组织。
 
    >[!TIP]
    >

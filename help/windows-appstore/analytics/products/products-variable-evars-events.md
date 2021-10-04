@@ -1,23 +1,20 @@
 ---
-description: 产品变量与促销eVar和产品特定事件的示例。
-seo-description: 产品变量与促销eVar和产品特定事件的示例。
-seo-title: 具有促销 eVar 和产品特定事件的产品变量
+description: 具有促销eVar和产品特定事件的产品变量的示例。
 solution: Experience Cloud,Analytics
 title: 具有促销 eVar 和产品特定事件的产品变量
 topic-fix: Developer and implementation
 uuid: 94e882e4-b19d-4c48-9dfb-331465490347
 exl-id: 3a90f624-da13-4c26-9e4c-3a4af33bc5ee
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '86'
-ht-degree: 27%
+source-wordcount: '66'
+ht-degree: 24%
 
 ---
 
-# 具有促销 eVar 和产品特定事件的产品变量{#products-variable-with-merchandising-evars-and-product-specific-events}
+# 具有促销 eVar 和产品特定事件的 Products 变量{#products-variable-with-merchandising-evars-and-product-specific-events}
 
-产品变量与促销eVar和产品特定事件的示例。
+具有促销eVar和产品特定事件的产品变量的示例。
 
 ```
 //create a context data dictionary 
@@ -40,4 +37,4 @@ ADB.Analytics.trackState("Order Confirmation", cdata);
 
 >[!TIP]
 >
->如果使用&#x200B;*`&&products`*&#x200B;变量触发特定于产品的事件，则还必须在&#x200B;*`&&events`*&#x200B;变量中设置该事件，否则在处理过程中会过滤掉事件。
+>如果使用&#x200B;*`&&products`*&#x200B;变量触发产品特定事件，则还必须在&#x200B;*`&&events`*&#x200B;变量中设置该事件，否则该事件会在处理过程中被过滤掉。

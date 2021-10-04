@@ -1,18 +1,15 @@
 ---
 description: 您可以创建或编辑营销链接，以提供到移动设备应用程序或网站的深层链接。
 keywords: mobile
-seo-description: 您可以创建或编辑营销链接，以提供到移动设备应用程序或网站的深层链接。
-seo-title: 创建或编辑营销链接
 solution: Experience Cloud,Analytics
 title: 创建或编辑营销链接
 topic-fix: Metrics
 uuid: 305a8265-38de-4d19-8c79-b3912f5aae7c
 exl-id: a9b5c98d-77c1-4a40-96e5-f9e234d55ec5
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '634'
-ht-degree: 100%
+source-wordcount: '614'
+ht-degree: 96%
 
 ---
 
@@ -43,7 +40,7 @@ ht-degree: 100%
       可用的预设标记如下：
 
       * **自定义上下文数据**
-指定键和值。如果您添加自定义上下文数据，则必须创建一个处理规则。有关更多信息，请参阅[处理规则概述](https://docs.adobe.com/content/help/zh-Hans/analytics/admin/admin-tools/processing-rules/processing-rules.html)。
+指定键和值。如果您添加自定义上下文数据，则必须创建一个处理规则。有关更多信息，请参阅Adobe Analytics文档中的[处理规则概述](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/processing-rules/processing-rules.html) 。
 
       * **来源**
 指定原始反向链接，如“商务通讯”或“主页”。

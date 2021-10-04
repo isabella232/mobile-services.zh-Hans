@@ -1,16 +1,13 @@
 ---
 description: 下表描述了 iOS SDK 与 Adobe Mobile Services 使用的不同应用程序标识符。
-seo-description: 下表描述了 iOS SDK 与 Adobe Mobile Services 使用的不同应用程序标识符。
-seo-title: 应用程序 ID
 solution: Experience Cloud,Analytics
 title: 应用程序 ID
 topic-fix: Developer and implementation
 uuid: 24ebc716-23c7-4ee8-8256-b534210367e0
 exl-id: 82f0a097-b2eb-4313-8624-dd442e3da039
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '219'
+source-wordcount: '198'
 ht-degree: 100%
 
 ---

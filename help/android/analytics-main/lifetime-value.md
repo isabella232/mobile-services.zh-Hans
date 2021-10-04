@@ -1,16 +1,13 @@
 ---
 description: 您可以使用生命周期值测量和定位每个 Android 用户的生命周期值。此值可用于存储生命周期内的购买次数、广告查看次数、视频完成次数、社交分享次数、照片上载次数等。
-seo-description: 您可以使用生命周期值测量和定位每个 Android 用户的生命周期值。此值可用于存储生命周期内的购买次数、广告查看次数、视频完成次数、社交分享次数、照片上载次数等。
-seo-title: 访客生命周期值
 solution: Experience Cloud,Analytics
 title: 访客生命周期值
 topic-fix: Developer and implementation
 uuid: ba0308de-282e-46f9-a14c-19fb6d5c363e
 exl-id: 93c6d711-c7c0-4fca-93b2-6a6fc19377bd
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '232'
+source-wordcount: '192'
 ht-degree: 100%
 
 ---

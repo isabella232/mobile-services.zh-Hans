@@ -1,16 +1,13 @@
 ---
 description: 地理位置可通过在 iOS 应用程序中使用纬度和经度以及预定义的目标点，来帮助您测量位置数据。
-seo-description: 地理位置可通过在 iOS 应用程序中使用纬度和经度以及预定义的目标点，来帮助您测量位置数据。
-seo-title: 地理位置和目标点
 solution: Experience Cloud,Analytics
 title: 地理位置和目标点
 topic-fix: Developer and implementation
 uuid: c800ec85-a33f-425d-b28f-bfe8bf229ae8
 exl-id: 732c3863-2010-4d04-a17b-a656e857f567
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '591'
+source-wordcount: '566'
 ht-degree: 100%
 
 ---
@@ -34,7 +31,7 @@ ht-degree: 100%
 从版本 4.2 开始，POI 可在 Adobe Mobile 界面中定义并动态同步到应用程序配置文件。此同步需要 `ADBMobile.json` 文件中的 `analytics.poi` 设置：
 
 ```js
-“analytics.poi”: “https://assets.adobedtm.com/…/yourfile.json”,
+"analytics.poi": "https://assets.adobedtm.com/…/yourfile.json",
 ```
 
 有关更多信息，请参阅 [ADBMobile JSON 配置](/help/ios/configuration/json-config/json-config.md)。

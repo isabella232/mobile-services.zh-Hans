@@ -1,17 +1,14 @@
 ---
 description: 以下是 iOS 库提供的 Adobe Target 方法列表。
-seo-description: 以下是 iOS 库提供的 Adobe Target 方法列表。
-seo-title: 适用于 Adobe Mobile Services 的 iOS Target 方法
 solution: Experience Cloud,Analytics
 title: 适用于 iOS 的 Target 方法
 topic-fix: Developer and implementation
 uuid: 692bcda1-02ba-4902-bd65-15888adf1952
 exl-id: ba03f865-970c-4b48-af35-749f05b273d8
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
 workflow-type: tm+mt
-source-wordcount: '656'
-ht-degree: 100%
+source-wordcount: '629'
+ht-degree: 95%
 
 ---
 
@@ -82,7 +79,7 @@ NSString *const ADBTargetParameterMboxHost;
                           }];
       ```
 
-* **targetLoadRequestWithName:defaultContent:profileParameters:orderParameters:mboxParameters:requestLocationParameters:callback:**
+* **:defaultContent::orderParameters::requestLocationParameters:targetLoadRequestWithNameprofileParametersmboxParameterscallback:**
 
    向您配置的 Target 服务器发送请求，并返回在块回调中生成的选件的字符串值。
 
@@ -154,7 +151,7 @@ NSString *const ADBTargetParameterMboxHost;
                                  }];
       ```
 
-      有关基础 Target API 的更多信息，请参阅 [Adobe Target 开发人员](https://docs.adobe.com/dev/products/target/reference/delivery.html)。
+      有关基础Target API的更多信息，请参阅[Target API引用](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-target/target-api-reference-deprecated)。
 
 
 
@@ -162,7 +159,7 @@ NSString *const ADBTargetParameterMboxHost;
 
 
 
-* **targetLoadRequestWithName:defaultContent:profileParameters:orderParameters:mboxParameters:callback**
+* **:defaultContent::orderParameters:targetLoadRequestWithNameprofileParametersmboxParameters:callback**
 
    向您配置的 Target 服务器发送 request，并返回在块 callback 中生成的选件的字符串值。
 
