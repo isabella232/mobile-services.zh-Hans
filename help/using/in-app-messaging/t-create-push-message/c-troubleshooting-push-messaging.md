@@ -6,9 +6,9 @@ title: 排查推送消息问题
 topic-fix: Metrics
 uuid: c7be4ab7-0cfe-4296-84a8-01412f4fd93f
 exl-id: 56feb8e1-e196-4b70-8240-6e41581ca602
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 1fa6111d6bf1c2d36f15d2f037718646a035435a
 workflow-type: tm+mt
-source-wordcount: '725'
+source-wordcount: '714'
 ht-degree: 100%
 
 ---
@@ -33,12 +33,11 @@ ht-degree: 100%
 
    >[!TIP]
    >
-   >此计数是成功发送到推送服务的数量。推送服务不保证消息将被发送。
+   >推送服务不保证消息将被发送。有关服务可靠性的更多信息，请参阅相应的文档：
+   >
+   >* **APNS**：[服务的质量](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/APNSOverview.html#//apple_ref/doc/uid/TP40008194-CH8-SW5)
+   >* **FCM**：[消息的生命周期](https://firebase.google.com/docs/cloud-messaging/concept-options#lifetime)
 
-   有关服务可靠性的更多信息，请参阅：
-
-   * [服务的质量](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/APNSOverview.html#//apple_ref/doc/uid/TP40008194-CH8-SW5l)
-   * [消息的生命周期](https://developers.google.com/cloud-messaging/concept-options#lifetime)。
 
 ## 为什么我的 Android GCM API 密钥无效？
 
@@ -52,8 +51,6 @@ ht-degree: 100%
 * **确定 API 密钥的有效性**
 
    要确定您的 API 密钥的有效性，请运行以下命令：
-
-   **Android**
 
    ```java
    # api_key=YOUR_API_KEY
@@ -81,8 +78,6 @@ ht-degree: 100%
 * 您使用的是 `.p8` 文件而不是 `.p12` 文件。
 
 ## 解决推送消息失败问题
-
-**示例**
 
 以下示例说明了在使用 VRS 时如何解决推送故障。
 

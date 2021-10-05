@@ -6,9 +6,9 @@ title: 排查推送消息问题
 topic-fix: Metrics
 uuid: 87d7dcb6-82a8-46e3-a6ed-7f895a22f2af
 exl-id: dda84d30-2a7b-496c-b8f3-3bd6b97076aa
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 1fa6111d6bf1c2d36f15d2f037718646a035435a
 workflow-type: tm+mt
-source-wordcount: '354'
+source-wordcount: '369'
 ht-degree: 100%
 
 ---
@@ -35,9 +35,8 @@ ht-degree: 100%
    >
    >推送服务不保证消息将被发送。有关服务可靠性的更多信息，请参阅相应的文档：
    >
-   >* **APNS**：[服务的质量](https://developer.apple.com/documentation/usernotifications)
-   >
-   >* **GCM**：[消息的生命周期](https://developers.google.com/cloud-messaging/concept-options)
+   >* **APNS**：[服务的质量](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/APNSOverview.html#//apple_ref/doc/uid/TP40008194-CH8-SW5)
+   >* **FCM**：[消息的生命周期](https://firebase.google.com/docs/cloud-messaging/concept-options#lifetime)
 
 
 ## 如何续订 Apple 推送服务证书？

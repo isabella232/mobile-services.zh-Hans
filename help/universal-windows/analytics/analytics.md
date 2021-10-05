@@ -5,9 +5,9 @@ title: Analytics
 topic-fix: Developer and implementation
 uuid: c2cef3d3-77a7-4a8e-bbe4-3db10a77996a
 exl-id: cc96a7dd-ccc4-4914-8243-f3f160b75c21
-source-git-commit: d1ebb2bbc4742f5288f90a90e977d252f3f30aa3
+source-git-commit: 1fa6111d6bf1c2d36f15d2f037718646a035435a
 workflow-type: tm+mt
-source-wordcount: '948'
+source-wordcount: '941'
 ht-degree: 19%
 
 ---
@@ -135,8 +135,6 @@ void App::OnLaunched(Windows::ApplicationModel::Activation::LaunchActivatedEvent
 ## 处理规则 {#section_66EE762EEA5E4728864166201617DEBF}
 
 处理规则用于将您在上下文数据变量中发送的数据复制到eVar、prop和其他变量以供报告。
-
-2013 年峰会上的[处理规则培训](https://tv.adobe.com/embed/1181/16506/)
 
 [处理规则帮助](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/processing-rules/processing-rules.html)
 

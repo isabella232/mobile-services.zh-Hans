@@ -5,10 +5,10 @@ title: Analytics
 topic-fix: Developer and implementation
 uuid: fa0ef6c4-c04d-4695-9eb4-ada4e9920e6c
 exl-id: 1a7b32b8-731d-4ae3-9feb-dafbb7495590
-source-git-commit: d1ebb2bbc4742f5288f90a90e977d252f3f30aa3
+source-git-commit: 1fa6111d6bf1c2d36f15d2f037718646a035435a
 workflow-type: tm+mt
-source-wordcount: '952'
-ht-degree: 18%
+source-wordcount: '945'
+ht-degree: 17%
 
 ---
 
@@ -62,7 +62,7 @@ app.oncheckpoint = function (args) {
 
 ### App.xaml.cs中的C#
 
-```js
+```csharp
 public App() 
 { 
     this.InitializeComponent(); 
@@ -91,7 +91,7 @@ private void OnSuspending(object sender, SuspendingEventArgs e)
 
 ### App.xaml.cpp中的C/CX
 
-```js
+```c
 App::App() 
 { 
  InitializeComponent(); 
@@ -136,16 +136,14 @@ void App::OnLaunched(Windows::ApplicationModel::Activation::LaunchActivatedEvent
 
 处理规则用于将您在上下文数据变量中发送的数据复制到eVar、prop和其他变量以供报告。
 
-2013 年峰会上的[处理规则培训](https://tv.adobe.com/embed/1181/16506/)
-
 [处理规则概述](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/processing-rules/processing-rules.html)
 
-我们建议使用“命名空间”对上下文数据变量进行分组，因为这有助于您保持逻辑顺序。 例如，如果要收集有关产品的信息，可以定义以下变量：
+Adobe建议使用“命名空间”对上下文数据变量进行分组，因为这有助于保持逻辑顺序。 例如，如果要收集有关产品的信息，可以定义以下变量：
 
 ```js
-"product.type":"hat" 
-"product.team":"mariners" 
-"product.color":"blue"
+"product.type":"hat";
+"product.team":"mariners";
+"product.color":"blue";
 ```
 
 上下文数据变量在处理规则界面中按字母顺序排序，因此命名空间允许您快速查看位于同一命名空间中的变量。
@@ -153,25 +151,25 @@ void App::OnLaunched(Windows::ApplicationModel::Activation::LaunchActivatedEvent
 此外，我们还听说，有些人正在使用eVar或prop编号命名上下文数据键：
 
 ```js
-"eVar1":"jimbo"
+"eVar1":"jimbo";
 ```
 
 虽然在处理规则中执行一次性映射时，这可能会使其&#x200B;*略微*&#x200B;变得更轻松，但在调试过程中会失去可读性，并且将来更新代码可能会更加困难。 我们强烈建议改用描述性名称来表示键和值：
 
 ```js
-"username":"jimbo"
+"username":"jimbo";
 ```
 
 将定义计数器事件的上下文变量设置为值“1”：
 
 ```js
-"logon":"1"
+"logon":"1";
 ```
 
 定义增量事件的上下文数据变量可以具有递增值：
 
 ```js
-"levels completed":"6"
+"levels completed":"6";
 ```
 
 >[!NOTE]
