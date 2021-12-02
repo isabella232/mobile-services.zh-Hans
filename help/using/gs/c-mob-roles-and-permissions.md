@@ -3,10 +3,10 @@ description: 在 Adobe Analytics 中，您可以在“管理工具主页”页�
 title: 角色和权限
 uuid: ad350f8d-ef51-4519-98aa-3025bc0f5588
 exl-id: 70f0b427-60d5-4a79-a8d3-e03274edd917
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: f6a62a46a90c30edaf999085873bf21f2a03a68e
 workflow-type: tm+mt
-source-wordcount: '596'
-ht-degree: 45%
+source-wordcount: '592'
+ht-degree: 48%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 45%
 
 ### Analytics 管理员
 
-Analytics 管理员可管理用户组和分配权限，其中一个是移动设备应用程序管理员。Experience Cloud管理员将您的Adobe ID关联到您的Adobe Analytics帐户，这允许您使用Adobe ID登录到Mobile Services UI。 有关Experience Cloud管理员的更多信息，请参阅《Experience Cloud中心界面组件指南》中的[管理Experience Cloud用户和产品](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html) 。
+Analytics 管理员可管理用户组和分配权限，其中一个是移动设备应用程序管理员。Experience Cloud管理员将您的Adobe ID关联到您的Adobe Analytics帐户，这允许您使用Adobe ID登录到Mobile Services UI。 有关Experience Cloud管理员的详细信息，请参阅 [管理Experience Cloud用户和产品](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html) 中的Experience Cloud中心界面组件指南。
 
 >[!TIP]
 >
@@ -28,8 +28,8 @@ Analytics 管理员可管理用户组和分配权限，其中一个是移动设�
 
 有关此角色的更多信息，请参阅Adobe Analytics文档中的以下内容：
 
-* [用户管理概述](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/users.html)
-* [用户和群组权限更改](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/permissions-changes.html)
+* [用户管理概述](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html?lang=zh-Hans)
+* [用户和群组权限更改](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html)
 
 ### 移动设备应用程序管理员
 
@@ -79,7 +79,7 @@ Analytics 管理员可管理用户组和分配权限，其中一个是移动设�
 
    * 配置应用程序的Mobile SDK选项
    * 配置应用程序的UI设置
-   * 配置链接的应用商店应用程序
+   * 配置链接的App Store应用程序
    * 配置应用程序的通用链接选项
    * 配置推送服务证书和API密钥
    * 创建/更新/激活/停用/复制/存档/删除回发
@@ -93,8 +93,8 @@ Analytics 管理员可管理用户组和分配权限，其中一个是移动设�
 
 有关组和用户的更多信息，请参阅Adobe Analytics文档中的以下内容：
 
-* [用户组设置（旧版）](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-groups/groups.html)
-* [将用户添加到群组](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/t-add-user-to-group.html)
+* [用户组设置（旧版）](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html)
+* [将用户添加到群组](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html)
 
 ### Mobile Services 用户
 
