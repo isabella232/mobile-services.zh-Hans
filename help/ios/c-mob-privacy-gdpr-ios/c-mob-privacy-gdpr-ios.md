@@ -3,10 +3,10 @@ description: Experience Cloud Mobile SDK 为控制器提供了已准备好遵守
 title: 隐私和《通用数据保护条例》
 uuid: 69bb82de-1993-440c-a1b0-8d37919b48b6
 exl-id: 8549310d-31b8-49a3-9276-f8e9ab980a10
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: bd55e3525488f24bc9845220f0df62706ec28f31
 workflow-type: tm+mt
-source-wordcount: '354'
-ht-degree: 71%
+source-wordcount: '336'
+ht-degree: 74%
 
 ---
 
@@ -48,5 +48,4 @@ Experience Cloud Mobile SDK 为控制器提供了已准备好遵守《通用数�
 
 ## 其他信息 {#section_7C7124C50D85469C8C8714533FB1A37D}
 
-* 有关GDPR的更多信息，请参阅[GDPR与您的业务](https://www.adobe.com/cn/privacy/general-data-protection-regulation.html)。
-* 要查看GDPR API文档，请转到[《通用数据保护条例》API](https://adobe.io/apis/cloudplatform/gdpr.html)。
+* 有关GDPR的更多信息，请参阅 [GDPR与您的业务](https://www.adobe.com/cn/privacy/general-data-protection-regulation.html).
