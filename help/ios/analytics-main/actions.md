@@ -1,11 +1,11 @@
 ---
 description: 操作是指在您要测量的应用程序中发生的事件。每个操作均具有一个或多个对应的量度，每当发生事件时，这些量度的数量都会递增。例如，对于每个新订阅，每当查看文章时，或每当完成某个级别时，您都可以发送一个跟踪调用。这些事件的相应量度可配置为订阅、已读文章和完成程度。
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: 跟踪应用程序操作
 topic-fix: Developer and implementation
 uuid: 62017be1-5395-4d16-bde3-4c40a2c012d4
 exl-id: ff317eff-1b8e-46e1-a305-a404979447cb
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '468'
 ht-degree: 100%

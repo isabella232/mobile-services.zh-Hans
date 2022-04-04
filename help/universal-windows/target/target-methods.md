@@ -1,11 +1,11 @@
 ---
 description: 通用Windows平台库提供的Target方法列表。
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: Target 方法
 topic-fix: Developer and implementation
 uuid: 2ad5953b-7850-446a-8053-b3715b86329b
 exl-id: d7aeee41-1c34-4f98-8455-e9f429287cfc
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '252'
 ht-degree: 37%
@@ -18,11 +18,11 @@ ht-degree: 37%
 
 SDK当前支持多个Adobe Experience Cloud解决方案，包括Analytics、Target和Audience Manager。
 
-[生命](/help/universal-windows/metrics.md) 周期量度将作为参数发送到每个mbox负载。
+[生命周期量度](/help/universal-windows/metrics.md) 将作为参数发送给每个mbox负载。
 
 >[!TIP]
 >
->当您从winJS(JavaScript)中使用`winmd`方法时，所有方法都会自动将其第一个字母小写。
+>您何时使用 `winmd` 方法(来自winJS(JavaScript))中，所有方法都会自动将其第一个字母小写。
 
 ## 类引用：TargetLocationRequest
 
@@ -70,7 +70,7 @@ static property Platform::String ^TARGET_PARAMETER_MBOX_HOST {
 
 * **LoadRequest(winJS:loadRequest)**
 
-   将`request`发送到您配置的Target服务器，并返回在块`callback`中生成的选件的字符串值。
+   发送 `request` 返回在块中生成的选件的字符串值 `callback`.
 
    * 以下是此方法的语法：
 
@@ -89,7 +89,7 @@ static property Platform::String ^TARGET_PARAMETER_MBOX_HOST {
 
 * **CreateRequest(winJS:createRequest)**
 
-   使用给定参数创建`TargetLocationRequest`对象。
+   创建 `TargetLocationRequest` 对象。
 
    * 以下是此方法的语法：
 
@@ -106,7 +106,7 @@ static property Platform::String ^TARGET_PARAMETER_MBOX_HOST {
 
 * **创建订&#x200B;单确认请求(winJS:createOrder &#x200B; ConfirmRequest)**
 
-   使用给定参数创建`TargetLocationRequest`对象。
+   创建 `TargetLocationRequest` 对象。
 
    * 以下是此方法的语法：
 

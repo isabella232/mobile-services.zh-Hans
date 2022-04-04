@@ -1,11 +1,11 @@
 ---
 description: 您可以发送从任何 Analytics 数据或事件触发的应用程序内消息。实施后，消息将动态传送到应用程序，无需代码更新。
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: 应用程序内消息传送
 topic-fix: Developer and implementation
 uuid: 351ee3d2-80b9-4f2d-9696-21f274d89f5a
 exl-id: ca9414d1-86e6-4bb2-a2d6-57df37df2403
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '770'
 ht-degree: 100%

@@ -1,11 +1,11 @@
 ---
-description: Windows 8.1通用应用商店库提供的类和方法。
-solution: Experience Cloud,Analytics
+description: Windows 8.1通用App Store库提供的类和方法。
+solution: Experience Cloud Services,Analytics
 title: SDK 方法
 topic-fix: Developer and implementation
 uuid: 0f558ff4-73d3-4439-9d51-62fbd74d2cea
 exl-id: c328fd79-6e10-43b7-9d08-8da395098b60
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '642'
 ht-degree: 51%
@@ -14,11 +14,11 @@ ht-degree: 51%
 
 # SDK 方法 {#sdk-methods}
 
-Windows 8.1通用应用商店库提供的类和方法。
+Windows 8.1通用App Store库提供的类和方法。
 
 >[!TIP]
 >
->当您从winJS(JavaScript)中使用`winmd`方法时，所有方法都会自动将其第一个字母小写。
+>您何时使用 `winmd` 方法(来自winJS(JavaScript))中，所有方法都会自动将其第一个字母小写。
 
 * **GetVersion(winJS:getVersion)**
 
@@ -42,9 +42,9 @@ Windows 8.1通用应用商店库提供的类和方法。
 
    * `ADBMobilePrivacyStatusOptIn` - 立即发送点击。
    * `ADBMobilePrivacyStatusOptOut` - 丢弃点击。
-   * `ADBMobilePrivacyStatusUnknown`  — 如果您的报表包启用了时间戳，将会保存点击，直到隐私状态更改为选择启用（发送点击）或选择禁用（丢弃点击）。如果您的报表包未启用时间戳，则将丢弃点击，直到隐私状态更改为选择启用。
+   * `ADBMobilePrivacyStatusUnknown`  — 如果您的报表包启用了时间戳，将会保存点击，直到隐私状态更改为选择启用（发送点击）或选择禁用（丢弃点击）。 如果您的报表包未启用时间戳，则将丢弃点击，直到隐私状态更改为选择启用。
 
-      默认值在[ADBMobileConfig.json config](/help/windows-appstore/c-configuration/c.json.md)文件中设置。
+      默认值在 [ADBMobileConfig.json配置](/help/windows-appstore/c-configuration/c.json.md) 文件。
 
    * 以下是此方法的语法：
 
@@ -76,7 +76,7 @@ Windows 8.1通用应用商店库提供的类和方法。
 
    * `ADBMobilePrivacyStatusOptIn` - 立即发送点击。
    * `ADBMobilePrivacyStatusOptOut` - 丢弃点击。
-   * `ADBMobilePrivacyStatusUnknown`  — 如果您的报表包启用了时间戳，将会保存点击，直到隐私状态更改为选择启用（发送点击）或选择禁用（丢弃点击）。如果您的报表包未启用时间戳，则将丢弃点击，直到隐私状态更改为选择启用。
+   * `ADBMobilePrivacyStatusUnknown`  — 如果您的报表包启用了时间戳，将会保存点击，直到隐私状态更改为选择启用（发送点击）或选择禁用（丢弃点击）。 如果您的报表包未启用时间戳，则将丢弃点击，直到隐私状态更改为选择启用。
 
    * 以下是此方法的语法：
 
@@ -122,7 +122,7 @@ Windows 8.1通用应用商店库提供的类和方法。
 
    >[!TIP]
    >
-   >如果您的应用程序从Experience Cloud3.x SDK升级到4.x SDK，则会检索之前的ID（自定义或自动生成）并将其存储为自定义用户标识符。 这样可在 SDK 升级期间保留访客数据。对于4.x SDK上的新安装，用户标识符在设置之前为`null`。
+   >如果您的应用程序从Experience Cloud3.x SDK升级到4.x SDK，则会检索之前的ID（自定义或自动生成）并将其存储为自定义用户标识符。 这样可在 SDK 升级期间保留访客数据。对于4.x SDK上的新安装，用户标识符为 `null` 直到设置。
 
    * 以下是此方法的语法：
 
@@ -194,7 +194,7 @@ Windows 8.1通用应用商店库提供的类和方法。
 
    >[!TIP]
    >
-   >在应用程序内每个活动的`onResume()`方法中调用此方法，如以下示例所示。 我们还建议将活动或服务作为上下文对象而不是全局应用程序上下文进行传递。
+   >在 `onResume()` 方法，如以下示例所示。 我们还建议将活动或服务作为上下文对象而不是全局应用程序上下文进行传递。
 
    * 以下是此方法的语法：
 
@@ -215,7 +215,7 @@ Windows 8.1通用应用商店库提供的类和方法。
 
    >[!TIP]
    >
-   >在应用程序内每个活动的`onPause()`方法中调用此方法，如示例所示。 我们还建议将活动或服务作为上下文对象而不是全局应用程序上下文进行传递。
+   >在 `onPause()` 方法（如示例中所示）。 我们还建议将活动或服务作为上下文对象而不是全局应用程序上下文进行传递。
 
    * 以下是此方法的语法：
 

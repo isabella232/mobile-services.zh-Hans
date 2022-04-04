@@ -1,12 +1,12 @@
 ---
 description: “社交共享”报表会针对您的现有数据显示一个环状层次视图。此报表仅供 Digital Publishing Suite (DPS) 客户使用。
 keywords: mobile
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: 社交共享
 topic-fix: Metrics
 uuid: 900e58aa-c1d3-4590-af44-df67575214a4
 exl-id: 3f396c6d-dae4-4419-84fd-884a9e87dab1
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '118'
 ht-degree: 100%

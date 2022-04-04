@@ -1,11 +1,11 @@
 ---
 description: 此参考资料可帮助您使用适用于 Experience Cloud 解决方案的 Android SDK。
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: Android SDK 参考概述
 topic-fix: Developer and implementation
 uuid: ce8f6dcb-0e2b-47eb-99f2-fbdb97079161
 exl-id: 3a4299c7-e0a0-486c-869f-0c915498ca86
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '124'
 ht-degree: 100%

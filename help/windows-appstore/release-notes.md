@@ -1,11 +1,11 @@
 ---
 description: 适用于 Experience Cloud 解决方案的 Windows 8.1 跨平台通用应用商店 SDK 4.x 的发行说明和已知问题。
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: 发行说明
 topic-fix: Developer and implementation
 uuid: 45634319-7949-4e24-b193-4f876af97a69
 exl-id: 21bd2e72-cc9e-4fc0-940f-dfc560d7a536
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '228'
 ht-degree: 100%

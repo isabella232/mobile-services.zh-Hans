@@ -1,11 +1,11 @@
 ---
 description: 从 WatchOS 2 开始，WatchKit 扩展将在 Apple Watch 设备上运行。在此环境中运行的应用程序需要具备 WatchConnectivity 框架才能与它们的 iOS 容器应用程序共享数据。
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: 使用 WatchOS 2 实施 Apple Watch
 topic-fix: Developer and implementation
 uuid: 9498467e-db5e-411e-a00e-d19841f485de
 exl-id: 9fc9b799-1081-42e4-acf3-569fdeb07aff
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '506'
 ht-degree: 100%

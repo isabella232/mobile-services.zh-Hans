@@ -1,12 +1,12 @@
 ---
 description: 您可以使用此信息完成以下操作：创建新应用程序并配置其关键量度；配置 Adobe Analytics、 和 Adobe Audience Manager 的 SDK 选项；配置客户获取和 ID 服务选项；以及下载配置文件、SDK 和开发人员及测试人员工具。
 keywords: mobile
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: 添加新应用程序
 topic-fix: Metrics
 uuid: 706b5e4d-1318-4a9e-8c69-ffabf51fa02c
 exl-id: 30dca517-61ac-495b-aa91-3febd1cb8639
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '663'
 ht-degree: 100%

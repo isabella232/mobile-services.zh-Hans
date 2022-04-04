@@ -1,12 +1,12 @@
 ---
 description: 您可以使用 Web 浏览器登录到 Adobe Mobile Services。
 keywords: 移动设备;更改密码;登录;注销
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: 登录
 topic-fix: Metrics
 uuid: d6ea0ca1-3511-4133-9d41-21ea2d2f7b3a
 exl-id: 12b447bd-f53b-43b4-b333-6b805f42fb75
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '358'
 ht-degree: 100%

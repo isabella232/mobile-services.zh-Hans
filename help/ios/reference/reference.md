@@ -1,11 +1,11 @@
 ---
 description: 此参考资料可帮助您使用适用于 Experience Cloud 解决方案的 iOS SDK。
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: iOS SDK 参考
 topic-fix: Developer and implementation
 uuid: 4e80b0ce-d36e-440e-96ff-de5df6804e3e
 exl-id: 681a2df7-b942-4039-a635-1b649837d64f
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '122'
 ht-degree: 100%

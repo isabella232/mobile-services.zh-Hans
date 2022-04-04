@@ -1,11 +1,11 @@
 ---
 description: 您可以在应用程序启动时加载其他 ADBMobile JSON 配置文件。
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: 覆盖 ADBMobile JSON 配置路径
 topic-fix: Developer and implementation
 uuid: 6872a5d7-0c5a-4fdc-b7bf-ad1534763a6a
 exl-id: 6ca8e264-af79-4734-aeb9-824582980953
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '97'
 ht-degree: 100%

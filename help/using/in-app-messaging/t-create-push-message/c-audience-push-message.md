@@ -1,12 +1,12 @@
 ---
 description: 您可以为推送消息定义和配置受众选项，包括日期范围选项、Analytics 区段和自定义区段。
 keywords: mobile
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: 受众：为推送消息定义和配置受众区段
 topic-fix: Metrics
 uuid: efd410e7-3b6c-4cf4-a26f-b11688adc491
 exl-id: d1062a76-2e72-4649-8497-58617a7a47cb
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '976'
 ht-degree: 98%
@@ -106,7 +106,7 @@ ht-degree: 98%
 
    * **[!UICONTROL Analytics 区段]**
 
-      从下拉列表中选择一个现有的 Adobe Analytics 区段。有关更多信息，请参阅Adobe Analytics文档中的[区段生成器](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html?lang=zh-Hans)。
+      从下拉列表中选择一个现有的 Adobe Analytics 区段。有关更多信息，请参阅 [区段生成器](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html) (在Adobe Analytics文档中)。
 
    * **[!UICONTROL 自定义区段]**
 

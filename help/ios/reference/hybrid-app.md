@@ -1,11 +1,11 @@
 ---
 description: 如果您的应用程序打开移动 Web 内容，您需要确保访客在本机和移动 Web 之间切换时不会单独进行识别。
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: 应用程序和移动 Web 之间的访客跟踪
 topic-fix: Developer and implementation
 uuid: 2d951de6-3954-4379-a4ff-99b9695b9869
 exl-id: d8459d59-0edd-42c4-81b5-529b250accb4
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '494'
 ht-degree: 100%

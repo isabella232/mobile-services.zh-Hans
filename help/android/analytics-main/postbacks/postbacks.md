@@ -1,12 +1,12 @@
 ---
 description: 回发允许您将 SDK 收集的数据发送至第三方服务器。利用您用来显示应用程序内消息的相同触发器和特征，可以将 SDK 配置为将自定义数据发送至第三方目标。
 keywords: Android;库;移动;SDK
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: 回发概述
 topic-fix: Developer and implementation
 uuid: 8bfd4374-2767-421d-891d-e1e9a99b6977
 exl-id: 318f6eab-ff71-4bfe-8eb7-51a35380b992
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '308'
 ht-degree: 100%

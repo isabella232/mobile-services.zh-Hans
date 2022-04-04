@@ -1,12 +1,12 @@
 ---
 description: 创建新应用程序或编辑现有应用程序时，您可以使用此帮助信息在“管理应用程序设置”页面上配置“推送服务”选项。
 keywords: mobile
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: 配置推送消息
 topic-fix: Metrics
 uuid: 6763858d-6046-4d36-87c0-cf3600a44fb1
 exl-id: d4989c31-2692-4062-8fae-d41c3e3c179b
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '287'
 ht-degree: 100%

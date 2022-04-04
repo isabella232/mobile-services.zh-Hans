@@ -1,12 +1,12 @@
 ---
 description: 以下是 Android 库提供的 Experience Cloud ID 方法。
 keywords: Android;库;移动;SDK
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: Adobe Experience Platform Identity Service 方法
 topic-fix: Developer and implementation
 uuid: c5107a7e-273b-4f71-8738-4c603479b24c
 exl-id: 8eb98c3f-c6ef-4593-ad3a-f566f4d4b6a2
-source-git-commit: d1ebb2bbc4742f5288f90a90e977d252f3f30aa3
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '435'
 ht-degree: 97%
@@ -23,7 +23,7 @@ SDK 当前支持多个 Adobe Experience Cloud 解决方案，包括 Analytics、
 
 * **public static String appendToURL(final String URL)**
 
-   将 Adobe 访客数据附加到 URL 字符串以用于 Adobe JavaScript 库。您必须拥有 Mobile SDK 4.12 及更高版本才能使用此方法。有关更多信息，请参阅Adobe Experience Cloud Identity Service文档中的[appendVisitorIDsTo](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/methods/appendvisitorid.html?lang=zh-Hans) 。
+   将 Adobe 访客数据附加到 URL 字符串以用于 Adobe JavaScript 库。您必须拥有 Mobile SDK 4.12 及更高版本才能使用此方法。有关更多信息，请参阅 [appendVisitorIDsTo](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/methods/appendvisitorid.html?lang=zh-Hans) (位于Adobe Experience Cloud Identity Service文档中)。
 
    >[!IMPORTANT]
    >

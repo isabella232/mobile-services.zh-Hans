@@ -1,11 +1,11 @@
 ---
-description: 适用于Experience Cloud解决方案4.x SDK的Xamarin组件的iOS方法。
+description: iOS方法，用于Experience Cloud解决方案4.x SDK的Xamarin组件。
 keywords: 沙马林
-solution: Experience Cloud
+solution: Experience Cloud Services
 title: iOS 方法
 uuid: d6a056db-80c1-44d0-970f-c961ad01b0bc
 exl-id: 92897d08-2b66-4688-9870-c877bea53cfc
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '1737'
 ht-degree: 70%
@@ -14,7 +14,7 @@ ht-degree: 70%
 
 # iOS 方法{#ios-methods}
 
-适用于Experience Cloud解决方案4.x SDK的Xamarin组件的iOS方法。
+iOS方法，用于Experience Cloud解决方案4.x SDK的Xamarin组件。
 
 ## 配置方法 {#section_405AA09390E346E5BB7B1F4E0F65F51E}
 
@@ -89,7 +89,7 @@ ht-degree: 70%
    * `ADBMobilePrivacyStatus.OptOut` - 丢弃点击。
    * ADBMobilePrivacyStatus.Unknown — 如果启用了离线跟踪，将会保存点击，直到隐私状态更改为选择启用（发送点击）或选择禁用（丢弃点击）。 如果禁用了离线跟踪，则将丢弃点击，直到隐私状态更改为选择启用。
 
-   默认值在[ADBMobileConfig.json](/help/ios/configuration/json-config/json-config.md)中设置。
+   默认值在 [ADBMobileConfig.json](/help/ios/configuration/json-config/json-config.md).
 
    * 以下是此方法的语法：
 
@@ -171,7 +171,7 @@ ht-degree: 70%
       var version = ADBMobile.Version();
       ```
 
-* **KeepLifecycleSessionAlive（仅限iOS）**
+* **KeepLifecycleSessionAlive(仅限iOS)**
 
    指示 SDK 无论配置文件中的生命周期会话超时值为多少，下次从后台恢复时都不应启动新会话。
 
@@ -211,7 +211,7 @@ ht-degree: 70%
 
 * **TrackState**
 
-   通过可选的上下文数据跟踪应用程序状态。状态是您的应用程序中可用的一些视图，例如“标题屏幕”、“级别1”、“暂停”等。 这些状态与网站上的页面类似，并且`TrackState`调用会使页面查看次数递增。如果状态为空，它会在报表中显示为“应用程序名称应用程序版本（内部版本）”。 如果在报表中看到此值，请确保在每个`TrackState`调用中设置状态。
+   通过可选的上下文数据跟踪应用程序状态。状态是您的应用程序中可用的一些视图，例如“标题屏幕”、“级别1”、“暂停”等。 这些状态与网站上的页面类似，并且 `TrackState` 调用会使页面查看次数递增。如果状态为空，它会在报表中显示为“应用程序名称应用程序版本（内部版本）”。 如果您在报表中看到此值，请确保在每个报表中设置状态 `TrackState` 呼叫。
 
    >[!TIP]
    >
@@ -251,7 +251,7 @@ ht-degree: 70%
       ADBMobile.TrackAction("level gained", null); 
       ```
 
-* **TrackActionFromBackground（仅限iOS）**
+* **TrackActionFromBackground(仅限iOS)**
 
    跟踪在后台发生的操作。在某些情况下，这会阻止触发生命周期事件。
 
@@ -500,7 +500,7 @@ ht-degree: 70%
 
 * **TargetLoadRequest**
 
-   向您配置的Target服务器发送请求，并返回在`Action<NSDictionary>`回调中生成的选件的字符串值。
+   向您配置的Target服务器发送请求，并返回在 `Action<NSDictionary>` 回调。
 
    * 以下是此方法的语法：
 
@@ -520,7 +520,7 @@ ht-degree: 70%
 
 * **TargetCreateRequest**
 
-   一个方便使用的构造函数，用于使用给定参数创建`ADBTargetLocationRequest`对象。
+   用于创建方便使用的构造函数 `ADBTargetLocationRequest` 对象。
 
    * 以下是此方法的语法：
 
@@ -571,7 +571,7 @@ ht-degree: 70%
 
 * **AudienceVisitorProfile**
 
-   返回最近获取的访客资料。如果尚未提交任何信号，则返回nil。 访客配置文件保存在`NSUserDefaults`中，以便在多次启动应用程序时轻松访问。
+   返回最近获取的访客资料。如果尚未提交任何信号，则返回nil。 访客资料保存在 `NSUserDefaults` ，以便在多次启动应用程序时轻松访问。
 
    * 以下是此方法的语法：
 
@@ -635,7 +635,7 @@ ht-degree: 70%
 
 * **AudienceSignalWithData**
 
-   向受众管理发送一个具有特征的信号，并获取`Action<NSDictionary>`回调中返回的匹配区段。
+   向受众管理发送一个具有特征的信号，并获取 `Action<NSDictionary>`  回调。
 
    * 以下是此方法的语法：
 
@@ -670,7 +670,7 @@ ht-degree: 70%
 
 ## 视频 {#section_CBCE1951CE204A108AD4CA7BB07C7F98}
 
-有关更多信息，请参阅[Video Analytics](/help/ios/getting-started/dev-qs.md)。
+有关更多信息，请参阅 [Video Analytics](/help/ios/getting-started/dev-qs.md).
 
 * **MediaCreateSettings**
 

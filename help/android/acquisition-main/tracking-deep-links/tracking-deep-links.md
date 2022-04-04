@@ -1,12 +1,12 @@
 ---
 description: 您可以使用此信息通过 Adobe Mobile Android SDK 在移动设备应用程序中跟踪深层链接和延期深层链接。
 keywords: Android;库;移动;SDK
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: 跟踪深层链接
 topic-fix: Developer and implementation
 uuid: ebb1c08c-a246-40b3-9ac6-4606a14b4c5a
 exl-id: 4f59b77d-3cac-4853-bb6b-50a403036771
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '302'
 ht-degree: 97%

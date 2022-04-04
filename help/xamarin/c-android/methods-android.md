@@ -1,11 +1,11 @@
 ---
 description: 适用于Experience Cloud解决方案4.x SDK的Xamarin组件的Android方法。
 keywords: 沙马林
-solution: Experience Cloud
+solution: Experience Cloud Services
 title: Android 方法
 uuid: 860af1c4-f57e-4bcb-8308-4e316da9a27b
 exl-id: 0de1fa11-37e9-49be-8d42-a13cb4a3f0e3
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '1755'
 ht-degree: 68%
@@ -58,7 +58,7 @@ ht-degree: 68%
    * `ADBMobilePrivacyStatus.OptOut` - 丢弃点击。
    * `ADBMobilePrivacyStatus.Unknown` - 如果启用了离线跟踪，将会保存点击，直到隐私状态更改为选择启用（发送点击）或选择禁用（丢弃点击）。如果未启用离线跟踪，则将丢弃点击，直到隐私状态更改为选择启用。
 
-   默认值在[ADBMobileConfig.json](/help/android/configuration/json-config/json-config.md)文件中设置。
+   默认值在 [ADBMobileConfig.json](/help/android/configuration/json-config/json-config.md) 文件。
 
    * 以下是此方法的语法：
 
@@ -160,7 +160,7 @@ ht-degree: 68%
 
 * **OverrideConfigStream**
 
-   （4.2或更高版本）允许您在应用程序启动时加载其他`ADBMobile JSON`配置文件。 在应用程序关闭之前，将一直使用该配置。
+   （4.2或更高版本）允许您加载其他 `ADBMobile JSON` 配置文件。 在应用程序关闭之前，将一直使用该配置。
 
    * 以下是此方法的语法：
 
@@ -227,7 +227,7 @@ ht-degree: 68%
 
 * **TrackState**
 
-   通过可选的上下文数据跟踪应用程序状态。`States` 是您的应用程序中可用的一些视图，例如“标题屏幕”、“级别1”、“暂停”等。这些状态与网站中的页面类似，而且 `TrackState` 调用会使页面查看次数递增。如果状态为空，它会在报表中显示为“应用程序名称应用程序版本（内部版本）”。 如果在报表中看到此值，请确保在每个`TrackState`调用中设置状态。
+   通过可选的上下文数据跟踪应用程序状态。`States` 是您的应用程序中可用的一些视图，例如“标题屏幕”、“级别1”、“暂停”等。 这些状态与网站中的页面类似，而且 `TrackState` 调用会使页面查看次数递增。如果状态为空，它会在报表中显示为“应用程序名称应用程序版本（内部版本）”。 如果您在报表中看到此值，请确保在每个报表中设置状态 `TrackState` 呼叫。
 
    >[!TIP]
    >
@@ -274,7 +274,7 @@ ht-degree: 68%
 
 * **TrackLocation**
 
-   发送当前纬度和经度坐标。此方法还使用`ADBMobileConfig.json`文件中定义的目标点来确定作为参数提供的位置是否位于您的任何POI中。 如果当前坐标位于定义的 POI 内，则会填充上下文数据变量，并随 `TrackLocation` 调用发送该变量。
+   发送当前纬度和经度坐标。还使用 `ADBMobileConfig.json` 文件来确定作为参数提供的位置是否位于您的任何POI中。 如果当前坐标位于定义的 POI 内，则会填充上下文数据变量，并随 `TrackLocation` 调用发送该变量。
 
    * 以下是此方法的语法：
 
@@ -511,7 +511,7 @@ ht-degree: 68%
 
 * **LoadRequest**
 
-   向您配置的Target服务器发送请求，并返回在`Action<NSDictionary>`回调中生成的选件的字符串值。
+   向您配置的Target服务器发送请求，并返回在 `Action<NSDictionary>` 回调。
 
    * 以下是此方法的语法：
 
@@ -534,7 +534,7 @@ ht-degree: 68%
 
 * **CreateRequest**
 
-   一个方便使用的构造函数，用于使用给定参数创建`ADBTargetLocationRequest`对象。
+   用于创建方便使用的构造函数 `ADBTargetLocationRequest` 对象。
 
    * 以下是此方法的语法：
 
@@ -602,7 +602,7 @@ ht-degree: 68%
 
 * **Dpid**
 
-   返回当前的`DPID`。
+   返回当前 `DPID`.
 
    * 以下是此方法的语法：
 
@@ -618,7 +618,7 @@ ht-degree: 68%
 
 * **Dpuuid**
 
-   返回当前的`DPUUID`。
+   返回当前 `DPUUID`.
 
    * 以下是此方法的语法：
 
@@ -634,7 +634,7 @@ ht-degree: 68%
 
 * **AudienceSetDpidAndDpuuid**
 
-   设置`dpid`和`dpuuid`。 如果设置了`dpid`和`dpuuid`，则它们将随每个信号一起发送。
+   设置 `dpid` 和 `dpuuid`. 如果 `dpid` 和 `dpuuid` 设置，它们随每个信号一起发送。
 
    * 以下是此方法的语法：
 
@@ -650,7 +650,7 @@ ht-degree: 68%
 
 * **SignalWithData**
 
-   向受众管理发送一个具有特征的信号，并获取`Action<NSDictionary>`回调中返回的匹配区段。
+   向受众管理发送一个具有特征的信号，并获取 `Action<NSDictionary>` 回调。
 
    * 以下是此方法的语法：
 
@@ -676,7 +676,7 @@ ht-degree: 68%
 
 * **重置**
 
-   重置Audience Manager `UUID`并清除当前访客资料。
+   重置Audience Manager `UUID` 和清除当前访客资料。
 
    * 以下是此方法的语法：
 
@@ -692,7 +692,7 @@ ht-degree: 68%
 
 ## 视频 {#section_CBCE1951CE204A108AD4CA7BB07C7F98}
 
-有关Video Analytics的更多信息，请参阅[Video Analytics](/help/android/analytics-main/video-qs.md)。
+有关Video Analytics的更多信息，请参阅 [Video Analytics](/help/android/analytics-main/video-qs.md).
 
 * **媒体设置**
 

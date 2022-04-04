@@ -1,12 +1,12 @@
 ---
 description: 使用该插件，您可以从 PhoneGap 项目发送 Android AppMeasurement 调用。
 keywords: Android;库;移动;SDK
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: PhoneGap 插件概述
 topic-fix: Developer and implementation
 uuid: c5c32357-d8df-458a-b0e8-e0c56040241d
 exl-id: ecd756ca-e333-4d28-bd1e-a75ffc6ebe22
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '382'
 ht-degree: 97%
@@ -68,7 +68,7 @@ cordova plugin add adobe-mobile-services
 
    要移动此文件，请单击&#x200B;**[!UICONTROL 确定]**。
 
-1. 右键单击`adobeMobileLibrary.jar`文件，然后选择&#x200B;**[!UICONTROL 添加为库]**。
+1. 右键单击 `adobeMobileLibrary.jar` 文件，选择 **[!UICONTROL 添加为库]**.
 1. 根据项目的要求，输入库的名称、级别和位置。
 1. 将 `ADBMobileConfig.json` 文件拖到应用程序根目录的 `assets` 文件夹中。
 1. 确认您选择的是根应用程序而&#x200B;**不是**&#x200B;应用程序中的应用程序。

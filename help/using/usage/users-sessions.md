@@ -1,12 +1,12 @@
 ---
 description: “用户和会话”报表可显示独特访客在选定时间段的量度。
 keywords: mobile
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: “用户和会话”报表
 topic-fix: Reports,Metrics
 uuid: 6d70d7f6-de81-4307-a4f3-14f18fc3c9b3
 exl-id: a764a8a9-6490-4cb7-ad4f-68c9dd41c774
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '175'
 ht-degree: 100%

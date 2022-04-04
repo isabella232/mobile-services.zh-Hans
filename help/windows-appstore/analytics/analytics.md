@@ -1,11 +1,11 @@
 ---
 description: 将库添加到项目后，您可以在应用程序中的任意位置进行任何Analytics方法调用。
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: Analytics
 topic-fix: Developer and implementation
 uuid: fa0ef6c4-c04d-4695-9eb4-ada4e9920e6c
 exl-id: 1a7b32b8-731d-4ae3-9feb-dafbb7495590
-source-git-commit: 1fa6111d6bf1c2d36f15d2f037718646a035435a
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '945'
 ht-degree: 17%
@@ -18,24 +18,24 @@ ht-degree: 17%
 
 >[!TIP]
 >
->确保将`ADBMobile.h`导入类。
+>确保导入 `ADBMobile.h` 你的班。
 
 ## 在Analytics中启用移动设备应用程序报表 {#section_F2F9234009184F20BA36B5CDE872B424}
 
-在添加代码之前，请让Analytics管理员完成以下操作以启用移动设备应用程序生命周期跟踪。 这可确保在您开始开发时，您的报表包已准备好捕获量度。
+在添加代码之前，请让Analytics管理员完成以下操作以启用Mobile应用程序生命周期跟踪。 这可确保在您开始开发时，您的报表包已准备好捕获量度。
 
-1. 打开&#x200B;**[!UICONTROL 管理工具]** > **[!UICONTROL 报表包]**，然后选择您的移动设备报表包。
-1. 单击&#x200B;**[!UICONTROL 编辑设置]** > **[!UICONTROL 移动设备管理]** > **[!UICONTROL 移动设备应用程序报表]**。
+1. 打开 **[!UICONTROL 管理工具]** > **[!UICONTROL 报表包]** ，然后选择移动设备报表包。
+1. 单击 **[!UICONTROL 编辑设置]** > **[!UICONTROL Mobile管理]** > **[!UICONTROL Mobile应用程序报表]**.
 
-   ![移动设备设置](assets/mobile-settings.png)
+   ![Mobile设置](assets/mobile-settings.png)
 
-1. 单击&#x200B;**[!UICONTROL 启用最新的应用程序报表]**。
+1. 单击 **[!UICONTROL 启用最新的应用程序报表]**.
 
-   或者，您也可以选择单击&#x200B;**[!UICONTROL 启用移动位置跟踪]**&#x200B;和&#x200B;**[!UICONTROL 启用后台点击量的旧版报告和归因]**。
+   或者，您也可以选择单击 **[!UICONTROL 启用Mobile位置跟踪]** 和 **[!UICONTROL 为后台点击量启用旧版报告和归因]**.
 
    ![启用生命周期](assets/enable-lifecycle.png)
 
-生命周期量度现已准备就绪，可以捕获，移动设备应用程序报表显示在市场营销报告界面的&#x200B;**[!UICONTROL 报表]**&#x200B;菜单中。
+生命周期量度现已准备就绪，可捕获，Mobile应用程序报表显示在 **[!UICONTROL 报表]** 菜单。
 
 ### 新版本
 
@@ -118,11 +118,11 @@ void App::OnLaunched(Windows::ApplicationModel::Activation::LaunchActivatedEvent
 }
 ```
 
-如果在同一会话中调用了`CollectLifecycleData()`两次，则您的应用程序将在第一次调用后的每次调用时报告崩溃。 SDK会在应用程序关闭时设置一个标志，指示成功退出。 如果未设置此标志，则`CollectLifecyleData()`会报告崩溃。
+如果 `CollectLifecycleData()` 在同一会话中调用了两次，则您的应用程序将在首次调用后的每次调用时报告崩溃。 SDK会在应用程序关闭时设置一个标志，指示成功退出。 如果未设置此标志， `CollectLifecyleData()` 报告崩溃。
 
 ## Event、Prop 和 eVar {#section_76EA6F5611184C5CAE6E62956D84D7B6}
 
-如果您查看了[ADBMobile类和方法引用](/help/windows-appstore/c-configuration/methods.md)，您可能很想知道在何处设置事件、eVar、prop、继承人和列表。 在版本4中，您无法再在应用程序中直接分配这些类型的变量。 反而，SDK 使用上下文数据和处理规则将应用程序数据映射到 Analytics 变量以便进行报告。
+如果你看过 [ADBMobile类和方法引用](/help/windows-appstore/c-configuration/methods.md)，您可能很想知道在何处设置事件、eVar、prop、继承人和列表。 在版本4中，您无法再在应用程序中直接分配这些类型的变量。 反而，SDK 使用上下文数据和处理规则将应用程序数据映射到 Analytics 变量以便进行报告。
 
 处理规则为您提供了以下几个优势：
 
@@ -154,7 +154,7 @@ Adobe建议使用“命名空间”对上下文数据变量进行分组，因为
 "eVar1":"jimbo";
 ```
 
-虽然在处理规则中执行一次性映射时，这可能会使其&#x200B;*略微*&#x200B;变得更轻松，但在调试过程中会失去可读性，并且将来更新代码可能会更加困难。 我们强烈建议改用描述性名称来表示键和值：
+这样可能就行了 *略微* 虽然在处理规则中执行一次性映射时更加轻松，但在调试过程中会失去可读性，并且将来更新代码可能会更加困难。 我们强烈建议改用描述性名称来表示键和值：
 
 ```js
 "username":"jimbo";
@@ -178,17 +178,17 @@ Adobe建议使用“命名空间”对上下文数据变量进行分组，因为
 
 ## Products 变量 {#section_AFBA36F3718C44D29AF81B9E1056A1B4}
 
-要在Mobile SDK中设置&#x200B;*`products`*，必须使用特殊语法。 请参阅[产品变量](/help/windows-appstore/analytics/products/products.md)。
+要设置 *`products`* 在mobile SDK中，必须使用特殊语法。 请参阅 [产品变量](/help/windows-appstore/analytics/products/products.md).
 
 ## （可选）启用离线跟踪 {#section_955B2A03EB854742BDFC4A0A3C287009}
 
-要在设备离线时存储点击量，可以在[ADBMobileConfig.json配置](/help/windows-appstore/c-configuration/methods.md)中启用离线跟踪。 在启用离线跟踪之前，请注意配置文件引用中描述的时间戳要求。
+要在设备处于离线状态时存储点击，您可以在 [ADBMobileConfig.json配置](/help/windows-appstore/c-configuration/methods.md). 在启用离线跟踪之前，请注意配置文件引用中描述的时间戳要求。
 
 ## 地理位置和目标点 {#section_BAD34A8DD013454DB355121316BD7FD4}
 
-地理位置允许您测量位置数据（纬度/经度）和预定义的目标点。 每个`TrackLocation`调用均发送：
+地理位置允许您测量位置数据（纬度/经度）和预定义的目标点。 每个 `TrackLocation` 调用发送：
 
-* 纬度/经度和POI（如果在`ADBMobileConfig.json`配置文件中定义的POI内）。 这些变量将传递到移动设备解决方案变量以进行自动报告。
+* 纬度/经度和POI(如果在 `ADBMobileConfig.json` 配置文件)。 这些变量将传递到移动设备解决方案变量以进行自动报告。
 * 与中心的距离以及作为上下文数据传递的准确度。 使用处理规则捕获。
 
 要跟踪位置，请执行以下操作：
@@ -198,7 +198,7 @@ var ADB = ADBMobile;
 ADB.Analytics.trackLocation(37.75345, -122.33207, null);
 ```
 
-如果在`ADBMobileConfig.json`配置文件中定义了以下POI:
+如果在 `ADBMobileConfig.json` 配置文件：
 
 ```js
 "poi" : [ 
@@ -206,7 +206,7 @@ ADB.Analytics.trackLocation(37.75345, -122.33207, null);
         ]
 ```
 
-如果设备位置被确定在定义点的7000米半径内，则`TrackLocation`点击时将发送值为“San Francisco”的`a.loc.poi`上下文数据变量。 将发送`a.loc.dist`上下文变量，其中包含与定义坐标的距离（以米为单位）。
+当设备位置被确定为在定义点的7000米半径内时， `a.loc.poi` 值为“San Francisco”的上下文数据变量随 `TrackLocation` 点击。 安 `a.loc.dist` 上下文变量随定义坐标的距离（以米为单位）一起发送。
 
 ## 生命周期值 {#section_D2C6971545BA4D639FBE07F13EF08895}
 

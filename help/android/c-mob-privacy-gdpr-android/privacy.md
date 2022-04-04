@@ -1,11 +1,11 @@
 ---
 description: 此信息可以帮助您处理 GDPR 数据删除请求。
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: 设置用户的选择状态
 topic-fix: Developer and implementation
 uuid: f8a3e6be-44dd-494e-9cda-dbbac86d6772
 exl-id: ef5160ac-5a73-4433-b217-1bd990f8456b
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '251'
 ht-degree: 100%

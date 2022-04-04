@@ -1,11 +1,11 @@
 ---
 description: '以下信息可帮助您配置 iOS SDK，包括 JSON 配置、点击批量处理和 SDK 方法 '
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: 配置
 topic-fix: Developer and implementation
 uuid: 63261b61-e70a-42be-a56f-5943173c041e
 exl-id: ff1f7fcd-1dc9-49b4-aead-46134600f3ab
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '126'
 ht-degree: 100%

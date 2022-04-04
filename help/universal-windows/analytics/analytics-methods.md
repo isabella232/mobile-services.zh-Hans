@@ -1,11 +1,11 @@
 ---
 description: 此信息可帮助您将通用Windows平台SDK与Adobe Analytics结合使用。
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: Analytics 方法
 topic-fix: Developer and implementation
 uuid: cc299bb5-ec61-49bf-869a-f3c3bc83359f
 exl-id: 3ceaedfa-274f-4dc7-9e4c-15233d09f935
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '617'
 ht-degree: 58%
@@ -22,11 +22,11 @@ SDK当前支持多个Adobe Experience Cloud解决方案，包括Analytics、Targ
 
 >[!TIP]
 >
->当您从winJS(JavaScript)中使用`winmd`方法时，所有方法都会自动将其第一个字母小写。
+>您何时使用 `winmd` 方法(来自winJS(JavaScript))中，所有方法都会自动将其第一个字母小写。
 
 * **TrackState(winJS:trackState)**
 
-   通过可选的上下文数据跟踪应用程序状态。状态是指您的应用程序中提供的一些视图，例如“主页功能板”、“应用程序设置”、“购物车”等。 这些状态与网站中的页面类似，而且 `TrackState` 调用会使页面查看次数递增。如果`state`为空，它会在报表中显示为“应用程序名称应用程序版本（内部版本）”。 如果在报表中看到此值，请确保在每个`TrackState`调用中设置`state`。
+   通过可选的上下文数据跟踪应用程序状态。状态是指您的应用程序中提供的一些视图，例如“主页功能板”、“应用程序设置”、“购物车”等。 这些状态与网站中的页面类似，而且 `TrackState` 调用会使页面查看次数递增。如果 `state` 为空时，它会在报表中显示为“应用程序名称应用程序版本（内部版本）”。 如果您在报表中看到此值，请确保在 `state` 每个 `TrackState` 呼叫。
 
    >[!TIP]
    >

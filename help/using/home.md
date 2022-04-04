@@ -1,31 +1,31 @@
 ---
 description: Adobe Mobile Services 的技术文档
-solution: Experience Cloud, Analytics, Experience Cloud
+solution: Experience Cloud Services,Analytics
 title: Adobe Mobile Services
 uuid: e86a77c9-4ff1-403f-a5a1-4afbdc4e6f68
 exl-id: 5ca1dad0-aa34-4950-b8e7-b73d691e4b03
-source-git-commit: d1ebb2bbc4742f5288f90a90e977d252f3f30aa3
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '252'
 ht-degree: 72%
 
 ---
 
-# AdobeMobile Services {#adobe-mobile-services}
+# AdobeMobile服务 {#adobe-mobile-services}
 
 本指南概述了 Adobe Mobile Services 的技术文档和自助帮助，其中整合了 Adobe Experience Cloud 中移动设备应用程序的移动营销功能，从而使您能够了解并提高用户对移动设备应用程序的参与度。
 
 >[!IMPORTANT]
 >
->Mobile Services于2022年12月31日&#x200B;****&#x200B;终止使用。 请参阅[Mobile Services生命周期终止常见问题解答](eol.md)。
+>Mobile服务于 **2022年12月31日**. 请参阅 [Mobile服务生命周期终止常见问题解答](eol.md).
 
 ## 停止对4x SDK的支持
 
-自2021年8月31日起，停止对Mobile [版本4 SDK的支持。 ](https://github.com/Adobe-Marketing-Cloud/mobile-services)请参阅[版本4 Mobile SDK支持终止常见问题解答](https://aep-sdks.gitbook.io/docs/version-4-sdk-end-of-support-faq)。
+支持Mobile [版本4 SDK](https://github.com/Adobe-Marketing-Cloud/mobile-services) 已于2021年8月31日终止。 请参阅 [版本4 Mobile SDK支持终止常见问题解答](https://aep-sdks.gitbook.io/docs/version-4-sdk-end-of-support-faq).
 
 ## Adobe Experience Platform SDK
 
-Adobe当前的移动营销解决方案是Adobe Experience Platform SDK。 请参阅[Adobe Experience Platform SDK文档](https://aep-sdks.gitbook.io/docs/)。
+Adobe当前的移动营销解决方案是Adobe Experience Platform SDK。 请参阅 [Adobe Experience Platform SDK文档](https://aep-sdks.gitbook.io/docs/).
 
 ## SDK 文档 {#section_3A500233347C4305AB545E298A827CEA}
 

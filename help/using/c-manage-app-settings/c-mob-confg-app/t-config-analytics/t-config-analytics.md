@@ -1,12 +1,12 @@
 ---
 description: 创建新应用程序或编辑现有应用程序时，您可以在“管理应用程序设置”页面上配置“SDK Analytics”选项。
 keywords: mobile
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: 配置 SDK Analytics 选项
 topic-fix: Metrics
 uuid: fd3a21d2-6560-4e96-92fe-b99caac5e834
 exl-id: f2c35b65-1052-4bfc-af9d-8778e4ff0522
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '364'
 ht-degree: 100%

@@ -1,12 +1,12 @@
 ---
 description: 此信息可帮助您发送信号，并从 Audience Manager 中检索访客区段。
 keywords: Android;库;移动;SDK
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: Audience Manager 概述
 topic-fix: Developer and implementation
 uuid: cfa4106d-13c1-45ba-bee6-6f992aaf9919
 exl-id: b6cbe410-3ee4-44d4-a4e6-74291f45be81
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '127'
 ht-degree: 100%

@@ -1,10 +1,10 @@
 ---
-description: 此信息可帮助您将扩展与适用于Experience Cloud解决方案的Windows 8.1跨平台通用应用商店SDK结合使用。
-solution: Experience Cloud,Analytics
+description: 此信息可帮助您将扩展与Windows 8.1通用App Store SDK结合使用，以用于Experience Cloud解决方案。
+solution: Experience Cloud Services,Analytics
 title: 扩展
 topic-fix: Developer and implementation
 uuid: 2823b22c-d9a1-4724-9020-dfc6614691be
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '48'
 ht-degree: 29%
@@ -14,7 +14,7 @@ ht-degree: 29%
 
 # 扩展{#extensions}
 
-此信息可帮助您将扩展与适用于Experience Cloud解决方案的Windows 8.1跨平台通用应用商店SDK结合使用。
+此信息可帮助您将扩展与Windows 8.1通用App Store SDK结合使用，以用于Experience Cloud解决方案。
 
 ## 其他信息
 

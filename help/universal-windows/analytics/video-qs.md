@@ -1,11 +1,11 @@
 ---
 description: 可帮助您使用Video Analytics的信息。
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: Video Analytics
 topic-fix: Developer and implementation
 uuid: f45dac3b-cd2e-4fba-a3b2-c243640ecfa4
 exl-id: bf7a2936-4a90-4630-8a0c-df41baa1d6a8
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '888'
 ht-degree: 71%
@@ -16,13 +16,13 @@ ht-degree: 71%
 
 可帮助您使用Video Analytics的信息。
 
-在[在Adobe Analytics](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=zh-Hans)中测量流媒体指南中对视频测量进行了详细描述。 在所有AppMeasurement平台中，测量视频的一般过程都非常相似。 此快速入门部分提供了开发人员任务的基本概述以及代码示例。
+视频测量在 [在Adobe Analytics中测量流媒体](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=zh-Hans) 的双曲余切值。 在所有AppMeasurement平台中，测量视频的一般过程都非常相似。 此快速入门部分提供了开发人员任务的基本概述以及代码示例。
 
 下表列出了发送到 Analytics 的媒体数据。使用处理规则将上下文数据映射到 Analytics 变量。
 
 * **a.media.name**
 
-   （**必需**）当访客以某种方式查看视频时，按照实施中指定的方式收集视频名称。您可以为此变量添加分类。
+   (**必需**)在访客以某种方式查看视频时收集实施中指定的视频名称。您可以为此变量添加分类。
 
    （**可选**）自定义分析变量可提供视频路径信息。
 
@@ -41,7 +41,7 @@ ht-degree: 71%
 
    （**必需**）收集视频区段数据，包括区段名称以及区段在视频中出现的顺序。
 
-   此变量在自动跟踪播放器事件时通过启用 `segmentByMilestones` 变量来填充，或在手动跟踪播放器事件时通过设置自定义区段名称来填充。例如，当访客查看视频中的第一个区段时，SiteCatalyst可能会在`1:M:0-25`区段eVar中收集以下信息。
+   此变量在自动跟踪播放器事件时通过启用 `segmentByMilestones` 变量来填充，或在手动跟踪播放器事件时通过设置自定义区段名称来填充。例如，当访客查看视频中的第一个区段时，SiteCatalyst可能会在 `1:M:0-25` 区段eVar。
 
    默认的视频数据收集方法会在以下时间点收集数据：视频开始（播放）、区段开始和视频结束（停止）。 Analytics 会在访客开始观看时，将区段的开始计为第一个区段视图。在区段开始播放后，则计为后续区段视图。
 
@@ -158,7 +158,7 @@ property bool isMediaAd;
 
 * **打开(winJS:open)**
 
-   使用`settings`中定义的设置跟踪媒体打开情况。
+   使用 `settings`.
 
    * 以下是此方法的语法：
 
@@ -174,7 +174,7 @@ property bool isMediaAd;
 
 * **关闭(winJS:close)**
 
-   跟踪名为&#x200B;*`name`*&#x200B;的媒体项目的媒体关闭。
+   跟踪名为的媒体项目的媒体关闭 *`name`*.
 
    * 以下是此方法的语法：
 
@@ -190,7 +190,7 @@ property bool isMediaAd;
 
 * **播放(winJS:play)**
 
-   在给定的&#x200B;*offset*&#x200B;跟踪名为&#x200B;*`name`*&#x200B;的媒体项目的媒体播放（以秒为单位）。
+   跟踪名为的媒体项目的媒体播放 *`name`* 在给定 *偏移* （以秒为单位）。
 
    * 以下是此方法的语法：
 

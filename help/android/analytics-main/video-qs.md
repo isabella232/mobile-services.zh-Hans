@@ -1,12 +1,12 @@
 ---
 description: 以下是有关在 Android 上使用视频测量解决方案测量视频的一些信息。
 keywords: Android;库;移动;SDK
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: Video Analytics
 topic-fix: Developer and implementation
 uuid: a137cc27-dc28-48c0-b08e-2ca17d2c7e1d
 exl-id: 1b7f5523-767a-45e8-b2e7-ecf9984849e4
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '866'
 ht-degree: 98%
@@ -19,7 +19,7 @@ ht-degree: 98%
 
 >[!TIP]
 >
->在视频播放过程中，会向此服务发送频繁的“心率”调用，以测量播放的时间。这些心率调用每 10 秒发送一次，从而生成精细的视频参与量度和更准确的视频流失报表。有关Adobe视频测量解决方案的更多信息，请参阅[在Adobe Analytics中测量流媒体](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=zh-Hans)。
+>在视频播放过程中，会向此服务发送频繁的“心率”调用，以测量播放的时间。这些心率调用每 10 秒发送一次，从而生成精细的视频参与量度和更准确的视频流失报表。有关Adobe视频测量解决方案的更多信息，请参阅 [在Adobe Analytics中测量流媒体](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=zh-Hans).
 
 在所有平台中，测量视频的常规过程都非常相似。本文中的内容提供了开发人员任务概述以及代码示例。下表列出了发送到 Analytics 的媒体数据。处理规则用于将上下文数据映射到 Analytics 变量。
 

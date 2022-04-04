@@ -1,14 +1,14 @@
 ---
 description: '在配置报表包并收集 Android 应用程序数据之前，请完成以下先决任务 '
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: 开始之前
 topic-fix: Developer and implementation
 uuid: 0ca9e937-8d40-4570-9dbf-9aecc6ecedf6
 exl-id: e9c0fd94-b61d-4f56-97b8-f71aac096c93
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '731'
-ht-degree: 95%
+ht-degree: 96%
 
 ---
 
@@ -49,7 +49,7 @@ Adobe Mobile Services 是用于移动设备应用程序分析和定位的主要�
 
 ### Experience Cloud
 
-使用您的 Adobe ID 登录到 [Experience Cloud](https://experiencecloud.adobe.com)。此方法假定您的公司已在 Experience Cloud 中进行配置，并且您已经关联 Analytics 帐户。有关更多信息，请参阅《Experience Cloud中心界面组件指南》中的[管理Experience Cloud用户和产品](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html) 。
+使用您的 Adobe ID 登录到 [Experience Cloud](https://experiencecloud.adobe.com)。此方法假定您的公司已在 Experience Cloud 中进行配置，并且您已经关联 Analytics 帐户。有关更多信息，请参阅 [管理Experience Cloud用户和产品](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html?lang=zh-Hans) 中的Experience Cloud中心界面组件指南。
 
 >[!TIP]
 >
@@ -63,7 +63,7 @@ Adobe Mobile Services 是用于移动设备应用程序分析和定位的主要�
 
 要创建报表包以收集应用程序数据并定义应用程序，请执行以下操作：
 
-1. 登录到[AdobeMobile Services](https://mobilemarketing.adobe.com)。
+1. 登录到 [AdobeMobile服务](https://mobilemarketing.adobe.com).
 1. 单击&#x200B;**[!UICONTROL 创建应用程序]**。
 
    如果未看到此按钮，请单击&#x200B;**[!UICONTROL 管理应用程序]** > **[!UICONTROL 添加]**。

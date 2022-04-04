@@ -1,11 +1,11 @@
 ---
-description: 此信息可帮助您将Windows 8.1通用应用商店SDK与Adobe Analytics结合使用。
-solution: Experience Cloud,Analytics
+description: 此信息可帮助您将Windows 8.1通用App Store SDK与Adobe Analytics结合使用。
+solution: Experience Cloud Services,Analytics
 title: Analytics 方法
 topic-fix: Developer and implementation
 uuid: 79db105c-216c-4061-97f3-a55954995e67
 exl-id: 007bb801-55ef-4c5b-87fa-d0db42cde163
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '614'
 ht-degree: 53%
@@ -14,7 +14,7 @@ ht-degree: 53%
 
 # Analytics 方法 {#analytics-methods}
 
-此信息可帮助您将Windows 8.1通用应用商店SDK与Adobe Analytics结合使用。
+此信息可帮助您将Windows 8.1通用App Store SDK与Adobe Analytics结合使用。
 
 SDK当前支持多个Adobe Experience Cloud解决方案，包括Analytics、Target和Audience Manager。 方法将根据解决方案来添加前缀。Analytics方法的前缀为“Analytics”。
 
@@ -22,11 +22,11 @@ SDK当前支持多个Adobe Experience Cloud解决方案，包括Analytics、Targ
 
 >[!TIP]
 >
->当您从winJS(JavaScript)中使用`winmd`方法时，所有方法都会自动将其第一个字母小写。
+>您何时使用 `winmd` 方法(来自winJS(JavaScript))中，所有方法都会自动将其第一个字母小写。
 
 * **TrackState(winJS:trackState)**
 
-   通过可选的上下文数据跟踪应用程序状态。状态是指您的应用程序中提供的一些视图，例如“主页功能板”、“应用程序设置”、“购物车”等。 这些状态与网站中的页面类似，而且 `TrackState` 调用会使页面查看次数递增。如果`state`为空，它会在报表中显示为“应用程序名称应用程序版本（内部版本）”。 如果在报表中看到此值，请确保在每个`TrackState`调用中设置`state`。
+   通过可选的上下文数据跟踪应用程序状态。状态是指您的应用程序中提供的一些视图，例如“主页功能板”、“应用程序设置”、“购物车”等。 这些状态与网站中的页面类似，而且 `TrackState` 调用会使页面查看次数递增。如果 `state` 为空时，它会在报表中显示为“应用程序名称应用程序版本（内部版本）”。 如果您在报表中看到此值，请确保在 `state` 每个 `TrackState` 呼叫。
 
    >[!TIP]
    >
@@ -139,7 +139,7 @@ SDK当前支持多个Adobe Experience Cloud解决方案，包括Analytics、Targ
 
 * **TrackTimed ActionUpdate&#x200B;(winJS:trackTimed &#x200B; ActionUpdate)**
 
-   传入 `contextData`，以更新与给定 `action` 关联的上下文数据。传递的`data`将附加到给定操作的现有数据中，如果已经为`action`定义了相同的键，则会覆盖数据。
+   传入 `contextData`，以更新与给定 `action` 关联的上下文数据。的 `data` 传递的将附加到给定操作的现有数据中，如果已经为定义了相同的键，则会覆盖数据 `action`.
 
    >[!TIP]
    >

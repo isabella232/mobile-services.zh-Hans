@@ -1,11 +1,11 @@
 ---
 description: 此信息可帮助您使用ADBMobile JSON配置文件。
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: ADBMobileConfig.json配置文件
 topic-fix: Developer and implementation
 uuid: a45b91cc-982e-4d6c-a4e4-d2e4b4fa7556
 exl-id: 520dffb8-ca47-444f-bbc9-f18413ddeb05
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '609'
 ht-degree: 41%
@@ -14,7 +14,7 @@ ht-degree: 41%
 
 # `ADBMobileConfig.json` 配置文件 {#adbmobileconfig-json-config}
 
-可帮助您使用`ADBMobile.json`配置文件的信息。
+可帮助您使用 `ADBMobile.json` 配置文件。
 
 SDK当前支持多个Adobe Experience Cloud解决方案，包括Analytics、Target和Audience Manager。 方法将根据解决方案来添加前缀。配置方法的前缀为“Config”。
 
@@ -34,13 +34,13 @@ SDK当前支持多个Adobe Experience Cloud解决方案，包括Analytics、Targ
 
 * **server**
 
-   （Analytics和受众管理需要）。 基于父节点的Analytics或受众管理服务器。 应当使用不含 `https://` 或 `https://` 协议前缀的服务器域填充此变量。协议前缀由库基于`ssl`变量自动处理。
+   （Analytics和受众管理需要）。 基于父节点的Analytics或受众管理服务器。 应当使用不含 `https://` 或 `https://` 协议前缀的服务器域填充此变量。协议前缀由库根据 `ssl` 变量。
 
    如果 `ssl` 为 `true`，则对此服务器进行安全连接。如果 `ssl` 为 `false`，则对此服务器进行非安全连接。
 
 * **charset**
 
-   定义您用于发送到Analytics的数据的字符集。 charset 用于将传入的数据转换为 UTF-8 以便进行存储和报告。有关更多信息，请参阅Adobe Analytics文档中的[charSet](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/charset.html)变量。
+   定义您用于发送到Analytics的数据的字符集。 charset 用于将传入的数据转换为 UTF-8 以便进行存储和报告。有关更多信息，请参阅 [charSet](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/charset.html) 变量。
 
 * **ssl**
 
@@ -52,7 +52,7 @@ SDK当前支持多个Adobe Experience Cloud解决方案，包括Analytics、Targ
 
    >[!IMPORTANT]
    >
-   >如果报表包上启用了时间戳，则`offlineEnabled`配置属性&#x200B;*必须*&#x200B;为true。 如果报表包未启用时间戳，则 `offlineEnabled` 配置属性&#x200B;*必须*&#x200B;为 false。如果未正确配置，数据将丢失。如果您不确定报表包是否启用了时间戳，请联系客户关怀团队。 如果您当前向某个报表包报告AppMeasurement数据，而该报表包也从JavaScript收集数据，则您可能需要为移动数据设置一个单独的报表包，或使用`s.timestamp`变量在所有JavaScript点击中包含自定义时间戳。
+   >如果报表包已启用时间戳，则 `offlineEnabled` 配置属性 *必须* 是真的。 如果报表包未启用时间戳，则 `offlineEnabled` 配置属性&#x200B;*必须*&#x200B;为 false。如果未正确配置，数据将丢失。如果您不确定报表包是否启用了时间戳，请联系客户关怀团队。 如果您当前向某个报表包报告AppMeasurement数据，而该报表包也从JavaScript收集数据，则您可能需要为移动数据设置一个单独的报表包，或使用 `s.timestamp` 变量。
 
 * **lifecycleTimeout**
 
@@ -60,13 +60,13 @@ SDK当前支持多个Adobe Experience Cloud解决方案，包括Analytics、Targ
 
 * **batchLimit**
 
-   批量发送点击。 例如，如果设置为50，则点击将排入队列，直到存储50，然后发送所有已排队的点击。 需要 `offlineEnabled=true`。默认值为`0`（无批量处理）。
+   批量发送点击。 例如，如果设置为50，则点击将排入队列，直到存储50，然后发送所有已排队的点击。 需要 `offlineEnabled=true`。默认值为 `0` （无批量处理）。
 
 * **privacyDefault**
 
    * `optedin` - 立即发送点击。
    * `optedout` - 丢弃点击。
-   * `optunknown`  — 如果您的报表包启用了时间戳，将会保存点击，直到隐私状态更改为选择启用（发送点击）或选择禁用（丢弃点击）。如果您的报表包未启用时间戳，则将丢弃点击，直到隐私状态更改为选择启用。
+   * `optunknown`  — 如果您的报表包启用了时间戳，将会保存点击，直到隐私状态更改为选择启用（发送点击）或选择禁用（丢弃点击）。 如果您的报表包未启用时间戳，则将丢弃点击，直到隐私状态更改为选择启用。
 
       默认值为 `optedin`。
 
@@ -89,13 +89,13 @@ SDK当前支持多个Adobe Experience Cloud解决方案，包括Analytics、Targ
 
 * **clientCode**
 
-   （**Target**&#x200B;必需）您分配的客户端代码。
+   (**Target必需**)您分配的客户端代码。
 
 * **timeout**
 
    确定 Target 等待响应的时间。
 
-以下是`ADBMobileConfig.json`文件的示例：
+以下是 `ADBMobileConfig.json` 文件：
 
 ```js
 { 

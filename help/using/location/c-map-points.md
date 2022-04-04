@@ -1,12 +1,12 @@
 ---
 description: 您可以查看交互式地图，它会显示您的目标点和其他数据标记。
 keywords: mobile
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: 地图
 topic-fix: Metrics
 uuid: 3c271738-eb8d-4c26-baaf-54b247bfc4da
 exl-id: a7e75333-2919-44bf-9963-f40cdee2d6b6
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '297'
 ht-degree: 100%

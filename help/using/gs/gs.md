@@ -1,12 +1,12 @@
 ---
 description: 此信息可帮助您了解和使用 Adobe Mobile Services。
 keywords: mobile
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: 快速入门
 topic-fix: Metrics
 uuid: a7ae7c5a-dab8-4603-b4cd-af73a2f09f71
 exl-id: 0c08e154-8747-45dc-9731-ab2a3e78bc5a
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '1344'
 ht-degree: 97%
@@ -26,7 +26,7 @@ Adobe Mobile Services 由以下部分组成：
 
 如今，移动设备应用程序的格局与智能手机最初面世时截然不同。通过移动设备应用程序将客户与品牌连接起来远远不够；现如今，您必须跨渠道提供有凝聚力的绝佳客户体验，并将移动设备应用程序作为战略切入点来吸引最忠诚的高价值客户。但是，要让这些用户与您的应用程序持续互动，则必须提供引人入胜的内容、情境式通知、智能个性化推荐以及集成式应用程序分析功能等等。
 
-## AdobeMobile Services UI {#mobile-services-ui}
+## AdobeMobile服务UI {#mobile-services-ui}
 
 以下浏览器支持 Mobile Services UI：
 
@@ -111,7 +111,7 @@ Adobe Mobile Services 提供了用于衡量渠道在获取应用程序用户方�
 
 在&#x200B;*优化*&#x200B;中，您可以优化转化（订阅、商务、广告收入等）并提升客户维系。优化应用程序中的用户体验可以帮助您提供个性化的内容，从而最大限度地提高 ROI 和促进转化。
 
-有关测试和Adobe Target的更多信息，请参阅[Adobe Target](https://experienceleague.adobe.com/docs/target/using/target-home.html)文档。
+有关测试和Adobe Target的更多信息，请参阅 [Adobe Target](https://experienceleague.adobe.com/docs/target/using/target-home.html) 文档。
 
 ### 地域定向
 

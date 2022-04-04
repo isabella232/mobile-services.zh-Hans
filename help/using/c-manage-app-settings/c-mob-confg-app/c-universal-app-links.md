@@ -1,11 +1,11 @@
 ---
 description: 在应用程序和网站中关联对于保持用户体验很重要。 了解通用链接和应用程序链接的工作原理以及它们之间的差异。
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: 通用链接和应用程序链接指南
 topic-fix: Metrics
 uuid: 8d6441dc-4307-4454-95ea-d77ec796f918
 exl-id: 6613189f-7a14-4066-89e9-996d4fe7f128
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '1118'
 ht-degree: 96%

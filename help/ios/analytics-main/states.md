@@ -1,11 +1,11 @@
 ---
 description: 状态是指您的应用程序中的不同屏幕或视图。每当应用程序中显示了新状态（例如，用户从主页导航到新闻源）时，应会发送一个跟踪状态调用。在 iOS 中，通常会在每种视图的 viewDidLoad 方法中跟踪状态。
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: 跟踪应用程序状态
 topic-fix: Developer and implementation
 uuid: 12cca4eb-1f15-4cec-a58f-76b69eaff99d
 exl-id: 1b7d2fbb-d2df-4063-b923-e59fa3582830
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '339'
 ht-degree: 100%

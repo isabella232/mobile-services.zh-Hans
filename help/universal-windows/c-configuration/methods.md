@@ -1,11 +1,11 @@
 ---
 description: 通用Windows平台库提供的类和方法。
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: SDK 方法
 topic-fix: Developer and implementation
 uuid: e3aa41d6-7bc0-4208-a662-12907c209a77
 exl-id: 0aac477c-074d-457c-b117-bb205119c475
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '576'
 ht-degree: 63%
@@ -18,7 +18,7 @@ ht-degree: 63%
 
 >[!TIP]
 >
->当您从winJS(JavaScript)中使用`winmd`方法时，所有方法都会自动将其第一个字母小写。
+>您何时使用 `winmd` 方法(来自winJS(JavaScript))中，所有方法都会自动将其第一个字母小写。
 
 * **GetVersion(winJS:getVersion)**
 
@@ -44,7 +44,7 @@ ht-degree: 63%
    * `ADBMobilePrivacyStatusOptOut`  — 丢弃点击。
    * `ADBMobilePrivacyStatusUnknown` - 如果您的报表包启用了时间戳，将会保存点击，直到隐私状态更改为选择启用（发送点击）或选择禁用（丢弃点击）。如果您的报表包未启用时间戳，则将丢弃点击，直到隐私状态更改为选择启用。
 
-      默认值在`ADBMobileConfig.json`配置文件中设置。 有关更多信息，请参阅[ADBMobileConfig.json配置文件](/help/universal-windows/c-configuration/c.json.md)。
+      默认值在 `ADBMobileConfig.json` 配置文件。 有关更多信息，请参阅 [ADBMobileConfig.json配置文件](/help/universal-windows/c-configuration/c.json.md).
 
    * 以下是此方法的语法：
 
@@ -78,7 +78,7 @@ ht-degree: 63%
    将当前用户的隐私状态设置为 `status`。设置为以下值之一：
    * `ADBMobilePrivacyStatusOptIn` - 立即发送点击。
    * `ADBMobilePrivacyStatusOptOut` - 丢弃点击。
-   * `DBMobilePrivacyStatusUnknown`  — 如果您的报表包启用了时间戳，将会保存点击，直到隐私状态更改为选择启用（发送点击）或选择禁用（丢弃点击）。如果您的报表包未启用时间戳，则将丢弃点击，直到隐私状态更改为选择启用。
+   * `DBMobilePrivacyStatusUnknown`  — 如果您的报表包启用了时间戳，将会保存点击，直到隐私状态更改为选择启用（发送点击）或选择禁用（丢弃点击）。 如果您的报表包未启用时间戳，则将丢弃点击，直到隐私状态更改为选择启用。
 
       * 以下是此方法的语法：
 
@@ -125,7 +125,7 @@ ht-degree: 63%
 
 * **GetUserIdentifier(winJS:getUserIdentifier)**
 
-   如果已设置自定义标识符，则返回自定义用户标识符。 如果未设置自定义标识符，则返回`null`。
+   如果已设置自定义标识符，则返回自定义用户标识符。 返回结果 `null` 如果未设置自定义标识符。
 默认值为 `null`。
 
    >[!IMPORTANT]

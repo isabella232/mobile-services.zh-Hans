@@ -1,12 +1,12 @@
 ---
 description: 列出可由移动设备库自动测量的量度和维度。
 keywords: Android;库;移动;SDK
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: 生命周期量度
 topic-fix: Developer and implementation
 uuid: f958c3ef-1d79-4b30-8966-ef74bd48a5d6
 exl-id: 19572f15-c5df-40fe-9979-3a5bdd581f2b
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '905'
 ht-degree: 84%
@@ -17,7 +17,7 @@ ht-degree: 84%
 
 列出可由移动设备库自动测量的量度和维度。
 
-有关更多信息，请参阅[生命周期数据疑难解答](https://helpx.adobe.com/cn/analytics/kb/troubleshoot-lifecycle-data.html)。
+有关更多信息，请参阅 [生命周期数据疑难解答](https://helpx.adobe.com/cn/analytics/kb/troubleshoot-lifecycle-data.html).
 
 
 ## 生命周期量度和维度 {#section_78F036C4296F4BA3A47C2044F79C86C1}
@@ -264,21 +264,21 @@ ht-degree: 84%
 
 * **目标点名称**
 
-   当设备位于定义的POI中时，由`trackLocation`方法填充。
+   填充者 `trackLocation` 方法。
 
    * Analytics 上下文数据/Target 参数：`a.loc.poi`
-   * Audience Manager特征：`c_a_loc_poi`
+   * Audience Manager特征： `c_a_loc_poi`
 
 * **与目标点中心的距离**
 
-   当设备位于定义的POI内时，由`trackLocation`方法填充。
+   填充者 `trackLocation` 方法。
 
    * Analytics 上下文数据/Target 参数：`a.loc.dist`
-   * Audience Manager特征：`c_a_loc_dist`
+   * Audience Manager特征： `c_a_loc_dist`
 
 * **生命周期值（转化变量）**
 
    由 `trackLifetimeValue` 方法填充。
 
-   * Analytics 上下文数据/Target 参数：  `a.ltv.amount`
-   * Audience Manager特征：`c_a_ltv_amount`
+   * Analytics 上下文数据/Target 参数： `a.ltv.amount`
+   * Audience Manager特征： `c_a_ltv_amount`

@@ -1,12 +1,12 @@
 ---
 description: 您可以将用户路由到相应的目标：用户安装了应用程序，则路由到应用程序深层链接；用户没有安装应用程序，则路由到某个网站或应用商店。
 keywords: mobile
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: 插播式广告
 topic-fix: Metrics
 uuid: 7dce8ab2-2a5d-4384-ac1e-e31dfaa33654
 exl-id: b6d4588f-4f28-4c1b-9291-f4b9154d84f7
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '356'
 ht-degree: 100%

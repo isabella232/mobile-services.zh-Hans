@@ -1,11 +1,11 @@
 ---
 description: 此信息可帮助您使用 App Transport Security (ATS)，这是 iOS 9 的一组新安全要求。
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: App Transport Security
 topic-fix: Developer and implementation
 uuid: e9ee13cf-9802-492e-8b11-95f028e34e61
 exl-id: 2fe94e76-06d6-4ad1-95ba-193ae3df4d58
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '463'
 ht-degree: 100%

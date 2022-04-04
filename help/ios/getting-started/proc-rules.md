@@ -1,11 +1,11 @@
 ---
 description: 处理规则用于将您在上下文数据变量中发送的数据复制到eVar、prop和其他变量以供报告。
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: 处理规则和上下文数据
 topic-fix: Developer and implementation
 uuid: 51338ccd-fa52-4d9c-97c4-947a4100465d
 exl-id: a3968160-42c4-4671-b541-c14639b8a451
-source-git-commit: 1fa6111d6bf1c2d36f15d2f037718646a035435a
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '252'
 ht-degree: 67%
@@ -16,7 +16,7 @@ ht-degree: 67%
 
 处理规则用于将您在上下文数据变量中发送的数据复制到eVar、prop和其他变量以供报告。
 
-有关处理规则的更多信息，请参阅Adobe Analytics文档中的[处理规则概述](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/processing-rules/processing-rules.html)。
+有关处理规则的更多信息，请参阅 [处理规则概述](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/processing-rules/processing-rules.html) (在Adobe Analytics文档中)。
 
 在使用处理规则时，请牢记以下信息：
 

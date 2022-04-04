@@ -1,11 +1,11 @@
 ---
 description: 带有唯一跟踪码的客户获取链接可以在 Adobe Mobile Services 中生成。当用户在单击生成的链接后从 Apple App Store 下载并运行应用程序时，SDK 会自动收集客户获取数据并将这些数据发送至 Adobe Mobile Services。
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: 移动设备应用程序客户获取
 topic-fix: Developer and implementation
 uuid: 5fece619-e4b8-4d06-9250-dcb66fa32ce0
 exl-id: a90dcb2f-babb-4c97-b67a-8468925ee5c8
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '366'
 ht-degree: 100%

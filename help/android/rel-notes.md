@@ -1,11 +1,11 @@
 ---
 description: 适用于 Experience Cloud 解决方案的 Android SDK 4.x 的发行说明和已知问题。
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: 发行说明
 topic-fix: Developer and implementation
 uuid: 16bb4de8-a216-47a8-928c-0b1e1421adcf
 exl-id: 5cc3d031-5952-4e9b-b551-9402d3c05ccb
-source-git-commit: d1ebb2bbc4742f5288f90a90e977d252f3f30aa3
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '283'
 ht-degree: 72%
@@ -18,11 +18,11 @@ ht-degree: 72%
 
 ## 2020年4月3日：4.18.2
 
-* 应用程序内消息 — 出于安全原因，SDK创建的WebViews现在将属性`setAllowFileAccess`设置为`false`。
+* 应用程序内消息 — 出于安全原因，SDK创建的WebViews现在设置属性 `setAllowFileAccess` to `false`.
 
 ## 2020年3月12日：4.18.1
 
-* Target - Target会话ID现在作为上下文数据参数`a.target.sessionId`添加到发往Adobe Analytics的Analytics-for-Target内部点击中。
+* Target - Target会话ID现在添加为上下文数据参数 `a.target.sessionId` (在发送到Adobe Analytics的Analytics-for-Target内部点击中)。
 
 ## 2020年1月16日：4.18.0
 
@@ -49,7 +49,7 @@ ht-degree: 72%
 
 ## 2019 年 5 月 24 日：版本 4.17.6
 
-* 访客ID服务 — `setPushIdentifier` API调用现在会在每次调用时向访客ID服务发送同步调用。
+* 访客ID服务 —  `setPushIdentifier` API调用现在会在每次调用时向访客ID服务发送同步调用。
 * 访客 ID 服务 - 将连接和读取超时从 2 秒增加到 5 秒。
 
 有关所有解决方案当前和以往发行说明的更多信息，请参阅 [Adobe Experience Cloud 发行说明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html)。

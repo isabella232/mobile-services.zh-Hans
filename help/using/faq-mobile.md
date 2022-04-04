@@ -1,12 +1,12 @@
 ---
 description: Adobe Mobile Services 的常见问题和解答及各项功能的一般性描述。
 keywords: mobile
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: 常见问题
 topic-fix: Metrics
 uuid: 62a9241c-2ada-483a-a594-b023916cb0b6
 exl-id: d7dfc36e-56f0-498a-ad50-93fee90cb6ff
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '1031'
 ht-degree: 96%
@@ -21,7 +21,7 @@ ht-degree: 96%
 
 ### 我应当采用哪个 SDK 版本？
 
-我们当前的SDK版本为4.11。有关更多信息，请参阅[发行说明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=zh-Hans)。
+我们当前的SDK版本为4.11。有关更多信息，请参阅 [发行说明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=zh-Hans).
 
 ### 我可从那里下载 SDK？
 
@@ -45,7 +45,7 @@ Adobe Mobile SDK 使用标准的 iOS 和 Android 网络堆栈。对于 iOS，SDK
 
 ### 如何排解处理规则问题？
 
-请参阅Adobe Analytics文档中的[处理规则提示和技巧](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/processing-rules/processing-rules-tips.html)。
+请参阅 [处理规则的提示和技巧](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/processing-rules/processing-rules-tips.html) (在Adobe Analytics文档中)。
 
 ### 能否将分析数据发送到多个报表包？
 

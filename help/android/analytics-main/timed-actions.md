@@ -1,11 +1,11 @@
 ---
 description: 定时操作允许您测量某个操作从开始到结束之间的应用程序内时间和总时间。SDK 会计算每个会话中的时长以及完成操作所花费的总时间（跨会话）。您可以使用定时操作定义区段，并比较购买时间、通过水平、结帐流程等。
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: 定时操作
 topic-fix: Developer and implementation
 uuid: 5a48a580-b942-4e49-9f1b-078fea7fccdb
 exl-id: d9851440-6e65-4d89-a6b3-81c8abd2bf06
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '346'
 ht-degree: 100%

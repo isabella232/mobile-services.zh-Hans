@@ -1,11 +1,11 @@
 ---
 description: 以下是 iOS 库提供的方法列表。
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: 配置方法
 topic-fix: Developer and implementation
 uuid: 623c7b07-fbb3-4d39-a5c4-e64faec4ca29
 exl-id: b6841808-8fa8-4090-8cb3-ce647a3d5d08
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '1183'
 ht-degree: 100%

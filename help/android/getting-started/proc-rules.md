@@ -1,11 +1,11 @@
 ---
 description: 处理规则用于将您在上下文数据变量中发送的数据复制到eVar、prop和其他变量以供报告。
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: 处理规则和上下文数据
 topic-fix: Developer and implementation
 uuid: ea892228-86f5-4980-acb8-45ae43c6996d
 exl-id: 543201fd-8118-485f-8235-26ec8f9bbb11
-source-git-commit: d1ebb2bbc4742f5288f90a90e977d252f3f30aa3
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '242'
 ht-degree: 72%

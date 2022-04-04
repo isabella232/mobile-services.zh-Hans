@@ -1,15 +1,15 @@
 ---
 description: 在应用程序中配置推送消息之前，您必须先完成这些任务。
 keywords: mobile
-solution: Experience Cloud,Analytics
+solution: Experience Cloud Services,Analytics
 title: 启用推送消息的先决条件
 topic-fix: Metrics
 uuid: 194e6e07-b794-4152-a838-a4125c3292d4
 exl-id: 543155a4-f687-48a6-8690-5c8da8490c62
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '633'
-ht-degree: 94%
+ht-degree: 95%
 
 ---
 
@@ -54,7 +54,7 @@ ht-degree: 94%
 
 每个用户必须关联 Experience Cloud 组织内的 Analytics 解决方案帐户。
 
-1. 使用Adobe ID登录到[Adobe Experience Cloud](https://experience.adobe.com)。
+1. 登录到 [Adobe Experience Cloud](https://experience.adobe.com) 和Adobe ID。
 
 1. 选择位于右上角的 Analytics 公司名称。
 
@@ -64,7 +64,7 @@ ht-degree: 94%
 
    Adobe ID 现在已关联到您的 Analytics 帐户、公司和登录凭据。
 
-有关更多信息，请参阅《Experience Cloud中心界面组件指南》中Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html)中的[组织。
+有关更多信息，请参阅 [Experience Cloud中的组织](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=zh-Hans) 中的Experience Cloud中心界面组件指南。
 
 ## 在 Mobile 用户界面中配置推送服务和 SDK ID 服务
 

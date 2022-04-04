@@ -1,11 +1,11 @@
 ---
-description: Windows 8.1通用应用商店库提供的Audience Manager方法列表。
-solution: Experience Cloud,Analytics
+description: Windows 8.1通用App Store库提供的Audience Manager方法列表。
+solution: Experience Cloud Services,Analytics
 title: Audience Manager 方法
 topic-fix: Developer and implementation
 uuid: e39c9c3e-fd53-4b46-8fff-88101a064a9c
 exl-id: b10d7274-0fc6-4822-a40b-1192b71592b9
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
 workflow-type: tm+mt
 source-wordcount: '264'
 ht-degree: 46%
@@ -14,7 +14,7 @@ ht-degree: 46%
 
 # Audience Manager 方法 {#audience-manager-methods}
 
-Windows 8.1通用应用商店库提供的Audience Manager方法列表。
+Windows 8.1通用App Store库提供的Audience Manager方法列表。
 
 SDK当前支持多个Adobe Experience Cloud解决方案，包括Analytics、Target和Audience Manager。 方法将根据解决方案来添加前缀。Audience Manager方法的前缀为“AudienceManager”。
 
@@ -26,7 +26,7 @@ SDK当前支持多个Adobe Experience Cloud解决方案，包括Analytics、Targ
 
 * **GetVisitorProfile(winJS:getVisitorProfile)**
 
-   返回最近获取的访客资料。如果尚未提交任何信号，则返回`null`。 访客配置文件保存在`SharedPreferences`中，以便在多次启动应用程序时轻松访问。
+   返回最近获取的访客资料。返回结果 `null` 如果尚未提交任何信号。 访客资料保存在 `SharedPreferences` ，以便在多次启动应用程序时轻松访问。
 
    * 以下是此方法的语法：
 
