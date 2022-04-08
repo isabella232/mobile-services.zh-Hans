@@ -3,9 +3,9 @@ description: Adobe Target 预取功能使用 iOS Mobile SDK 获取选件内容�
 title: 在 iOS 中预取选件内容
 uuid: fef58042-65e2-4579-b8f1-d21554d2af57
 exl-id: 64d43be7-6bd1-4657-8154-5b2c1cbbf42b
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 5d44c09a18a557e934628533c4eefaa9e26aba42
 workflow-type: tm+mt
-source-wordcount: '731'
+source-wordcount: '707'
 ht-degree: 85%
 
 ---
@@ -13,10 +13,6 @@ ht-degree: 85%
 # 在 iOS 中预取选件内容 {#prefetch-offer-content-in-ios}
 
 Adobe Target 预取功能使用 iOS Mobile SDK 获取选件内容，并通过缓存服务器响应来尽量减少获取次数。
-
->[!IMPORTANT]
->
->Adobe Target 中的 Auto Target、Auto Allocate 和 Automated Personalization 活动类型不支持 iOS Mobile SDK 中的预取功能。
 
 此过程可缩短加载时间，阻止多个网络调用，并允许Adobe Target接收有关移动设备应用程序用户访问了哪个mbox的通知。 在预取调用期间将检索和缓存所有内容，对于将来所有包含指定mbox名称的缓存内容的调用，都将从缓存中检索此内容。
 
