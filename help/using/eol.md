@@ -2,9 +2,9 @@
 title: AdobeMobile Services生命周期终止常见问题解答
 description: 获取有关AdobeMobile Services生命周期终止公告的常见问题解答。
 exl-id: c5f44341-7b87-4530-b86e-17e2911a7959
-source-git-commit: a6dd74b8df771249e3c50de93f44639cfbfe7e13
+source-git-commit: c349c0f83df9d42b61a419ae71d6d2b67c5f7819
 workflow-type: tm+mt
-source-wordcount: '433'
+source-wordcount: '421'
 ht-degree: 2%
 
 ---
@@ -15,7 +15,7 @@ AdobeMobile Service的生命周期终止日期为 **2022年12月31日**.
 
 ## 发生了什么？
 
-Mobile Services于2022年12月31日终止使用。 Mobile Services在此日期之后不再支持以移动设备为中心的UI、客户获取、深层链接、应用程序内消息传送、推送通知和地理位置。
+Mobile Services于2022年12月31日终止使用。 此日期之后，将不再支持以移动设备为中心的UI、客户获取、深层链接、应用程序内消息传送、推送通知和地理位置的Mobile Services。
 
 ## 包含哪些内容，以及未包含哪些内容？
 
@@ -38,7 +38,7 @@ Mobile Services停用后，所有处理规则逻辑将仅在Adobe Analytics内�
 Adobe根据贵组织的用例提供了三个过渡路径。
 
 1. **应用程序内消息传送和推送通知**:Adobe可以将消息传递工作流转换为Adobe Journey Optimizer。 此产品可帮助组织在整个客户历程中优化和个性化体验，包括移动消息传送。
-1. **客户获取和深层链接**:通过AdobeExchange Premier Partners计划提供客户获取和深层链接。 这些合作伙伴包括Adjust、AppsFlyer和Branch，它们提供广泛的客户获取功能。 Adobe的合作伙伴团队可以进行适当的介绍，以确保您找到最适合自己需求的解决方案。
+1. **客户获取和深层链接**:通过AdobeExchange Premier Partners计划提供客户获取和深层链接。 Adobe的合作伙伴团队可以进行适当的介绍，以确保您找到最适合自己需求的解决方案。
 1. **Places Service**:Places Service提供免费的地理位置功能。 请参阅 [Places Service文档](https://experienceleague.adobe.com/docs/places/using/home.html).
 
 ## 如果有问题，我该去哪里？
