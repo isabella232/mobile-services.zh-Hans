@@ -15,7 +15,7 @@ ht-degree: 99%
 
 + [Adobe Mobile Services](home.md)
 + [生命周期终止公告](eol.md)
-+ 入门指南 {#get-started-ug}
++ 快速入门{#get-started-ug}
    + [快速入门](gs/gs.md)
    + [角色和权限](gs/c-mob-roles-and-permissions.md)
    + [登录](gs/gs-signin.md)
