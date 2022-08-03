@@ -113,4 +113,4 @@ ht-degree: 99%
       + [计划：应用程序内消息](in-app-messaging/t-in-app-message/c-schedule-in-app-message.md)
       + [排查应用程序内消息传送问题](in-app-messaging/t-in-app-message/in-apps-ts.md)
       + [在从推送消息中打开应用程序时触发应用程序内消息](in-app-messaging/t-mob-trig-in-app-open-app-from-push.md)
-+ [常见问题](faq-mobile.md)
++ [常见问题解答](faq-mobile.md)
