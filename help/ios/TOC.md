@@ -2,21 +2,20 @@
 audience: end-user
 user-guide-title: Mobile Services iOS 指南
 breadcrumb-title: iOS指南
-translation-type: tm+mt
-source-git-commit: b9ee49ba26d4726b1f97ef36f5c2e9923361b1ee
+source-git-commit: 78b7a623a7811cf0ede789c74b3ca7a80372c9f4
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '284'
 ht-degree: 99%
 
 ---
 
 
-# Mobile Services iOS 指南{#ios}
+# Mobile Services iOS 指南 {#ios}
 
 + [适用于 Experience Cloud 解决方案的 iOS SDK 4.x](overview.md)
 + [发行说明](rel-notes.md)
-+ 入门指南 {#getting-started-ios}
-   + [入门指南概述](getting-started/getting-started.md)
++ 快速入门{#getting-started-ios}
+   + [快速入门概述](getting-started/getting-started.md)
    + [开始之前](getting-started/requirements.md)
    + [核心实施和生命周期](getting-started/dev-qs.md)
    + [处理规则和上下文数据](getting-started/proc-rules.md)
@@ -81,7 +80,6 @@ ht-degree: 99%
    + [Experience Cloud 概述](marketing-cloud/marketing-cloud.md)
    + [Experience Cloud ID](marketing-cloud/mcvid.md)
    + [Adobe Experience Platform Identity Service 方法](marketing-cloud/mc-methods.md)
-   + [Experience Cloud 设备协作](marketing-cloud/t-mob-mc-device-coop-ios-.md)
 + [Audience Manager 方法](amm/aam-methods.md)
 + 使用 tvOS 实施 Apple TV {#apple-tv-implementation-tvos-ios}
    + [使用 tvOS 实施 Apple TV](apple-tv-implementation-tvos/apple-tv-implementation-tvos.md)

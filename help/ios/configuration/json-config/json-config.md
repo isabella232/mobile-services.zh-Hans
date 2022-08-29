@@ -5,9 +5,9 @@ title: ADBMobile JSON 配置
 topic-fix: Developer and implementation
 uuid: d9708d59-e30a-4f6c-ab1b-d9499855d0c2
 exl-id: e3515de3-3aec-4dd0-996d-9c561ad1b1de
-source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
+source-git-commit: 78b7a623a7811cf0ede789c74b3ca7a80372c9f4
 workflow-type: tm+mt
-source-wordcount: '1708'
+source-wordcount: '1591'
 ht-degree: 98%
 
 ---
@@ -83,24 +83,6 @@ ht-degree: 98%
    >这是 Target 的必需变量。
 
    * 最低 SDK 版本：4.0
-
-* **coopUnsafe**
-
-   对于要求将该值设置为 `true` 的设备协作成员，您需要与相应的协作团队合作，以申请关于您的设备协作帐户上的阻止列表标记。不存在启用这些标记的自助途径。
-
-   请牢记以下信息：
-
-   * 如果将 `coopUnsafe` 设置为 `true`，则会始终将 `coop_unsafe=1` 附加到 Audience Manager 和访客 ID 点击中。
-   * 如果启用到 Audience Manager 的 Analytics 服务器端转发，则还将会在 Analytics 点击中看到 `coop_unsafe=1`。
-
-   以下是一些附加信息：
-
-   * 最低 SDK 版本：4.16.1
-   * `marketingCloud` 对象的布尔属性，将该属性设置为 `true` 后，会导致设备退出 Experience Cloud 设备协作。
-   * 默认值为 `false`。
-   * 这项设置&#x200B;**仅**&#x200B;适用于已配置设备协作的客户。
-
-
 
 * **environmentId**
 

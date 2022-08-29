@@ -2,10 +2,9 @@
 audience: end-user
 user-guide-title: Mobile Services Android 指南
 breadcrumb-title: Android指南
-translation-type: tm+mt
-source-git-commit: 4c2a255b343128d2904530279751767e7f99a10a
+source-git-commit: 78b7a623a7811cf0ede789c74b3ca7a80372c9f4
 workflow-type: tm+mt
-source-wordcount: '273'
+source-wordcount: '269'
 ht-degree: 99%
 
 ---
@@ -16,7 +15,7 @@ ht-degree: 99%
 + [适用于 Experience Cloud 解决方案的 Android SDK 4.x](overview.md)
 + [发行说明](rel-notes.md)
 + 入门指南{#getting-started-android}
-   + [入门指南](getting-started/getting-started.md)
+   + [快速入门](getting-started/getting-started.md)
    + [开始之前](getting-started/requirements.md)
    + [核心实施和生命周期](getting-started/dev-qs.md)
    + [处理规则和上下文数据](getting-started/proc-rules.md)
@@ -49,7 +48,7 @@ ht-degree: 99%
    + [客户获取概述](acquisition-main/acquisition-main-android.md)
    + [移动设备应用程序客户获取](acquisition-main/acquisition.md)
    + [客户获取方法](acquisition-main/acquisition-methods.md)
-   + 跟踪深层链接{#tracking-deep-links}
+   + 跟踪深层链接 {#tracking-deep-links}
       + [跟踪深层链接](acquisition-main/tracking-deep-links/tracking-deep-links.md)
       + [跟踪第三方延期深层链接](acquisition-main/tracking-deep-links/c-tracking-3rd-party-deferred-deep-links.md)
    + [测试营销链接客户获取](acquisition-main/t-testing-marketing-link-acquisition.md)
@@ -80,7 +79,6 @@ ht-degree: 99%
    + [Experience Cloud 概述](c-marketing-cloud/c-marketing-cloud.md)
    + [Experience Cloud ID 配置](c-marketing-cloud/mcvid.md)
    + [Adobe Experience Platform Identity Service 方法](c-marketing-cloud/mc-methods.md)
-   + [Experience Cloud 设备协作](c-marketing-cloud/t-mob-mc-device-coop-android-.md)
 + Audience Manager{#audience-manager-android}
    + [Audience Manager 概述](audience-manager/audience-manager.md)
    + [Audience Manager 配置](audience-manager/audiencemgmt.md)
