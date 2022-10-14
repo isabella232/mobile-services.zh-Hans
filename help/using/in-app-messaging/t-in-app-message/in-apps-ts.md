@@ -6,9 +6,9 @@ title: 排查应用程序内消息传送问题
 topic-fix: Metrics
 uuid: 8813e8d8-bb1e-46ad-83cd-98ae68f73ce6
 exl-id: 6be5beef-3bde-49f8-9ec0-c5d32bd43045
-source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
+source-git-commit: dbe3af75010fbf5195a3f93fc43cb696aaa32b65
 workflow-type: tm+mt
-source-wordcount: '625'
+source-wordcount: '603'
 ht-degree: 100%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 100%
 
 ## Android 中的本地通知消息不起作用。
 
-确认清单中声明了本地通知广播接收器。有关更多信息，请参阅[应用程序内消息传送](/help/android/messaging-main/messaging/messaging.md)中的步骤 1。
+确认清单中声明了本地通知广播接收器。
 
 ## 消息是实时的吗？
 
@@ -43,7 +43,7 @@ ht-degree: 100%
 
 ## 如果使用启动事件作为触发器...
 
-启动项只会在新会话中触发。有关会话何时开始的信息，请参阅 [ADBMobile JSON 配置](/help/ios/configuration/json-config/json-config.md)文件中的 `lifecycleTimeout`。
+启动项只会在新会话中触发。
 
 ## 我远程更新了消息，但我的应用程序仍显示旧的消息。
 

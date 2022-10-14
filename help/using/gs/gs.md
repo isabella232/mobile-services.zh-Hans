@@ -6,9 +6,9 @@ title: 快速入门
 topic-fix: Metrics
 uuid: a7ae7c5a-dab8-4603-b4cd-af73a2f09f71
 exl-id: 0c08e154-8747-45dc-9731-ab2a3e78bc5a
-source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
+source-git-commit: dbe3af75010fbf5195a3f93fc43cb696aaa32b65
 workflow-type: tm+mt
-source-wordcount: '1344'
+source-wordcount: '1300'
 ht-degree: 97%
 
 ---
@@ -26,7 +26,7 @@ Adobe Mobile Services 由以下部分组成：
 
 如今，移动设备应用程序的格局与智能手机最初面世时截然不同。通过移动设备应用程序将客户与品牌连接起来远远不够；现如今，您必须跨渠道提供有凝聚力的绝佳客户体验，并将移动设备应用程序作为战略切入点来吸引最忠诚的高价值客户。但是，要让这些用户与您的应用程序持续互动，则必须提供引人入胜的内容、情境式通知、智能个性化推荐以及集成式应用程序分析功能等等。
 
-## AdobeMobile服务UI {#mobile-services-ui}
+## AdobeMobile Services UI {#mobile-services-ui}
 
 以下浏览器支持 Mobile Services UI：
 
@@ -119,11 +119,7 @@ Adobe Mobile Services 提供了用于衡量渠道在获取应用程序用户方�
 
 现在，Adobe Target for Mobile 应用程序可充分利用 Adobe Analytics 提供的增强细分和报表功能。这意味着 Adobe Target 可以利用 Analytics 中的所有关键应用程序量度来进行定位和个性化；它还可以提供更深入的测试成功报表，让营销人员能够更好地了解那些“假设”问题 - 这些问题的答案可以让应用程序营销人员避免在显示应用程序投资回报时面临的压力。适用于应用程序集成的 Analytics/Target 是一款组合产品，代表着市场上提供的最强大的应用程序互动解决方案。
 
-有关位置的更多信息，请参阅以下内容：
-
-* [Mobile Services 用户指南中的位置](/help/using/location/c-location-overview.md)
-* [Android SDK 手册中的位置](/help/android/location/location.md)
-* [iOS SDK 手册中的位置](/help/ios/location/location.md)
+有关位置的更多信息，请参阅 [位置](/help/using/location/c-location-overview.md).
 
 ## AdobeMobile SDK {#mobile-services-sdk}
 
@@ -157,5 +153,3 @@ Adobe Mobile SDK 提供以下功能：
 
    * 最大限度地减少将数据发送到 Adobe 服务器和第三方系统的设备处理负载。
    * 占用空间小可以最大限度地缩小提交到应用商店的应用程序包大小。
-
-有关 Adobe Mobile SDK 的更多信息，请参阅[适用于 Experience Cloud 解决方案的 Android SDK 4.x ](/help/android/overview.md)和[适用于 Experience Cloud 解决方案的 iOS SDK 4.x](/help/ios/overview.md)。

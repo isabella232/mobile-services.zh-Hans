@@ -6,9 +6,9 @@ title: 配置推送消息
 topic-fix: Metrics
 uuid: 6763858d-6046-4d36-87c0-cf3600a44fb1
 exl-id: d4989c31-2692-4062-8fae-d41c3e3c179b
-source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
+source-git-commit: dbe3af75010fbf5195a3f93fc43cb696aaa32b65
 workflow-type: tm+mt
-source-wordcount: '287'
+source-wordcount: '272'
 ht-degree: 100%
 
 ---
@@ -48,9 +48,4 @@ ht-degree: 100%
 
       指定有效的 API 密钥。有关获取 API 密钥的更多信息，请参阅[配置应用程序以使用 APNS 或 FCM](/help/using/c-manage-app-settings/c-mob-confg-app/configure-push-messaging/configure-app-apns-gcm.md)。
 
-      有关更多信息，请参阅以下主题：
-
-      * [Android 中的推送消息](/help/android/messaging-main/push-messaging/push-messaging.md)
-      * [iOS 中的推送消息](/help/ios/messaging-main/push-messaging/push-messaging.md)
-
-1. 单击&#x200B;**[!UICONTROL 保存]**。
+2. 单击&#x200B;**[!UICONTROL 保存]**。

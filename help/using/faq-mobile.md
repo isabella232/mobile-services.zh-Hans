@@ -6,9 +6,9 @@ title: 常见问题
 topic-fix: Metrics
 uuid: 62a9241c-2ada-483a-a594-b023916cb0b6
 exl-id: d7dfc36e-56f0-498a-ad50-93fee90cb6ff
-source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
+source-git-commit: dbe3af75010fbf5195a3f93fc43cb696aaa32b65
 workflow-type: tm+mt
-source-wordcount: '1031'
+source-wordcount: '1013'
 ht-degree: 96%
 
 ---
@@ -41,7 +41,7 @@ Adobe Mobile SDK 使用标准的 iOS 和 Android 网络堆栈。对于 iOS，SDK
 
 ### 什么是生命周期量度？
 
-生命周期量度是“开箱即用”的量度，当在您的应用程序中首次实施 SDK 时，将自动收集此类量度。有关更多信息，请参阅[生命周期量度 (Android)](/help/android/metrics.md) 和[生命周期量度 (iOS)](/help/ios/metrics.md)。
+生命周期量度是“开箱即用”的量度，当在您的应用程序中首次实施 SDK 时，将自动收集此类量度。
 
 ### 如何排解处理规则问题？
 
@@ -49,7 +49,7 @@ Adobe Mobile SDK 使用标准的 iOS 和 Android 网络堆栈。对于 iOS，SDK
 
 ### 能否将分析数据发送到多个报表包？
 
-可以。SDK 具备将数据发送到多个 Adobe Analytics 报表包的功能。要通过使用图像请求捕获多个报表包中的数据，请在 **[!UICONTROL 文件中]**&#x200B;分析&#x200B;**[!UICONTROL 部分下的]** rsids`ADBMobileConfig.json` 字段中设置多个报表包 ID，并使用逗号分隔，不留空格。有关更多信息，请参阅 [ADBMobile JSON 配置](/help/ios/configuration/json-config/json-config.md)。
+可以。SDK 具备将数据发送到多个 Adobe Analytics 报表包的功能。要通过使用图像请求捕获多个报表包中的数据，请在 **[!UICONTROL 文件中]**&#x200B;分析&#x200B;**[!UICONTROL 部分下的]** rsids`ADBMobileConfig.json` 字段中设置多个报表包 ID，并使用逗号分隔，不留空格。
 
 ### 移动设备访问次数与启动次数有何不同？
 

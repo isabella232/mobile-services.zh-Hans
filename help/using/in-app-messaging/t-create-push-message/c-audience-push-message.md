@@ -6,9 +6,9 @@ title: 受众：为推送消息定义和配置受众区段
 topic-fix: Metrics
 uuid: efd410e7-3b6c-4cf4-a26f-b11688adc491
 exl-id: d1062a76-2e72-4649-8497-58617a7a47cb
-source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
+source-git-commit: dbe3af75010fbf5195a3f93fc43cb696aaa32b65
 workflow-type: tm+mt
-source-wordcount: '976'
+source-wordcount: '958'
 ht-degree: 98%
 
 ---
@@ -84,11 +84,6 @@ ht-degree: 98%
       这意味着 SDK 为推送消息选择启用 evar 发送了值 `True`。
 
    * 即使设备具有有效的设备令牌，但除非 Adobe Analytics 设置了选择启用标志，否则不会将消息推送至该设备。
-
-   * 有关排查推送消息问题的更多信息，请参阅以下内容：
-
-      * [iOS 中的推送消息](/help/ios/messaging-main/push-messaging/push-messaging.md)
-      * [Android 中的推送消息](/help/android/messaging-main/push-messaging/push-messaging.md)
 
 2. 在以下字段中键入相应信息：
 

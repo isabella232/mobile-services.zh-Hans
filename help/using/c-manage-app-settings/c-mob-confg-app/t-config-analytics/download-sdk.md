@@ -6,10 +6,10 @@ title: 下载 Mobile SDK 和工具
 topic-fix: Developer and implementation,Metrics
 uuid: 4af757f7-4e4d-4939-9b6a-49a29c220192
 exl-id: 34ec76fa-3bcb-4b77-9d1e-7160941deb44
-source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
+source-git-commit: dbe3af75010fbf5195a3f93fc43cb696aaa32b65
 workflow-type: tm+mt
-source-wordcount: '155'
-ht-degree: 100%
+source-wordcount: '128'
+ht-degree: 82%
 
 ---
 
@@ -27,9 +27,4 @@ ht-degree: 100%
 
 ## 本地库 {#section_C2ADC3068D9F4EAEBE5B266852738C90}
 
-在 Adobe Mobile Services 中配置您的应用程序，以便可以下载包括预填充版本配置文件的自定义包。
-
-* [iOS 说明](/help/ios/getting-started/requirements.md)
-* [Android 说明](/help/android/getting-started/requirements.md)
-
-要查看本地库的文档，包括 Windows Phone 8、Blackberry、Xamarin 和其他库，请参阅 [Adobe Mobile Services](/help/using/home.md) 中的 *SDK 文档*&#x200B;部分。
+在AdobeMobile Services中配置您的应用程序，以便您能够下载包含预填充版本配置文件的自定义包。

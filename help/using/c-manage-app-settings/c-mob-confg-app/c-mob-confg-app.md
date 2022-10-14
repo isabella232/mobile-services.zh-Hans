@@ -1,11 +1,11 @@
 ---
-description: '在“管理应用程序设置”页面上，您可以进行以下类型的更改 '
+description: 在“管理应用程序设置”页面上，您可以进行以下类型的更改
 title: 配置您的应用程序
 uuid: c088e12d-73b6-40c4-b8cc-ec3bb3d3aa4a
 exl-id: 52fd58ad-87b8-499b-9c46-c3176bcda37c
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: dbe3af75010fbf5195a3f93fc43cb696aaa32b65
 workflow-type: tm+mt
-source-wordcount: '351'
+source-wordcount: '331'
 ht-degree: 40%
 
 ---
@@ -32,12 +32,8 @@ ht-degree: 40%
 
       * **生命周期**
 
-         跟踪在实施生命周期后可由移动设备库自动测量的量度和维度。 有关更多信息，请参阅以下部分：
+         跟踪在实施生命周期后可由移动设备库自动测量的量度和维度。
 
-         * [iOS SDK生命周期量度](/help/ios/metrics.md)
-         * [Android生命周期量度](/help/android/metrics.md)
-         * [Windows生命周期量度](/help/universal-windows/metrics.md)
-         * [BlackBerry生命周期量度](/help/blackberry/metrics.md)
       * **应用程序操作**
 
          根据应用程序内操作启用报表和路径分析。
@@ -49,7 +45,6 @@ ht-degree: 40%
       * **定时事件**
 
          测量关键应用程序操作之间经过的时间（应用程序内和总时间），例如首次购买前经过的时间。
-
 
 * **位置报表**
 

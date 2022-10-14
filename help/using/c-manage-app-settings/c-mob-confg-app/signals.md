@@ -3,9 +3,9 @@ description: 回传允许您将 Adobe Mobile 收集的数据发送至单独的�
 title: 配置回发
 uuid: a026575c-057b-4868-b6c8-9514cbc32b4d
 exl-id: 99b27f16-303a-4853-bfdb-2066a53867bf
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: dbe3af75010fbf5195a3f93fc43cb696aaa32b65
 workflow-type: tm+mt
-source-wordcount: '430'
+source-wordcount: '421'
 ht-degree: 100%
 
 ---
@@ -16,11 +16,11 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->要使用回发，您必须安装 SDK 4.6 或更高版本。有关更多信息，请参阅 [Android - 回发](/help/android/analytics-main/postbacks/postbacks.md)或 [iOS - 回发](/help/ios/analytics-main/postback/postback.md)。
+>要使用回发，您必须安装 SDK 4.6 或更高版本。
 
 1. 单击所需应用程序的名称以转到其“管理应用程序设置”页面，然后单击页面右上方的&#x200B;**[!UICONTROL 管理回发]**&#x200B;链接。
-1. 单击&#x200B;**[!UICONTROL 创建回发]**。
-1. 在字段中键入以下信息：
+2. 单击&#x200B;**[!UICONTROL 创建回发]**。
+3. 在字段中键入以下信息：
 
    * **[!UICONTROL 回发类型]**
 
@@ -32,7 +32,7 @@ ht-degree: 100%
 
    * **[!UICONTROL URL]**
 
-      指定一个有效的端点 URL（以及 GET 请求所需的相应查询参数）。您从数据被发送到的参与方获取此 URL（广告服务器或您自己的端点）。例如：`https://my.server.com/?user=bob&amp;zip=90210&amp;c16=4.6.0-iOS&amp;c27=cln,132`。
+      指定一个有效的端点 URL（以及 GET 请求所需的相应查询参数）。您从数据被发送到的参与方获取此 URL（广告服务器或您自己的端点）。例如：`https://example.com/?user=bob&amp;zip=90210&amp;c16=4.6.0-iOS&amp;c27=cln,132`。
 
    * **[!UICONTROL 上下文变量]**
 
@@ -53,7 +53,7 @@ ht-degree: 100%
    * **[!UICONTROL 特征]**
    指定可在消息触发后查看消息的对象。选项包括&#x200B;**[!UICONTROL 会话时长]**、**[!UICONTROL 首次启动日期]**&#x200B;和&#x200B;**[!UICONTROL 应用程序 ID]**。
 
-1. 单击&#x200B;**[!UICONTROL 保存]**&#x200B;以创建回发，并将其添加到&#x200B;**[!UICONTROL 管理回发]**&#x200B;列表。
+4. 单击&#x200B;**[!UICONTROL 保存]**&#x200B;以创建回发，并将其添加到&#x200B;**[!UICONTROL 管理回发]**&#x200B;列表。
 
    之后若要激活回发，请执行以下操作之一：
 

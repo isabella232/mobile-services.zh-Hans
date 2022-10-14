@@ -6,9 +6,9 @@ title: 启用推送消息的先决条件
 topic-fix: Metrics
 uuid: 194e6e07-b794-4152-a838-a4125c3292d4
 exl-id: 543155a4-f687-48a6-8690-5c8da8490c62
-source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
+source-git-commit: dbe3af75010fbf5195a3f93fc43cb696aaa32b65
 workflow-type: tm+mt
-source-wordcount: '633'
+source-wordcount: '618'
 ht-degree: 95%
 
 ---
@@ -29,10 +29,7 @@ ht-degree: 95%
 
 * **配置推送服务**
 
-   您必须在 Mobile SDK 中配置推送服务。有关更多信息，请参阅以下内容：
-
-   * [Android 中的推送消息](/help/android/messaging-main/push-messaging/push-messaging.md)
-   * [iOS 中的推送消息](/help/ios/messaging-main/push-messaging/push-messaging.md)
+   您必须在 Mobile SDK 中配置推送服务。
 
 ## 使用您的 Adobe ID 登录到 Mobile 核心服务
 

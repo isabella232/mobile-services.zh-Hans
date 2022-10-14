@@ -6,9 +6,9 @@ title: 移动量度和维度参考
 topic-fix: Metrics
 uuid: 96170ae7-8553-4f3e-ae01-65e5b664adf4
 exl-id: ddfbf11e-a4c3-4d59-92b3-1d192dc3e7cd
-source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
+source-git-commit: dbe3af75010fbf5195a3f93fc43cb696aaa32b65
 workflow-type: tm+mt
-source-wordcount: '621'
+source-wordcount: '609'
 ht-degree: 100%
 
 ---
@@ -124,7 +124,7 @@ ht-degree: 100%
 
 * **设备名称**
 
-   存储设备名称。在 iOS 中，使用以逗号分隔的两位字符串来标识 iOS 设备。第一个数字代表第几代设备，第二个数字表示设备系列的不同成员。要获取常见设备名称的完整列表，请参阅 [iOS 设备版本](/help/ios/reference/device-versions.md)。
+   存储设备名称。在 iOS 中，使用以逗号分隔的两位字符串来标识 iOS 设备。第一个数字代表第几代设备，第二个数字表示设备系列的不同成员。
 
 * **运营商名称**
 

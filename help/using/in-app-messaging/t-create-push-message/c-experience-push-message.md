@@ -6,10 +6,10 @@ title: 体验：推送消息
 topic-fix: Metrics
 uuid: 1a8baf3e-9fea-452c-b0fc-4ba8ac270861
 exl-id: 9158487e-6ac5-4f17-a8ff-15de0360ab60
-source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
+source-git-commit: dbe3af75010fbf5195a3f93fc43cb696aaa32b65
 workflow-type: tm+mt
-source-wordcount: '763'
-ht-degree: 100%
+source-wordcount: '738'
+ht-degree: 95%
 
 ---
 
@@ -60,6 +60,7 @@ ht-degree: 100%
       >[!IMPORTANT]
       >
       >请牢记以下信息：
+      >
       >* 发送到早期版本的富推送消息仍将被发送，但只会显示文本。
       >* 当前不支持手表。
 
@@ -75,12 +76,7 @@ ht-degree: 100%
    * 仅限 HTTPS
 
 * **大小**
-   * 图像必须是 2:1 格式，否则将会被裁剪。
-
-有关配置富推送通知的更多信息，请参阅以下内容：
-
-* [在 Android 中接收推送通知](/help/android/messaging-main/push-messaging/c-set-up-rich-push-notif-android.md)
-* [在 iOS 中接收富推送通知](/help/ios/messaging-main/push-messaging/c-set-up-rich-push-notif-ios.md)
+   * 图像必须采用2:1格式，否则会被裁剪。
 
 要在“体验”页面上配置推送消息，请执行以下操作：
 
@@ -88,7 +84,7 @@ ht-degree: 100%
 
    * **[!UICONTROL 负载：数据]**
 
-      提供 JSON 格式的自定义推送负载，该负载将通过推送通知或本地通知发送到应用程序。Android 和 iOS 的大小限制是 4 KB。
+      提供JSON格式的自定义推送负载，该负载通过推送或本地通知发送到应用程序。 Android 和 iOS 的大小限制是 4 KB。
 
    * **[!UICONTROL Apple 选项：类别]**
 
@@ -102,7 +98,7 @@ ht-degree: 100%
 
       选择此选项，以便在有消息到来时，iOS 唤醒位于后台的应用程序并允许它根据消息负载执行代码。有关更多信息，请参阅“iOS 开发人员库”**&#x200B;中的 [Apple 推送通知服务](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/APNSOverview.html#//apple_ref/doc/uid/TP40008194-CH8-SW1)。
 
-1. （可选）单击以下图标，预览消息的布局：
+2. （可选）单击以下图标，预览消息的布局：
 
    * **[!UICONTROL x 摘要]**
 
@@ -125,11 +121,11 @@ ht-degree: 100%
       要预览显示在用户平板电脑上的消息，请单击 ![平板电脑图标](assets/icon_tablet.png)。
    在预览窗格的底部，您可以查看上一步所选受众的描述。
 
-1. （**可选**）单击&#x200B;**[!UICONTROL 测试]**，以将消息推送至指定的设备来进行测试。
-1. 选择相应服务，并键入要将消息推送到的至少一个设备的推送令牌。
+3. （**可选**）单击&#x200B;**[!UICONTROL 测试]**，以将消息推送至指定的设备来进行测试。
+4. 选择相应服务，并键入要将消息推送到的至少一个设备的推送令牌。
 
    如果要将消息推送到多个设备，请以逗号分隔的列表形式指定这些设备的令牌。
 
-1. 配置消息的计划选项。
+5. 配置消息的计划选项。
 
    有关更多信息，请参阅[计划：推送消息](/help/using/in-app-messaging/t-create-push-message/c-schedule-push-message.md)。

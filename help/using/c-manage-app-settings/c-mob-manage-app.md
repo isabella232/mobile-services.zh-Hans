@@ -6,10 +6,10 @@ title: 管理您的应用程序
 topic-fix: Metrics
 uuid: 0cc356c3-8457-40a7-8c97-7cbc68a5dc0c
 exl-id: 599fef94-c188-47f5-b9d6-25a7c8cb07bc
-source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
+source-git-commit: dbe3af75010fbf5195a3f93fc43cb696aaa32b65
 workflow-type: tm+mt
-source-wordcount: '1020'
-ht-degree: 91%
+source-wordcount: '1001'
+ht-degree: 92%
 
 ---
 
@@ -22,11 +22,6 @@ ht-degree: 91%
 * **标准变量和量度**
 
    每个应用程序都包含用于跟踪购物车和购买活动的变量和量度。由于有些购买信息无法通过处理规则进行处理，因此 SDK 公开了特殊的 `"&&products"` 上下文数据。例如，您可以包含以下变量：购物车加货、购物车减货、结帐、订单等。上下文数据必须映射到 Adobe Analytics 中的数据。如果该变量填充了一个来自上下文数据的简单映射，则它是映射到此变量的键。如果变量由 Analytics 管理工具中更为复杂的规则填充，则保留为空。
-
-   有关这些变量和量度的更多信息，请参阅以下内容：
-
-   * [Android 中的产品变量](/help/android/analytics-main/products/products.md)
-   * [iOS 中的产品变量](/help/ios/analytics-main/products/products.md)
 
 * **自定义变量**
 
@@ -47,7 +42,7 @@ ht-degree: 91%
    当在跟踪调用（或点击）中设置某个属性的值，该值仅适用于该调用。
 
 * 的 **[!UICONTROL 自定义变量]** （或eVar）还回答了“哪一个”的问题。 但是，eVar值不仅可应用于发送该数据的点击，还可应用于在后续点击中发送的变量和量度，直到该值过期或设置了新值为止。
-* **[!UICONTROL 自定义列表变量（或多值变量）]**&#x200B;执行的操作与变量相同，但是列表变量允许在一次点击中捕获多个值。有关更多信息，请参阅 [列表](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/list.html?lang=en) 变量。
+* **[!UICONTROL 自定义列表变量（或多值变量）]**&#x200B;执行的操作与变量相同，但是列表变量允许在一次点击中捕获多个值。有关更多信息，请参阅 [列表](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/list.html?lang=zh-Hans) 变量。
 
 以下映射在 Mobile Services 中创建后即会显示在 Analytics 中。
 
