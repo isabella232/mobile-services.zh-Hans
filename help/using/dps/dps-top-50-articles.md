@@ -6,7 +6,7 @@ title: 前 50 篇文章
 topic-fix: Metrics
 uuid: 341370d1-fa87-43ca-8135-425b3bba272f
 exl-id: 8d5d6ab4-fcbb-42b2-b9bc-5ccb4f73522f
-source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
+source-git-commit: 7cfaa5f6d1318151e87698a45eb6006f7850aad4
 workflow-type: tm+mt
 source-wordcount: '225'
 ht-degree: 100%
@@ -14,6 +14,8 @@ ht-degree: 100%
 ---
 
 # 前 50 篇文章 报表{#top-articles}
+
+{#eol}
 
 **[!UICONTROL 前 50 篇文章]**&#x200B;报表显示一个条形图形式的排名报表，其中显示了通过应用程序阅读次数最多的文章。此报表仅供 DPS 客户使用。
 

@@ -6,7 +6,7 @@ title: 添加置顶过滤器
 topic-fix: Reports,Metrics
 uuid: f3935c8a-811d-4080-8468-b8850202dd1e
 exl-id: 5f6f725a-a1ae-40c2-abe0-87ebabdc582a
-source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
+source-git-commit: 7cfaa5f6d1318151e87698a45eb6006f7850aad4
 workflow-type: tm+mt
 source-wordcount: '168'
 ht-degree: 100%
@@ -14,6 +14,8 @@ ht-degree: 100%
 ---
 
 # 添加置顶过滤器{#add-sticky-filter}
+
+{#eol}
 
 创建跨不同报表的过滤器，以便查看特定区段在所有移动设备报表中的执行情况。置顶过滤器可让您定义应用于所有非路径报表的过滤器。
 

@@ -6,7 +6,7 @@ title: 配置推送消息
 topic-fix: Metrics
 uuid: 6763858d-6046-4d36-87c0-cf3600a44fb1
 exl-id: d4989c31-2692-4062-8fae-d41c3e3c179b
-source-git-commit: dbe3af75010fbf5195a3f93fc43cb696aaa32b65
+source-git-commit: 7cfaa5f6d1318151e87698a45eb6006f7850aad4
 workflow-type: tm+mt
 source-wordcount: '272'
 ht-degree: 100%
@@ -14,6 +14,8 @@ ht-degree: 100%
 ---
 
 # 配置推送消息{#configure-push-messaging}
+
+{#eol}
 
 创建新应用程序或编辑现有应用程序时，您可以使用此帮助信息在“管理应用程序设置”页面上配置“推送服务”选项。
 

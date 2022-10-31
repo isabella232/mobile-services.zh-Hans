@@ -6,7 +6,7 @@ title: 横幅量度
 topic-fix: Metrics
 uuid: 50638c55-f10d-43d7-8d12-e48908572766
 exl-id: 0383e23f-579e-4177-922d-71f193a3c606
-source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
+source-git-commit: 7cfaa5f6d1318151e87698a45eb6006f7850aad4
 workflow-type: tm+mt
 source-wordcount: '171'
 ht-degree: 100%
@@ -14,6 +14,8 @@ ht-degree: 100%
 ---
 
 # 横幅量度 {#banner-metrics}
+
+{#eol}
 
 **[!UICONTROL 横幅量度]**&#x200B;报表会针对您的现有数据显示一个环状层次视图。此报表仅供 Digital Publishing Suite (DPS) 客户使用。
 

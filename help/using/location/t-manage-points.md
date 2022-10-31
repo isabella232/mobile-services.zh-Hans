@@ -6,7 +6,7 @@ title: 管理目标点
 topic-fix: Metrics
 uuid: 7b362534-54fb-43a3-b6b2-dfc8f45ff7c6
 exl-id: 9598b06b-fb6a-436c-811c-f74015cc2ab0
-source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
+source-git-commit: 7cfaa5f6d1318151e87698a45eb6006f7850aad4
 workflow-type: tm+mt
 source-wordcount: '529'
 ht-degree: 100%
@@ -14,6 +14,8 @@ ht-degree: 100%
 ---
 
 # 管理目标点 {#manage-points-of-interest}
+
+{#eol}
 
 您可以创建并管理目标点 (POI)，通过 POI，您可以定义用于关联的地理位置，还可以使用应用程序内消息确定目标，等等。在 POI 中发送点击时，POI 将会附加到该点击中。
 

@@ -6,7 +6,7 @@ title: 将过滤器添加到报表
 topic-fix: Reports,Metrics
 uuid: 19c395cc-2e07-4588-825b-f2f8b10a87c1
 exl-id: eb0589e9-668e-42d7-8f7a-00d7f0a2e3ff
-source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
+source-git-commit: 7cfaa5f6d1318151e87698a45eb6006f7850aad4
 workflow-type: tm+mt
 source-wordcount: '368'
 ht-degree: 100%
@@ -14,6 +14,8 @@ ht-degree: 100%
 ---
 
 # 将过滤器添加到报表{#add-filters-to-reports}
+
+{#eol}
 
 此信息可帮助您通过添加其他过滤器（区段）来自定义内置报表。
 

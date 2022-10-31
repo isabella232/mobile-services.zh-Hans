@@ -6,7 +6,7 @@ title: 配置客户获取
 topic-fix: Metrics
 uuid: e996e43e-8a77-47a3-a6fb-53f676f92bef
 exl-id: 3a12dfab-70d0-41e6-8d4e-5aba21bb8606
-source-git-commit: dbe3af75010fbf5195a3f93fc43cb696aaa32b65
+source-git-commit: 7cfaa5f6d1318151e87698a45eb6006f7850aad4
 workflow-type: tm+mt
 source-wordcount: '183'
 ht-degree: 100%
@@ -14,6 +14,8 @@ ht-degree: 100%
 ---
 
 # 配置客户获取 {#configure-acquisition}
+
+{#eol}
 
 必须先在 SDK 配置中启用客户获取跟踪，然后才能跟踪和报告营销链接。
 

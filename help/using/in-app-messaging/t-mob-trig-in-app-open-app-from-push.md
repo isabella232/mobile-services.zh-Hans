@@ -3,7 +3,7 @@ description: 您可以将应用程序内消息触发器设置为在用户从推�
 title: 在从推送消息中打开应用程序时触发应用程序内消息
 uuid: e1c8e29d-1c2b-47b2-8ab2-6b6e15df86f6
 exl-id: 4496222f-b6f0-4fa1-86c6-149b590244d3
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 7cfaa5f6d1318151e87698a45eb6006f7850aad4
 workflow-type: tm+mt
 source-wordcount: '270'
 ht-degree: 58%
@@ -11,6 +11,8 @@ ht-degree: 58%
 ---
 
 # 在从推送消息中打开应用程序时触发应用程序内消息{#trigger-an-in-app-message-when-the-app-is-opened-from-a-push-message}
+
+{#eol}
 
 您可以将应用程序内消息触发器设置为在用户从推送消息打开应用程序时发送的推送消息 ID。
 
@@ -40,5 +42,5 @@ ht-degree: 58%
    在测试时，请记住以下信息：
 
    * 保存应用程序内消息后，托管的配置文件需要大约45秒钟才能更新为新消息。
-   * 当具有&#x200B;**new**&#x200B;启动项时，应用程序会查找配置文件更新（新的应用程序内消息），因此您必须确保在单击推送消息时应用程序会触发新的启动项。
+   * 当存在 **新建** launch中，因此您必须确保在单击推送消息后，应用程序会触发一个新启动项。
    这通常意味着您需要确保会话超时已发生。 默认超时为5分钟。

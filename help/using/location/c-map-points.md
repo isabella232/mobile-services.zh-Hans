@@ -6,7 +6,7 @@ title: 地图
 topic-fix: Metrics
 uuid: 3c271738-eb8d-4c26-baaf-54b247bfc4da
 exl-id: a7e75333-2919-44bf-9963-f40cdee2d6b6
-source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
+source-git-commit: 7cfaa5f6d1318151e87698a45eb6006f7850aad4
 workflow-type: tm+mt
 source-wordcount: '297'
 ht-degree: 100%
@@ -14,6 +14,8 @@ ht-degree: 100%
 ---
 
 # 地图 {#map}
+
+{#eol}
 
 您可以查看交互式地图，它会显示您的 POI 和其他数据标记。
 

@@ -6,7 +6,7 @@ title: 添加新应用程序
 topic-fix: Metrics
 uuid: 706b5e4d-1318-4a9e-8c69-ffabf51fa02c
 exl-id: 30dca517-61ac-495b-aa91-3febd1cb8639
-source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
+source-git-commit: 7cfaa5f6d1318151e87698a45eb6006f7850aad4
 workflow-type: tm+mt
 source-wordcount: '663'
 ht-degree: 100%
@@ -14,6 +14,8 @@ ht-degree: 100%
 ---
 
 # 添加新应用程序{#add-a-new-app}
+
+{#eol}
 
 您可以使用此信息完成以下操作：创建新应用程序并配置其关键量度；配置 Adobe Analytics、 和 Adobe Audience Manager 的 SDK 选项；配置客户获取和 ID 服务选项；以及下载配置文件、SDK 和开发人员及测试人员工具。
 

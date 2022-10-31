@@ -6,7 +6,7 @@ title: 应用商店“概述”报表
 topic-fix: Metrics
 uuid: ac066f31-ec4b-4b67-b839-780c2cd1574e
 exl-id: da8663d6-9da8-440b-b7b8-06ff11e74b9f
-source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
+source-git-commit: 7cfaa5f6d1318151e87698a45eb6006f7850aad4
 workflow-type: tm+mt
 source-wordcount: '473'
 ht-degree: 100%
@@ -14,6 +14,8 @@ ht-degree: 100%
 ---
 
 # 应用商店“概述”报表{#app-store-overview-report}
+
+{#eol}
 
 **[!UICONTROL 应用商店概述]**&#x200B;报表会为您提供应用商店的量度信息，包括下载次数、应用程序内购买次数、应用商店平均评分、下载收入、应用程序内收入、按国家/地区划分的下载次数、按应用商店划分的下载次数，以及按名称划分的应用程序内购买次数。
 

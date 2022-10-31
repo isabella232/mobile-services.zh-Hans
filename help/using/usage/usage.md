@@ -6,7 +6,7 @@ title: 报表
 topic-fix: Reports,Metrics
 uuid: 2abc2bd1-dbae-4af1-9b8d-1df2f6d3a81f
 exl-id: a95dd9c9-49f3-41df-87bf-6a2ac0d46c5c
-source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
+source-git-commit: 7cfaa5f6d1318151e87698a45eb6006f7850aad4
 workflow-type: tm+mt
 source-wordcount: '130'
 ht-degree: 100%
@@ -14,6 +14,8 @@ ht-degree: 100%
 ---
 
 # 报表{#reports}
+
+{#eol}
 
 使用情况报表会显示平均会话时长、每日和每月参与的用户数、升级次数和其他洞察信息，帮助您了解应用程序的使用方式和使用频率。“维系”报表可快速显示初始启动后 1 天、7 天和 28 天的用户维系级别。
 

@@ -6,7 +6,7 @@ title: 概述（位置）
 topic-fix: Reports,Metrics
 uuid: a701abc3-001b-4015-843f-5fb2c6c80d17
 exl-id: 9a9f4f64-251f-48d4-a838-af14a357c575
-source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
+source-git-commit: 7cfaa5f6d1318151e87698a45eb6006f7850aad4
 workflow-type: tm+mt
 source-wordcount: '556'
 ht-degree: 100%
@@ -14,6 +14,8 @@ ht-degree: 100%
 ---
 
 # 概述（位置）{#overview-location}
+
+{#eol}
 
 **[!UICONTROL 位置概述]**&#x200B;报表允许您查看正在使用您的应用程序的不同国家、地区和目标点 (POI)。
 

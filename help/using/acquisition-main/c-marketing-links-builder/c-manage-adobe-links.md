@@ -6,7 +6,7 @@ title: 管理营销链接
 topic-fix: Metrics
 uuid: 98ac3520-89ed-4513-83f6-120dda9d0157
 exl-id: 678c18fe-b282-4eab-a248-e00dfd53cecd
-source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
+source-git-commit: 7cfaa5f6d1318151e87698a45eb6006f7850aad4
 workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 100%
@@ -14,6 +14,8 @@ ht-degree: 100%
 ---
 
 # 管理营销链接{#manage-marketing-links}
+
+{#eol}
 
 您可以使用“营销链接”页面创建、使用和存档营销链接。
 

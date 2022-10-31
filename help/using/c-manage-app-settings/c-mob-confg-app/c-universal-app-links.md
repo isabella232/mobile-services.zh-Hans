@@ -5,7 +5,7 @@ title: 通用链接和应用程序链接指南
 topic-fix: Metrics
 uuid: 8d6441dc-4307-4454-95ea-d77ec796f918
 exl-id: 6613189f-7a14-4066-89e9-996d4fe7f128
-source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
+source-git-commit: 7cfaa5f6d1318151e87698a45eb6006f7850aad4
 workflow-type: tm+mt
 source-wordcount: '1118'
 ht-degree: 96%
@@ -13,6 +13,8 @@ ht-degree: 96%
 ---
 
 # 通用链接与应用程序链接：它们是如何工作的？ {#universal-links-and-app-links}
+
+{#eol}
 
 通用链接 (iOS) 和应用程序链接 (Android) 允许您连接到 iOS 或 Android 应用程序中的深层链接。
 

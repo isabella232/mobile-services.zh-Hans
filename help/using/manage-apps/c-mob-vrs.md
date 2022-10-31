@@ -3,14 +3,16 @@ description: 虚拟报表包 (VRS) 是指通过将一个或多个区段定义应
 title: 虚拟报表包
 uuid: 3f467cad-43e7-4cd0-889b-89f8c61febbd
 exl-id: c9ce7f7c-2023-4a9d-9e4d-bacc21f9ad40
-source-git-commit: f18d65c738ba16d9f1459ca485d87be708cf23d2
+source-git-commit: 7cfaa5f6d1318151e87698a45eb6006f7850aad4
 workflow-type: tm+mt
 source-wordcount: '1006'
-ht-degree: 71%
+ht-degree: 73%
 
 ---
 
 # 虚拟报表包 {#virtual-report-suites}
+
+{#eol}
 
 虚拟报表包 (VRS) 是指通过将一个或多个区段定义应用到报表包来创建的报表包。它允许用户在一个报表包中维护他们的数据，但分别管理这些数据，就像它们存放在不同的报表包中一样。
 
@@ -51,7 +53,7 @@ VRS 可帮助您完成以下任务：
 
 >[!IMPORTANT]
 >
->只有 Adobe Analytics 管理员可以在 Adobe Analytics 中创建和修改虚拟报表包。要创建虚拟报表包，请参阅Adobe Analytics文档中的[创建虚拟报表包](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html) 。
+>只有 Adobe Analytics 管理员可以在 Adobe Analytics 中创建和修改虚拟报表包。要创建虚拟报表包，请参阅 [创建虚拟报表包](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html?lang=zh-Hans) (在Adobe Analytics文档中)。
 
 每个 VRS 都具有一个唯一的 ID。要在 Adobe Mobile Services UI 中查看父报表包 ID，请在“管理应用程序设置”页面的&#x200B;**[!UICONTROL 应用程序信息]**&#x200B;部分中，单击&#x200B;**[!UICONTROL 更多详细信息]**。
 
@@ -71,7 +73,7 @@ VRS是附加到父报表包的服务器端区段定义。 因此，您无法对V
 >
 >推送证书附加在 Mobile Services UI 的应用程序级别。
 
-要确保推送消息正确发送，必须正确定义受众区段。 有关更多信息，请参阅[受众：为推送消息定义和配置受众区段](/help/using/in-app-messaging/t-create-push-message/c-audience-push-message.md)。
+要确保推送消息正确发送，必须正确定义受众区段。 有关更多信息，请参阅 [受众：为推送消息定义和配置受众区段](/help/using/in-app-messaging/t-create-push-message/c-audience-push-message.md).
 
 ## 了解时区 {#section_498E1EED22D741C3BDED44F01FACA72A}
 
@@ -119,5 +121,5 @@ VRS是附加到父报表包的服务器端区段定义。 因此，您无法对V
 
 以下是有关虚拟报表包的一些其他信息：
 
-* 有关VRS的更多信息，请参阅[虚拟报表包概述](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html)。
+* 有关VRS的更多信息，请参阅 [虚拟报表包概述](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html).
 * 有关规划 VRS 实施的更多信息，请参阅[虚拟报表包工作流程](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-workflow.html)。

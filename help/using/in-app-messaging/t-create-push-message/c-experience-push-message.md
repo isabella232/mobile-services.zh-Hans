@@ -6,7 +6,7 @@ title: 体验：推送消息
 topic-fix: Metrics
 uuid: 1a8baf3e-9fea-452c-b0fc-4ba8ac270861
 exl-id: 9158487e-6ac5-4f17-a8ff-15de0360ab60
-source-git-commit: dbe3af75010fbf5195a3f93fc43cb696aaa32b65
+source-git-commit: 7cfaa5f6d1318151e87698a45eb6006f7850aad4
 workflow-type: tm+mt
 source-wordcount: '738'
 ht-degree: 95%
@@ -14,6 +14,8 @@ ht-degree: 95%
 ---
 
 # 体验：推送消息 {#experience-push-message}
+
+{#eol}
 
 您可以为推送消息和富推送消息配置体验选项，包括名称、消息文本和目标选项。您还可以配置高级选项，包括负载选项和适用于 iOS 设备的自定义选项。
 

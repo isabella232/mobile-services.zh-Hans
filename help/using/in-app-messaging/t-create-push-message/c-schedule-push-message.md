@@ -6,7 +6,7 @@ title: 计划：推送消息
 topic-fix: Metrics
 uuid: 6810e27a-016f-4286-8fe2-9972d85fa326
 exl-id: 36f263a0-4aad-423e-bb78-9c532c98df19
-source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
+source-git-commit: 7cfaa5f6d1318151e87698a45eb6006f7850aad4
 workflow-type: tm+mt
 source-wordcount: '684'
 ht-degree: 100%
@@ -14,6 +14,8 @@ ht-degree: 100%
 ---
 
 # 计划：推送消息{#schedule-push-message}
+
+{#eol}
 
 在 Adobe Mobile Services UI 中，您可以将推送消息安排为立即发送、稍后发送，以及循环事件。这些事件可以按每日、每周或每月定期执行。
 

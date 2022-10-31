@@ -6,7 +6,7 @@ title: 删除客户获取链接
 topic-fix: Metrics
 uuid: e7362348-ca24-4f1c-b37f-eca6d2b0da6d
 exl-id: 4c007ec6-40ba-468f-8bfc-0930a04c59c1
-source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
+source-git-commit: 7cfaa5f6d1318151e87698a45eb6006f7850aad4
 workflow-type: tm+mt
 source-wordcount: '90'
 ht-degree: 100%
@@ -14,6 +14,8 @@ ht-degree: 100%
 ---
 
 # 删除客户获取链接{#delete-acquisition-links}
+
+{#eol}
 
 当您不再需要客户获取链接时，可以删除这些链接。
 

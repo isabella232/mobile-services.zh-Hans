@@ -6,7 +6,7 @@ title: “技术”报表
 topic-fix: Reports,Metrics
 uuid: 4b7322c4-8920-43cd-bb72-5a5bd515ae84
 exl-id: 767c1538-68b1-4193-bd3d-3eb80e5b36f7
-source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
+source-git-commit: 7cfaa5f6d1318151e87698a45eb6006f7850aad4
 workflow-type: tm+mt
 source-wordcount: '544'
 ht-degree: 100%
@@ -14,6 +14,8 @@ ht-degree: 100%
 ---
 
 # “技术”报表 {#technology}
+
+{#eol}
 
 **[!UICONTROL 技术]**&#x200B;报表允许您查看正在使用您的应用程序的不同设备类型、操作系统、操作系统版本和移动运营商。
 

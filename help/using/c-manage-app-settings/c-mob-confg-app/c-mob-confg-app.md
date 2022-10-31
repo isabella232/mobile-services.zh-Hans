@@ -3,7 +3,7 @@ description: 在“管理应用程序设置”页面上，您可以进行以下�
 title: 配置您的应用程序
 uuid: c088e12d-73b6-40c4-b8cc-ec3bb3d3aa4a
 exl-id: 52fd58ad-87b8-499b-9c46-c3176bcda37c
-source-git-commit: dbe3af75010fbf5195a3f93fc43cb696aaa32b65
+source-git-commit: 7cfaa5f6d1318151e87698a45eb6006f7850aad4
 workflow-type: tm+mt
 source-wordcount: '331'
 ht-degree: 40%
@@ -11,6 +11,8 @@ ht-degree: 40%
 ---
 
 # 配置您的应用程序 {#configuring-your-app}
+
+{#eol}
 
 在“管理应用程序设置”页面上，您可以进行以下类型的更改：
 

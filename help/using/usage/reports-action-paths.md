@@ -6,7 +6,7 @@ title: 操作路径报告
 topic-fix: Reports,Metrics
 uuid: a21e5d9e-fd57-4178-9d64-87181b7f988b
 exl-id: 4c97b07f-17df-49cb-b2f7-dcb682d9d3c6
-source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
+source-git-commit: 7cfaa5f6d1318151e87698a45eb6006f7850aad4
 workflow-type: tm+mt
 source-wordcount: '524'
 ht-degree: 100%
@@ -14,6 +14,8 @@ ht-degree: 100%
 ---
 
 # 操作路径报告{#action-paths}
+
+{#eol}
 
 “操作路径”报表以路径分析为基础，可显示一个路径图表，以表示在应用程序中从一种状态变为另一种状态的路径。
 

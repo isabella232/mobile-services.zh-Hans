@@ -6,7 +6,7 @@ title: 显示移动量度
 topic-fix: Metrics
 uuid: 57db0b77-6b0a-4a0c-9aad-0731275233fd
 exl-id: aab6448d-4362-4c75-949a-7a519da76606
-source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
+source-git-commit: 7cfaa5f6d1318151e87698a45eb6006f7850aad4
 workflow-type: tm+mt
 source-wordcount: '440'
 ht-degree: 100%
@@ -14,6 +14,8 @@ ht-degree: 100%
 ---
 
 # 显示移动量度 {#display-mobile-metrics}
+
+{#eol}
 
 您可以显示最近查看的应用程序的关键性能量度。默认情况下，您最多可查看 12 个应用程序。您可以在“概述”页面上更改日期范围并创建过滤器，以便划分数据并编辑任何应用程序。
 

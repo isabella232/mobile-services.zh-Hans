@@ -6,7 +6,7 @@ title: 插播式广告
 topic-fix: Metrics
 uuid: 7dce8ab2-2a5d-4384-ac1e-e31dfaa33654
 exl-id: b6d4588f-4f28-4c1b-9291-f4b9154d84f7
-source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
+source-git-commit: 7cfaa5f6d1318151e87698a45eb6006f7850aad4
 workflow-type: tm+mt
 source-wordcount: '356'
 ht-degree: 100%
@@ -14,6 +14,8 @@ ht-degree: 100%
 ---
 
 # 插播式广告{#interstitials}
+
+{#eol}
 
 您可以将用户路由到相应的目标：用户安装了应用程序，则路由到应用程序深层链接；用户没有安装应用程序，则路由到某个网站或应用商店。最好由用户自行选择路由方式。营销人员可以配置一个可向用户显示可用登陆目标的插播式广告，以便为用户提供选项。
 

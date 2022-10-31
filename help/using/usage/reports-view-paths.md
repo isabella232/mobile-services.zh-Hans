@@ -6,7 +6,7 @@ title: “查看路径”报表
 topic-fix: Reports,Metrics
 uuid: bc73edce-0cc0-4349-9a48-e0a40cbe1b67
 exl-id: 475dbe01-fa4d-433c-ac77-68f2a6972c0c
-source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
+source-git-commit: 7cfaa5f6d1318151e87698a45eb6006f7850aad4
 workflow-type: tm+mt
 source-wordcount: '494'
 ht-degree: 100%
@@ -14,6 +14,8 @@ ht-degree: 100%
 ---
 
 # “查看路径”报表 {#view-paths}
+
+{#eol}
 
 **[!UICONTROL 查看路径]**&#x200B;报表以路径分析为基础，可显示一个路径图表，以表示应用程序中不同状态之间的路径。
 

@@ -6,7 +6,7 @@ title: 营销链接生成器
 topic-fix: Metrics
 uuid: 94906393-ffa5-47a6-89f6-1c812bad34af
 exl-id: f7cdaec3-e8a3-4782-bbb6-d5e011e4493b
-source-git-commit: 5434d8809aac11b4ad6dd1a3c74dae7dd98f095a
+source-git-commit: 7cfaa5f6d1318151e87698a45eb6006f7850aad4
 workflow-type: tm+mt
 source-wordcount: '109'
 ht-degree: 100%
@@ -14,6 +14,8 @@ ht-degree: 100%
 ---
 
 # 营销链接生成器{#marketing-links-builder}
+
+{#eol}
 
 生成器可帮助您生成营销链接，以将用户路由到应用商店和应用程序或 Web 链接目标。营销人员可基于规则选择目标，如用户设备的设备类型或操作系统。
 
