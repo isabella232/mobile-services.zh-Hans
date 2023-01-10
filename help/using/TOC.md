@@ -5,8 +5,8 @@ breadcrumb-title: Mobile Services 指南
 user-guide-description: Mobile Services 是一种端到端解决方案，可帮助您赢取和吸引移动应用程序用户并优化其体验。
 source-git-commit: 8c74c479c357e008dbbaaee8eb11097582072470
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '343'
+ht-degree: 100%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 0%
 # Mobile Services 指南 {#using}
 
 + [Adobe Mobile Services](home.md)
-+ [生命周期终止公告](eol.md)
++ [生命周期终止通知](eol.md)
 + 快速入门{#get-started-ug}
    + [快速入门](gs/gs.md)
    + [角色和权限](gs/c-mob-roles-and-permissions.md)
