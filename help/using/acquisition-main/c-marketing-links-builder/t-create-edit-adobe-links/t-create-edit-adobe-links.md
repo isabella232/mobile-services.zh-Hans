@@ -9,7 +9,7 @@ exl-id: a9b5c98d-77c1-4a40-96e5-f9e234d55ec5
 source-git-commit: 7cfaa5f6d1318151e87698a45eb6006f7850aad4
 workflow-type: tm+mt
 source-wordcount: '614'
-ht-degree: 96%
+ht-degree: 98%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 96%
       可用的预设标记如下：
 
       * **自定义上下文数据**
-指定键和值。如果您添加自定义上下文数据，则必须创建一个处理规则。有关更多信息，请参阅 [处理规则概述](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/processing-rules/processing-rules.html) (在Adobe Analytics文档中)。
+指定键和值。如果您添加自定义上下文数据，则必须创建一个处理规则。有关更多信息，请参阅 [处理规则概述](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/processing-rules/processing-rules.html?lang=zh-Hans) 在Adobe Analytics文档中。
 
       * **来源**
 指定原始反向链接，如“商务通讯”或“主页”。

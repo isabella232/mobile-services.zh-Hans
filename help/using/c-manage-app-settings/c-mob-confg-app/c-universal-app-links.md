@@ -1,5 +1,5 @@
 ---
-description: 在应用程序和网站中关联对于保持用户体验很重要。 了解通用链接和应用程序链接的工作原理以及它们之间的差异。
+description: 应用程序和网站中的链接对于保持用户体验非常重要。 了解通用链接和应用程序链接的工作方式以及它们之间的差异。
 solution: Experience Cloud Services,Analytics
 title: 通用链接和应用程序链接指南
 topic-fix: Metrics
@@ -12,7 +12,7 @@ ht-degree: 96%
 
 ---
 
-# 通用链接与应用程序链接：它们是如何工作的？ {#universal-links-and-app-links}
+# 通用链接与应用程序链接：它们如何工作？ {#universal-links-and-app-links}
 
 {#eol}
 

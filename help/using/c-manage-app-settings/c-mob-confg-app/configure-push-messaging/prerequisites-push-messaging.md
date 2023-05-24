@@ -53,7 +53,7 @@ ht-degree: 95%
 
 每个用户必须关联 Experience Cloud 组织内的 Analytics 解决方案帐户。
 
-1. 登录到 [Adobe Experience Cloud](https://experience.adobe.com) 和Adobe ID。
+1. 登录到 [Adobe Experience Cloud](https://experience.adobe.com) 用Adobe ID的。
 
 1. 选择位于右上角的 Analytics 公司名称。
 
@@ -63,7 +63,7 @@ ht-degree: 95%
 
    Adobe ID 现在已关联到您的 Analytics 帐户、公司和登录凭据。
 
-有关更多信息，请参阅 [Experience Cloud中的组织](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=zh-Hans) 中的Experience Cloud中心界面组件指南。
+有关更多信息，请参阅 [Experience Cloud中的组织](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=zh-Hans) 《Experience Cloud中央界面组件指南》中的。
 
 ## 在 Mobile 用户界面中配置推送服务和 SDK ID 服务
 

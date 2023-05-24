@@ -28,7 +28,7 @@ Adobe Mobile Services 由以下部分组成：
 
 如今，移动设备应用程序的格局与智能手机最初面世时截然不同。通过移动设备应用程序将客户与品牌连接起来远远不够；现如今，您必须跨渠道提供有凝聚力的绝佳客户体验，并将移动设备应用程序作为战略切入点来吸引最忠诚的高价值客户。但是，要让这些用户与您的应用程序持续互动，则必须提供引人入胜的内容、情境式通知、智能个性化推荐以及集成式应用程序分析功能等等。
 
-## AdobeMobile Services UI {#mobile-services-ui}
+## Adobe Mobile Services UI {#mobile-services-ui}
 
 以下浏览器支持 Mobile Services UI：
 
@@ -123,7 +123,7 @@ Adobe Mobile Services 提供了用于衡量渠道在获取应用程序用户方�
 
 有关位置的更多信息，请参阅 [位置](/help/using/location/c-location-overview.md).
 
-## AdobeMobile SDK {#mobile-services-sdk}
+## Adobe Mobile SDK {#mobile-services-sdk}
 
 Adobe 提供了一个端到端的移动营销解决方案，可以提高所有这些领域的客户参与度。通过一个 SDK，您可以访问 Adobe Analytics、Adobe Campaign 和 Adobe Audience Manager 的功能，这可以降低管理多个不同 SDK 的技术成本。
 
@@ -148,7 +148,7 @@ Adobe Mobile SDK 提供以下功能：
 * 集成式
 
    * 适用于多个解决方案（Analytics、Campaign 和 Audience Manager）的一个 SDK，可缩短实施时间并减少开发人员的工作。
-   * 只需一行代码，即可收集“基线”应用程序生命周期量度。
+   * 只需一行代码即可收集“基准”应用程序生命周期量度。
    * 在逐步完善移动设备策略的过程中，您可以轻松激活 Adobe Experience Cloud 的多项功能以获取、分析和吸引用户。
 
 * 快速和轻量

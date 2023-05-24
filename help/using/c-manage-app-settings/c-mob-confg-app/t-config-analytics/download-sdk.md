@@ -29,4 +29,4 @@ ht-degree: 82%
 
 ## 本地库 {#section_C2ADC3068D9F4EAEBE5B266852738C90}
 
-在AdobeMobile Services中配置您的应用程序，以便您能够下载包含预填充版本配置文件的自定义包。
+在AdobeMobile Services中配置您的应用程序，以便您可以下载包含预填充版本配置文件的自定义包。

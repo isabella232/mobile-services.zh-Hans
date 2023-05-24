@@ -22,7 +22,7 @@ ht-degree: 49%
 
 ### Analytics 管理员
 
-Analytics 管理员可管理用户组和分配权限，其中一个是移动设备应用程序管理员。Experience Cloud管理员将您的Adobe ID关联到您的Adobe Analytics帐户，这允许您使用Adobe ID登录到Mobile Services UI。 有关Experience Cloud管理员的详细信息，请参阅 [管理Experience Cloud用户和产品](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html?lang=zh-Hans) 中的Experience Cloud中心界面组件指南。
+Analytics 管理员可管理用户组和分配权限，其中一个是移动设备应用程序管理员。Experience Cloud管理员可将Adobe ID链接到您的Adobe Analytics帐户，该帐户允许您使用Adobe ID登录到Mobile Services UI。 有关“Experience Cloud管理员”的详细信息，请参见 [管理Experience Cloud用户和产品](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html?lang=zh-Hans) 《Experience Cloud中央界面组件指南》中的。
 
 >[!TIP]
 >
@@ -65,7 +65,7 @@ Analytics 管理员可管理用户组和分配权限，其中一个是移动设�
 * 管理应用程序设置
 
    * 启用生命周期报告
-   * 启用位置报表
+   * 启用位置报告
    * 创建/更新/删除变量和量度
 
 ### 移动设备应用程序管理员 权限
@@ -74,8 +74,8 @@ Analytics 管理员可管理用户组和分配权限，其中一个是移动设�
 * 使用现有报表包创建应用程序
 * 管理应用程序设置
 
-   * 配置应用程序的Mobile SDK选项
-   * 配置应用程序的UI设置
+   * 配置应用程序的移动SDK选项
+   * 配置应用程序的用户界面设置
    * 配置链接的App Store应用程序
    * 配置应用程序的通用链接选项
    * 配置推送服务证书和API密钥
@@ -84,18 +84,18 @@ Analytics 管理员可管理用户组和分配权限，其中一个是移动设�
 
 * 创建/更新/存档营销链接
 * 创建/导入/更新/删除旧版客户获取链接
-* 创建/导入/更新/删除位置（目标点）配置
+* 创建/导入/更新/删除地标（目标点）配置
 * 创建/更新/发送/计划/取消/复制/存档/删除推送消息
 * 创建/更新/激活/停用/复制/存档/删除应用程序内消息
 
 有关组和用户的更多信息，请参阅Adobe Analytics文档中的以下内容：
 
-* [用户组设置（旧版）](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html?lang=zh-Hans)
-* [将用户添加到群组](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html)
+* [用户群组设置（旧版）](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html?lang=zh-Hans)
+* [将用户添加到群组](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html?lang=zh-Hans)
 
 ### Mobile Services 用户
 
-此角色具有仅查看权限，并可在Mobile Services UI中提供反馈。
+此角色具有仅查看权限，可以在Mobile Services UI中提供反馈。
 
 * 提供有关Mobile Services UI的反馈
 * 查看应用程序
@@ -107,7 +107,7 @@ Analytics 管理员可管理用户组和分配权限，其中一个是移动设�
 * 查看应用程序设置
 
    * 下载应用程序SDK配置
-   * 查看所有UI和SDK设置
+   * 查看所有用户界面和SDK设置
    * 查看变量和量度配置
    * 查看回发
    * 查看链接目标

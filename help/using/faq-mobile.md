@@ -23,7 +23,7 @@ ht-degree: 96%
 
 ### 我应当采用哪个 SDK 版本？
 
-我们当前的SDK版本为4.11。有关更多信息，请参阅 [发行说明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=zh-Hans).
+我们当前的SDK版本为4.11。欲了解更多信息，请参见 [发行说明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=zh-Hans).
 
 ### 我可从那里下载 SDK？
 
@@ -47,7 +47,7 @@ Adobe Mobile SDK 使用标准的 iOS 和 Android 网络堆栈。对于 iOS，SDK
 
 ### 如何排解处理规则问题？
 
-请参阅 [处理规则的提示和技巧](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/processing-rules/processing-rules-tips.html) (在Adobe Analytics文档中)。
+参见 [处理规则的提示和技巧](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/processing-rules/processing-rules-tips.html) 在Adobe Analytics文档中。
 
 ### 能否将分析数据发送到多个报表包？
 
