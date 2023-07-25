@@ -1,11 +1,10 @@
 ---
 title: AdobeMobile Services生命周期结束常见问题解答
 description: 获取有关AdobeMobile Services生命周期结束公告的常见问题解答。
-exl-id: c5f44341-7b87-4530-b86e-17e2911a7959
-source-git-commit: c349c0f83df9d42b61a419ae71d6d2b67c5f7819
+source-git-commit: 0a4e0c9e6172231d8a9f9b561d0a7b7fb230473a
 workflow-type: tm+mt
 source-wordcount: '421'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
@@ -39,7 +38,7 @@ Adobe根据贵组织的用例提供三种过渡路径。
 
 1. **应用程序内消息传送和推送通知**：Adobe可将您的消息传送工作流转变为Adobe Journey Optimizer。 本产品可帮助组织优化和个性化整个客户历程中的体验，包括移动消息传递。
 1. **客户获取和深层链接**：通过AdobeExchange Premier Partners计划提供客户获取和深层链接。 Adobe的合作伙伴团队可以作适当的介绍，以确保您找到最符合自己需求的解决方案。
-1. **Places Service**：Places Service提供免费的地理位置功能。 请参阅 [Places Service文档](https://experienceleague.adobe.com/docs/places/using/home.html).
+1. **Places Service**：Places Service提供免费的地理位置功能。 请参阅 [Places Service文档](https://experienceleague.adobe.com/docs/places/using/home.html?lang=zh-Hans).
 
 ## 如果我有任何问题，可以去哪里？
 
